@@ -1,0 +1,28 @@
+# dependencies
+node_modules/
+
+# build output
+dist/
+
+# python
+__pycache__/
+*.pyc
+*.pyo
+pipeline/venv/
+.venv/
+
+# environment & credentials
+.env
+.env.local
+github-cred.txt
+
+# os junk
+.DS_Store
+Thumbs.db
+
+# editor
+.vscode/
+.idea/
+
+# claude code internal
+.claude/plans/
