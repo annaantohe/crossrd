@@ -1,0 +1,1641 @@
+{
+  "meta": {
+    "profession_family": "healthcare",
+    "last_updated": "2026-02-15",
+    "total_tracks": 42,
+    "finalists": 6,
+    "data_points": 107,
+    "source_file": "career_framework_v4.xlsx"
+  },
+  "professions": {
+    "MD/DO": {
+      "label": "Medical Doctor",
+      "color": "#E55934",
+      "track_count": 29
+    },
+    "DDS/DMD": {
+      "label": "Dentist",
+      "color": "#1982C4",
+      "track_count": 7
+    },
+    "DPM": {
+      "label": "Foot Doctor",
+      "color": "#8AC926",
+      "track_count": 3
+    },
+    "OD": {
+      "label": "Eye Doctor (Optom.)",
+      "color": "#6A4C93",
+      "track_count": 3
+    }
+  },
+  "categories": [
+    {
+      "id": 1,
+      "name": "Pre-Professional Phase",
+      "weight_default": 7,
+      "description": "How hard is it to start?"
+    },
+    {
+      "id": 2,
+      "name": "Admissions Competitiveness",
+      "weight_default": 7,
+      "description": "Can you realistically get in?"
+    },
+    {
+      "id": 3,
+      "name": "Professional School",
+      "weight_default": 5,
+      "description": "What's the school experience like?"
+    },
+    {
+      "id": 4,
+      "name": "Post-Graduate Training",
+      "weight_default": 8,
+      "description": "How long/hard is the road after school?"
+    },
+    {
+      "id": 5,
+      "name": "Financial Picture",
+      "weight_default": 10,
+      "description": "Cost, debt, time to financial freedom"
+    },
+    {
+      "id": 6,
+      "name": "Scope of Practice & Autonomy",
+      "weight_default": 8,
+      "description": "What can you do independently?"
+    },
+    {
+      "id": 7,
+      "name": "Career Economics",
+      "weight_default": 12,
+      "description": "How much do you earn over a career?"
+    },
+    {
+      "id": 8,
+      "name": "Daily Life & Practice Reality",
+      "weight_default": 8,
+      "description": "What does the work feel like?"
+    },
+    {
+      "id": 9,
+      "name": "Lifestyle & Work-Life Balance",
+      "weight_default": 10,
+      "description": "Can you have a life outside work?"
+    },
+    {
+      "id": 10,
+      "name": "Job Market & Demand",
+      "weight_default": 5,
+      "description": "Will you find work?"
+    },
+    {
+      "id": 11,
+      "name": "AI Revolution Impact",
+      "weight_default": 7,
+      "description": "How future-proof is this career?"
+    },
+    {
+      "id": 12,
+      "name": "Professional Satisfaction",
+      "weight_default": 8,
+      "description": "Will you enjoy this long-term?"
+    },
+    {
+      "id": 13,
+      "name": "Demographics & Culture",
+      "weight_default": 3,
+      "description": "Culture fit?"
+    },
+    {
+      "id": 14,
+      "name": "Risk Factors & Downsides",
+      "weight_default": 5,
+      "description": "Hidden costs and dangers"
+    }
+  ],
+  "scenario_profiles": {
+    "default": {
+      "1": 7,
+      "2": 7,
+      "3": 5,
+      "4": 8,
+      "5": 10,
+      "6": 8,
+      "7": 12,
+      "8": 8,
+      "9": 10,
+      "10": 5,
+      "11": 7,
+      "12": 8,
+      "13": 3,
+      "14": 5
+    },
+    "equal_weight": {
+      "1": 7,
+      "2": 7,
+      "3": 7,
+      "4": 7,
+      "5": 7,
+      "6": 7,
+      "7": 7,
+      "8": 7,
+      "9": 7,
+      "10": 7,
+      "11": 7,
+      "12": 7,
+      "13": 8,
+      "14": 8
+    },
+    "max_earnings": {
+      "1": 3,
+      "2": 3,
+      "3": 3,
+      "4": 5,
+      "5": 20,
+      "6": 8,
+      "7": 25,
+      "8": 5,
+      "9": 5,
+      "10": 8,
+      "11": 5,
+      "12": 5,
+      "13": 3,
+      "14": 2
+    },
+    "best_lifestyle": {
+      "1": 5,
+      "2": 5,
+      "3": 5,
+      "4": 8,
+      "5": 8,
+      "6": 5,
+      "7": 8,
+      "8": 12,
+      "9": 20,
+      "10": 5,
+      "11": 5,
+      "12": 10,
+      "13": 2,
+      "14": 2
+    },
+    "fastest_to_practice": {
+      "1": 12,
+      "2": 12,
+      "3": 12,
+      "4": 15,
+      "5": 12,
+      "6": 3,
+      "7": 5,
+      "8": 3,
+      "9": 5,
+      "10": 5,
+      "11": 3,
+      "12": 5,
+      "13": 5,
+      "14": 3
+    },
+    "most_procedural": {
+      "1": 5,
+      "2": 5,
+      "3": 5,
+      "4": 5,
+      "5": 5,
+      "6": 15,
+      "7": 5,
+      "8": 20,
+      "9": 5,
+      "10": 5,
+      "11": 5,
+      "12": 15,
+      "13": 3,
+      "14": 2
+    }
+  },
+  "tracks": [
+    {
+      "name": "General Surgery",
+      "profession": "MD/DO",
+      "finalist": false,
+      "raw_data": {
+        "startSalary": 380,
+        "midSalary": 450,
+        "peakSalary": 600,
+        "hoursWeek": 60,
+        "burnout": 52,
+        "satisfaction": 70,
+        "chooseAgain": 65,
+        "malpracticeCost": 50,
+        "vacation": 4,
+        "matchComp": 4,
+        "callSchedule": 2,
+        "physicalToll": 4,
+        "emotionalToll": 3
+      }
+    },
+    {
+      "name": "Orthopedic Surgery",
+      "profession": "MD/DO",
+      "finalist": false,
+      "raw_data": {
+        "startSalary": 500,
+        "midSalary": 620,
+        "peakSalary": 900,
+        "hoursWeek": 55,
+        "burnout": 42,
+        "satisfaction": 78,
+        "chooseAgain": 75,
+        "malpracticeCost": 45,
+        "vacation": 5,
+        "matchComp": 2,
+        "callSchedule": 3,
+        "physicalToll": 3,
+        "emotionalToll": 5
+      }
+    },
+    {
+      "name": "Neurosurgery",
+      "profession": "MD/DO",
+      "finalist": false,
+      "raw_data": {
+        "startSalary": 600,
+        "midSalary": 780,
+        "peakSalary": 1200,
+        "hoursWeek": 65,
+        "burnout": 57,
+        "satisfaction": 75,
+        "chooseAgain": 70,
+        "malpracticeCost": 80,
+        "vacation": 3,
+        "matchComp": 1,
+        "callSchedule": 1,
+        "physicalToll": 3,
+        "emotionalToll": 2
+      }
+    },
+    {
+      "name": "Cardiothoracic Surgery",
+      "profession": "MD/DO",
+      "finalist": false,
+      "raw_data": {
+        "startSalary": 500,
+        "midSalary": 650,
+        "peakSalary": 900,
+        "hoursWeek": 65,
+        "burnout": 55,
+        "satisfaction": 72,
+        "chooseAgain": 68,
+        "malpracticeCost": 90,
+        "vacation": 3,
+        "matchComp": 2,
+        "callSchedule": 1,
+        "physicalToll": 3,
+        "emotionalToll": 2
+      }
+    },
+    {
+      "name": "Vascular Surgery",
+      "profession": "MD/DO",
+      "finalist": false,
+      "raw_data": {
+        "startSalary": 420,
+        "midSalary": 530,
+        "peakSalary": 700,
+        "hoursWeek": 58,
+        "burnout": 48,
+        "satisfaction": 73,
+        "chooseAgain": 68,
+        "malpracticeCost": 55,
+        "vacation": 4,
+        "matchComp": 3,
+        "callSchedule": 2,
+        "physicalToll": 4,
+        "emotionalToll": 3
+      }
+    },
+    {
+      "name": "Plastic & Reconstructive Surgery",
+      "profession": "MD/DO",
+      "finalist": false,
+      "raw_data": {
+        "startSalary": 400,
+        "midSalary": 500,
+        "peakSalary": 1000,
+        "hoursWeek": 50,
+        "burnout": 35,
+        "satisfaction": 82,
+        "chooseAgain": 80,
+        "malpracticeCost": 40,
+        "vacation": 5,
+        "matchComp": 1,
+        "callSchedule": 5,
+        "physicalToll": 5,
+        "emotionalToll": 5
+      }
+    },
+    {
+      "name": "Trauma / Acute Care Surgery",
+      "profession": "MD/DO",
+      "finalist": false,
+      "raw_data": {
+        "startSalary": 380,
+        "midSalary": 430,
+        "peakSalary": 550,
+        "hoursWeek": 60,
+        "burnout": 60,
+        "satisfaction": 68,
+        "chooseAgain": 60,
+        "malpracticeCost": 60,
+        "vacation": 4,
+        "matchComp": 4,
+        "callSchedule": 1,
+        "physicalToll": 3,
+        "emotionalToll": 1
+      }
+    },
+    {
+      "name": "Transplant Surgery",
+      "profession": "MD/DO",
+      "finalist": false,
+      "raw_data": {
+        "startSalary": 400,
+        "midSalary": 480,
+        "peakSalary": 600,
+        "hoursWeek": 65,
+        "burnout": 55,
+        "satisfaction": 75,
+        "chooseAgain": 70,
+        "malpracticeCost": 55,
+        "vacation": 3,
+        "matchComp": 3,
+        "callSchedule": 1,
+        "physicalToll": 3,
+        "emotionalToll": 2
+      }
+    },
+    {
+      "name": "Pediatric Surgery",
+      "profession": "MD/DO",
+      "finalist": false,
+      "raw_data": {
+        "startSalary": 380,
+        "midSalary": 450,
+        "peakSalary": 550,
+        "hoursWeek": 58,
+        "burnout": 45,
+        "satisfaction": 80,
+        "chooseAgain": 76,
+        "malpracticeCost": 45,
+        "vacation": 4,
+        "matchComp": 2,
+        "callSchedule": 2,
+        "physicalToll": 5,
+        "emotionalToll": 2
+      }
+    },
+    {
+      "name": "Colorectal Surgery",
+      "profession": "MD/DO",
+      "finalist": false,
+      "raw_data": {
+        "startSalary": 380,
+        "midSalary": 440,
+        "peakSalary": 550,
+        "hoursWeek": 52,
+        "burnout": 40,
+        "satisfaction": 75,
+        "chooseAgain": 72,
+        "malpracticeCost": 35,
+        "vacation": 4,
+        "matchComp": 5,
+        "callSchedule": 4,
+        "physicalToll": 5,
+        "emotionalToll": 5
+      }
+    },
+    {
+      "name": "Hand Surgery",
+      "profession": "MD/DO",
+      "finalist": false,
+      "raw_data": {
+        "startSalary": 450,
+        "midSalary": 550,
+        "peakSalary": 750,
+        "hoursWeek": 50,
+        "burnout": 35,
+        "satisfaction": 80,
+        "chooseAgain": 78,
+        "malpracticeCost": 30,
+        "vacation": 5,
+        "matchComp": 3,
+        "callSchedule": 5,
+        "physicalToll": 5,
+        "emotionalToll": 6
+      }
+    },
+    {
+      "name": "Spine Surgery",
+      "profession": "MD/DO",
+      "finalist": false,
+      "raw_data": {
+        "startSalary": 600,
+        "midSalary": 750,
+        "peakSalary": 1100,
+        "hoursWeek": 55,
+        "burnout": 45,
+        "satisfaction": 76,
+        "chooseAgain": 72,
+        "malpracticeCost": 70,
+        "vacation": 5,
+        "matchComp": 3,
+        "callSchedule": 3,
+        "physicalToll": 3,
+        "emotionalToll": 4
+      }
+    },
+    {
+      "name": "Sports Medicine (Surgical)",
+      "profession": "MD/DO",
+      "finalist": false,
+      "raw_data": {
+        "startSalary": 450,
+        "midSalary": 560,
+        "peakSalary": 800,
+        "hoursWeek": 50,
+        "burnout": 32,
+        "satisfaction": 85,
+        "chooseAgain": 82,
+        "malpracticeCost": 25,
+        "vacation": 5,
+        "matchComp": 2,
+        "callSchedule": 5,
+        "physicalToll": 6,
+        "emotionalToll": 7
+      }
+    },
+    {
+      "name": "Bariatric Surgery",
+      "profession": "MD/DO",
+      "finalist": false,
+      "raw_data": {
+        "startSalary": 380,
+        "midSalary": 450,
+        "peakSalary": 600,
+        "hoursWeek": 48,
+        "burnout": 35,
+        "satisfaction": 78,
+        "chooseAgain": 75,
+        "malpracticeCost": 30,
+        "vacation": 5,
+        "matchComp": 5,
+        "callSchedule": 5,
+        "physicalToll": 6,
+        "emotionalToll": 6
+      }
+    },
+    {
+      "name": "Interventional Cardiology",
+      "profession": "MD/DO",
+      "finalist": false,
+      "raw_data": {
+        "startSalary": 500,
+        "midSalary": 650,
+        "peakSalary": 1000,
+        "hoursWeek": 58,
+        "burnout": 48,
+        "satisfaction": 77,
+        "chooseAgain": 73,
+        "malpracticeCost": 55,
+        "vacation": 4,
+        "matchComp": 2,
+        "callSchedule": 1,
+        "physicalToll": 4,
+        "emotionalToll": 3
+      }
+    },
+    {
+      "name": "Interventional Radiology",
+      "profession": "MD/DO",
+      "finalist": false,
+      "raw_data": {
+        "startSalary": 400,
+        "midSalary": 520,
+        "peakSalary": 700,
+        "hoursWeek": 55,
+        "burnout": 40,
+        "satisfaction": 80,
+        "chooseAgain": 77,
+        "malpracticeCost": 40,
+        "vacation": 4,
+        "matchComp": 3,
+        "callSchedule": 2,
+        "physicalToll": 4,
+        "emotionalToll": 5
+      }
+    },
+    {
+      "name": "Gastroenterology (Endoscopy)",
+      "profession": "MD/DO",
+      "finalist": false,
+      "raw_data": {
+        "startSalary": 400,
+        "midSalary": 530,
+        "peakSalary": 750,
+        "hoursWeek": 50,
+        "burnout": 42,
+        "satisfaction": 80,
+        "chooseAgain": 76,
+        "malpracticeCost": 25,
+        "vacation": 5,
+        "matchComp": 3,
+        "callSchedule": 4,
+        "physicalToll": 6,
+        "emotionalToll": 6
+      }
+    },
+    {
+      "name": "Urology",
+      "profession": "MD/DO",
+      "finalist": false,
+      "raw_data": {
+        "startSalary": 400,
+        "midSalary": 520,
+        "peakSalary": 700,
+        "hoursWeek": 52,
+        "burnout": 38,
+        "satisfaction": 82,
+        "chooseAgain": 79,
+        "malpracticeCost": 30,
+        "vacation": 5,
+        "matchComp": 2,
+        "callSchedule": 4,
+        "physicalToll": 5,
+        "emotionalToll": 6
+      }
+    },
+    {
+      "name": "OB/GYN",
+      "profession": "MD/DO",
+      "finalist": false,
+      "raw_data": {
+        "startSalary": 310,
+        "midSalary": 380,
+        "peakSalary": 500,
+        "hoursWeek": 55,
+        "burnout": 52,
+        "satisfaction": 68,
+        "chooseAgain": 60,
+        "malpracticeCost": 85,
+        "vacation": 4,
+        "matchComp": 4,
+        "callSchedule": 2,
+        "physicalToll": 4,
+        "emotionalToll": 3
+      }
+    },
+    {
+      "name": "Ophthalmology",
+      "profession": "MD/DO",
+      "finalist": true,
+      "raw_data": {
+        "startSalary": 350,
+        "midSalary": 450,
+        "peakSalary": 800,
+        "hoursWeek": 47,
+        "burnout": 30,
+        "satisfaction": 85,
+        "chooseAgain": 83,
+        "malpracticeCost": 15,
+        "vacation": 5,
+        "matchComp": 1,
+        "callSchedule": 7,
+        "physicalToll": 6,
+        "emotionalToll": 7
+      },
+      "teen_name": "Eye Surgeon",
+      "finalist_color": "#2BA5B5",
+      "finalist_key": "eye",
+      "scores": {
+        "category_1": 3.25,
+        "category_2": 4.0,
+        "category_3": 4.33,
+        "category_4": 4.67,
+        "category_5": 5.0,
+        "category_6": 8.67,
+        "category_7": 5.8,
+        "category_8": 6.33,
+        "category_9": 7.31,
+        "category_10": 8.0,
+        "category_11": 7.5,
+        "category_12": 8.12,
+        "category_13": 4.5
+      },
+      "scenario_totals": {
+        "default": 6.03,
+        "equal_weight": 5.91,
+        "max_earnings": 6.07,
+        "best_lifestyle": 6.26,
+        "fastest_to_practice": 5.22,
+        "most_procedural": 6.52
+      }
+    },
+    {
+      "name": "ENT / Otolaryngology",
+      "profession": "MD/DO",
+      "finalist": false,
+      "raw_data": {
+        "startSalary": 380,
+        "midSalary": 470,
+        "peakSalary": 650,
+        "hoursWeek": 50,
+        "burnout": 35,
+        "satisfaction": 82,
+        "chooseAgain": 80,
+        "malpracticeCost": 25,
+        "vacation": 5,
+        "matchComp": 2,
+        "callSchedule": 5,
+        "physicalToll": 6,
+        "emotionalToll": 6
+      }
+    },
+    {
+      "name": "Mohs Surgery (Dermatology)",
+      "profession": "MD/DO",
+      "finalist": true,
+      "raw_data": {
+        "startSalary": 450,
+        "midSalary": 600,
+        "peakSalary": 1000,
+        "hoursWeek": 45,
+        "burnout": 22,
+        "satisfaction": 90,
+        "chooseAgain": 88,
+        "malpracticeCost": 8,
+        "vacation": 6,
+        "matchComp": 1,
+        "callSchedule": 10,
+        "physicalToll": 7,
+        "emotionalToll": 8
+      },
+      "teen_name": "Skin Cancer Surgeon",
+      "finalist_color": "#D4A537",
+      "finalist_key": "mohs",
+      "scores": {
+        "category_1": 3.25,
+        "category_2": 4.0,
+        "category_3": 4.33,
+        "category_4": 4.0,
+        "category_5": 5.0,
+        "category_6": 8.67,
+        "category_7": 7.72,
+        "category_8": 8.33,
+        "category_9": 8.61,
+        "category_10": 8.0,
+        "category_11": 7.0,
+        "category_12": 7.4,
+        "category_13": 4.5
+      },
+      "scenario_totals": {
+        "default": 6.46,
+        "equal_weight": 6.26,
+        "max_earnings": 6.65,
+        "best_lifestyle": 6.79,
+        "fastest_to_practice": 5.33,
+        "most_procedural": 6.95
+      }
+    },
+    {
+      "name": "Interventional Pain Medicine",
+      "profession": "MD/DO",
+      "finalist": false,
+      "raw_data": {
+        "startSalary": 350,
+        "midSalary": 450,
+        "peakSalary": 650,
+        "hoursWeek": 45,
+        "burnout": 38,
+        "satisfaction": 72,
+        "chooseAgain": 68,
+        "malpracticeCost": 20,
+        "vacation": 5,
+        "matchComp": 5,
+        "callSchedule": 8,
+        "physicalToll": 6,
+        "emotionalToll": 4
+      }
+    },
+    {
+      "name": "Pulm / Critical Care",
+      "profession": "MD/DO",
+      "finalist": false,
+      "raw_data": {
+        "startSalary": 350,
+        "midSalary": 420,
+        "peakSalary": 550,
+        "hoursWeek": 55,
+        "burnout": 55,
+        "satisfaction": 72,
+        "chooseAgain": 65,
+        "malpracticeCost": 30,
+        "vacation": 4,
+        "matchComp": 5,
+        "callSchedule": 3,
+        "physicalToll": 4,
+        "emotionalToll": 2
+      }
+    },
+    {
+      "name": "Diagnostic Radiology",
+      "profession": "MD/DO",
+      "finalist": false,
+      "raw_data": {
+        "startSalary": 380,
+        "midSalary": 470,
+        "peakSalary": 650,
+        "hoursWeek": 47,
+        "burnout": 38,
+        "satisfaction": 78,
+        "chooseAgain": 75,
+        "malpracticeCost": 20,
+        "vacation": 5,
+        "matchComp": 4,
+        "callSchedule": 5,
+        "physicalToll": 8,
+        "emotionalToll": 7
+      }
+    },
+    {
+      "name": "Dermatology (General/Medical)",
+      "profession": "MD/DO",
+      "finalist": true,
+      "raw_data": {
+        "startSalary": 350,
+        "midSalary": 450,
+        "peakSalary": 700,
+        "hoursWeek": 43,
+        "burnout": 25,
+        "satisfaction": 88,
+        "chooseAgain": 86,
+        "malpracticeCost": 8,
+        "vacation": 6,
+        "matchComp": 1,
+        "callSchedule": 9,
+        "physicalToll": 8,
+        "emotionalToll": 8
+      },
+      "teen_name": "Skin Doctor",
+      "finalist_color": "#E8685E",
+      "finalist_key": "derm",
+      "scores": {
+        "category_1": 3.25,
+        "category_2": 4.0,
+        "category_3": 4.33,
+        "category_4": 4.67,
+        "category_5": 5.0,
+        "category_6": 8.67,
+        "category_7": 6.08,
+        "category_8": 6.33,
+        "category_9": 8.6,
+        "category_10": 8.0,
+        "category_11": 5.5,
+        "category_12": 7.62,
+        "category_13": 4.5
+      },
+      "scenario_totals": {
+        "default": 6.13,
+        "equal_weight": 6.04,
+        "max_earnings": 6.13,
+        "best_lifestyle": 6.44,
+        "fastest_to_practice": 5.29,
+        "most_procedural": 6.48
+      }
+    },
+    {
+      "name": "Anesthesiology",
+      "profession": "MD/DO",
+      "finalist": false,
+      "raw_data": {
+        "startSalary": 380,
+        "midSalary": 430,
+        "peakSalary": 550,
+        "hoursWeek": 50,
+        "burnout": 45,
+        "satisfaction": 73,
+        "chooseAgain": 68,
+        "malpracticeCost": 30,
+        "vacation": 5,
+        "matchComp": 5,
+        "callSchedule": 3,
+        "physicalToll": 5,
+        "emotionalToll": 4
+      }
+    },
+    {
+      "name": "Emergency Medicine",
+      "profession": "MD/DO",
+      "finalist": false,
+      "raw_data": {
+        "startSalary": 320,
+        "midSalary": 370,
+        "peakSalary": 450,
+        "hoursWeek": 42,
+        "burnout": 60,
+        "satisfaction": 55,
+        "chooseAgain": 48,
+        "malpracticeCost": 40,
+        "vacation": 5,
+        "matchComp": 6,
+        "callSchedule": 8,
+        "physicalToll": 4,
+        "emotionalToll": 2
+      }
+    },
+    {
+      "name": "Psychiatry",
+      "profession": "MD/DO",
+      "finalist": false,
+      "raw_data": {
+        "startSalary": 270,
+        "midSalary": 320,
+        "peakSalary": 450,
+        "hoursWeek": 45,
+        "burnout": 48,
+        "satisfaction": 75,
+        "chooseAgain": 72,
+        "malpracticeCost": 12,
+        "vacation": 5,
+        "matchComp": 7,
+        "callSchedule": 7,
+        "physicalToll": 9,
+        "emotionalToll": 3
+      }
+    },
+    {
+      "name": "Oral & Maxillofacial Surgery",
+      "profession": "DDS/DMD",
+      "finalist": false,
+      "raw_data": {
+        "startSalary": 350,
+        "midSalary": 480,
+        "peakSalary": 750,
+        "hoursWeek": 55,
+        "burnout": 38,
+        "satisfaction": 80,
+        "chooseAgain": 76,
+        "malpracticeCost": 40,
+        "vacation": 4,
+        "matchComp": 2,
+        "callSchedule": 2,
+        "physicalToll": 4,
+        "emotionalToll": 4
+      }
+    },
+    {
+      "name": "Endodontics",
+      "profession": "DDS/DMD",
+      "finalist": false,
+      "raw_data": {
+        "startSalary": 250,
+        "midSalary": 350,
+        "peakSalary": 550,
+        "hoursWeek": 38,
+        "burnout": 25,
+        "satisfaction": 78,
+        "chooseAgain": 75,
+        "malpracticeCost": 10,
+        "vacation": 6,
+        "matchComp": 6,
+        "callSchedule": 9,
+        "physicalToll": 4,
+        "emotionalToll": 7
+      }
+    },
+    {
+      "name": "Periodontics",
+      "profession": "DDS/DMD",
+      "finalist": false,
+      "raw_data": {
+        "startSalary": 220,
+        "midSalary": 320,
+        "peakSalary": 500,
+        "hoursWeek": 38,
+        "burnout": 22,
+        "satisfaction": 80,
+        "chooseAgain": 77,
+        "malpracticeCost": 8,
+        "vacation": 6,
+        "matchComp": 6,
+        "callSchedule": 9,
+        "physicalToll": 5,
+        "emotionalToll": 7
+      }
+    },
+    {
+      "name": "Prosthodontics",
+      "profession": "DDS/DMD",
+      "finalist": false,
+      "raw_data": {
+        "startSalary": 200,
+        "midSalary": 300,
+        "peakSalary": 450,
+        "hoursWeek": 40,
+        "burnout": 20,
+        "satisfaction": 78,
+        "chooseAgain": 75,
+        "malpracticeCost": 6,
+        "vacation": 6,
+        "matchComp": 6,
+        "callSchedule": 10,
+        "physicalToll": 5,
+        "emotionalToll": 8
+      }
+    },
+    {
+      "name": "Orthodontics",
+      "profession": "DDS/DMD",
+      "finalist": false,
+      "raw_data": {
+        "startSalary": 200,
+        "midSalary": 350,
+        "peakSalary": 600,
+        "hoursWeek": 38,
+        "burnout": 20,
+        "satisfaction": 85,
+        "chooseAgain": 83,
+        "malpracticeCost": 5,
+        "vacation": 6,
+        "matchComp": 2,
+        "callSchedule": 10,
+        "physicalToll": 6,
+        "emotionalToll": 8
+      }
+    },
+    {
+      "name": "Pediatric Dentistry",
+      "profession": "DDS/DMD",
+      "finalist": false,
+      "raw_data": {
+        "startSalary": 220,
+        "midSalary": 300,
+        "peakSalary": 450,
+        "hoursWeek": 40,
+        "burnout": 30,
+        "satisfaction": 78,
+        "chooseAgain": 74,
+        "malpracticeCost": 10,
+        "vacation": 5,
+        "matchComp": 5,
+        "callSchedule": 9,
+        "physicalToll": 5,
+        "emotionalToll": 5
+      }
+    },
+    {
+      "name": "General Dentistry",
+      "profession": "DDS/DMD",
+      "finalist": false,
+      "raw_data": {
+        "startSalary": 160,
+        "midSalary": 220,
+        "peakSalary": 400,
+        "hoursWeek": 36,
+        "burnout": 30,
+        "satisfaction": 72,
+        "chooseAgain": 68,
+        "malpracticeCost": 5,
+        "vacation": 5,
+        "matchComp": 8,
+        "callSchedule": 10,
+        "physicalToll": 4,
+        "emotionalToll": 6
+      }
+    },
+    {
+      "name": "Podiatric Surgery (Foot & Ankle)",
+      "profession": "DPM",
+      "finalist": true,
+      "raw_data": {
+        "startSalary": 220,
+        "midSalary": 320,
+        "peakSalary": 500,
+        "hoursWeek": 48,
+        "burnout": 35,
+        "satisfaction": 72,
+        "chooseAgain": 65,
+        "malpracticeCost": 18,
+        "vacation": 4,
+        "matchComp": 7,
+        "callSchedule": 5,
+        "physicalToll": 5,
+        "emotionalToll": 5
+      },
+      "teen_name": "Foot & Ankle Surgeon",
+      "finalist_color": "#2D3A6E",
+      "finalist_key": "pod",
+      "scores": {
+        "category_1": 7.25,
+        "category_2": 9.0,
+        "category_3": 6.0,
+        "category_4": 7.0,
+        "category_5": 5.6,
+        "category_6": 6.67,
+        "category_7": 3.53,
+        "category_8": 6.0,
+        "category_9": 6.19,
+        "category_10": 6.5,
+        "category_11": 8.5,
+        "category_12": 5.84,
+        "category_13": 6.5
+      },
+      "scenario_totals": {
+        "default": 6.22,
+        "equal_weight": 6.33,
+        "max_earnings": 5.68,
+        "best_lifestyle": 6.24,
+        "fastest_to_practice": 6.58,
+        "most_procedural": 6.33
+      }
+    },
+    {
+      "name": "Sports Medicine / Biomechanics",
+      "profession": "DPM",
+      "finalist": true,
+      "raw_data": {
+        "startSalary": 160,
+        "midSalary": 220,
+        "peakSalary": 350,
+        "hoursWeek": 40,
+        "burnout": 25,
+        "satisfaction": 70,
+        "chooseAgain": 62,
+        "malpracticeCost": 8,
+        "vacation": 5,
+        "matchComp": 8,
+        "callSchedule": 9,
+        "physicalToll": 7,
+        "emotionalToll": 7
+      },
+      "teen_name": "Sports Foot Doctor",
+      "finalist_color": "#3EA66B",
+      "finalist_key": "sport",
+      "scores": {
+        "category_1": 7.25,
+        "category_2": 9.0,
+        "category_3": 6.0,
+        "category_4": 7.33,
+        "category_5": 5.6,
+        "category_6": 6.67,
+        "category_7": 3.08,
+        "category_8": 5.67,
+        "category_9": 8.17,
+        "category_10": 6.5,
+        "category_11": 5.0,
+        "category_12": 4.82,
+        "category_13": 6.5
+      },
+      "scenario_totals": {
+        "default": 6.19,
+        "equal_weight": 6.36,
+        "max_earnings": 5.5,
+        "best_lifestyle": 6.37,
+        "fastest_to_practice": 6.63,
+        "most_procedural": 6.09
+      }
+    },
+    {
+      "name": "Wound Care / Diabetic Limb Salvage",
+      "profession": "DPM",
+      "finalist": true,
+      "raw_data": {
+        "startSalary": 200,
+        "midSalary": 280,
+        "peakSalary": 400,
+        "hoursWeek": 45,
+        "burnout": 35,
+        "satisfaction": 68,
+        "chooseAgain": 60,
+        "malpracticeCost": 15,
+        "vacation": 4,
+        "matchComp": 8,
+        "callSchedule": 6,
+        "physicalToll": 5,
+        "emotionalToll": 4
+      },
+      "teen_name": "Wound Healing Doctor",
+      "finalist_color": "#8B6CAE",
+      "finalist_key": "wound",
+      "scores": {
+        "category_1": 7.25,
+        "category_2": 9.0,
+        "category_3": 6.0,
+        "category_4": 8.0,
+        "category_5": 5.6,
+        "category_6": 6.67,
+        "category_7": 3.35,
+        "category_8": 5.33,
+        "category_9": 6.51,
+        "category_10": 6.5,
+        "category_11": 7.5,
+        "category_12": 5.0,
+        "category_13": 6.5
+      },
+      "scenario_totals": {
+        "default": 6.14,
+        "equal_weight": 6.25,
+        "max_earnings": 5.58,
+        "best_lifestyle": 6.16,
+        "fastest_to_practice": 6.66,
+        "most_procedural": 6.09
+      }
+    },
+    {
+      "name": "Medical / Therapeutic Optometry",
+      "profession": "OD",
+      "finalist": false,
+      "raw_data": {
+        "startSalary": 130,
+        "midSalary": 160,
+        "peakSalary": 220,
+        "hoursWeek": 40,
+        "burnout": 30,
+        "satisfaction": 68,
+        "chooseAgain": 60,
+        "malpracticeCost": 4,
+        "vacation": 4,
+        "matchComp": 9,
+        "callSchedule": 9,
+        "physicalToll": 8,
+        "emotionalToll": 7
+      }
+    },
+    {
+      "name": "Surgical Co-Management / Specialty",
+      "profession": "OD",
+      "finalist": false,
+      "raw_data": {
+        "startSalary": 120,
+        "midSalary": 150,
+        "peakSalary": 200,
+        "hoursWeek": 40,
+        "burnout": 28,
+        "satisfaction": 65,
+        "chooseAgain": 55,
+        "malpracticeCost": 3,
+        "vacation": 4,
+        "matchComp": 9,
+        "callSchedule": 10,
+        "physicalToll": 8,
+        "emotionalToll": 8
+      }
+    },
+    {
+      "name": "General Optometry",
+      "profession": "OD",
+      "finalist": false,
+      "raw_data": {
+        "startSalary": 115,
+        "midSalary": 140,
+        "peakSalary": 200,
+        "hoursWeek": 40,
+        "burnout": 32,
+        "satisfaction": 62,
+        "chooseAgain": 52,
+        "malpracticeCost": 3,
+        "vacation": 4,
+        "matchComp": 9,
+        "callSchedule": 10,
+        "physicalToll": 8,
+        "emotionalToll": 8
+      }
+    }
+  ],
+  "finalists": {
+    "ranking": [
+      {
+        "rank": 1,
+        "track": "General Dermatology",
+        "key": "derm",
+        "note": "Best risk-adjusted choice"
+      },
+      {
+        "rank": 2,
+        "track": "Mohs Surgery",
+        "key": "mohs",
+        "note": "Highest earnings overall"
+      },
+      {
+        "rank": 3,
+        "track": "Ophthalmology",
+        "key": "eye",
+        "note": "Most realistic MD path"
+      },
+      {
+        "rank": 4,
+        "track": "Podiatric Surgery",
+        "key": "pod",
+        "note": "Best guaranteed surgical path"
+      },
+      {
+        "rank": 5,
+        "track": "Wound Care / DLS",
+        "key": "wound",
+        "note": "Highest job demand growth"
+      },
+      {
+        "rank": 6,
+        "track": "Sports Med/Biomech",
+        "key": "sport",
+        "note": "Best work-life balance (DPM)"
+      }
+    ],
+    "net_worth_trajectory": [
+      {
+        "age": 18,
+        "mohs": -85,
+        "derm": -85,
+        "eye": -85,
+        "pod": -80,
+        "sport": -80,
+        "wound": -80
+      },
+      {
+        "age": 23,
+        "mohs": -579,
+        "derm": -579,
+        "eye": -579,
+        "pod": -527,
+        "sport": -527,
+        "wound": -527
+      },
+      {
+        "age": 28,
+        "mohs": -809,
+        "derm": -809,
+        "eye": -809,
+        "pod": -722,
+        "sport": -722,
+        "wound": -722
+      },
+      {
+        "age": 33,
+        "mohs": 120,
+        "derm": 47,
+        "eye": -218,
+        "pod": -227,
+        "sport": -513,
+        "wound": -330
+      },
+      {
+        "age": 38,
+        "mohs": 1969,
+        "derm": 1302,
+        "eye": 958,
+        "pod": 455,
+        "sport": -209,
+        "wound": 203
+      },
+      {
+        "age": 43,
+        "mohs": 4526,
+        "derm": 3155,
+        "eye": 2773,
+        "pod": 1683,
+        "sport": 536,
+        "wound": 1203
+      },
+      {
+        "age": 48,
+        "mohs": 8087,
+        "derm": 5778,
+        "eye": 5736,
+        "pod": 3409,
+        "sport": 1624,
+        "wound": 2519
+      },
+      {
+        "age": 53,
+        "mohs": 12094,
+        "derm": 8754,
+        "eye": 9192,
+        "pod": 5376,
+        "sport": 2868,
+        "wound": 3986
+      },
+      {
+        "age": 58,
+        "mohs": 16263,
+        "derm": 11840,
+        "eye": 12785,
+        "pod": 7408,
+        "sport": 4138,
+        "wound": 5491
+      },
+      {
+        "age": 65,
+        "mohs": 22376,
+        "derm": 16344,
+        "eye": 18045,
+        "pod": 10357,
+        "sport": 5950,
+        "wound": 7657
+      }
+    ],
+    "radar_dimensions": [
+      {
+        "dim": "Money",
+        "emoji": "\ud83d\udcb0",
+        "mohs": 6.4,
+        "derm": 5.5,
+        "eye": 5.4,
+        "pod": 4.6,
+        "sport": 4.3,
+        "wound": 4.5
+      },
+      {
+        "dim": "Happiness",
+        "emoji": "\ud83d\ude0a",
+        "mohs": 7.4,
+        "derm": 7.6,
+        "eye": 8.1,
+        "pod": 5.8,
+        "sport": 4.8,
+        "wound": 5.0
+      },
+      {
+        "dim": "Free Time",
+        "emoji": "\u23f0",
+        "mohs": 8.6,
+        "derm": 8.6,
+        "eye": 7.3,
+        "pod": 6.2,
+        "sport": 8.2,
+        "wound": 6.5
+      },
+      {
+        "dim": "Hard to Get In",
+        "emoji": "\ud83c\udfaf",
+        "mohs": 3.8,
+        "derm": 4.0,
+        "eye": 4.0,
+        "pod": 7.8,
+        "sport": 7.9,
+        "wound": 8.1
+      },
+      {
+        "dim": "Robot-Proof",
+        "emoji": "\ud83e\udd16",
+        "mohs": 7.0,
+        "derm": 5.5,
+        "eye": 7.5,
+        "pod": 8.5,
+        "sport": 5.0,
+        "wound": 7.5
+      },
+      {
+        "dim": "Safety Net",
+        "emoji": "\ud83d\udee1\ufe0f",
+        "mohs": 5,
+        "derm": 5,
+        "eye": 5,
+        "pod": 5,
+        "sport": 5,
+        "wound": 5
+      }
+    ],
+    "stress_test": [
+      {
+        "key": "mohs",
+        "ai": 7,
+        "pay": 7,
+        "injury": 4,
+        "match": 2,
+        "avg": 5.0
+      },
+      {
+        "key": "derm",
+        "ai": 5,
+        "pay": 8,
+        "injury": 8,
+        "match": 2,
+        "avg": 5.8
+      },
+      {
+        "key": "eye",
+        "ai": 6,
+        "pay": 6,
+        "injury": 5,
+        "match": 3,
+        "avg": 5.0
+      },
+      {
+        "key": "pod",
+        "ai": 9,
+        "pay": 4,
+        "injury": 3,
+        "match": 10,
+        "avg": 6.5
+      },
+      {
+        "key": "sport",
+        "ai": 5,
+        "pay": 5,
+        "injury": 7,
+        "match": 10,
+        "avg": 6.8
+      },
+      {
+        "key": "wound",
+        "ai": 7,
+        "pay": 3,
+        "injury": 5,
+        "match": 10,
+        "avg": 6.2
+      }
+    ],
+    "money_data": [
+      {
+        "key": "mohs",
+        "start": 450,
+        "peak": 900,
+        "lifetime": 22376
+      },
+      {
+        "key": "derm",
+        "start": 350,
+        "peak": 700,
+        "lifetime": 16344
+      },
+      {
+        "key": "eye",
+        "start": 350,
+        "peak": 800,
+        "lifetime": 18045
+      },
+      {
+        "key": "pod",
+        "start": 220,
+        "peak": 500,
+        "lifetime": 10357
+      },
+      {
+        "key": "sport",
+        "start": 160,
+        "peak": 350,
+        "lifetime": 5950
+      },
+      {
+        "key": "wound",
+        "start": 200,
+        "peak": 400,
+        "lifetime": 7657
+      }
+    ],
+    "timeline_data": [
+      {
+        "key": "mohs",
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          26
+        ],
+        "residency": [
+          26,
+          30
+        ],
+        "fellowship": [
+          30,
+          31
+        ],
+        "earnAge": 31,
+        "startSalary": 450
+      },
+      {
+        "key": "derm",
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          26
+        ],
+        "residency": [
+          26,
+          30
+        ],
+        "fellowship": null,
+        "earnAge": 30,
+        "startSalary": 350
+      },
+      {
+        "key": "eye",
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          26
+        ],
+        "residency": [
+          26,
+          30
+        ],
+        "fellowship": [
+          30,
+          31
+        ],
+        "earnAge": 31,
+        "startSalary": 350
+      },
+      {
+        "key": "pod",
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          26
+        ],
+        "residency": [
+          26,
+          29
+        ],
+        "fellowship": null,
+        "earnAge": 29,
+        "startSalary": 220
+      },
+      {
+        "key": "sport",
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          26
+        ],
+        "residency": [
+          26,
+          29
+        ],
+        "fellowship": null,
+        "earnAge": 29,
+        "startSalary": 160
+      },
+      {
+        "key": "wound",
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          26
+        ],
+        "residency": [
+          26,
+          29
+        ],
+        "fellowship": null,
+        "earnAge": 29,
+        "startSalary": 200
+      }
+    ],
+    "decision_tree": {
+      "q": "Are you OK with 12+ years of school and training?",
+      "yes": {
+        "q": "Are you a top student who can handle fierce competition?",
+        "yes": {
+          "q": "Same procedure all day, or many different problems?",
+          "procedural": "mohs",
+          "variety": "derm"
+        },
+        "no": "eye"
+      },
+      "no": {
+        "q": "What matters most to you?",
+        "options": [
+          {
+            "label": "\ud83d\udcaa Highest pay & surgery",
+            "result": "pod"
+          },
+          {
+            "label": "\ud83c\udf3f Best lifestyle",
+            "result": "sport"
+          },
+          {
+            "label": "\ud83d\udd12 Job security",
+            "result": "wound"
+          }
+        ]
+      }
+    }
+  }
+}
