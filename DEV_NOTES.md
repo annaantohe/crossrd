@@ -1,10 +1,9 @@
-# CLAUDE.md — Project Instructions for Claude Code
+# DEV_NOTES.md — Project Dev Notes
 
 ## Project Overview
 
 **crossrd** — a data-driven interactive career comparison website.
 Compares 42 healthcare career paths across 4 professions (MD/DO, DDS/DMD, DPM, OD).
-Built to look like a smart high school student made it: clean code, casual tone, teen-friendly language.
 
 **Stack:** Python/pandas → JSON → React (Vite) → GitHub Pages
 **Live URL:** https://annaantohe.github.io/crossrd/

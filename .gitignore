@@ -20,9 +20,8 @@ github-cred.txt
 .DS_Store
 Thumbs.db
 
-# editor
+# editor / tools
 .vscode/
 .idea/
-
-# claude code internal
-.claude/plans/
+.cursor/
+.claude/
