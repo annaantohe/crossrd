@@ -1,44 +1,82 @@
 // Home.jsx — Landing page
-// Shows the big headline, key stats pulled from JSON meta, and profession cards.
+// crossrd brand + current field overview + profession cards.
 
 export default function Home({ meta, professions, profColors, profLabels, allTracks }) {
-  // stats come straight from the JSON metadata
   const stats = [
-    [String(meta.total_tracks), "careers evaluated"],
-    [String(meta.data_points), "data points"],
+    [String(meta.total_tracks), "careers scored"],
+    [String(meta.data_points), "data points each"],
     [String(meta.finalists), "finalists"],
   ];
 
   return (
     <div style={{ textAlign: "center", padding: "20px 16px 40px" }}>
-      {/* big icon */}
-      <div style={{ fontSize: 56, marginBottom: 8 }}>{meta.icon || "🩺"}</div>
-
-      {/* main headline */}
-      <h1
+      {/* crossrd brand */}
+      <div
         style={{
           fontFamily: "'Playfair Display', Georgia, serif",
-          fontSize: "clamp(28px, 6vw, 44px)",
+          fontSize: "clamp(40px, 10vw, 64px)",
           fontWeight: 800,
           color: "#1a1a2e",
-          lineHeight: 1.15,
-          margin: "0 0 12px",
+          lineHeight: 1,
+          letterSpacing: "-0.02em",
+          margin: "0 0 4px",
         }}
       >
-        {meta.headline || "Career Guide"}
+        cross<span style={{ color: "#D4A537" }}>rd</span>
+      </div>
+
+      {/* main tagline */}
+      <h1
+        style={{
+          fontFamily: "'DM Sans', sans-serif",
+          fontSize: "clamp(18px, 4.5vw, 26px)",
+          fontWeight: 600,
+          color: "#1a1a2e",
+          lineHeight: 1.3,
+          margin: "0 0 6px",
+        }}
+      >
+        what should i actually be when i grow up?
       </h1>
 
       <p
         style={{
           fontFamily: "'DM Sans', sans-serif",
-          fontSize: "clamp(14px, 3vw, 18px)",
-          color: "#666",
-          margin: "0 0 28px",
-          letterSpacing: "0.02em",
+          fontSize: "clamp(13px, 3vw, 16px)",
+          color: "#999",
+          margin: "0 0 24px",
+          fontStyle: "italic",
         }}
       >
-        {meta.subtitle || "A Data-Driven Guide"}
+        we overthought it so you don't have to
       </p>
+
+      {/* current field badge */}
+      <div
+        style={{
+          display: "inline-flex",
+          alignItems: "center",
+          gap: 8,
+          background: "white",
+          borderRadius: 20,
+          padding: "6px 16px",
+          boxShadow: "0 2px 8px rgba(0,0,0,0.06)",
+          border: "1px solid #eee",
+          marginBottom: 16,
+        }}
+      >
+        <span style={{ fontSize: 20 }}>{meta.icon || "📊"}</span>
+        <span
+          style={{
+            fontFamily: "'DM Sans', sans-serif",
+            fontSize: 13,
+            fontWeight: 700,
+            color: "#1a1a2e",
+          }}
+        >
+          {meta.headline || "Career Guide"}
+        </span>
+      </div>
 
       {/* stat boxes */}
       <div
@@ -80,15 +118,15 @@ export default function Home({ meta, professions, profColors, profLabels, allTra
         ))}
       </div>
 
-      {/* profession cards — one per doctor type */}
+      {/* profession cards */}
       <div
         style={{
-          marginTop: 24,
+          marginTop: 20,
           display: "grid",
           gridTemplateColumns: "repeat(2, 1fr)",
           gap: 8,
           maxWidth: 400,
-          margin: "24px auto 0",
+          margin: "20px auto 0",
         }}
       >
         {Object.entries(profColors).map(([prof, color]) => (
@@ -137,8 +175,8 @@ export default function Home({ meta, professions, profColors, profLabels, allTra
           fontStyle: "italic",
         }}
       >
-        Start with &ldquo;🏟️ All {allTracks.length}&rdquo; to see every career, or
-        explore the finalist tabs &rarr;
+        tap &ldquo;🏟️ All {allTracks.length}&rdquo; to see every career, or
+        explore the tabs &rarr;
       </p>
     </div>
   );
