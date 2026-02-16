@@ -10,10 +10,10 @@ import {
   PolarRadiusAxis,
   ResponsiveContainer,
 } from "recharts";
-import { CAREERS, styles } from "../styles/theme";
+import { styles } from "../styles/theme";
 
 // reusable career toggle buttons
-function ToggleBar({ visible, toggle }) {
+function ToggleBar({ careers, visible, toggle }) {
   return (
     <div
       style={{
@@ -24,7 +24,7 @@ function ToggleBar({ visible, toggle }) {
         marginBottom: 12,
       }}
     >
-      {CAREERS.map((c) => (
+      {careers.map((c) => (
         <button
           key={c.key}
           onClick={() => toggle(c.key)}
@@ -49,15 +49,15 @@ function ToggleBar({ visible, toggle }) {
   );
 }
 
-export default function Scorecard({ radarDimensions }) {
-  // start with mohs, derm, and pod visible (same as reference)
-  const [visible, setVisible] = useState({
-    mohs: true,
-    derm: true,
-    eye: false,
-    pod: true,
-    sport: false,
-    wound: false,
+export default function Scorecard({ radarDimensions, careers }) {
+  // start with first 3 careers visible by default
+  const [visible, setVisible] = useState(() => {
+    const vis = {};
+    careers.forEach((c, i) => {
+      // show the first, second, and fourth career (matches original: mohs, derm, pod)
+      vis[c.key] = i === 0 || i === 1 || i === 3;
+    });
+    return vis;
   });
 
   const toggle = (k) => setVisible((prev) => ({ ...prev, [k]: !prev[k] }));
@@ -73,7 +73,7 @@ export default function Scorecard({ radarDimensions }) {
       <h2 style={styles.header}>⭐ Career Scorecard</h2>
       <p style={styles.subtitle}>6 dimensions rated 1–10 (tap careers to compare)</p>
 
-      <ToggleBar visible={visible} toggle={toggle} />
+      <ToggleBar careers={careers} visible={visible} toggle={toggle} />
 
       <ResponsiveContainer width="100%" height={320}>
         <RadarChart cx="50%" cy="50%" outerRadius="72%" data={chartData}>
@@ -83,7 +83,7 @@ export default function Scorecard({ radarDimensions }) {
             tick={{ fontSize: 11, fontFamily: "'DM Sans', sans-serif", fill: "#555" }}
           />
           <PolarRadiusAxis angle={90} domain={[0, 10]} tick={{ fontSize: 9 }} tickCount={6} />
-          {CAREERS.map(
+          {careers.map(
             (c) =>
               visible[c.key] && (
                 <Radar

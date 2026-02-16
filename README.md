@@ -53,8 +53,25 @@ npm run dev
 # rebuild the data (if you change the excel)
 cd pipeline
 pip install -r requirements.txt
-python process.py --input ../data/healthcare/career_framework_v4.xlsx --output ../src/data/healthcare.json
+python process.py --family healthcare
 ```
+
+## adding new career fields
+
+the architecture is modular — each profession family (healthcare, engineering, law, etc.) gets its own:
+- `data/<slug>/config.yaml` — all field-specific settings
+- `data/<slug>/career_framework.xlsx` — the source data
+- `src/data/<slug>.json` — generated output
+
+```bash
+# bootstrap a new field
+python pipeline/create_field.py --slug engineering --name Engineering
+
+# fill in the Excel + config.yaml, then run:
+python pipeline/process.py --family engineering
+```
+
+see [docs/ADDING_NEW_PROFESSIONS.md](docs/ADDING_NEW_PROFESSIONS.md) for the full guide and [docs/METHODOLOGY.md](docs/METHODOLOGY.md) for how the scoring works.
 
 ## the verdict
 

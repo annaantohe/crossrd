@@ -1,9 +1,7 @@
 // Home.jsx — Landing page
 // Shows the big headline, key stats pulled from JSON meta, and profession cards.
 
-import { PROF_COLORS, PROF_LABELS } from "../styles/theme";
-
-export default function Home({ meta, professions, allTracks }) {
+export default function Home({ meta, professions, profColors, profLabels, allTracks }) {
   // stats come straight from the JSON metadata
   const stats = [
     [String(meta.total_tracks), "careers evaluated"],
@@ -14,7 +12,7 @@ export default function Home({ meta, professions, allTracks }) {
   return (
     <div style={{ textAlign: "center", padding: "20px 16px 40px" }}>
       {/* big icon */}
-      <div style={{ fontSize: 56, marginBottom: 8 }}>🩺</div>
+      <div style={{ fontSize: 56, marginBottom: 8 }}>{meta.icon || "🩺"}</div>
 
       {/* main headline */}
       <h1
@@ -27,9 +25,7 @@ export default function Home({ meta, professions, allTracks }) {
           margin: "0 0 12px",
         }}
       >
-        Which Doctor
-        <br />
-        Should You Become?
+        {meta.headline || "Career Guide"}
       </h1>
 
       <p
@@ -41,7 +37,7 @@ export default function Home({ meta, professions, allTracks }) {
           letterSpacing: "0.02em",
         }}
       >
-        A Data-Driven Guide
+        {meta.subtitle || "A Data-Driven Guide"}
       </p>
 
       {/* stat boxes */}
@@ -95,7 +91,7 @@ export default function Home({ meta, professions, allTracks }) {
           margin: "24px auto 0",
         }}
       >
-        {Object.entries(PROF_COLORS).map(([prof, color]) => (
+        {Object.entries(profColors).map(([prof, color]) => (
           <div
             key={prof}
             style={{
@@ -115,7 +111,7 @@ export default function Home({ meta, professions, allTracks }) {
                 color: "#1a1a2e",
               }}
             >
-              {PROF_LABELS[prof]}
+              {profLabels[prof]}
             </div>
             <div
               style={{
@@ -141,8 +137,8 @@ export default function Home({ meta, professions, allTracks }) {
           fontStyle: "italic",
         }}
       >
-        Start with &ldquo;🏟️ All 42&rdquo; to see every career, or explore the
-        finalist tabs &rarr;
+        Start with &ldquo;🏟️ All {allTracks.length}&rdquo; to see every career, or
+        explore the finalist tabs &rarr;
       </p>
     </div>
   );

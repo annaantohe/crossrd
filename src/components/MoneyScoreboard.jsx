@@ -11,11 +11,11 @@ import {
   Legend,
   ResponsiveContainer,
 } from "recharts";
-import { CAREERS, styles } from "../styles/theme";
+import { styles } from "../styles/theme";
 
-export default function MoneyScoreboard({ moneyData }) {
+export default function MoneyScoreboard({ moneyData, careers }) {
   // build the dataset Recharts needs — attach career name + color
-  const barData = CAREERS.map((c) => {
+  const barData = careers.map((c) => {
     const m = moneyData.find((d) => d.key === c.key);
     return {
       name: c.name,
@@ -98,7 +98,7 @@ export default function MoneyScoreboard({ moneyData }) {
           gap: 8,
         }}
       >
-        {CAREERS.map((c) => {
+        {careers.map((c) => {
           const m = moneyData.find((d) => d.key === c.key);
           return (
             <div

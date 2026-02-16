@@ -11,10 +11,10 @@ import {
   Tooltip,
   ResponsiveContainer,
 } from "recharts";
-import { CAREERS, formatDollars, styles } from "../styles/theme";
+import { formatDollars, styles } from "../styles/theme";
 
 // reusable toggle bar for picking which careers are visible
-function ToggleBar({ visible, toggle }) {
+function ToggleBar({ careers, visible, toggle }) {
   return (
     <div
       style={{
@@ -25,7 +25,7 @@ function ToggleBar({ visible, toggle }) {
         marginBottom: 12,
       }}
     >
-      {CAREERS.map((c) => (
+      {careers.map((c) => (
         <button
           key={c.key}
           onClick={() => toggle(c.key)}
@@ -58,16 +58,11 @@ const MILESTONES = [
   { age: "33-40", label: "💸 Loans Paid Off", bg: "#fce4ec" },
 ];
 
-export default function RaceToMillion({ netWorthData }) {
+export default function RaceToMillion({ netWorthData, careers }) {
   // all careers on by default
-  const [visible, setVisible] = useState({
-    mohs: true,
-    derm: true,
-    eye: true,
-    pod: true,
-    sport: true,
-    wound: true,
-  });
+  const [visible, setVisible] = useState(() =>
+    Object.fromEntries(careers.map((c) => [c.key, true]))
+  );
 
   const toggle = (k) => setVisible((prev) => ({ ...prev, [k]: !prev[k] }));
 
@@ -76,7 +71,7 @@ export default function RaceToMillion({ netWorthData }) {
       <h2 style={styles.header}>🏁 The Race to a Million</h2>
       <p style={styles.subtitle}>Total money saved over a lifetime (age 18–65)</p>
 
-      <ToggleBar visible={visible} toggle={toggle} />
+      <ToggleBar careers={careers} visible={visible} toggle={toggle} />
 
       <ResponsiveContainer width="100%" height={320}>
         <LineChart data={netWorthData} margin={{ top: 5, right: 10, left: 5, bottom: 5 }}>
@@ -100,11 +95,11 @@ export default function RaceToMillion({ netWorthData }) {
             }}
             formatter={(v, name) => [
               formatDollars(v),
-              CAREERS.find((c) => c.key === name)?.name,
+              careers.find((c) => c.key === name)?.name,
             ]}
             labelFormatter={(l) => `Age ${l}`}
           />
-          {CAREERS.map(
+          {careers.map(
             (c) =>
               visible[c.key] && (
                 <Line

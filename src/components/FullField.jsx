@@ -13,7 +13,7 @@ import {
   Cell,
   ResponsiveContainer,
 } from "recharts";
-import { PROF_COLORS, PROF_LABELS, styles } from "../styles/theme";
+import { styles } from "../styles/theme";
 
 // column definitions used by the table
 const COLUMNS = [
@@ -25,7 +25,7 @@ const COLUMNS = [
   { key: "matchComp", label: "🎯 Get In", fmt: (v) => `${v}/10` },
 ];
 
-export default function FullField({ allTracks }) {
+export default function FullField({ allTracks, profColors, profLabels }) {
   const [sortKey, setSortKey] = useState("peakSalary");
   const [sortDir, setSortDir] = useState("desc");
   const [filterProf, setFilterProf] = useState("ALL");
@@ -61,8 +61,8 @@ export default function FullField({ allTracks }) {
 
   return (
     <div style={{ padding: "12px 4px" }}>
-      <h2 style={styles.header}>🏟️ The Full Field — All 42 Careers</h2>
-      <p style={styles.subtitle}>Every career we evaluated across 4 doctor types</p>
+      <h2 style={styles.header}>🏟️ The Full Field — All {allTracks.length} Careers</h2>
+      <p style={styles.subtitle}>Every career we evaluated across {Object.keys(profColors).length} doctor types</p>
 
       {/* profession filter buttons */}
       <div
@@ -74,7 +74,7 @@ export default function FullField({ allTracks }) {
           marginBottom: 10,
         }}
       >
-        {["ALL", "MD/DO", "DDS/DMD", "DPM", "OD"].map((p) => (
+        {["ALL", ...Object.keys(profColors)].map((p) => (
           <button
             key={p}
             onClick={() => setFilterProf(p)}
@@ -84,26 +84,26 @@ export default function FullField({ allTracks }) {
               padding: "5px 12px",
               borderRadius: 20,
               cursor: "pointer",
-              border: `2px solid ${p === "ALL" ? "#555" : PROF_COLORS[p]}`,
+              border: `2px solid ${p === "ALL" ? "#555" : profColors[p]}`,
               background:
                 filterProf === p
                   ? p === "ALL"
                     ? "#555"
-                    : PROF_COLORS[p]
+                    : profColors[p]
                   : "white",
               color:
                 filterProf === p
                   ? "white"
                   : p === "ALL"
                   ? "#555"
-                  : PROF_COLORS[p],
+                  : profColors[p],
               fontWeight: 600,
               transition: "all 0.2s",
             }}
           >
             {p === "ALL"
               ? `All ${allTracks.length}`
-              : `${PROF_LABELS[p]} (${allTracks.filter((t) => t.profession === p).length})`}
+              : `${profLabels[p]} (${allTracks.filter((t) => t.profession === p).length})`}
           </button>
         ))}
       </div>
@@ -207,14 +207,14 @@ export default function FullField({ allTracks }) {
                       <div
                         style={{
                           fontWeight: 700,
-                          color: PROF_COLORS[d.profession],
+                          color: profColors[d.profession],
                           marginBottom: 2,
                         }}
                       >
                         {d.name}
                       </div>
                       <div style={{ color: "#888", fontSize: 10, marginBottom: 4 }}>
-                        {PROF_LABELS[d.profession]}
+                        {profLabels[d.profession]}
                       </div>
                       <div>
                         Peak: <b>${d.peakSalary}K/yr</b>
@@ -237,7 +237,7 @@ export default function FullField({ allTracks }) {
                 {scatterData.map((d, i) => (
                   <Cell
                     key={i}
-                    fill={PROF_COLORS[d.profession]}
+                    fill={profColors[d.profession]}
                     fillOpacity={d.finalist ? 1 : 0.55}
                     stroke={d.finalist ? "#1a1a2e" : "none"}
                     strokeWidth={d.finalist ? 2 : 0}
@@ -340,7 +340,7 @@ export default function FullField({ allTracks }) {
                         background: bg,
                         zIndex: 1,
                         whiteSpace: "nowrap",
-                        borderLeft: `3px solid ${PROF_COLORS[t.profession]}`,
+                        borderLeft: `3px solid ${profColors[t.profession]}`,
                       }}
                     >
                       <span style={{ color: "#bbb", fontSize: 10, marginRight: 4 }}>
@@ -357,8 +357,8 @@ export default function FullField({ allTracks }) {
                           fontSize: 9,
                           padding: "2px 6px",
                           borderRadius: 8,
-                          background: `${PROF_COLORS[t.profession]}18`,
-                          color: PROF_COLORS[t.profession],
+                          background: `${profColors[t.profession]}18`,
+                          color: profColors[t.profession],
                           fontWeight: 600,
                           whiteSpace: "nowrap",
                         }}
@@ -419,10 +419,10 @@ export default function FullField({ allTracks }) {
 
       {/* takeaway box */}
       <div style={styles.soWhat}>
-        💡 <strong>So What?</strong> Of 42 careers across 4 professions, 6 made the
-        finals (⭐). Dentistry and Optometry were fully evaluated but eliminated —
-        dentistry had high debt with lower ceilings, and optometry faced low salaries
-        plus AI risk. Tap column headers to re-sort!
+        💡 <strong>So What?</strong> Of {allTracks.length} careers across{" "}
+        {Object.keys(profColors).length} professions,{" "}
+        {allTracks.filter((t) => t.finalist).length} made the finals (⭐). Tap
+        column headers to re-sort!
       </div>
     </div>
   );

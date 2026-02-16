@@ -1,7 +1,7 @@
 // RiskDashboard.jsx — Stress test color-coded grid
 // Shows how well each career survives 4 bad scenarios.
 
-import { CAREERS, styles } from "../styles/theme";
+import { styles } from "../styles/theme";
 
 // scenario columns
 const SCENARIOS = [
@@ -19,7 +19,7 @@ function cellColor(v) {
   return { bg: "#ffebee", color: "#c62828", emoji: "🔴" };
 }
 
-export default function RiskDashboard({ stressTest }) {
+export default function RiskDashboard({ stressTest, careers }) {
   return (
     <div style={{ padding: "12px 4px" }}>
       <h2 style={styles.header}>⚠️ What Could Go Wrong?</h2>
@@ -70,7 +70,7 @@ export default function RiskDashboard({ stressTest }) {
 
           <tbody>
             {stressTest.map((r) => {
-              const career = CAREERS.find((c) => c.key === r.key);
+              const career = careers.find((c) => c.key === r.key);
 
               return (
                 <tr key={r.key}>
@@ -79,12 +79,12 @@ export default function RiskDashboard({ stressTest }) {
                     style={{
                       padding: "6px 4px",
                       fontWeight: 700,
-                      color: career.color,
+                      color: career?.color || "#555",
                       whiteSpace: "nowrap",
                       fontSize: 11,
                     }}
                   >
-                    {career.name}
+                    {career?.name || r.key}
                   </td>
 
                   {/* scenario scores */}

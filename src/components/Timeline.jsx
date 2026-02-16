@@ -1,7 +1,7 @@
 // Timeline.jsx — Training duration horizontal bars
 // Shows each finalist's journey from college to first real paycheck.
 
-import { CAREERS, styles } from "../styles/theme";
+import { styles } from "../styles/theme";
 
 // color key for each training phase
 const BLOCKS = {
@@ -16,7 +16,7 @@ const MIN_AGE = 18;
 const MAX_AGE = 35;
 const TOTAL = MAX_AGE - MIN_AGE;
 
-export default function Timeline({ timelineData }) {
+export default function Timeline({ timelineData, careers }) {
   return (
     <div style={{ padding: "12px 8px" }}>
       <h2 style={styles.header}>⏳ How Long Does It Take?</h2>
@@ -81,7 +81,7 @@ export default function Timeline({ timelineData }) {
       {/* bars — one row per finalist career */}
       <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
         {timelineData.map((td) => {
-          const career = CAREERS.find((c) => c.key === td.key);
+          const career = careers.find((c) => c.key === td.key);
 
           return (
             <div key={td.key} style={{ display: "flex", alignItems: "center", gap: 8 }}>
@@ -93,12 +93,12 @@ export default function Timeline({ timelineData }) {
                   fontFamily: "'DM Sans', sans-serif",
                   fontSize: 11,
                   fontWeight: 700,
-                  color: career.color,
+                  color: career?.color || "#555",
                   textAlign: "right",
                   lineHeight: 1.2,
                 }}
               >
-                {career.name}
+                {career?.name || td.key}
               </div>
 
               {/* bar track */}

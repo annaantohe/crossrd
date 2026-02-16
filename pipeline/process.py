@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 """
 process.py — main pipeline for crossrd
-reads the career framework excel workbook and outputs healthcare.json
+reads the career framework excel workbook and outputs JSON for the frontend.
 
 usage:
+  python process.py --family healthcare
   python process.py --input ../data/healthcare/career_framework_v4.xlsx --output ../src/data/healthcare.json
   python process.py --validate ../src/data/healthcare.json
 """
@@ -15,17 +16,17 @@ from datetime import date
 from pathlib import Path
 
 import openpyxl
-import pandas as pd
 
 from config import (
-    CATEGORIES, PROFESSIONS, FINALISTS, L2_COLUMNS, L2_SHEETS,
-    FINALIST_ORDER, SCENARIO_NAMES, RADAR_DIMENSIONS, FINAL_RANKING,
-    DECISION_TREE,
+    CATEGORIES, RADAR_DIMENSIONS, RADAR_CATEGORY_MAP,
+    load_family_config, list_families,
 )
+from financial import read_net_worth_trajectory, read_financial_assumptions, build_money_data, build_timeline_data
+from stress import read_stress_test
 
 
 def read_career_tracks(wb):
-    """read the master list of 42 career tracks from the Career Tracks sheet"""
+    """read the master list of career tracks from the Career Tracks sheet"""
     ws = wb["Career Tracks"]
     tracks = []
     for row in ws.iter_rows(min_row=2, values_only=True):
@@ -43,9 +44,17 @@ def read_career_tracks(wb):
     return tracks
 
 
-def read_l2_matrix(wb, profession):
-    """read the raw specialty data from an L2 Matrix sheet"""
-    sheet_name = L2_SHEETS[profession]
+def read_l2_matrix(wb, profession, l2_sheets, l2_columns, finalists):
+    """read the raw specialty data from an L2 Matrix sheet.
+
+    args:
+        wb: openpyxl workbook
+        profession: profession key (e.g. "MD/DO")
+        l2_sheets: dict mapping profession -> Excel sheet name
+        l2_columns: dict mapping column index -> field name
+        finalists: dict mapping track name -> finalist info
+    """
+    sheet_name = l2_sheets[profession]
     ws = wb[sheet_name]
 
     specialties = []
@@ -55,7 +64,7 @@ def read_l2_matrix(wb, profession):
             break
 
         spec = {"profession": profession}
-        for col_idx, field_name in L2_COLUMNS.items():
+        for col_idx, field_name in l2_columns.items():
             val = row[col_idx]
             # convert numeric strings to numbers
             if field_name != "name" and val is not None:
@@ -69,9 +78,9 @@ def read_l2_matrix(wb, profession):
             spec[field_name] = val
 
         # check if this track is a finalist
-        spec["finalist"] = spec["name"] in FINALISTS
+        spec["finalist"] = spec["name"] in finalists
         if spec["finalist"]:
-            info = FINALISTS[spec["name"]]
+            info = finalists[spec["name"]]
             spec["finalist_key"] = info["key"]
             spec["teen_name"] = info["teen_name"]
             spec["finalist_color"] = info["color"]
@@ -82,13 +91,18 @@ def read_l2_matrix(wb, profession):
     return specialties
 
 
-def read_finals_matrix(wb):
-    """read the category scores and scenario totals for the 6 finalists"""
+def read_finals_matrix(wb, finalist_order, scenario_map):
+    """read the category scores and scenario totals for the finalists.
+
+    args:
+        wb: openpyxl workbook
+        finalist_order: list of finalist keys in column order
+        scenario_map: dict mapping Excel display names to slug keys
+    """
     ws = wb["Finals Matrix"]
 
     # read category scores (rows 4-17, cols D-I = indices 3-8)
     category_scores = {}  # key -> {cat_id: score}
-    finalist_cols = ["mohs", "derm", "eye", "pod", "sport", "wound"]
 
     for row in ws.iter_rows(min_row=4, max_row=17, values_only=True):
         if row[0] is None:
@@ -98,7 +112,7 @@ def read_finals_matrix(wb):
             cat_id = int(row[0])
         except (ValueError, TypeError):
             continue
-        for i, key in enumerate(finalist_cols):
+        for i, key in enumerate(finalist_order):
             if key not in category_scores:
                 category_scores[key] = {}
             val = row[3 + i]
@@ -114,25 +128,15 @@ def read_finals_matrix(wb):
             found_scenarios = True
             continue
         if found_scenarios and row[0] is not None:
-            scenario_name = row[0]
-            if scenario_name.startswith("KEY"):
+            display_name = row[0]
+            if display_name.startswith("KEY"):
                 break
             scores = {}
-            for i, key in enumerate(finalist_cols):
+            for i, key in enumerate(finalist_order):
                 val = row[1 + i]
                 if val is not None:
                     scores[key] = round(float(val), 2)
-            scenario_rows.append((scenario_name, scores))
-
-    # map scenario display names to our keys
-    scenario_map = {
-        "Default": "default",
-        "Equal Weight": "equal_weight",
-        "Max Earnings": "max_earnings",
-        "Best Lifestyle": "best_lifestyle",
-        "Fastest to Practice": "fastest_to_practice",
-        "Most Procedural": "most_procedural",
-    }
+            scenario_rows.append((display_name, scores))
 
     for display_name, scores in scenario_rows:
         scenario_key = scenario_map.get(display_name, display_name.lower().replace(" ", "_"))
@@ -145,104 +149,8 @@ def read_finals_matrix(wb):
     return category_scores, scenario_totals
 
 
-def read_net_worth_trajectory(wb):
-    """read the cumulative net worth data from Career Life Models"""
-    ws = wb["Career Life Models"]
-
-    # find the trajectory section (starts with "Age" header after row 39)
-    trajectory = []
-    found_header = False
-    for row in ws.iter_rows(min_row=39, values_only=True):
-        if row[0] == "Age":
-            found_header = True
-            continue
-        if found_header:
-            if row[0] is None or (isinstance(row[0], str) and not row[0].isdigit()):
-                break
-            age = int(row[0])
-            point = {"age": age}
-            for i, key in enumerate(FINALIST_ORDER):
-                val = row[1 + i]
-                point[key] = int(val) if val is not None else 0
-            trajectory.append(point)
-
-    print(f"  read net worth trajectory: {len(trajectory)} data points")
-    return trajectory
-
-
-def read_financial_assumptions(wb):
-    """read the financial model assumptions from Career Life Models"""
-    ws = wb["Career Life Models"]
-
-    assumptions = {}
-    # assumptions are in rows 6-26 (after header rows)
-    for row in ws.iter_rows(min_row=5, max_row=40, values_only=True):
-        if row[0] is None:
-            continue
-        label = str(row[0]).strip()
-        if label in ("KEY ASSUMPTIONS", "LIFETIME FINANCIAL SUMMARY (Age 18-65)",
-                      "CUMULATIVE NET WORTH TRAJECTORY ($K) — EVERY 5 YEARS",
-                      "KEY FINANCIAL INSIGHT"):
-            continue
-        if label == "Age":
-            break
-        values = {}
-        for i, key in enumerate(FINALIST_ORDER):
-            val = row[1 + i]
-            if val is not None:
-                try:
-                    val = float(val) if isinstance(val, (int, float)) else float(val)
-                    if val == int(val):
-                        val = int(val)
-                except (ValueError, TypeError):
-                    pass
-            values[key] = val
-        assumptions[label] = values
-
-    return assumptions
-
-
-def read_stress_test(wb):
-    """read the stress test scores from the Stress Test sheet"""
-    ws = wb["Stress Test"]
-
-    # the composite table starts after "COMPOSITE STRESS TEST RESILIENCE"
-    stress_data = []
-    found_composite = False
-    found_header = False
-
-    for row in ws.iter_rows(min_row=1, values_only=True):
-        if row[0] == "COMPOSITE STRESS TEST RESILIENCE":
-            found_composite = True
-            continue
-        if found_composite and row[0] == "Track":
-            found_header = True
-            continue
-        if found_header:
-            if row[0] is None or row[0] == "STRESS TEST INSIGHT":
-                break
-            # map track names to our keys
-            track_name = row[0]
-            key_map = {
-                "Mohs": "mohs", "Gen Derm": "derm", "Ophtho": "eye",
-                "Pod Surg": "pod", "Sports Med": "sport", "Wound Care": "wound",
-            }
-            key = key_map.get(track_name, track_name.lower())
-            stress_data.append({
-                "key": key,
-                "ai": int(row[1]) if row[1] else 0,
-                "pay": int(row[2]) if row[2] else 0,
-                "injury": int(row[3]) if row[3] else 0,
-                "match": int(row[4]) if row[4] else 0,
-                "avg": round(float(row[5]), 1) if row[5] else 0,
-            })
-
-    print(f"  read stress test: {len(stress_data)} finalists")
-    return stress_data
-
-
 def read_scenario_profiles(wb):
-    """read the 6 scenario weight profiles"""
+    """read the scenario weight profiles from the Scenario Profiles sheet"""
     ws = wb["Scenario Profiles"]
 
     # column mapping: B=Equal Weight, C=Max Earnings, D=Best Lifestyle,
@@ -258,8 +166,7 @@ def read_scenario_profiles(wb):
 
     for cat_idx, row in enumerate(ws.iter_rows(min_row=2, max_row=15, values_only=True)):
         cat_id = cat_idx + 1
-        # default weights come from config
-        from config import CATEGORIES
+        # default weights come from universal categories
         profiles["default"][str(cat_id)] = CATEGORIES[cat_idx]["weight"]
 
         for col_offset, scenario_name in scenario_cols.items():
@@ -271,79 +178,24 @@ def read_scenario_profiles(wb):
     return profiles
 
 
-def read_radar_data(finals_scores):
-    """
-    build the 6-dimension radar chart data from the finals category scores.
+def read_radar_data(finals_scores, finalist_order):
+    """build the 6-dimension radar chart data from the finals category scores.
 
-    the 6 dimensions are consolidated from the 14 categories:
-    - Money = avg of cat 5 (Financial) + cat 7 (Economics)
-    - Happiness = cat 12 (Satisfaction)
-    - Free Time = cat 9 (Lifestyle)
-    - Hard to Get In = avg of cat 1 (Pre-Prof) + cat 2 (Admissions) + cat 4 (PGT)
-    - Robot-Proof = cat 11 (AI Impact)
-    - Safety Net = cat 14 (Risk Factors)
+    uses the RADAR_CATEGORY_MAP to consolidate 14 categories into 6 dimensions.
+    each dimension is the average of its mapped category scores.
     """
     radar = []
     for dim_info in RADAR_DIMENSIONS:
         point = {"dim": dim_info["dim"], "emoji": dim_info["emoji"]}
-        for key in FINALIST_ORDER:
+        cat_ids = RADAR_CATEGORY_MAP[dim_info["dim"]]
+
+        for key in finalist_order:
             scores = finals_scores.get(key, {})
-            if dim_info["dim"] == "Money":
-                point[key] = round((scores.get(5, 5) + scores.get(7, 5)) / 2, 1)
-            elif dim_info["dim"] == "Happiness":
-                point[key] = round(scores.get(12, 5), 1)
-            elif dim_info["dim"] == "Free Time":
-                point[key] = round(scores.get(9, 5), 1)
-            elif dim_info["dim"] == "Hard to Get In":
-                # this is inverted: high score = easy to get in (good for candidate)
-                # so we use the raw average of cats 1, 2, 4
-                vals = [scores.get(c, 5) for c in [1, 2, 4]]
-                point[key] = round(sum(vals) / len(vals), 1)
-            elif dim_info["dim"] == "Robot-Proof":
-                point[key] = round(scores.get(11, 5), 1)
-            elif dim_info["dim"] == "Safety Net":
-                point[key] = round(scores.get(14, 5), 1)
+            vals = [scores.get(c, 5) for c in cat_ids]
+            point[key] = round(sum(vals) / len(vals), 1)
+
         radar.append(point)
     return radar
-
-
-def build_money_data(wb):
-    """build the money scoreboard data from Career Life Models"""
-    assumptions = read_financial_assumptions(wb)
-
-    money = []
-    for key in FINALIST_ORDER:
-        start = assumptions.get("Starting Salary ($K)", {}).get(key, 0)
-        peak = assumptions.get("Peak Salary ($K, age 48+)", {}).get(key, 0)
-        lifetime = assumptions.get("Cumulative Net Worth at 65 ($K)", {}).get(key, 0)
-        money.append({
-            "key": key,
-            "start": int(start) if start else 0,
-            "peak": int(peak) if peak else 0,
-            "lifetime": int(lifetime) if lifetime else 0,
-        })
-
-    return money
-
-
-def build_timeline_data():
-    """build the training timeline data for the 6 finalists"""
-    # this is based on the known training paths
-    timelines = [
-        {"key": "mohs", "college": [18, 22], "school": [22, 26], "residency": [26, 30],
-         "fellowship": [30, 31], "earnAge": 31, "startSalary": 450},
-        {"key": "derm", "college": [18, 22], "school": [22, 26], "residency": [26, 30],
-         "fellowship": None, "earnAge": 30, "startSalary": 350},
-        {"key": "eye", "college": [18, 22], "school": [22, 26], "residency": [26, 30],
-         "fellowship": [30, 31], "earnAge": 31, "startSalary": 350},
-        {"key": "pod", "college": [18, 22], "school": [22, 26], "residency": [26, 29],
-         "fellowship": None, "earnAge": 29, "startSalary": 220},
-        {"key": "sport", "college": [18, 22], "school": [22, 26], "residency": [26, 29],
-         "fellowship": None, "earnAge": 29, "startSalary": 160},
-        {"key": "wound", "college": [18, 22], "school": [22, 26], "residency": [26, 29],
-         "fellowship": None, "earnAge": 29, "startSalary": 200},
-    ]
-    return timelines
 
 
 def build_tracks_json(all_specialties, finals_scores, scenario_totals):
@@ -387,10 +239,58 @@ def build_tracks_json(all_specialties, finals_scores, scenario_totals):
     return tracks
 
 
-def process(input_path, output_path):
-    """main pipeline: read excel, build json, write output"""
-    print(f"reading {input_path}...")
-    wb = openpyxl.load_workbook(input_path, read_only=True, data_only=True)
+def build_careers_array(cfg):
+    """build the careers array for the frontend from the family config.
+
+    this replaces the hardcoded CAREERS constant in theme.js — the frontend
+    reads this from the JSON instead.
+    """
+    careers = []
+    for name, info in cfg["finalists"].items():
+        # figure out which profession this finalist belongs to
+        path = ""
+        for prof_key, prof_info in cfg["professions"].items():
+            path = prof_info["label"]
+            # we don't have a direct mapping, so we'll set path later
+            # when we match against the track data
+        careers.append({
+            "key": info["key"],
+            "name": info["teen_name"],
+            "color": info["color"],
+        })
+    return careers
+
+
+def process(family_slug, input_path=None, output_path=None):
+    """main pipeline: read excel, build json, write output.
+
+    args:
+        family_slug: the profession family slug (e.g. "healthcare")
+        input_path: override path to excel workbook (optional)
+        output_path: override path for output json (optional)
+    """
+    repo_root = Path(__file__).parent.parent
+    cfg = load_family_config(family_slug)
+
+    if input_path is None:
+        input_path = repo_root / "data" / family_slug / cfg["source"]
+    if output_path is None:
+        output_path = repo_root / "src" / "data" / f"{family_slug}.json"
+
+    # pull config values
+    finalists = cfg["finalists"]
+    finalist_order = cfg["finalist_order"]
+    l2_sheets = cfg["l2_sheets"]
+    l2_columns = {int(k): v for k, v in cfg["l2_columns"].items()}
+    stress_key_map = cfg.get("stress_key_map", {})
+    scenario_map = cfg.get("scenario_map", {})
+    final_ranking = cfg.get("final_ranking", [])
+    decision_tree = cfg.get("decision_tree", {})
+    decision_tree_results = cfg.get("decision_tree_results", {})
+
+    print(f"processing {family_slug}...")
+    print(f"  reading {input_path}...")
+    wb = openpyxl.load_workbook(str(input_path), read_only=True, data_only=True)
 
     # 1. read all the raw data
     print("reading career tracks...")
@@ -398,44 +298,62 @@ def process(input_path, output_path):
 
     print("reading L2 matrix data...")
     all_specialties = []
-    for profession in L2_SHEETS:
-        specs = read_l2_matrix(wb, profession)
+    for profession in l2_sheets:
+        specs = read_l2_matrix(wb, profession, l2_sheets, l2_columns, finalists)
         all_specialties.extend(specs)
 
     print("reading finals matrix...")
-    finals_scores, scenario_totals = read_finals_matrix(wb)
+    finals_scores, scenario_totals = read_finals_matrix(wb, finalist_order, scenario_map)
 
     print("reading scenario profiles...")
     scenario_profiles = read_scenario_profiles(wb)
 
     print("reading financial data...")
-    net_worth = read_net_worth_trajectory(wb)
-    money_data = build_money_data(wb)
+    net_worth = read_net_worth_trajectory(wb, finalist_order)
+    money_data = build_money_data(wb, finalist_order)
 
     print("reading stress test...")
-    stress_data = read_stress_test(wb)
+    stress_data = read_stress_test(wb, stress_key_map)
 
     wb.close()
 
     # 2. build derived data
     print("building radar chart data...")
-    radar_data = read_radar_data(finals_scores)
+    radar_data = read_radar_data(finals_scores, finalist_order)
 
     print("building timeline data...")
-    timeline_data = build_timeline_data()
+    timeline_data = build_timeline_data(cfg)
 
     print("building tracks json...")
     tracks = build_tracks_json(all_specialties, finals_scores, scenario_totals)
 
+    # build careers array — add the profession path by looking at the track data
+    careers = []
+    for name, info in finalists.items():
+        # find this finalist in the track data to get their profession
+        track_match = next((s for s in all_specialties if s["name"] == name), None)
+        prof_key = track_match["profession"] if track_match else ""
+        prof_label = cfg["professions"].get(prof_key, {}).get("label", prof_key)
+        careers.append({
+            "key": info["key"],
+            "name": info["teen_name"],
+            "color": info["color"],
+            "path": prof_label,
+        })
+
     # 3. assemble the output
     output = {
         "meta": {
-            "profession_family": "healthcare",
+            "profession_family": cfg["slug"],
+            "family_name": cfg["name"],
+            "headline": cfg.get("headline", f"Career Guide: {cfg['name']}"),
+            "subtitle": cfg.get("subtitle", "A Data-Driven Guide"),
+            "icon": cfg.get("icon", ""),
             "last_updated": str(date.today()),
             "total_tracks": len(all_specialties),
             "finalists": sum(1 for t in tracks if t["finalist"]),
             "data_points": 107,
-            "source_file": "career_framework_v4.xlsx",
+            "source_file": cfg["source"],
         },
         "professions": {
             prof: {
@@ -443,8 +361,9 @@ def process(input_path, output_path):
                 "color": info["color"],
                 "track_count": sum(1 for s in all_specialties if s["profession"] == prof),
             }
-            for prof, info in PROFESSIONS.items()
+            for prof, info in cfg["professions"].items()
         },
+        "careers": careers,
         "categories": [
             {
                 "id": cat["id"],
@@ -457,13 +376,14 @@ def process(input_path, output_path):
         "scenario_profiles": scenario_profiles,
         "tracks": tracks,
         "finalists": {
-            "ranking": FINAL_RANKING,
+            "ranking": final_ranking,
             "net_worth_trajectory": net_worth,
             "radar_dimensions": radar_data,
             "stress_test": stress_data,
             "money_data": money_data,
             "timeline_data": timeline_data,
-            "decision_tree": DECISION_TREE,
+            "decision_tree": decision_tree,
+            "decision_tree_results": decision_tree_results,
         },
     }
 
@@ -479,43 +399,52 @@ def process(input_path, output_path):
 
 
 def validate(json_path):
-    """validate the output json against expected values"""
+    """validate the output json against expected values from the family config"""
     print(f"validating {json_path}...")
     with open(json_path) as f:
         data = json.load(f)
 
     errors = []
 
-    # check track count
-    if data["meta"]["total_tracks"] != 42:
-        errors.append(f"expected 42 tracks, got {data['meta']['total_tracks']}")
+    family = data["meta"]["profession_family"]
+    try:
+        cfg = load_family_config(family)
+    except FileNotFoundError:
+        print(f"  warning: no config found for '{family}', using basic validation")
+        cfg = None
 
-    if data["meta"]["finalists"] != 6:
-        errors.append(f"expected 6 finalists, got {data['meta']['finalists']}")
+    # check finalist count
+    if cfg:
+        expected_finalists = len(cfg["finalists"])
+        if data["meta"]["finalists"] != expected_finalists:
+            errors.append(f"expected {expected_finalists} finalists, got {data['meta']['finalists']}")
 
-    # check a few known values from the reference data
-    # mohs should have startSalary=450, peakSalary=1000
-    mohs = next((t for t in data["tracks"] if t.get("finalist_key") == "mohs"), None)
-    if mohs:
-        if mohs["raw_data"]["startSalary"] != 450:
-            errors.append(f"mohs startSalary: expected 450, got {mohs['raw_data']['startSalary']}")
-        if mohs["raw_data"]["peakSalary"] != 1000:
-            errors.append(f"mohs peakSalary: expected 1000, got {mohs['raw_data']['peakSalary']}")
+        # check all finalist keys are present
+        for name, info in cfg["finalists"].items():
+            key = info["key"]
+            found = any(t.get("finalist_key") == key for t in data["tracks"])
+            if not found:
+                errors.append(f"finalist '{key}' ({name}) not found in tracks")
     else:
-        errors.append("mohs finalist not found")
+        # fallback: basic checks
+        if data["meta"]["finalists"] < 1:
+            errors.append("no finalists found")
 
-    # check net worth trajectory
-    if len(data["finalists"]["net_worth_trajectory"]) != 10:
-        errors.append(f"expected 10 net worth points, got {len(data['finalists']['net_worth_trajectory'])}")
+    # check we have tracks
+    if data["meta"]["total_tracks"] < 1:
+        errors.append("no tracks found")
 
-    # check the age-65 values
-    last_point = data["finalists"]["net_worth_trajectory"][-1]
-    if last_point.get("mohs") != 22376:
-        errors.append(f"mohs net worth at 65: expected 22376, got {last_point.get('mohs')}")
+    # check net worth trajectory exists
+    if len(data["finalists"]["net_worth_trajectory"]) < 1:
+        errors.append("no net worth trajectory data")
 
-    # check stress test
-    if len(data["finalists"]["stress_test"]) != 6:
-        errors.append(f"expected 6 stress test entries, got {len(data['finalists']['stress_test'])}")
+    # check stress test exists
+    if len(data["finalists"]["stress_test"]) < 1:
+        errors.append("no stress test data")
+
+    # check careers array exists
+    if "careers" not in data or len(data["careers"]) < 1:
+        errors.append("no careers array in output")
 
     if errors:
         print(f"\nFAILED — {len(errors)} errors:")
@@ -529,16 +458,32 @@ def validate(json_path):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="crossrd data pipeline")
-    parser.add_argument("--input", help="path to the excel workbook")
-    parser.add_argument("--output", help="path for the output json")
+    parser.add_argument("--family", help="profession family slug (e.g. healthcare)")
+    parser.add_argument("--all", action="store_true", help="process all registered families")
+    parser.add_argument("--input", help="path to the excel workbook (overrides family config)")
+    parser.add_argument("--output", help="path for the output json (overrides family config)")
     parser.add_argument("--validate", help="validate an existing json file")
     args = parser.parse_args()
 
     if args.validate:
         ok = validate(args.validate)
         sys.exit(0 if ok else 1)
+    elif args.all:
+        families = list_families()
+        if not families:
+            print("no families found (no data/*/config.yaml files)")
+            sys.exit(1)
+        print(f"processing {len(families)} families: {', '.join(families)}")
+        for fam in families:
+            process(fam)
+    elif args.family:
+        process(args.family, args.input, args.output)
     elif args.input and args.output:
-        process(args.input, args.output)
+        # backwards compat: if --input and --output given without --family,
+        # try to guess the family from the input path
+        input_path = Path(args.input)
+        family_slug = input_path.parent.name
+        process(family_slug, args.input, args.output)
     else:
         parser.print_help()
         sys.exit(1)

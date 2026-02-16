@@ -3,7 +3,7 @@
 // then shows the official final ranking underneath.
 
 import { useState } from "react";
-import { CAREERS, styles } from "../styles/theme";
+import { styles } from "../styles/theme";
 
 // rank emojis for the final table (positions 1-3 get medals)
 const RANK_EMOJI = { 1: "🥇", 2: "🥈", 3: "🥉" };
@@ -16,7 +16,7 @@ const RANK_EMOJI = { 1: "🥇", 2: "🥈", 3: "🥉" };
 //
 // each "node" in our local state is { q, emoji, options[], yes/no } or { result }
 
-function buildTree(raw) {
+function buildTree(raw, results) {
   // level 1
   return {
     q: raw.q,
@@ -27,30 +27,27 @@ function buildTree(raw) {
       yes: {
         q: raw.yes.yes.q,
         emoji: "🔬",
-        // "Same procedure all day" → mohs, "many different problems" → derm
-        yes: { result: raw.yes.yes.procedural, tagline: "Top earner, elite lifestyle", stat: "$900K/yr peak \u2022 $22M lifetime" },
-        no: { result: raw.yes.yes.variety, tagline: "Best all-around pick", stat: "$700K/yr peak \u2022 #1 recommendation" },
+        // "Same procedure all day" → procedural, "many different problems" → variety
+        yes: { result: raw.yes.yes.procedural, ...results[raw.yes.yes.procedural] },
+        no: { result: raw.yes.yes.variety, ...results[raw.yes.yes.variety] },
       },
-      no: { result: raw.yes.no, tagline: "Most realistic MD dream", stat: "$800K/yr peak \u2022 85% satisfaction" },
+      no: { result: raw.yes.no, ...results[raw.yes.no] },
     },
     no: {
       q: raw.no.q,
       emoji: "🎯",
       // three-way choice rendered as labeled buttons
-      options: raw.no.options.map((opt) => {
-        const taglines = {
-          pod: { tagline: "Guaranteed surgical career", stat: "$500K/yr peak \u2022 Practicing at 29" },
-          sport: { tagline: "Best work-life balance", stat: "$350K/yr peak \u2022 40 hrs/wk" },
-          wound: { tagline: "Highest job demand", stat: "$400K/yr peak \u2022 Diabetes = job security" },
-        };
-        return { label: opt.label, result: opt.result, ...taglines[opt.result] };
-      }),
+      options: raw.no.options.map((opt) => ({
+        label: opt.label,
+        result: opt.result,
+        ...results[opt.result],
+      })),
     },
   };
 }
 
-export default function DecisionTree({ decisionTree, ranking }) {
-  const tree = buildTree(decisionTree);
+export default function DecisionTree({ decisionTree, decisionTreeResults, ranking, careers }) {
+  const tree = buildTree(decisionTree, decisionTreeResults);
 
   // path stores each choice the user made so we can replay it
   // each entry is either a string key ("yes"/"no") or a number (option index)
@@ -71,7 +68,7 @@ export default function DecisionTree({ decisionTree, ranking }) {
   }
 
   const isResult = current?.result != null;
-  const rc = isResult ? CAREERS.find((c) => c.key === current.result) : null;
+  const rc = isResult ? careers.find((c) => c.key === current.result) : null;
 
   // button style helper
   const btnStyle = (color) => ({
@@ -282,7 +279,7 @@ export default function DecisionTree({ decisionTree, ranking }) {
         </h3>
 
         {ranking.map((r) => {
-          const career = CAREERS.find((x) => x.key === r.key);
+          const career = careers.find((x) => x.key === r.key);
           return (
             <div
               key={r.key}

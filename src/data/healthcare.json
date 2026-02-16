@@ -1,6 +1,10 @@
 {
   "meta": {
     "profession_family": "healthcare",
+    "family_name": "Healthcare",
+    "headline": "Which Doctor Should You Become?",
+    "subtitle": "A Data-Driven Guide",
+    "icon": "\ud83e\ude7a",
     "last_updated": "2026-02-15",
     "total_tracks": 42,
     "finalists": 6,
@@ -29,6 +33,44 @@
       "track_count": 3
     }
   },
+  "careers": [
+    {
+      "key": "mohs",
+      "name": "Skin Cancer Surgeon",
+      "color": "#D4A537",
+      "path": "Medical Doctor"
+    },
+    {
+      "key": "derm",
+      "name": "Skin Doctor",
+      "color": "#E8685E",
+      "path": "Medical Doctor"
+    },
+    {
+      "key": "eye",
+      "name": "Eye Surgeon",
+      "color": "#2BA5B5",
+      "path": "Medical Doctor"
+    },
+    {
+      "key": "pod",
+      "name": "Foot & Ankle Surgeon",
+      "color": "#2D3A6E",
+      "path": "Foot Doctor"
+    },
+    {
+      "key": "sport",
+      "name": "Sports Foot Doctor",
+      "color": "#3EA66B",
+      "path": "Foot Doctor"
+    },
+    {
+      "key": "wound",
+      "name": "Wound Healing Doctor",
+      "color": "#8B6CAE",
+      "path": "Foot Doctor"
+    }
+  ],
   "categories": [
     {
       "id": 1,
@@ -1396,12 +1438,12 @@
       {
         "dim": "Safety Net",
         "emoji": "\ud83d\udee1\ufe0f",
-        "mohs": 5,
-        "derm": 5,
-        "eye": 5,
-        "pod": 5,
-        "sport": 5,
-        "wound": 5
+        "mohs": 5.0,
+        "derm": 5.0,
+        "eye": 5.0,
+        "pod": 5.0,
+        "sport": 5.0,
+        "wound": 5.0
       }
     ],
     "stress_test": [
@@ -1635,6 +1677,32 @@
             "result": "wound"
           }
         ]
+      }
+    },
+    "decision_tree_results": {
+      "mohs": {
+        "tagline": "Top earner, elite lifestyle",
+        "stat": "$900K/yr peak \u2022 $22M lifetime"
+      },
+      "derm": {
+        "tagline": "Best all-around pick",
+        "stat": "$700K/yr peak \u2022 #1 recommendation"
+      },
+      "eye": {
+        "tagline": "Most realistic MD dream",
+        "stat": "$800K/yr peak \u2022 85% satisfaction"
+      },
+      "pod": {
+        "tagline": "Guaranteed surgical career",
+        "stat": "$500K/yr peak \u2022 Practicing at 29"
+      },
+      "sport": {
+        "tagline": "Best work-life balance",
+        "stat": "$350K/yr peak \u2022 40 hrs/wk"
+      },
+      "wound": {
+        "tagline": "Highest job demand",
+        "stat": "$400K/yr peak \u2022 Diabetes = job security"
       }
     }
   }
