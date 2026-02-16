@@ -1,0 +1,121 @@
+# DPM specialty raw data — full 38 columns
+profession: DPM
+specialties:
+- name: Podiatric Surgery (Foot & Ankle)
+  residencyYears: 3
+  matchComp: 7
+  startSalary: 220
+  midSalary: 320
+  peakSalary: 500
+  partTimeFlex: 4
+  procedureMix: 8
+  callSchedule: 5
+  adminBurden: 5
+  hoursWeek: 48
+  burnout: 35
+  partTimeFeasibility: 5
+  vacation: 4
+  careerLongevity: 6
+  malpracticeFreq: 4
+  malpracticeCost: 18
+  geographicFlex: 7
+  automationRisk: 8
+  handsOnInsulation: 9
+  satisfaction: 72
+  chooseAgain: 65
+  intellectualStim: 6
+  varietyRepetition: 6
+  patientImpact: 7
+  physicalToll: 5
+  emotionalToll: 5
+  malpracticeLiability: 4
+  injuryCareerRisk: 3
+  fellowshipOptions: Optional 1yr (reconstructive, trauma)
+  compModel: Private practice or employed; some hospital-based
+  revPerPatientVisit: Moderate-high ($500-10K/case)
+  dailyWorkflow: OR 2-4 cases/day (bunions, hammertoes, fractures, reconstruction),
+    clinic
+  patientVolume: 12-20
+  supportStaffModel: Surgical tech, assistant, clinic MAs
+  geographicDemandNotes: Good demand; especially with diabetes prevalence
+  telehealthPotential: 2
+  genderDistribution: ~25% women
+- name: Sports Medicine / Biomechanics
+  residencyYears: 3
+  matchComp: 8
+  startSalary: 160
+  midSalary: 220
+  peakSalary: 350
+  partTimeFlex: 6
+  procedureMix: 3
+  callSchedule: 9
+  adminBurden: 5
+  hoursWeek: 40
+  burnout: 25
+  partTimeFeasibility: 7
+  vacation: 5
+  careerLongevity: 8
+  malpracticeFreq: 8
+  malpracticeCost: 8
+  geographicFlex: 7
+  automationRisk: 5
+  handsOnInsulation: 5
+  satisfaction: 70
+  chooseAgain: 62
+  intellectualStim: 5
+  varietyRepetition: 5
+  patientImpact: 5
+  physicalToll: 7
+  emotionalToll: 7
+  malpracticeLiability: 8
+  injuryCareerRisk: 7
+  fellowshipOptions: Optional 1yr sports/biomechanics
+  compModel: Private practice; some team contracts; orthotics revenue
+  revPerPatientVisit: Lower ($100-400 per visit); orthotic sales supplement
+  dailyWorkflow: 'Clinic: biomechanical evals, orthotics fitting, gait analysis, minor
+    procedures'
+  patientVolume: 15-25
+  supportStaffModel: MA, orthotics tech, front desk
+  geographicDemandNotes: Moderate; sports markets better; competition with PT/ortho
+  telehealthPotential: 4
+  genderDistribution: ~30% women
+- name: Wound Care / Diabetic Limb Salvage
+  residencyYears: 3
+  matchComp: 8
+  startSalary: 200
+  midSalary: 280
+  peakSalary: 400
+  partTimeFlex: 5
+  procedureMix: 6
+  callSchedule: 6
+  adminBurden: 4
+  hoursWeek: 45
+  burnout: 35
+  partTimeFeasibility: 5
+  vacation: 4
+  careerLongevity: 7
+  malpracticeFreq: 4
+  malpracticeCost: 15
+  geographicFlex: 7
+  automationRisk: 7
+  handsOnInsulation: 8
+  satisfaction: 68
+  chooseAgain: 60
+  intellectualStim: 5
+  varietyRepetition: 4
+  patientImpact: 8
+  physicalToll: 5
+  emotionalToll: 4
+  malpracticeLiability: 4
+  injuryCareerRisk: 5
+  fellowshipOptions: Optional wound care certification
+  compModel: Employed (hospital/health system) or private; some wound care centers
+  revPerPatientVisit: Moderate ($150-2K; surgical debridements higher)
+  dailyWorkflow: Wound debridements, offloading, vascular assessments, clinic, OR
+    for salvage
+  patientVolume: 15-25
+  supportStaffModel: Wound care nurses, MAs, hyperbaric techs
+  geographicDemandNotes: High demand; diabetes epidemic driving need; underserved
+    areas
+  telehealthPotential: 4
+  genderDistribution: ~30% women

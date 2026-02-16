@@ -8,16 +8,7 @@ import { styles } from "../styles/theme";
 // rank emojis for the final table (positions 1-3 get medals)
 const RANK_EMOJI = { 1: "🥇", 2: "🥈", 3: "🥉" };
 
-// the tree in the JSON has a slightly different shape than the reference JSX;
-// we translate it on the fly into the same interactive flow:
-//
-//   Q1: "12+ years?" → yes → Q2 → yes → Q3 (procedural vs variety)
-//                     → no  → 3 option buttons (pod/sport/wound)
-//
-// each "node" in our local state is { q, emoji, options[], yes/no } or { result }
-
 function buildTree(raw, results) {
-  // level 1
   return {
     q: raw.q,
     emoji: "❓",
@@ -27,7 +18,6 @@ function buildTree(raw, results) {
       yes: {
         q: raw.yes.yes.q,
         emoji: "🔬",
-        // "Same procedure all day" → procedural, "many different problems" → variety
         yes: { result: raw.yes.yes.procedural, ...results[raw.yes.yes.procedural] },
         no: { result: raw.yes.yes.variety, ...results[raw.yes.yes.variety] },
       },
@@ -36,7 +26,6 @@ function buildTree(raw, results) {
     no: {
       q: raw.no.q,
       emoji: "🎯",
-      // three-way choice rendered as labeled buttons
       options: raw.no.options.map((opt) => ({
         label: opt.label,
         result: opt.result,
@@ -46,11 +35,9 @@ function buildTree(raw, results) {
   };
 }
 
-export default function DecisionTree({ decisionTree, decisionTreeResults, ranking, careers }) {
+export default function DecisionTree({ decisionTree, decisionTreeResults, ranking, allCareers }) {
   const tree = buildTree(decisionTree, decisionTreeResults);
 
-  // path stores each choice the user made so we can replay it
-  // each entry is either a string key ("yes"/"no") or a number (option index)
   const [path, setPath] = useState([]);
 
   const navigate = (choice) => setPath((prev) => [...prev, choice]);
@@ -60,7 +47,6 @@ export default function DecisionTree({ decisionTree, decisionTreeResults, rankin
   let current = tree;
   for (const step of path) {
     if (typeof step === "number") {
-      // step is an index into the options array
       current = current.options[step];
     } else {
       current = current[step];
@@ -68,9 +54,8 @@ export default function DecisionTree({ decisionTree, decisionTreeResults, rankin
   }
 
   const isResult = current?.result != null;
-  const rc = isResult ? careers.find((c) => c.key === current.result) : null;
+  const rc = isResult ? allCareers.find((c) => c.key === current.result) : null;
 
-  // button style helper
   const btnStyle = (color) => ({
     fontFamily: "'DM Sans', sans-serif",
     fontSize: 14,
@@ -86,7 +71,7 @@ export default function DecisionTree({ decisionTree, decisionTreeResults, rankin
 
   return (
     <div style={{ padding: "12px 8px" }}>
-      <h2 style={styles.header}>🌳 The Final Answer</h2>
+      <h2 style={styles.header}>The Final Answer</h2>
       <p style={styles.subtitle}>Answer a few questions to find your best career</p>
 
       {/* progress dots */}
@@ -111,7 +96,7 @@ export default function DecisionTree({ decisionTree, decisionTreeResults, rankin
         ))}
       </div>
 
-      {/* ── question card ── */}
+      {/* question card */}
       {!isResult ? (
         <div
           style={{
@@ -147,7 +132,6 @@ export default function DecisionTree({ decisionTree, decisionTreeResults, rankin
               margin: "0 auto",
             }}
           >
-            {/* three-option branch (the "What matters most?" question) */}
             {current.options ? (
               current.options.map((opt, i) => (
                 <button
@@ -161,20 +145,19 @@ export default function DecisionTree({ decisionTree, decisionTreeResults, rankin
                 </button>
               ))
             ) : (
-              /* standard yes / no branch */
               <>
                 <button onClick={() => navigate("yes")} style={btnStyle("#2e7d32")}>
-                  ✅ Yes!
+                  Yes!
                 </button>
                 <button onClick={() => navigate("no")} style={btnStyle("#c62828")}>
-                  ❌ Nope
+                  Nope
                 </button>
               </>
             )}
           </div>
         </div>
       ) : (
-        /* ── result card ── */
+        /* result card */
         <div
           style={{
             background: `linear-gradient(135deg, ${rc.color}15, ${rc.color}08)`,
@@ -252,11 +235,11 @@ export default function DecisionTree({ decisionTree, decisionTreeResults, rankin
             color: "#666",
           }}
         >
-          🔄 Start Over
+          Start Over
         </button>
       </div>
 
-      {/* ── final ranking table ── */}
+      {/* final ranking table */}
       <div
         style={{
           marginTop: 24,
@@ -275,11 +258,11 @@ export default function DecisionTree({ decisionTree, decisionTreeResults, rankin
             margin: "0 0 10px",
           }}
         >
-          📊 Official Final Ranking
+          Official Final Ranking
         </h3>
 
         {ranking.map((r) => {
-          const career = careers.find((x) => x.key === r.key);
+          const career = allCareers.find((x) => x.key === r.key);
           return (
             <div
               key={r.key}
@@ -301,12 +284,12 @@ export default function DecisionTree({ decisionTree, decisionTreeResults, rankin
                   fontFamily: "'DM Sans', sans-serif",
                   fontSize: 12,
                   fontWeight: 700,
-                  color: career.color,
+                  color: career?.color || "#555",
                   width: 120,
                   flexShrink: 0,
                 }}
               >
-                {career.name}
+                {career?.name || r.track}
               </span>
               <span
                 style={{

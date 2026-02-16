@@ -1,0 +1,1745 @@
+# MD/DO specialty raw data — full 38 columns
+profession: MD/DO
+specialties:
+- name: General Surgery
+  residencyYears: 5
+  matchComp: 4
+  startSalary: 380
+  midSalary: 450
+  peakSalary: 600
+  partTimeFlex: 3
+  procedureMix: 8
+  callSchedule: 2
+  adminBurden: 4
+  hoursWeek: 60
+  burnout: 52
+  partTimeFeasibility: 3
+  vacation: 4
+  careerLongevity: 5
+  malpracticeFreq: 3
+  malpracticeCost: 50
+  geographicFlex: 7
+  automationRisk: 8
+  handsOnInsulation: 9
+  satisfaction: 70
+  chooseAgain: 65
+  intellectualStim: 7
+  varietyRepetition: 8
+  patientImpact: 9
+  physicalToll: 4
+  emotionalToll: 3
+  malpracticeLiability: 3
+  injuryCareerRisk: 3
+  fellowshipOptions: Optional 1-2yr (trauma, MIS, surgical onc)
+  compModel: Employed salary + RVU bonus; some private group
+  revPerPatientVisit: High ($2K-10K/case)
+  dailyWorkflow: OR 2-4 cases/day, clinic 1-2 days/wk, rounds AM
+  patientVolume: 8-15
+  supportStaffModel: OR team (scrub tech, circulator, anesthesia), 1-2 PAs/NPs
+  geographicDemandNotes: Strong rural demand; urban competitive
+  telehealthPotential: 2
+  genderDistribution: ~22% women; increasing slowly
+- name: Orthopedic Surgery
+  residencyYears: 5
+  matchComp: 2
+  startSalary: 500
+  midSalary: 620
+  peakSalary: 900
+  partTimeFlex: 3
+  procedureMix: 9
+  callSchedule: 3
+  adminBurden: 5
+  hoursWeek: 55
+  burnout: 42
+  partTimeFeasibility: 4
+  vacation: 5
+  careerLongevity: 5
+  malpracticeFreq: 4
+  malpracticeCost: 45
+  geographicFlex: 7
+  automationRisk: 9
+  handsOnInsulation: 10
+  satisfaction: 78
+  chooseAgain: 75
+  intellectualStim: 7
+  varietyRepetition: 7
+  patientImpact: 8
+  physicalToll: 3
+  emotionalToll: 5
+  malpracticeLiability: 3
+  injuryCareerRisk: 2
+  fellowshipOptions: Common 1yr (sports, spine, hand, trauma, joints)
+  compModel: RVU-heavy; employed or private group
+  revPerPatientVisit: Very high ($3K-20K/case)
+  dailyWorkflow: OR 3-5 cases/day, clinic 1-2 days/wk
+  patientVolume: 10-20
+  supportStaffModel: OR team, PA/NP, cast techs, athletic trainers
+  geographicDemandNotes: High demand everywhere; rural especially
+  telehealthPotential: 2
+  genderDistribution: ~7% women; slowest to diversify
+- name: Neurosurgery
+  residencyYears: 7
+  matchComp: 1
+  startSalary: 600
+  midSalary: 780
+  peakSalary: 1200
+  partTimeFlex: 2
+  procedureMix: 9
+  callSchedule: 1
+  adminBurden: 3
+  hoursWeek: 65
+  burnout: 57
+  partTimeFeasibility: 2
+  vacation: 3
+  careerLongevity: 4
+  malpracticeFreq: 2
+  malpracticeCost: 80
+  geographicFlex: 5
+  automationRisk: 9
+  handsOnInsulation: 10
+  satisfaction: 75
+  chooseAgain: 70
+  intellectualStim: 10
+  varietyRepetition: 8
+  patientImpact: 10
+  physicalToll: 3
+  emotionalToll: 2
+  malpracticeLiability: 1
+  injuryCareerRisk: 2
+  fellowshipOptions: Common 1-2yr (spine, pediatric, vascular, skull base)
+  compModel: High RVU; employed or academic
+  revPerPatientVisit: Very high ($5K-50K/case)
+  dailyWorkflow: OR 1-3 complex cases/day, clinic, consults, ICU rounds
+  patientVolume: 5-12
+  supportStaffModel: Large OR team, NPs, PAs, fellows, residents
+  geographicDemandNotes: Urban/academic centers; some regional need
+  telehealthPotential: 2
+  genderDistribution: ~10% women; slowly increasing
+- name: Cardiothoracic Surgery
+  residencyYears: 5+2 or 6 (I6)
+  matchComp: 2
+  startSalary: 500
+  midSalary: 650
+  peakSalary: 900
+  partTimeFlex: 2
+  procedureMix: 9
+  callSchedule: 1
+  adminBurden: 3
+  hoursWeek: 65
+  burnout: 55
+  partTimeFeasibility: 2
+  vacation: 3
+  careerLongevity: 4
+  malpracticeFreq: 2
+  malpracticeCost: 90
+  geographicFlex: 4
+  automationRisk: 8
+  handsOnInsulation: 10
+  satisfaction: 72
+  chooseAgain: 68
+  intellectualStim: 9
+  varietyRepetition: 6
+  patientImpact: 10
+  physicalToll: 3
+  emotionalToll: 2
+  malpracticeLiability: 1
+  injuryCareerRisk: 2
+  fellowshipOptions: Integrated 6yr or traditional 5+2-3yr
+  compModel: Employed salary; some hybrid RVU
+  revPerPatientVisit: Very high ($5K-40K/case)
+  dailyWorkflow: OR 1-2 complex cases/day, ICU mgmt, clinic
+  patientVolume: 4-10
+  supportStaffModel: Large cardiac OR team, perfusionists, ICU team
+  geographicDemandNotes: Major medical centers; declining open-heart volume
+  telehealthPotential: 1
+  genderDistribution: ~5% women; one of lowest
+- name: Vascular Surgery
+  residencyYears: 5+2 or 5 (integrated)
+  matchComp: 3
+  startSalary: 420
+  midSalary: 530
+  peakSalary: 700
+  partTimeFlex: 3
+  procedureMix: 8
+  callSchedule: 2
+  adminBurden: 4
+  hoursWeek: 58
+  burnout: 48
+  partTimeFeasibility: 3
+  vacation: 4
+  careerLongevity: 5
+  malpracticeFreq: 3
+  malpracticeCost: 55
+  geographicFlex: 6
+  automationRisk: 8
+  handsOnInsulation: 9
+  satisfaction: 73
+  chooseAgain: 68
+  intellectualStim: 8
+  varietyRepetition: 8
+  patientImpact: 9
+  physicalToll: 4
+  emotionalToll: 3
+  malpracticeLiability: 2
+  injuryCareerRisk: 3
+  fellowshipOptions: Integrated 5yr or 5+2yr traditional
+  compModel: Employed + RVU; growing endovascular
+  revPerPatientVisit: High ($3K-25K/case)
+  dailyWorkflow: Mix of OR and endovascular suite, clinic, wound care
+  patientVolume: 8-15
+  supportStaffModel: OR/hybrid suite team, vascular lab techs
+  geographicDemandNotes: Broad demand; aging population driving growth
+  telehealthPotential: 2
+  genderDistribution: ~15% women; growing
+- name: Plastic & Reconstructive Surgery
+  residencyYears: 6 (integrated) or 5+3
+  matchComp: 1
+  startSalary: 400
+  midSalary: 500
+  peakSalary: 1000
+  partTimeFlex: 6
+  procedureMix: 8
+  callSchedule: 5
+  adminBurden: 5
+  hoursWeek: 50
+  burnout: 35
+  partTimeFeasibility: 7
+  vacation: 5
+  careerLongevity: 7
+  malpracticeFreq: 4
+  malpracticeCost: 40
+  geographicFlex: 6
+  automationRisk: 8
+  handsOnInsulation: 9
+  satisfaction: 82
+  chooseAgain: 80
+  intellectualStim: 8
+  varietyRepetition: 9
+  patientImpact: 8
+  physicalToll: 5
+  emotionalToll: 5
+  malpracticeLiability: 4
+  injuryCareerRisk: 3
+  fellowshipOptions: Optional 1yr (hand, craniofacial, microsurgery, aesthetics)
+  compModel: Private practice heavy; cash-pay aesthetics + insurance recon
+  revPerPatientVisit: Variable ($500 Botox to $20K surgery)
+  dailyWorkflow: Mix of OR (recon+cosmetic), clinic consults, injectables
+  patientVolume: 10-20
+  supportStaffModel: OR team, aestheticians, clinic nurses, front office
+  geographicDemandNotes: Urban/suburban; cosmetic demand in affluent areas
+  telehealthPotential: 3
+  genderDistribution: ~38% women; one of most diverse surgical fields
+- name: Trauma / Acute Care Surgery
+  residencyYears: 5
+  matchComp: 4
+  startSalary: 380
+  midSalary: 430
+  peakSalary: 550
+  partTimeFlex: 2
+  procedureMix: 8
+  callSchedule: 1
+  adminBurden: 4
+  hoursWeek: 60
+  burnout: 60
+  partTimeFeasibility: 2
+  vacation: 4
+  careerLongevity: 4
+  malpracticeFreq: 2
+  malpracticeCost: 60
+  geographicFlex: 6
+  automationRisk: 9
+  handsOnInsulation: 10
+  satisfaction: 68
+  chooseAgain: 60
+  intellectualStim: 8
+  varietyRepetition: 9
+  patientImpact: 10
+  physicalToll: 3
+  emotionalToll: 1
+  malpracticeLiability: 2
+  injuryCareerRisk: 3
+  fellowshipOptions: 1-2yr acute care/trauma fellowship
+  compModel: Employed; often academic/hospital-based
+  revPerPatientVisit: High per case but unpredictable volume
+  dailyWorkflow: Trauma bay, emergency OR, ICU management, scheduled cases
+  patientVolume: 8-20 (variable)
+  supportStaffModel: Large trauma team, residents, ER staff
+  geographicDemandNotes: Level I/II trauma centers; mostly urban
+  telehealthPotential: 1
+  genderDistribution: ~20% women
+- name: Transplant Surgery
+  residencyYears: 5
+  matchComp: 3
+  startSalary: 400
+  midSalary: 480
+  peakSalary: 600
+  partTimeFlex: 1
+  procedureMix: 8
+  callSchedule: 1
+  adminBurden: 4
+  hoursWeek: 65
+  burnout: 55
+  partTimeFeasibility: 1
+  vacation: 3
+  careerLongevity: 4
+  malpracticeFreq: 3
+  malpracticeCost: 55
+  geographicFlex: 3
+  automationRisk: 9
+  handsOnInsulation: 10
+  satisfaction: 75
+  chooseAgain: 70
+  intellectualStim: 9
+  varietyRepetition: 7
+  patientImpact: 10
+  physicalToll: 3
+  emotionalToll: 2
+  malpracticeLiability: 2
+  injuryCareerRisk: 3
+  fellowshipOptions: 2yr transplant fellowship
+  compModel: Employed; academic/large hospital systems
+  revPerPatientVisit: Very high per case ($30K-80K)
+  dailyWorkflow: Scheduled transplants, donor OR, clinic follow-up, on-call procurement
+  patientVolume: 3-8
+  supportStaffModel: Transplant coordinators, OR team, immunology team
+  geographicDemandNotes: Major transplant centers only; ~250 programs in US
+  telehealthPotential: 1
+  genderDistribution: ~18% women
+- name: Pediatric Surgery
+  residencyYears: 5
+  matchComp: 2
+  startSalary: 380
+  midSalary: 450
+  peakSalary: 550
+  partTimeFlex: 2
+  procedureMix: 8
+  callSchedule: 2
+  adminBurden: 4
+  hoursWeek: 58
+  burnout: 45
+  partTimeFeasibility: 3
+  vacation: 4
+  careerLongevity: 5
+  malpracticeFreq: 4
+  malpracticeCost: 45
+  geographicFlex: 4
+  automationRisk: 9
+  handsOnInsulation: 10
+  satisfaction: 80
+  chooseAgain: 76
+  intellectualStim: 8
+  varietyRepetition: 8
+  patientImpact: 10
+  physicalToll: 5
+  emotionalToll: 2
+  malpracticeLiability: 3
+  injuryCareerRisk: 3
+  fellowshipOptions: 2yr pediatric surgery fellowship
+  compModel: Employed; children's hospitals/academic
+  revPerPatientVisit: Moderate-high; payer mix includes Medicaid
+  dailyWorkflow: OR 2-3 cases/day, NICU consults, clinic
+  patientVolume: 8-15
+  supportStaffModel: Pediatric OR/anesthesia team, child life specialists
+  geographicDemandNotes: Children's hospitals; limited number of positions
+  telehealthPotential: 2
+  genderDistribution: ~35% women; one of more balanced surgical fields
+- name: Colorectal Surgery
+  residencyYears: 5
+  matchComp: 5
+  startSalary: 380
+  midSalary: 440
+  peakSalary: 550
+  partTimeFlex: 4
+  procedureMix: 8
+  callSchedule: 4
+  adminBurden: 5
+  hoursWeek: 52
+  burnout: 40
+  partTimeFeasibility: 4
+  vacation: 4
+  careerLongevity: 6
+  malpracticeFreq: 4
+  malpracticeCost: 35
+  geographicFlex: 7
+  automationRisk: 8
+  handsOnInsulation: 9
+  satisfaction: 75
+  chooseAgain: 72
+  intellectualStim: 6
+  varietyRepetition: 6
+  patientImpact: 7
+  physicalToll: 5
+  emotionalToll: 5
+  malpracticeLiability: 4
+  injuryCareerRisk: 3
+  fellowshipOptions: 1yr colorectal fellowship
+  compModel: Employed or group practice; RVU-based
+  revPerPatientVisit: High ($2K-10K/case)
+  dailyWorkflow: OR 2-4 cases/day, clinic, colonoscopies
+  patientVolume: 10-18
+  supportStaffModel: Standard OR team, office nurses
+  geographicDemandNotes: Broad demand; needed in most communities
+  telehealthPotential: 2
+  genderDistribution: ~25% women
+- name: Hand Surgery
+  residencyYears: 5
+  matchComp: 3
+  startSalary: 450
+  midSalary: 550
+  peakSalary: 750
+  partTimeFlex: 5
+  procedureMix: 7
+  callSchedule: 5
+  adminBurden: 5
+  hoursWeek: 50
+  burnout: 35
+  partTimeFeasibility: 6
+  vacation: 5
+  careerLongevity: 6
+  malpracticeFreq: 5
+  malpracticeCost: 30
+  geographicFlex: 7
+  automationRisk: 9
+  handsOnInsulation: 10
+  satisfaction: 80
+  chooseAgain: 78
+  intellectualStim: 7
+  varietyRepetition: 8
+  patientImpact: 8
+  physicalToll: 5
+  emotionalToll: 6
+  malpracticeLiability: 5
+  injuryCareerRisk: 3
+  fellowshipOptions: 1yr hand fellowship (ortho or plastics pathway)
+  compModel: Private group or employed; RVU
+  revPerPatientVisit: High ($1K-15K/case)
+  dailyWorkflow: OR mix (micro to fractures), clinic heavy, splinting
+  patientVolume: 15-25
+  supportStaffModel: OR team, hand therapists, splint techs
+  geographicDemandNotes: Broad demand; every community needs hand coverage
+  telehealthPotential: 3
+  genderDistribution: ~15% women (ortho path); ~35% (plastics path)
+- name: Spine Surgery
+  residencyYears: 5
+  matchComp: 3
+  startSalary: 600
+  midSalary: 750
+  peakSalary: 1100
+  partTimeFlex: 3
+  procedureMix: 9
+  callSchedule: 3
+  adminBurden: 4
+  hoursWeek: 55
+  burnout: 45
+  partTimeFeasibility: 3
+  vacation: 5
+  careerLongevity: 5
+  malpracticeFreq: 2
+  malpracticeCost: 70
+  geographicFlex: 6
+  automationRisk: 8
+  handsOnInsulation: 10
+  satisfaction: 76
+  chooseAgain: 72
+  intellectualStim: 8
+  varietyRepetition: 6
+  patientImpact: 8
+  physicalToll: 3
+  emotionalToll: 4
+  malpracticeLiability: 2
+  injuryCareerRisk: 2
+  fellowshipOptions: 1yr spine fellowship (ortho or neuro pathway)
+  compModel: RVU-heavy; private group or employed
+  revPerPatientVisit: Very high ($10K-80K/case)
+  dailyWorkflow: OR 1-3 complex cases/day, clinic, imaging review
+  patientVolume: 8-15
+  supportStaffModel: Specialized OR team, neuromonitoring techs, PAs
+  geographicDemandNotes: High demand; aging population; urban and suburban
+  telehealthPotential: 2
+  genderDistribution: ~8% women
+- name: Sports Medicine (Surgical)
+  residencyYears: 5
+  matchComp: 2
+  startSalary: 450
+  midSalary: 560
+  peakSalary: 800
+  partTimeFlex: 5
+  procedureMix: 7
+  callSchedule: 5
+  adminBurden: 5
+  hoursWeek: 50
+  burnout: 32
+  partTimeFeasibility: 6
+  vacation: 5
+  careerLongevity: 7
+  malpracticeFreq: 6
+  malpracticeCost: 25
+  geographicFlex: 7
+  automationRisk: 8
+  handsOnInsulation: 9
+  satisfaction: 85
+  chooseAgain: 82
+  intellectualStim: 7
+  varietyRepetition: 7
+  patientImpact: 7
+  physicalToll: 6
+  emotionalToll: 7
+  malpracticeLiability: 6
+  injuryCareerRisk: 3
+  fellowshipOptions: 1yr sports medicine fellowship
+  compModel: Private group heavy; team contracts; RVU
+  revPerPatientVisit: High ($2K-15K/case)
+  dailyWorkflow: Arthroscopy OR, clinic, sideline coverage, injections
+  patientVolume: 15-25
+  supportStaffModel: OR team, athletic trainers, PAs
+  geographicDemandNotes: Broad demand; sports-heavy markets premium
+  telehealthPotential: 3
+  genderDistribution: ~12% women
+- name: Bariatric Surgery
+  residencyYears: 5
+  matchComp: 5
+  startSalary: 380
+  midSalary: 450
+  peakSalary: 600
+  partTimeFlex: 5
+  procedureMix: 8
+  callSchedule: 5
+  adminBurden: 5
+  hoursWeek: 48
+  burnout: 35
+  partTimeFeasibility: 5
+  vacation: 5
+  careerLongevity: 7
+  malpracticeFreq: 5
+  malpracticeCost: 30
+  geographicFlex: 7
+  automationRisk: 7
+  handsOnInsulation: 8
+  satisfaction: 78
+  chooseAgain: 75
+  intellectualStim: 6
+  varietyRepetition: 5
+  patientImpact: 8
+  physicalToll: 6
+  emotionalToll: 6
+  malpracticeLiability: 5
+  injuryCareerRisk: 4
+  fellowshipOptions: 1yr MIS/bariatric fellowship
+  compModel: Employed or group; center-of-excellence model
+  revPerPatientVisit: High ($8K-15K/case)
+  dailyWorkflow: OR 3-5 laparoscopic cases/day, clinic, support groups
+  patientVolume: 10-18
+  supportStaffModel: OR team, bariatric coordinators, dietitians
+  geographicDemandNotes: Growing demand with obesity epidemic; expanding access
+  telehealthPotential: 4
+  genderDistribution: ~30% women
+- name: Interventional Cardiology
+  residencyYears: 3
+  matchComp: 2
+  startSalary: 500
+  midSalary: 650
+  peakSalary: 1000
+  partTimeFlex: 2
+  procedureMix: 9
+  callSchedule: 1
+  adminBurden: 3
+  hoursWeek: 58
+  burnout: 48
+  partTimeFeasibility: 3
+  vacation: 4
+  careerLongevity: 5
+  malpracticeFreq: 3
+  malpracticeCost: 55
+  geographicFlex: 5
+  automationRisk: 7
+  handsOnInsulation: 9
+  satisfaction: 77
+  chooseAgain: 73
+  intellectualStim: 8
+  varietyRepetition: 7
+  patientImpact: 9
+  physicalToll: 4
+  emotionalToll: 3
+  malpracticeLiability: 2
+  injuryCareerRisk: 3
+  fellowshipOptions: 3yr cardiology + 1yr interventional (7yr total PGT)
+  compModel: Employed + RVU; high productivity bonuses
+  revPerPatientVisit: Very high ($5K-30K/case)
+  dailyWorkflow: Cath lab procedures, acute STEMI call, clinic, reading
+  patientVolume: 8-15
+  supportStaffModel: Cath lab team, nurses, techs, NPs for clinic
+  geographicDemandNotes: Strong demand; aging population; rural gaps
+  telehealthPotential: 2
+  genderDistribution: ~10% women in interventional
+- name: Interventional Radiology
+  residencyYears: 5 (integrated) or 5+1-2
+  matchComp: 3
+  startSalary: 400
+  midSalary: 520
+  peakSalary: 700
+  partTimeFlex: 3
+  procedureMix: 9
+  callSchedule: 2
+  adminBurden: 4
+  hoursWeek: 55
+  burnout: 40
+  partTimeFeasibility: 3
+  vacation: 4
+  careerLongevity: 5
+  malpracticeFreq: 4
+  malpracticeCost: 40
+  geographicFlex: 5
+  automationRisk: 7
+  handsOnInsulation: 9
+  satisfaction: 80
+  chooseAgain: 77
+  intellectualStim: 8
+  varietyRepetition: 9
+  patientImpact: 8
+  physicalToll: 4
+  emotionalToll: 5
+  malpracticeLiability: 4
+  injuryCareerRisk: 3
+  fellowshipOptions: Integrated IR residency or DR + IR fellowship
+  compModel: Employed; RVU-based; private group in some markets
+  revPerPatientVisit: High ($2K-15K/procedure)
+  dailyWorkflow: IR suite procedures all day, consults, some clinic
+  patientVolume: 8-15
+  supportStaffModel: IR techs, nurses, PAs
+  geographicDemandNotes: Growing demand; medium-large hospitals
+  telehealthPotential: 2
+  genderDistribution: ~12% women; growing
+- name: Gastroenterology (Endoscopy)
+  residencyYears: 3
+  matchComp: 3
+  startSalary: 400
+  midSalary: 530
+  peakSalary: 750
+  partTimeFlex: 5
+  procedureMix: 7
+  callSchedule: 4
+  adminBurden: 4
+  hoursWeek: 50
+  burnout: 42
+  partTimeFeasibility: 5
+  vacation: 5
+  careerLongevity: 7
+  malpracticeFreq: 5
+  malpracticeCost: 25
+  geographicFlex: 8
+  automationRisk: 6
+  handsOnInsulation: 8
+  satisfaction: 80
+  chooseAgain: 76
+  intellectualStim: 7
+  varietyRepetition: 6
+  patientImpact: 7
+  physicalToll: 6
+  emotionalToll: 6
+  malpracticeLiability: 5
+  injuryCareerRisk: 4
+  fellowshipOptions: 3yr GI fellowship (total 6yr PGT)
+  compModel: Private group or employed; procedure volume driven
+  revPerPatientVisit: High ($1K-5K/procedure)
+  dailyWorkflow: Endoscopy suite AM, clinic PM, hospital consults
+  patientVolume: 15-25
+  supportStaffModel: Endo suite nurses/techs, clinic MA, NP
+  geographicDemandNotes: Very high demand everywhere; CRC screening driving volume
+  telehealthPotential: 4
+  genderDistribution: ~20% women; increasing
+- name: Urology
+  residencyYears: 5-6
+  matchComp: 2
+  startSalary: 400
+  midSalary: 520
+  peakSalary: 700
+  partTimeFlex: 5
+  procedureMix: 8
+  callSchedule: 4
+  adminBurden: 5
+  hoursWeek: 52
+  burnout: 38
+  partTimeFeasibility: 5
+  vacation: 5
+  careerLongevity: 6
+  malpracticeFreq: 5
+  malpracticeCost: 30
+  geographicFlex: 8
+  automationRisk: 7
+  handsOnInsulation: 9
+  satisfaction: 82
+  chooseAgain: 79
+  intellectualStim: 7
+  varietyRepetition: 8
+  patientImpact: 8
+  physicalToll: 5
+  emotionalToll: 6
+  malpracticeLiability: 5
+  injuryCareerRisk: 3
+  fellowshipOptions: Optional 1yr (oncology, pediatric, female pelvic, endourology)
+  compModel: Private group or employed; mix of procedures + clinic
+  revPerPatientVisit: High ($1K-15K/case)
+  dailyWorkflow: OR 2-3 cases, cystoscopies, clinic, robotic cases
+  patientVolume: 15-25
+  supportStaffModel: OR team, clinic nurses/MAs, robotic coordinator
+  geographicDemandNotes: Strong demand; aging male population
+  telehealthPotential: 3
+  genderDistribution: ~12% women; increasing
+- name: OB/GYN
+  residencyYears: 4
+  matchComp: 4
+  startSalary: 310
+  midSalary: 380
+  peakSalary: 500
+  partTimeFlex: 4
+  procedureMix: 7
+  callSchedule: 2
+  adminBurden: 4
+  hoursWeek: 55
+  burnout: 52
+  partTimeFeasibility: 4
+  vacation: 4
+  careerLongevity: 5
+  malpracticeFreq: 2
+  malpracticeCost: 85
+  geographicFlex: 8
+  automationRisk: 7
+  handsOnInsulation: 8
+  satisfaction: 68
+  chooseAgain: 60
+  intellectualStim: 7
+  varietyRepetition: 8
+  patientImpact: 9
+  physicalToll: 4
+  emotionalToll: 3
+  malpracticeLiability: 1
+  injuryCareerRisk: 4
+  fellowshipOptions: Optional 2-3yr (MFM, REI, gyn-onc, urogyn)
+  compModel: Employed; some private; RVU + call pay
+  revPerPatientVisit: Moderate ($500-8K depending on procedure)
+  dailyWorkflow: Clinic + L&D + OR; unpredictable deliveries
+  patientVolume: 15-25
+  supportStaffModel: L&D nurses, clinic MAs, OR team, midwives
+  geographicDemandNotes: High demand everywhere; rural gaps critical
+  telehealthPotential: 4
+  genderDistribution: ~60% women; majority female field
+- name: Ophthalmology
+  residencyYears: 1+3 (intern + 3yr)
+  matchComp: 1
+  startSalary: 350
+  midSalary: 450
+  peakSalary: 800
+  partTimeFlex: 6
+  procedureMix: 7
+  callSchedule: 7
+  adminBurden: 5
+  hoursWeek: 47
+  burnout: 30
+  partTimeFeasibility: 7
+  vacation: 5
+  careerLongevity: 8
+  malpracticeFreq: 6
+  malpracticeCost: 15
+  geographicFlex: 7
+  automationRisk: 6
+  handsOnInsulation: 9
+  satisfaction: 85
+  chooseAgain: 83
+  intellectualStim: 8
+  varietyRepetition: 7
+  patientImpact: 8
+  physicalToll: 6
+  emotionalToll: 7
+  malpracticeLiability: 6
+  injuryCareerRisk: 3
+  fellowshipOptions: Optional 1-2yr (retina, glaucoma, cornea, oculoplastics)
+  compModel: Private practice dominant; procedure-driven revenue
+  revPerPatientVisit: High ($500-5K/procedure)
+  dailyWorkflow: Clinic AM/PM, OR 1-2 days/wk (cataracts, retina, LASIK)
+  patientVolume: 25-40
+  supportStaffModel: Ophthalmic techs, scribes, OR team, opticians
+  geographicDemandNotes: Strong demand; aging population; cataract volume growing
+  telehealthPotential: 3
+  genderDistribution: ~25% women; increasing
+- name: ENT / Otolaryngology
+  residencyYears: 5
+  matchComp: 2
+  startSalary: 380
+  midSalary: 470
+  peakSalary: 650
+  partTimeFlex: 5
+  procedureMix: 7
+  callSchedule: 5
+  adminBurden: 5
+  hoursWeek: 50
+  burnout: 35
+  partTimeFeasibility: 6
+  vacation: 5
+  careerLongevity: 7
+  malpracticeFreq: 5
+  malpracticeCost: 25
+  geographicFlex: 7
+  automationRisk: 8
+  handsOnInsulation: 9
+  satisfaction: 82
+  chooseAgain: 80
+  intellectualStim: 8
+  varietyRepetition: 9
+  patientImpact: 8
+  physicalToll: 6
+  emotionalToll: 6
+  malpracticeLiability: 5
+  injuryCareerRisk: 3
+  fellowshipOptions: Optional 1-2yr (head & neck onc, rhinology, laryngology, otology,
+    peds)
+  compModel: Private group or employed; mix of procedures + clinic
+  revPerPatientVisit: Moderate-high ($500-15K/case)
+  dailyWorkflow: OR 2-3 cases, clinic, in-office procedures, allergy testing
+  patientVolume: 15-25
+  supportStaffModel: OR team, audiologists, clinic nurses, speech therapy
+  geographicDemandNotes: Good demand; broad geographic distribution
+  telehealthPotential: 3
+  genderDistribution: ~18% women; increasing
+- name: Mohs Surgery (Dermatology)
+  residencyYears: 1+3 (intern + 3yr derm)
+  matchComp: 1
+  startSalary: 450
+  midSalary: 600
+  peakSalary: 1000
+  partTimeFlex: 8
+  procedureMix: 9
+  callSchedule: 10
+  adminBurden: 6
+  hoursWeek: 45
+  burnout: 22
+  partTimeFeasibility: 9
+  vacation: 6
+  careerLongevity: 9
+  malpracticeFreq: 8
+  malpracticeCost: 8
+  geographicFlex: 8
+  automationRisk: 6
+  handsOnInsulation: 8
+  satisfaction: 90
+  chooseAgain: 88
+  intellectualStim: 6
+  varietyRepetition: 4
+  patientImpact: 7
+  physicalToll: 7
+  emotionalToll: 8
+  malpracticeLiability: 8
+  injuryCareerRisk: 5
+  fellowshipOptions: 1-2yr Mohs/procedural derm fellowship
+  compModel: Private practice dominant; high volume fee-for-service
+  revPerPatientVisit: High ($1K-3K per Mohs case)
+  dailyWorkflow: Mohs cases all day (5-10 cases), read slides, reconstruct
+  patientVolume: 5-10 Mohs cases
+  supportStaffModel: Mohs histotech, nurses, clinic MAs
+  geographicDemandNotes: High demand; skin cancer rates increasing
+  telehealthPotential: 2
+  genderDistribution: ~40% women in dermatology
+- name: Interventional Pain Medicine
+  residencyYears: 3-4 (anesthesia or PM&R)
+  matchComp: 5
+  startSalary: 350
+  midSalary: 450
+  peakSalary: 650
+  partTimeFlex: 7
+  procedureMix: 7
+  callSchedule: 8
+  adminBurden: 5
+  hoursWeek: 45
+  burnout: 38
+  partTimeFeasibility: 7
+  vacation: 5
+  careerLongevity: 8
+  malpracticeFreq: 6
+  malpracticeCost: 20
+  geographicFlex: 8
+  automationRisk: 6
+  handsOnInsulation: 7
+  satisfaction: 72
+  chooseAgain: 68
+  intellectualStim: 6
+  varietyRepetition: 5
+  patientImpact: 7
+  physicalToll: 6
+  emotionalToll: 4
+  malpracticeLiability: 4
+  injuryCareerRisk: 6
+  fellowshipOptions: 1yr pain fellowship
+  compModel: Private practice or employed; procedure volume driven
+  revPerPatientVisit: Moderate ($500-3K/procedure)
+  dailyWorkflow: Fluoroscopy-guided injections, nerve blocks, clinic evals
+  patientVolume: 15-25
+  supportStaffModel: Fluoro tech, nurses, clinic MAs, psychology team
+  geographicDemandNotes: Very high demand; chronic pain epidemic
+  telehealthPotential: 5
+  genderDistribution: ~25% women
+- name: Pulm / Critical Care
+  residencyYears: 3
+  matchComp: 5
+  startSalary: 350
+  midSalary: 420
+  peakSalary: 550
+  partTimeFlex: 3
+  procedureMix: 6
+  callSchedule: 3
+  adminBurden: 4
+  hoursWeek: 55
+  burnout: 55
+  partTimeFeasibility: 3
+  vacation: 4
+  careerLongevity: 5
+  malpracticeFreq: 4
+  malpracticeCost: 30
+  geographicFlex: 7
+  automationRisk: 6
+  handsOnInsulation: 7
+  satisfaction: 72
+  chooseAgain: 65
+  intellectualStim: 8
+  varietyRepetition: 7
+  patientImpact: 9
+  physicalToll: 4
+  emotionalToll: 2
+  malpracticeLiability: 3
+  injuryCareerRisk: 6
+  fellowshipOptions: 3yr pulm/CC fellowship (6yr total PGT)
+  compModel: Employed; academic or hospital-based; RVU + ICU stipend
+  revPerPatientVisit: Moderate (ICU daily billing + bronchoscopies)
+  dailyWorkflow: ICU weeks on/off, clinic, bronchoscopy, PFT interpretation
+  patientVolume: 10-20 ICU; 15-20 clinic
+  supportStaffModel: ICU nurses, RTs, NPs/PAs, fellows
+  geographicDemandNotes: Very high demand; critical care shortage nationwide
+  telehealthPotential: 5
+  genderDistribution: ~30% women
+- name: Diagnostic Radiology
+  residencyYears: 1+4 (intern + 4yr)
+  matchComp: 4
+  startSalary: 380
+  midSalary: 470
+  peakSalary: 650
+  partTimeFlex: 7
+  procedureMix: 2
+  callSchedule: 5
+  adminBurden: 5
+  hoursWeek: 47
+  burnout: 38
+  partTimeFeasibility: 8
+  vacation: 5
+  careerLongevity: 8
+  malpracticeFreq: 5
+  malpracticeCost: 20
+  geographicFlex: 9
+  automationRisk: 4
+  handsOnInsulation: 3
+  satisfaction: 78
+  chooseAgain: 75
+  intellectualStim: 7
+  varietyRepetition: 6
+  patientImpact: 6
+  physicalToll: 8
+  emotionalToll: 7
+  malpracticeLiability: 5
+  injuryCareerRisk: 9
+  fellowshipOptions: Optional 1-2yr (neuro, MSK, body, breast, nuclear)
+  compModel: Private group or employed; RVU reading volume
+  revPerPatientVisit: Moderate per read ($50-500); high volume
+  dailyWorkflow: Read imaging studies (CT, MRI, XR, US) all day; minimal patient contact
+  patientVolume: 50-100+ reads/day
+  supportStaffModel: Radiology techs, transcriptionists, PAs (for procedures)
+  geographicDemandNotes: Strong demand; teleradiology allows remote work
+  telehealthPotential: 9
+  genderDistribution: ~27% women
+- name: Dermatology (General/Medical)
+  residencyYears: 1+3 (intern + 3yr)
+  matchComp: 1
+  startSalary: 350
+  midSalary: 450
+  peakSalary: 700
+  partTimeFlex: 8
+  procedureMix: 5
+  callSchedule: 9
+  adminBurden: 5
+  hoursWeek: 43
+  burnout: 25
+  partTimeFeasibility: 9
+  vacation: 6
+  careerLongevity: 9
+  malpracticeFreq: 8
+  malpracticeCost: 8
+  geographicFlex: 8
+  automationRisk: 5
+  handsOnInsulation: 6
+  satisfaction: 88
+  chooseAgain: 86
+  intellectualStim: 7
+  varietyRepetition: 6
+  patientImpact: 6
+  physicalToll: 8
+  emotionalToll: 8
+  malpracticeLiability: 8
+  injuryCareerRisk: 8
+  fellowshipOptions: Optional (dermatopath, pediatric derm)
+  compModel: Private practice dominant; cosmetics cash-pay supplement
+  revPerPatientVisit: Moderate clinic ($150-500); cosmetics higher
+  dailyWorkflow: 'High-volume clinic: skin exams, biopsies, cosmetics, follow-ups'
+  patientVolume: 30-50
+  supportStaffModel: MAs, scribes, aestheticians, front desk
+  geographicDemandNotes: Very high demand; huge backlog of referrals
+  telehealthPotential: 6
+  genderDistribution: ~50% women; most gender-balanced specialty
+- name: Anesthesiology
+  residencyYears: 1+3 (intern + 3yr CA)
+  matchComp: 5
+  startSalary: 380
+  midSalary: 430
+  peakSalary: 550
+  partTimeFlex: 5
+  procedureMix: 7
+  callSchedule: 3
+  adminBurden: 6
+  hoursWeek: 50
+  burnout: 45
+  partTimeFeasibility: 6
+  vacation: 5
+  careerLongevity: 6
+  malpracticeFreq: 4
+  malpracticeCost: 30
+  geographicFlex: 8
+  automationRisk: 5
+  handsOnInsulation: 7
+  satisfaction: 73
+  chooseAgain: 68
+  intellectualStim: 6
+  varietyRepetition: 6
+  patientImpact: 7
+  physicalToll: 5
+  emotionalToll: 4
+  malpracticeLiability: 3
+  injuryCareerRisk: 6
+  fellowshipOptions: Optional 1yr (cardiac, peds, pain, regional, neuro, OB)
+  compModel: Employed or group; stipend + call pay; some per-case
+  revPerPatientVisit: Moderate per case ($500-2K); volume dependent
+  dailyWorkflow: 'OR all day: pre-op, induction, maintenance, extubation, PACU'
+  patientVolume: 3-8 cases/day
+  supportStaffModel: CRNAs, anesthesia techs, OR nurses
+  geographicDemandNotes: High demand; CRNA competition in some markets
+  telehealthPotential: 1
+  genderDistribution: ~37% women
+- name: Emergency Medicine
+  residencyYears: 3-4
+  matchComp: 6
+  startSalary: 320
+  midSalary: 370
+  peakSalary: 450
+  partTimeFlex: 6
+  procedureMix: 5
+  callSchedule: 8
+  adminBurden: 3
+  hoursWeek: 42
+  burnout: 60
+  partTimeFeasibility: 7
+  vacation: 5
+  careerLongevity: 4
+  malpracticeFreq: 3
+  malpracticeCost: 40
+  geographicFlex: 9
+  automationRisk: 5
+  handsOnInsulation: 6
+  satisfaction: 55
+  chooseAgain: 48
+  intellectualStim: 7
+  varietyRepetition: 10
+  patientImpact: 8
+  physicalToll: 4
+  emotionalToll: 2
+  malpracticeLiability: 2
+  injuryCareerRisk: 7
+  fellowshipOptions: Optional 1-2yr (toxicology, ultrasound, sports, EMS, peds EM)
+  compModel: Employed; hourly or shift-based; some RVU
+  revPerPatientVisit: Moderate ($200-1K per encounter)
+  dailyWorkflow: 'Shift-based: 8-12hr blocks in ED; see all comers'
+  patientVolume: 18-30 per shift
+  supportStaffModel: ED nurses, techs, scribes, APPs
+  geographicDemandNotes: Mixed; oversupply concerns in some markets, rural shortages
+  telehealthPotential: 4
+  genderDistribution: ~38% women
+- name: Psychiatry
+  residencyYears: 4
+  matchComp: 7
+  startSalary: 270
+  midSalary: 320
+  peakSalary: 450
+  partTimeFlex: 8
+  procedureMix: 1
+  callSchedule: 7
+  adminBurden: 4
+  hoursWeek: 45
+  burnout: 48
+  partTimeFeasibility: 9
+  vacation: 5
+  careerLongevity: 9
+  malpracticeFreq: 7
+  malpracticeCost: 12
+  geographicFlex: 9
+  automationRisk: 5
+  handsOnInsulation: 2
+  satisfaction: 75
+  chooseAgain: 72
+  intellectualStim: 7
+  varietyRepetition: 6
+  patientImpact: 8
+  physicalToll: 9
+  emotionalToll: 3
+  malpracticeLiability: 6
+  injuryCareerRisk: 9
+  fellowshipOptions: Optional 1-2yr (child, forensic, addiction, consult-liaison,
+    geriatric)
+  compModel: Employed or private practice; hourly consult or salary
+  revPerPatientVisit: Low ($100-300 per visit); cash-pay supplement
+  dailyWorkflow: 'Clinic: med management visits, therapy, consults; some inpatient'
+  patientVolume: 12-20 outpatient; 8-15 inpatient
+  supportStaffModel: Clinic MAs, social workers, psychologists, therapists
+  geographicDemandNotes: Massive demand everywhere; worst shortage of any specialty
+  telehealthPotential: 9
+  genderDistribution: ~55% women; majority female
+- name: Internal Medicine (General)
+  residencyYears: 3
+  matchComp: 3
+  startSalary: 260
+  midSalary: 320
+  peakSalary: 385
+  partTimeFlex: 5
+  procedureMix: 2
+  callSchedule: 4
+  adminBurden: 3
+  hoursWeek: 55
+  burnout: 50
+  partTimeFeasibility: 5
+  vacation: 4
+  careerLongevity: 7
+  malpracticeFreq: 5
+  malpracticeCost: 12
+  geographicFlex: 9
+  automationRisk: 6
+  handsOnInsulation: 4
+  satisfaction: 68
+  chooseAgain: 60
+  intellectualStim: 7
+  varietyRepetition: 8
+  patientImpact: 8
+  physicalToll: 3
+  emotionalToll: 5
+  malpracticeLiability: 5
+  injuryCareerRisk: 9
+- name: Family Medicine
+  residencyYears: 3
+  matchComp: 2
+  startSalary: 235
+  midSalary: 275
+  peakSalary: 330
+  partTimeFlex: 7
+  procedureMix: 3
+  callSchedule: 5
+  adminBurden: 3
+  hoursWeek: 47
+  burnout: 51
+  partTimeFeasibility: 7
+  vacation: 4
+  careerLongevity: 8
+  malpracticeFreq: 5
+  malpracticeCost: 10
+  geographicFlex: 10
+  automationRisk: 6
+  handsOnInsulation: 4
+  satisfaction: 65
+  chooseAgain: 58
+  intellectualStim: 6
+  varietyRepetition: 9
+  patientImpact: 8
+  physicalToll: 2
+  emotionalToll: 5
+  malpracticeLiability: 5
+  injuryCareerRisk: 10
+- name: Pediatrics (General)
+  residencyYears: 3
+  matchComp: 3
+  startSalary: 215
+  midSalary: 258
+  peakSalary: 310
+  partTimeFlex: 7
+  procedureMix: 2
+  callSchedule: 4
+  adminBurden: 3
+  hoursWeek: 48
+  burnout: 51
+  partTimeFeasibility: 7
+  vacation: 4
+  careerLongevity: 8
+  malpracticeFreq: 6
+  malpracticeCost: 10
+  geographicFlex: 9
+  automationRisk: 7
+  handsOnInsulation: 4
+  satisfaction: 70
+  chooseAgain: 65
+  intellectualStim: 6
+  varietyRepetition: 7
+  patientImpact: 9
+  physicalToll: 2
+  emotionalToll: 6
+  malpracticeLiability: 6
+  injuryCareerRisk: 10
+- name: Cardiology (Non-interventional)
+  residencyYears: 6
+  matchComp: 9
+  startSalary: 380
+  midSalary: 500
+  peakSalary: 650
+  partTimeFlex: 3
+  procedureMix: 5
+  callSchedule: 7
+  adminBurden: 4
+  hoursWeek: 55
+  burnout: 47
+  partTimeFeasibility: 3
+  vacation: 4
+  careerLongevity: 7
+  malpracticeFreq: 5
+  malpracticeCost: 18
+  geographicFlex: 7
+  automationRisk: 7
+  handsOnInsulation: 6
+  satisfaction: 82
+  chooseAgain: 80
+  intellectualStim: 9
+  varietyRepetition: 7
+  patientImpact: 9
+  physicalToll: 3
+  emotionalToll: 6
+  malpracticeLiability: 5
+  injuryCareerRisk: 9
+- name: Hematology / Oncology
+  residencyYears: 6
+  matchComp: 8
+  startSalary: 340
+  midSalary: 450
+  peakSalary: 580
+  partTimeFlex: 3
+  procedureMix: 3
+  callSchedule: 6
+  adminBurden: 3
+  hoursWeek: 55
+  burnout: 53
+  partTimeFeasibility: 3
+  vacation: 4
+  careerLongevity: 7
+  malpracticeFreq: 5
+  malpracticeCost: 15
+  geographicFlex: 7
+  automationRisk: 7
+  handsOnInsulation: 5
+  satisfaction: 80
+  chooseAgain: 76
+  intellectualStim: 9
+  varietyRepetition: 7
+  patientImpact: 10
+  physicalToll: 2
+  emotionalToll: 9
+  malpracticeLiability: 5
+  injuryCareerRisk: 9
+- name: Nephrology
+  residencyYears: 5
+  matchComp: 4
+  startSalary: 280
+  midSalary: 350
+  peakSalary: 430
+  partTimeFlex: 4
+  procedureMix: 4
+  callSchedule: 7
+  adminBurden: 3
+  hoursWeek: 53
+  burnout: 46
+  partTimeFeasibility: 4
+  vacation: 4
+  careerLongevity: 7
+  malpracticeFreq: 6
+  malpracticeCost: 10
+  geographicFlex: 8
+  automationRisk: 7
+  handsOnInsulation: 5
+  satisfaction: 72
+  chooseAgain: 65
+  intellectualStim: 7
+  varietyRepetition: 5
+  patientImpact: 8
+  physicalToll: 3
+  emotionalToll: 7
+  malpracticeLiability: 6
+  injuryCareerRisk: 9
+- name: Rheumatology
+  residencyYears: 5
+  matchComp: 7
+  startSalary: 260
+  midSalary: 325
+  peakSalary: 400
+  partTimeFlex: 6
+  procedureMix: 3
+  callSchedule: 3
+  adminBurden: 4
+  hoursWeek: 45
+  burnout: 42
+  partTimeFeasibility: 6
+  vacation: 5
+  careerLongevity: 9
+  malpracticeFreq: 8
+  malpracticeCost: 7
+  geographicFlex: 7
+  automationRisk: 7
+  handsOnInsulation: 4
+  satisfaction: 78
+  chooseAgain: 73
+  intellectualStim: 8
+  varietyRepetition: 6
+  patientImpact: 8
+  physicalToll: 2
+  emotionalToll: 5
+  malpracticeLiability: 8
+  injuryCareerRisk: 10
+- name: Endocrinology
+  residencyYears: 5
+  matchComp: 6
+  startSalary: 230
+  midSalary: 290
+  peakSalary: 360
+  partTimeFlex: 7
+  procedureMix: 2
+  callSchedule: 2
+  adminBurden: 4
+  hoursWeek: 44
+  burnout: 44
+  partTimeFeasibility: 7
+  vacation: 5
+  careerLongevity: 9
+  malpracticeFreq: 8
+  malpracticeCost: 6
+  geographicFlex: 7
+  automationRisk: 6
+  handsOnInsulation: 3
+  satisfaction: 75
+  chooseAgain: 70
+  intellectualStim: 7
+  varietyRepetition: 5
+  patientImpact: 8
+  physicalToll: 1
+  emotionalToll: 4
+  malpracticeLiability: 8
+  injuryCareerRisk: 10
+- name: Infectious Disease
+  residencyYears: 5
+  matchComp: 3
+  startSalary: 240
+  midSalary: 300
+  peakSalary: 380
+  partTimeFlex: 5
+  procedureMix: 1
+  callSchedule: 5
+  adminBurden: 4
+  hoursWeek: 48
+  burnout: 45
+  partTimeFeasibility: 5
+  vacation: 4
+  careerLongevity: 8
+  malpracticeFreq: 7
+  malpracticeCost: 7
+  geographicFlex: 8
+  automationRisk: 7
+  handsOnInsulation: 3
+  satisfaction: 82
+  chooseAgain: 72
+  intellectualStim: 9
+  varietyRepetition: 8
+  patientImpact: 8
+  physicalToll: 2
+  emotionalToll: 6
+  malpracticeLiability: 7
+  injuryCareerRisk: 9
+- name: Allergy / Immunology
+  residencyYears: 5
+  matchComp: 7
+  startSalary: 280
+  midSalary: 363
+  peakSalary: 430
+  partTimeFlex: 7
+  procedureMix: 4
+  callSchedule: 2
+  adminBurden: 6
+  hoursWeek: 42
+  burnout: 38
+  partTimeFeasibility: 7
+  vacation: 5
+  careerLongevity: 9
+  malpracticeFreq: 9
+  malpracticeCost: 5
+  geographicFlex: 7
+  automationRisk: 7
+  handsOnInsulation: 5
+  satisfaction: 94
+  chooseAgain: 85
+  intellectualStim: 7
+  varietyRepetition: 6
+  patientImpact: 8
+  physicalToll: 1
+  emotionalToll: 2
+  malpracticeLiability: 9
+  injuryCareerRisk: 10
+- name: Physical Medicine & Rehabilitation
+  residencyYears: 4
+  matchComp: 4
+  startSalary: 270
+  midSalary: 365
+  peakSalary: 450
+  partTimeFlex: 6
+  procedureMix: 5
+  callSchedule: 3
+  adminBurden: 5
+  hoursWeek: 45
+  burnout: 46
+  partTimeFeasibility: 6
+  vacation: 4
+  careerLongevity: 8
+  malpracticeFreq: 7
+  malpracticeCost: 8
+  geographicFlex: 7
+  automationRisk: 8
+  handsOnInsulation: 7
+  satisfaction: 75
+  chooseAgain: 72
+  intellectualStim: 7
+  varietyRepetition: 7
+  patientImpact: 8
+  physicalToll: 3
+  emotionalToll: 4
+  malpracticeLiability: 7
+  injuryCareerRisk: 9
+- name: Radiation Oncology
+  residencyYears: 5
+  matchComp: 5
+  startSalary: 380
+  midSalary: 520
+  peakSalary: 650
+  partTimeFlex: 4
+  procedureMix: 7
+  callSchedule: 3
+  adminBurden: 5
+  hoursWeek: 47
+  burnout: 45
+  partTimeFeasibility: 4
+  vacation: 5
+  careerLongevity: 7
+  malpracticeFreq: 6
+  malpracticeCost: 15
+  geographicFlex: 5
+  automationRisk: 5
+  handsOnInsulation: 6
+  satisfaction: 78
+  chooseAgain: 72
+  intellectualStim: 8
+  varietyRepetition: 5
+  patientImpact: 9
+  physicalToll: 2
+  emotionalToll: 7
+  malpracticeLiability: 6
+  injuryCareerRisk: 9
+- name: Pathology
+  residencyYears: 4
+  matchComp: 3
+  startSalary: 280
+  midSalary: 373
+  peakSalary: 450
+  partTimeFlex: 6
+  procedureMix: 4
+  callSchedule: 3
+  adminBurden: 5
+  hoursWeek: 45
+  burnout: 41
+  partTimeFeasibility: 6
+  vacation: 5
+  careerLongevity: 9
+  malpracticeFreq: 7
+  malpracticeCost: 7
+  geographicFlex: 6
+  automationRisk: 4
+  handsOnInsulation: 5
+  satisfaction: 88
+  chooseAgain: 80
+  intellectualStim: 8
+  varietyRepetition: 6
+  patientImpact: 7
+  physicalToll: 2
+  emotionalToll: 3
+  malpracticeLiability: 7
+  injuryCareerRisk: 9
+- name: Nuclear Medicine
+  residencyYears: 4
+  matchComp: 3
+  startSalary: 310
+  midSalary: 415
+  peakSalary: 500
+  partTimeFlex: 5
+  procedureMix: 6
+  callSchedule: 3
+  adminBurden: 5
+  hoursWeek: 45
+  burnout: 42
+  partTimeFeasibility: 5
+  vacation: 5
+  careerLongevity: 7
+  malpracticeFreq: 7
+  malpracticeCost: 10
+  geographicFlex: 5
+  automationRisk: 5
+  handsOnInsulation: 5
+  satisfaction: 78
+  chooseAgain: 72
+  intellectualStim: 8
+  varietyRepetition: 5
+  patientImpact: 7
+  physicalToll: 2
+  emotionalToll: 3
+  malpracticeLiability: 7
+  injuryCareerRisk: 8
+- name: Hospice / Palliative Medicine
+  residencyYears: 4
+  matchComp: 3
+  startSalary: 230
+  midSalary: 290
+  peakSalary: 350
+  partTimeFlex: 7
+  procedureMix: 1
+  callSchedule: 4
+  adminBurden: 5
+  hoursWeek: 45
+  burnout: 43
+  partTimeFeasibility: 7
+  vacation: 4
+  careerLongevity: 9
+  malpracticeFreq: 9
+  malpracticeCost: 5
+  geographicFlex: 8
+  automationRisk: 9
+  handsOnInsulation: 3
+  satisfaction: 80
+  chooseAgain: 76
+  intellectualStim: 7
+  varietyRepetition: 6
+  patientImpact: 10
+  physicalToll: 2
+  emotionalToll: 10
+  malpracticeLiability: 9
+  injuryCareerRisk: 10
+- name: Geriatrics
+  residencyYears: 4
+  matchComp: 2
+  startSalary: 215
+  midSalary: 265
+  peakSalary: 330
+  partTimeFlex: 7
+  procedureMix: 1
+  callSchedule: 3
+  adminBurden: 4
+  hoursWeek: 44
+  burnout: 43
+  partTimeFeasibility: 7
+  vacation: 4
+  careerLongevity: 9
+  malpracticeFreq: 8
+  malpracticeCost: 6
+  geographicFlex: 9
+  automationRisk: 8
+  handsOnInsulation: 3
+  satisfaction: 73
+  chooseAgain: 68
+  intellectualStim: 6
+  varietyRepetition: 6
+  patientImpact: 8
+  physicalToll: 2
+  emotionalToll: 7
+  malpracticeLiability: 7
+  injuryCareerRisk: 10
+- name: Neonatology
+  residencyYears: 6
+  matchComp: 5
+  startSalary: 280
+  midSalary: 360
+  peakSalary: 435
+  partTimeFlex: 3
+  procedureMix: 6
+  callSchedule: 8
+  adminBurden: 4
+  hoursWeek: 55
+  burnout: 48
+  partTimeFeasibility: 3
+  vacation: 4
+  careerLongevity: 6
+  malpracticeFreq: 3
+  malpracticeCost: 20
+  geographicFlex: 5
+  automationRisk: 8
+  handsOnInsulation: 8
+  satisfaction: 76
+  chooseAgain: 72
+  intellectualStim: 8
+  varietyRepetition: 6
+  patientImpact: 10
+  physicalToll: 4
+  emotionalToll: 9
+  malpracticeLiability: 3
+  injuryCareerRisk: 9
+- name: Neurology
+  residencyYears: 4
+  matchComp: 5
+  startSalary: 280
+  midSalary: 343
+  peakSalary: 455
+  partTimeFlex: 5
+  procedureMix: 3
+  callSchedule: 5
+  adminBurden: 4
+  hoursWeek: 50
+  burnout: 44
+  partTimeFeasibility: 5
+  vacation: 4
+  careerLongevity: 8
+  malpracticeFreq: 5
+  malpracticeCost: 12
+  geographicFlex: 8
+  automationRisk: 7
+  handsOnInsulation: 5
+  satisfaction: 74
+  chooseAgain: 70
+  intellectualStim: 9
+  varietyRepetition: 8
+  patientImpact: 8
+  physicalToll: 2
+  emotionalToll: 6
+  malpracticeLiability: 5
+  injuryCareerRisk: 9
+- name: Sleep Medicine
+  residencyYears: 5
+  matchComp: 3
+  startSalary: 250
+  midSalary: 325
+  peakSalary: 400
+  partTimeFlex: 7
+  procedureMix: 3
+  callSchedule: 2
+  adminBurden: 5
+  hoursWeek: 42
+  burnout: 38
+  partTimeFeasibility: 7
+  vacation: 5
+  careerLongevity: 9
+  malpracticeFreq: 9
+  malpracticeCost: 5
+  geographicFlex: 7
+  automationRisk: 5
+  handsOnInsulation: 4
+  satisfaction: 78
+  chooseAgain: 74
+  intellectualStim: 6
+  varietyRepetition: 4
+  patientImpact: 7
+  physicalToll: 1
+  emotionalToll: 2
+  malpracticeLiability: 9
+  injuryCareerRisk: 10
+- name: Preventive / Occupational Medicine
+  residencyYears: 3
+  matchComp: 2
+  startSalary: 220
+  midSalary: 280
+  peakSalary: 350
+  partTimeFlex: 7
+  procedureMix: 1
+  callSchedule: 1
+  adminBurden: 5
+  hoursWeek: 40
+  burnout: 38
+  partTimeFeasibility: 7
+  vacation: 5
+  careerLongevity: 10
+  malpracticeFreq: 9
+  malpracticeCost: 4
+  geographicFlex: 6
+  automationRisk: 6
+  handsOnInsulation: 2
+  satisfaction: 87
+  chooseAgain: 78
+  intellectualStim: 7
+  varietyRepetition: 7
+  patientImpact: 7
+  physicalToll: 1
+  emotionalToll: 2
+  malpracticeLiability: 9
+  injuryCareerRisk: 10
+- name: Medical Genetics
+  residencyYears: 4
+  matchComp: 2
+  startSalary: 200
+  midSalary: 275
+  peakSalary: 350
+  partTimeFlex: 6
+  procedureMix: 1
+  callSchedule: 2
+  adminBurden: 4
+  hoursWeek: 42
+  burnout: 38
+  partTimeFeasibility: 6
+  vacation: 5
+  careerLongevity: 9
+  malpracticeFreq: 8
+  malpracticeCost: 5
+  geographicFlex: 4
+  automationRisk: 5
+  handsOnInsulation: 2
+  satisfaction: 78
+  chooseAgain: 72
+  intellectualStim: 9
+  varietyRepetition: 7
+  patientImpact: 8
+  physicalToll: 1
+  emotionalToll: 5
+  malpracticeLiability: 8
+  injuryCareerRisk: 10
+- name: Critical Care Medicine
+  residencyYears: 5
+  matchComp: 6
+  startSalary: 310
+  midSalary: 406
+  peakSalary: 500
+  partTimeFlex: 3
+  procedureMix: 7
+  callSchedule: 9
+  adminBurden: 4
+  hoursWeek: 55
+  burnout: 45
+  partTimeFeasibility: 3
+  vacation: 4
+  careerLongevity: 5
+  malpracticeFreq: 4
+  malpracticeCost: 18
+  geographicFlex: 7
+  automationRisk: 8
+  handsOnInsulation: 9
+  satisfaction: 82
+  chooseAgain: 76
+  intellectualStim: 9
+  varietyRepetition: 8
+  patientImpact: 10
+  physicalToll: 5
+  emotionalToll: 9
+  malpracticeLiability: 4
+  injuryCareerRisk: 8

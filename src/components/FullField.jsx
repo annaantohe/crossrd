@@ -1,4 +1,4 @@
-// FullField.jsx — "All 42" table + scatter plot with toggle
+// FullField.jsx — "All 64" table + scatter plot with toggle
 // Sortable columns, profession filter buttons, and color-coded cells.
 
 import { useState, useMemo } from "react";
@@ -238,9 +238,9 @@ export default function FullField({ allTracks, profColors, profLabels }) {
                   <Cell
                     key={i}
                     fill={profColors[d.profession]}
-                    fillOpacity={d.finalist ? 1 : 0.55}
-                    stroke={d.finalist ? "#1a1a2e" : "none"}
-                    strokeWidth={d.finalist ? 2 : 0}
+                    fillOpacity={0.7}
+                    stroke="none"
+                    strokeWidth={0}
                   />
                 ))}
               </Scatter>
@@ -255,7 +255,7 @@ export default function FullField({ allTracks, profColors, profLabels }) {
               textAlign: "center",
             }}
           >
-            ⬤ with dark border = finalist (made top 6)
+            dot color = profession type
           </div>
         </div>
       ) : (
@@ -322,11 +322,7 @@ export default function FullField({ allTracks, profColors, profLabels }) {
 
             <tbody>
               {sorted.map((t, i) => {
-                const bg = t.finalist
-                  ? "#fffde7"
-                  : i % 2 === 0
-                  ? "white"
-                  : "#fafafa";
+                const bg = i % 2 === 0 ? "white" : "#fafafa";
 
                 return (
                   <tr key={t.name} style={{ background: bg }}>
@@ -347,7 +343,6 @@ export default function FullField({ allTracks, profColors, profLabels }) {
                         {i + 1}
                       </span>
                       {t.name}
-                      {t.finalist ? " ⭐" : ""}
                     </td>
 
                     {/* profession badge */}
@@ -419,10 +414,9 @@ export default function FullField({ allTracks, profColors, profLabels }) {
 
       {/* takeaway box */}
       <div style={styles.soWhat}>
-        💡 <strong>So What?</strong> Of {allTracks.length} careers across{" "}
-        {Object.keys(profColors).length} professions,{" "}
-        {allTracks.filter((t) => t.finalist).length} made the finals (⭐). Tap
-        column headers to re-sort!
+        💡 <strong>So What?</strong> {allTracks.length} careers across{" "}
+        {Object.keys(profColors).length} professions — all scored on 107 data points.
+        Tap column headers to re-sort!
       </div>
     </div>
   );

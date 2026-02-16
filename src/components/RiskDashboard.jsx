@@ -1,31 +1,36 @@
 // RiskDashboard.jsx — Stress test color-coded grid
-// Shows how well each career survives 4 bad scenarios.
+// Shows how well each selected career survives 4 bad scenarios.
 
 import { styles } from "../styles/theme";
+import CareerSelector from "./CareerSelector";
 
 // scenario columns
 const SCENARIOS = [
-  { key: "ai", label: "🤖 AI Takes Job" },
-  { key: "pay", label: "💸 Pay Cut 20%" },
-  { key: "injury", label: "🤕 Hurt Hands" },
-  { key: "match", label: "🚫 Not Accepted" },
-  { key: "avg", label: "💪 Toughness" },
+  { key: "ai", label: "AI Takes Job" },
+  { key: "pay", label: "Pay Cut 20%" },
+  { key: "injury", label: "Hurt Hands" },
+  { key: "match", label: "Not Accepted" },
+  { key: "avg", label: "Toughness" },
 ];
 
 // color a cell green/yellow/red based on the score
 function cellColor(v) {
-  if (v >= 7) return { bg: "#e8f5e9", color: "#2e7d32", emoji: "✅" };
-  if (v >= 4) return { bg: "#fff8e1", color: "#f57f17", emoji: "⚠️" };
-  return { bg: "#ffebee", color: "#c62828", emoji: "🔴" };
+  if (v >= 7) return { bg: "#e8f5e9", color: "#2e7d32" };
+  if (v >= 4) return { bg: "#fff8e1", color: "#f57f17" };
+  return { bg: "#ffebee", color: "#c62828" };
 }
 
-export default function RiskDashboard({ stressTest, careers }) {
+export default function RiskDashboard({ stressData, careers, selectorProps }) {
+  const { scenarios, scores } = stressData;
+
   return (
     <div style={{ padding: "12px 4px" }}>
-      <h2 style={styles.header}>⚠️ What Could Go Wrong?</h2>
+      <h2 style={styles.header}>What Could Go Wrong?</h2>
       <p style={styles.subtitle}>
         How well each career survives 4 bad scenarios (10 = safest)
       </p>
+
+      <CareerSelector {...selectorProps} />
 
       <div style={{ overflowX: "auto" }}>
         <table
@@ -69,7 +74,7 @@ export default function RiskDashboard({ stressTest, careers }) {
           </thead>
 
           <tbody>
-            {stressTest.map((r) => {
+            {scores.map((r) => {
               const career = careers.find((c) => c.key === r.key);
 
               return (
@@ -105,9 +110,6 @@ export default function RiskDashboard({ stressTest, careers }) {
                           fontSize: s.key === "avg" ? 14 : 12,
                         }}
                       >
-                        {s.key !== "avg" && (
-                          <span style={{ fontSize: 10 }}>{c.emoji} </span>
-                        )}
                         {val}
                       </td>
                     );
@@ -120,9 +122,8 @@ export default function RiskDashboard({ stressTest, careers }) {
       </div>
 
       <div style={styles.soWhat}>
-        💡 <strong>So What?</strong> Foot Doctor paths score 10/10 on "Not Accepted"
-        — guaranteed! But Medical Doctor paths survive pay cuts better. Every path has
-        a weakness.
+        💡 <strong>So What?</strong> Every career has a weakness. Some are AI-proof, others
+        survive pay cuts better. Use the selector to compare risks across any careers!
       </div>
     </div>
   );

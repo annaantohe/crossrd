@@ -12,27 +12,30 @@ import {
   ResponsiveContainer,
 } from "recharts";
 import { styles } from "../styles/theme";
+import CareerSelector from "./CareerSelector";
 
-export default function MoneyScoreboard({ moneyData, careers }) {
+export default function MoneyScoreboard({ moneyData, careers, selectorProps }) {
   // build the dataset Recharts needs — attach career name + color
   const barData = careers.map((c) => {
     const m = moneyData.find((d) => d.key === c.key);
     return {
       name: c.name,
       shortName: c.name.split(" ").slice(0, 2).join(" "),
-      start: m.start,
-      peak: m.peak,
-      lifetime: m.lifetime,
+      start: m?.start || 0,
+      peak: m?.peak || 0,
+      lifetime: m?.lifetime || 0,
       color: c.color,
     };
   });
 
   return (
     <div style={{ padding: "12px 8px" }}>
-      <h2 style={styles.header}>💰 The Money Scoreboard</h2>
+      <h2 style={styles.header}>The Money Scoreboard</h2>
       <p style={styles.subtitle}>Three key money numbers for each career</p>
 
-      {/* ── bar chart: starting vs peak salary ── */}
+      <CareerSelector {...selectorProps} />
+
+      {/* bar chart: starting vs peak salary */}
       <h3
         style={{
           fontFamily: "'DM Sans', sans-serif",
@@ -77,7 +80,7 @@ export default function MoneyScoreboard({ moneyData, careers }) {
         </BarChart>
       </ResponsiveContainer>
 
-      {/* ── lifetime earnings cards ── */}
+      {/* lifetime earnings cards */}
       <h3
         style={{
           fontFamily: "'DM Sans', sans-serif",
@@ -100,6 +103,7 @@ export default function MoneyScoreboard({ moneyData, careers }) {
       >
         {careers.map((c) => {
           const m = moneyData.find((d) => d.key === c.key);
+          const lifetime = m?.lifetime || 0;
           return (
             <div
               key={c.key}
@@ -131,7 +135,7 @@ export default function MoneyScoreboard({ moneyData, careers }) {
                   color: "#1a1a2e",
                 }}
               >
-                ${(m.lifetime / 1000).toFixed(1)}M
+                ${(lifetime / 1000).toFixed(1)}M
               </div>
               <div
                 style={{
@@ -148,9 +152,8 @@ export default function MoneyScoreboard({ moneyData, careers }) {
       </div>
 
       <div style={styles.soWhat}>
-        💡 <strong>So What?</strong> Skin Cancer Surgeon earns $22.4M lifetime —
-        almost 4x the Sports Foot Doctor ($6M). But the Foot Doctor starts working 2
-        years sooner!
+        💡 <strong>So What?</strong> Higher peak pay doesn't always mean more lifetime
+        earnings — training length and debt matter too!
       </div>
     </div>
   );

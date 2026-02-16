@@ -4,6 +4,13 @@
 import { useState, useMemo } from "react";
 import healthcareData from "../data/healthcare.json";
 import { TABS } from "../styles/theme";
+import {
+  buildNetWorthFromTracks,
+  buildRadarFromTracks,
+  buildStressFromTracks,
+  buildMoneyFromTracks,
+  buildTimelineFromTracks,
+} from "../utils/deriveData";
 
 import TabNav from "./TabNav";
 import Home from "./Home";
@@ -14,6 +21,7 @@ import Timeline from "./Timeline";
 import RiskDashboard from "./RiskDashboard";
 import MoneyScoreboard from "./MoneyScoreboard";
 import DecisionTree from "./DecisionTree";
+import Sources from "./Sources";
 
 // all available profession families (add new ones here when ready)
 const FAMILIES = {
@@ -21,8 +29,16 @@ const FAMILIES = {
   // engineering: engineeringData,  // future
 };
 
+// default careers to show in comparison tabs (top picks from original analysis)
+const DEFAULT_KEYS = ["mohs", "derm", "eye", "pod", "sport", "wound"];
+
 export default function App() {
   const [tab, setTab] = useState("home");
+  const [selectedKeys, setSelectedKeys] = useState(() => {
+    // use defaults that exist in the data
+    const validKeys = new Set(FAMILIES.healthcare.careers.map((c) => c.key));
+    return DEFAULT_KEYS.filter((k) => validKeys.has(k));
+  });
 
   // for now just healthcare — when we have multiple families,
   // this will come from a selector + localStorage
@@ -45,8 +61,15 @@ export default function App() {
     return labels;
   }, [data]);
 
-  // careers array comes from JSON (replaces old hardcoded CAREERS in theme.js)
-  const careers = data.careers;
+  // all careers (key/name/color/path/profession) for the selector
+  const allCareers = useMemo(
+    () =>
+      data.careers.map((c) => {
+        const track = data.tracks.find((t) => t.key === c.key);
+        return { ...c, profession: track?.profession || "" };
+      }),
+    [data]
+  );
 
   // flatten each track's raw_data into the top level so components
   // can access t.peakSalary instead of t.raw_data.peakSalary
@@ -54,14 +77,53 @@ export default function App() {
     () =>
       data.tracks.map((t) => ({
         name: t.name,
+        key: t.key,
         profession: t.profession,
-        finalist: t.finalist,
+        color: t.color,
         ...t.raw_data,
       })),
     [data]
   );
 
-  const { finalists } = data;
+  // derive chart data from tracks for the selected careers
+  const selectedCareers = useMemo(
+    () => selectedKeys.map((k) => allCareers.find((c) => c.key === k)).filter(Boolean),
+    [selectedKeys, allCareers]
+  );
+
+  const netWorthData = useMemo(
+    () => buildNetWorthFromTracks(data.tracks, selectedKeys),
+    [data.tracks, selectedKeys]
+  );
+
+  const radarData = useMemo(
+    () => buildRadarFromTracks(data.tracks, selectedKeys),
+    [data.tracks, selectedKeys]
+  );
+
+  const stressData = useMemo(
+    () => buildStressFromTracks(data.tracks, selectedKeys),
+    [data.tracks, selectedKeys]
+  );
+
+  const moneyData = useMemo(
+    () => buildMoneyFromTracks(data.tracks, selectedKeys),
+    [data.tracks, selectedKeys]
+  );
+
+  const timelineData = useMemo(
+    () => buildTimelineFromTracks(data.tracks, selectedKeys),
+    [data.tracks, selectedKeys]
+  );
+
+  // shared selector props
+  const selectorProps = {
+    allCareers,
+    selectedKeys,
+    onChange: setSelectedKeys,
+    profColors,
+    profLabels,
+  };
 
   return (
     <div
@@ -96,39 +158,48 @@ export default function App() {
         )}
         {tab === "race" && (
           <RaceToMillion
-            netWorthData={finalists.net_worth_trajectory}
-            careers={careers}
+            netWorthData={netWorthData}
+            careers={selectedCareers}
+            selectorProps={selectorProps}
           />
         )}
         {tab === "scorecard" && (
           <Scorecard
-            radarDimensions={finalists.radar_dimensions}
-            careers={careers}
+            radarDimensions={radarData}
+            careers={selectedCareers}
+            selectorProps={selectorProps}
           />
         )}
         {tab === "timeline" && (
-          <Timeline timelineData={finalists.timeline_data} careers={careers} />
+          <Timeline
+            timelineData={timelineData}
+            careers={selectedCareers}
+            selectorProps={selectorProps}
+          />
         )}
         {tab === "risk" && (
           <RiskDashboard
-            stressTest={finalists.stress_test}
-            careers={careers}
+            stressData={stressData}
+            careers={selectedCareers}
+            selectorProps={selectorProps}
           />
         )}
         {tab === "money" && (
           <MoneyScoreboard
-            moneyData={finalists.money_data}
-            careers={careers}
+            moneyData={moneyData}
+            careers={selectedCareers}
+            selectorProps={selectorProps}
           />
         )}
         {tab === "tree" && (
           <DecisionTree
-            decisionTree={finalists.decision_tree}
-            decisionTreeResults={finalists.decision_tree_results}
-            ranking={finalists.ranking}
-            careers={careers}
+            decisionTree={data.decision_tree}
+            decisionTreeResults={data.decision_tree_results}
+            ranking={data.ranking}
+            allCareers={allCareers}
           />
         )}
+        {tab === "sources" && <Sources />}
       </div>
     </div>
   );

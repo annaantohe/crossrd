@@ -1,0 +1,273 @@
+# DDS/DMD specialty raw data — full 38 columns
+profession: DDS/DMD
+specialties:
+- name: Oral & Maxillofacial Surgery
+  residencyYears: 4-6 (some include MD)
+  matchComp: 2
+  startSalary: 350
+  midSalary: 480
+  peakSalary: 750
+  partTimeFlex: 3
+  procedureMix: 9
+  callSchedule: 2
+  adminBurden: 4
+  hoursWeek: 55
+  burnout: 38
+  partTimeFeasibility: 3
+  vacation: 4
+  careerLongevity: 5
+  malpracticeFreq: 3
+  malpracticeCost: 40
+  geographicFlex: 7
+  automationRisk: 9
+  handsOnInsulation: 10
+  satisfaction: 80
+  chooseAgain: 76
+  intellectualStim: 8
+  varietyRepetition: 9
+  patientImpact: 9
+  physicalToll: 4
+  emotionalToll: 4
+  malpracticeLiability: 3
+  injuryCareerRisk: 3
+  fellowshipOptions: Optional 1yr (head & neck onc, cosmetic)
+  compModel: Private practice dominant; fee-for-service
+  revPerPatientVisit: High ($1K-20K/case)
+  dailyWorkflow: OR (wisdom teeth to jaw reconstruction), clinic, hospital consults,
+    trauma call
+  patientVolume: 10-20
+  supportStaffModel: OR team, surgical assistants, clinic nurses
+  geographicDemandNotes: Strong demand; most communities need OMS coverage
+  telehealthPotential: 1
+  genderDistribution: ~10% women
+- name: Endodontics
+  residencyYears: 0
+  matchComp: 6
+  startSalary: 250
+  midSalary: 350
+  peakSalary: 550
+  partTimeFlex: 7
+  procedureMix: 9
+  callSchedule: 9
+  adminBurden: 6
+  hoursWeek: 38
+  burnout: 25
+  partTimeFeasibility: 8
+  vacation: 6
+  careerLongevity: 7
+  malpracticeFreq: 5
+  malpracticeCost: 10
+  geographicFlex: 8
+  automationRisk: 8
+  handsOnInsulation: 9
+  satisfaction: 78
+  chooseAgain: 75
+  intellectualStim: 5
+  varietyRepetition: 3
+  patientImpact: 6
+  physicalToll: 4
+  emotionalToll: 7
+  malpracticeLiability: 5
+  injuryCareerRisk: 3
+  fellowshipOptions: 2-3yr endo residency (post-DDS, not a match)
+  compModel: Private practice dominant; fee-for-service; referral-based
+  revPerPatientVisit: High per case ($800-2K per root canal)
+  dailyWorkflow: Root canals and retreatments all day; microscope-based
+  patientVolume: 6-10 cases/day
+  supportStaffModel: Dental assistant, front desk, hygienist (minimal)
+  geographicDemandNotes: Steady demand; most communities need endodontist
+  telehealthPotential: 1
+  genderDistribution: ~25% women
+- name: Periodontics
+  residencyYears: 0
+  matchComp: 6
+  startSalary: 220
+  midSalary: 320
+  peakSalary: 500
+  partTimeFlex: 7
+  procedureMix: 8
+  callSchedule: 9
+  adminBurden: 5
+  hoursWeek: 38
+  burnout: 22
+  partTimeFeasibility: 8
+  vacation: 6
+  careerLongevity: 8
+  malpracticeFreq: 6
+  malpracticeCost: 8
+  geographicFlex: 8
+  automationRisk: 8
+  handsOnInsulation: 9
+  satisfaction: 80
+  chooseAgain: 77
+  intellectualStim: 6
+  varietyRepetition: 5
+  patientImpact: 6
+  physicalToll: 5
+  emotionalToll: 7
+  malpracticeLiability: 6
+  injuryCareerRisk: 3
+  fellowshipOptions: 3yr perio residency
+  compModel: Private practice; fee-for-service; implant revenue growing
+  revPerPatientVisit: Moderate-high ($300-5K; implants top end)
+  dailyWorkflow: Surgical perio, implant placement/restoration, grafting, clinic
+  patientVolume: 8-15
+  supportStaffModel: Dental assistant, hygienist, front desk
+  geographicDemandNotes: Good demand; implant market growing
+  telehealthPotential: 1
+  genderDistribution: ~25% women
+- name: Prosthodontics
+  residencyYears: 0
+  matchComp: 6
+  startSalary: 200
+  midSalary: 300
+  peakSalary: 450
+  partTimeFlex: 7
+  procedureMix: 7
+  callSchedule: 10
+  adminBurden: 5
+  hoursWeek: 40
+  burnout: 20
+  partTimeFeasibility: 8
+  vacation: 6
+  careerLongevity: 8
+  malpracticeFreq: 7
+  malpracticeCost: 6
+  geographicFlex: 7
+  automationRisk: 7
+  handsOnInsulation: 9
+  satisfaction: 78
+  chooseAgain: 75
+  intellectualStim: 7
+  varietyRepetition: 6
+  patientImpact: 7
+  physicalToll: 5
+  emotionalToll: 8
+  malpracticeLiability: 7
+  injuryCareerRisk: 3
+  fellowshipOptions: 3yr prostho residency
+  compModel: Private practice; implant-supported prosthetics growing
+  revPerPatientVisit: High per case ($2K-10K for full mouth rehab)
+  dailyWorkflow: Complex restorative cases, implant prosthetics, full mouth rehab,
+    lab work
+  patientVolume: 6-10
+  supportStaffModel: Dental assistant, lab tech, front desk
+  geographicDemandNotes: Moderate demand; niche market; aging population helps
+  telehealthPotential: 2
+  genderDistribution: ~30% women
+- name: Orthodontics
+  residencyYears: 0
+  matchComp: 2
+  startSalary: 200
+  midSalary: 350
+  peakSalary: 600
+  partTimeFlex: 7
+  procedureMix: 5
+  callSchedule: 10
+  adminBurden: 5
+  hoursWeek: 38
+  burnout: 20
+  partTimeFeasibility: 8
+  vacation: 6
+  careerLongevity: 9
+  malpracticeFreq: 8
+  malpracticeCost: 5
+  geographicFlex: 7
+  automationRisk: 5
+  handsOnInsulation: 6
+  satisfaction: 85
+  chooseAgain: 83
+  intellectualStim: 5
+  varietyRepetition: 3
+  patientImpact: 6
+  physicalToll: 6
+  emotionalToll: 8
+  malpracticeLiability: 8
+  injuryCareerRisk: 5
+  fellowshipOptions: 2-3yr ortho residency (very competitive dental specialty)
+  compModel: Private practice dominant; fee-for-service; DTC competition
+  revPerPatientVisit: Moderate per visit but high per case ($3K-8K total)
+  dailyWorkflow: Adjustments, consults, Invisalign checks, records, treatment planning
+  patientVolume: 25-40
+  supportStaffModel: Orthodontic assistants, treatment coordinator, front desk
+  geographicDemandNotes: Good but facing DTC aligner competition; cosmetic demand
+    stable
+  telehealthPotential: 4
+  genderDistribution: ~30% women
+- name: Pediatric Dentistry
+  residencyYears: 0
+  matchComp: 5
+  startSalary: 220
+  midSalary: 300
+  peakSalary: 450
+  partTimeFlex: 6
+  procedureMix: 7
+  callSchedule: 9
+  adminBurden: 5
+  hoursWeek: 40
+  burnout: 30
+  partTimeFeasibility: 7
+  vacation: 5
+  careerLongevity: 7
+  malpracticeFreq: 6
+  malpracticeCost: 10
+  geographicFlex: 8
+  automationRisk: 8
+  handsOnInsulation: 8
+  satisfaction: 78
+  chooseAgain: 74
+  intellectualStim: 5
+  varietyRepetition: 5
+  patientImpact: 8
+  physicalToll: 5
+  emotionalToll: 5
+  malpracticeLiability: 6
+  injuryCareerRisk: 5
+  fellowshipOptions: 2yr pedo residency
+  compModel: Private practice or group; Medicaid-heavy in some markets
+  revPerPatientVisit: Lower per visit ($100-500); volume-dependent
+  dailyWorkflow: Restorations, crowns, extractions, sedation cases, behavior mgmt
+  patientVolume: 20-35
+  supportStaffModel: Dental assistants, sedation team, front desk
+  geographicDemandNotes: High demand; Medicaid expansion helping; underserved areas
+    critical
+  telehealthPotential: 2
+  genderDistribution: ~50% women; very balanced
+- name: General Dentistry
+  residencyYears: 0
+  matchComp: 8
+  startSalary: 160
+  midSalary: 220
+  peakSalary: 400
+  partTimeFlex: 7
+  procedureMix: 6
+  callSchedule: 10
+  adminBurden: 4
+  hoursWeek: 36
+  burnout: 30
+  partTimeFeasibility: 8
+  vacation: 5
+  careerLongevity: 8
+  malpracticeFreq: 7
+  malpracticeCost: 5
+  geographicFlex: 9
+  automationRisk: 7
+  handsOnInsulation: 8
+  satisfaction: 72
+  chooseAgain: 68
+  intellectualStim: 5
+  varietyRepetition: 6
+  patientImpact: 6
+  physicalToll: 4
+  emotionalToll: 6
+  malpracticeLiability: 7
+  injuryCareerRisk: 4
+  fellowshipOptions: Optional 1yr GPR/AEGD (not required)
+  compModel: Private practice ownership; corporate employed; associate
+  revPerPatientVisit: Moderate ($150-2K depending on procedure)
+  dailyWorkflow: Fillings, crowns, cleanings, extractions, exams, cosmetic, implants
+  patientVolume: 15-25
+  supportStaffModel: Hygienist(s), dental assistant(s), front desk/office mgr
+  geographicDemandNotes: Very high demand everywhere; strong rural need
+  telehealthPotential: 2
+  genderDistribution: ~35% women overall; ~50% of new grads

@@ -1,0 +1,858 @@
+# All 107 data points — master catalog extracted from Excel Data Points Framework sheet
+data_points:
+- id: 1
+  category_id: 1
+  category_name: Pre-Professional Phase
+  name: Required undergraduate degree or prerequisites
+  layer: L1
+  data_type: Qualitative
+  decision_weight: Reference
+  scoring_notes: Describe specific requirements per profession
+- id: 2
+  category_id: 1
+  category_name: Pre-Professional Phase
+  name: Typical years of undergrad required
+  layer: L1
+  data_type: Quantitative
+  decision_weight: Decision
+  scoring_notes: 'Years: fewer = better score'
+- id: 3
+  category_id: 1
+  category_name: Pre-Professional Phase
+  name: Required standardized test
+  layer: L1
+  data_type: Qualitative
+  decision_weight: Reference
+  scoring_notes: Name of test (MCAT, DAT, OAT, etc.)
+- id: 4
+  category_id: 1
+  category_name: Pre-Professional Phase
+  name: Test difficulty / average competitive scores
+  layer: L1
+  data_type: Scale 1-10
+  decision_weight: Decision
+  scoring_notes: 10=easiest to achieve competitive score
+- id: 5
+  category_id: 1
+  category_name: Pre-Professional Phase
+  name: GPA expectations (science + cumulative)
+  layer: L1
+  data_type: Quantitative
+  decision_weight: Decision
+  scoring_notes: Typical admitted GPA ranges
+- id: 6
+  category_id: 1
+  category_name: Pre-Professional Phase
+  name: Extracurricular expectations
+  layer: L1
+  data_type: Scale 1-10
+  decision_weight: Decision
+  scoring_notes: 10=minimal extras needed, 1=years of research/volunteering required
+- id: 7
+  category_id: 1
+  category_name: Pre-Professional Phase
+  name: Is post-baccalaureate year common/expected?
+  layer: L1
+  data_type: Binary
+  decision_weight: Reference
+  scoring_notes: Yes/No + prevalence
+- id: 8
+  category_id: 2
+  category_name: Admissions Competitiveness
+  name: Number of applicants per year (national)
+  layer: L1
+  data_type: Quantitative
+  decision_weight: Reference
+  scoring_notes: Raw number
+- id: 9
+  category_id: 2
+  category_name: Admissions Competitiveness
+  name: Number of seats/spots available
+  layer: L1
+  data_type: Quantitative
+  decision_weight: Reference
+  scoring_notes: Raw number
+- id: 10
+  category_id: 2
+  category_name: Admissions Competitiveness
+  name: Acceptance rate
+  layer: L1
+  data_type: Quantitative
+  decision_weight: Decision
+  scoring_notes: Higher % = easier = higher score
+- id: 11
+  category_id: 2
+  category_name: Admissions Competitiveness
+  name: Average number of applications per candidate
+  layer: L1
+  data_type: Quantitative
+  decision_weight: Reference
+  scoring_notes: Indicates how many schools people apply to
+- id: 12
+  category_id: 2
+  category_name: Admissions Competitiveness
+  name: Reapplicant rate
+  layer: L1
+  data_type: Quantitative
+  decision_weight: Reference
+  scoring_notes: '% who apply more than once'
+- id: 13
+  category_id: 2
+  category_name: Admissions Competitiveness
+  name: Career changers welcome?
+  layer: L1
+  data_type: Scale 1-10
+  decision_weight: Decision
+  scoring_notes: 10=very welcoming, 1=strongly favors traditional path
+- id: 14
+  category_id: 2
+  category_name: Admissions Competitiveness
+  name: Role of state residency / connections
+  layer: L1
+  data_type: Qualitative
+  decision_weight: Reference
+  scoring_notes: How much do these factors matter?
+- id: 15
+  category_id: 3
+  category_name: Professional School
+  name: Degree granted
+  layer: L1
+  data_type: Qualitative
+  decision_weight: Reference
+  scoring_notes: MD, DO, DDS, DMD, DPM, OD
+- id: 16
+  category_id: 3
+  category_name: Professional School
+  name: Duration of program (years)
+  layer: L1
+  data_type: Quantitative
+  decision_weight: Decision
+  scoring_notes: Fewer years = higher score
+- id: 17
+  category_id: 3
+  category_name: Professional School
+  name: Curriculum structure (classroom vs. clinical split)
+  layer: L1
+  data_type: Qualitative
+  decision_weight: Reference
+  scoring_notes: Year-by-year breakdown
+- id: 18
+  category_id: 3
+  category_name: Professional School
+  name: When does hands-on / patient contact begin?
+  layer: L1
+  data_type: Qualitative
+  decision_weight: Decision
+  scoring_notes: Earlier = higher score
+- id: 19
+  category_id: 3
+  category_name: Professional School
+  name: Board exams during school (how many, when)
+  layer: L1
+  data_type: Qualitative
+  decision_weight: Reference
+  scoring_notes: Name, timing, pass rates
+- id: 20
+  category_id: 3
+  category_name: Professional School
+  name: Attrition / dropout rate
+  layer: L1
+  data_type: Quantitative
+  decision_weight: Reference
+  scoring_notes: '% who don''t finish'
+- id: 21
+  category_id: 3
+  category_name: Professional School
+  name: Typical class size
+  layer: L1
+  data_type: Quantitative
+  decision_weight: Reference
+  scoring_notes: Average students per class
+- id: 22
+  category_id: 3
+  category_name: Professional School
+  name: Number of accredited schools in U.S.
+  layer: L1
+  data_type: Quantitative
+  decision_weight: Reference
+  scoring_notes: More schools = more options
+- id: 23
+  category_id: 3
+  category_name: Professional School
+  name: Does school prestige matter for career outcomes?
+  layer: L1
+  data_type: Scale 1-10
+  decision_weight: Decision
+  scoring_notes: 10=prestige irrelevant, 1=school name is everything
+- id: 24
+  category_id: 4
+  category_name: Post-Graduate Training
+  name: Is residency required?
+  layer: L1
+  data_type: Binary
+  decision_weight: Decision
+  scoring_notes: Yes/No
+- id: 25
+  category_id: 4
+  category_name: Post-Graduate Training
+  name: Residency duration by specialty
+  layer: L2
+  data_type: Quantitative
+  decision_weight: Decision
+  scoring_notes: Years; fewer = higher score
+- id: 26
+  category_id: 4
+  category_name: Post-Graduate Training
+  name: Fellowship options and duration
+  layer: L2
+  data_type: Quantitative
+  decision_weight: Decision
+  scoring_notes: Additional years if applicable
+- id: 27
+  category_id: 4
+  category_name: Post-Graduate Training
+  name: Formal match process?
+  layer: L1
+  data_type: Qualitative
+  decision_weight: Reference
+  scoring_notes: NRMP, dental match, etc.
+- id: 28
+  category_id: 4
+  category_name: Post-Graduate Training
+  name: Competitiveness of match by specialty
+  layer: L2
+  data_type: Scale 1-10
+  decision_weight: Decision
+  scoring_notes: 10=easy to match, 1=ultra competitive
+- id: 29
+  category_id: 4
+  category_name: Post-Graduate Training
+  name: Compensation during residency
+  layer: L1
+  data_type: Quantitative
+  decision_weight: Reference
+  scoring_notes: Annual salary range during training
+- id: 30
+  category_id: 4
+  category_name: Post-Graduate Training
+  name: Moonlighting opportunities during training
+  layer: L1
+  data_type: Binary
+  decision_weight: Reference
+  scoring_notes: Yes/No + typical
+- id: 31
+  category_id: 4
+  category_name: Post-Graduate Training
+  name: Board certification process after residency
+  layer: L1
+  data_type: Qualitative
+  decision_weight: Reference
+  scoring_notes: Requirements, timeline
+- id: 32
+  category_id: 4
+  category_name: Post-Graduate Training
+  name: 'Total years: college freshman → independent practice'
+  layer: BOTH
+  data_type: Quantitative
+  decision_weight: Decision
+  scoring_notes: Fastest path vs. longest subspecialty
+- id: 33
+  category_id: 5
+  category_name: Financial Picture
+  name: Average tuition (total program cost)
+  layer: L1
+  data_type: Quantitative
+  decision_weight: Decision
+  scoring_notes: In-state, out-of-state, private ranges
+- id: 34
+  category_id: 5
+  category_name: Financial Picture
+  name: Average total debt at graduation
+  layer: L1
+  data_type: Quantitative
+  decision_weight: Decision
+  scoring_notes: Lower = higher score
+- id: 35
+  category_id: 5
+  category_name: Financial Picture
+  name: Typical debt-to-income ratio at career start
+  layer: BOTH
+  data_type: Quantitative
+  decision_weight: Decision
+  scoring_notes: Lower = higher score
+- id: 36
+  category_id: 5
+  category_name: Financial Picture
+  name: Scholarship / military / service options
+  layer: L1
+  data_type: Scale 1-10
+  decision_weight: Reference
+  scoring_notes: 10=abundant options, 1=very few
+- id: 37
+  category_id: 5
+  category_name: Financial Picture
+  name: Income during training years (residency salary)
+  layer: L1
+  data_type: Quantitative
+  decision_weight: Reference
+  scoring_notes: Annual range
+- id: 38
+  category_id: 5
+  category_name: Financial Picture
+  name: Time to break even financially
+  layer: BOTH
+  data_type: Quantitative
+  decision_weight: Decision
+  scoring_notes: Years until net worth goes positive
+- id: 39
+  category_id: 5
+  category_name: Financial Picture
+  name: Loan forgiveness programs available
+  layer: L1
+  data_type: Qualitative
+  decision_weight: Reference
+  scoring_notes: PSLF, NHSC, military, etc.
+- id: 40
+  category_id: 5
+  category_name: Financial Picture
+  name: Opportunity cost (years of lost earning)
+  layer: BOTH
+  data_type: Quantitative
+  decision_weight: Decision
+  scoring_notes: Compared to working with bachelor's
+- id: 41
+  category_id: 6
+  category_name: Scope of Practice & Autonomy
+  name: What can you legally do? (prescribe, operate, admit)
+  layer: L1
+  data_type: Qualitative
+  decision_weight: Decision
+  scoring_notes: Broader scope = higher score
+- id: 42
+  category_id: 6
+  category_name: Scope of Practice & Autonomy
+  name: Scope variation by state
+  layer: L1
+  data_type: Scale 1-10
+  decision_weight: Decision
+  scoring_notes: 10=consistent nationwide, 1=wildly variable
+- id: 43
+  category_id: 6
+  category_name: Scope of Practice & Autonomy
+  name: Independent practice vs. oversight required
+  layer: L1
+  data_type: Binary
+  decision_weight: Decision
+  scoring_notes: Independent = higher score
+- id: 44
+  category_id: 6
+  category_name: Scope of Practice & Autonomy
+  name: Hospital privileges (OR access, admitting)
+  layer: L1
+  data_type: Qualitative
+  decision_weight: Decision
+  scoring_notes: Full access = higher score
+- id: 45
+  category_id: 6
+  category_name: Scope of Practice & Autonomy
+  name: Ability to expand scope over career
+  layer: L1
+  data_type: Scale 1-10
+  decision_weight: Decision
+  scoring_notes: 10=many pathways, 1=fixed
+- id: 46
+  category_id: 6
+  category_name: Scope of Practice & Autonomy
+  name: Turf wars / political battles over scope
+  layer: L1
+  data_type: Scale 1-10
+  decision_weight: Decision
+  scoring_notes: 10=no turf issues, 1=constant battles
+- id: 47
+  category_id: 6
+  category_name: Scope of Practice & Autonomy
+  name: Referral dynamics (who refers to whom)
+  layer: L1
+  data_type: Qualitative
+  decision_weight: Reference
+  scoring_notes: Describes referral ecosystem
+- id: 48
+  category_id: 7
+  category_name: Career Economics
+  name: Starting salary by specialty
+  layer: L2
+  data_type: Quantitative
+  decision_weight: Decision
+  scoring_notes: Higher = higher score
+- id: 49
+  category_id: 7
+  category_name: Career Economics
+  name: Mid-career salary range
+  layer: L2
+  data_type: Quantitative
+  decision_weight: Decision
+  scoring_notes: Higher = higher score
+- id: 50
+  category_id: 7
+  category_name: Career Economics
+  name: Peak earning potential
+  layer: L2
+  data_type: Quantitative
+  decision_weight: Decision
+  scoring_notes: Ceiling matters for long-term
+- id: 51
+  category_id: 7
+  category_name: Career Economics
+  name: Compensation models (salary, RVU, ownership, hybrid)
+  layer: L2
+  data_type: Qualitative
+  decision_weight: Reference
+  scoring_notes: Describes how you get paid
+- id: 52
+  category_id: 7
+  category_name: Career Economics
+  name: Practice ownership potential and trends
+  layer: L1
+  data_type: Scale 1-10
+  decision_weight: Decision
+  scoring_notes: 10=easy to own, 1=nearly impossible
+- id: 53
+  category_id: 7
+  category_name: Career Economics
+  name: Insurance reimbursement trends
+  layer: L1
+  data_type: Scale 1-10
+  decision_weight: Decision
+  scoring_notes: 10=rising/stable, 1=declining fast
+- id: 54
+  category_id: 7
+  category_name: Career Economics
+  name: Revenue per patient visit (procedural vs. cognitive)
+  layer: L2
+  data_type: Quantitative
+  decision_weight: Reference
+  scoring_notes: Indicator of earning efficiency
+- id: 55
+  category_id: 7
+  category_name: Career Economics
+  name: Part-time / flexible earning potential
+  layer: L2
+  data_type: Scale 1-10
+  decision_weight: Decision
+  scoring_notes: 10=great part-time income, 1=all-or-nothing
+- id: 56
+  category_id: 8
+  category_name: Daily Life & Practice Reality
+  name: Typical daily workflow description
+  layer: L2
+  data_type: Qualitative
+  decision_weight: Reference
+  scoring_notes: What does a Tuesday look like?
+- id: 57
+  category_id: 8
+  category_name: Daily Life & Practice Reality
+  name: Patient volume per day
+  layer: L2
+  data_type: Quantitative
+  decision_weight: Reference
+  scoring_notes: Average number of patients/cases
+- id: 58
+  category_id: 8
+  category_name: Daily Life & Practice Reality
+  name: Procedure mix (% procedures vs. exams vs. paperwork)
+  layer: L2
+  data_type: Scale 1-10
+  decision_weight: Decision
+  scoring_notes: 10=mostly procedures, 1=mostly paperwork
+- id: 59
+  category_id: 8
+  category_name: Daily Life & Practice Reality
+  name: Call schedule expectations
+  layer: L2
+  data_type: Scale 1-10
+  decision_weight: Decision
+  scoring_notes: 10=no call, 1=heavy call
+- id: 60
+  category_id: 8
+  category_name: Daily Life & Practice Reality
+  name: Administrative burden
+  layer: L2
+  data_type: Scale 1-10
+  decision_weight: Decision
+  scoring_notes: 10=minimal admin, 1=drowning in paperwork
+- id: 61
+  category_id: 8
+  category_name: Daily Life & Practice Reality
+  name: Support staff model (team size)
+  layer: L2
+  data_type: Qualitative
+  decision_weight: Reference
+  scoring_notes: How big is your support team?
+- id: 62
+  category_id: 8
+  category_name: Daily Life & Practice Reality
+  name: Practice settings available
+  layer: L1
+  data_type: Qualitative
+  decision_weight: Reference
+  scoring_notes: Hospital, private, academic, group, etc.
+- id: 63
+  category_id: 9
+  category_name: Lifestyle & Work-Life Balance
+  name: Average hours per week
+  layer: L2
+  data_type: Quantitative
+  decision_weight: Decision
+  scoring_notes: Fewer = higher score
+- id: 64
+  category_id: 9
+  category_name: Lifestyle & Work-Life Balance
+  name: Burnout rates
+  layer: L2
+  data_type: Quantitative
+  decision_weight: Decision
+  scoring_notes: Lower = higher score
+- id: 65
+  category_id: 9
+  category_name: Lifestyle & Work-Life Balance
+  name: Flexibility to go part-time
+  layer: L2
+  data_type: Scale 1-10
+  decision_weight: Decision
+  scoring_notes: 10=easy, 1=impossible
+- id: 66
+  category_id: 9
+  category_name: Lifestyle & Work-Life Balance
+  name: Vacation time (typical)
+  layer: L2
+  data_type: Quantitative
+  decision_weight: Reference
+  scoring_notes: Weeks per year
+- id: 67
+  category_id: 9
+  category_name: Lifestyle & Work-Life Balance
+  name: Career longevity (how long can you do this?)
+  layer: L2
+  data_type: Scale 1-10
+  decision_weight: Decision
+  scoring_notes: 10=work to 70+, 1=burns out by 50
+- id: 68
+  category_id: 9
+  category_name: Lifestyle & Work-Life Balance
+  name: Malpractice litigation frequency
+  layer: L2
+  data_type: Scale 1-10
+  decision_weight: Decision
+  scoring_notes: 10=rarely sued, 1=frequent target
+- id: 69
+  category_id: 9
+  category_name: Lifestyle & Work-Life Balance
+  name: Malpractice insurance costs
+  layer: L2
+  data_type: Quantitative
+  decision_weight: Decision
+  scoring_notes: Annual premium ranges
+- id: 70
+  category_id: 9
+  category_name: Lifestyle & Work-Life Balance
+  name: Geographic flexibility
+  layer: L2
+  data_type: Scale 1-10
+  decision_weight: Decision
+  scoring_notes: 10=practice anywhere, 1=limited markets
+- id: 71
+  category_id: 10
+  category_name: Job Market & Demand
+  name: Current job market (shortage vs. saturated)
+  layer: BOTH
+  data_type: Scale 1-10
+  decision_weight: Decision
+  scoring_notes: 10=severe shortage, 1=oversaturated
+- id: 72
+  category_id: 10
+  category_name: Job Market & Demand
+  name: Projected demand next 10-20 years
+  layer: BOTH
+  data_type: Scale 1-10
+  decision_weight: Decision
+  scoring_notes: 10=growing fast, 1=shrinking
+- id: 73
+  category_id: 10
+  category_name: Job Market & Demand
+  name: Geographic demand variation (rural vs. urban)
+  layer: L2
+  data_type: Qualitative
+  decision_weight: Reference
+  scoring_notes: Where is demand highest?
+- id: 74
+  category_id: 10
+  category_name: Job Market & Demand
+  name: Impact of aging population
+  layer: L1
+  data_type: Qualitative
+  decision_weight: Decision
+  scoring_notes: How does demographics affect demand?
+- id: 75
+  category_id: 10
+  category_name: Job Market & Demand
+  name: Vulnerability to scope encroachment
+  layer: L1
+  data_type: Scale 1-10
+  decision_weight: Decision
+  scoring_notes: 10=no threat, 1=high encroachment risk
+- id: 76
+  category_id: 10
+  category_name: Job Market & Demand
+  name: Telehealth potential and relevance
+  layer: L2
+  data_type: Scale 1-10
+  decision_weight: Reference
+  scoring_notes: 10=highly telehealth-friendly, 1=impossible remote
+- id: 77
+  category_id: 11
+  category_name: AI Revolution Impact
+  name: AI impact on diagnostics vs. procedures
+  layer: BOTH
+  data_type: Scale 1-10
+  decision_weight: Decision
+  scoring_notes: 10=AI-proof, 1=high replacement risk
+- id: 78
+  category_id: 11
+  category_name: AI Revolution Impact
+  name: Automation risk for routine vs. complex procedures
+  layer: L2
+  data_type: Scale 1-10
+  decision_weight: Decision
+  scoring_notes: 10=impossible to automate, 1=easily automated
+- id: 79
+  category_id: 11
+  category_name: AI Revolution Impact
+  name: AI as tool (enhances) vs. AI as replacement
+  layer: BOTH
+  data_type: Qualitative
+  decision_weight: Decision
+  scoring_notes: Will AI help you or replace you?
+- id: 80
+  category_id: 11
+  category_name: AI Revolution Impact
+  name: Timeline of likely disruption (5yr vs. 20yr)
+  layer: BOTH
+  data_type: Qualitative
+  decision_weight: Decision
+  scoring_notes: Shorter timeline = lower score
+- id: 81
+  category_id: 11
+  category_name: AI Revolution Impact
+  name: Insulation by hands-on factor
+  layer: L2
+  data_type: Scale 1-10
+  decision_weight: Decision
+  scoring_notes: 10=hands-on makes you safe, 1=hands-on irrelevant
+- id: 82
+  category_id: 11
+  category_name: AI Revolution Impact
+  name: Regulatory barriers slowing AI adoption
+  layer: L1
+  data_type: Scale 1-10
+  decision_weight: Reference
+  scoring_notes: 10=heavy regulation protects you, 1=few barriers
+- id: 83
+  category_id: 12
+  category_name: Professional Satisfaction
+  name: Career satisfaction survey data
+  layer: L2
+  data_type: Quantitative
+  decision_weight: Decision
+  scoring_notes: '% satisfied; higher = higher score'
+- id: 84
+  category_id: 12
+  category_name: Professional Satisfaction
+  name: '''Would you choose this again?'' rates'
+  layer: L2
+  data_type: Quantitative
+  decision_weight: Decision
+  scoring_notes: '% who say yes'
+- id: 85
+  category_id: 12
+  category_name: Professional Satisfaction
+  name: Prestige / public perception
+  layer: L1
+  data_type: Scale 1-10
+  decision_weight: Reference
+  scoring_notes: 10=highest prestige, 1=lowest
+- id: 86
+  category_id: 12
+  category_name: Professional Satisfaction
+  name: Intellectual stimulation over time
+  layer: L2
+  data_type: Scale 1-10
+  decision_weight: Decision
+  scoring_notes: 10=always learning, 1=repetitive quickly
+- id: 87
+  category_id: 12
+  category_name: Professional Satisfaction
+  name: Variety vs. repetition in daily work
+  layer: L2
+  data_type: Scale 1-10
+  decision_weight: Decision
+  scoring_notes: 10=high variety, 1=same thing daily
+- id: 88
+  category_id: 12
+  category_name: Professional Satisfaction
+  name: Impact on patients' lives
+  layer: L2
+  data_type: Scale 1-10
+  decision_weight: Decision
+  scoring_notes: 10=life-changing impact, 1=minimal impact
+- id: 89
+  category_id: 12
+  category_name: Professional Satisfaction
+  name: Teaching / academic opportunities
+  layer: L1
+  data_type: Scale 1-10
+  decision_weight: Reference
+  scoring_notes: 10=abundant, 1=rare
+- id: 90
+  category_id: 12
+  category_name: Professional Satisfaction
+  name: Research opportunities if desired
+  layer: L1
+  data_type: Scale 1-10
+  decision_weight: Reference
+  scoring_notes: 10=abundant, 1=rare
+- id: 91
+  category_id: 12
+  category_name: Professional Satisfaction
+  name: Ease of pivoting to adjacent careers
+  layer: L1
+  data_type: Scale 1-10
+  decision_weight: Decision
+  scoring_notes: 10=many exit options, 1=very narrow
+- id: 92
+  category_id: 13
+  category_name: Demographics & Culture
+  name: Current male/female ratio
+  layer: L1
+  data_type: Quantitative
+  decision_weight: Reference
+  scoring_notes: '% female in profession'
+- id: 93
+  category_id: 13
+  category_name: Demographics & Culture
+  name: Gender trend direction
+  layer: L1
+  data_type: Qualitative
+  decision_weight: Reference
+  scoring_notes: Which way is it shifting?
+- id: 94
+  category_id: 13
+  category_name: Demographics & Culture
+  name: Gender distribution across subspecialties
+  layer: L2
+  data_type: Qualitative
+  decision_weight: Reference
+  scoring_notes: Which specialties skew which way?
+- id: 95
+  category_id: 13
+  category_name: Demographics & Culture
+  name: Pay equity data (gender pay gap)
+  layer: BOTH
+  data_type: Quantitative
+  decision_weight: Decision
+  scoring_notes: Smaller gap = higher score
+- id: 96
+  category_id: 13
+  category_name: Demographics & Culture
+  name: Parental leave norms and culture
+  layer: L1
+  data_type: Scale 1-10
+  decision_weight: Decision
+  scoring_notes: 10=very supportive, 1=punitive
+- id: 97
+  category_id: 13
+  category_name: Demographics & Culture
+  name: Mentorship availability
+  layer: L1
+  data_type: Scale 1-10
+  decision_weight: Reference
+  scoring_notes: 10=abundant, 1=scarce
+- id: 98
+  category_id: 13
+  category_name: Demographics & Culture
+  name: Culture and 'old guard' dynamics
+  layer: L1
+  data_type: Scale 1-10
+  decision_weight: Decision
+  scoring_notes: 10=progressive/evolving, 1=entrenched
+- id: 99
+  category_id: 13
+  category_name: Demographics & Culture
+  name: Diversity of practitioners (race, age, background)
+  layer: L1
+  data_type: Qualitative
+  decision_weight: Reference
+  scoring_notes: General landscape
+- id: 100
+  category_id: 13
+  category_name: Demographics & Culture
+  name: Welcoming to career changers / non-traditional?
+  layer: L1
+  data_type: Scale 1-10
+  decision_weight: Decision
+  scoring_notes: 10=very welcoming, 1=hostile to non-traditional
+- id: 101
+  category_id: 14
+  category_name: Risk Factors & Downsides
+  name: Physical toll on body
+  layer: L2
+  data_type: Scale 1-10
+  decision_weight: Decision
+  scoring_notes: 10=minimal toll, 1=severe physical demands
+- id: 102
+  category_id: 14
+  category_name: Risk Factors & Downsides
+  name: Emotional toll
+  layer: L2
+  data_type: Scale 1-10
+  decision_weight: Decision
+  scoring_notes: 10=low emotional burden, 1=heavy trauma exposure
+- id: 103
+  category_id: 14
+  category_name: Risk Factors & Downsides
+  name: Malpractice liability exposure
+  layer: L2
+  data_type: Scale 1-10
+  decision_weight: Decision
+  scoring_notes: 10=low risk, 1=highest risk
+- id: 104
+  category_id: 14
+  category_name: Risk Factors & Downsides
+  name: Regulatory burden and trends
+  layer: L1
+  data_type: Scale 1-10
+  decision_weight: Decision
+  scoring_notes: 10=light regulation, 1=heavy/increasing
+- id: 105
+  category_id: 14
+  category_name: Risk Factors & Downsides
+  name: Continuing education requirements
+  layer: L1
+  data_type: Qualitative
+  decision_weight: Reference
+  scoring_notes: Hours, costs, frequency
+- id: 106
+  category_id: 14
+  category_name: Risk Factors & Downsides
+  name: Recertification requirements and costs
+  layer: L1
+  data_type: Qualitative
+  decision_weight: Reference
+  scoring_notes: How often, how expensive
+- id: 107
+  category_id: 14
+  category_name: Risk Factors & Downsides
+  name: Risk of career disruption from injury
+  layer: L2
+  data_type: Scale 1-10
+  decision_weight: Decision
+  scoring_notes: 10=low risk, 1=career-ending if hands injured

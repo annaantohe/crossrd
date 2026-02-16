@@ -4,7 +4,7 @@ step-by-step guide to adding a new career field (e.g. engineering, law, business
 
 ## prerequisites
 
-- python 3 with `openpyxl`, `pandas`, `pyyaml`
+- python 3 with `pyyaml`
 - node.js + npm (for the frontend)
 
 ## step 1: bootstrap the directory
@@ -17,48 +17,70 @@ python create_field.py --slug engineering --name Engineering
 this creates:
 - `data/engineering/` directory
 - `data/engineering/config.yaml` (starter template)
+- `data/engineering/specialties/` directory
 
-## step 2: create the excel workbook
+## step 2: create the YAML data files
 
-create `data/engineering/career_framework.xlsx` with these sheets:
+### directory structure
 
-### required sheets
+```
+data/engineering/
+  config.yaml                 # metadata, professions, key overrides, decision tree
+  scoring_rubric.yaml         # field→category mapping + conversion rules
+  scenario_profiles.yaml      # 6 scenario weight profiles
+  l1_scores.yaml              # profession-level category scores
+  specialties/
+    cs.yaml                   # Computer Science specialties with raw fields each
+    ee.yaml                   # Electrical Engineering specialties
+    me.yaml                   # Mechanical Engineering specialties
+```
 
-| sheet | what it contains |
-|-------|-----------------|
-| Career Tracks | all career tracks (one per row) with profession type and basic stats |
-| Data Points Framework | the 107+ data points with definitions, sources, scoring rules |
-| Category Weights | 14 categories with weights for each scenario profile |
-| Scenario Profiles | 6 scenario profiles (Default, Equal Weight, Max Earnings, etc.) |
-| L1 Scoring Results | all tracks scored on 14 categories under each scenario |
-| L2 Matrix — [profession] | one sheet per profession type with detailed data per track |
-| Finals Matrix | 6 finalist tracks scored across all scenarios |
-| Career Life Models | financial assumptions for each finalist (age 18-65) |
-| Net Worth Trajectory | year-by-year net worth data for each finalist |
-| Financial Assumptions | income, expenses, taxes, savings rates per finalist |
-| Stress Test | 4-scenario resilience scores for each finalist |
-| Decision Summary | final ranking + decision tree logic |
+### specialty YAML format
 
-### L2 Matrix columns
+each file in `specialties/` contains one profession's career tracks:
 
-the column mapping in `config.yaml` tells the pipeline which column has which data point. the default mapping covers 38 columns — adjust `l2_columns` in your config if your Excel layout differs.
+```yaml
+profession: CS
 
-key columns (0-indexed):
-- 0: career name
-- 4: starting salary ($K)
-- 6: peak salary ($K)
-- 16: hours per week
-- 17: burnout rate (%)
-- 28: satisfaction (%)
+specialties:
+  - name: "Software Engineering"
+    matchComp: 4
+    residencyYears: 0
+    callSchedule: 9
+    startSalary: 110
+    midSalary: 180
+    peakSalary: 350
+    partTimeFlex: 8
+    procedureMix: 2
+    adminBurden: 7
+    hoursWeek: 45
+    burnout: 32
+    partTimeFeasibility: 8
+    vacation: 4
+    careerLongevity: 8
+    malpracticeFreq: 1
+    malpracticeCost: 2
+    geographicFlex: 9
+    automationRisk: 5
+    handsOnInsulation: 3
+    satisfaction: 78
+    chooseAgain: 80
+    intellectualStim: 8
+    varietyRepetition: 7
+    patientImpact: 3
+    physicalToll: 2
+    emotionalToll: 4
+    malpracticeLiability: 1
+    injuryCareerRisk: 1
+```
+
+all decision-type fields are required for scoring. values use the scales defined in `scoring_rubric.yaml`.
 
 ## step 3: fill in config.yaml
-
-edit `data/engineering/config.yaml`:
 
 ```yaml
 name: Engineering
 slug: engineering
-source: career_framework.xlsx
 icon: "\U0001F527"
 headline: "Which Engineer Should You Become?"
 subtitle: "A Data-Driven Guide"
@@ -74,35 +96,14 @@ professions:
     label: "Mechanical Engineering"
     color: "#8AC926"
 
-finalists:
+# stable key/color overrides for careers referenced by the decision tree
+key_overrides:
   "Software Engineering":
     key: swe
-    teen_name: "Software Engineer"
     color: "#D4A537"
-    jsx_name: "Software Eng."
-  # ... more finalists
-
-finalist_order:
-  - swe
-  # ... more keys
-
-l2_sheets:
-  CS: "L2 Matrix — CS"
-  EE: "L2 Matrix — EE"
-  ME: "L2 Matrix — ME"
-
-stress_key_map:
-  "SWE": swe
-  # maps Excel short names to finalist keys
-
-timeline_data:
-  - key: swe
-    college: [18, 22]
-    school: null
-    residency: null
-    fellowship: null
-    earnAge: 22
-    startSalary: 110
+  "Embedded Systems":
+    key: embed
+    color: "#E8685E"
 
 final_ranking:
   - rank: 1
@@ -120,14 +121,44 @@ decision_tree_results:
     stat: "$200K+ peak • Work from anywhere"
 ```
 
-## step 4: run the pipeline
+all specialties are scored equally by the pipeline. the `key_overrides` section only
+controls stable keys/colors for careers referenced by the decision tree.
+
+## step 4: create the scoring rubric
+
+`scoring_rubric.yaml` maps each raw data field to one or more of the 14 universal
+categories, with conversion rules:
+
+```yaml
+fields:
+  startSalary:
+    category: 5
+    conversion: linear
+    min: 50
+    max: 400
+    direction: higher_better
+  burnout:
+    category: 9
+    conversion: linear
+    min: 15
+    max: 60
+    direction: lower_better
+  matchComp:
+    category: 2
+    conversion: passthrough
+```
+
+adjust min/max ranges to fit your field's data range.
+
+## step 5: run the pipeline
 
 ```bash
 cd pipeline
 python process.py --family engineering
 ```
 
-this reads your Excel, applies the scoring framework, and outputs `src/data/engineering.json`.
+this reads your YAML files, applies the scoring framework, and outputs `src/data/engineering.json`.
+all specialties get scores, financial model, stress test, and timeline data.
 
 ### validate the output
 
@@ -135,7 +166,7 @@ this reads your Excel, applies the scoring framework, and outputs `src/data/engi
 python process.py --validate ../src/data/engineering.json
 ```
 
-## step 5: wire up the frontend
+## step 6: wire up the frontend
 
 edit `src/components/App.jsx`:
 
@@ -148,29 +179,19 @@ const FAMILIES = {
 };
 ```
 
-## step 6: test
+## step 7: test
 
 ```bash
 npm run dev
-# click through all 8 tabs — make sure everything renders
+# click through all 9 tabs — make sure everything renders
 npm run build
 # should succeed with no errors
 ```
-
-## step 7: regression test
-
-```bash
-cd pipeline
-python test_regression.py --family engineering
-```
-
-saves the current output, re-runs the pipeline, and flags any differences.
 
 ## tips
 
 - start with 10-15 career tracks, expand later
 - the 14-category framework is universal — don't change categories, just fill in the data
-- scenario weights can be customized per field in the Category Weights sheet
-- `l2_columns` mapping should match your Excel layout exactly
-- finalist selection: pick 4-6 careers that represent the breadth of the field
-- decision tree: keep it to 2-3 questions max for teens
+- scenario weights can be customized per field in `scenario_profiles.yaml`
+- decision tree: keep it to 2-3 questions max
+- the career selector in the UI lets users pick any careers for comparison

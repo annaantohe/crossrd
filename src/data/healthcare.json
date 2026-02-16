@@ -5,17 +5,16 @@
     "headline": "Which Doctor Should You Become?",
     "subtitle": "A Data-Driven Guide",
     "icon": "\ud83e\ude7a",
-    "last_updated": "2026-02-15",
-    "total_tracks": 42,
-    "finalists": 6,
+    "last_updated": "2026-02-16",
+    "total_tracks": 64,
     "data_points": 107,
-    "source_file": "career_framework_v4.xlsx"
+    "source_file": "yaml"
   },
   "professions": {
     "MD/DO": {
       "label": "Medical Doctor",
       "color": "#E55934",
-      "track_count": 29
+      "track_count": 51
     },
     "DDS/DMD": {
       "label": "Dentist",
@@ -35,40 +34,388 @@
   },
   "careers": [
     {
-      "key": "mohs",
-      "name": "Skin Cancer Surgeon",
-      "color": "#D4A537",
-      "path": "Medical Doctor"
+      "key": "oral_maxillofacial_surge",
+      "name": "Oral & Maxillofacial Surgery",
+      "color": "#2a82b9",
+      "path": "Dentist"
     },
     {
-      "key": "derm",
-      "name": "Skin Doctor",
-      "color": "#E8685E",
-      "path": "Medical Doctor"
+      "key": "endodontics",
+      "name": "Endodontics",
+      "color": "#1e6bce",
+      "path": "Dentist"
     },
     {
-      "key": "eye",
-      "name": "Eye Surgeon",
-      "color": "#2BA5B5",
-      "path": "Medical Doctor"
+      "key": "periodontics",
+      "name": "Periodontics",
+      "color": "#1b43b9",
+      "path": "Dentist"
+    },
+    {
+      "key": "prosthodontics",
+      "name": "Prosthodontics",
+      "color": "#2e3ace",
+      "path": "Dentist"
+    },
+    {
+      "key": "orthodontics",
+      "name": "Orthodontics",
+      "color": "#2c1bb9",
+      "path": "Dentist"
+    },
+    {
+      "key": "pediatric_dentistry",
+      "name": "Pediatric Dentistry",
+      "color": "#511ece",
+      "path": "Dentist"
+    },
+    {
+      "key": "general_dentistry",
+      "name": "General Dentistry",
+      "color": "#6d2ab9",
+      "path": "Dentist"
     },
     {
       "key": "pod",
-      "name": "Foot & Ankle Surgeon",
+      "name": "Podiatric Surgery (Foot & Ankle)",
       "color": "#2D3A6E",
       "path": "Foot Doctor"
     },
     {
       "key": "sport",
-      "name": "Sports Foot Doctor",
+      "name": "Sports Medicine / Biomechanics",
       "color": "#3EA66B",
       "path": "Foot Doctor"
     },
     {
       "key": "wound",
-      "name": "Wound Healing Doctor",
+      "name": "Wound Care / Diabetic Limb Salvage",
       "color": "#8B6CAE",
       "path": "Foot Doctor"
+    },
+    {
+      "key": "general_surgery",
+      "name": "General Surgery",
+      "color": "#d86546",
+      "path": "Medical Doctor"
+    },
+    {
+      "key": "orthopedic_surgery",
+      "name": "Orthopedic Surgery",
+      "color": "#d87231",
+      "path": "Medical Doctor"
+    },
+    {
+      "key": "neurosurgery",
+      "name": "Neurosurgery",
+      "color": "#d88920",
+      "path": "Medical Doctor"
+    },
+    {
+      "key": "cardiothoracic_surgery",
+      "name": "Cardiothoracic Surgery",
+      "color": "#d8b446",
+      "path": "Medical Doctor"
+    },
+    {
+      "key": "vascular_surgery",
+      "name": "Vascular Surgery",
+      "color": "#d8cc31",
+      "path": "Medical Doctor"
+    },
+    {
+      "key": "plastic_reconstructive_s",
+      "name": "Plastic & Reconstructive Surgery",
+      "color": "#c4d820",
+      "path": "Medical Doctor"
+    },
+    {
+      "key": "trauma_acute_care_surger",
+      "name": "Trauma / Acute Care Surgery",
+      "color": "#aed846",
+      "path": "Medical Doctor"
+    },
+    {
+      "key": "transplant_surgery",
+      "name": "Transplant Surgery",
+      "color": "#8ad831",
+      "path": "Medical Doctor"
+    },
+    {
+      "key": "pediatric_surgery",
+      "name": "Pediatric Surgery",
+      "color": "#61d820",
+      "path": "Medical Doctor"
+    },
+    {
+      "key": "colorectal_surgery",
+      "name": "Colorectal Surgery",
+      "color": "#5fd846",
+      "path": "Medical Doctor"
+    },
+    {
+      "key": "hand_surgery",
+      "name": "Hand Surgery",
+      "color": "#31d832",
+      "path": "Medical Doctor"
+    },
+    {
+      "key": "spine_surgery",
+      "name": "Spine Surgery",
+      "color": "#20d843",
+      "path": "Medical Doctor"
+    },
+    {
+      "key": "sports_medicine_surgical",
+      "name": "Sports Medicine (Surgical)",
+      "color": "#46d87c",
+      "path": "Medical Doctor"
+    },
+    {
+      "key": "bariatric_surgery",
+      "name": "Bariatric Surgery",
+      "color": "#31d88d",
+      "path": "Medical Doctor"
+    },
+    {
+      "key": "interventional_cardiolog",
+      "name": "Interventional Cardiology",
+      "color": "#20d8a6",
+      "path": "Medical Doctor"
+    },
+    {
+      "key": "interventional_radiology",
+      "name": "Interventional Radiology",
+      "color": "#46d8cb",
+      "path": "Medical Doctor"
+    },
+    {
+      "key": "gastroenterology_endosco",
+      "name": "Gastroenterology (Endoscopy)",
+      "color": "#31c9d8",
+      "path": "Medical Doctor"
+    },
+    {
+      "key": "urology",
+      "name": "Urology",
+      "color": "#20a7d8",
+      "path": "Medical Doctor"
+    },
+    {
+      "key": "ob_gyn",
+      "name": "OB/GYN",
+      "color": "#4697d8",
+      "path": "Medical Doctor"
+    },
+    {
+      "key": "eye",
+      "name": "Ophthalmology",
+      "color": "#2BA5B5",
+      "path": "Medical Doctor"
+    },
+    {
+      "key": "ent_otolaryngology",
+      "name": "ENT / Otolaryngology",
+      "color": "#316fd8",
+      "path": "Medical Doctor"
+    },
+    {
+      "key": "mohs",
+      "name": "Mohs Surgery (Dermatology)",
+      "color": "#D4A537",
+      "path": "Medical Doctor"
+    },
+    {
+      "key": "interventional_pain_medi",
+      "name": "Interventional Pain Medicine",
+      "color": "#2043d8",
+      "path": "Medical Doctor"
+    },
+    {
+      "key": "pulm_critical_care",
+      "name": "Pulm / Critical Care",
+      "color": "#4648d8",
+      "path": "Medical Doctor"
+    },
+    {
+      "key": "diagnostic_radiology",
+      "name": "Diagnostic Radiology",
+      "color": "#4d31d8",
+      "path": "Medical Doctor"
+    },
+    {
+      "key": "derm",
+      "name": "Dermatology (General/Medical)",
+      "color": "#E8685E",
+      "path": "Medical Doctor"
+    },
+    {
+      "key": "anesthesiology",
+      "name": "Anesthesiology",
+      "color": "#6020d8",
+      "path": "Medical Doctor"
+    },
+    {
+      "key": "emergency_medicine",
+      "name": "Emergency Medicine",
+      "color": "#9446d8",
+      "path": "Medical Doctor"
+    },
+    {
+      "key": "psychiatry",
+      "name": "Psychiatry",
+      "color": "#a831d8",
+      "path": "Medical Doctor"
+    },
+    {
+      "key": "internal_medicine_genera",
+      "name": "Internal Medicine (General)",
+      "color": "#c420d8",
+      "path": "Medical Doctor"
+    },
+    {
+      "key": "family_medicine",
+      "name": "Family Medicine",
+      "color": "#d846ce",
+      "path": "Medical Doctor"
+    },
+    {
+      "key": "pediatrics_general",
+      "name": "Pediatrics (General)",
+      "color": "#d831af",
+      "path": "Medical Doctor"
+    },
+    {
+      "key": "cardiology_non_intervent",
+      "name": "Cardiology (Non-interventional)",
+      "color": "#d82089",
+      "path": "Medical Doctor"
+    },
+    {
+      "key": "hematology_oncology",
+      "name": "Hematology / Oncology",
+      "color": "#d8467f",
+      "path": "Medical Doctor"
+    },
+    {
+      "key": "nephrology",
+      "name": "Nephrology",
+      "color": "#d83154",
+      "path": "Medical Doctor"
+    },
+    {
+      "key": "rheumatology",
+      "name": "Rheumatology",
+      "color": "#d82026",
+      "path": "Medical Doctor"
+    },
+    {
+      "key": "endocrinology",
+      "name": "Endocrinology",
+      "color": "#d85c46",
+      "path": "Medical Doctor"
+    },
+    {
+      "key": "infectious_disease",
+      "name": "Infectious Disease",
+      "color": "#d86831",
+      "path": "Medical Doctor"
+    },
+    {
+      "key": "allergy_immunology",
+      "name": "Allergy / Immunology",
+      "color": "#d87e20",
+      "path": "Medical Doctor"
+    },
+    {
+      "key": "physical_medicine_rehabi",
+      "name": "Physical Medicine & Rehabilitation",
+      "color": "#d8ab46",
+      "path": "Medical Doctor"
+    },
+    {
+      "key": "radiation_oncology",
+      "name": "Radiation Oncology",
+      "color": "#d8c231",
+      "path": "Medical Doctor"
+    },
+    {
+      "key": "pathology",
+      "name": "Pathology",
+      "color": "#cfd820",
+      "path": "Medical Doctor"
+    },
+    {
+      "key": "nuclear_medicine",
+      "name": "Nuclear Medicine",
+      "color": "#b7d846",
+      "path": "Medical Doctor"
+    },
+    {
+      "key": "hospice_palliative_medic",
+      "name": "Hospice / Palliative Medicine",
+      "color": "#94d831",
+      "path": "Medical Doctor"
+    },
+    {
+      "key": "geriatrics",
+      "name": "Geriatrics",
+      "color": "#6cd820",
+      "path": "Medical Doctor"
+    },
+    {
+      "key": "neonatology",
+      "name": "Neonatology",
+      "color": "#68d846",
+      "path": "Medical Doctor"
+    },
+    {
+      "key": "neurology",
+      "name": "Neurology",
+      "color": "#39d831",
+      "path": "Medical Doctor"
+    },
+    {
+      "key": "sleep_medicine",
+      "name": "Sleep Medicine",
+      "color": "#20d838",
+      "path": "Medical Doctor"
+    },
+    {
+      "key": "preventive_occupational_",
+      "name": "Preventive / Occupational Medicine",
+      "color": "#46d873",
+      "path": "Medical Doctor"
+    },
+    {
+      "key": "medical_genetics",
+      "name": "Medical Genetics",
+      "color": "#31d883",
+      "path": "Medical Doctor"
+    },
+    {
+      "key": "critical_care_medicine",
+      "name": "Critical Care Medicine",
+      "color": "#20d89b",
+      "path": "Medical Doctor"
+    },
+    {
+      "key": "medical_therapeutic_opto",
+      "name": "Medical / Therapeutic Optometry",
+      "color": "#6a5488",
+      "path": "Eye Doctor (Optom.)"
+    },
+    {
+      "key": "surgical_co_management_s",
+      "name": "Surgical Co-Management / Specialty",
+      "color": "#7f519d",
+      "path": "Eye Doctor (Optom.)"
+    },
+    {
+      "key": "general_optometry",
+      "name": "General Optometry",
+      "color": "#773988",
+      "path": "Eye Doctor (Optom.)"
     }
   ],
   "categories": [
@@ -257,667 +604,11 @@
   },
   "tracks": [
     {
-      "name": "General Surgery",
-      "profession": "MD/DO",
-      "finalist": false,
-      "raw_data": {
-        "startSalary": 380,
-        "midSalary": 450,
-        "peakSalary": 600,
-        "hoursWeek": 60,
-        "burnout": 52,
-        "satisfaction": 70,
-        "chooseAgain": 65,
-        "malpracticeCost": 50,
-        "vacation": 4,
-        "matchComp": 4,
-        "callSchedule": 2,
-        "physicalToll": 4,
-        "emotionalToll": 3
-      }
-    },
-    {
-      "name": "Orthopedic Surgery",
-      "profession": "MD/DO",
-      "finalist": false,
-      "raw_data": {
-        "startSalary": 500,
-        "midSalary": 620,
-        "peakSalary": 900,
-        "hoursWeek": 55,
-        "burnout": 42,
-        "satisfaction": 78,
-        "chooseAgain": 75,
-        "malpracticeCost": 45,
-        "vacation": 5,
-        "matchComp": 2,
-        "callSchedule": 3,
-        "physicalToll": 3,
-        "emotionalToll": 5
-      }
-    },
-    {
-      "name": "Neurosurgery",
-      "profession": "MD/DO",
-      "finalist": false,
-      "raw_data": {
-        "startSalary": 600,
-        "midSalary": 780,
-        "peakSalary": 1200,
-        "hoursWeek": 65,
-        "burnout": 57,
-        "satisfaction": 75,
-        "chooseAgain": 70,
-        "malpracticeCost": 80,
-        "vacation": 3,
-        "matchComp": 1,
-        "callSchedule": 1,
-        "physicalToll": 3,
-        "emotionalToll": 2
-      }
-    },
-    {
-      "name": "Cardiothoracic Surgery",
-      "profession": "MD/DO",
-      "finalist": false,
-      "raw_data": {
-        "startSalary": 500,
-        "midSalary": 650,
-        "peakSalary": 900,
-        "hoursWeek": 65,
-        "burnout": 55,
-        "satisfaction": 72,
-        "chooseAgain": 68,
-        "malpracticeCost": 90,
-        "vacation": 3,
-        "matchComp": 2,
-        "callSchedule": 1,
-        "physicalToll": 3,
-        "emotionalToll": 2
-      }
-    },
-    {
-      "name": "Vascular Surgery",
-      "profession": "MD/DO",
-      "finalist": false,
-      "raw_data": {
-        "startSalary": 420,
-        "midSalary": 530,
-        "peakSalary": 700,
-        "hoursWeek": 58,
-        "burnout": 48,
-        "satisfaction": 73,
-        "chooseAgain": 68,
-        "malpracticeCost": 55,
-        "vacation": 4,
-        "matchComp": 3,
-        "callSchedule": 2,
-        "physicalToll": 4,
-        "emotionalToll": 3
-      }
-    },
-    {
-      "name": "Plastic & Reconstructive Surgery",
-      "profession": "MD/DO",
-      "finalist": false,
-      "raw_data": {
-        "startSalary": 400,
-        "midSalary": 500,
-        "peakSalary": 1000,
-        "hoursWeek": 50,
-        "burnout": 35,
-        "satisfaction": 82,
-        "chooseAgain": 80,
-        "malpracticeCost": 40,
-        "vacation": 5,
-        "matchComp": 1,
-        "callSchedule": 5,
-        "physicalToll": 5,
-        "emotionalToll": 5
-      }
-    },
-    {
-      "name": "Trauma / Acute Care Surgery",
-      "profession": "MD/DO",
-      "finalist": false,
-      "raw_data": {
-        "startSalary": 380,
-        "midSalary": 430,
-        "peakSalary": 550,
-        "hoursWeek": 60,
-        "burnout": 60,
-        "satisfaction": 68,
-        "chooseAgain": 60,
-        "malpracticeCost": 60,
-        "vacation": 4,
-        "matchComp": 4,
-        "callSchedule": 1,
-        "physicalToll": 3,
-        "emotionalToll": 1
-      }
-    },
-    {
-      "name": "Transplant Surgery",
-      "profession": "MD/DO",
-      "finalist": false,
-      "raw_data": {
-        "startSalary": 400,
-        "midSalary": 480,
-        "peakSalary": 600,
-        "hoursWeek": 65,
-        "burnout": 55,
-        "satisfaction": 75,
-        "chooseAgain": 70,
-        "malpracticeCost": 55,
-        "vacation": 3,
-        "matchComp": 3,
-        "callSchedule": 1,
-        "physicalToll": 3,
-        "emotionalToll": 2
-      }
-    },
-    {
-      "name": "Pediatric Surgery",
-      "profession": "MD/DO",
-      "finalist": false,
-      "raw_data": {
-        "startSalary": 380,
-        "midSalary": 450,
-        "peakSalary": 550,
-        "hoursWeek": 58,
-        "burnout": 45,
-        "satisfaction": 80,
-        "chooseAgain": 76,
-        "malpracticeCost": 45,
-        "vacation": 4,
-        "matchComp": 2,
-        "callSchedule": 2,
-        "physicalToll": 5,
-        "emotionalToll": 2
-      }
-    },
-    {
-      "name": "Colorectal Surgery",
-      "profession": "MD/DO",
-      "finalist": false,
-      "raw_data": {
-        "startSalary": 380,
-        "midSalary": 440,
-        "peakSalary": 550,
-        "hoursWeek": 52,
-        "burnout": 40,
-        "satisfaction": 75,
-        "chooseAgain": 72,
-        "malpracticeCost": 35,
-        "vacation": 4,
-        "matchComp": 5,
-        "callSchedule": 4,
-        "physicalToll": 5,
-        "emotionalToll": 5
-      }
-    },
-    {
-      "name": "Hand Surgery",
-      "profession": "MD/DO",
-      "finalist": false,
-      "raw_data": {
-        "startSalary": 450,
-        "midSalary": 550,
-        "peakSalary": 750,
-        "hoursWeek": 50,
-        "burnout": 35,
-        "satisfaction": 80,
-        "chooseAgain": 78,
-        "malpracticeCost": 30,
-        "vacation": 5,
-        "matchComp": 3,
-        "callSchedule": 5,
-        "physicalToll": 5,
-        "emotionalToll": 6
-      }
-    },
-    {
-      "name": "Spine Surgery",
-      "profession": "MD/DO",
-      "finalist": false,
-      "raw_data": {
-        "startSalary": 600,
-        "midSalary": 750,
-        "peakSalary": 1100,
-        "hoursWeek": 55,
-        "burnout": 45,
-        "satisfaction": 76,
-        "chooseAgain": 72,
-        "malpracticeCost": 70,
-        "vacation": 5,
-        "matchComp": 3,
-        "callSchedule": 3,
-        "physicalToll": 3,
-        "emotionalToll": 4
-      }
-    },
-    {
-      "name": "Sports Medicine (Surgical)",
-      "profession": "MD/DO",
-      "finalist": false,
-      "raw_data": {
-        "startSalary": 450,
-        "midSalary": 560,
-        "peakSalary": 800,
-        "hoursWeek": 50,
-        "burnout": 32,
-        "satisfaction": 85,
-        "chooseAgain": 82,
-        "malpracticeCost": 25,
-        "vacation": 5,
-        "matchComp": 2,
-        "callSchedule": 5,
-        "physicalToll": 6,
-        "emotionalToll": 7
-      }
-    },
-    {
-      "name": "Bariatric Surgery",
-      "profession": "MD/DO",
-      "finalist": false,
-      "raw_data": {
-        "startSalary": 380,
-        "midSalary": 450,
-        "peakSalary": 600,
-        "hoursWeek": 48,
-        "burnout": 35,
-        "satisfaction": 78,
-        "chooseAgain": 75,
-        "malpracticeCost": 30,
-        "vacation": 5,
-        "matchComp": 5,
-        "callSchedule": 5,
-        "physicalToll": 6,
-        "emotionalToll": 6
-      }
-    },
-    {
-      "name": "Interventional Cardiology",
-      "profession": "MD/DO",
-      "finalist": false,
-      "raw_data": {
-        "startSalary": 500,
-        "midSalary": 650,
-        "peakSalary": 1000,
-        "hoursWeek": 58,
-        "burnout": 48,
-        "satisfaction": 77,
-        "chooseAgain": 73,
-        "malpracticeCost": 55,
-        "vacation": 4,
-        "matchComp": 2,
-        "callSchedule": 1,
-        "physicalToll": 4,
-        "emotionalToll": 3
-      }
-    },
-    {
-      "name": "Interventional Radiology",
-      "profession": "MD/DO",
-      "finalist": false,
-      "raw_data": {
-        "startSalary": 400,
-        "midSalary": 520,
-        "peakSalary": 700,
-        "hoursWeek": 55,
-        "burnout": 40,
-        "satisfaction": 80,
-        "chooseAgain": 77,
-        "malpracticeCost": 40,
-        "vacation": 4,
-        "matchComp": 3,
-        "callSchedule": 2,
-        "physicalToll": 4,
-        "emotionalToll": 5
-      }
-    },
-    {
-      "name": "Gastroenterology (Endoscopy)",
-      "profession": "MD/DO",
-      "finalist": false,
-      "raw_data": {
-        "startSalary": 400,
-        "midSalary": 530,
-        "peakSalary": 750,
-        "hoursWeek": 50,
-        "burnout": 42,
-        "satisfaction": 80,
-        "chooseAgain": 76,
-        "malpracticeCost": 25,
-        "vacation": 5,
-        "matchComp": 3,
-        "callSchedule": 4,
-        "physicalToll": 6,
-        "emotionalToll": 6
-      }
-    },
-    {
-      "name": "Urology",
-      "profession": "MD/DO",
-      "finalist": false,
-      "raw_data": {
-        "startSalary": 400,
-        "midSalary": 520,
-        "peakSalary": 700,
-        "hoursWeek": 52,
-        "burnout": 38,
-        "satisfaction": 82,
-        "chooseAgain": 79,
-        "malpracticeCost": 30,
-        "vacation": 5,
-        "matchComp": 2,
-        "callSchedule": 4,
-        "physicalToll": 5,
-        "emotionalToll": 6
-      }
-    },
-    {
-      "name": "OB/GYN",
-      "profession": "MD/DO",
-      "finalist": false,
-      "raw_data": {
-        "startSalary": 310,
-        "midSalary": 380,
-        "peakSalary": 500,
-        "hoursWeek": 55,
-        "burnout": 52,
-        "satisfaction": 68,
-        "chooseAgain": 60,
-        "malpracticeCost": 85,
-        "vacation": 4,
-        "matchComp": 4,
-        "callSchedule": 2,
-        "physicalToll": 4,
-        "emotionalToll": 3
-      }
-    },
-    {
-      "name": "Ophthalmology",
-      "profession": "MD/DO",
-      "finalist": true,
-      "raw_data": {
-        "startSalary": 350,
-        "midSalary": 450,
-        "peakSalary": 800,
-        "hoursWeek": 47,
-        "burnout": 30,
-        "satisfaction": 85,
-        "chooseAgain": 83,
-        "malpracticeCost": 15,
-        "vacation": 5,
-        "matchComp": 1,
-        "callSchedule": 7,
-        "physicalToll": 6,
-        "emotionalToll": 7
-      },
-      "teen_name": "Eye Surgeon",
-      "finalist_color": "#2BA5B5",
-      "finalist_key": "eye",
-      "scores": {
-        "category_1": 3.25,
-        "category_2": 4.0,
-        "category_3": 4.33,
-        "category_4": 4.67,
-        "category_5": 5.0,
-        "category_6": 8.67,
-        "category_7": 5.8,
-        "category_8": 6.33,
-        "category_9": 7.31,
-        "category_10": 8.0,
-        "category_11": 7.5,
-        "category_12": 8.12,
-        "category_13": 4.5
-      },
-      "scenario_totals": {
-        "default": 6.03,
-        "equal_weight": 5.91,
-        "max_earnings": 6.07,
-        "best_lifestyle": 6.26,
-        "fastest_to_practice": 5.22,
-        "most_procedural": 6.52
-      }
-    },
-    {
-      "name": "ENT / Otolaryngology",
-      "profession": "MD/DO",
-      "finalist": false,
-      "raw_data": {
-        "startSalary": 380,
-        "midSalary": 470,
-        "peakSalary": 650,
-        "hoursWeek": 50,
-        "burnout": 35,
-        "satisfaction": 82,
-        "chooseAgain": 80,
-        "malpracticeCost": 25,
-        "vacation": 5,
-        "matchComp": 2,
-        "callSchedule": 5,
-        "physicalToll": 6,
-        "emotionalToll": 6
-      }
-    },
-    {
-      "name": "Mohs Surgery (Dermatology)",
-      "profession": "MD/DO",
-      "finalist": true,
-      "raw_data": {
-        "startSalary": 450,
-        "midSalary": 600,
-        "peakSalary": 1000,
-        "hoursWeek": 45,
-        "burnout": 22,
-        "satisfaction": 90,
-        "chooseAgain": 88,
-        "malpracticeCost": 8,
-        "vacation": 6,
-        "matchComp": 1,
-        "callSchedule": 10,
-        "physicalToll": 7,
-        "emotionalToll": 8
-      },
-      "teen_name": "Skin Cancer Surgeon",
-      "finalist_color": "#D4A537",
-      "finalist_key": "mohs",
-      "scores": {
-        "category_1": 3.25,
-        "category_2": 4.0,
-        "category_3": 4.33,
-        "category_4": 4.0,
-        "category_5": 5.0,
-        "category_6": 8.67,
-        "category_7": 7.72,
-        "category_8": 8.33,
-        "category_9": 8.61,
-        "category_10": 8.0,
-        "category_11": 7.0,
-        "category_12": 7.4,
-        "category_13": 4.5
-      },
-      "scenario_totals": {
-        "default": 6.46,
-        "equal_weight": 6.26,
-        "max_earnings": 6.65,
-        "best_lifestyle": 6.79,
-        "fastest_to_practice": 5.33,
-        "most_procedural": 6.95
-      }
-    },
-    {
-      "name": "Interventional Pain Medicine",
-      "profession": "MD/DO",
-      "finalist": false,
-      "raw_data": {
-        "startSalary": 350,
-        "midSalary": 450,
-        "peakSalary": 650,
-        "hoursWeek": 45,
-        "burnout": 38,
-        "satisfaction": 72,
-        "chooseAgain": 68,
-        "malpracticeCost": 20,
-        "vacation": 5,
-        "matchComp": 5,
-        "callSchedule": 8,
-        "physicalToll": 6,
-        "emotionalToll": 4
-      }
-    },
-    {
-      "name": "Pulm / Critical Care",
-      "profession": "MD/DO",
-      "finalist": false,
-      "raw_data": {
-        "startSalary": 350,
-        "midSalary": 420,
-        "peakSalary": 550,
-        "hoursWeek": 55,
-        "burnout": 55,
-        "satisfaction": 72,
-        "chooseAgain": 65,
-        "malpracticeCost": 30,
-        "vacation": 4,
-        "matchComp": 5,
-        "callSchedule": 3,
-        "physicalToll": 4,
-        "emotionalToll": 2
-      }
-    },
-    {
-      "name": "Diagnostic Radiology",
-      "profession": "MD/DO",
-      "finalist": false,
-      "raw_data": {
-        "startSalary": 380,
-        "midSalary": 470,
-        "peakSalary": 650,
-        "hoursWeek": 47,
-        "burnout": 38,
-        "satisfaction": 78,
-        "chooseAgain": 75,
-        "malpracticeCost": 20,
-        "vacation": 5,
-        "matchComp": 4,
-        "callSchedule": 5,
-        "physicalToll": 8,
-        "emotionalToll": 7
-      }
-    },
-    {
-      "name": "Dermatology (General/Medical)",
-      "profession": "MD/DO",
-      "finalist": true,
-      "raw_data": {
-        "startSalary": 350,
-        "midSalary": 450,
-        "peakSalary": 700,
-        "hoursWeek": 43,
-        "burnout": 25,
-        "satisfaction": 88,
-        "chooseAgain": 86,
-        "malpracticeCost": 8,
-        "vacation": 6,
-        "matchComp": 1,
-        "callSchedule": 9,
-        "physicalToll": 8,
-        "emotionalToll": 8
-      },
-      "teen_name": "Skin Doctor",
-      "finalist_color": "#E8685E",
-      "finalist_key": "derm",
-      "scores": {
-        "category_1": 3.25,
-        "category_2": 4.0,
-        "category_3": 4.33,
-        "category_4": 4.67,
-        "category_5": 5.0,
-        "category_6": 8.67,
-        "category_7": 6.08,
-        "category_8": 6.33,
-        "category_9": 8.6,
-        "category_10": 8.0,
-        "category_11": 5.5,
-        "category_12": 7.62,
-        "category_13": 4.5
-      },
-      "scenario_totals": {
-        "default": 6.13,
-        "equal_weight": 6.04,
-        "max_earnings": 6.13,
-        "best_lifestyle": 6.44,
-        "fastest_to_practice": 5.29,
-        "most_procedural": 6.48
-      }
-    },
-    {
-      "name": "Anesthesiology",
-      "profession": "MD/DO",
-      "finalist": false,
-      "raw_data": {
-        "startSalary": 380,
-        "midSalary": 430,
-        "peakSalary": 550,
-        "hoursWeek": 50,
-        "burnout": 45,
-        "satisfaction": 73,
-        "chooseAgain": 68,
-        "malpracticeCost": 30,
-        "vacation": 5,
-        "matchComp": 5,
-        "callSchedule": 3,
-        "physicalToll": 5,
-        "emotionalToll": 4
-      }
-    },
-    {
-      "name": "Emergency Medicine",
-      "profession": "MD/DO",
-      "finalist": false,
-      "raw_data": {
-        "startSalary": 320,
-        "midSalary": 370,
-        "peakSalary": 450,
-        "hoursWeek": 42,
-        "burnout": 60,
-        "satisfaction": 55,
-        "chooseAgain": 48,
-        "malpracticeCost": 40,
-        "vacation": 5,
-        "matchComp": 6,
-        "callSchedule": 8,
-        "physicalToll": 4,
-        "emotionalToll": 2
-      }
-    },
-    {
-      "name": "Psychiatry",
-      "profession": "MD/DO",
-      "finalist": false,
-      "raw_data": {
-        "startSalary": 270,
-        "midSalary": 320,
-        "peakSalary": 450,
-        "hoursWeek": 45,
-        "burnout": 48,
-        "satisfaction": 75,
-        "chooseAgain": 72,
-        "malpracticeCost": 12,
-        "vacation": 5,
-        "matchComp": 7,
-        "callSchedule": 7,
-        "physicalToll": 9,
-        "emotionalToll": 3
-      }
-    },
-    {
       "name": "Oral & Maxillofacial Surgery",
+      "key": "oral_maxillofacial_surge",
       "profession": "DDS/DMD",
-      "finalist": false,
+      "color": "#2a82b9",
+      "path": "Dentist",
       "raw_data": {
         "startSalary": 350,
         "midSalary": 480,
@@ -932,12 +623,87 @@
         "callSchedule": 2,
         "physicalToll": 4,
         "emotionalToll": 4
+      },
+      "scores": {
+        "category_1": 4.75,
+        "category_2": 4.0,
+        "category_3": 6.0,
+        "category_4": 5.38,
+        "category_5": 4.73,
+        "category_6": 6.0,
+        "category_7": 6.35,
+        "category_8": 6.22,
+        "category_9": 4.86,
+        "category_10": 7.0,
+        "category_11": 8.6,
+        "category_12": 7.65,
+        "category_13": 5.5,
+        "category_14": 3.73
+      },
+      "scenario_totals": {
+        "default": 5.96,
+        "equal_weight": 5.75,
+        "max_earnings": 5.89,
+        "best_lifestyle": 5.8,
+        "fastest_to_practice": 5.45,
+        "most_procedural": 6.11
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 35,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 55,
+        "prof_school_years": 4,
+        "trainee_salary": 60,
+        "education_debt": 300,
+        "loan_rate": 6.5,
+        "living_expenses": 48,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 8,
+        "salary_growth_to_mid": 3,
+        "salary_growth_to_peak": 2.5,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 5,
+        "fellowship_years": 1,
+        "age_independent": 32,
+        "starting_salary": 350,
+        "mid_salary": 480,
+        "peak_salary": 750,
+        "malpractice_per_yr": 40
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 7,
+        "injury": 3,
+        "match": 8
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          26
+        ],
+        "residency": [
+          26,
+          31
+        ],
+        "fellowship": [
+          31,
+          32
+        ],
+        "earnAge": 32,
+        "startSalary": 350
       }
     },
     {
       "name": "Endodontics",
+      "key": "endodontics",
       "profession": "DDS/DMD",
-      "finalist": false,
+      "color": "#1e6bce",
+      "path": "Dentist",
       "raw_data": {
         "startSalary": 250,
         "midSalary": 350,
@@ -952,12 +718,84 @@
         "callSchedule": 9,
         "physicalToll": 4,
         "emotionalToll": 7
+      },
+      "scores": {
+        "category_1": 4.75,
+        "category_2": 5.33,
+        "category_3": 6.0,
+        "category_4": 8.25,
+        "category_5": 4.19,
+        "category_6": 6.57,
+        "category_7": 6.3,
+        "category_8": 7.8,
+        "category_9": 7.84,
+        "category_10": 7.2,
+        "category_11": 8.2,
+        "category_12": 5.55,
+        "category_13": 5.5,
+        "category_14": 5.4
+      },
+      "scenario_totals": {
+        "default": 6.59,
+        "equal_weight": 6.33,
+        "max_earnings": 6.15,
+        "best_lifestyle": 6.68,
+        "fastest_to_practice": 6.13,
+        "most_procedural": 6.55
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 35,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 55,
+        "prof_school_years": 4,
+        "trainee_salary": 60,
+        "education_debt": 300,
+        "loan_rate": 6.5,
+        "living_expenses": 48,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 8,
+        "salary_growth_to_mid": 3,
+        "salary_growth_to_peak": 2.5,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 2,
+        "age_independent": 28,
+        "starting_salary": 250,
+        "mid_salary": 350,
+        "peak_salary": 550,
+        "malpractice_per_yr": 10
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 7,
+        "injury": 4,
+        "match": 7
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          26
+        ],
+        "residency": null,
+        "fellowship": [
+          26,
+          28
+        ],
+        "earnAge": 28,
+        "startSalary": 250
       }
     },
     {
       "name": "Periodontics",
+      "key": "periodontics",
       "profession": "DDS/DMD",
-      "finalist": false,
+      "color": "#1b43b9",
+      "path": "Dentist",
       "raw_data": {
         "startSalary": 220,
         "midSalary": 320,
@@ -972,12 +810,84 @@
         "callSchedule": 9,
         "physicalToll": 5,
         "emotionalToll": 7
+      },
+      "scores": {
+        "category_1": 4.75,
+        "category_2": 5.33,
+        "category_3": 6.0,
+        "category_4": 8.25,
+        "category_5": 4.04,
+        "category_6": 6.57,
+        "category_7": 6.42,
+        "category_8": 7.3,
+        "category_9": 7.96,
+        "category_10": 7.2,
+        "category_11": 8.2,
+        "category_12": 6.18,
+        "category_13": 5.5,
+        "category_14": 5.87
+      },
+      "scenario_totals": {
+        "default": 6.63,
+        "equal_weight": 6.38,
+        "max_earnings": 6.17,
+        "best_lifestyle": 6.71,
+        "fastest_to_practice": 6.15,
+        "most_procedural": 6.56
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 35,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 55,
+        "prof_school_years": 4,
+        "trainee_salary": 60,
+        "education_debt": 300,
+        "loan_rate": 6.5,
+        "living_expenses": 48,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 8,
+        "salary_growth_to_mid": 3,
+        "salary_growth_to_peak": 2.5,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 3,
+        "age_independent": 29,
+        "starting_salary": 220,
+        "mid_salary": 320,
+        "peak_salary": 500,
+        "malpractice_per_yr": 8
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 7,
+        "injury": 5,
+        "match": 7
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          26
+        ],
+        "residency": null,
+        "fellowship": [
+          26,
+          29
+        ],
+        "earnAge": 29,
+        "startSalary": 220
       }
     },
     {
       "name": "Prosthodontics",
+      "key": "prosthodontics",
       "profession": "DDS/DMD",
-      "finalist": false,
+      "color": "#2e3ace",
+      "path": "Dentist",
       "raw_data": {
         "startSalary": 200,
         "midSalary": 300,
@@ -992,12 +902,84 @@
         "callSchedule": 10,
         "physicalToll": 5,
         "emotionalToll": 8
+      },
+      "scores": {
+        "category_1": 4.75,
+        "category_2": 5.33,
+        "category_3": 6.0,
+        "category_4": 8.5,
+        "category_5": 3.94,
+        "category_6": 6.57,
+        "category_7": 6.3,
+        "category_8": 6.92,
+        "category_9": 7.94,
+        "category_10": 7.0,
+        "category_11": 8.0,
+        "category_12": 6.55,
+        "category_13": 5.5,
+        "category_14": 6.34
+      },
+      "scenario_totals": {
+        "default": 6.62,
+        "equal_weight": 6.39,
+        "max_earnings": 6.12,
+        "best_lifestyle": 6.69,
+        "fastest_to_practice": 6.18,
+        "most_procedural": 6.53
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 35,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 55,
+        "prof_school_years": 4,
+        "trainee_salary": 60,
+        "education_debt": 300,
+        "loan_rate": 6.5,
+        "living_expenses": 48,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 8,
+        "salary_growth_to_mid": 3,
+        "salary_growth_to_peak": 2.5,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 3,
+        "age_independent": 29,
+        "starting_salary": 200,
+        "mid_salary": 300,
+        "peak_salary": 450,
+        "malpractice_per_yr": 6
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 7,
+        "injury": 6,
+        "match": 7
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          26
+        ],
+        "residency": null,
+        "fellowship": [
+          26,
+          29
+        ],
+        "earnAge": 29,
+        "startSalary": 200
       }
     },
     {
       "name": "Orthodontics",
+      "key": "orthodontics",
       "profession": "DDS/DMD",
-      "finalist": false,
+      "color": "#2c1bb9",
+      "path": "Dentist",
       "raw_data": {
         "startSalary": 200,
         "midSalary": 350,
@@ -1012,12 +994,84 @@
         "callSchedule": 10,
         "physicalToll": 6,
         "emotionalToll": 8
+      },
+      "scores": {
+        "category_1": 4.75,
+        "category_2": 4.0,
+        "category_3": 6.0,
+        "category_4": 8.5,
+        "category_5": 4.06,
+        "category_6": 6.57,
+        "category_7": 6.95,
+        "category_8": 6.55,
+        "category_9": 8.04,
+        "category_10": 7.0,
+        "category_11": 7.0,
+        "category_12": 6.0,
+        "category_13": 5.5,
+        "category_14": 7.07
+      },
+      "scenario_totals": {
+        "default": 6.52,
+        "equal_weight": 6.29,
+        "max_earnings": 6.19,
+        "best_lifestyle": 6.57,
+        "fastest_to_practice": 6.02,
+        "most_procedural": 6.32
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 35,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 55,
+        "prof_school_years": 4,
+        "trainee_salary": 60,
+        "education_debt": 300,
+        "loan_rate": 6.5,
+        "living_expenses": 48,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 8,
+        "salary_growth_to_mid": 3,
+        "salary_growth_to_peak": 2.5,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 2,
+        "age_independent": 28,
+        "starting_salary": 200,
+        "mid_salary": 350,
+        "peak_salary": 600,
+        "malpractice_per_yr": 5
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 7,
+        "injury": 7,
+        "match": 8
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          26
+        ],
+        "residency": null,
+        "fellowship": [
+          26,
+          28
+        ],
+        "earnAge": 28,
+        "startSalary": 200
       }
     },
     {
       "name": "Pediatric Dentistry",
+      "key": "pediatric_dentistry",
       "profession": "DDS/DMD",
-      "finalist": false,
+      "color": "#511ece",
+      "path": "Dentist",
       "raw_data": {
         "startSalary": 220,
         "midSalary": 300,
@@ -1032,12 +1086,84 @@
         "callSchedule": 9,
         "physicalToll": 5,
         "emotionalToll": 5
+      },
+      "scores": {
+        "category_1": 4.75,
+        "category_2": 5.0,
+        "category_3": 6.0,
+        "category_4": 8.25,
+        "category_5": 4.0,
+        "category_6": 6.43,
+        "category_7": 6.05,
+        "category_8": 6.92,
+        "category_9": 7.04,
+        "category_10": 7.2,
+        "category_11": 8.0,
+        "category_12": 6.2,
+        "category_13": 5.5,
+        "category_14": 5.83
+      },
+      "scenario_totals": {
+        "default": 6.41,
+        "equal_weight": 6.22,
+        "max_earnings": 5.98,
+        "best_lifestyle": 6.42,
+        "fastest_to_practice": 6.02,
+        "most_procedural": 6.37
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 35,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 55,
+        "prof_school_years": 4,
+        "trainee_salary": 60,
+        "education_debt": 300,
+        "loan_rate": 6.5,
+        "living_expenses": 48,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 8,
+        "salary_growth_to_mid": 3,
+        "salary_growth_to_peak": 2.5,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 2,
+        "age_independent": 28,
+        "starting_salary": 220,
+        "mid_salary": 300,
+        "peak_salary": 450,
+        "malpractice_per_yr": 10
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 7,
+        "injury": 5,
+        "match": 7
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          26
+        ],
+        "residency": null,
+        "fellowship": [
+          26,
+          28
+        ],
+        "earnAge": 28,
+        "startSalary": 220
       }
     },
     {
       "name": "General Dentistry",
+      "key": "general_dentistry",
       "profession": "DDS/DMD",
-      "finalist": false,
+      "color": "#6d2ab9",
+      "path": "Dentist",
       "raw_data": {
         "startSalary": 160,
         "midSalary": 220,
@@ -1052,12 +1178,84 @@
         "callSchedule": 10,
         "physicalToll": 4,
         "emotionalToll": 6
+      },
+      "scores": {
+        "category_1": 4.75,
+        "category_2": 6.0,
+        "category_3": 6.0,
+        "category_4": 8.5,
+        "category_5": 3.67,
+        "category_6": 6.57,
+        "category_7": 6.15,
+        "category_8": 6.67,
+        "category_9": 7.44,
+        "category_10": 7.4,
+        "category_11": 7.8,
+        "category_12": 5.67,
+        "category_13": 5.5,
+        "category_14": 6.07
+      },
+      "scenario_totals": {
+        "default": 6.48,
+        "equal_weight": 6.29,
+        "max_earnings": 5.98,
+        "best_lifestyle": 6.48,
+        "fastest_to_practice": 6.15,
+        "most_procedural": 6.34
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 35,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 55,
+        "prof_school_years": 4,
+        "trainee_salary": 60,
+        "education_debt": 300,
+        "loan_rate": 6.5,
+        "living_expenses": 48,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 8,
+        "salary_growth_to_mid": 3,
+        "salary_growth_to_peak": 2.5,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 1,
+        "age_independent": 27,
+        "starting_salary": 160,
+        "mid_salary": 220,
+        "peak_salary": 400,
+        "malpractice_per_yr": 5
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 7,
+        "injury": 6,
+        "match": 6
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          26
+        ],
+        "residency": null,
+        "fellowship": [
+          26,
+          27
+        ],
+        "earnAge": 27,
+        "startSalary": 160
       }
     },
     {
       "name": "Podiatric Surgery (Foot & Ankle)",
+      "key": "pod",
       "profession": "DPM",
-      "finalist": true,
+      "color": "#2D3A6E",
+      "path": "Foot Doctor",
       "raw_data": {
         "startSalary": 220,
         "midSalary": 320,
@@ -1073,37 +1271,86 @@
         "physicalToll": 5,
         "emotionalToll": 5
       },
-      "teen_name": "Foot & Ankle Surgeon",
-      "finalist_color": "#2D3A6E",
-      "finalist_key": "pod",
       "scores": {
         "category_1": 7.25,
-        "category_2": 9.0,
+        "category_2": 8.33,
         "category_3": 6.0,
-        "category_4": 7.0,
-        "category_5": 5.6,
-        "category_6": 6.67,
-        "category_7": 3.53,
-        "category_8": 6.0,
-        "category_9": 6.19,
-        "category_10": 6.5,
-        "category_11": 8.5,
-        "category_12": 5.84,
-        "category_13": 6.5
+        "category_4": 5.5,
+        "category_5": 5.04,
+        "category_6": 6.29,
+        "category_7": 4.92,
+        "category_8": 6.42,
+        "category_9": 5.74,
+        "category_10": 6.6,
+        "category_11": 8.2,
+        "category_12": 5.42,
+        "category_13": 6.5,
+        "category_14": 4.79
       },
       "scenario_totals": {
-        "default": 6.22,
-        "equal_weight": 6.33,
-        "max_earnings": 5.68,
-        "best_lifestyle": 6.24,
-        "fastest_to_practice": 6.58,
-        "most_procedural": 6.33
+        "default": 6.29,
+        "equal_weight": 6.2,
+        "max_earnings": 5.77,
+        "best_lifestyle": 6.06,
+        "fastest_to_practice": 6.25,
+        "most_procedural": 6.21
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 35,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 50,
+        "prof_school_years": 4,
+        "trainee_salary": 60,
+        "education_debt": 340,
+        "loan_rate": 6.5,
+        "living_expenses": 45,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 5,
+        "salary_growth_to_mid": 3.5,
+        "salary_growth_to_peak": 2.5,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 3,
+        "fellowship_years": 1,
+        "age_independent": 30,
+        "starting_salary": 220,
+        "mid_salary": 320,
+        "peak_salary": 500,
+        "malpractice_per_yr": 18
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 6,
+        "injury": 4,
+        "match": 8
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          26
+        ],
+        "residency": [
+          26,
+          29
+        ],
+        "fellowship": [
+          29,
+          30
+        ],
+        "earnAge": 30,
+        "startSalary": 220
       }
     },
     {
       "name": "Sports Medicine / Biomechanics",
+      "key": "sport",
       "profession": "DPM",
-      "finalist": true,
+      "color": "#3EA66B",
+      "path": "Foot Doctor",
       "raw_data": {
         "startSalary": 160,
         "midSalary": 220,
@@ -1119,37 +1366,86 @@
         "physicalToll": 7,
         "emotionalToll": 7
       },
-      "teen_name": "Sports Foot Doctor",
-      "finalist_color": "#3EA66B",
-      "finalist_key": "sport",
       "scores": {
         "category_1": 7.25,
-        "category_2": 9.0,
+        "category_2": 8.67,
         "category_3": 6.0,
-        "category_4": 7.33,
-        "category_5": 5.6,
-        "category_6": 6.67,
-        "category_7": 3.08,
+        "category_4": 6.5,
+        "category_5": 4.67,
+        "category_6": 6.57,
+        "category_7": 5.03,
         "category_8": 5.67,
-        "category_9": 8.17,
-        "category_10": 6.5,
-        "category_11": 5.0,
-        "category_12": 4.82,
-        "category_13": 6.5
+        "category_9": 7.24,
+        "category_10": 6.6,
+        "category_11": 6.8,
+        "category_12": 4.6,
+        "category_13": 6.5,
+        "category_14": 7.3
       },
       "scenario_totals": {
-        "default": 6.19,
-        "equal_weight": 6.36,
-        "max_earnings": 5.5,
-        "best_lifestyle": 6.37,
-        "fastest_to_practice": 6.63,
+        "default": 6.44,
+        "equal_weight": 6.4,
+        "max_earnings": 5.78,
+        "best_lifestyle": 6.25,
+        "fastest_to_practice": 6.45,
         "most_procedural": 6.09
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 35,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 50,
+        "prof_school_years": 4,
+        "trainee_salary": 60,
+        "education_debt": 340,
+        "loan_rate": 6.5,
+        "living_expenses": 45,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 5,
+        "salary_growth_to_mid": 3.5,
+        "salary_growth_to_peak": 2.5,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 3,
+        "fellowship_years": 1,
+        "age_independent": 30,
+        "starting_salary": 160,
+        "mid_salary": 220,
+        "peak_salary": 350,
+        "malpractice_per_yr": 8
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 6,
+        "injury": 8,
+        "match": 8
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          26
+        ],
+        "residency": [
+          26,
+          29
+        ],
+        "fellowship": [
+          29,
+          30
+        ],
+        "earnAge": 30,
+        "startSalary": 160
       }
     },
     {
       "name": "Wound Care / Diabetic Limb Salvage",
+      "key": "wound",
       "profession": "DPM",
-      "finalist": true,
+      "color": "#8B6CAE",
+      "path": "Foot Doctor",
       "raw_data": {
         "startSalary": 200,
         "midSalary": 280,
@@ -1165,378 +1461,2144 @@
         "physicalToll": 5,
         "emotionalToll": 4
       },
-      "teen_name": "Wound Healing Doctor",
-      "finalist_color": "#8B6CAE",
-      "finalist_key": "wound",
       "scores": {
         "category_1": 7.25,
-        "category_2": 9.0,
+        "category_2": 8.67,
         "category_3": 6.0,
-        "category_4": 8.0,
-        "category_5": 5.6,
-        "category_6": 6.67,
-        "category_7": 3.35,
-        "category_8": 5.33,
-        "category_9": 6.51,
-        "category_10": 6.5,
-        "category_11": 7.5,
-        "category_12": 5.0,
-        "category_13": 6.5
+        "category_4": 5.75,
+        "category_5": 4.9,
+        "category_6": 6.43,
+        "category_7": 4.9,
+        "category_8": 5.85,
+        "category_9": 5.88,
+        "category_10": 6.6,
+        "category_11": 7.8,
+        "category_12": 4.82,
+        "category_13": 6.5,
+        "category_14": 5.0
       },
       "scenario_totals": {
-        "default": 6.14,
-        "equal_weight": 6.25,
-        "max_earnings": 5.58,
-        "best_lifestyle": 6.16,
-        "fastest_to_practice": 6.66,
-        "most_procedural": 6.09
+        "default": 6.23,
+        "equal_weight": 6.16,
+        "max_earnings": 5.7,
+        "best_lifestyle": 5.97,
+        "fastest_to_practice": 6.27,
+        "most_procedural": 6.04
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 35,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 50,
+        "prof_school_years": 4,
+        "trainee_salary": 60,
+        "education_debt": 340,
+        "loan_rate": 6.5,
+        "living_expenses": 45,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 5,
+        "salary_growth_to_mid": 3.5,
+        "salary_growth_to_peak": 2.5,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 3,
+        "fellowship_years": 0,
+        "age_independent": 29,
+        "starting_salary": 200,
+        "mid_salary": 280,
+        "peak_salary": 400,
+        "malpractice_per_yr": 15
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 6,
+        "injury": 6,
+        "match": 8
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          26
+        ],
+        "residency": [
+          26,
+          29
+        ],
+        "fellowship": null,
+        "earnAge": 29,
+        "startSalary": 200
       }
     },
     {
-      "name": "Medical / Therapeutic Optometry",
-      "profession": "OD",
-      "finalist": false,
+      "name": "General Surgery",
+      "key": "general_surgery",
+      "profession": "MD/DO",
+      "color": "#d86546",
+      "path": "Medical Doctor",
       "raw_data": {
-        "startSalary": 130,
-        "midSalary": 160,
-        "peakSalary": 220,
-        "hoursWeek": 40,
-        "burnout": 30,
-        "satisfaction": 68,
-        "chooseAgain": 60,
-        "malpracticeCost": 4,
+        "startSalary": 380,
+        "midSalary": 450,
+        "peakSalary": 600,
+        "hoursWeek": 60,
+        "burnout": 52,
+        "satisfaction": 70,
+        "chooseAgain": 65,
+        "malpracticeCost": 50,
         "vacation": 4,
-        "matchComp": 9,
-        "callSchedule": 9,
-        "physicalToll": 8,
-        "emotionalToll": 7
-      }
-    },
-    {
-      "name": "Surgical Co-Management / Specialty",
-      "profession": "OD",
-      "finalist": false,
-      "raw_data": {
-        "startSalary": 120,
-        "midSalary": 150,
-        "peakSalary": 200,
-        "hoursWeek": 40,
-        "burnout": 28,
-        "satisfaction": 65,
-        "chooseAgain": 55,
-        "malpracticeCost": 3,
-        "vacation": 4,
-        "matchComp": 9,
-        "callSchedule": 10,
-        "physicalToll": 8,
-        "emotionalToll": 8
-      }
-    },
-    {
-      "name": "General Optometry",
-      "profession": "OD",
-      "finalist": false,
-      "raw_data": {
-        "startSalary": 115,
-        "midSalary": 140,
-        "peakSalary": 200,
-        "hoursWeek": 40,
-        "burnout": 32,
-        "satisfaction": 62,
-        "chooseAgain": 52,
-        "malpracticeCost": 3,
-        "vacation": 4,
-        "matchComp": 9,
-        "callSchedule": 10,
-        "physicalToll": 8,
-        "emotionalToll": 8
-      }
-    }
-  ],
-  "finalists": {
-    "ranking": [
-      {
-        "rank": 1,
-        "track": "General Dermatology",
-        "key": "derm",
-        "note": "Best risk-adjusted choice"
+        "matchComp": 4,
+        "callSchedule": 2,
+        "physicalToll": 4,
+        "emotionalToll": 3
       },
-      {
-        "rank": 2,
-        "track": "Mohs Surgery",
-        "key": "mohs",
-        "note": "Highest earnings overall"
+      "scores": {
+        "category_1": 3.25,
+        "category_2": 4.0,
+        "category_3": 4.33,
+        "category_4": 2.88,
+        "category_5": 5.3,
+        "category_6": 7.86,
+        "category_7": 4.7,
+        "category_8": 5.4,
+        "category_9": 3.44,
+        "category_10": 7.8,
+        "category_11": 7.4,
+        "category_12": 7.18,
+        "category_13": 4.5,
+        "category_14": 3.09
       },
-      {
-        "rank": 3,
-        "track": "Ophthalmology",
-        "key": "eye",
-        "note": "Most realistic MD path"
+      "scenario_totals": {
+        "default": 5.23,
+        "equal_weight": 5.06,
+        "max_earnings": 5.35,
+        "best_lifestyle": 4.97,
+        "fastest_to_practice": 4.55,
+        "most_procedural": 5.69
       },
-      {
-        "rank": 4,
-        "track": "Podiatric Surgery",
-        "key": "pod",
-        "note": "Best guaranteed surgical path"
+      "financial": {
+        "undergrad_cost_per_yr": 35,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 60,
+        "prof_school_years": 4,
+        "trainee_salary": 65,
+        "education_debt": 380,
+        "loan_rate": 6.5,
+        "living_expenses": 50,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 5,
+        "salary_growth_to_mid": 3,
+        "salary_growth_to_peak": 2.5,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 5,
+        "fellowship_years": 1,
+        "age_independent": 32,
+        "starting_salary": 380,
+        "mid_salary": 450,
+        "peak_salary": 600,
+        "malpractice_per_yr": 50
       },
-      {
-        "rank": 5,
-        "track": "Wound Care / DLS",
-        "key": "wound",
-        "note": "Highest job demand growth"
-      },
-      {
-        "rank": 6,
-        "track": "Sports Med/Biomech",
-        "key": "sport",
-        "note": "Best work-life balance (DPM)"
-      }
-    ],
-    "net_worth_trajectory": [
-      {
-        "age": 18,
-        "mohs": -85,
-        "derm": -85,
-        "eye": -85,
-        "pod": -80,
-        "sport": -80,
-        "wound": -80
-      },
-      {
-        "age": 23,
-        "mohs": -579,
-        "derm": -579,
-        "eye": -579,
-        "pod": -527,
-        "sport": -527,
-        "wound": -527
-      },
-      {
-        "age": 28,
-        "mohs": -809,
-        "derm": -809,
-        "eye": -809,
-        "pod": -722,
-        "sport": -722,
-        "wound": -722
-      },
-      {
-        "age": 33,
-        "mohs": 120,
-        "derm": 47,
-        "eye": -218,
-        "pod": -227,
-        "sport": -513,
-        "wound": -330
-      },
-      {
-        "age": 38,
-        "mohs": 1969,
-        "derm": 1302,
-        "eye": 958,
-        "pod": 455,
-        "sport": -209,
-        "wound": 203
-      },
-      {
-        "age": 43,
-        "mohs": 4526,
-        "derm": 3155,
-        "eye": 2773,
-        "pod": 1683,
-        "sport": 536,
-        "wound": 1203
-      },
-      {
-        "age": 48,
-        "mohs": 8087,
-        "derm": 5778,
-        "eye": 5736,
-        "pod": 3409,
-        "sport": 1624,
-        "wound": 2519
-      },
-      {
-        "age": 53,
-        "mohs": 12094,
-        "derm": 8754,
-        "eye": 9192,
-        "pod": 5376,
-        "sport": 2868,
-        "wound": 3986
-      },
-      {
-        "age": 58,
-        "mohs": 16263,
-        "derm": 11840,
-        "eye": 12785,
-        "pod": 7408,
-        "sport": 4138,
-        "wound": 5491
-      },
-      {
-        "age": 65,
-        "mohs": 22376,
-        "derm": 16344,
-        "eye": 18045,
-        "pod": 10357,
-        "sport": 5950,
-        "wound": 7657
-      }
-    ],
-    "radar_dimensions": [
-      {
-        "dim": "Money",
-        "emoji": "\ud83d\udcb0",
-        "mohs": 6.4,
-        "derm": 5.5,
-        "eye": 5.4,
-        "pod": 4.6,
-        "sport": 4.3,
-        "wound": 4.5
-      },
-      {
-        "dim": "Happiness",
-        "emoji": "\ud83d\ude0a",
-        "mohs": 7.4,
-        "derm": 7.6,
-        "eye": 8.1,
-        "pod": 5.8,
-        "sport": 4.8,
-        "wound": 5.0
-      },
-      {
-        "dim": "Free Time",
-        "emoji": "\u23f0",
-        "mohs": 8.6,
-        "derm": 8.6,
-        "eye": 7.3,
-        "pod": 6.2,
-        "sport": 8.2,
-        "wound": 6.5
-      },
-      {
-        "dim": "Hard to Get In",
-        "emoji": "\ud83c\udfaf",
-        "mohs": 3.8,
-        "derm": 4.0,
-        "eye": 4.0,
-        "pod": 7.8,
-        "sport": 7.9,
-        "wound": 8.1
-      },
-      {
-        "dim": "Robot-Proof",
-        "emoji": "\ud83e\udd16",
-        "mohs": 7.0,
-        "derm": 5.5,
-        "eye": 7.5,
-        "pod": 8.5,
-        "sport": 5.0,
-        "wound": 7.5
-      },
-      {
-        "dim": "Safety Net",
-        "emoji": "\ud83d\udee1\ufe0f",
-        "mohs": 5.0,
-        "derm": 5.0,
-        "eye": 5.0,
-        "pod": 5.0,
-        "sport": 5.0,
-        "wound": 5.0
-      }
-    ],
-    "stress_test": [
-      {
-        "key": "mohs",
-        "ai": 7,
-        "pay": 7,
+      "stress": {
+        "ai": 6,
+        "pay": 6,
         "injury": 4,
-        "match": 2,
-        "avg": 5.0
+        "match": 3
       },
-      {
-        "key": "derm",
-        "ai": 5,
-        "pay": 8,
-        "injury": 8,
-        "match": 2,
-        "avg": 5.8
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          26
+        ],
+        "residency": [
+          26,
+          31
+        ],
+        "fellowship": [
+          31,
+          32
+        ],
+        "earnAge": 32,
+        "startSalary": 380
+      }
+    },
+    {
+      "name": "Orthopedic Surgery",
+      "key": "orthopedic_surgery",
+      "profession": "MD/DO",
+      "color": "#d87231",
+      "path": "Medical Doctor",
+      "raw_data": {
+        "startSalary": 500,
+        "midSalary": 620,
+        "peakSalary": 900,
+        "hoursWeek": 55,
+        "burnout": 42,
+        "satisfaction": 78,
+        "chooseAgain": 75,
+        "malpracticeCost": 45,
+        "vacation": 5,
+        "matchComp": 2,
+        "callSchedule": 3,
+        "physicalToll": 3,
+        "emotionalToll": 5
       },
-      {
-        "key": "eye",
+      "scores": {
+        "category_1": 3.25,
+        "category_2": 3.33,
+        "category_3": 4.33,
+        "category_4": 3.12,
+        "category_5": 6.0,
+        "category_6": 7.86,
+        "category_7": 5.47,
+        "category_8": 6.22,
+        "category_9": 4.6,
+        "category_10": 7.8,
+        "category_11": 7.8,
+        "category_12": 7.38,
+        "category_13": 4.5,
+        "category_14": 3.33
+      },
+      "scenario_totals": {
+        "default": 5.6,
+        "equal_weight": 5.33,
+        "max_earnings": 5.81,
+        "best_lifestyle": 5.45,
+        "fastest_to_practice": 4.74,
+        "most_procedural": 6.02
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 35,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 60,
+        "prof_school_years": 4,
+        "trainee_salary": 65,
+        "education_debt": 380,
+        "loan_rate": 6.5,
+        "living_expenses": 50,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 5,
+        "salary_growth_to_mid": 3,
+        "salary_growth_to_peak": 2.5,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 5,
+        "fellowship_years": 1,
+        "age_independent": 32,
+        "starting_salary": 500,
+        "mid_salary": 620,
+        "peak_salary": 900,
+        "malpractice_per_yr": 45
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 7,
+        "injury": 3,
+        "match": 4
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          26
+        ],
+        "residency": [
+          26,
+          31
+        ],
+        "fellowship": [
+          31,
+          32
+        ],
+        "earnAge": 32,
+        "startSalary": 500
+      }
+    },
+    {
+      "name": "Neurosurgery",
+      "key": "neurosurgery",
+      "profession": "MD/DO",
+      "color": "#d88920",
+      "path": "Medical Doctor",
+      "raw_data": {
+        "startSalary": 600,
+        "midSalary": 780,
+        "peakSalary": 1200,
+        "hoursWeek": 65,
+        "burnout": 57,
+        "satisfaction": 75,
+        "chooseAgain": 70,
+        "malpracticeCost": 80,
+        "vacation": 3,
+        "matchComp": 1,
+        "callSchedule": 1,
+        "physicalToll": 3,
+        "emotionalToll": 2
+      },
+      "scores": {
+        "category_1": 3.25,
+        "category_2": 3.0,
+        "category_3": 4.33,
+        "category_4": 1.5,
+        "category_5": 6.43,
+        "category_6": 7.71,
+        "category_7": 5.5,
+        "category_8": 5.08,
+        "category_9": 2.48,
+        "category_10": 7.4,
+        "category_11": 7.8,
+        "category_12": 8.15,
+        "category_13": 4.5,
+        "category_14": 2.0
+      },
+      "scenario_totals": {
+        "default": 5.15,
+        "equal_weight": 4.9,
+        "max_earnings": 5.61,
+        "best_lifestyle": 4.8,
+        "fastest_to_practice": 4.35,
+        "most_procedural": 5.65
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 35,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 60,
+        "prof_school_years": 4,
+        "trainee_salary": 65,
+        "education_debt": 380,
+        "loan_rate": 6.5,
+        "living_expenses": 50,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 5,
+        "salary_growth_to_mid": 3,
+        "salary_growth_to_peak": 2.5,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 7,
+        "fellowship_years": 1,
+        "age_independent": 34,
+        "starting_salary": 600,
+        "mid_salary": 780,
+        "peak_salary": 1200,
+        "malpractice_per_yr": 80
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 6,
+        "injury": 2,
+        "match": 4
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          26
+        ],
+        "residency": [
+          26,
+          33
+        ],
+        "fellowship": [
+          33,
+          34
+        ],
+        "earnAge": 34,
+        "startSalary": 600
+      }
+    },
+    {
+      "name": "Cardiothoracic Surgery",
+      "key": "cardiothoracic_surgery",
+      "profession": "MD/DO",
+      "color": "#d8b446",
+      "path": "Medical Doctor",
+      "raw_data": {
+        "startSalary": 500,
+        "midSalary": 650,
+        "peakSalary": 900,
+        "hoursWeek": 65,
+        "burnout": 55,
+        "satisfaction": 72,
+        "chooseAgain": 68,
+        "malpracticeCost": 90,
+        "vacation": 3,
+        "matchComp": 2,
+        "callSchedule": 1,
+        "physicalToll": 3,
+        "emotionalToll": 2
+      },
+      "scores": {
+        "category_1": 3.25,
+        "category_2": 3.33,
+        "category_3": 4.33,
+        "category_4": 1.5,
+        "category_5": 6.06,
+        "category_6": 7.71,
+        "category_7": 5.22,
+        "category_8": 5.08,
+        "category_9": 2.56,
+        "category_10": 7.2,
+        "category_11": 7.6,
+        "category_12": 7.5,
+        "category_13": 4.5,
+        "category_14": 2.0
+      },
+      "scenario_totals": {
+        "default": 5.04,
+        "equal_weight": 4.81,
+        "max_earnings": 5.42,
+        "best_lifestyle": 4.69,
+        "fastest_to_practice": 4.28,
+        "most_procedural": 5.53
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 35,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 60,
+        "prof_school_years": 4,
+        "trainee_salary": 65,
+        "education_debt": 380,
+        "loan_rate": 6.5,
+        "living_expenses": 50,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 5,
+        "salary_growth_to_mid": 3,
+        "salary_growth_to_peak": 2.5,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 7,
+        "fellowship_years": 6,
+        "age_independent": 39,
+        "starting_salary": 500,
+        "mid_salary": 650,
+        "peak_salary": 900,
+        "malpractice_per_yr": 90
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 6,
+        "injury": 2,
+        "match": 4
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          26
+        ],
+        "residency": [
+          26,
+          33
+        ],
+        "fellowship": [
+          33,
+          39
+        ],
+        "earnAge": 39,
+        "startSalary": 500
+      }
+    },
+    {
+      "name": "Vascular Surgery",
+      "key": "vascular_surgery",
+      "profession": "MD/DO",
+      "color": "#d8cc31",
+      "path": "Medical Doctor",
+      "raw_data": {
+        "startSalary": 420,
+        "midSalary": 530,
+        "peakSalary": 700,
+        "hoursWeek": 58,
+        "burnout": 48,
+        "satisfaction": 73,
+        "chooseAgain": 68,
+        "malpracticeCost": 55,
+        "vacation": 4,
+        "matchComp": 3,
+        "callSchedule": 2,
+        "physicalToll": 4,
+        "emotionalToll": 3
+      },
+      "scores": {
+        "category_1": 3.25,
+        "category_2": 3.67,
+        "category_3": 4.33,
+        "category_4": 1.75,
+        "category_5": 5.6,
+        "category_6": 7.86,
+        "category_7": 4.95,
+        "category_8": 5.53,
+        "category_9": 3.7,
+        "category_10": 7.6,
+        "category_11": 7.4,
+        "category_12": 7.53,
+        "category_13": 4.5,
+        "category_14": 2.83
+      },
+      "scenario_totals": {
+        "default": 5.21,
+        "equal_weight": 5.01,
+        "max_earnings": 5.42,
+        "best_lifestyle": 4.99,
+        "fastest_to_practice": 4.41,
+        "most_procedural": 5.72
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 35,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 60,
+        "prof_school_years": 4,
+        "trainee_salary": 65,
+        "education_debt": 380,
+        "loan_rate": 6.5,
+        "living_expenses": 50,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 5,
+        "salary_growth_to_mid": 3,
+        "salary_growth_to_peak": 2.5,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 7,
+        "fellowship_years": 5,
+        "age_independent": 38,
+        "starting_salary": 420,
+        "mid_salary": 530,
+        "peak_salary": 700,
+        "malpractice_per_yr": 55
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 6,
+        "injury": 4,
+        "match": 4
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          26
+        ],
+        "residency": [
+          26,
+          33
+        ],
+        "fellowship": [
+          33,
+          38
+        ],
+        "earnAge": 38,
+        "startSalary": 420
+      }
+    },
+    {
+      "name": "Plastic & Reconstructive Surgery",
+      "key": "plastic_reconstructive_s",
+      "profession": "MD/DO",
+      "color": "#c4d820",
+      "path": "Medical Doctor",
+      "raw_data": {
+        "startSalary": 400,
+        "midSalary": 500,
+        "peakSalary": 1000,
+        "hoursWeek": 50,
+        "burnout": 35,
+        "satisfaction": 82,
+        "chooseAgain": 80,
+        "malpracticeCost": 40,
+        "vacation": 5,
+        "matchComp": 1,
+        "callSchedule": 5,
+        "physicalToll": 5,
+        "emotionalToll": 5
+      },
+      "scores": {
+        "category_1": 3.25,
+        "category_2": 3.0,
+        "category_3": 4.33,
+        "category_4": 3.05,
+        "category_5": 5.47,
+        "category_6": 8.29,
+        "category_7": 6.25,
+        "category_8": 6.28,
+        "category_9": 5.72,
+        "category_10": 7.6,
+        "category_11": 7.4,
+        "category_12": 8.15,
+        "category_13": 4.5,
+        "category_14": 4.01
+      },
+      "scenario_totals": {
+        "default": 5.82,
+        "equal_weight": 5.5,
+        "max_earnings": 5.99,
+        "best_lifestyle": 5.76,
+        "fastest_to_practice": 4.77,
+        "most_procedural": 6.24
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 35,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 60,
+        "prof_school_years": 4,
+        "trainee_salary": 65,
+        "education_debt": 380,
+        "loan_rate": 6.5,
+        "living_expenses": 50,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 5,
+        "salary_growth_to_mid": 3,
+        "salary_growth_to_peak": 2.5,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 6,
+        "fellowship_years": 1,
+        "age_independent": 33,
+        "starting_salary": 400,
+        "mid_salary": 500,
+        "peak_salary": 1000,
+        "malpractice_per_yr": 40
+      },
+      "stress": {
         "ai": 6,
         "pay": 6,
         "injury": 5,
-        "match": 3,
-        "avg": 5.0
+        "match": 4
       },
-      {
-        "key": "pod",
-        "ai": 9,
-        "pay": 4,
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          26
+        ],
+        "residency": [
+          26,
+          32
+        ],
+        "fellowship": [
+          32,
+          33
+        ],
+        "earnAge": 33,
+        "startSalary": 400
+      }
+    },
+    {
+      "name": "Trauma / Acute Care Surgery",
+      "key": "trauma_acute_care_surger",
+      "profession": "MD/DO",
+      "color": "#aed846",
+      "path": "Medical Doctor",
+      "raw_data": {
+        "startSalary": 380,
+        "midSalary": 430,
+        "peakSalary": 550,
+        "hoursWeek": 60,
+        "burnout": 60,
+        "satisfaction": 68,
+        "chooseAgain": 60,
+        "malpracticeCost": 60,
+        "vacation": 4,
+        "matchComp": 4,
+        "callSchedule": 1,
+        "physicalToll": 3,
+        "emotionalToll": 1
+      },
+      "scores": {
+        "category_1": 3.25,
+        "category_2": 4.0,
+        "category_3": 4.33,
+        "category_4": 2.62,
+        "category_5": 5.26,
+        "category_6": 7.71,
+        "category_7": 4.3,
+        "category_8": 5.4,
+        "category_9": 2.92,
+        "category_10": 7.6,
+        "category_11": 7.8,
+        "category_12": 7.48,
+        "category_13": 4.5,
+        "category_14": 2.14
+      },
+      "scenario_totals": {
+        "default": 5.08,
+        "equal_weight": 4.92,
+        "max_earnings": 5.19,
+        "best_lifestyle": 4.82,
+        "fastest_to_practice": 4.45,
+        "most_procedural": 5.64
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 35,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 60,
+        "prof_school_years": 4,
+        "trainee_salary": 65,
+        "education_debt": 380,
+        "loan_rate": 6.5,
+        "living_expenses": 50,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 5,
+        "salary_growth_to_mid": 3,
+        "salary_growth_to_peak": 2.5,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 5,
+        "fellowship_years": 1,
+        "age_independent": 32,
+        "starting_salary": 380,
+        "mid_salary": 430,
+        "peak_salary": 550,
+        "malpractice_per_yr": 60
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 6,
         "injury": 3,
-        "match": 10,
-        "avg": 6.5
+        "match": 3
       },
-      {
-        "key": "sport",
-        "ai": 5,
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          26
+        ],
+        "residency": [
+          26,
+          31
+        ],
+        "fellowship": [
+          31,
+          32
+        ],
+        "earnAge": 32,
+        "startSalary": 380
+      }
+    },
+    {
+      "name": "Transplant Surgery",
+      "key": "transplant_surgery",
+      "profession": "MD/DO",
+      "color": "#8ad831",
+      "path": "Medical Doctor",
+      "raw_data": {
+        "startSalary": 400,
+        "midSalary": 480,
+        "peakSalary": 600,
+        "hoursWeek": 65,
+        "burnout": 55,
+        "satisfaction": 75,
+        "chooseAgain": 70,
+        "malpracticeCost": 55,
+        "vacation": 3,
+        "matchComp": 3,
+        "callSchedule": 1,
+        "physicalToll": 3,
+        "emotionalToll": 2
+      },
+      "scores": {
+        "category_1": 3.25,
+        "category_2": 3.67,
+        "category_3": 4.33,
+        "category_4": 2.62,
+        "category_5": 5.43,
+        "category_6": 7.57,
+        "category_7": 4.45,
+        "category_8": 5.08,
+        "category_9": 2.36,
+        "category_10": 7.0,
+        "category_11": 7.8,
+        "category_12": 7.82,
+        "category_13": 4.5,
+        "category_14": 2.54
+      },
+      "scenario_totals": {
+        "default": 5.02,
+        "equal_weight": 4.86,
+        "max_earnings": 5.17,
+        "best_lifestyle": 4.69,
+        "fastest_to_practice": 4.39,
+        "most_procedural": 5.56
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 35,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 60,
+        "prof_school_years": 4,
+        "trainee_salary": 65,
+        "education_debt": 380,
+        "loan_rate": 6.5,
+        "living_expenses": 50,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 5,
+        "salary_growth_to_mid": 3,
+        "salary_growth_to_peak": 2.5,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 5,
+        "fellowship_years": 2,
+        "age_independent": 33,
+        "starting_salary": 400,
+        "mid_salary": 480,
+        "peak_salary": 600,
+        "malpractice_per_yr": 55
+      },
+      "stress": {
+        "ai": 6,
         "pay": 5,
-        "injury": 7,
-        "match": 10,
-        "avg": 6.8
+        "injury": 3,
+        "match": 4
       },
-      {
-        "key": "wound",
-        "ai": 7,
-        "pay": 3,
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          26
+        ],
+        "residency": [
+          26,
+          31
+        ],
+        "fellowship": [
+          31,
+          33
+        ],
+        "earnAge": 33,
+        "startSalary": 400
+      }
+    },
+    {
+      "name": "Pediatric Surgery",
+      "key": "pediatric_surgery",
+      "profession": "MD/DO",
+      "color": "#61d820",
+      "path": "Medical Doctor",
+      "raw_data": {
+        "startSalary": 380,
+        "midSalary": 450,
+        "peakSalary": 550,
+        "hoursWeek": 58,
+        "burnout": 45,
+        "satisfaction": 80,
+        "chooseAgain": 76,
+        "malpracticeCost": 45,
+        "vacation": 4,
+        "matchComp": 2,
+        "callSchedule": 2,
+        "physicalToll": 5,
+        "emotionalToll": 2
+      },
+      "scores": {
+        "category_1": 3.25,
+        "category_2": 3.33,
+        "category_3": 4.33,
+        "category_4": 2.88,
+        "category_5": 5.3,
+        "category_6": 7.71,
+        "category_7": 4.55,
+        "category_8": 5.53,
+        "category_9": 3.82,
+        "category_10": 7.2,
+        "category_11": 7.8,
+        "category_12": 8.15,
+        "category_13": 4.5,
+        "category_14": 3.33
+      },
+      "scenario_totals": {
+        "default": 5.28,
+        "equal_weight": 5.1,
+        "max_earnings": 5.33,
+        "best_lifestyle": 5.1,
+        "fastest_to_practice": 4.52,
+        "most_procedural": 5.81
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 35,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 60,
+        "prof_school_years": 4,
+        "trainee_salary": 65,
+        "education_debt": 380,
+        "loan_rate": 6.5,
+        "living_expenses": 50,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 5,
+        "salary_growth_to_mid": 3,
+        "salary_growth_to_peak": 2.5,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 5,
+        "fellowship_years": 2,
+        "age_independent": 33,
+        "starting_salary": 380,
+        "mid_salary": 450,
+        "peak_salary": 550,
+        "malpractice_per_yr": 45
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 6,
+        "injury": 3,
+        "match": 4
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          26
+        ],
+        "residency": [
+          26,
+          31
+        ],
+        "fellowship": [
+          31,
+          33
+        ],
+        "earnAge": 33,
+        "startSalary": 380
+      }
+    },
+    {
+      "name": "Colorectal Surgery",
+      "key": "colorectal_surgery",
+      "profession": "MD/DO",
+      "color": "#5fd846",
+      "path": "Medical Doctor",
+      "raw_data": {
+        "startSalary": 380,
+        "midSalary": 440,
+        "peakSalary": 550,
+        "hoursWeek": 52,
+        "burnout": 40,
+        "satisfaction": 75,
+        "chooseAgain": 72,
+        "malpracticeCost": 35,
+        "vacation": 4,
+        "matchComp": 5,
+        "callSchedule": 4,
+        "physicalToll": 5,
+        "emotionalToll": 5
+      },
+      "scores": {
+        "category_1": 3.25,
+        "category_2": 4.33,
+        "category_3": 4.33,
+        "category_4": 3.38,
+        "category_5": 5.29,
+        "category_6": 8.0,
+        "category_7": 4.8,
+        "category_8": 6.15,
+        "category_9": 4.52,
+        "category_10": 7.8,
+        "category_11": 7.4,
+        "category_12": 6.7,
+        "category_13": 4.5,
+        "category_14": 4.13
+      },
+      "scenario_totals": {
+        "default": 5.49,
+        "equal_weight": 5.31,
+        "max_earnings": 5.5,
+        "best_lifestyle": 5.32,
+        "fastest_to_practice": 4.76,
+        "most_procedural": 5.91
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 35,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 60,
+        "prof_school_years": 4,
+        "trainee_salary": 65,
+        "education_debt": 380,
+        "loan_rate": 6.5,
+        "living_expenses": 50,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 5,
+        "salary_growth_to_mid": 3,
+        "salary_growth_to_peak": 2.5,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 5,
+        "fellowship_years": 1,
+        "age_independent": 32,
+        "starting_salary": 380,
+        "mid_salary": 440,
+        "peak_salary": 550,
+        "malpractice_per_yr": 35
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 6,
+        "injury": 4,
+        "match": 3
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          26
+        ],
+        "residency": [
+          26,
+          31
+        ],
+        "fellowship": [
+          31,
+          32
+        ],
+        "earnAge": 32,
+        "startSalary": 380
+      }
+    },
+    {
+      "name": "Hand Surgery",
+      "key": "hand_surgery",
+      "profession": "MD/DO",
+      "color": "#31d832",
+      "path": "Medical Doctor",
+      "raw_data": {
+        "startSalary": 450,
+        "midSalary": 550,
+        "peakSalary": 750,
+        "hoursWeek": 50,
+        "burnout": 35,
+        "satisfaction": 80,
+        "chooseAgain": 78,
+        "malpracticeCost": 30,
+        "vacation": 5,
+        "matchComp": 3,
+        "callSchedule": 5,
+        "physicalToll": 5,
+        "emotionalToll": 6
+      },
+      "scores": {
+        "category_1": 3.25,
+        "category_2": 3.67,
+        "category_3": 4.33,
+        "category_4": 3.62,
+        "category_5": 5.71,
+        "category_6": 8.14,
+        "category_7": 5.35,
+        "category_8": 6.03,
+        "category_9": 5.52,
+        "category_10": 7.8,
+        "category_11": 7.8,
+        "category_12": 7.7,
+        "category_13": 4.5,
+        "category_14": 4.67
+      },
+      "scenario_totals": {
+        "default": 5.81,
+        "equal_weight": 5.56,
+        "max_earnings": 5.85,
+        "best_lifestyle": 5.7,
+        "fastest_to_practice": 4.92,
+        "most_procedural": 6.16
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 35,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 60,
+        "prof_school_years": 4,
+        "trainee_salary": 65,
+        "education_debt": 380,
+        "loan_rate": 6.5,
+        "living_expenses": 50,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 5,
+        "salary_growth_to_mid": 3,
+        "salary_growth_to_peak": 2.5,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 5,
+        "fellowship_years": 1,
+        "age_independent": 32,
+        "starting_salary": 450,
+        "mid_salary": 550,
+        "peak_salary": 750,
+        "malpractice_per_yr": 30
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 7,
         "injury": 5,
-        "match": 10,
-        "avg": 6.2
+        "match": 4
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          26
+        ],
+        "residency": [
+          26,
+          31
+        ],
+        "fellowship": [
+          31,
+          32
+        ],
+        "earnAge": 32,
+        "startSalary": 450
       }
-    ],
-    "money_data": [
-      {
-        "key": "mohs",
-        "start": 450,
-        "peak": 900,
-        "lifetime": 22376
+    },
+    {
+      "name": "Spine Surgery",
+      "key": "spine_surgery",
+      "profession": "MD/DO",
+      "color": "#20d843",
+      "path": "Medical Doctor",
+      "raw_data": {
+        "startSalary": 600,
+        "midSalary": 750,
+        "peakSalary": 1100,
+        "hoursWeek": 55,
+        "burnout": 45,
+        "satisfaction": 76,
+        "chooseAgain": 72,
+        "malpracticeCost": 70,
+        "vacation": 5,
+        "matchComp": 3,
+        "callSchedule": 3,
+        "physicalToll": 3,
+        "emotionalToll": 4
       },
-      {
-        "key": "derm",
-        "start": 350,
-        "peak": 700,
-        "lifetime": 16344
+      "scores": {
+        "category_1": 3.25,
+        "category_2": 3.67,
+        "category_3": 4.33,
+        "category_4": 3.12,
+        "category_5": 6.43,
+        "category_6": 7.86,
+        "category_7": 5.75,
+        "category_8": 5.97,
+        "category_9": 4.28,
+        "category_10": 7.6,
+        "category_11": 7.6,
+        "category_12": 7.23,
+        "category_13": 4.5,
+        "category_14": 2.43
       },
-      {
-        "key": "eye",
-        "start": 350,
-        "peak": 800,
-        "lifetime": 18045
+      "scenario_totals": {
+        "default": 5.56,
+        "equal_weight": 5.25,
+        "max_earnings": 5.89,
+        "best_lifestyle": 5.37,
+        "fastest_to_practice": 4.77,
+        "most_procedural": 5.94
       },
-      {
-        "key": "pod",
-        "start": 220,
-        "peak": 500,
-        "lifetime": 10357
+      "financial": {
+        "undergrad_cost_per_yr": 35,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 60,
+        "prof_school_years": 4,
+        "trainee_salary": 65,
+        "education_debt": 380,
+        "loan_rate": 6.5,
+        "living_expenses": 50,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 5,
+        "salary_growth_to_mid": 3,
+        "salary_growth_to_peak": 2.5,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 5,
+        "fellowship_years": 1,
+        "age_independent": 32,
+        "starting_salary": 600,
+        "mid_salary": 750,
+        "peak_salary": 1100,
+        "malpractice_per_yr": 70
       },
-      {
-        "key": "sport",
-        "start": 160,
-        "peak": 350,
-        "lifetime": 5950
+      "stress": {
+        "ai": 6,
+        "pay": 6,
+        "injury": 3,
+        "match": 4
       },
-      {
-        "key": "wound",
-        "start": 200,
-        "peak": 400,
-        "lifetime": 7657
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          26
+        ],
+        "residency": [
+          26,
+          31
+        ],
+        "fellowship": [
+          31,
+          32
+        ],
+        "earnAge": 32,
+        "startSalary": 600
       }
-    ],
-    "timeline_data": [
-      {
-        "key": "mohs",
+    },
+    {
+      "name": "Sports Medicine (Surgical)",
+      "key": "sports_medicine_surgical",
+      "profession": "MD/DO",
+      "color": "#46d87c",
+      "path": "Medical Doctor",
+      "raw_data": {
+        "startSalary": 450,
+        "midSalary": 560,
+        "peakSalary": 800,
+        "hoursWeek": 50,
+        "burnout": 32,
+        "satisfaction": 85,
+        "chooseAgain": 82,
+        "malpracticeCost": 25,
+        "vacation": 5,
+        "matchComp": 2,
+        "callSchedule": 5,
+        "physicalToll": 6,
+        "emotionalToll": 7
+      },
+      "scores": {
+        "category_1": 3.25,
+        "category_2": 3.33,
+        "category_3": 4.33,
+        "category_4": 3.62,
+        "category_5": 5.73,
+        "category_6": 8.14,
+        "category_7": 5.72,
+        "category_8": 6.03,
+        "category_9": 5.64,
+        "category_10": 7.8,
+        "category_11": 7.4,
+        "category_12": 7.65,
+        "category_13": 4.5,
+        "category_14": 5.34
+      },
+      "scenario_totals": {
+        "default": 5.85,
+        "equal_weight": 5.59,
+        "max_earnings": 5.94,
+        "best_lifestyle": 5.73,
+        "fastest_to_practice": 4.91,
+        "most_procedural": 6.16
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 35,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 60,
+        "prof_school_years": 4,
+        "trainee_salary": 65,
+        "education_debt": 380,
+        "loan_rate": 6.5,
+        "living_expenses": 50,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 5,
+        "salary_growth_to_mid": 3,
+        "salary_growth_to_peak": 2.5,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 5,
+        "fellowship_years": 1,
+        "age_independent": 32,
+        "starting_salary": 450,
+        "mid_salary": 560,
+        "peak_salary": 800,
+        "malpractice_per_yr": 25
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 7,
+        "injury": 5,
+        "match": 4
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          26
+        ],
+        "residency": [
+          26,
+          31
+        ],
+        "fellowship": [
+          31,
+          32
+        ],
+        "earnAge": 32,
+        "startSalary": 450
+      }
+    },
+    {
+      "name": "Bariatric Surgery",
+      "key": "bariatric_surgery",
+      "profession": "MD/DO",
+      "color": "#31d88d",
+      "path": "Medical Doctor",
+      "raw_data": {
+        "startSalary": 380,
+        "midSalary": 450,
+        "peakSalary": 600,
+        "hoursWeek": 48,
+        "burnout": 35,
+        "satisfaction": 78,
+        "chooseAgain": 75,
+        "malpracticeCost": 30,
+        "vacation": 5,
+        "matchComp": 5,
+        "callSchedule": 5,
+        "physicalToll": 6,
+        "emotionalToll": 6
+      },
+      "scores": {
+        "category_1": 3.25,
+        "category_2": 4.33,
+        "category_3": 4.33,
+        "category_4": 3.62,
+        "category_5": 5.3,
+        "category_6": 8.14,
+        "category_7": 5.2,
+        "category_8": 6.42,
+        "category_9": 5.44,
+        "category_10": 7.8,
+        "category_11": 7.0,
+        "category_12": 6.88,
+        "category_13": 4.5,
+        "category_14": 4.96
+      },
+      "scenario_totals": {
+        "default": 5.71,
+        "equal_weight": 5.5,
+        "max_earnings": 5.69,
+        "best_lifestyle": 5.61,
+        "fastest_to_practice": 4.89,
+        "most_procedural": 6.08
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 35,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 60,
+        "prof_school_years": 4,
+        "trainee_salary": 65,
+        "education_debt": 380,
+        "loan_rate": 6.5,
+        "living_expenses": 50,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 5,
+        "salary_growth_to_mid": 3,
+        "salary_growth_to_peak": 2.5,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 5,
+        "fellowship_years": 1,
+        "age_independent": 32,
+        "starting_salary": 380,
+        "mid_salary": 450,
+        "peak_salary": 600,
+        "malpractice_per_yr": 30
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 7,
+        "injury": 4,
+        "match": 3
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          26
+        ],
+        "residency": [
+          26,
+          31
+        ],
+        "fellowship": [
+          31,
+          32
+        ],
+        "earnAge": 32,
+        "startSalary": 380
+      }
+    },
+    {
+      "name": "Interventional Cardiology",
+      "key": "interventional_cardiolog",
+      "profession": "MD/DO",
+      "color": "#20d8a6",
+      "path": "Medical Doctor",
+      "raw_data": {
+        "startSalary": 500,
+        "midSalary": 650,
+        "peakSalary": 1000,
+        "hoursWeek": 58,
+        "burnout": 48,
+        "satisfaction": 77,
+        "chooseAgain": 73,
+        "malpracticeCost": 55,
+        "vacation": 4,
+        "matchComp": 2,
+        "callSchedule": 1,
+        "physicalToll": 4,
+        "emotionalToll": 3
+      },
+      "scores": {
+        "category_1": 3.25,
+        "category_2": 3.33,
+        "category_3": 4.33,
+        "category_4": 3.75,
+        "category_5": 6.06,
+        "category_6": 7.71,
+        "category_7": 5.75,
+        "category_8": 5.53,
+        "category_9": 3.7,
+        "category_10": 7.4,
+        "category_11": 7.2,
+        "category_12": 7.63,
+        "category_13": 4.5,
+        "category_14": 2.83
+      },
+      "scenario_totals": {
+        "default": 5.46,
+        "equal_weight": 5.18,
+        "max_earnings": 5.77,
+        "best_lifestyle": 5.22,
+        "fastest_to_practice": 4.75,
+        "most_procedural": 5.84
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 35,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 60,
+        "prof_school_years": 4,
+        "trainee_salary": 65,
+        "education_debt": 380,
+        "loan_rate": 6.5,
+        "living_expenses": 50,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 5,
+        "salary_growth_to_mid": 3,
+        "salary_growth_to_peak": 2.5,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 3,
+        "fellowship_years": 3,
+        "age_independent": 32,
+        "starting_salary": 500,
+        "mid_salary": 650,
+        "peak_salary": 1000,
+        "malpractice_per_yr": 55
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 6,
+        "injury": 3,
+        "match": 4
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          26
+        ],
+        "residency": [
+          26,
+          29
+        ],
+        "fellowship": [
+          29,
+          32
+        ],
+        "earnAge": 32,
+        "startSalary": 500
+      }
+    },
+    {
+      "name": "Interventional Radiology",
+      "key": "interventional_radiology",
+      "profession": "MD/DO",
+      "color": "#46d8cb",
+      "path": "Medical Doctor",
+      "raw_data": {
+        "startSalary": 400,
+        "midSalary": 520,
+        "peakSalary": 700,
+        "hoursWeek": 55,
+        "burnout": 40,
+        "satisfaction": 80,
+        "chooseAgain": 77,
+        "malpracticeCost": 40,
+        "vacation": 4,
+        "matchComp": 3,
+        "callSchedule": 2,
+        "physicalToll": 4,
+        "emotionalToll": 5
+      },
+      "scores": {
+        "category_1": 3.25,
+        "category_2": 3.67,
+        "category_3": 4.33,
+        "category_4": 2.88,
+        "category_5": 5.51,
+        "category_6": 7.86,
+        "category_7": 4.95,
+        "category_8": 5.97,
+        "category_9": 4.18,
+        "category_10": 7.4,
+        "category_11": 7.2,
+        "category_12": 8.02,
+        "category_13": 4.5,
+        "category_14": 3.87
+      },
+      "scenario_totals": {
+        "default": 5.44,
+        "equal_weight": 5.23,
+        "max_earnings": 5.52,
+        "best_lifestyle": 5.27,
+        "fastest_to_practice": 4.64,
+        "most_procedural": 5.96
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 35,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 60,
+        "prof_school_years": 4,
+        "trainee_salary": 65,
+        "education_debt": 380,
+        "loan_rate": 6.5,
+        "living_expenses": 50,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 5,
+        "salary_growth_to_mid": 3,
+        "salary_growth_to_peak": 2.5,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 5,
+        "fellowship_years": 0,
+        "age_independent": 31,
+        "starting_salary": 400,
+        "mid_salary": 520,
+        "peak_salary": 700,
+        "malpractice_per_yr": 40
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 6,
+        "injury": 3,
+        "match": 4
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          26
+        ],
+        "residency": [
+          26,
+          31
+        ],
+        "fellowship": null,
+        "earnAge": 31,
+        "startSalary": 400
+      }
+    },
+    {
+      "name": "Gastroenterology (Endoscopy)",
+      "key": "gastroenterology_endosco",
+      "profession": "MD/DO",
+      "color": "#31c9d8",
+      "path": "Medical Doctor",
+      "raw_data": {
+        "startSalary": 400,
+        "midSalary": 530,
+        "peakSalary": 750,
+        "hoursWeek": 50,
+        "burnout": 42,
+        "satisfaction": 80,
+        "chooseAgain": 76,
+        "malpracticeCost": 25,
+        "vacation": 5,
+        "matchComp": 3,
+        "callSchedule": 4,
+        "physicalToll": 6,
+        "emotionalToll": 6
+      },
+      "scores": {
+        "category_1": 3.25,
+        "category_2": 3.67,
+        "category_3": 4.33,
+        "category_4": 4.5,
+        "category_5": 5.54,
+        "category_6": 8.14,
+        "category_7": 5.6,
+        "category_8": 5.78,
+        "category_9": 5.04,
+        "category_10": 8.0,
+        "category_11": 6.8,
+        "category_12": 7.15,
+        "category_13": 4.5,
+        "category_14": 5.06
+      },
+      "scenario_totals": {
+        "default": 5.74,
+        "equal_weight": 5.51,
+        "max_earnings": 5.84,
+        "best_lifestyle": 5.57,
+        "fastest_to_practice": 4.98,
+        "most_procedural": 6.02
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 35,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 60,
+        "prof_school_years": 4,
+        "trainee_salary": 65,
+        "education_debt": 380,
+        "loan_rate": 6.5,
+        "living_expenses": 50,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 5,
+        "salary_growth_to_mid": 3,
+        "salary_growth_to_peak": 2.5,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 3,
+        "fellowship_years": 3,
+        "age_independent": 32,
+        "starting_salary": 400,
+        "mid_salary": 530,
+        "peak_salary": 750,
+        "malpractice_per_yr": 25
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 7,
+        "injury": 5,
+        "match": 4
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          26
+        ],
+        "residency": [
+          26,
+          29
+        ],
+        "fellowship": [
+          29,
+          32
+        ],
+        "earnAge": 32,
+        "startSalary": 400
+      }
+    },
+    {
+      "name": "Urology",
+      "key": "urology",
+      "profession": "MD/DO",
+      "color": "#20a7d8",
+      "path": "Medical Doctor",
+      "raw_data": {
+        "startSalary": 400,
+        "midSalary": 520,
+        "peakSalary": 700,
+        "hoursWeek": 52,
+        "burnout": 38,
+        "satisfaction": 82,
+        "chooseAgain": 79,
+        "malpracticeCost": 30,
+        "vacation": 5,
+        "matchComp": 2,
+        "callSchedule": 4,
+        "physicalToll": 5,
+        "emotionalToll": 6
+      },
+      "scores": {
+        "category_1": 3.25,
+        "category_2": 3.33,
+        "category_3": 4.33,
+        "category_4": 3.1,
+        "category_5": 5.51,
+        "category_6": 8.14,
+        "category_7": 5.2,
+        "category_8": 6.15,
+        "category_9": 5.1,
+        "category_10": 8.0,
+        "category_11": 7.2,
+        "category_12": 7.8,
+        "category_13": 4.5,
+        "category_14": 4.67
+      },
+      "scenario_totals": {
+        "default": 5.65,
+        "equal_weight": 5.43,
+        "max_earnings": 5.72,
+        "best_lifestyle": 5.54,
+        "fastest_to_practice": 4.75,
+        "most_procedural": 6.1
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 35,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 60,
+        "prof_school_years": 4,
+        "trainee_salary": 65,
+        "education_debt": 380,
+        "loan_rate": 6.5,
+        "living_expenses": 50,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 5,
+        "salary_growth_to_mid": 3,
+        "salary_growth_to_peak": 2.5,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 5,
+        "fellowship_years": 1,
+        "age_independent": 32,
+        "starting_salary": 400,
+        "mid_salary": 520,
+        "peak_salary": 700,
+        "malpractice_per_yr": 30
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 7,
+        "injury": 4,
+        "match": 4
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          26
+        ],
+        "residency": [
+          26,
+          31
+        ],
+        "fellowship": [
+          31,
+          32
+        ],
+        "earnAge": 32,
+        "startSalary": 400
+      }
+    },
+    {
+      "name": "OB/GYN",
+      "key": "ob_gyn",
+      "profession": "MD/DO",
+      "color": "#4697d8",
+      "path": "Medical Doctor",
+      "raw_data": {
+        "startSalary": 310,
+        "midSalary": 380,
+        "peakSalary": 500,
+        "hoursWeek": 55,
+        "burnout": 52,
+        "satisfaction": 68,
+        "chooseAgain": 60,
+        "malpracticeCost": 85,
+        "vacation": 4,
+        "matchComp": 4,
+        "callSchedule": 2,
+        "physicalToll": 4,
+        "emotionalToll": 3
+      },
+      "scores": {
+        "category_1": 3.25,
+        "category_2": 4.0,
+        "category_3": 4.33,
+        "category_4": 3.45,
+        "category_5": 4.97,
+        "category_6": 8.0,
+        "category_7": 4.42,
+        "category_8": 5.47,
+        "category_9": 3.9,
+        "category_10": 8.0,
+        "category_11": 7.0,
+        "category_12": 6.98,
+        "category_13": 4.5,
+        "category_14": 2.57
+      },
+      "scenario_totals": {
+        "default": 5.21,
+        "equal_weight": 5.03,
+        "max_earnings": 5.25,
+        "best_lifestyle": 5.03,
+        "fastest_to_practice": 4.58,
+        "most_procedural": 5.69
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 35,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 60,
+        "prof_school_years": 4,
+        "trainee_salary": 65,
+        "education_debt": 380,
+        "loan_rate": 6.5,
+        "living_expenses": 50,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 5,
+        "salary_growth_to_mid": 3,
+        "salary_growth_to_peak": 2.5,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 4,
+        "fellowship_years": 2,
+        "age_independent": 32,
+        "starting_salary": 310,
+        "mid_salary": 380,
+        "peak_salary": 500,
+        "malpractice_per_yr": 85
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 7,
+        "injury": 4,
+        "match": 3
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          26
+        ],
+        "residency": [
+          26,
+          30
+        ],
+        "fellowship": [
+          30,
+          32
+        ],
+        "earnAge": 32,
+        "startSalary": 310
+      }
+    },
+    {
+      "name": "Ophthalmology",
+      "key": "eye",
+      "profession": "MD/DO",
+      "color": "#2BA5B5",
+      "path": "Medical Doctor",
+      "raw_data": {
+        "startSalary": 350,
+        "midSalary": 450,
+        "peakSalary": 800,
+        "hoursWeek": 47,
+        "burnout": 30,
+        "satisfaction": 85,
+        "chooseAgain": 83,
+        "malpracticeCost": 15,
+        "vacation": 5,
+        "matchComp": 1,
+        "callSchedule": 7,
+        "physicalToll": 6,
+        "emotionalToll": 7
+      },
+      "scores": {
+        "category_1": 3.25,
+        "category_2": 3.0,
+        "category_3": 4.33,
+        "category_4": 4.7,
+        "category_5": 5.23,
+        "category_6": 8.29,
+        "category_7": 5.97,
+        "category_8": 6.22,
+        "category_9": 6.08,
+        "category_10": 7.8,
+        "category_11": 7.0,
+        "category_12": 8.0,
+        "category_13": 4.5,
+        "category_14": 5.57
+      },
+      "scenario_totals": {
+        "default": 5.97,
+        "equal_weight": 5.7,
+        "max_earnings": 5.99,
+        "best_lifestyle": 5.92,
+        "fastest_to_practice": 5.03,
+        "most_procedural": 6.3
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 35,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 60,
+        "prof_school_years": 4,
+        "trainee_salary": 65,
+        "education_debt": 380,
+        "loan_rate": 6.5,
+        "living_expenses": 50,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 5,
+        "salary_growth_to_mid": 3,
+        "salary_growth_to_peak": 2.5,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 4,
+        "fellowship_years": 1,
+        "age_independent": 31,
+        "starting_salary": 350,
+        "mid_salary": 450,
+        "peak_salary": 800,
+        "malpractice_per_yr": 15
+      },
+      "stress": {
+        "ai": 7,
+        "pay": 7,
+        "injury": 6,
+        "match": 4
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          26
+        ],
+        "residency": [
+          26,
+          30
+        ],
+        "fellowship": [
+          30,
+          31
+        ],
+        "earnAge": 31,
+        "startSalary": 350
+      }
+    },
+    {
+      "name": "ENT / Otolaryngology",
+      "key": "ent_otolaryngology",
+      "profession": "MD/DO",
+      "color": "#316fd8",
+      "path": "Medical Doctor",
+      "raw_data": {
+        "startSalary": 380,
+        "midSalary": 470,
+        "peakSalary": 650,
+        "hoursWeek": 50,
+        "burnout": 35,
+        "satisfaction": 82,
+        "chooseAgain": 80,
+        "malpracticeCost": 25,
+        "vacation": 5,
+        "matchComp": 2,
+        "callSchedule": 5,
+        "physicalToll": 6,
+        "emotionalToll": 6
+      },
+      "scores": {
+        "category_1": 3.25,
+        "category_2": 3.33,
+        "category_3": 4.33,
+        "category_4": 3.62,
+        "category_5": 5.34,
+        "category_6": 8.14,
+        "category_7": 5.33,
+        "category_8": 6.03,
+        "category_9": 5.52,
+        "category_10": 7.8,
+        "category_11": 7.4,
+        "category_12": 8.15,
+        "category_13": 4.5,
+        "category_14": 4.91
+      },
+      "scenario_totals": {
+        "default": 5.77,
+        "equal_weight": 5.53,
+        "max_earnings": 5.77,
+        "best_lifestyle": 5.69,
+        "fastest_to_practice": 4.85,
+        "most_procedural": 6.18
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 35,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 60,
+        "prof_school_years": 4,
+        "trainee_salary": 65,
+        "education_debt": 380,
+        "loan_rate": 6.5,
+        "living_expenses": 50,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 5,
+        "salary_growth_to_mid": 3,
+        "salary_growth_to_peak": 2.5,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 5,
+        "fellowship_years": 1,
+        "age_independent": 32,
+        "starting_salary": 380,
+        "mid_salary": 470,
+        "peak_salary": 650,
+        "malpractice_per_yr": 25
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 7,
+        "injury": 5,
+        "match": 4
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          26
+        ],
+        "residency": [
+          26,
+          31
+        ],
+        "fellowship": [
+          31,
+          32
+        ],
+        "earnAge": 32,
+        "startSalary": 380
+      }
+    },
+    {
+      "name": "Mohs Surgery (Dermatology)",
+      "key": "mohs",
+      "profession": "MD/DO",
+      "color": "#D4A537",
+      "path": "Medical Doctor",
+      "raw_data": {
+        "startSalary": 450,
+        "midSalary": 600,
+        "peakSalary": 1000,
+        "hoursWeek": 45,
+        "burnout": 22,
+        "satisfaction": 90,
+        "chooseAgain": 88,
+        "malpracticeCost": 8,
+        "vacation": 6,
+        "matchComp": 1,
+        "callSchedule": 10,
+        "physicalToll": 7,
+        "emotionalToll": 8
+      },
+      "scores": {
+        "category_1": 3.25,
+        "category_2": 3.0,
+        "category_3": 4.33,
+        "category_4": 5.45,
+        "category_5": 5.81,
+        "category_6": 8.57,
+        "category_7": 6.75,
+        "category_8": 7.1,
+        "category_9": 7.2,
+        "category_10": 8.0,
+        "category_11": 6.8,
+        "category_12": 7.32,
+        "category_13": 4.5,
+        "category_14": 6.87
+      },
+      "scenario_totals": {
+        "default": 6.39,
+        "equal_weight": 6.06,
+        "max_earnings": 6.46,
+        "best_lifestyle": 6.39,
+        "fastest_to_practice": 5.35,
+        "most_procedural": 6.61
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 35,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 60,
+        "prof_school_years": 4,
+        "trainee_salary": 65,
+        "education_debt": 380,
+        "loan_rate": 6.5,
+        "living_expenses": 50,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 5,
+        "salary_growth_to_mid": 3,
+        "salary_growth_to_peak": 2.5,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 4,
+        "fellowship_years": 1,
+        "age_independent": 31,
+        "starting_salary": 450,
+        "mid_salary": 600,
+        "peak_salary": 1000,
+        "malpractice_per_yr": 8
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 7,
+        "injury": 5,
+        "match": 4
+      },
+      "timeline": {
         "college": [
           18,
           22
@@ -1555,9 +3617,368 @@
         ],
         "earnAge": 31,
         "startSalary": 450
+      }
+    },
+    {
+      "name": "Interventional Pain Medicine",
+      "key": "interventional_pain_medi",
+      "profession": "MD/DO",
+      "color": "#2043d8",
+      "path": "Medical Doctor",
+      "raw_data": {
+        "startSalary": 350,
+        "midSalary": 450,
+        "peakSalary": 650,
+        "hoursWeek": 45,
+        "burnout": 38,
+        "satisfaction": 72,
+        "chooseAgain": 68,
+        "malpracticeCost": 20,
+        "vacation": 5,
+        "matchComp": 5,
+        "callSchedule": 8,
+        "physicalToll": 6,
+        "emotionalToll": 4
       },
-      {
-        "key": "derm",
+      "scores": {
+        "category_1": 3.25,
+        "category_2": 4.33,
+        "category_3": 4.33,
+        "category_4": 5.22,
+        "category_5": 5.23,
+        "category_6": 8.43,
+        "category_7": 5.58,
+        "category_8": 6.35,
+        "category_9": 5.86,
+        "category_10": 8.0,
+        "category_11": 6.6,
+        "category_12": 6.33,
+        "category_13": 4.5,
+        "category_14": 5.17
+      },
+      "scenario_totals": {
+        "default": 5.89,
+        "equal_weight": 5.64,
+        "max_earnings": 5.87,
+        "best_lifestyle": 5.79,
+        "fastest_to_practice": 5.15,
+        "most_procedural": 6.14
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 35,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 60,
+        "prof_school_years": 4,
+        "trainee_salary": 65,
+        "education_debt": 380,
+        "loan_rate": 6.5,
+        "living_expenses": 50,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 5,
+        "salary_growth_to_mid": 3,
+        "salary_growth_to_peak": 2.5,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 3,
+        "fellowship_years": 1,
+        "age_independent": 30,
+        "starting_salary": 350,
+        "mid_salary": 450,
+        "peak_salary": 650,
+        "malpractice_per_yr": 20
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 6,
+        "injury": 6,
+        "match": 3
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          26
+        ],
+        "residency": [
+          26,
+          29
+        ],
+        "fellowship": [
+          29,
+          30
+        ],
+        "earnAge": 30,
+        "startSalary": 350
+      }
+    },
+    {
+      "name": "Pulm / Critical Care",
+      "key": "pulm_critical_care",
+      "profession": "MD/DO",
+      "color": "#4648d8",
+      "path": "Medical Doctor",
+      "raw_data": {
+        "startSalary": 350,
+        "midSalary": 420,
+        "peakSalary": 550,
+        "hoursWeek": 55,
+        "burnout": 55,
+        "satisfaction": 72,
+        "chooseAgain": 65,
+        "malpracticeCost": 30,
+        "vacation": 4,
+        "matchComp": 5,
+        "callSchedule": 3,
+        "physicalToll": 4,
+        "emotionalToll": 2
+      },
+      "scores": {
+        "category_1": 3.25,
+        "category_2": 4.33,
+        "category_3": 4.33,
+        "category_4": 4.25,
+        "category_5": 5.17,
+        "category_6": 7.86,
+        "category_7": 4.55,
+        "category_8": 5.22,
+        "category_9": 3.58,
+        "category_10": 7.8,
+        "category_11": 6.6,
+        "category_12": 7.25,
+        "category_13": 4.5,
+        "category_14": 3.96
+      },
+      "scenario_totals": {
+        "default": 5.32,
+        "equal_weight": 5.17,
+        "max_earnings": 5.34,
+        "best_lifestyle": 5.06,
+        "fastest_to_practice": 4.78,
+        "most_procedural": 5.72
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 35,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 60,
+        "prof_school_years": 4,
+        "trainee_salary": 65,
+        "education_debt": 380,
+        "loan_rate": 6.5,
+        "living_expenses": 50,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 5,
+        "salary_growth_to_mid": 3,
+        "salary_growth_to_peak": 2.5,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 3,
+        "fellowship_years": 3,
+        "age_independent": 32,
+        "starting_salary": 350,
+        "mid_salary": 420,
+        "peak_salary": 550,
+        "malpractice_per_yr": 30
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 6,
+        "injury": 4,
+        "match": 3
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          26
+        ],
+        "residency": [
+          26,
+          29
+        ],
+        "fellowship": [
+          29,
+          32
+        ],
+        "earnAge": 32,
+        "startSalary": 350
+      }
+    },
+    {
+      "name": "Diagnostic Radiology",
+      "key": "diagnostic_radiology",
+      "profession": "MD/DO",
+      "color": "#4d31d8",
+      "path": "Medical Doctor",
+      "raw_data": {
+        "startSalary": 380,
+        "midSalary": 470,
+        "peakSalary": 650,
+        "hoursWeek": 47,
+        "burnout": 38,
+        "satisfaction": 78,
+        "chooseAgain": 75,
+        "malpracticeCost": 20,
+        "vacation": 5,
+        "matchComp": 4,
+        "callSchedule": 5,
+        "physicalToll": 8,
+        "emotionalToll": 7
+      },
+      "scores": {
+        "category_1": 3.25,
+        "category_2": 4.0,
+        "category_3": 4.33,
+        "category_4": 3.62,
+        "category_5": 5.34,
+        "category_6": 8.43,
+        "category_7": 5.58,
+        "category_8": 4.97,
+        "category_9": 5.96,
+        "category_10": 8.2,
+        "category_11": 5.4,
+        "category_12": 6.88,
+        "category_13": 4.5,
+        "category_14": 6.31
+      },
+      "scenario_totals": {
+        "default": 5.67,
+        "equal_weight": 5.48,
+        "max_earnings": 5.74,
+        "best_lifestyle": 5.54,
+        "fastest_to_practice": 4.88,
+        "most_procedural": 5.84
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 35,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 60,
+        "prof_school_years": 4,
+        "trainee_salary": 65,
+        "education_debt": 380,
+        "loan_rate": 6.5,
+        "living_expenses": 50,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 5,
+        "salary_growth_to_mid": 3,
+        "salary_growth_to_peak": 2.5,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 5,
+        "fellowship_years": 1,
+        "age_independent": 32,
+        "starting_salary": 380,
+        "mid_salary": 470,
+        "peak_salary": 650,
+        "malpractice_per_yr": 20
+      },
+      "stress": {
+        "ai": 5,
+        "pay": 8,
+        "injury": 8,
+        "match": 3
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          26
+        ],
+        "residency": [
+          26,
+          31
+        ],
+        "fellowship": [
+          31,
+          32
+        ],
+        "earnAge": 32,
+        "startSalary": 380
+      }
+    },
+    {
+      "name": "Dermatology (General/Medical)",
+      "key": "derm",
+      "profession": "MD/DO",
+      "color": "#E8685E",
+      "path": "Medical Doctor",
+      "raw_data": {
+        "startSalary": 350,
+        "midSalary": 450,
+        "peakSalary": 700,
+        "hoursWeek": 43,
+        "burnout": 25,
+        "satisfaction": 88,
+        "chooseAgain": 86,
+        "malpracticeCost": 8,
+        "vacation": 6,
+        "matchComp": 1,
+        "callSchedule": 9,
+        "physicalToll": 8,
+        "emotionalToll": 8
+      },
+      "scores": {
+        "category_1": 3.25,
+        "category_2": 3.0,
+        "category_3": 4.33,
+        "category_4": 5.2,
+        "category_5": 5.23,
+        "category_6": 8.57,
+        "category_7": 5.95,
+        "category_8": 5.97,
+        "category_9": 7.18,
+        "category_10": 8.0,
+        "category_11": 6.2,
+        "category_12": 7.52,
+        "category_13": 4.5,
+        "category_14": 7.44
+      },
+      "scenario_totals": {
+        "default": 6.13,
+        "equal_weight": 5.88,
+        "max_earnings": 6.06,
+        "best_lifestyle": 6.12,
+        "fastest_to_practice": 5.18,
+        "most_procedural": 6.31
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 35,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 60,
+        "prof_school_years": 4,
+        "trainee_salary": 65,
+        "education_debt": 380,
+        "loan_rate": 6.5,
+        "living_expenses": 50,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 5,
+        "salary_growth_to_mid": 3,
+        "salary_growth_to_peak": 2.5,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 4,
+        "fellowship_years": 0,
+        "age_independent": 30,
+        "starting_salary": 350,
+        "mid_salary": 450,
+        "peak_salary": 700,
+        "malpractice_per_yr": 8
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 8,
+        "injury": 7,
+        "match": 4
+      },
+      "timeline": {
         "college": [
           18,
           22
@@ -1573,9 +3994,83 @@
         "fellowship": null,
         "earnAge": 30,
         "startSalary": 350
+      }
+    },
+    {
+      "name": "Anesthesiology",
+      "key": "anesthesiology",
+      "profession": "MD/DO",
+      "color": "#6020d8",
+      "path": "Medical Doctor",
+      "raw_data": {
+        "startSalary": 380,
+        "midSalary": 430,
+        "peakSalary": 550,
+        "hoursWeek": 50,
+        "burnout": 45,
+        "satisfaction": 73,
+        "chooseAgain": 68,
+        "malpracticeCost": 30,
+        "vacation": 5,
+        "matchComp": 5,
+        "callSchedule": 3,
+        "physicalToll": 5,
+        "emotionalToll": 4
       },
-      {
-        "key": "eye",
+      "scores": {
+        "category_1": 3.25,
+        "category_2": 4.33,
+        "category_3": 4.33,
+        "category_4": 3.7,
+        "category_5": 5.26,
+        "category_6": 8.14,
+        "category_7": 4.8,
+        "category_8": 6.28,
+        "category_9": 5.12,
+        "category_10": 8.0,
+        "category_11": 6.4,
+        "category_12": 6.53,
+        "category_13": 4.5,
+        "category_14": 4.39
+      },
+      "scenario_totals": {
+        "default": 5.54,
+        "equal_weight": 5.34,
+        "max_earnings": 5.52,
+        "best_lifestyle": 5.43,
+        "fastest_to_practice": 4.82,
+        "most_procedural": 5.94
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 35,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 60,
+        "prof_school_years": 4,
+        "trainee_salary": 65,
+        "education_debt": 380,
+        "loan_rate": 6.5,
+        "living_expenses": 50,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 5,
+        "salary_growth_to_mid": 3,
+        "salary_growth_to_peak": 2.5,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 4,
+        "fellowship_years": 1,
+        "age_independent": 31,
+        "starting_salary": 380,
+        "mid_salary": 430,
+        "peak_salary": 550,
+        "malpractice_per_yr": 30
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 6,
+        "injury": 5,
+        "match": 3
+      },
+      "timeline": {
         "college": [
           18,
           22
@@ -1593,10 +4088,2022 @@
           31
         ],
         "earnAge": 31,
-        "startSalary": 350
+        "startSalary": 380
+      }
+    },
+    {
+      "name": "Emergency Medicine",
+      "key": "emergency_medicine",
+      "profession": "MD/DO",
+      "color": "#9446d8",
+      "path": "Medical Doctor",
+      "raw_data": {
+        "startSalary": 320,
+        "midSalary": 370,
+        "peakSalary": 450,
+        "hoursWeek": 42,
+        "burnout": 60,
+        "satisfaction": 55,
+        "chooseAgain": 48,
+        "malpracticeCost": 40,
+        "vacation": 5,
+        "matchComp": 6,
+        "callSchedule": 8,
+        "physicalToll": 4,
+        "emotionalToll": 2
       },
-      {
-        "key": "pod",
+      "scores": {
+        "category_1": 3.25,
+        "category_2": 4.67,
+        "category_3": 4.33,
+        "category_4": 5.22,
+        "category_5": 4.99,
+        "category_6": 8.29,
+        "category_7": 4.05,
+        "category_8": 5.55,
+        "category_9": 5.14,
+        "category_10": 8.2,
+        "category_11": 6.2,
+        "category_12": 6.38,
+        "category_13": 4.5,
+        "category_14": 3.59
+      },
+      "scenario_totals": {
+        "default": 5.46,
+        "equal_weight": 5.29,
+        "max_earnings": 5.33,
+        "best_lifestyle": 5.38,
+        "fastest_to_practice": 4.97,
+        "most_procedural": 5.82
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 35,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 60,
+        "prof_school_years": 4,
+        "trainee_salary": 65,
+        "education_debt": 380,
+        "loan_rate": 6.5,
+        "living_expenses": 50,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 5,
+        "salary_growth_to_mid": 3,
+        "salary_growth_to_peak": 2.5,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 3,
+        "fellowship_years": 1,
+        "age_independent": 30,
+        "starting_salary": 320,
+        "mid_salary": 370,
+        "peak_salary": 450,
+        "malpractice_per_yr": 40
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 7,
+        "injury": 6,
+        "match": 3
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          26
+        ],
+        "residency": [
+          26,
+          29
+        ],
+        "fellowship": [
+          29,
+          30
+        ],
+        "earnAge": 30,
+        "startSalary": 320
+      }
+    },
+    {
+      "name": "Psychiatry",
+      "key": "psychiatry",
+      "profession": "MD/DO",
+      "color": "#a831d8",
+      "path": "Medical Doctor",
+      "raw_data": {
+        "startSalary": 270,
+        "midSalary": 320,
+        "peakSalary": 450,
+        "hoursWeek": 45,
+        "burnout": 48,
+        "satisfaction": 75,
+        "chooseAgain": 72,
+        "malpracticeCost": 12,
+        "vacation": 5,
+        "matchComp": 7,
+        "callSchedule": 7,
+        "physicalToll": 9,
+        "emotionalToll": 3
+      },
+      "scores": {
+        "category_1": 3.25,
+        "category_2": 5.0,
+        "category_3": 4.33,
+        "category_4": 4.7,
+        "category_5": 4.74,
+        "category_6": 8.57,
+        "category_7": 5.3,
+        "category_8": 4.6,
+        "category_9": 5.86,
+        "category_10": 8.2,
+        "category_11": 5.4,
+        "category_12": 7.03,
+        "category_13": 4.5,
+        "category_14": 6.49
+      },
+      "scenario_totals": {
+        "default": 5.73,
+        "equal_weight": 5.57,
+        "max_earnings": 5.64,
+        "best_lifestyle": 5.56,
+        "fastest_to_practice": 5.08,
+        "most_procedural": 5.86
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 35,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 60,
+        "prof_school_years": 4,
+        "trainee_salary": 65,
+        "education_debt": 380,
+        "loan_rate": 6.5,
+        "living_expenses": 50,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 5,
+        "salary_growth_to_mid": 3,
+        "salary_growth_to_peak": 2.5,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 4,
+        "fellowship_years": 1,
+        "age_independent": 31,
+        "starting_salary": 270,
+        "mid_salary": 320,
+        "peak_salary": 450,
+        "malpractice_per_yr": 12
+      },
+      "stress": {
+        "ai": 4,
+        "pay": 8,
+        "injury": 9,
+        "match": 2
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          26
+        ],
+        "residency": [
+          26,
+          30
+        ],
+        "fellowship": [
+          30,
+          31
+        ],
+        "earnAge": 31,
+        "startSalary": 270
+      }
+    },
+    {
+      "name": "Internal Medicine (General)",
+      "key": "internal_medicine_genera",
+      "profession": "MD/DO",
+      "color": "#c420d8",
+      "path": "Medical Doctor",
+      "raw_data": {
+        "startSalary": 260,
+        "midSalary": 320,
+        "peakSalary": 385,
+        "hoursWeek": 55,
+        "burnout": 50,
+        "satisfaction": 68,
+        "chooseAgain": 60,
+        "malpracticeCost": 12,
+        "vacation": 4,
+        "matchComp": 3,
+        "callSchedule": 4,
+        "physicalToll": 3,
+        "emotionalToll": 5
+      },
+      "scores": {
+        "category_1": 3.25,
+        "category_2": 3.67,
+        "category_3": 4.33,
+        "category_4": 4.5,
+        "category_5": 4.71,
+        "category_6": 8.14,
+        "category_7": 4.62,
+        "category_8": 3.98,
+        "category_9": 4.18,
+        "category_10": 8.2,
+        "category_11": 6.0,
+        "category_12": 6.82,
+        "category_13": 4.5,
+        "category_14": 5.49
+      },
+      "scenario_totals": {
+        "default": 5.26,
+        "equal_weight": 5.17,
+        "max_earnings": 5.26,
+        "best_lifestyle": 4.98,
+        "fastest_to_practice": 4.71,
+        "most_procedural": 5.46
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 35,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 60,
+        "prof_school_years": 4,
+        "trainee_salary": 65,
+        "education_debt": 380,
+        "loan_rate": 6.5,
+        "living_expenses": 50,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 5,
+        "salary_growth_to_mid": 3,
+        "salary_growth_to_peak": 2.5,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 3,
+        "fellowship_years": 0,
+        "age_independent": 29,
+        "starting_salary": 260,
+        "mid_salary": 320,
+        "peak_salary": 385,
+        "malpractice_per_yr": 12
+      },
+      "stress": {
+        "ai": 4,
+        "pay": 8,
+        "injury": 8,
+        "match": 4
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          26
+        ],
+        "residency": [
+          26,
+          29
+        ],
+        "fellowship": null,
+        "earnAge": 29,
+        "startSalary": 260
+      }
+    },
+    {
+      "name": "Family Medicine",
+      "key": "family_medicine",
+      "profession": "MD/DO",
+      "color": "#d846ce",
+      "path": "Medical Doctor",
+      "raw_data": {
+        "startSalary": 235,
+        "midSalary": 275,
+        "peakSalary": 330,
+        "hoursWeek": 47,
+        "burnout": 51,
+        "satisfaction": 65,
+        "chooseAgain": 58,
+        "malpracticeCost": 10,
+        "vacation": 4,
+        "matchComp": 2,
+        "callSchedule": 5,
+        "physicalToll": 2,
+        "emotionalToll": 5
+      },
+      "scores": {
+        "category_1": 3.25,
+        "category_2": 3.33,
+        "category_3": 4.33,
+        "category_4": 4.75,
+        "category_5": 4.54,
+        "category_6": 8.43,
+        "category_7": 4.72,
+        "category_8": 4.72,
+        "category_9": 4.94,
+        "category_10": 8.4,
+        "category_11": 6.0,
+        "category_12": 6.65,
+        "category_13": 4.5,
+        "category_14": 5.54
+      },
+      "scenario_totals": {
+        "default": 5.41,
+        "equal_weight": 5.29,
+        "max_earnings": 5.36,
+        "best_lifestyle": 5.23,
+        "fastest_to_practice": 4.77,
+        "most_procedural": 5.66
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 35,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 60,
+        "prof_school_years": 4,
+        "trainee_salary": 65,
+        "education_debt": 380,
+        "loan_rate": 6.5,
+        "living_expenses": 50,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 5,
+        "salary_growth_to_mid": 3,
+        "salary_growth_to_peak": 2.5,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 3,
+        "fellowship_years": 0,
+        "age_independent": 29,
+        "starting_salary": 235,
+        "mid_salary": 275,
+        "peak_salary": 330,
+        "malpractice_per_yr": 10
+      },
+      "stress": {
+        "ai": 4,
+        "pay": 8,
+        "injury": 8,
+        "match": 4
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          26
+        ],
+        "residency": [
+          26,
+          29
+        ],
+        "fellowship": null,
+        "earnAge": 29,
+        "startSalary": 235
+      }
+    },
+    {
+      "name": "Pediatrics (General)",
+      "key": "pediatrics_general",
+      "profession": "MD/DO",
+      "color": "#d831af",
+      "path": "Medical Doctor",
+      "raw_data": {
+        "startSalary": 215,
+        "midSalary": 258,
+        "peakSalary": 310,
+        "hoursWeek": 48,
+        "burnout": 51,
+        "satisfaction": 70,
+        "chooseAgain": 65,
+        "malpracticeCost": 10,
+        "vacation": 4,
+        "matchComp": 3,
+        "callSchedule": 4,
+        "physicalToll": 2,
+        "emotionalToll": 6
+      },
+      "scores": {
+        "category_1": 3.25,
+        "category_2": 3.67,
+        "category_3": 4.33,
+        "category_4": 4.5,
+        "category_5": 4.46,
+        "category_6": 8.43,
+        "category_7": 4.67,
+        "category_8": 4.42,
+        "category_9": 4.9,
+        "category_10": 8.2,
+        "category_11": 6.2,
+        "category_12": 6.85,
+        "category_13": 4.5,
+        "category_14": 5.97
+      },
+      "scenario_totals": {
+        "default": 5.41,
+        "equal_weight": 5.31,
+        "max_earnings": 5.33,
+        "best_lifestyle": 5.2,
+        "fastest_to_practice": 4.77,
+        "most_procedural": 5.64
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 35,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 60,
+        "prof_school_years": 4,
+        "trainee_salary": 65,
+        "education_debt": 380,
+        "loan_rate": 6.5,
+        "living_expenses": 50,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 5,
+        "salary_growth_to_mid": 3,
+        "salary_growth_to_peak": 2.5,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 3,
+        "fellowship_years": 0,
+        "age_independent": 29,
+        "starting_salary": 215,
+        "mid_salary": 258,
+        "peak_salary": 310,
+        "malpractice_per_yr": 10
+      },
+      "stress": {
+        "ai": 4,
+        "pay": 8,
+        "injury": 8,
+        "match": 4
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          26
+        ],
+        "residency": [
+          26,
+          29
+        ],
+        "fellowship": null,
+        "earnAge": 29,
+        "startSalary": 215
+      }
+    },
+    {
+      "name": "Cardiology (Non-interventional)",
+      "key": "cardiology_non_intervent",
+      "profession": "MD/DO",
+      "color": "#d82089",
+      "path": "Medical Doctor",
+      "raw_data": {
+        "startSalary": 380,
+        "midSalary": 500,
+        "peakSalary": 650,
+        "hoursWeek": 55,
+        "burnout": 47,
+        "satisfaction": 82,
+        "chooseAgain": 80,
+        "malpracticeCost": 18,
+        "vacation": 4,
+        "matchComp": 9,
+        "callSchedule": 7,
+        "physicalToll": 3,
+        "emotionalToll": 6
+      },
+      "scores": {
+        "category_1": 3.25,
+        "category_2": 5.67,
+        "category_3": 4.33,
+        "category_4": 3.55,
+        "category_5": 5.41,
+        "category_6": 7.86,
+        "category_7": 5.33,
+        "category_8": 4.97,
+        "category_9": 3.9,
+        "category_10": 7.8,
+        "category_11": 6.6,
+        "category_12": 8.15,
+        "category_13": 4.5,
+        "category_14": 5.5
+      },
+      "scenario_totals": {
+        "default": 5.64,
+        "equal_weight": 5.48,
+        "max_earnings": 5.67,
+        "best_lifestyle": 5.31,
+        "fastest_to_practice": 5.0,
+        "most_procedural": 5.93
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 35,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 60,
+        "prof_school_years": 4,
+        "trainee_salary": 65,
+        "education_debt": 380,
+        "loan_rate": 6.5,
+        "living_expenses": 50,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 5,
+        "salary_growth_to_mid": 3,
+        "salary_growth_to_peak": 2.5,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 6,
+        "fellowship_years": 0,
+        "age_independent": 32,
+        "starting_salary": 380,
+        "mid_salary": 500,
+        "peak_salary": 650,
+        "malpractice_per_yr": 18
+      },
+      "stress": {
+        "ai": 5,
+        "pay": 7,
+        "injury": 6,
+        "match": 2
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          26
+        ],
+        "residency": [
+          26,
+          32
+        ],
+        "fellowship": null,
+        "earnAge": 32,
+        "startSalary": 380
+      }
+    },
+    {
+      "name": "Hematology / Oncology",
+      "key": "hematology_oncology",
+      "profession": "MD/DO",
+      "color": "#d8467f",
+      "path": "Medical Doctor",
+      "raw_data": {
+        "startSalary": 340,
+        "midSalary": 450,
+        "peakSalary": 580,
+        "hoursWeek": 55,
+        "burnout": 53,
+        "satisfaction": 80,
+        "chooseAgain": 76,
+        "malpracticeCost": 15,
+        "vacation": 4,
+        "matchComp": 8,
+        "callSchedule": 6,
+        "physicalToll": 2,
+        "emotionalToll": 9
+      },
+      "scores": {
+        "category_1": 3.25,
+        "category_2": 5.33,
+        "category_3": 4.33,
+        "category_4": 3.3,
+        "category_5": 5.2,
+        "category_6": 7.86,
+        "category_7": 5.15,
+        "category_8": 4.22,
+        "category_9": 3.66,
+        "category_10": 7.8,
+        "category_11": 6.4,
+        "category_12": 8.15,
+        "category_13": 4.5,
+        "category_14": 5.86
+      },
+      "scenario_totals": {
+        "default": 5.47,
+        "equal_weight": 5.35,
+        "max_earnings": 5.51,
+        "best_lifestyle": 5.1,
+        "fastest_to_practice": 4.86,
+        "most_procedural": 5.72
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 35,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 60,
+        "prof_school_years": 4,
+        "trainee_salary": 65,
+        "education_debt": 380,
+        "loan_rate": 6.5,
+        "living_expenses": 50,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 5,
+        "salary_growth_to_mid": 3,
+        "salary_growth_to_peak": 2.5,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 6,
+        "fellowship_years": 0,
+        "age_independent": 32,
+        "starting_salary": 340,
+        "mid_salary": 450,
+        "peak_salary": 580,
+        "malpractice_per_yr": 15
+      },
+      "stress": {
+        "ai": 4,
+        "pay": 7,
+        "injury": 6,
+        "match": 2
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          26
+        ],
+        "residency": [
+          26,
+          32
+        ],
+        "fellowship": null,
+        "earnAge": 32,
+        "startSalary": 340
+      }
+    },
+    {
+      "name": "Nephrology",
+      "key": "nephrology",
+      "profession": "MD/DO",
+      "color": "#d83154",
+      "path": "Medical Doctor",
+      "raw_data": {
+        "startSalary": 280,
+        "midSalary": 350,
+        "peakSalary": 430,
+        "hoursWeek": 53,
+        "burnout": 46,
+        "satisfaction": 72,
+        "chooseAgain": 65,
+        "malpracticeCost": 10,
+        "vacation": 4,
+        "matchComp": 4,
+        "callSchedule": 7,
+        "physicalToll": 3,
+        "emotionalToll": 7
+      },
+      "scores": {
+        "category_1": 3.25,
+        "category_2": 4.0,
+        "category_3": 4.33,
+        "category_4": 4.12,
+        "category_5": 4.83,
+        "category_6": 8.0,
+        "category_7": 4.75,
+        "category_8": 4.6,
+        "category_9": 4.24,
+        "category_10": 8.0,
+        "category_11": 6.4,
+        "category_12": 6.58,
+        "category_13": 4.5,
+        "category_14": 6.11
+      },
+      "scenario_totals": {
+        "default": 5.35,
+        "equal_weight": 5.27,
+        "max_earnings": 5.34,
+        "best_lifestyle": 5.07,
+        "fastest_to_practice": 4.74,
+        "most_procedural": 5.56
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 35,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 60,
+        "prof_school_years": 4,
+        "trainee_salary": 65,
+        "education_debt": 380,
+        "loan_rate": 6.5,
+        "living_expenses": 50,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 5,
+        "salary_growth_to_mid": 3,
+        "salary_growth_to_peak": 2.5,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 5,
+        "fellowship_years": 0,
+        "age_independent": 31,
+        "starting_salary": 280,
+        "mid_salary": 350,
+        "peak_salary": 430,
+        "malpractice_per_yr": 10
+      },
+      "stress": {
+        "ai": 4,
+        "pay": 7,
+        "injury": 6,
+        "match": 3
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          26
+        ],
+        "residency": [
+          26,
+          31
+        ],
+        "fellowship": null,
+        "earnAge": 31,
+        "startSalary": 280
+      }
+    },
+    {
+      "name": "Rheumatology",
+      "key": "rheumatology",
+      "profession": "MD/DO",
+      "color": "#d82026",
+      "path": "Medical Doctor",
+      "raw_data": {
+        "startSalary": 260,
+        "midSalary": 325,
+        "peakSalary": 400,
+        "hoursWeek": 45,
+        "burnout": 42,
+        "satisfaction": 78,
+        "chooseAgain": 73,
+        "malpracticeCost": 7,
+        "vacation": 5,
+        "matchComp": 7,
+        "callSchedule": 3,
+        "physicalToll": 2,
+        "emotionalToll": 5
+      },
+      "scores": {
+        "category_1": 3.25,
+        "category_2": 5.0,
+        "category_3": 4.33,
+        "category_4": 3.12,
+        "category_5": 4.73,
+        "category_6": 8.29,
+        "category_7": 5.15,
+        "category_8": 5.1,
+        "category_9": 5.5,
+        "category_10": 7.8,
+        "category_11": 6.2,
+        "category_12": 7.33,
+        "category_13": 4.5,
+        "category_14": 6.46
+      },
+      "scenario_totals": {
+        "default": 5.62,
+        "equal_weight": 5.48,
+        "max_earnings": 5.52,
+        "best_lifestyle": 5.45,
+        "fastest_to_practice": 4.84,
+        "most_procedural": 5.88
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 35,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 60,
+        "prof_school_years": 4,
+        "trainee_salary": 65,
+        "education_debt": 380,
+        "loan_rate": 6.5,
+        "living_expenses": 50,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 5,
+        "salary_growth_to_mid": 3,
+        "salary_growth_to_peak": 2.5,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 5,
+        "fellowship_years": 0,
+        "age_independent": 31,
+        "starting_salary": 260,
+        "mid_salary": 325,
+        "peak_salary": 400,
+        "malpractice_per_yr": 7
+      },
+      "stress": {
+        "ai": 4,
+        "pay": 7,
+        "injury": 8,
+        "match": 2
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          26
+        ],
+        "residency": [
+          26,
+          31
+        ],
+        "fellowship": null,
+        "earnAge": 31,
+        "startSalary": 260
+      }
+    },
+    {
+      "name": "Endocrinology",
+      "key": "endocrinology",
+      "profession": "MD/DO",
+      "color": "#d85c46",
+      "path": "Medical Doctor",
+      "raw_data": {
+        "startSalary": 230,
+        "midSalary": 290,
+        "peakSalary": 360,
+        "hoursWeek": 44,
+        "burnout": 44,
+        "satisfaction": 75,
+        "chooseAgain": 70,
+        "malpracticeCost": 6,
+        "vacation": 5,
+        "matchComp": 6,
+        "callSchedule": 2,
+        "physicalToll": 1,
+        "emotionalToll": 4
+      },
+      "scores": {
+        "category_1": 3.25,
+        "category_2": 4.67,
+        "category_3": 4.33,
+        "category_4": 2.88,
+        "category_5": 4.56,
+        "category_6": 8.43,
+        "category_7": 5.05,
+        "category_8": 4.92,
+        "category_9": 5.68,
+        "category_10": 7.8,
+        "category_11": 5.8,
+        "category_12": 6.82,
+        "category_13": 4.5,
+        "category_14": 6.2
+      },
+      "scenario_totals": {
+        "default": 5.49,
+        "equal_weight": 5.35,
+        "max_earnings": 5.4,
+        "best_lifestyle": 5.34,
+        "fastest_to_practice": 4.7,
+        "most_procedural": 5.73
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 35,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 60,
+        "prof_school_years": 4,
+        "trainee_salary": 65,
+        "education_debt": 380,
+        "loan_rate": 6.5,
+        "living_expenses": 50,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 5,
+        "salary_growth_to_mid": 3,
+        "salary_growth_to_peak": 2.5,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 5,
+        "fellowship_years": 0,
+        "age_independent": 31,
+        "starting_salary": 230,
+        "mid_salary": 290,
+        "peak_salary": 360,
+        "malpractice_per_yr": 6
+      },
+      "stress": {
+        "ai": 4,
+        "pay": 7,
+        "injury": 8,
+        "match": 3
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          26
+        ],
+        "residency": [
+          26,
+          31
+        ],
+        "fellowship": null,
+        "earnAge": 31,
+        "startSalary": 230
+      }
+    },
+    {
+      "name": "Infectious Disease",
+      "key": "infectious_disease",
+      "profession": "MD/DO",
+      "color": "#d86831",
+      "path": "Medical Doctor",
+      "raw_data": {
+        "startSalary": 240,
+        "midSalary": 300,
+        "peakSalary": 380,
+        "hoursWeek": 48,
+        "burnout": 45,
+        "satisfaction": 82,
+        "chooseAgain": 72,
+        "malpracticeCost": 7,
+        "vacation": 4,
+        "matchComp": 3,
+        "callSchedule": 5,
+        "physicalToll": 2,
+        "emotionalToll": 6
+      },
+      "scores": {
+        "category_1": 3.25,
+        "category_2": 3.67,
+        "category_3": 4.33,
+        "category_4": 3.62,
+        "category_5": 4.61,
+        "category_6": 8.14,
+        "category_7": 4.85,
+        "category_8": 4.42,
+        "category_9": 4.74,
+        "category_10": 8.0,
+        "category_11": 6.0,
+        "category_12": 7.93,
+        "category_13": 4.5,
+        "category_14": 6.17
+      },
+      "scenario_totals": {
+        "default": 5.41,
+        "equal_weight": 5.3,
+        "max_earnings": 5.36,
+        "best_lifestyle": 5.2,
+        "fastest_to_practice": 4.69,
+        "most_procedural": 5.71
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 35,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 60,
+        "prof_school_years": 4,
+        "trainee_salary": 65,
+        "education_debt": 380,
+        "loan_rate": 6.5,
+        "living_expenses": 50,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 5,
+        "salary_growth_to_mid": 3,
+        "salary_growth_to_peak": 2.5,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 5,
+        "fellowship_years": 0,
+        "age_independent": 31,
+        "starting_salary": 240,
+        "mid_salary": 300,
+        "peak_salary": 380,
+        "malpractice_per_yr": 7
+      },
+      "stress": {
+        "ai": 4,
+        "pay": 7,
+        "injury": 8,
+        "match": 4
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          26
+        ],
+        "residency": [
+          26,
+          31
+        ],
+        "fellowship": null,
+        "earnAge": 31,
+        "startSalary": 240
+      }
+    },
+    {
+      "name": "Allergy / Immunology",
+      "key": "allergy_immunology",
+      "profession": "MD/DO",
+      "color": "#d87e20",
+      "path": "Medical Doctor",
+      "raw_data": {
+        "startSalary": 280,
+        "midSalary": 363,
+        "peakSalary": 430,
+        "hoursWeek": 42,
+        "burnout": 38,
+        "satisfaction": 94,
+        "chooseAgain": 85,
+        "malpracticeCost": 5,
+        "vacation": 5,
+        "matchComp": 7,
+        "callSchedule": 2,
+        "physicalToll": 1,
+        "emotionalToll": 2
+      },
+      "scores": {
+        "category_1": 3.25,
+        "category_2": 5.0,
+        "category_3": 4.33,
+        "category_4": 2.88,
+        "category_5": 4.86,
+        "category_6": 8.43,
+        "category_7": 5.25,
+        "category_8": 6.05,
+        "category_9": 6.02,
+        "category_10": 7.8,
+        "category_11": 6.4,
+        "category_12": 8.03,
+        "category_13": 4.5,
+        "category_14": 6.21
+      },
+      "scenario_totals": {
+        "default": 5.83,
+        "equal_weight": 5.64,
+        "max_earnings": 5.69,
+        "best_lifestyle": 5.75,
+        "fastest_to_practice": 4.92,
+        "most_procedural": 6.23
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 35,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 60,
+        "prof_school_years": 4,
+        "trainee_salary": 65,
+        "education_debt": 380,
+        "loan_rate": 6.5,
+        "living_expenses": 50,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 5,
+        "salary_growth_to_mid": 3,
+        "salary_growth_to_peak": 2.5,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 5,
+        "fellowship_years": 0,
+        "age_independent": 31,
+        "starting_salary": 280,
+        "mid_salary": 363,
+        "peak_salary": 430,
+        "malpractice_per_yr": 5
+      },
+      "stress": {
+        "ai": 4,
+        "pay": 7,
+        "injury": 8,
+        "match": 2
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          26
+        ],
+        "residency": [
+          26,
+          31
+        ],
+        "fellowship": null,
+        "earnAge": 31,
+        "startSalary": 280
+      }
+    },
+    {
+      "name": "Physical Medicine & Rehabilitation",
+      "key": "physical_medicine_rehabi",
+      "profession": "MD/DO",
+      "color": "#d8ab46",
+      "path": "Medical Doctor",
+      "raw_data": {
+        "startSalary": 270,
+        "midSalary": 365,
+        "peakSalary": 450,
+        "hoursWeek": 45,
+        "burnout": 46,
+        "satisfaction": 75,
+        "chooseAgain": 72,
+        "malpracticeCost": 8,
+        "vacation": 4,
+        "matchComp": 4,
+        "callSchedule": 3,
+        "physicalToll": 3,
+        "emotionalToll": 4
+      },
+      "scores": {
+        "category_1": 3.25,
+        "category_2": 4.0,
+        "category_3": 4.33,
+        "category_4": 3.7,
+        "category_5": 4.84,
+        "category_6": 8.29,
+        "category_7": 5.05,
+        "category_8": 5.85,
+        "category_9": 5.04,
+        "category_10": 7.8,
+        "category_11": 7.0,
+        "category_12": 7.2,
+        "category_13": 4.5,
+        "category_14": 6.01
+      },
+      "scenario_totals": {
+        "default": 5.64,
+        "equal_weight": 5.49,
+        "max_earnings": 5.56,
+        "best_lifestyle": 5.46,
+        "fastest_to_practice": 4.82,
+        "most_procedural": 6.0
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 35,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 60,
+        "prof_school_years": 4,
+        "trainee_salary": 65,
+        "education_debt": 380,
+        "loan_rate": 6.5,
+        "living_expenses": 50,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 5,
+        "salary_growth_to_mid": 3,
+        "salary_growth_to_peak": 2.5,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 4,
+        "fellowship_years": 0,
+        "age_independent": 30,
+        "starting_salary": 270,
+        "mid_salary": 365,
+        "peak_salary": 450,
+        "malpractice_per_yr": 8
+      },
+      "stress": {
+        "ai": 5,
+        "pay": 6,
+        "injury": 6,
+        "match": 3
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          26
+        ],
+        "residency": [
+          26,
+          30
+        ],
+        "fellowship": null,
+        "earnAge": 30,
+        "startSalary": 270
+      }
+    },
+    {
+      "name": "Radiation Oncology",
+      "key": "radiation_oncology",
+      "profession": "MD/DO",
+      "color": "#d8c231",
+      "path": "Medical Doctor",
+      "raw_data": {
+        "startSalary": 380,
+        "midSalary": 520,
+        "peakSalary": 650,
+        "hoursWeek": 47,
+        "burnout": 45,
+        "satisfaction": 78,
+        "chooseAgain": 72,
+        "malpracticeCost": 15,
+        "vacation": 5,
+        "matchComp": 5,
+        "callSchedule": 3,
+        "physicalToll": 2,
+        "emotionalToll": 7
+      },
+      "scores": {
+        "category_1": 3.25,
+        "category_2": 4.33,
+        "category_3": 4.33,
+        "category_4": 3.12,
+        "category_5": 5.46,
+        "category_6": 8.0,
+        "category_7": 5.33,
+        "category_8": 6.22,
+        "category_9": 4.88,
+        "category_10": 7.4,
+        "category_11": 6.2,
+        "category_12": 7.3,
+        "category_13": 4.5,
+        "category_14": 5.86
+      },
+      "scenario_totals": {
+        "default": 5.62,
+        "equal_weight": 5.44,
+        "max_earnings": 5.65,
+        "best_lifestyle": 5.45,
+        "fastest_to_practice": 4.81,
+        "most_procedural": 6.01
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 35,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 60,
+        "prof_school_years": 4,
+        "trainee_salary": 65,
+        "education_debt": 380,
+        "loan_rate": 6.5,
+        "living_expenses": 50,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 5,
+        "salary_growth_to_mid": 3,
+        "salary_growth_to_peak": 2.5,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 5,
+        "fellowship_years": 0,
+        "age_independent": 31,
+        "starting_salary": 380,
+        "mid_salary": 520,
+        "peak_salary": 650,
+        "malpractice_per_yr": 15
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 6,
+        "injury": 5,
+        "match": 3
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          26
+        ],
+        "residency": [
+          26,
+          31
+        ],
+        "fellowship": null,
+        "earnAge": 31,
+        "startSalary": 380
+      }
+    },
+    {
+      "name": "Pathology",
+      "key": "pathology",
+      "profession": "MD/DO",
+      "color": "#cfd820",
+      "path": "Medical Doctor",
+      "raw_data": {
+        "startSalary": 280,
+        "midSalary": 373,
+        "peakSalary": 450,
+        "hoursWeek": 45,
+        "burnout": 41,
+        "satisfaction": 88,
+        "chooseAgain": 80,
+        "malpracticeCost": 7,
+        "vacation": 5,
+        "matchComp": 3,
+        "callSchedule": 3,
+        "physicalToll": 2,
+        "emotionalToll": 3
+      },
+      "scores": {
+        "category_1": 3.25,
+        "category_2": 3.67,
+        "category_3": 4.33,
+        "category_4": 3.7,
+        "category_5": 4.87,
+        "category_6": 8.29,
+        "category_7": 5.3,
+        "category_8": 5.6,
+        "category_9": 5.54,
+        "category_10": 7.6,
+        "category_11": 5.8,
+        "category_12": 7.68,
+        "category_13": 4.5,
+        "category_14": 5.74
+      },
+      "scenario_totals": {
+        "default": 5.61,
+        "equal_weight": 5.41,
+        "max_earnings": 5.57,
+        "best_lifestyle": 5.51,
+        "fastest_to_practice": 4.78,
+        "most_procedural": 5.97
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 35,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 60,
+        "prof_school_years": 4,
+        "trainee_salary": 65,
+        "education_debt": 380,
+        "loan_rate": 6.5,
+        "living_expenses": 50,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 5,
+        "salary_growth_to_mid": 3,
+        "salary_growth_to_peak": 2.5,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 4,
+        "fellowship_years": 0,
+        "age_independent": 30,
+        "starting_salary": 280,
+        "mid_salary": 373,
+        "peak_salary": 450,
+        "malpractice_per_yr": 7
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 7,
+        "injury": 7,
+        "match": 4
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          26
+        ],
+        "residency": [
+          26,
+          30
+        ],
+        "fellowship": null,
+        "earnAge": 30,
+        "startSalary": 280
+      }
+    },
+    {
+      "name": "Nuclear Medicine",
+      "key": "nuclear_medicine",
+      "profession": "MD/DO",
+      "color": "#b7d846",
+      "path": "Medical Doctor",
+      "raw_data": {
+        "startSalary": 310,
+        "midSalary": 415,
+        "peakSalary": 500,
+        "hoursWeek": 45,
+        "burnout": 42,
+        "satisfaction": 78,
+        "chooseAgain": 72,
+        "malpracticeCost": 10,
+        "vacation": 5,
+        "matchComp": 3,
+        "callSchedule": 3,
+        "physicalToll": 2,
+        "emotionalToll": 3
+      },
+      "scores": {
+        "category_1": 3.25,
+        "category_2": 3.67,
+        "category_3": 4.33,
+        "category_4": 3.7,
+        "category_5": 5.06,
+        "category_6": 8.14,
+        "category_7": 4.92,
+        "category_8": 6.1,
+        "category_9": 5.3,
+        "category_10": 7.4,
+        "category_11": 6.0,
+        "category_12": 6.97,
+        "category_13": 4.5,
+        "category_14": 5.54
+      },
+      "scenario_totals": {
+        "default": 5.52,
+        "equal_weight": 5.34,
+        "max_earnings": 5.47,
+        "best_lifestyle": 5.42,
+        "fastest_to_practice": 4.74,
+        "most_procedural": 5.91
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 35,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 60,
+        "prof_school_years": 4,
+        "trainee_salary": 65,
+        "education_debt": 380,
+        "loan_rate": 6.5,
+        "living_expenses": 50,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 5,
+        "salary_growth_to_mid": 3,
+        "salary_growth_to_peak": 2.5,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 4,
+        "fellowship_years": 0,
+        "age_independent": 30,
+        "starting_salary": 310,
+        "mid_salary": 415,
+        "peak_salary": 500,
+        "malpractice_per_yr": 10
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 6,
+        "injury": 6,
+        "match": 4
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          26
+        ],
+        "residency": [
+          26,
+          30
+        ],
+        "fellowship": null,
+        "earnAge": 30,
+        "startSalary": 310
+      }
+    },
+    {
+      "name": "Hospice / Palliative Medicine",
+      "key": "hospice_palliative_medic",
+      "profession": "MD/DO",
+      "color": "#94d831",
+      "path": "Medical Doctor",
+      "raw_data": {
+        "startSalary": 230,
+        "midSalary": 290,
+        "peakSalary": 350,
+        "hoursWeek": 45,
+        "burnout": 43,
+        "satisfaction": 80,
+        "chooseAgain": 76,
+        "malpracticeCost": 5,
+        "vacation": 4,
+        "matchComp": 3,
+        "callSchedule": 4,
+        "physicalToll": 2,
+        "emotionalToll": 10
+      },
+      "scores": {
+        "category_1": 3.25,
+        "category_2": 3.67,
+        "category_3": 4.33,
+        "category_4": 3.95,
+        "category_5": 4.56,
+        "category_6": 8.43,
+        "category_7": 5.03,
+        "category_8": 4.85,
+        "category_9": 5.36,
+        "category_10": 8.0,
+        "category_11": 6.4,
+        "category_12": 7.65,
+        "category_13": 4.5,
+        "category_14": 7.5
+      },
+      "scenario_totals": {
+        "default": 5.64,
+        "equal_weight": 5.54,
+        "max_earnings": 5.52,
+        "best_lifestyle": 5.45,
+        "fastest_to_practice": 4.83,
+        "most_procedural": 5.89
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 35,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 60,
+        "prof_school_years": 4,
+        "trainee_salary": 65,
+        "education_debt": 380,
+        "loan_rate": 6.5,
+        "living_expenses": 50,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 5,
+        "salary_growth_to_mid": 3,
+        "salary_growth_to_peak": 2.5,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 4,
+        "fellowship_years": 0,
+        "age_independent": 30,
+        "starting_salary": 230,
+        "mid_salary": 290,
+        "peak_salary": 350,
+        "malpractice_per_yr": 5
+      },
+      "stress": {
+        "ai": 2,
+        "pay": 7,
+        "injury": 9,
+        "match": 4
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          26
+        ],
+        "residency": [
+          26,
+          30
+        ],
+        "fellowship": null,
+        "earnAge": 30,
+        "startSalary": 230
+      }
+    },
+    {
+      "name": "Geriatrics",
+      "key": "geriatrics",
+      "profession": "MD/DO",
+      "color": "#6cd820",
+      "path": "Medical Doctor",
+      "raw_data": {
+        "startSalary": 215,
+        "midSalary": 265,
+        "peakSalary": 330,
+        "hoursWeek": 44,
+        "burnout": 43,
+        "satisfaction": 73,
+        "chooseAgain": 68,
+        "malpracticeCost": 6,
+        "vacation": 4,
+        "matchComp": 2,
+        "callSchedule": 3,
+        "physicalToll": 2,
+        "emotionalToll": 7
+      },
+      "scores": {
+        "category_1": 3.25,
+        "category_2": 3.33,
+        "category_3": 4.33,
+        "category_4": 3.7,
+        "category_5": 4.47,
+        "category_6": 8.43,
+        "category_7": 4.97,
+        "category_8": 4.67,
+        "category_9": 5.42,
+        "category_10": 8.2,
+        "category_11": 6.2,
+        "category_12": 6.7,
+        "category_13": 4.5,
+        "category_14": 6.63
+      },
+      "scenario_totals": {
+        "default": 5.45,
+        "equal_weight": 5.35,
+        "max_earnings": 5.4,
+        "best_lifestyle": 5.28,
+        "fastest_to_practice": 4.67,
+        "most_procedural": 5.66
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 35,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 60,
+        "prof_school_years": 4,
+        "trainee_salary": 65,
+        "education_debt": 380,
+        "loan_rate": 6.5,
+        "living_expenses": 50,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 5,
+        "salary_growth_to_mid": 3,
+        "salary_growth_to_peak": 2.5,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 4,
+        "fellowship_years": 0,
+        "age_independent": 30,
+        "starting_salary": 215,
+        "mid_salary": 265,
+        "peak_salary": 330,
+        "malpractice_per_yr": 6
+      },
+      "stress": {
+        "ai": 3,
+        "pay": 8,
+        "injury": 9,
+        "match": 4
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          26
+        ],
+        "residency": [
+          26,
+          30
+        ],
+        "fellowship": null,
+        "earnAge": 30,
+        "startSalary": 215
+      }
+    },
+    {
+      "name": "Neonatology",
+      "key": "neonatology",
+      "profession": "MD/DO",
+      "color": "#68d846",
+      "path": "Medical Doctor",
+      "raw_data": {
+        "startSalary": 280,
+        "midSalary": 360,
+        "peakSalary": 435,
+        "hoursWeek": 55,
+        "burnout": 48,
+        "satisfaction": 76,
+        "chooseAgain": 72,
+        "malpracticeCost": 20,
+        "vacation": 4,
+        "matchComp": 5,
+        "callSchedule": 8,
+        "physicalToll": 4,
+        "emotionalToll": 9
+      },
+      "scores": {
+        "category_1": 3.25,
+        "category_2": 4.33,
+        "category_3": 4.33,
+        "category_4": 3.8,
+        "category_5": 4.84,
+        "category_6": 7.86,
+        "category_7": 4.5,
+        "category_8": 5.22,
+        "category_9": 3.86,
+        "category_10": 7.4,
+        "category_11": 7.2,
+        "category_12": 7.57,
+        "category_13": 4.5,
+        "category_14": 5.46
+      },
+      "scenario_totals": {
+        "default": 5.4,
+        "equal_weight": 5.29,
+        "max_earnings": 5.3,
+        "best_lifestyle": 5.12,
+        "fastest_to_practice": 4.74,
+        "most_procedural": 5.78
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 35,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 60,
+        "prof_school_years": 4,
+        "trainee_salary": 65,
+        "education_debt": 380,
+        "loan_rate": 6.5,
+        "living_expenses": 50,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 5,
+        "salary_growth_to_mid": 3,
+        "salary_growth_to_peak": 2.5,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 6,
+        "fellowship_years": 0,
+        "age_independent": 32,
+        "starting_salary": 280,
+        "mid_salary": 360,
+        "peak_salary": 435,
+        "malpractice_per_yr": 20
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 6,
+        "injury": 5,
+        "match": 3
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          26
+        ],
+        "residency": [
+          26,
+          32
+        ],
+        "fellowship": null,
+        "earnAge": 32,
+        "startSalary": 280
+      }
+    },
+    {
+      "name": "Neurology",
+      "key": "neurology",
+      "profession": "MD/DO",
+      "color": "#39d831",
+      "path": "Medical Doctor",
+      "raw_data": {
+        "startSalary": 280,
+        "midSalary": 343,
+        "peakSalary": 455,
+        "hoursWeek": 50,
+        "burnout": 44,
+        "satisfaction": 74,
+        "chooseAgain": 70,
+        "malpracticeCost": 12,
+        "vacation": 4,
+        "matchComp": 5,
+        "callSchedule": 5,
+        "physicalToll": 2,
+        "emotionalToll": 6
+      },
+      "scores": {
+        "category_1": 3.25,
+        "category_2": 4.33,
+        "category_3": 4.33,
+        "category_4": 4.2,
+        "category_5": 4.81,
+        "category_6": 8.14,
+        "category_7": 5.05,
+        "category_8": 4.78,
+        "category_9": 4.66,
+        "category_10": 8.0,
+        "category_11": 6.4,
+        "category_12": 7.62,
+        "category_13": 4.5,
+        "category_14": 5.49
+      },
+      "scenario_totals": {
+        "default": 5.54,
+        "equal_weight": 5.39,
+        "max_earnings": 5.5,
+        "best_lifestyle": 5.31,
+        "fastest_to_practice": 4.87,
+        "most_procedural": 5.82
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 35,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 60,
+        "prof_school_years": 4,
+        "trainee_salary": 65,
+        "education_debt": 380,
+        "loan_rate": 6.5,
+        "living_expenses": 50,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 5,
+        "salary_growth_to_mid": 3,
+        "salary_growth_to_peak": 2.5,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 4,
+        "fellowship_years": 0,
+        "age_independent": 30,
+        "starting_salary": 280,
+        "mid_salary": 343,
+        "peak_salary": 455,
+        "malpractice_per_yr": 12
+      },
+      "stress": {
+        "ai": 4,
+        "pay": 7,
+        "injury": 7,
+        "match": 3
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          26
+        ],
+        "residency": [
+          26,
+          30
+        ],
+        "fellowship": null,
+        "earnAge": 30,
+        "startSalary": 280
+      }
+    },
+    {
+      "name": "Sleep Medicine",
+      "key": "sleep_medicine",
+      "profession": "MD/DO",
+      "color": "#20d838",
+      "path": "Medical Doctor",
+      "raw_data": {
+        "startSalary": 250,
+        "midSalary": 325,
+        "peakSalary": 400,
+        "hoursWeek": 42,
+        "burnout": 38,
+        "satisfaction": 78,
+        "chooseAgain": 74,
+        "malpracticeCost": 5,
+        "vacation": 5,
+        "matchComp": 3,
+        "callSchedule": 2,
+        "physicalToll": 1,
+        "emotionalToll": 2
+      },
+      "scores": {
+        "category_1": 3.25,
+        "category_2": 3.67,
+        "category_3": 4.33,
+        "category_4": 2.88,
+        "category_5": 4.7,
+        "category_6": 8.43,
+        "category_7": 5.15,
+        "category_8": 5.55,
+        "category_9": 6.02,
+        "category_10": 7.8,
+        "category_11": 5.8,
+        "category_12": 6.53,
+        "category_13": 4.5,
+        "category_14": 6.21
+      },
+      "scenario_totals": {
+        "default": 5.5,
+        "equal_weight": 5.34,
+        "max_earnings": 5.46,
+        "best_lifestyle": 5.42,
+        "fastest_to_practice": 4.63,
+        "most_procedural": 5.79
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 35,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 60,
+        "prof_school_years": 4,
+        "trainee_salary": 65,
+        "education_debt": 380,
+        "loan_rate": 6.5,
+        "living_expenses": 50,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 5,
+        "salary_growth_to_mid": 3,
+        "salary_growth_to_peak": 2.5,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 5,
+        "fellowship_years": 0,
+        "age_independent": 31,
+        "starting_salary": 250,
+        "mid_salary": 325,
+        "peak_salary": 400,
+        "malpractice_per_yr": 5
+      },
+      "stress": {
+        "ai": 5,
+        "pay": 7,
+        "injury": 8,
+        "match": 4
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          26
+        ],
+        "residency": [
+          26,
+          31
+        ],
+        "fellowship": null,
+        "earnAge": 31,
+        "startSalary": 250
+      }
+    },
+    {
+      "name": "Preventive / Occupational Medicine",
+      "key": "preventive_occupational_",
+      "profession": "MD/DO",
+      "color": "#46d873",
+      "path": "Medical Doctor",
+      "raw_data": {
+        "startSalary": 220,
+        "midSalary": 280,
+        "peakSalary": 350,
+        "hoursWeek": 40,
+        "burnout": 38,
+        "satisfaction": 87,
+        "chooseAgain": 78,
+        "malpracticeCost": 4,
+        "vacation": 5,
+        "matchComp": 2,
+        "callSchedule": 1,
+        "physicalToll": 1,
+        "emotionalToll": 2
+      },
+      "scores": {
+        "category_1": 3.25,
+        "category_2": 3.33,
+        "category_3": 4.33,
+        "category_4": 3.75,
+        "category_5": 4.53,
+        "category_6": 8.43,
+        "category_7": 5.28,
+        "category_8": 5.17,
+        "category_9": 6.12,
+        "category_10": 7.6,
+        "category_11": 5.6,
+        "category_12": 7.6,
+        "category_13": 4.5,
+        "category_14": 6.24
+      },
+      "scenario_totals": {
+        "default": 5.59,
+        "equal_weight": 5.41,
+        "max_earnings": 5.51,
+        "best_lifestyle": 5.53,
+        "fastest_to_practice": 4.73,
+        "most_procedural": 5.89
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 35,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 60,
+        "prof_school_years": 4,
+        "trainee_salary": 65,
+        "education_debt": 380,
+        "loan_rate": 6.5,
+        "living_expenses": 50,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 5,
+        "salary_growth_to_mid": 3,
+        "salary_growth_to_peak": 2.5,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 3,
+        "fellowship_years": 0,
+        "age_independent": 29,
+        "starting_salary": 220,
+        "mid_salary": 280,
+        "peak_salary": 350,
+        "malpractice_per_yr": 4
+      },
+      "stress": {
+        "ai": 4,
+        "pay": 7,
+        "injury": 9,
+        "match": 4
+      },
+      "timeline": {
         "college": [
           18,
           22
@@ -1612,98 +6119,560 @@
         "fellowship": null,
         "earnAge": 29,
         "startSalary": 220
-      },
-      {
-        "key": "sport",
-        "college": [
-          18,
-          22
-        ],
-        "school": [
-          22,
-          26
-        ],
-        "residency": [
-          26,
-          29
-        ],
-        "fellowship": null,
-        "earnAge": 29,
-        "startSalary": 160
-      },
-      {
-        "key": "wound",
-        "college": [
-          18,
-          22
-        ],
-        "school": [
-          22,
-          26
-        ],
-        "residency": [
-          26,
-          29
-        ],
-        "fellowship": null,
-        "earnAge": 29,
-        "startSalary": 200
-      }
-    ],
-    "decision_tree": {
-      "q": "Are you OK with 12+ years of school and training?",
-      "yes": {
-        "q": "Are you a top student who can handle fierce competition?",
-        "yes": {
-          "q": "Same procedure all day, or many different problems?",
-          "procedural": "mohs",
-          "variety": "derm"
-        },
-        "no": "eye"
-      },
-      "no": {
-        "q": "What matters most to you?",
-        "options": [
-          {
-            "label": "\ud83d\udcaa Highest pay & surgery",
-            "result": "pod"
-          },
-          {
-            "label": "\ud83c\udf3f Best lifestyle",
-            "result": "sport"
-          },
-          {
-            "label": "\ud83d\udd12 Job security",
-            "result": "wound"
-          }
-        ]
       }
     },
-    "decision_tree_results": {
-      "mohs": {
-        "tagline": "Top earner, elite lifestyle",
-        "stat": "$900K/yr peak \u2022 $22M lifetime"
+    {
+      "name": "Medical Genetics",
+      "key": "medical_genetics",
+      "profession": "MD/DO",
+      "color": "#31d883",
+      "path": "Medical Doctor",
+      "raw_data": {
+        "startSalary": 200,
+        "midSalary": 275,
+        "peakSalary": 350,
+        "hoursWeek": 42,
+        "burnout": 38,
+        "satisfaction": 78,
+        "chooseAgain": 72,
+        "malpracticeCost": 5,
+        "vacation": 5,
+        "matchComp": 2,
+        "callSchedule": 2,
+        "physicalToll": 1,
+        "emotionalToll": 5
       },
-      "derm": {
-        "tagline": "Best all-around pick",
-        "stat": "$700K/yr peak \u2022 #1 recommendation"
+      "scores": {
+        "category_1": 3.25,
+        "category_2": 3.33,
+        "category_3": 4.33,
+        "category_4": 3.45,
+        "category_5": 4.46,
+        "category_6": 8.29,
+        "category_7": 5.03,
+        "category_8": 4.8,
+        "category_9": 5.82,
+        "category_10": 7.2,
+        "category_11": 5.4,
+        "category_12": 7.63,
+        "category_13": 4.5,
+        "category_14": 6.36
       },
-      "eye": {
-        "tagline": "Most realistic MD dream",
-        "stat": "$800K/yr peak \u2022 85% satisfaction"
+      "scenario_totals": {
+        "default": 5.43,
+        "equal_weight": 5.28,
+        "max_earnings": 5.33,
+        "best_lifestyle": 5.35,
+        "fastest_to_practice": 4.62,
+        "most_procedural": 5.72
       },
-      "pod": {
-        "tagline": "Guaranteed surgical career",
-        "stat": "$500K/yr peak \u2022 Practicing at 29"
+      "financial": {
+        "undergrad_cost_per_yr": 35,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 60,
+        "prof_school_years": 4,
+        "trainee_salary": 65,
+        "education_debt": 380,
+        "loan_rate": 6.5,
+        "living_expenses": 50,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 5,
+        "salary_growth_to_mid": 3,
+        "salary_growth_to_peak": 2.5,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 4,
+        "fellowship_years": 0,
+        "age_independent": 30,
+        "starting_salary": 200,
+        "mid_salary": 275,
+        "peak_salary": 350,
+        "malpractice_per_yr": 5
       },
-      "sport": {
-        "tagline": "Best work-life balance",
-        "stat": "$350K/yr peak \u2022 40 hrs/wk"
+      "stress": {
+        "ai": 4,
+        "pay": 6,
+        "injury": 9,
+        "match": 4
       },
-      "wound": {
-        "tagline": "Highest job demand",
-        "stat": "$400K/yr peak \u2022 Diabetes = job security"
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          26
+        ],
+        "residency": [
+          26,
+          30
+        ],
+        "fellowship": null,
+        "earnAge": 30,
+        "startSalary": 200
+      }
+    },
+    {
+      "name": "Critical Care Medicine",
+      "key": "critical_care_medicine",
+      "profession": "MD/DO",
+      "color": "#20d89b",
+      "path": "Medical Doctor",
+      "raw_data": {
+        "startSalary": 310,
+        "midSalary": 406,
+        "peakSalary": 500,
+        "hoursWeek": 55,
+        "burnout": 45,
+        "satisfaction": 82,
+        "chooseAgain": 76,
+        "malpracticeCost": 18,
+        "vacation": 4,
+        "matchComp": 6,
+        "callSchedule": 9,
+        "physicalToll": 5,
+        "emotionalToll": 9
+      },
+      "scores": {
+        "category_1": 3.25,
+        "category_2": 4.67,
+        "category_3": 4.33,
+        "category_4": 4.62,
+        "category_5": 5.03,
+        "category_6": 7.86,
+        "category_7": 4.42,
+        "category_8": 5.47,
+        "category_9": 3.98,
+        "category_10": 7.8,
+        "category_11": 7.4,
+        "category_12": 8.38,
+        "category_13": 4.5,
+        "category_14": 5.79
+      },
+      "scenario_totals": {
+        "default": 5.64,
+        "equal_weight": 5.53,
+        "max_earnings": 5.47,
+        "best_lifestyle": 5.39,
+        "fastest_to_practice": 5.02,
+        "most_procedural": 6.06
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 35,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 60,
+        "prof_school_years": 4,
+        "trainee_salary": 65,
+        "education_debt": 380,
+        "loan_rate": 6.5,
+        "living_expenses": 50,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 5,
+        "salary_growth_to_mid": 3,
+        "salary_growth_to_peak": 2.5,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 5,
+        "fellowship_years": 0,
+        "age_independent": 31,
+        "starting_salary": 310,
+        "mid_salary": 406,
+        "peak_salary": 500,
+        "malpractice_per_yr": 18
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 7,
+        "injury": 4,
+        "match": 3
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          26
+        ],
+        "residency": [
+          26,
+          31
+        ],
+        "fellowship": null,
+        "earnAge": 31,
+        "startSalary": 310
+      }
+    },
+    {
+      "name": "Medical / Therapeutic Optometry",
+      "key": "medical_therapeutic_opto",
+      "profession": "OD",
+      "color": "#6a5488",
+      "path": "Eye Doctor (Optom.)",
+      "raw_data": {
+        "startSalary": 130,
+        "midSalary": 160,
+        "peakSalary": 220,
+        "hoursWeek": 40,
+        "burnout": 30,
+        "satisfaction": 68,
+        "chooseAgain": 60,
+        "malpracticeCost": 4,
+        "vacation": 4,
+        "matchComp": 9,
+        "callSchedule": 9,
+        "physicalToll": 8,
+        "emotionalToll": 7
+      },
+      "scores": {
+        "category_1": 6.0,
+        "category_2": 7.67,
+        "category_3": 6.67,
+        "category_4": 9.25,
+        "category_5": 4.01,
+        "category_6": 5.29,
+        "category_7": 4.42,
+        "category_8": 5.92,
+        "category_9": 7.14,
+        "category_10": 5.6,
+        "category_11": 4.0,
+        "category_12": 5.15,
+        "category_13": 6.75,
+        "category_14": 7.67
+      },
+      "scenario_totals": {
+        "default": 6.13,
+        "equal_weight": 6.13,
+        "max_earnings": 5.32,
+        "best_lifestyle": 6.12,
+        "fastest_to_practice": 6.45,
+        "most_procedural": 5.84
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 35,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 45,
+        "prof_school_years": 4,
+        "trainee_salary": 0,
+        "education_debt": 230,
+        "loan_rate": 6.5,
+        "living_expenses": 45,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 5,
+        "salary_growth_to_mid": 3,
+        "salary_growth_to_peak": 2,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 1,
+        "age_independent": 27,
+        "starting_salary": 130,
+        "mid_salary": 160,
+        "peak_salary": 220,
+        "malpractice_per_yr": 4
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 6,
+        "injury": 8,
+        "match": 7
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          26
+        ],
+        "residency": null,
+        "fellowship": [
+          26,
+          27
+        ],
+        "earnAge": 27,
+        "startSalary": 130
+      }
+    },
+    {
+      "name": "Surgical Co-Management / Specialty",
+      "key": "surgical_co_management_s",
+      "profession": "OD",
+      "color": "#7f519d",
+      "path": "Eye Doctor (Optom.)",
+      "raw_data": {
+        "startSalary": 120,
+        "midSalary": 150,
+        "peakSalary": 200,
+        "hoursWeek": 40,
+        "burnout": 28,
+        "satisfaction": 65,
+        "chooseAgain": 55,
+        "malpracticeCost": 3,
+        "vacation": 4,
+        "matchComp": 9,
+        "callSchedule": 10,
+        "physicalToll": 8,
+        "emotionalToll": 8
+      },
+      "scores": {
+        "category_1": 6.0,
+        "category_2": 7.67,
+        "category_3": 6.67,
+        "category_4": 9.5,
+        "category_5": 3.99,
+        "category_6": 5.29,
+        "category_7": 4.38,
+        "category_8": 5.67,
+        "category_9": 7.22,
+        "category_10": 5.4,
+        "category_11": 3.6,
+        "category_12": 4.08,
+        "category_13": 6.75,
+        "category_14": 8.11
+      },
+      "scenario_totals": {
+        "default": 6.03,
+        "equal_weight": 6.05,
+        "max_earnings": 5.23,
+        "best_lifestyle": 5.99,
+        "fastest_to_practice": 6.42,
+        "most_procedural": 5.63
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 35,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 45,
+        "prof_school_years": 4,
+        "trainee_salary": 0,
+        "education_debt": 230,
+        "loan_rate": 6.5,
+        "living_expenses": 45,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 5,
+        "salary_growth_to_mid": 3,
+        "salary_growth_to_peak": 2,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 1,
+        "age_independent": 27,
+        "starting_salary": 120,
+        "mid_salary": 150,
+        "peak_salary": 200,
+        "malpractice_per_yr": 3
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 5,
+        "injury": 8,
+        "match": 7
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          26
+        ],
+        "residency": null,
+        "fellowship": [
+          26,
+          27
+        ],
+        "earnAge": 27,
+        "startSalary": 120
+      }
+    },
+    {
+      "name": "General Optometry",
+      "key": "general_optometry",
+      "profession": "OD",
+      "color": "#773988",
+      "path": "Eye Doctor (Optom.)",
+      "raw_data": {
+        "startSalary": 115,
+        "midSalary": 140,
+        "peakSalary": 200,
+        "hoursWeek": 40,
+        "burnout": 32,
+        "satisfaction": 62,
+        "chooseAgain": 52,
+        "malpracticeCost": 3,
+        "vacation": 4,
+        "matchComp": 9,
+        "callSchedule": 10,
+        "physicalToll": 8,
+        "emotionalToll": 8
+      },
+      "scores": {
+        "category_1": 6.0,
+        "category_2": 7.67,
+        "category_3": 6.67,
+        "category_4": 9.5,
+        "category_5": 3.94,
+        "category_6": 5.29,
+        "category_7": 4.62,
+        "category_8": 5.42,
+        "category_9": 7.06,
+        "category_10": 5.8,
+        "category_11": 3.6,
+        "category_12": 4.07,
+        "category_13": 6.75,
+        "category_14": 8.11
+      },
+      "scenario_totals": {
+        "default": 6.04,
+        "equal_weight": 6.06,
+        "max_earnings": 5.29,
+        "best_lifestyle": 5.96,
+        "fastest_to_practice": 6.43,
+        "most_procedural": 5.6
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 35,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 45,
+        "prof_school_years": 4,
+        "trainee_salary": 0,
+        "education_debt": 230,
+        "loan_rate": 6.5,
+        "living_expenses": 45,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 5,
+        "salary_growth_to_mid": 3,
+        "salary_growth_to_peak": 2,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 1,
+        "age_independent": 27,
+        "starting_salary": 115,
+        "mid_salary": 140,
+        "peak_salary": 200,
+        "malpractice_per_yr": 3
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 6,
+        "injury": 8,
+        "match": 7
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          26
+        ],
+        "residency": null,
+        "fellowship": [
+          26,
+          27
+        ],
+        "earnAge": 27,
+        "startSalary": 115
       }
     }
-  }
+  ],
+  "decision_tree": {
+    "q": "Are you OK with 12+ years of school and training?",
+    "yes": {
+      "q": "Are you a top student who can handle fierce competition?",
+      "yes": {
+        "q": "Same procedure all day, or many different problems?",
+        "procedural": "mohs",
+        "variety": "derm"
+      },
+      "no": "eye"
+    },
+    "no": {
+      "q": "What matters most to you?",
+      "options": [
+        {
+          "label": "\ud83d\udcaa Highest pay & surgery",
+          "result": "pod"
+        },
+        {
+          "label": "\ud83c\udf3f Best lifestyle",
+          "result": "sport"
+        },
+        {
+          "label": "\ud83d\udd12 Job security",
+          "result": "wound"
+        }
+      ]
+    }
+  },
+  "decision_tree_results": {
+    "mohs": {
+      "tagline": "Top earner, elite lifestyle",
+      "stat": "$900K/yr peak \u2022 $22M lifetime"
+    },
+    "derm": {
+      "tagline": "Best all-around pick",
+      "stat": "$700K/yr peak \u2022 #1 recommendation"
+    },
+    "eye": {
+      "tagline": "Most realistic MD dream",
+      "stat": "$800K/yr peak \u2022 85% satisfaction"
+    },
+    "pod": {
+      "tagline": "Guaranteed surgical career",
+      "stat": "$500K/yr peak \u2022 Practicing at 29"
+    },
+    "sport": {
+      "tagline": "Best work-life balance",
+      "stat": "$350K/yr peak \u2022 40 hrs/wk"
+    },
+    "wound": {
+      "tagline": "Highest job demand",
+      "stat": "$400K/yr peak \u2022 Diabetes = job security"
+    }
+  },
+  "ranking": [
+    {
+      "rank": 1,
+      "track": "General Dermatology",
+      "key": "derm",
+      "note": "Best risk-adjusted choice"
+    },
+    {
+      "rank": 2,
+      "track": "Mohs Surgery",
+      "key": "mohs",
+      "note": "Highest earnings overall"
+    },
+    {
+      "rank": 3,
+      "track": "Ophthalmology",
+      "key": "eye",
+      "note": "Most realistic MD path"
+    },
+    {
+      "rank": 4,
+      "track": "Podiatric Surgery",
+      "key": "pod",
+      "note": "Best guaranteed surgical path"
+    },
+    {
+      "rank": 5,
+      "track": "Wound Care / DLS",
+      "key": "wound",
+      "note": "Highest job demand growth"
+    },
+    {
+      "rank": 6,
+      "track": "Sports Med/Biomech",
+      "key": "sport",
+      "note": "Best work-life balance (DPM)"
+    }
+  ]
 }

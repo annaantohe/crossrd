@@ -5,7 +5,7 @@ export default function Home({ meta, professions, profColors, profLabels, allTra
   const stats = [
     [String(meta.total_tracks), "careers scored"],
     [String(meta.data_points), "data points each"],
-    [String(meta.finalists), "finalists"],
+    [String(Object.keys(professions).length), "professions"],
   ];
 
   return (

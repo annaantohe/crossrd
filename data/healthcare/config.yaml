@@ -3,7 +3,6 @@
 
 name: Healthcare
 slug: healthcare
-source: career_framework_v4.xlsx
 icon: "\U0001FA7A"
 headline: "Which Doctor Should You Become?"
 subtitle: "A Data-Driven Guide"
@@ -22,146 +21,26 @@ professions:
     label: "Eye Doctor (Optom.)"
     color: "#6A4C93"
 
-finalists:
+# stable key/color overrides for careers referenced by the decision tree
+key_overrides:
   "Mohs Surgery (Dermatology)":
     key: mohs
-    teen_name: Skin Cancer Surgeon
     color: "#D4A537"
-    jsx_name: Mohs Surgery
   "Dermatology (General/Medical)":
     key: derm
-    teen_name: Skin Doctor
     color: "#E8685E"
-    jsx_name: Gen. Dermatology
   "Ophthalmology":
     key: eye
-    teen_name: Eye Surgeon
     color: "#2BA5B5"
-    jsx_name: Ophthalmology
   "Podiatric Surgery (Foot & Ankle)":
     key: pod
-    teen_name: "Foot & Ankle Surgeon"
     color: "#2D3A6E"
-    jsx_name: Podiatric Surgery
   "Sports Medicine / Biomechanics":
     key: sport
-    teen_name: Sports Foot Doctor
     color: "#3EA66B"
-    jsx_name: "Sports Med / Biomech"
   "Wound Care / Diabetic Limb Salvage":
     key: wound
-    teen_name: Wound Healing Doctor
     color: "#8B6CAE"
-    jsx_name: "Wound Care / DLS"
-
-finalist_order:
-  - mohs
-  - derm
-  - eye
-  - pod
-  - sport
-  - wound
-
-l2_sheets:
-  "MD/DO": "L2 Matrix \u2014 MD-DO"
-  "DDS/DMD": "L2 Matrix \u2014 DDS-DMD"
-  "DPM": "L2 Matrix \u2014 DPM"
-  "OD": "L2 Matrix \u2014 OD"
-
-# column index (0-based) -> field name mapping for L2 Matrix sheets
-l2_columns:
-  0: name
-  1: residencyYears
-  3: matchComp
-  4: startSalary
-  5: midSalary
-  6: peakSalary
-  9: partTimeFlex
-  12: procedureMix
-  13: callSchedule
-  14: adminBurden
-  16: hoursWeek
-  17: burnout
-  18: partTimeFeasibility
-  19: vacation
-  20: careerLongevity
-  21: malpracticeFreq
-  22: malpracticeCost
-  23: geographicFlex
-  26: automationRisk
-  27: handsOnInsulation
-  28: satisfaction
-  29: chooseAgain
-  30: intellectualStim
-  31: varietyRepetition
-  32: patientImpact
-  34: physicalToll
-  35: emotionalToll
-  36: malpracticeLiability
-  37: injuryCareerRisk
-
-# stress test: maps Excel short names -> finalist keys
-stress_key_map:
-  Mohs: mohs
-  Gen Derm: derm
-  Ophtho: eye
-  Pod Surg: pod
-  Sports Med: sport
-  Wound Care: wound
-
-# scenario display name -> slug key mapping
-scenario_map:
-  Default: default
-  Equal Weight: equal_weight
-  Max Earnings: max_earnings
-  Best Lifestyle: best_lifestyle
-  Fastest to Practice: fastest_to_practice
-  Most Procedural: most_procedural
-
-# training timeline data (hand-crafted, not in the Excel)
-timeline_data:
-  - key: mohs
-    college: [18, 22]
-    school: [22, 26]
-    residency: [26, 30]
-    fellowship: [30, 31]
-    earnAge: 31
-    startSalary: 450
-  - key: derm
-    college: [18, 22]
-    school: [22, 26]
-    residency: [26, 30]
-    fellowship: null
-    earnAge: 30
-    startSalary: 350
-  - key: eye
-    college: [18, 22]
-    school: [22, 26]
-    residency: [26, 30]
-    fellowship: [30, 31]
-    earnAge: 31
-    startSalary: 350
-  - key: pod
-    college: [18, 22]
-    school: [22, 26]
-    residency: [26, 29]
-    fellowship: null
-    earnAge: 29
-    startSalary: 220
-  - key: sport
-    college: [18, 22]
-    school: [22, 26]
-    residency: [26, 29]
-    fellowship: null
-    earnAge: 29
-    startSalary: 160
-  - key: wound
-    college: [18, 22]
-    school: [22, 26]
-    residency: [26, 29]
-    fellowship: null
-    earnAge: 29
-    startSalary: 200
 
 # final ranking (hand-crafted)
 final_ranking:

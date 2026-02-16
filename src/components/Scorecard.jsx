@@ -1,5 +1,5 @@
 // Scorecard.jsx — 6-dimension radar chart
-// Compares finalists on Money, Happiness, Free Time, etc.
+// Compares selected careers on Money, Happiness, Free Time, etc.
 
 import { useState } from "react";
 import {
@@ -11,6 +11,7 @@ import {
   ResponsiveContainer,
 } from "recharts";
 import { styles } from "../styles/theme";
+import CareerSelector from "./CareerSelector";
 
 // reusable career toggle buttons
 function ToggleBar({ careers, visible, toggle }) {
@@ -49,16 +50,11 @@ function ToggleBar({ careers, visible, toggle }) {
   );
 }
 
-export default function Scorecard({ radarDimensions, careers }) {
-  // start with first 3 careers visible by default
-  const [visible, setVisible] = useState(() => {
-    const vis = {};
-    careers.forEach((c, i) => {
-      // show the first, second, and fourth career (matches original: mohs, derm, pod)
-      vis[c.key] = i === 0 || i === 1 || i === 3;
-    });
-    return vis;
-  });
+export default function Scorecard({ radarDimensions, careers, selectorProps }) {
+  // start with all selected careers visible
+  const [visible, setVisible] = useState(() =>
+    Object.fromEntries(careers.map((c) => [c.key, true]))
+  );
 
   const toggle = (k) => setVisible((prev) => ({ ...prev, [k]: !prev[k] }));
 
@@ -70,9 +66,10 @@ export default function Scorecard({ radarDimensions, careers }) {
 
   return (
     <div style={{ padding: "12px 8px" }}>
-      <h2 style={styles.header}>⭐ Career Scorecard</h2>
-      <p style={styles.subtitle}>6 dimensions rated 1–10 (tap careers to compare)</p>
+      <h2 style={styles.header}>Career Scorecard</h2>
+      <p style={styles.subtitle}>6 dimensions rated 1-10 (tap careers to compare)</p>
 
+      <CareerSelector {...selectorProps} />
       <ToggleBar careers={careers} visible={visible} toggle={toggle} />
 
       <ResponsiveContainer width="100%" height={320}>
@@ -101,9 +98,8 @@ export default function Scorecard({ radarDimensions, careers }) {
       </ResponsiveContainer>
 
       <div style={styles.soWhat}>
-        💡 <strong>So What?</strong> No career wins everywhere. Medical paths = more
-        money & happiness. Foot Doctor paths = robot-proof & guaranteed entry. Pick
-        what matters most!
+        💡 <strong>So What?</strong> No career wins everywhere. Pick what matters most to
+        you — money, happiness, work-life balance, or job security!
       </div>
     </div>
   );

@@ -1,6 +1,21 @@
 # scoring methodology
 
-how i scored 42 careers across 107 data points.
+how we scored 64 healthcare careers across 107 data points.
+
+## data source
+
+all data lives in YAML files under `data/healthcare/`:
+
+| file | what it contains |
+|------|-----------------|
+| `specialties/*.yaml` | 38 raw data fields per specialty (salary, hours, burnout, etc.) |
+| `l1_scores.yaml` | profession-level category scores (L1 data points, labeled) |
+| `scoring_rubric.yaml` | rules to convert raw data → 1-10 scores |
+| `scenario_profiles.yaml` | 6 scenario weight profiles |
+| `data_points_framework.yaml` | master catalog of all 107 data points |
+| `config.yaml` | metadata, key overrides, rankings, decision tree |
+
+data sourced from Medscape, Doximity, BLS, NRMP, AAMC, and published specialty surveys (see Sources tab for full list).
 
 ## the 14-category framework
 
@@ -27,23 +42,37 @@ every career gets scored on 14 categories. each category has a weight (how much 
 
 ## scoring: raw data → 1-10
 
-every data point gets converted to a 1-10 score using linear interpolation:
+### L2 scoring (specialty level)
+
+each specialty has 38 raw data fields. the scoring rubric converts decision fields to a 1-10 score:
+
+- **passthrough**: value is already on a 1-10 scale, used directly
+- **linear interpolation**: for numeric values like salary or hours:
 
 ```
 score = 1 + (value - min) / (max - min) × 9
 ```
 
-- **higher-is-better** metrics (salary, satisfaction): higher value → higher score
-- **lower-is-better** metrics (burnout, hours): formula inverted so lower → higher score
-- min/max are set per data point based on the range across all careers in the field
+- **higher-is-better** (salary, satisfaction): higher value → higher score
+- **lower-is-better** (burnout, hours): formula inverted so lower → higher score
+- min/max are set per field based on the range across all careers
+- **reference fields** (text descriptions, notes) are stored but not scored
+
+### L1 scoring (profession level)
+
+some categories (1, 3, 13) only have profession-level data points, not specialty-level.
+other categories (5, 6, 10) have both L1 and L2 components.
+
+for mixed categories:
+```
+combined = (l1_score × l1_count + sum(l2_scores)) / (l1_count + l2_count)
+```
 
 ## category scores
 
-each category score = average of its data points' scores.
+each category score = weighted average of its data points' scores.
 
-there are two types of data points:
-- **Decision data points** (~38 per career in L2 matrix): used for scenario scoring
-- **Reference data points** (~69 per career): context/flavor, not scored
+all 64 specialties are scored through the same scoring engine — no special treatment.
 
 ## scenario-weighted totals
 
@@ -62,36 +91,28 @@ there are two types of data points:
 
 ## the financial model
 
-for each finalist career, i modeled net worth from age 18 to 65:
+for every career, net worth is modeled from age 18 to 65 using per-specialty fields + profession-level defaults:
 
-- **ages 18-22**: college (tuition, expenses, some part-time income)
+- **ages 18-22**: college (tuition, expenses)
 - **ages 22-26**: professional school (tuition, living costs, loans accumulating interest)
-- **ages 26-29/31**: residency/training (resident salary, loan payments start)
-- **ages 29/31-65**: practice (real salary, taxes, cost of living, savings)
+- **ages 26-29/31**: residency/training (trainee salary, loan payments start)
+- **ages 29/31-65**: practice (salary curve from starting → mid → peak, expenses, loan payoff)
 
-key assumptions:
-- 6.5% student loan rate
-- 25% effective tax rate during practice
-- $60K annual living expenses (inflation-adjusted)
-- 20% savings rate on post-tax, post-expense income
-- 7% annual investment returns
-
-the "Career Life Models" sheet in the Excel has all these numbers per career.
+profession-level defaults (tuition, debt, trainee salary, overhead) are in `pipeline/financial.py`.
+per-specialty overrides come from the YAML fields (startSalary, peakSalary, residencyYears, etc.).
 
 ## stress test
 
-4 bad scenarios, each career scored 1-10 on resilience:
+4 bad scenarios, each career scored 1-10 on resilience (derived from raw specialty data):
 
-| scenario | what it tests |
-|----------|---------------|
-| AI Takes Job | how replaceable by automation? |
-| Pay Cut 20% | can you survive a 20% salary drop? |
-| Hurt Hands | what if you can't do procedures? |
-| Not Accepted | what if you don't get into the program? |
+| scenario | what it tests | derived from |
+|----------|---------------|-------------|
+| AI Takes Job | how replaceable by automation? | automationRisk, handsOnInsulation |
+| Pay Cut 20% | can you survive a salary drop? | geographicFlex, satisfaction, adminBurden |
+| Hurt Hands | what if you can't do procedures? | procedureMix, partTimeFlex, careerLongevity |
+| Not Accepted | what if you don't match? | profession-level base + matchComp |
 
 **toughness score** = average across all 4 scenarios.
-
-scores come from the "Stress Test" sheet in the Excel workbook.
 
 ## radar chart (6 dimensions)
 
@@ -108,19 +129,13 @@ the 14 categories are consolidated into 6 dimensions for the radar chart:
 
 each dimension = average of its source category scores.
 
-## finalist selection
-
-from the full field (42 careers), 6 finalists were selected:
-1. top scorers across multiple scenarios
-2. diversity across profession types (MD, DPM, etc.)
-3. at least one "wild card" — a career that doesn't score #1 overall but excels in a specific dimension
-
 ## data sources
 
-- Bureau of Labor Statistics (BLS)
+see the Sources tab in the app for a full list of 50+ references including:
 - Medscape Physician Compensation Reports
+- Doximity Physician Salary Reports
+- Bureau of Labor Statistics (BLS)
 - NRMP Match Data
-- AAMC/AACPM/ASCO admissions data
-- Doximity salary surveys
-- published satisfaction/burnout studies
-- specialty-specific practice surveys
+- AAMC/AACPM admissions data
+- Published satisfaction and burnout studies
+- Specialty-specific practice surveys

@@ -1,5 +1,5 @@
 // RaceToMillion.jsx — Net worth line chart (age 18–65)
-// Shows how each finalist's total savings grow over a career.
+// Shows how each selected career's total savings grow over a career.
 
 import { useState } from "react";
 import {
@@ -12,6 +12,7 @@ import {
   ResponsiveContainer,
 } from "recharts";
 import { formatDollars, styles } from "../styles/theme";
+import CareerSelector from "./CareerSelector";
 
 // reusable toggle bar for picking which careers are visible
 function ToggleBar({ careers, visible, toggle }) {
@@ -52,13 +53,13 @@ function ToggleBar({ careers, visible, toggle }) {
 
 // milestone badges shown below the chart
 const MILESTONES = [
-  { age: 18, label: "📚 Start College", bg: "#e3f2fd" },
-  { age: 22, label: "🏥 Start School", bg: "#fff3e0" },
-  { age: "29-31", label: "🎓 Real Doctor!", bg: "#e8f5e9" },
-  { age: "33-40", label: "💸 Loans Paid Off", bg: "#fce4ec" },
+  { age: 18, label: "Start College", bg: "#e3f2fd" },
+  { age: 22, label: "Start School", bg: "#fff3e0" },
+  { age: "29-31", label: "Real Doctor!", bg: "#e8f5e9" },
+  { age: "33-40", label: "Loans Paid Off", bg: "#fce4ec" },
 ];
 
-export default function RaceToMillion({ netWorthData, careers }) {
+export default function RaceToMillion({ netWorthData, careers, selectorProps }) {
   // all careers on by default
   const [visible, setVisible] = useState(() =>
     Object.fromEntries(careers.map((c) => [c.key, true]))
@@ -68,9 +69,10 @@ export default function RaceToMillion({ netWorthData, careers }) {
 
   return (
     <div style={{ padding: "12px 8px" }}>
-      <h2 style={styles.header}>🏁 The Race to a Million</h2>
-      <p style={styles.subtitle}>Total money saved over a lifetime (age 18–65)</p>
+      <h2 style={styles.header}>The Race to a Million</h2>
+      <p style={styles.subtitle}>Total money saved over a lifetime (age 18-65)</p>
 
+      <CareerSelector {...selectorProps} />
       <ToggleBar careers={careers} visible={visible} toggle={toggle} />
 
       <ResponsiveContainer width="100%" height={320}>
@@ -144,9 +146,8 @@ export default function RaceToMillion({ netWorthData, careers }) {
       </div>
 
       <div style={styles.soWhat}>
-        💡 <strong>So What?</strong> Medical Doctor paths start later but blow past
-        Foot Doctor paths. By 65, Skin Cancer Surgeon has $22M vs Sports Foot
-        Doctor's $6M — almost 4x!
+        💡 <strong>So What?</strong> Different paths start earning at different ages. Use
+        the career selector above to compare any careers side by side!
       </div>
     </div>
   );

@@ -1,0 +1,135 @@
+# pre-computed category scores and scenario totals from Excel — for validation only
+category_scores:
+  mohs:
+    1: 3.25
+    2: 4.0
+    3: 4.33
+    4: 4.0
+    5: 5.0
+    6: 8.67
+    7: 7.72
+    8: 8.33
+    9: 8.61
+    10: 8.0
+    11: 7.0
+    12: 7.4
+    13: 4.5
+    14: 7.0
+  derm:
+    1: 3.25
+    2: 4.0
+    3: 4.33
+    4: 4.67
+    5: 5.0
+    6: 8.67
+    7: 6.08
+    8: 6.33
+    9: 8.6
+    10: 8.0
+    11: 5.5
+    12: 7.62
+    13: 4.5
+    14: 8.0
+  eye:
+    1: 3.25
+    2: 4.0
+    3: 4.33
+    4: 4.67
+    5: 5.0
+    6: 8.67
+    7: 5.8
+    8: 6.33
+    9: 7.31
+    10: 8.0
+    11: 7.5
+    12: 8.12
+    13: 4.5
+    14: 5.5
+  pod:
+    1: 7.25
+    2: 9.0
+    3: 6.0
+    4: 7.0
+    5: 5.6
+    6: 6.67
+    7: 3.53
+    8: 6.0
+    9: 6.19
+    10: 6.5
+    11: 8.5
+    12: 5.84
+    13: 6.5
+    14: 4.25
+  sport:
+    1: 7.25
+    2: 9.0
+    3: 6.0
+    4: 7.33
+    5: 5.6
+    6: 6.67
+    7: 3.08
+    8: 5.67
+    9: 8.17
+    10: 6.5
+    11: 5.0
+    12: 4.82
+    13: 6.5
+    14: 7.25
+  wound:
+    1: 7.25
+    2: 9.0
+    3: 6.0
+    4: 8.0
+    5: 5.6
+    6: 6.67
+    7: 3.35
+    8: 5.33
+    9: 6.51
+    10: 6.5
+    11: 7.5
+    12: 5.0
+    13: 6.5
+    14: 4.5
+scenario_totals:
+  mohs:
+    default: 6.46
+    equal_weight: 6.26
+    max_earnings: 6.65
+    best_lifestyle: 6.79
+    fastest_to_practice: 5.33
+    most_procedural: 6.95
+  derm:
+    default: 6.13
+    equal_weight: 6.04
+    max_earnings: 6.13
+    best_lifestyle: 6.44
+    fastest_to_practice: 5.29
+    most_procedural: 6.48
+  eye:
+    default: 6.03
+    equal_weight: 5.91
+    max_earnings: 6.07
+    best_lifestyle: 6.26
+    fastest_to_practice: 5.22
+    most_procedural: 6.52
+  pod:
+    default: 6.22
+    equal_weight: 6.33
+    max_earnings: 5.68
+    best_lifestyle: 6.24
+    fastest_to_practice: 6.58
+    most_procedural: 6.33
+  sport:
+    default: 6.19
+    equal_weight: 6.36
+    max_earnings: 5.5
+    best_lifestyle: 6.37
+    fastest_to_practice: 6.63
+    most_procedural: 6.09
+  wound:
+    default: 6.14
+    equal_weight: 6.25
+    max_earnings: 5.58
+    best_lifestyle: 6.16
+    fastest_to_practice: 6.66
+    most_procedural: 6.09

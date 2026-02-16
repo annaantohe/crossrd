@@ -1,0 +1,41 @@
+# stress test resilience scores — extracted from Stress Test sheet
+scenarios:
+- id: ai
+  name: AI Disruption Accelerates
+- id: pay
+  name: Reimbursement Cuts 20%
+- id: injury
+  name: Career-Ending Injury at 40
+- id: match
+  name: Failure to Match
+scores:
+  mohs:
+    ai: 7
+    pay: 7
+    injury: 4
+    match: 2
+  derm:
+    ai: 5
+    pay: 8
+    injury: 8
+    match: 2
+  eye:
+    ai: 6
+    pay: 6
+    injury: 5
+    match: 3
+  pod:
+    ai: 9
+    pay: 4
+    injury: 3
+    match: 10
+  sport:
+    ai: 5
+    pay: 5
+    injury: 7
+    match: 10
+  wound:
+    ai: 7
+    pay: 3
+    injury: 5
+    match: 10

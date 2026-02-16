@@ -1,0 +1,120 @@
+# OD specialty raw data — full 38 columns
+profession: OD
+specialties:
+- name: Medical / Therapeutic Optometry
+  residencyYears: 0
+  matchComp: 9
+  startSalary: 130
+  midSalary: 160
+  peakSalary: 220
+  partTimeFlex: 7
+  procedureMix: 3
+  callSchedule: 9
+  adminBurden: 5
+  hoursWeek: 40
+  burnout: 30
+  partTimeFeasibility: 8
+  vacation: 4
+  careerLongevity: 8
+  malpracticeFreq: 7
+  malpracticeCost: 4
+  geographicFlex: 7
+  automationRisk: 4
+  handsOnInsulation: 4
+  satisfaction: 68
+  chooseAgain: 60
+  intellectualStim: 6
+  varietyRepetition: 5
+  patientImpact: 6
+  physicalToll: 8
+  emotionalToll: 7
+  malpracticeLiability: 7
+  injuryCareerRisk: 9
+  fellowshipOptions: Optional 1yr residency (ocular disease)
+  compModel: Employed (ophthalmology group, VA, hospital) or private
+  revPerPatientVisit: Low-moderate ($100-300 per visit)
+  dailyWorkflow: Medical eye exams, disease management (glaucoma, diabetes), co-manage
+    surgical patients
+  patientVolume: 20-30
+  supportStaffModel: Ophthalmic tech, front desk, sometimes shared with MDs
+  geographicDemandNotes: Growing demand as scope expands; rural need high
+  telehealthPotential: 6
+  genderDistribution: ~65% women in optometry overall
+- name: Surgical Co-Management / Specialty
+  residencyYears: 0
+  matchComp: 9
+  startSalary: 120
+  midSalary: 150
+  peakSalary: 200
+  partTimeFlex: 7
+  procedureMix: 2
+  callSchedule: 10
+  adminBurden: 5
+  hoursWeek: 40
+  burnout: 28
+  partTimeFeasibility: 8
+  vacation: 4
+  careerLongevity: 8
+  malpracticeFreq: 8
+  malpracticeCost: 3
+  geographicFlex: 6
+  automationRisk: 3
+  handsOnInsulation: 3
+  satisfaction: 65
+  chooseAgain: 55
+  intellectualStim: 4
+  varietyRepetition: 4
+  patientImpact: 4
+  physicalToll: 8
+  emotionalToll: 8
+  malpracticeLiability: 8
+  injuryCareerRisk: 9
+  fellowshipOptions: Optional 1yr residency (contact lens, low vision, pediatric)
+  compModel: Employed in ophthalmology/refractive surgery practice
+  revPerPatientVisit: Low ($80-200 per visit); volume-based
+  dailyWorkflow: Pre/post-op exams for cataract/LASIK, specialty fitting (sclerals,
+    ortho-K)
+  patientVolume: 25-35
+  supportStaffModel: Ophthalmic tech, shared practice staff
+  geographicDemandNotes: Tied to ophthalmology practice growth
+  telehealthPotential: 4
+  genderDistribution: ~65% women
+- name: General Optometry
+  residencyYears: 0
+  matchComp: 9
+  startSalary: 115
+  midSalary: 140
+  peakSalary: 200
+  partTimeFlex: 7
+  procedureMix: 2
+  callSchedule: 10
+  adminBurden: 4
+  hoursWeek: 40
+  burnout: 32
+  partTimeFeasibility: 8
+  vacation: 4
+  careerLongevity: 9
+  malpracticeFreq: 8
+  malpracticeCost: 3
+  geographicFlex: 8
+  automationRisk: 3
+  handsOnInsulation: 3
+  satisfaction: 62
+  chooseAgain: 52
+  intellectualStim: 4
+  varietyRepetition: 4
+  patientImpact: 5
+  physicalToll: 8
+  emotionalToll: 8
+  malpracticeLiability: 8
+  injuryCareerRisk: 9
+  fellowshipOptions: Optional 1yr residency (broadly recommended but not required)
+  compModel: Private practice, corporate (Luxottica/VSP), employed
+  revPerPatientVisit: Low ($100-250 per exam); optical sales supplement
+  dailyWorkflow: Comprehensive eye exams, refraction, contact lens fits, optical dispensing,
+    minor disease mgmt
+  patientVolume: 20-30
+  supportStaffModel: Optometric tech, optician, front desk
+  geographicDemandNotes: Saturated in metro; good rural demand; corporate expanding
+  telehealthPotential: 5
+  genderDistribution: ~65% women; majority female profession

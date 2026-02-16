@@ -1,7 +1,8 @@
 // Timeline.jsx — Training duration horizontal bars
-// Shows each finalist's journey from college to first real paycheck.
+// Shows each selected career's journey from college to first real paycheck.
 
 import { styles } from "../styles/theme";
+import CareerSelector from "./CareerSelector";
 
 // color key for each training phase
 const BLOCKS = {
@@ -16,11 +17,13 @@ const MIN_AGE = 18;
 const MAX_AGE = 35;
 const TOTAL = MAX_AGE - MIN_AGE;
 
-export default function Timeline({ timelineData, careers }) {
+export default function Timeline({ timelineData, careers, selectorProps }) {
   return (
     <div style={{ padding: "12px 8px" }}>
-      <h2 style={styles.header}>⏳ How Long Does It Take?</h2>
+      <h2 style={styles.header}>How Long Does It Take?</h2>
       <p style={styles.subtitle}>From college to your first real paycheck</p>
+
+      <CareerSelector {...selectorProps} />
 
       {/* legend */}
       <div
@@ -74,11 +77,11 @@ export default function Timeline({ timelineData, careers }) {
               display: "inline-block",
             }}
           />
-          💰 Earning!
+          Earning!
         </span>
       </div>
 
-      {/* bars — one row per finalist career */}
+      {/* bars — one row per selected career */}
       <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
         {timelineData.map((td) => {
           const career = careers.find((c) => c.key === td.key);
@@ -173,9 +176,8 @@ export default function Timeline({ timelineData, careers }) {
       </div>
 
       <div style={styles.soWhat}>
-        💡 <strong>So What?</strong> Foot Doctor paths start earning at 29. Medical
-        Doctor paths take until 30–31. But the starting salary is up to $450K vs
-        $160–220K!
+        💡 <strong>So What?</strong> Some paths start earning years sooner. But longer
+        training often means higher peak pay. Use the selector to compare any careers!
       </div>
     </div>
   );

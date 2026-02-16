@@ -1,0 +1,818 @@
+# L1 profession-level category scores — enriched with data point labels
+professions:
+  MD/DO:
+    l1_only: {}
+    l1_data_points:
+      1:
+        scores:
+        - 5
+        - 3
+        - 3
+        - 2
+        count: 4
+        average: 3.25
+        labels:
+        - Years of undergrad required
+        - Test difficulty / competitive scores
+        - GPA expectations
+        - Extracurricular expectations
+        data_point_ids:
+        - 2
+        - 4
+        - 5
+        - 6
+      2:
+        scores:
+        - 3
+        - 5
+        count: 2
+        average: 4.0
+        labels:
+        - Acceptance rate
+        - Career changers welcome?
+        data_point_ids:
+        - 10
+        - 13
+      3:
+        scores:
+        - 5
+        - 5
+        - 3
+        count: 3
+        average: 4.33
+        labels:
+        - Duration of program
+        - Hands-on / patient contact timing
+        - Prestige matters for outcomes?
+        data_point_ids:
+        - 16
+        - 18
+        - 23
+      4:
+        scores:
+        - 2
+        - 2
+        count: 2
+        average: 2.0
+        labels:
+        - Is residency required?
+        - Total years to independent practice
+        data_point_ids:
+        - 24
+        - 32
+      5:
+        scores:
+        - 5
+        - 6
+        - 7
+        - 5
+        - 2
+        count: 5
+        average: 5.0
+        labels:
+        - Average tuition (total program cost)
+        - Average debt at graduation
+        - Debt-to-income ratio at career start
+        - Time to break even financially
+        - Opportunity cost (lost earning years)
+        data_point_ids:
+        - 33
+        - 34
+        - 35
+        - 38
+        - 40
+      6:
+        scores:
+        - 10
+        - 9
+        - 10
+        - 10
+        - 5
+        - 8
+        count: 6
+        average: 8.67
+        labels:
+        - Legal scope (prescribe, operate, admit)
+        - Scope variation by state
+        - Independent practice allowed
+        - Hospital privileges
+        - Ability to expand scope
+        - Turf wars / political battles
+        data_point_ids:
+        - 41
+        - 42
+        - 43
+        - 44
+        - 45
+        - 46
+      7:
+        scores:
+        - 4
+        - 4
+        count: 2
+        average: 4.0
+        labels:
+        - Practice ownership potential
+        - Insurance reimbursement trends
+        data_point_ids:
+        - 52
+        - 53
+      10:
+        scores:
+        - 8
+        - 9
+        - 9
+        - 6
+        count: 4
+        average: 8.0
+        labels:
+        - Current job market
+        - Projected demand 10-20 years
+        - Impact of aging population
+        - Vulnerability to scope encroachment
+        data_point_ids:
+        - 71
+        - 72
+        - 74
+        - 75
+      11:
+        scores:
+        - 6
+        - 7
+        - 7
+        count: 3
+        average: 6.67
+        labels:
+        - AI impact on diagnostics vs procedures
+        - AI as tool vs replacement
+        - Timeline of disruption
+        data_point_ids:
+        - 77
+        - 79
+        - 80
+      12:
+        scores:
+        - 9
+        count: 1
+        average: 9.0
+        labels:
+        - Ease of pivoting to adjacent careers
+        data_point_ids:
+        - 91
+      13:
+        scores:
+        - 4
+        - 4
+        - 5
+        - 5
+        count: 4
+        average: 4.5
+        labels:
+        - Pay equity (gender pay gap)
+        - Parental leave norms
+        - Culture / old guard dynamics
+        - Welcoming to non-traditional?
+        data_point_ids:
+        - 95
+        - 96
+        - 98
+        - 100
+      14:
+        scores:
+        - 3
+        count: 1
+        average: 3.0
+        labels:
+        - Regulatory burden and trends
+        data_point_ids:
+        - 104
+      8:
+        scores:
+        - 6
+        count: 1
+        average: 6.0
+        labels:
+        - Profession-level proxy score
+        data_point_ids:
+        - null
+      9:
+        scores:
+        - 4
+        count: 1
+        average: 4.0
+        labels:
+        - Profession-level proxy score
+        data_point_ids:
+        - null
+  DDS/DMD:
+    l1_only: {}
+    l1_data_points:
+      1:
+        scores:
+        - 5
+        - 5
+        - 4
+        - 5
+        count: 4
+        average: 4.75
+        labels:
+        - Years of undergrad required
+        - Test difficulty / competitive scores
+        - GPA expectations
+        - Extracurricular expectations
+        data_point_ids:
+        - 2
+        - 4
+        - 5
+        - 6
+      2:
+        scores:
+        - 5
+        - 5
+        count: 2
+        average: 5.0
+        labels:
+        - Acceptance rate
+        - Career changers welcome?
+        data_point_ids:
+        - 10
+        - 13
+      3:
+        scores:
+        - 5
+        - 7
+        - 6
+        count: 3
+        average: 6.0
+        labels:
+        - Duration of program
+        - Hands-on / patient contact timing
+        - Prestige matters for outcomes?
+        data_point_ids:
+        - 16
+        - 18
+        - 23
+      4:
+        scores:
+        - 8
+        - 6
+        count: 2
+        average: 7.0
+        labels:
+        - Is residency required?
+        - Total years to independent practice
+        data_point_ids:
+        - 24
+        - 32
+      5:
+        scores:
+        - 3
+        - 3
+        - 4
+        - 5
+        - 6
+        count: 5
+        average: 4.2
+        labels:
+        - Average tuition (total program cost)
+        - Average debt at graduation
+        - Debt-to-income ratio at career start
+        - Time to break even financially
+        - Opportunity cost (lost earning years)
+        data_point_ids:
+        - 33
+        - 34
+        - 35
+        - 38
+        - 40
+      6:
+        scores:
+        - 6
+        - 8
+        - 10
+        - 4
+        - 5
+        - 6
+        count: 6
+        average: 6.5
+        labels:
+        - Legal scope (prescribe, operate, admit)
+        - Scope variation by state
+        - Independent practice allowed
+        - Hospital privileges
+        - Ability to expand scope
+        - Turf wars / political battles
+        data_point_ids:
+        - 41
+        - 42
+        - 43
+        - 44
+        - 45
+        - 46
+      7:
+        scores:
+        - 7
+        - 6
+        count: 2
+        average: 6.5
+        labels:
+        - Practice ownership potential
+        - Insurance reimbursement trends
+        data_point_ids:
+        - 52
+        - 53
+      10:
+        scores:
+        - 7
+        - 7
+        - 7
+        - 7
+        count: 4
+        average: 7.0
+        labels:
+        - Current job market
+        - Projected demand 10-20 years
+        - Impact of aging population
+        - Vulnerability to scope encroachment
+        data_point_ids:
+        - 71
+        - 72
+        - 74
+        - 75
+      11:
+        scores:
+        - 8
+        - 8
+        - 8
+        count: 3
+        average: 8.0
+        labels:
+        - AI impact on diagnostics vs procedures
+        - AI as tool vs replacement
+        - Timeline of disruption
+        data_point_ids:
+        - 77
+        - 79
+        - 80
+      12:
+        scores:
+        - 6
+        count: 1
+        average: 6.0
+        labels:
+        - Ease of pivoting to adjacent careers
+        data_point_ids:
+        - 91
+      13:
+        scores:
+        - 5
+        - 6
+        - 6
+        - 5
+        count: 4
+        average: 5.5
+        labels:
+        - Pay equity (gender pay gap)
+        - Parental leave norms
+        - Culture / old guard dynamics
+        - Welcoming to non-traditional?
+        data_point_ids:
+        - 95
+        - 96
+        - 98
+        - 100
+      14:
+        scores:
+        - 5
+        count: 1
+        average: 5.0
+        labels:
+        - Regulatory burden and trends
+        data_point_ids:
+        - 104
+      8:
+        scores:
+        - 7
+        count: 1
+        average: 7.0
+        labels:
+        - Profession-level proxy score
+        data_point_ids:
+        - null
+      9:
+        scores:
+        - 7
+        count: 1
+        average: 7.0
+        labels:
+        - Profession-level proxy score
+        data_point_ids:
+        - null
+  DPM:
+    l1_only: {}
+    l1_data_points:
+      1:
+        scores:
+        - 6
+        - 8
+        - 7
+        - 8
+        count: 4
+        average: 7.25
+        labels:
+        - Years of undergrad required
+        - Test difficulty / competitive scores
+        - GPA expectations
+        - Extracurricular expectations
+        data_point_ids:
+        - 2
+        - 4
+        - 5
+        - 6
+      2:
+        scores:
+        - 9
+        - 9
+        count: 2
+        average: 9.0
+        labels:
+        - Acceptance rate
+        - Career changers welcome?
+        data_point_ids:
+        - 10
+        - 13
+      3:
+        scores:
+        - 5
+        - 5
+        - 8
+        count: 3
+        average: 6.0
+        labels:
+        - Duration of program
+        - Hands-on / patient contact timing
+        - Prestige matters for outcomes?
+        data_point_ids:
+        - 16
+        - 18
+        - 23
+      4:
+        scores:
+        - 3
+        - 4
+        count: 2
+        average: 3.5
+        labels:
+        - Is residency required?
+        - Total years to independent practice
+        data_point_ids:
+        - 24
+        - 32
+      5:
+        scores:
+        - 7
+        - 6
+        - 5
+        - 6
+        - 4
+        count: 5
+        average: 5.6
+        labels:
+        - Average tuition (total program cost)
+        - Average debt at graduation
+        - Debt-to-income ratio at career start
+        - Time to break even financially
+        - Opportunity cost (lost earning years)
+        data_point_ids:
+        - 33
+        - 34
+        - 35
+        - 38
+        - 40
+      6:
+        scores:
+        - 7
+        - 6
+        - 10
+        - 7
+        - 7
+        - 3
+        count: 6
+        average: 6.67
+        labels:
+        - Legal scope (prescribe, operate, admit)
+        - Scope variation by state
+        - Independent practice allowed
+        - Hospital privileges
+        - Ability to expand scope
+        - Turf wars / political battles
+        data_point_ids:
+        - 41
+        - 42
+        - 43
+        - 44
+        - 45
+        - 46
+      7:
+        scores:
+        - 6
+        - 3
+        count: 2
+        average: 4.5
+        labels:
+        - Practice ownership potential
+        - Insurance reimbursement trends
+        data_point_ids:
+        - 52
+        - 53
+      10:
+        scores:
+        - 6
+        - 7
+        - 8
+        - 5
+        count: 4
+        average: 6.5
+        labels:
+        - Current job market
+        - Projected demand 10-20 years
+        - Impact of aging population
+        - Vulnerability to scope encroachment
+        data_point_ids:
+        - 71
+        - 72
+        - 74
+        - 75
+      11:
+        scores:
+        - 8
+        - 8
+        - 8
+        count: 3
+        average: 8.0
+        labels:
+        - AI impact on diagnostics vs procedures
+        - AI as tool vs replacement
+        - Timeline of disruption
+        data_point_ids:
+        - 77
+        - 79
+        - 80
+      12:
+        scores:
+        - 3
+        count: 1
+        average: 3.0
+        labels:
+        - Ease of pivoting to adjacent careers
+        data_point_ids:
+        - 91
+      13:
+        scores:
+        - 5
+        - 6
+        - 6
+        - 9
+        count: 4
+        average: 6.5
+        labels:
+        - Pay equity (gender pay gap)
+        - Parental leave norms
+        - Culture / old guard dynamics
+        - Welcoming to non-traditional?
+        data_point_ids:
+        - 95
+        - 96
+        - 98
+        - 100
+      14:
+        scores:
+        - 5
+        count: 1
+        average: 5.0
+        labels:
+        - Regulatory burden and trends
+        data_point_ids:
+        - 104
+      8:
+        scores:
+        - 6
+        count: 1
+        average: 6.0
+        labels:
+        - Profession-level proxy score
+        data_point_ids:
+        - null
+      9:
+        scores:
+        - 7
+        count: 1
+        average: 7.0
+        labels:
+        - Profession-level proxy score
+        data_point_ids:
+        - null
+  OD:
+    l1_only: {}
+    l1_data_points:
+      1:
+        scores:
+        - 6
+        - 6
+        - 5
+        - 7
+        count: 4
+        average: 6.0
+        labels:
+        - Years of undergrad required
+        - Test difficulty / competitive scores
+        - GPA expectations
+        - Extracurricular expectations
+        data_point_ids:
+        - 2
+        - 4
+        - 5
+        - 6
+      2:
+        scores:
+        - 7
+        - 7
+        count: 2
+        average: 7.0
+        labels:
+        - Acceptance rate
+        - Career changers welcome?
+        data_point_ids:
+        - 10
+        - 13
+      3:
+        scores:
+        - 5
+        - 7
+        - 8
+        count: 3
+        average: 6.67
+        labels:
+        - Duration of program
+        - Hands-on / patient contact timing
+        - Prestige matters for outcomes?
+        data_point_ids:
+        - 16
+        - 18
+        - 23
+      4:
+        scores:
+        - 9
+        - 9
+        count: 2
+        average: 9.0
+        labels:
+        - Is residency required?
+        - Total years to independent practice
+        data_point_ids:
+        - 24
+        - 32
+      5:
+        scores:
+        - 5
+        - 4
+        - 3
+        - 4
+        - 9
+        count: 5
+        average: 5.0
+        labels:
+        - Average tuition (total program cost)
+        - Average debt at graduation
+        - Debt-to-income ratio at career start
+        - Time to break even financially
+        - Opportunity cost (lost earning years)
+        data_point_ids:
+        - 33
+        - 34
+        - 35
+        - 38
+        - 40
+      6:
+        scores:
+        - 3
+        - 4
+        - 10
+        - 2
+        - 8
+        - 3
+        count: 6
+        average: 5.0
+        labels:
+        - Legal scope (prescribe, operate, admit)
+        - Scope variation by state
+        - Independent practice allowed
+        - Hospital privileges
+        - Ability to expand scope
+        - Turf wars / political battles
+        data_point_ids:
+        - 41
+        - 42
+        - 43
+        - 44
+        - 45
+        - 46
+      7:
+        scores:
+        - 5
+        - 3
+        count: 2
+        average: 4.0
+        labels:
+        - Practice ownership potential
+        - Insurance reimbursement trends
+        data_point_ids:
+        - 52
+        - 53
+      10:
+        scores:
+        - 5
+        - 5
+        - 7
+        - 4
+        count: 4
+        average: 5.25
+        labels:
+        - Current job market
+        - Projected demand 10-20 years
+        - Impact of aging population
+        - Vulnerability to scope encroachment
+        data_point_ids:
+        - 71
+        - 72
+        - 74
+        - 75
+      11:
+        scores:
+        - 4
+        - 4
+        - 4
+        count: 3
+        average: 4.0
+        labels:
+        - AI impact on diagnostics vs procedures
+        - AI as tool vs replacement
+        - Timeline of disruption
+        data_point_ids:
+        - 77
+        - 79
+        - 80
+      12:
+        scores:
+        - 5
+        count: 1
+        average: 5.0
+        labels:
+        - Ease of pivoting to adjacent careers
+        data_point_ids:
+        - 91
+      13:
+        scores:
+        - 6
+        - 7
+        - 7
+        - 7
+        count: 4
+        average: 6.75
+        labels:
+        - Pay equity (gender pay gap)
+        - Parental leave norms
+        - Culture / old guard dynamics
+        - Welcoming to non-traditional?
+        data_point_ids:
+        - 95
+        - 96
+        - 98
+        - 100
+      14:
+        scores:
+        - 6
+        count: 1
+        average: 6.0
+        labels:
+        - Regulatory burden and trends
+        data_point_ids:
+        - 104
+      8:
+        scores:
+        - 7
+        count: 1
+        average: 7.0
+        labels:
+        - Profession-level proxy score
+        data_point_ids:
+        - null
+      9:
+        scores:
+        - 8
+        count: 1
+        average: 8.0
+        labels:
+        - Profession-level proxy score
+        data_point_ids:
+        - null

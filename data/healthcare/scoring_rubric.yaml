@@ -1,0 +1,336 @@
+# scoring_rubric.yaml — field-to-category mapping and conversion rules
+#
+# For each L2 data field, this defines:
+#   data_point_id: maps to the Data Points Framework (1-107)
+#   category: which of the 14 categories it belongs to (or categories: [list] for multi-cat)
+#   type: "decision" (feeds into scoring) or "reference" (display only)
+#   conversion:
+#     method: passthrough (already 1-10) or linear (needs conversion)
+#     For linear: min, max, higher_is_better
+#
+# The Excel L2 Matrix has 38 columns (indices 0-37). All mapped below.
+# Categories 1, 3, 13 are L1-only (no L2 decision data points).
+# Categories 2, 5, 6, 7, 10 have both L1 and L2 decision data points.
+# Categories 4, 8, 9, 11, 12, 14 blend L1 + L2 data points.
+#
+# Five fields reclassified from "reference" to "decision" to match the Excel
+# Dec/Ref tags: matchComp, startSalary, midSalary, partTimeFlex, geographicFlex
+
+fields:
+  # Col 1 — Category 4: Post-Graduate Training
+  residencyYears:
+    data_point_id: 25
+    category: 4
+    type: decision
+    conversion:
+      method: linear
+      min: 3
+      max: 7
+      higher_is_better: false
+
+  # Col 2 — Category 4: Post-Graduate Training (text — Dec in Excel, but not scoreable)
+  fellowshipOptions:
+    data_point_id: 26
+    category: 4
+    type: reference
+    conversion: null
+
+  # Col 3 — Category 2: Admissions Competitiveness (reclassified: was reference, Excel says Dec)
+  matchComp:
+    data_point_id: 28
+    category: 2
+    type: decision
+    conversion:
+      method: passthrough
+
+  # Col 4 — Category 5: Financial Picture (reclassified: was reference, Excel says Dec)
+  startSalary:
+    data_point_id: 48
+    category: 5
+    type: decision
+    conversion:
+      method: linear
+      min: 100
+      max: 600
+      higher_is_better: true
+
+  # Col 5 — Category 5: Financial Picture (reclassified: was reference, Excel says Dec)
+  midSalary:
+    data_point_id: 49
+    category: 5
+    type: decision
+    conversion:
+      method: linear
+      min: 120
+      max: 700
+      higher_is_better: true
+
+  # Col 6 — Category 7: Career Economics
+  peakSalary:
+    data_point_id: 50
+    category: 7
+    type: decision
+    conversion:
+      method: linear
+      min: 150
+      max: 1000
+      higher_is_better: true
+
+  # Col 7 — Category 7: Career Economics (text, Ref)
+  compModel:
+    data_point_id: 51
+    category: 7
+    type: reference
+    conversion: null
+
+  # Col 8 — Category 7: Career Economics (text, Ref)
+  revPerPatientVisit:
+    data_point_id: 54
+    category: 7
+    type: reference
+    conversion: null
+
+  # Col 9 — Category 6: Scope of Practice (reclassified: was reference, Excel says Dec)
+  partTimeFlex:
+    data_point_id: 55
+    category: 6
+    type: decision
+    conversion:
+      method: passthrough
+
+  # Col 10 — Category 8: Daily Life (text, Ref)
+  dailyWorkflow:
+    data_point_id: 56
+    category: 8
+    type: reference
+    conversion: null
+
+  # Col 11 — Category 8: Daily Life (text, Ref)
+  patientVolume:
+    data_point_id: 57
+    category: 8
+    type: reference
+    conversion: null
+
+  # Col 12 — Category 8: Daily Life & Practice Reality
+  procedureMix:
+    data_point_id: 58
+    category: 8
+    type: decision
+    conversion:
+      method: passthrough
+
+  # Col 13 — Category 4: Post-Graduate Training
+  callSchedule:
+    data_point_id: 59
+    category: 4
+    type: decision
+    conversion:
+      method: passthrough
+
+  # Col 14 — Category 8: Daily Life & Practice Reality
+  adminBurden:
+    data_point_id: 60
+    category: 8
+    type: decision
+    conversion:
+      method: passthrough
+
+  # Col 15 — Category 8: Daily Life (text, Ref)
+  supportStaffModel:
+    data_point_id: 61
+    category: 8
+    type: reference
+    conversion: null
+
+  # Col 16 — Categories 8, 9: Daily Life + Lifestyle
+  hoursWeek:
+    data_point_id: 63
+    categories: [8, 9]
+    type: decision
+    conversion:
+      method: linear
+      min: 35
+      max: 70
+      higher_is_better: false
+
+  # Col 17 — Category 9: Lifestyle & Work-Life Balance
+  burnout:
+    data_point_id: 64
+    category: 9
+    type: decision
+    conversion:
+      method: linear
+      min: 15
+      max: 60
+      higher_is_better: false
+
+  # Col 18 — Category 9: Lifestyle & Work-Life Balance
+  partTimeFeasibility:
+    data_point_id: 65
+    category: 9
+    type: decision
+    conversion:
+      method: passthrough
+
+  # Col 19 — Category 9: Lifestyle & Work-Life Balance
+  vacation:
+    data_point_id: 66
+    category: 9
+    type: decision
+    conversion:
+      method: linear
+      min: 2
+      max: 8
+      higher_is_better: true
+
+  # Col 20 — Category 7: Career Economics
+  careerLongevity:
+    data_point_id: 67
+    category: 7
+    type: decision
+    conversion:
+      method: passthrough
+
+  # Col 21 — Category 14: Risk Factors & Downsides
+  malpracticeFreq:
+    data_point_id: 68
+    category: 14
+    type: decision
+    conversion:
+      method: passthrough
+
+  # Col 22 — Category 14: Risk Factors & Downsides
+  malpracticeCost:
+    data_point_id: 69
+    category: 14
+    type: decision
+    conversion:
+      method: linear
+      min: 2
+      max: 60
+      higher_is_better: false
+
+  # Col 23 — Category 10: Job Market & Demand (reclassified: was reference, Excel says Dec)
+  geographicFlex:
+    data_point_id: 70
+    category: 10
+    type: decision
+    conversion:
+      method: passthrough
+
+  # Col 24 — Category 10: Job Market (text, Ref)
+  geographicDemandNotes:
+    data_point_id: 73
+    category: 10
+    type: reference
+    conversion: null
+
+  # Col 25 — Category 10: Job Market (Ref)
+  telehealthPotential:
+    data_point_id: 76
+    category: 10
+    type: reference
+    conversion:
+      method: passthrough
+
+  # Col 26 — Category 11: AI Revolution Impact
+  automationRisk:
+    data_point_id: 78
+    category: 11
+    type: decision
+    conversion:
+      method: passthrough
+
+  # Col 27 — Category 11: AI Revolution Impact
+  handsOnInsulation:
+    data_point_id: 81
+    category: 11
+    type: decision
+    conversion:
+      method: passthrough
+
+  # Col 28 — Category 12: Professional Satisfaction
+  satisfaction:
+    data_point_id: 83
+    category: 12
+    type: decision
+    conversion:
+      method: linear
+      min: 50
+      max: 95
+      higher_is_better: true
+
+  # Col 29 — Category 12: Professional Satisfaction
+  chooseAgain:
+    data_point_id: 84
+    category: 12
+    type: decision
+    conversion:
+      method: linear
+      min: 40
+      max: 95
+      higher_is_better: true
+
+  # Col 30 — Category 12: Professional Satisfaction
+  intellectualStim:
+    data_point_id: 86
+    category: 12
+    type: decision
+    conversion:
+      method: passthrough
+
+  # Col 31 — Category 12: Professional Satisfaction
+  varietyRepetition:
+    data_point_id: 87
+    category: 12
+    type: decision
+    conversion:
+      method: passthrough
+
+  # Col 32 — Category 12: Professional Satisfaction
+  patientImpact:
+    data_point_id: 88
+    category: 12
+    type: decision
+    conversion:
+      method: passthrough
+
+  # Col 33 — Category 13: Demographics (text, Ref)
+  genderDistribution:
+    data_point_id: 94
+    category: 13
+    type: reference
+    conversion: null
+
+  # Col 34 — Category 14: Risk Factors & Downsides
+  physicalToll:
+    data_point_id: 101
+    category: 14
+    type: decision
+    conversion:
+      method: passthrough
+
+  # Col 35 — Category 14: Risk Factors & Downsides
+  emotionalToll:
+    data_point_id: 102
+    category: 14
+    type: decision
+    conversion:
+      method: passthrough
+
+  # Col 36 — Category 14: Risk Factors & Downsides
+  malpracticeLiability:
+    data_point_id: 103
+    category: 14
+    type: decision
+    conversion:
+      method: passthrough
+
+  # Col 37 — Category 14: Risk Factors & Downsides
+  injuryCareerRisk:
+    data_point_id: 107
+    category: 14
+    type: decision
+    conversion:
+      method: passthrough
