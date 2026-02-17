@@ -1,83 +1,116 @@
-# 🩺 crossrd
+# crossrd
 
-**which doctor should you become?** a data-driven career guide that compares 42 healthcare career paths to help you figure out what's actually worth it.
+**what should i actually be when i grow up?** a data-driven career guide that compares 125+ career paths across healthcare and law to help you figure out what's actually worth it.
 
-i built this because i wanted to see the *real* numbers — not just "doctors make good money" but like, which ones? how much school? will a robot take your job? is it worth 12 years of training?
+i built this because i wanted to see the *real* numbers — not just "doctors make good money" or "lawyers are rich" but like, which ones? how much school? how much debt? will AI take your job? is it worth $200K in loans?
 
-## 🔗 [check it out live →](https://annaantohe.github.io/crossrd/)
+## [check it out live](https://annaantohe.github.io/crossrd/)
 
 ## what's inside
 
-- **42 careers** across 4 types of doctors (MD, dentist, podiatrist, optometrist)
-- **107 data points** per career — salary, hours, burnout, satisfaction, you name it
-- **6 finalists** that made the final cut after scoring everything
-- interactive charts, a decision tree, risk analysis, and a race-to-a-million calculator
-
-## the tabs
-
-| tab | what it shows |
-|-----|--------------|
-| 🏠 Home | overview + stats |
-| 🏟️ All 42 | every career in a sortable table + scatter plot |
-| 🏁 Race | net worth from age 18 to 65 |
-| ⭐ Scores | radar chart comparing 6 dimensions |
-| ⏳ Time | how long each path takes |
-| ⚠️ Risk | what could go wrong (AI, pay cuts, injuries) |
-| 💰 Money | salary comparisons + lifetime earnings |
-| 🌳 Answer | decision tree to find YOUR best career |
+- **125+ careers** across two fields so far:
+  - **healthcare** — 64 careers across 4 professions (MD/DO, DDS/DMD, DPM, OD)
+  - **law** — 61 careers across 4 professions (JD, JD+Patent, Paralegal, Judge)
+- **107 data points** per career — salary, hours, burnout, satisfaction, AI risk, malpractice, and more
+- **14 scoring categories** weighted into 6 radar dimensions (money, happiness, free time, hard to get in, robot-proof, safety net)
+- interactive charts, a decision tree, stress tests, and a net worth calculator
 
 ## how it works
 
 ```
-excel spreadsheet → python crunches the numbers → json file → react shows it
+pick a field → explore groups → star your favorites → compare them side by side
 ```
 
-the data lives in an excel workbook with 17 sheets. a python script reads it, scores everything using a weighted 14-category system, and spits out a json file. the react app just reads that json and makes it pretty.
+### the tabs
+
+| tab | what it shows |
+|-----|--------------|
+| Explore | browse careers by group, drill into details, star the ones you like |
+| Compare | radar chart, net worth race, salary bars, stress test, timeline |
+| Quiz | decision tree that narrows down your best fit |
+| Sources | every data source cited with links |
+
+### the pipeline
+
+```
+yaml data files → python scores everything → json → react shows it
+```
+
+each career family has its own data directory with yaml configs. a python pipeline reads the raw data, applies a 14-category scoring rubric, runs financial models, stress tests, and outputs a single json file that the frontend reads.
 
 ## tech stack
 
-- **data pipeline:** python + pandas
+- **data pipeline:** python + pandas + pyyaml
 - **frontend:** react + vite + recharts
-- **hosting:** github pages (free!)
+- **hosting:** github pages
 - **fonts:** playfair display + dm sans
 
 ## run it yourself
 
 ```bash
-# install stuff
+# install frontend
 npm install
 
 # start dev server
 npm run dev
 
-# rebuild the data (if you change the excel)
+# rebuild the data
 cd pipeline
 pip install -r requirements.txt
 python process.py --family healthcare
+python process.py --family law
+```
+
+## project structure
+
+```
+data/
+  healthcare/          # healthcare career family
+    config.yaml        # groups, professions, decision tree, ranking
+    scoring_rubric.yaml
+    l1_scores.yaml     # profession-level baselines
+    financial_model.yaml
+    stress_test.yaml
+    specialties/       # raw data per profession
+      md_do.yaml       # 46 MD/DO careers
+      dds_dmd.yaml     # 14 dental careers
+      dpm.yaml         # 2 podiatry careers
+      od.yaml          # 2 optometry careers
+  law/                 # law career family
+    config.yaml
+    scoring_rubric.yaml
+    l1_scores.yaml
+    financial_model.yaml
+    stress_test.yaml
+    specialties/
+      jd.yaml          # 55 JD careers
+      jd_patent.yaml   # 2 patent attorney careers
+      paralegal.yaml   # 3 paralegal careers
+      judge.yaml       # 1 judge career
+pipeline/
+  process.py           # main pipeline script (--family flag)
+  config.py            # universal constants (14 categories, radar dims)
+  financial.py         # net worth model
+  stress.py            # stress test scenarios
+src/
+  components/          # react components
+  data/                # generated json (don't edit these)
+  styles/
+  utils/
 ```
 
 ## adding new career fields
 
-the architecture is modular — each profession family (healthcare, engineering, law, etc.) gets its own:
-- `data/<slug>/config.yaml` — all field-specific settings
-- `data/<slug>/career_framework.xlsx` — the source data
-- `src/data/<slug>.json` — generated output
+the architecture is modular — each profession family gets its own data directory:
 
 ```bash
-# bootstrap a new field
-python pipeline/create_field.py --slug engineering --name Engineering
-
-# fill in the Excel + config.yaml, then run:
+# create data/engineering/ with config + rubric + specialties
+# fill in the yaml files, then:
 python pipeline/process.py --family engineering
 ```
 
-see [docs/ADDING_NEW_PROFESSIONS.md](docs/ADDING_NEW_PROFESSIONS.md) for the full guide and [docs/METHODOLOGY.md](docs/METHODOLOGY.md) for how the scoring works.
-
-## the verdict
-
-> **#1 pick: general dermatology** — best risk-adjusted choice overall.
-> skin cancer surgeon (mohs) earns the most, but derm has the best balance of money, lifestyle, and safety.
+the frontend automatically picks up new families through the family picker.
 
 ---
 
-built with 📊 data and ☕ coffee
+built with data and coffee
