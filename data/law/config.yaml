@@ -1,0 +1,167 @@
+# config.yaml — law profession family
+
+name: Law
+slug: law
+icon: "\u2696\uFE0F"
+headline: "Which Legal Career Should You Choose?"
+subtitle: "A Data-Driven Guide"
+
+groups:
+  big_law:
+    label: "Big Law / Corporate"
+    icon: "\U0001F3E2"
+    tagline: "you want to make deals and big money"
+    description: "Top-firm transactional and advisory work"
+  litigation:
+    label: "Litigation"
+    icon: "\u2696\uFE0F"
+    tagline: "you want to fight and win"
+    description: "Trial lawyers, commercial disputes, appeals"
+  criminal:
+    label: "Criminal Law"
+    icon: "\U0001F512"
+    tagline: "you want justice served"
+    description: "Prosecution, defense, and criminal justice"
+  ip:
+    label: "Intellectual Property"
+    icon: "\U0001F4A1"
+    tagline: "you want to protect ideas"
+    description: "Patents, trademarks, copyrights, trade secrets"
+  government:
+    label: "Government & Public Interest"
+    icon: "\U0001F3DB\uFE0F"
+    tagline: "you want to change the world"
+    description: "Government agencies, nonprofits, civil rights"
+  family:
+    label: "People & Family"
+    icon: "\U0001F468\u200D\U0001F469\u200D\U0001F467"
+    tagline: "you want to help real people through life"
+    description: "Family law, estate planning, immigration, injury"
+  real_estate:
+    label: "Real Estate"
+    icon: "\U0001F3D7\uFE0F"
+    tagline: "you want to build empires"
+    description: "Real estate transactions, land use, development"
+  regulatory:
+    label: "Regulatory & Compliance"
+    icon: "\U0001F4CB"
+    tagline: "you want to know every rule"
+    description: "Healthcare, financial, and environmental regulation"
+  employment:
+    label: "Employment & Labor"
+    icon: "\U0001F454"
+    tagline: "you want to shape the workplace"
+    description: "Workplace rights, union law, benefits"
+  tech_law:
+    label: "Tech Law"
+    icon: "\U0001F5A5\uFE0F"
+    tagline: "you want law meets Silicon Valley"
+    description: "Privacy, AI regulation, fintech, cybersecurity"
+  alternative:
+    label: "Alternative / JD Advantage"
+    icon: "\U0001F680"
+    tagline: "law degree, no courtroom"
+    description: "Consulting, compliance, legal ops, paralegal, judiciary"
+
+professions:
+  JD:
+    label: Attorney
+    color: "#C62828"
+  JD+Patent:
+    label: Patent Attorney
+    color: "#1565C0"
+  Paralegal:
+    label: Paralegal
+    color: "#2E7D32"
+  Judge:
+    label: Judge
+    color: "#6A1B9A"
+
+key_overrides:
+  "M&A Attorney":
+    key: ma
+    color: "#B71C1C"
+  "Commercial Litigation (Big Law)":
+    key: commercial_lit
+    color: "#0D47A1"
+  "Personal Injury (Plaintiff)":
+    key: pi
+    color: "#E65100"
+  "Prosecutor (DA/ADA)":
+    key: prosecutor
+    color: "#1B5E20"
+  "Patent Prosecution":
+    key: patent_pros
+    color: "#0D47A1"
+  "Privacy & Data Protection":
+    key: privacy
+    color: "#4A148C"
+  "Family Law / Divorce":
+    key: family_law
+    color: "#AD1457"
+
+final_ranking:
+  - rank: 1
+    track: Privacy & Data Protection
+    key: privacy
+    note: Hottest market, best growth trajectory
+  - rank: 2
+    track: M&A Attorney
+    key: ma
+    note: Highest earnings ceiling
+  - rank: 3
+    track: Patent Prosecution
+    key: patent_pros
+    note: Best niche for STEM grads
+  - rank: 4
+    track: Personal Injury (Plaintiff)
+    key: pi
+    note: Best entrepreneurial path
+  - rank: 5
+    track: Prosecutor (DA/ADA)
+    key: prosecutor
+    note: Most impactful public service
+  - rank: 6
+    track: Family Law / Divorce
+    key: family_law
+    note: Best for people-driven lawyers
+
+# decision tree — fits the existing buildTree shape
+decision_tree:
+  q: "Are you OK with $200K+ in debt for a shot at Big Law?"
+  "yes":
+    q: "Same deal type every day, or courtroom variety?"
+    "yes":
+      q: "Would you rather close deals or protect innovations?"
+      procedural: ma
+      variety: patent_pros
+    "no": commercial_lit
+  "no":
+    q: "What matters most to you?"
+    options:
+      - label: "\U0001F4AA Helping individuals"
+        result: pi
+      - label: "\u2696\uFE0F Justice & public service"
+        result: prosecutor
+      - label: "\U0001F512 Tech & the future"
+        result: privacy
+
+decision_tree_results:
+  ma:
+    tagline: "Big Law equity partner track"
+    stat: "$225K start \u2022 $2M+ equity partner"
+  commercial_lit:
+    tagline: "Top litigator path"
+    stat: "$225K start \u2022 $1.5M+ partner"
+  patent_pros:
+    tagline: "STEM + law = rare niche"
+    stat: "$200K start \u2022 $600K+ partner"
+  pi:
+    tagline: "Own your practice, big wins"
+    stat: "$80K start \u2022 $500K+ peak (uncapped)"
+  prosecutor:
+    tagline: "Fight for justice"
+    stat: "$65K start \u2022 steady + pension"
+  privacy:
+    tagline: "Hottest growth area in law"
+    stat: "$180K start \u2022 $500K+ in-house GC"

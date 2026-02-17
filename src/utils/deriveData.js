@@ -104,7 +104,7 @@ export function buildStressFromTracks(tracks, selectedKeys) {
   const scenarios = [
     { id: "ai", label: "🤖 AI Takes Job" },
     { id: "pay", label: "💸 Pay Cut 20%" },
-    { id: "injury", label: "🤕 Hurt Hands" },
+    { id: "injury", label: "🤕 Can't Work" },
     { id: "match", label: "❌ Not Accepted" },
   ];
   return {

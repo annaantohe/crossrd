@@ -1,0 +1,2226 @@
+# JD (Attorney) specialties — 52 careers across 10 groups
+profession: JD
+specialties:
+
+# === BIG LAW / CORPORATE (7) ===
+
+- name: "M&A Attorney"
+  group: big_law
+  residencyYears: 0
+  matchComp: 2
+  startSalary: 225
+  midSalary: 400
+  peakSalary: 2000
+  partTimeFlex: 2
+  procedureMix: 2
+  callSchedule: 2
+  adminBurden: 5
+  hoursWeek: 70
+  burnout: 58
+  partTimeFeasibility: 2
+  vacation: 3
+  careerLongevity: 6
+  malpracticeFreq: 7
+  malpracticeCost: 8
+  geographicFlex: 3
+  automationRisk: 5
+  handsOnInsulation: 4
+  satisfaction: 58
+  chooseAgain: 50
+  intellectualStim: 8
+  varietyRepetition: 5
+  patientImpact: 3
+  physicalToll: 3
+  emotionalToll: 6
+  malpracticeLiability: 6
+  injuryCareerRisk: 5
+  fellowshipOptions: "Optional LLM (securities, tax)"
+  compModel: "Lockstep salary + bonus; equity partnership track (8-10yr)"
+  revPerPatientVisit: "$1,000-2,000/hr billing rate"
+  dailyWorkflow: "Due diligence, drafting purchase agreements, negotiation, closings"
+  patientVolume: "3-8 active deals"
+  supportStaffModel: "Associates, paralegals, legal assistants, document review teams"
+  geographicDemandNotes: "NYC, SF, Chicago, DC — major financial centers"
+  telehealthPotential: 7
+  genderDistribution: "~38% women partners"
+
+- name: "Securities & Capital Markets"
+  group: big_law
+  residencyYears: 0
+  matchComp: 2
+  startSalary: 225
+  midSalary: 380
+  peakSalary: 1800
+  partTimeFlex: 2
+  procedureMix: 2
+  callSchedule: 2
+  adminBurden: 6
+  hoursWeek: 68
+  burnout: 55
+  partTimeFeasibility: 2
+  vacation: 3
+  careerLongevity: 6
+  malpracticeFreq: 7
+  malpracticeCost: 10
+  geographicFlex: 3
+  automationRisk: 5
+  handsOnInsulation: 4
+  satisfaction: 55
+  chooseAgain: 48
+  intellectualStim: 7
+  varietyRepetition: 4
+  patientImpact: 2
+  physicalToll: 3
+  emotionalToll: 6
+  malpracticeLiability: 7
+  injuryCareerRisk: 5
+  fellowshipOptions: "LLM Securities Law"
+  compModel: "Lockstep + bonus; SEC regulatory compliance work also available"
+  revPerPatientVisit: "$1,000-1,800/hr"
+  dailyWorkflow: "SEC filings, IPO prospectuses, bond offerings, compliance review"
+  patientVolume: "4-10 matters"
+  supportStaffModel: "Associates, paralegals, compliance analysts"
+  geographicDemandNotes: "NYC dominant, some DC and SF"
+  telehealthPotential: 7
+  genderDistribution: "~35% women partners"
+
+- name: "Private Equity / VC Law"
+  group: big_law
+  residencyYears: 0
+  matchComp: 1
+  startSalary: 225
+  midSalary: 420
+  peakSalary: 2500
+  partTimeFlex: 1
+  procedureMix: 2
+  callSchedule: 2
+  adminBurden: 5
+  hoursWeek: 72
+  burnout: 60
+  partTimeFeasibility: 1
+  vacation: 2
+  careerLongevity: 5
+  malpracticeFreq: 7
+  malpracticeCost: 8
+  geographicFlex: 3
+  automationRisk: 5
+  handsOnInsulation: 4
+  satisfaction: 60
+  chooseAgain: 52
+  intellectualStim: 9
+  varietyRepetition: 5
+  patientImpact: 2
+  physicalToll: 3
+  emotionalToll: 7
+  malpracticeLiability: 6
+  injuryCareerRisk: 5
+  fellowshipOptions: "LLM Corporate; MBA also valued"
+  compModel: "Lockstep + carried interest at partner; fund-side exit common"
+  revPerPatientVisit: "$1,200-2,500/hr"
+  dailyWorkflow: "Fund formation, portfolio company acquisitions, investor negotiations"
+  patientVolume: "3-6 deals"
+  supportStaffModel: "Associates, paralegals, fund admin teams"
+  geographicDemandNotes: "NYC, SF, Boston — follows PE/VC hubs"
+  telehealthPotential: 7
+  genderDistribution: "~30% women partners"
+
+- name: "Banking & Finance Law"
+  group: big_law
+  residencyYears: 0
+  matchComp: 2
+  startSalary: 225
+  midSalary: 370
+  peakSalary: 1500
+  partTimeFlex: 2
+  procedureMix: 2
+  callSchedule: 3
+  adminBurden: 6
+  hoursWeek: 65
+  burnout: 52
+  partTimeFeasibility: 3
+  vacation: 3
+  careerLongevity: 7
+  malpracticeFreq: 7
+  malpracticeCost: 8
+  geographicFlex: 4
+  automationRisk: 5
+  handsOnInsulation: 4
+  satisfaction: 56
+  chooseAgain: 48
+  intellectualStim: 7
+  varietyRepetition: 4
+  patientImpact: 2
+  physicalToll: 2
+  emotionalToll: 5
+  malpracticeLiability: 6
+  injuryCareerRisk: 4
+  fellowshipOptions: "LLM Banking Law"
+  compModel: "Lockstep + bonus; in-house bank exit path"
+  revPerPatientVisit: "$900-1,500/hr"
+  dailyWorkflow: "Loan agreements, credit facilities, regulatory compliance, syndications"
+  patientVolume: "5-12 matters"
+  supportStaffModel: "Associates, paralegals"
+  geographicDemandNotes: "NYC, Charlotte, Chicago — banking centers"
+  telehealthPotential: 7
+  genderDistribution: "~33% women partners"
+
+- name: "Tax Attorney (Transactional)"
+  group: big_law
+  residencyYears: 0
+  matchComp: 3
+  startSalary: 225
+  midSalary: 350
+  peakSalary: 1200
+  partTimeFlex: 4
+  procedureMix: 2
+  callSchedule: 4
+  adminBurden: 5
+  hoursWeek: 60
+  burnout: 42
+  partTimeFeasibility: 4
+  vacation: 4
+  careerLongevity: 8
+  malpracticeFreq: 6
+  malpracticeCost: 6
+  geographicFlex: 6
+  automationRisk: 4
+  handsOnInsulation: 5
+  satisfaction: 65
+  chooseAgain: 58
+  intellectualStim: 9
+  varietyRepetition: 5
+  patientImpact: 3
+  physicalToll: 2
+  emotionalToll: 4
+  malpracticeLiability: 5
+  injuryCareerRisk: 3
+  fellowshipOptions: "LLM Tax (NYU, Georgetown highly valued)"
+  compModel: "Lockstep + bonus; niche expertise commands premium"
+  revPerPatientVisit: "$800-1,500/hr"
+  dailyWorkflow: "Tax structuring, M&A tax planning, IRS disputes, estate tax"
+  patientVolume: "8-15 matters"
+  supportStaffModel: "Associates, tax paralegals, CPAs"
+  geographicDemandNotes: "NYC, DC, any major market — tax is everywhere"
+  telehealthPotential: 8
+  genderDistribution: "~35% women partners"
+
+- name: "Corporate Governance"
+  group: big_law
+  residencyYears: 0
+  matchComp: 3
+  startSalary: 225
+  midSalary: 350
+  peakSalary: 1200
+  partTimeFlex: 3
+  procedureMix: 2
+  callSchedule: 4
+  adminBurden: 6
+  hoursWeek: 58
+  burnout: 45
+  partTimeFeasibility: 3
+  vacation: 4
+  careerLongevity: 8
+  malpracticeFreq: 6
+  malpracticeCost: 7
+  geographicFlex: 5
+  automationRisk: 5
+  handsOnInsulation: 4
+  satisfaction: 60
+  chooseAgain: 53
+  intellectualStim: 7
+  varietyRepetition: 5
+  patientImpact: 3
+  physicalToll: 2
+  emotionalToll: 4
+  malpracticeLiability: 5
+  injuryCareerRisk: 4
+  fellowshipOptions: "LLM Corporate; ESG specialization growing"
+  compModel: "Lockstep + bonus; in-house GC exit common"
+  revPerPatientVisit: "$800-1,400/hr"
+  dailyWorkflow: "Board advisory, SEC proxy, shareholder disputes, executive comp"
+  patientVolume: "5-10 clients"
+  supportStaffModel: "Associates, corporate secretaries, paralegals"
+  geographicDemandNotes: "Delaware (incorporation hub), NYC, SF"
+  telehealthPotential: 8
+  genderDistribution: "~38% women partners"
+
+- name: "Restructuring / Bankruptcy"
+  group: big_law
+  residencyYears: 0
+  matchComp: 3
+  startSalary: 225
+  midSalary: 380
+  peakSalary: 1500
+  partTimeFlex: 2
+  procedureMix: 4
+  callSchedule: 3
+  adminBurden: 5
+  hoursWeek: 65
+  burnout: 50
+  partTimeFeasibility: 2
+  vacation: 3
+  careerLongevity: 7
+  malpracticeFreq: 6
+  malpracticeCost: 8
+  geographicFlex: 4
+  automationRisk: 6
+  handsOnInsulation: 5
+  satisfaction: 62
+  chooseAgain: 55
+  intellectualStim: 8
+  varietyRepetition: 7
+  patientImpact: 4
+  physicalToll: 2
+  emotionalToll: 5
+  malpracticeLiability: 5
+  injuryCareerRisk: 4
+  fellowshipOptions: "Counter-cyclical — booms in recessions"
+  compModel: "Lockstep + bonus; demand spikes during downturns"
+  revPerPatientVisit: "$1,000-1,800/hr"
+  dailyWorkflow: "Chapter 11 filings, creditor negotiations, asset sales, court hearings"
+  patientVolume: "3-6 major cases"
+  supportStaffModel: "Associates, financial advisors, paralegals"
+  geographicDemandNotes: "NYC, Delaware, Houston, Chicago"
+  telehealthPotential: 6
+  genderDistribution: "~30% women partners"
+
+# === LITIGATION (6) ===
+
+- name: "Commercial Litigation (Big Law)"
+  group: litigation
+  residencyYears: 0
+  matchComp: 2
+  startSalary: 225
+  midSalary: 380
+  peakSalary: 1500
+  partTimeFlex: 2
+  procedureMix: 7
+  callSchedule: 3
+  adminBurden: 5
+  hoursWeek: 65
+  burnout: 55
+  partTimeFeasibility: 2
+  vacation: 3
+  careerLongevity: 7
+  malpracticeFreq: 6
+  malpracticeCost: 10
+  geographicFlex: 5
+  automationRisk: 5
+  handsOnInsulation: 6
+  satisfaction: 60
+  chooseAgain: 52
+  intellectualStim: 8
+  varietyRepetition: 7
+  patientImpact: 4
+  physicalToll: 2
+  emotionalToll: 6
+  malpracticeLiability: 6
+  injuryCareerRisk: 5
+  fellowshipOptions: "Trial advocacy programs"
+  compModel: "Lockstep + bonus; rainmaking premium at partner"
+  revPerPatientVisit: "$900-1,500/hr"
+  dailyWorkflow: "Discovery, depositions, motion practice, trial prep, hearings"
+  patientVolume: "5-15 matters"
+  supportStaffModel: "Associates, litigation paralegals, e-discovery teams"
+  geographicDemandNotes: "All major markets — litigation is everywhere"
+  telehealthPotential: 5
+  genderDistribution: "~35% women partners"
+
+- name: "White Collar Criminal Defense"
+  group: litigation
+  residencyYears: 0
+  matchComp: 2
+  startSalary: 225
+  midSalary: 400
+  peakSalary: 2000
+  partTimeFlex: 2
+  procedureMix: 7
+  callSchedule: 3
+  adminBurden: 4
+  hoursWeek: 62
+  burnout: 48
+  partTimeFeasibility: 3
+  vacation: 3
+  careerLongevity: 8
+  malpracticeFreq: 5
+  malpracticeCost: 10
+  geographicFlex: 5
+  automationRisk: 6
+  handsOnInsulation: 7
+  satisfaction: 68
+  chooseAgain: 62
+  intellectualStim: 9
+  varietyRepetition: 8
+  patientImpact: 6
+  physicalToll: 2
+  emotionalToll: 6
+  malpracticeLiability: 5
+  injuryCareerRisk: 4
+  fellowshipOptions: "DOJ/SEC experience highly valued (revolving door)"
+  compModel: "Premium billing; former prosecutors command top rates"
+  revPerPatientVisit: "$1,200-2,500/hr"
+  dailyWorkflow: "Internal investigations, grand jury, SEC defense, compliance"
+  patientVolume: "3-8 matters"
+  supportStaffModel: "Associates, forensic accountants, paralegals"
+  geographicDemandNotes: "NYC, DC, SF — follows federal courts and SEC"
+  telehealthPotential: 5
+  genderDistribution: "~32% women partners"
+
+- name: "Class Action / Mass Tort"
+  group: litigation
+  residencyYears: 0
+  matchComp: 3
+  startSalary: 200
+  midSalary: 350
+  peakSalary: 1200
+  partTimeFlex: 3
+  procedureMix: 7
+  callSchedule: 4
+  adminBurden: 6
+  hoursWeek: 58
+  burnout: 48
+  partTimeFeasibility: 3
+  vacation: 4
+  careerLongevity: 7
+  malpracticeFreq: 5
+  malpracticeCost: 12
+  geographicFlex: 5
+  automationRisk: 5
+  handsOnInsulation: 6
+  satisfaction: 62
+  chooseAgain: 55
+  intellectualStim: 7
+  varietyRepetition: 6
+  patientImpact: 7
+  physicalToll: 2
+  emotionalToll: 5
+  malpracticeLiability: 6
+  injuryCareerRisk: 4
+  fellowshipOptions: "MDL specialization"
+  compModel: "Defense: hourly billing; Plaintiff: contingency (massive upside)"
+  revPerPatientVisit: "$800-1,500/hr (defense); contingency (plaintiff)"
+  dailyWorkflow: "Multi-district litigation, expert witnesses, bellwether trials"
+  patientVolume: "2-5 major cases (thousands of plaintiffs)"
+  supportStaffModel: "Large teams of associates, e-discovery, paralegals"
+  geographicDemandNotes: "Nationwide — MDL courts, plaintiff hubs in TX, IL"
+  telehealthPotential: 5
+  genderDistribution: "~34% women partners"
+
+- name: "Product Liability Defense"
+  group: litigation
+  residencyYears: 0
+  matchComp: 4
+  startSalary: 180
+  midSalary: 300
+  peakSalary: 800
+  partTimeFlex: 3
+  procedureMix: 7
+  callSchedule: 4
+  adminBurden: 6
+  hoursWeek: 55
+  burnout: 45
+  partTimeFeasibility: 4
+  vacation: 4
+  careerLongevity: 7
+  malpracticeFreq: 5
+  malpracticeCost: 8
+  geographicFlex: 6
+  automationRisk: 5
+  handsOnInsulation: 6
+  satisfaction: 60
+  chooseAgain: 52
+  intellectualStim: 7
+  varietyRepetition: 6
+  patientImpact: 4
+  physicalToll: 2
+  emotionalToll: 5
+  malpracticeLiability: 5
+  injuryCareerRisk: 4
+  fellowshipOptions: "Science/engineering background valued"
+  compModel: "Hourly billing to corporate clients; steady work"
+  revPerPatientVisit: "$600-1,200/hr"
+  dailyWorkflow: "Expert depositions, regulatory defense, trial prep, risk assessment"
+  patientVolume: "8-15 matters"
+  supportStaffModel: "Associates, paralegals, technical experts"
+  geographicDemandNotes: "Nationwide — wherever manufacturers operate"
+  telehealthPotential: 6
+  genderDistribution: "~36% women partners"
+
+- name: "Appellate Litigation"
+  group: litigation
+  residencyYears: 0
+  matchComp: 2
+  startSalary: 200
+  midSalary: 320
+  peakSalary: 900
+  partTimeFlex: 5
+  procedureMix: 5
+  callSchedule: 6
+  adminBurden: 4
+  hoursWeek: 50
+  burnout: 35
+  partTimeFeasibility: 5
+  vacation: 5
+  careerLongevity: 9
+  malpracticeFreq: 8
+  malpracticeCost: 5
+  geographicFlex: 6
+  automationRisk: 6
+  handsOnInsulation: 7
+  satisfaction: 75
+  chooseAgain: 70
+  intellectualStim: 10
+  varietyRepetition: 7
+  patientImpact: 5
+  physicalToll: 1
+  emotionalToll: 4
+  malpracticeLiability: 4
+  injuryCareerRisk: 3
+  fellowshipOptions: "Supreme Court clerkship = golden ticket"
+  compModel: "Premium for SCOTUS clerks; academic crossover"
+  revPerPatientVisit: "$800-1,500/hr"
+  dailyWorkflow: "Brief writing, oral argument, legal research, strategy"
+  patientVolume: "3-8 cases"
+  supportStaffModel: "Small team — mostly solo writing"
+  geographicDemandNotes: "DC, NYC — near federal circuit courts"
+  telehealthPotential: 8
+  genderDistribution: "~40% women"
+
+- name: "International Arbitration"
+  group: litigation
+  residencyYears: 0
+  matchComp: 2
+  startSalary: 225
+  midSalary: 380
+  peakSalary: 1200
+  partTimeFlex: 3
+  procedureMix: 6
+  callSchedule: 3
+  adminBurden: 5
+  hoursWeek: 60
+  burnout: 42
+  partTimeFeasibility: 3
+  vacation: 4
+  careerLongevity: 8
+  malpracticeFreq: 7
+  malpracticeCost: 8
+  geographicFlex: 3
+  automationRisk: 6
+  handsOnInsulation: 7
+  satisfaction: 68
+  chooseAgain: 62
+  intellectualStim: 9
+  varietyRepetition: 7
+  patientImpact: 4
+  physicalToll: 3
+  emotionalToll: 5
+  malpracticeLiability: 5
+  injuryCareerRisk: 4
+  fellowshipOptions: "LLM International Law; language skills valued"
+  compModel: "Lockstep + bonus; arbitrator fees at senior level"
+  revPerPatientVisit: "$1,000-2,000/hr"
+  dailyWorkflow: "Cross-border disputes, treaty arbitration, hearing prep, travel"
+  patientVolume: "3-6 cases"
+  supportStaffModel: "Associates, paralegals, translators"
+  geographicDemandNotes: "NYC, DC, London, Paris, Singapore, Hong Kong"
+  telehealthPotential: 6
+  genderDistribution: "~30% women partners"
+
+# === CRIMINAL LAW (4) ===
+
+- name: "Prosecutor (DA/ADA)"
+  group: criminal
+  residencyYears: 0
+  matchComp: 5
+  startSalary: 65
+  midSalary: 100
+  peakSalary: 180
+  partTimeFlex: 4
+  procedureMix: 9
+  callSchedule: 4
+  adminBurden: 5
+  hoursWeek: 50
+  burnout: 48
+  partTimeFeasibility: 3
+  vacation: 5
+  careerLongevity: 8
+  malpracticeFreq: 8
+  malpracticeCost: 0
+  geographicFlex: 6
+  automationRisk: 7
+  handsOnInsulation: 8
+  satisfaction: 72
+  chooseAgain: 65
+  intellectualStim: 8
+  varietyRepetition: 8
+  patientImpact: 9
+  physicalToll: 2
+  emotionalToll: 7
+  malpracticeLiability: 7
+  injuryCareerRisk: 3
+  fellowshipOptions: "Federal prosecutor track (DOJ AUSA)"
+  compModel: "Government salary + pension; PSLF eligible"
+  revPerPatientVisit: "N/A — government funded"
+  dailyWorkflow: "Grand jury, plea negotiations, trial, victim advocacy"
+  patientVolume: "50-100+ cases"
+  supportStaffModel: "Investigators, victim advocates, support staff"
+  geographicDemandNotes: "Every county in America — universal demand"
+  telehealthPotential: 3
+  genderDistribution: "~45% women"
+
+- name: "Federal Prosecutor (DOJ/AUSA)"
+  group: criminal
+  residencyYears: 0
+  matchComp: 2
+  startSalary: 75
+  midSalary: 140
+  peakSalary: 220
+  partTimeFlex: 3
+  procedureMix: 9
+  callSchedule: 3
+  adminBurden: 4
+  hoursWeek: 55
+  burnout: 42
+  partTimeFeasibility: 3
+  vacation: 5
+  careerLongevity: 8
+  malpracticeFreq: 8
+  malpracticeCost: 0
+  geographicFlex: 4
+  automationRisk: 7
+  handsOnInsulation: 8
+  satisfaction: 78
+  chooseAgain: 72
+  intellectualStim: 9
+  varietyRepetition: 8
+  patientImpact: 9
+  physicalToll: 2
+  emotionalToll: 7
+  malpracticeLiability: 8
+  injuryCareerRisk: 3
+  fellowshipOptions: "DOJ Honors Program; specialized divisions (antitrust, civil rights)"
+  compModel: "GS scale + locality pay; pension; PSLF eligible"
+  revPerPatientVisit: "N/A — government funded"
+  dailyWorkflow: "Federal investigations, grand jury, complex white collar, narcotics"
+  patientVolume: "15-30 cases"
+  supportStaffModel: "FBI/DEA agents, analysts, paralegals"
+  geographicDemandNotes: "94 federal districts — some more competitive than others"
+  telehealthPotential: 3
+  genderDistribution: "~45% women"
+
+- name: "Public Defender"
+  group: criminal
+  residencyYears: 0
+  matchComp: 5
+  startSalary: 58
+  midSalary: 85
+  peakSalary: 140
+  partTimeFlex: 3
+  procedureMix: 9
+  callSchedule: 4
+  adminBurden: 4
+  hoursWeek: 52
+  burnout: 58
+  partTimeFeasibility: 3
+  vacation: 5
+  careerLongevity: 6
+  malpracticeFreq: 6
+  malpracticeCost: 0
+  geographicFlex: 7
+  automationRisk: 7
+  handsOnInsulation: 8
+  satisfaction: 65
+  chooseAgain: 55
+  intellectualStim: 7
+  varietyRepetition: 7
+  patientImpact: 10
+  physicalToll: 2
+  emotionalToll: 9
+  malpracticeLiability: 5
+  injuryCareerRisk: 4
+  fellowshipOptions: "Federal PD offices; capital defense specialization"
+  compModel: "Government salary; PSLF eligible; high turnover"
+  revPerPatientVisit: "N/A — government funded"
+  dailyWorkflow: "Client intake, plea negotiations, trial, motions, jail visits"
+  patientVolume: "100-300+ cases at a time"
+  supportStaffModel: "Investigators, social workers, minimal support"
+  geographicDemandNotes: "Chronic shortage everywhere — always hiring"
+  telehealthPotential: 3
+  genderDistribution: "~55% women"
+
+- name: "Criminal Defense (Private)"
+  group: criminal
+  residencyYears: 0
+  matchComp: 6
+  startSalary: 70
+  midSalary: 180
+  peakSalary: 500
+  partTimeFlex: 5
+  procedureMix: 9
+  callSchedule: 4
+  adminBurden: 5
+  hoursWeek: 50
+  burnout: 45
+  partTimeFeasibility: 5
+  vacation: 5
+  careerLongevity: 8
+  malpracticeFreq: 5
+  malpracticeCost: 5
+  geographicFlex: 7
+  automationRisk: 7
+  handsOnInsulation: 8
+  satisfaction: 70
+  chooseAgain: 63
+  intellectualStim: 8
+  varietyRepetition: 8
+  patientImpact: 8
+  physicalToll: 2
+  emotionalToll: 7
+  malpracticeLiability: 5
+  injuryCareerRisk: 4
+  fellowshipOptions: "Former prosecutor experience = premium"
+  compModel: "Fee-for-service; retainers; reputation-driven"
+  revPerPatientVisit: "$300-1,000/hr depending on reputation"
+  dailyWorkflow: "Client meetings, investigation, plea negotiation, trial, sentencing"
+  patientVolume: "15-40 cases"
+  supportStaffModel: "Solo or small firm; investigator, paralegal"
+  geographicDemandNotes: "Everywhere — but reputation is local"
+  telehealthPotential: 4
+  genderDistribution: "~35% women"
+
+# === INTELLECTUAL PROPERTY (3 JD, 2 JD+Patent in separate file) ===
+
+- name: "Trademark & Brand Law"
+  group: ip
+  residencyYears: 0
+  matchComp: 4
+  startSalary: 160
+  midSalary: 280
+  peakSalary: 600
+  partTimeFlex: 5
+  procedureMix: 4
+  callSchedule: 6
+  adminBurden: 5
+  hoursWeek: 50
+  burnout: 35
+  partTimeFeasibility: 6
+  vacation: 5
+  careerLongevity: 8
+  malpracticeFreq: 7
+  malpracticeCost: 5
+  geographicFlex: 7
+  automationRisk: 5
+  handsOnInsulation: 5
+  satisfaction: 70
+  chooseAgain: 63
+  intellectualStim: 7
+  varietyRepetition: 6
+  patientImpact: 5
+  physicalToll: 1
+  emotionalToll: 3
+  malpracticeLiability: 5
+  injuryCareerRisk: 3
+  fellowshipOptions: "IP LLM; USPTO trademark examining attorney path"
+  compModel: "Hourly or flat-fee; in-house brand counsel exit"
+  revPerPatientVisit: "$400-800/hr"
+  dailyWorkflow: "Trademark applications, opposition proceedings, brand strategy, licensing"
+  patientVolume: "20-50 matters"
+  supportStaffModel: "Paralegals, trademark specialists"
+  geographicDemandNotes: "NYC, LA, SF — wherever brands are"
+  telehealthPotential: 8
+  genderDistribution: "~45% women"
+
+- name: "Copyright / Entertainment Law"
+  group: ip
+  residencyYears: 0
+  matchComp: 3
+  startSalary: 140
+  midSalary: 260
+  peakSalary: 700
+  partTimeFlex: 5
+  procedureMix: 4
+  callSchedule: 5
+  adminBurden: 4
+  hoursWeek: 50
+  burnout: 35
+  partTimeFeasibility: 6
+  vacation: 5
+  careerLongevity: 8
+  malpracticeFreq: 7
+  malpracticeCost: 5
+  geographicFlex: 5
+  automationRisk: 5
+  handsOnInsulation: 5
+  satisfaction: 72
+  chooseAgain: 65
+  intellectualStim: 8
+  varietyRepetition: 7
+  patientImpact: 6
+  physicalToll: 1
+  emotionalToll: 3
+  malpracticeLiability: 5
+  injuryCareerRisk: 3
+  fellowshipOptions: "Entertainment law specialization; talent agency crossover"
+  compModel: "Hourly, flat-fee, or percentage of deals"
+  revPerPatientVisit: "$400-1,200/hr"
+  dailyWorkflow: "Licensing, talent contracts, DMCA, royalty disputes, deal negotiation"
+  patientVolume: "15-30 clients"
+  supportStaffModel: "Paralegals, agents, business affairs teams"
+  geographicDemandNotes: "LA, NYC, Nashville — entertainment hubs"
+  telehealthPotential: 7
+  genderDistribution: "~42% women"
+
+- name: "Trade Secrets"
+  group: ip
+  residencyYears: 0
+  matchComp: 3
+  startSalary: 180
+  midSalary: 300
+  peakSalary: 700
+  partTimeFlex: 4
+  procedureMix: 6
+  callSchedule: 5
+  adminBurden: 5
+  hoursWeek: 55
+  burnout: 40
+  partTimeFeasibility: 4
+  vacation: 4
+  careerLongevity: 7
+  malpracticeFreq: 6
+  malpracticeCost: 8
+  geographicFlex: 6
+  automationRisk: 5
+  handsOnInsulation: 6
+  satisfaction: 65
+  chooseAgain: 58
+  intellectualStim: 8
+  varietyRepetition: 6
+  patientImpact: 4
+  physicalToll: 1
+  emotionalToll: 5
+  malpracticeLiability: 6
+  injuryCareerRisk: 4
+  fellowshipOptions: "IP LLM; litigation background valued"
+  compModel: "Hourly; emergency TRO work = premium billing"
+  revPerPatientVisit: "$600-1,200/hr"
+  dailyWorkflow: "Non-compete disputes, trade secret misappropriation, injunctions"
+  patientVolume: "5-12 matters"
+  supportStaffModel: "Associates, e-discovery, paralegals"
+  geographicDemandNotes: "Tech hubs — SF, Seattle, Austin, Boston"
+  telehealthPotential: 6
+  genderDistribution: "~35% women"
+
+# === GOVERNMENT & PUBLIC INTEREST (6) ===
+
+- name: "Civil Rights / Constitutional Law"
+  group: government
+  residencyYears: 0
+  matchComp: 3
+  startSalary: 55
+  midSalary: 90
+  peakSalary: 160
+  partTimeFlex: 4
+  procedureMix: 7
+  callSchedule: 5
+  adminBurden: 5
+  hoursWeek: 48
+  burnout: 42
+  partTimeFeasibility: 4
+  vacation: 5
+  careerLongevity: 8
+  malpracticeFreq: 8
+  malpracticeCost: 2
+  geographicFlex: 5
+  automationRisk: 7
+  handsOnInsulation: 8
+  satisfaction: 78
+  chooseAgain: 72
+  intellectualStim: 9
+  varietyRepetition: 8
+  patientImpact: 10
+  physicalToll: 1
+  emotionalToll: 7
+  malpracticeLiability: 6
+  injuryCareerRisk: 3
+  fellowshipOptions: "ACLU, NAACP LDF, public interest fellowships"
+  compModel: "Nonprofit salary; PSLF; some fee-shifting awards"
+  revPerPatientVisit: "N/A or fee-shifting awards"
+  dailyWorkflow: "Impact litigation, amicus briefs, policy advocacy, appellate work"
+  patientVolume: "5-15 cases (high-impact)"
+  supportStaffModel: "Small teams, law students, volunteers"
+  geographicDemandNotes: "DC, NYC — near federal courts and advocacy orgs"
+  telehealthPotential: 6
+  genderDistribution: "~55% women"
+
+- name: "Legal Aid / Poverty Law"
+  group: government
+  residencyYears: 0
+  matchComp: 6
+  startSalary: 52
+  midSalary: 75
+  peakSalary: 120
+  partTimeFlex: 5
+  procedureMix: 7
+  callSchedule: 5
+  adminBurden: 5
+  hoursWeek: 45
+  burnout: 50
+  partTimeFeasibility: 5
+  vacation: 5
+  careerLongevity: 7
+  malpracticeFreq: 7
+  malpracticeCost: 1
+  geographicFlex: 8
+  automationRisk: 7
+  handsOnInsulation: 8
+  satisfaction: 72
+  chooseAgain: 62
+  intellectualStim: 7
+  varietyRepetition: 8
+  patientImpact: 10
+  physicalToll: 1
+  emotionalToll: 8
+  malpracticeLiability: 5
+  injuryCareerRisk: 3
+  fellowshipOptions: "Skadden Fellowship, Equal Justice Works"
+  compModel: "Nonprofit salary; PSLF eligible; chronic underfunding"
+  revPerPatientVisit: "N/A — grant funded"
+  dailyWorkflow: "Housing, benefits, domestic violence, immigration for low-income"
+  patientVolume: "50-100+ clients"
+  supportStaffModel: "Social workers, interpreters, minimal support"
+  geographicDemandNotes: "Everywhere — massive unmet need in rural areas"
+  telehealthPotential: 5
+  genderDistribution: "~65% women"
+
+- name: "Environmental Law (Nonprofit)"
+  group: government
+  residencyYears: 0
+  matchComp: 3
+  startSalary: 55
+  midSalary: 85
+  peakSalary: 150
+  partTimeFlex: 5
+  procedureMix: 5
+  callSchedule: 6
+  adminBurden: 5
+  hoursWeek: 45
+  burnout: 35
+  partTimeFeasibility: 5
+  vacation: 6
+  careerLongevity: 8
+  malpracticeFreq: 8
+  malpracticeCost: 2
+  geographicFlex: 5
+  automationRisk: 6
+  handsOnInsulation: 7
+  satisfaction: 76
+  chooseAgain: 68
+  intellectualStim: 8
+  varietyRepetition: 7
+  patientImpact: 9
+  physicalToll: 1
+  emotionalToll: 5
+  malpracticeLiability: 4
+  injuryCareerRisk: 3
+  fellowshipOptions: "LLM Environmental Law; Earthjustice, Sierra Club"
+  compModel: "Nonprofit salary; PSLF; some government positions"
+  revPerPatientVisit: "N/A — grant/donor funded"
+  dailyWorkflow: "Clean Air/Water Act cases, NEPA challenges, policy advocacy"
+  patientVolume: "5-15 cases"
+  supportStaffModel: "Scientists, policy analysts, paralegals"
+  geographicDemandNotes: "DC, SF, Denver — near federal agencies and courts"
+  telehealthPotential: 6
+  genderDistribution: "~55% women"
+
+- name: "Immigration Law (Gov/Nonprofit)"
+  group: government
+  residencyYears: 0
+  matchComp: 6
+  startSalary: 52
+  midSalary: 78
+  peakSalary: 130
+  partTimeFlex: 4
+  procedureMix: 6
+  callSchedule: 4
+  adminBurden: 6
+  hoursWeek: 48
+  burnout: 50
+  partTimeFeasibility: 4
+  vacation: 5
+  careerLongevity: 7
+  malpracticeFreq: 6
+  malpracticeCost: 2
+  geographicFlex: 5
+  automationRisk: 6
+  handsOnInsulation: 7
+  satisfaction: 70
+  chooseAgain: 60
+  intellectualStim: 7
+  varietyRepetition: 7
+  patientImpact: 10
+  physicalToll: 2
+  emotionalToll: 9
+  malpracticeLiability: 5
+  injuryCareerRisk: 3
+  fellowshipOptions: "Immigration law clinics; asylum specialization"
+  compModel: "Nonprofit/government salary; PSLF; high emotional reward"
+  revPerPatientVisit: "N/A — funded by grants"
+  dailyWorkflow: "Asylum cases, deportation defense, immigration court hearings"
+  patientVolume: "40-80 cases"
+  supportStaffModel: "Interpreters, paralegals, case managers"
+  geographicDemandNotes: "Border states, major cities with immigrant populations"
+  telehealthPotential: 5
+  genderDistribution: "~60% women"
+
+- name: "Policy / Legislative Counsel"
+  group: government
+  residencyYears: 0
+  matchComp: 3
+  startSalary: 65
+  midSalary: 110
+  peakSalary: 200
+  partTimeFlex: 4
+  procedureMix: 2
+  callSchedule: 5
+  adminBurden: 6
+  hoursWeek: 50
+  burnout: 38
+  partTimeFeasibility: 4
+  vacation: 5
+  careerLongevity: 8
+  malpracticeFreq: 9
+  malpracticeCost: 1
+  geographicFlex: 3
+  automationRisk: 6
+  handsOnInsulation: 6
+  satisfaction: 70
+  chooseAgain: 62
+  intellectualStim: 8
+  varietyRepetition: 7
+  patientImpact: 8
+  physicalToll: 1
+  emotionalToll: 4
+  malpracticeLiability: 4
+  injuryCareerRisk: 3
+  fellowshipOptions: "Congressional fellowships; think tank positions"
+  compModel: "Government salary or think tank; revolving door to lobbying"
+  revPerPatientVisit: "N/A — salaried"
+  dailyWorkflow: "Bill drafting, regulatory analysis, committee hearings, briefings"
+  patientVolume: "Multiple bills/policies"
+  supportStaffModel: "Legislative aides, researchers, interns"
+  geographicDemandNotes: "DC overwhelmingly; state capitals"
+  telehealthPotential: 7
+  genderDistribution: "~50% women"
+
+- name: "Military JAG"
+  group: government
+  residencyYears: 0
+  matchComp: 4
+  startSalary: 70
+  midSalary: 120
+  peakSalary: 200
+  partTimeFlex: 2
+  procedureMix: 8
+  callSchedule: 3
+  adminBurden: 5
+  hoursWeek: 50
+  burnout: 38
+  partTimeFeasibility: 2
+  vacation: 6
+  careerLongevity: 7
+  malpracticeFreq: 8
+  malpracticeCost: 0
+  geographicFlex: 2
+  automationRisk: 8
+  handsOnInsulation: 9
+  satisfaction: 75
+  chooseAgain: 68
+  intellectualStim: 8
+  varietyRepetition: 9
+  patientImpact: 8
+  physicalToll: 4
+  emotionalToll: 6
+  malpracticeLiability: 7
+  injuryCareerRisk: 4
+  fellowshipOptions: "Military service commitment (3-6yr); combat zone deployments"
+  compModel: "Military pay + BAH + benefits; pension at 20yr; PSLF"
+  revPerPatientVisit: "N/A — military salary"
+  dailyWorkflow: "Courts-martial, legal assistance, operational law, international law"
+  patientVolume: "20-40 cases + advisory role"
+  supportStaffModel: "Paralegals, enlisted legal staff"
+  geographicDemandNotes: "Military bases worldwide — no choice of location"
+  telehealthPotential: 2
+  genderDistribution: "~35% women"
+
+# === PEOPLE & FAMILY (7) ===
+
+- name: "Family Law / Divorce"
+  group: family
+  residencyYears: 0
+  matchComp: 7
+  startSalary: 65
+  midSalary: 130
+  peakSalary: 300
+  partTimeFlex: 6
+  procedureMix: 7
+  callSchedule: 5
+  adminBurden: 6
+  hoursWeek: 48
+  burnout: 45
+  partTimeFeasibility: 6
+  vacation: 5
+  careerLongevity: 8
+  malpracticeFreq: 4
+  malpracticeCost: 5
+  geographicFlex: 8
+  automationRisk: 6
+  handsOnInsulation: 7
+  satisfaction: 62
+  chooseAgain: 52
+  intellectualStim: 6
+  varietyRepetition: 6
+  patientImpact: 9
+  physicalToll: 1
+  emotionalToll: 8
+  malpracticeLiability: 4
+  injuryCareerRisk: 4
+  fellowshipOptions: "Mediation certification; collaborative law training"
+  compModel: "Retainer + hourly; some flat-fee uncontested divorces"
+  revPerPatientVisit: "$250-600/hr"
+  dailyWorkflow: "Client counseling, custody hearings, mediation, asset division"
+  patientVolume: "20-40 cases"
+  supportStaffModel: "Paralegal, receptionist, sometimes social worker"
+  geographicDemandNotes: "Everywhere — divorce happens in every community"
+  telehealthPotential: 6
+  genderDistribution: "~55% women"
+
+- name: "Estate Planning / Trusts & Wills"
+  group: family
+  residencyYears: 0
+  matchComp: 6
+  startSalary: 70
+  midSalary: 150
+  peakSalary: 400
+  partTimeFlex: 7
+  procedureMix: 2
+  callSchedule: 7
+  adminBurden: 5
+  hoursWeek: 42
+  burnout: 28
+  partTimeFeasibility: 8
+  vacation: 6
+  careerLongevity: 9
+  malpracticeFreq: 5
+  malpracticeCost: 5
+  geographicFlex: 8
+  automationRisk: 4
+  handsOnInsulation: 5
+  satisfaction: 72
+  chooseAgain: 65
+  intellectualStim: 7
+  varietyRepetition: 4
+  patientImpact: 8
+  physicalToll: 1
+  emotionalToll: 4
+  malpracticeLiability: 5
+  injuryCareerRisk: 3
+  fellowshipOptions: "LLM Taxation or Estate Planning; CFP crossover"
+  compModel: "Flat-fee or hourly; high-net-worth clients pay premium"
+  revPerPatientVisit: "$300-800/hr"
+  dailyWorkflow: "Will drafting, trust creation, probate, tax planning, client meetings"
+  patientVolume: "30-60 clients"
+  supportStaffModel: "Paralegal, trust administrators"
+  geographicDemandNotes: "Everywhere — aging population drives demand"
+  telehealthPotential: 7
+  genderDistribution: "~50% women"
+
+- name: "Elder Law"
+  group: family
+  residencyYears: 0
+  matchComp: 7
+  startSalary: 60
+  midSalary: 110
+  peakSalary: 250
+  partTimeFlex: 7
+  procedureMix: 3
+  callSchedule: 6
+  adminBurden: 5
+  hoursWeek: 42
+  burnout: 30
+  partTimeFeasibility: 7
+  vacation: 6
+  careerLongevity: 9
+  malpracticeFreq: 6
+  malpracticeCost: 4
+  geographicFlex: 8
+  automationRisk: 5
+  handsOnInsulation: 6
+  satisfaction: 72
+  chooseAgain: 64
+  intellectualStim: 6
+  varietyRepetition: 5
+  patientImpact: 9
+  physicalToll: 1
+  emotionalToll: 6
+  malpracticeLiability: 5
+  injuryCareerRisk: 3
+  fellowshipOptions: "NAELA certification; Medicaid planning specialization"
+  compModel: "Flat-fee and hourly mix; Medicaid planning is steady"
+  revPerPatientVisit: "$250-500/hr"
+  dailyWorkflow: "Medicaid planning, guardianship, nursing home issues, estate planning"
+  patientVolume: "30-50 clients"
+  supportStaffModel: "Paralegal, social worker connections"
+  geographicDemandNotes: "Growing demand — aging baby boomers"
+  telehealthPotential: 6
+  genderDistribution: "~60% women"
+
+- name: "Immigration Law (Private)"
+  group: family
+  residencyYears: 0
+  matchComp: 6
+  startSalary: 65
+  midSalary: 130
+  peakSalary: 350
+  partTimeFlex: 5
+  procedureMix: 5
+  callSchedule: 5
+  adminBurden: 7
+  hoursWeek: 50
+  burnout: 42
+  partTimeFeasibility: 5
+  vacation: 5
+  careerLongevity: 7
+  malpracticeFreq: 4
+  malpracticeCost: 4
+  geographicFlex: 6
+  automationRisk: 5
+  handsOnInsulation: 6
+  satisfaction: 68
+  chooseAgain: 58
+  intellectualStim: 7
+  varietyRepetition: 6
+  patientImpact: 9
+  physicalToll: 1
+  emotionalToll: 7
+  malpracticeLiability: 5
+  injuryCareerRisk: 3
+  fellowshipOptions: "Business immigration specialization; EB-5 investor visas"
+  compModel: "Flat-fee (visas) + hourly (litigation); business immigration pays well"
+  revPerPatientVisit: "$200-500/hr; flat fees $3K-15K per case"
+  dailyWorkflow: "H-1B petitions, green cards, asylum, deportation defense, employer compliance"
+  patientVolume: "40-80 cases"
+  supportStaffModel: "Paralegals, case managers, translators"
+  geographicDemandNotes: "Major cities, tech hubs (H-1B), border states"
+  telehealthPotential: 6
+  genderDistribution: "~55% women"
+
+- name: "Personal Injury (Plaintiff)"
+  group: family
+  residencyYears: 0
+  matchComp: 7
+  startSalary: 70
+  midSalary: 200
+  peakSalary: 800
+  partTimeFlex: 5
+  procedureMix: 7
+  callSchedule: 5
+  adminBurden: 5
+  hoursWeek: 50
+  burnout: 40
+  partTimeFeasibility: 5
+  vacation: 5
+  careerLongevity: 8
+  malpracticeFreq: 4
+  malpracticeCost: 8
+  geographicFlex: 8
+  automationRisk: 6
+  handsOnInsulation: 7
+  satisfaction: 65
+  chooseAgain: 58
+  intellectualStim: 6
+  varietyRepetition: 5
+  patientImpact: 9
+  physicalToll: 2
+  emotionalToll: 6
+  malpracticeLiability: 5
+  injuryCareerRisk: 4
+  fellowshipOptions: "Trial lawyer associations; mass tort specialization"
+  compModel: "Contingency fee (33-40%); no fee if you lose; huge upside"
+  revPerPatientVisit: "Contingency — $0 upfront, 33-40% of settlement"
+  dailyWorkflow: "Client intake, medical records, depositions, settlement negotiations, trial"
+  patientVolume: "30-60 cases"
+  supportStaffModel: "Paralegals, intake staff, medical experts, investigators"
+  geographicDemandNotes: "Everywhere — auto accidents are universal"
+  telehealthPotential: 5
+  genderDistribution: "~40% women"
+
+- name: "Medical Malpractice (Plaintiff)"
+  group: family
+  residencyYears: 0
+  matchComp: 4
+  startSalary: 75
+  midSalary: 220
+  peakSalary: 900
+  partTimeFlex: 4
+  procedureMix: 7
+  callSchedule: 5
+  adminBurden: 5
+  hoursWeek: 52
+  burnout: 42
+  partTimeFeasibility: 4
+  vacation: 5
+  careerLongevity: 8
+  malpracticeFreq: 5
+  malpracticeCost: 12
+  geographicFlex: 6
+  automationRisk: 6
+  handsOnInsulation: 7
+  satisfaction: 65
+  chooseAgain: 58
+  intellectualStim: 8
+  varietyRepetition: 6
+  patientImpact: 9
+  physicalToll: 2
+  emotionalToll: 7
+  malpracticeLiability: 5
+  injuryCareerRisk: 4
+  fellowshipOptions: "Medical knowledge valued; nurse-attorney crossover"
+  compModel: "Contingency fee; very expensive to litigate (expert costs)"
+  revPerPatientVisit: "Contingency — individual verdicts can be $1M+"
+  dailyWorkflow: "Medical record review, expert consultations, depositions, trial"
+  patientVolume: "10-25 cases (complex, long-running)"
+  supportStaffModel: "Nurse paralegals, medical experts, investigators"
+  geographicDemandNotes: "Varies by state — tort reform affects viability"
+  telehealthPotential: 5
+  genderDistribution: "~40% women"
+
+- name: "Workers' Compensation"
+  group: family
+  residencyYears: 0
+  matchComp: 8
+  startSalary: 58
+  midSalary: 100
+  peakSalary: 220
+  partTimeFlex: 6
+  procedureMix: 6
+  callSchedule: 6
+  adminBurden: 6
+  hoursWeek: 42
+  burnout: 32
+  partTimeFeasibility: 6
+  vacation: 6
+  careerLongevity: 8
+  malpracticeFreq: 6
+  malpracticeCost: 3
+  geographicFlex: 7
+  automationRisk: 5
+  handsOnInsulation: 6
+  satisfaction: 60
+  chooseAgain: 50
+  intellectualStim: 5
+  varietyRepetition: 4
+  patientImpact: 8
+  physicalToll: 1
+  emotionalToll: 5
+  malpracticeLiability: 4
+  injuryCareerRisk: 3
+  fellowshipOptions: "State-specific specialization"
+  compModel: "Statutory fees; high volume, lower per-case"
+  revPerPatientVisit: "Statutory fee schedule"
+  dailyWorkflow: "Claims filing, hearings, medical evaluations, settlements"
+  patientVolume: "60-100+ cases"
+  supportStaffModel: "Paralegals, medical coordinators"
+  geographicDemandNotes: "Every state — workers get hurt everywhere"
+  telehealthPotential: 5
+  genderDistribution: "~45% women"
+
+# === REAL ESTATE (4) ===
+
+- name: "Real Estate Transactional"
+  group: real_estate
+  residencyYears: 0
+  matchComp: 5
+  startSalary: 120
+  midSalary: 220
+  peakSalary: 600
+  partTimeFlex: 5
+  procedureMix: 2
+  callSchedule: 5
+  adminBurden: 5
+  hoursWeek: 50
+  burnout: 38
+  partTimeFeasibility: 5
+  vacation: 5
+  careerLongevity: 8
+  malpracticeFreq: 5
+  malpracticeCost: 8
+  geographicFlex: 6
+  automationRisk: 4
+  handsOnInsulation: 5
+  satisfaction: 65
+  chooseAgain: 58
+  intellectualStim: 6
+  varietyRepetition: 5
+  patientImpact: 5
+  physicalToll: 1
+  emotionalToll: 4
+  malpracticeLiability: 6
+  injuryCareerRisk: 3
+  fellowshipOptions: "LLM Real Estate; CCIM crossover"
+  compModel: "Hourly + flat fee for closings; deal volume driven"
+  revPerPatientVisit: "$300-700/hr"
+  dailyWorkflow: "Purchase agreements, lease negotiations, due diligence, closings, financing"
+  patientVolume: "10-25 transactions"
+  supportStaffModel: "Paralegals, title companies, brokers"
+  geographicDemandNotes: "Everywhere — cyclical with real estate market"
+  telehealthPotential: 7
+  genderDistribution: "~40% women"
+
+- name: "Real Estate Litigation"
+  group: real_estate
+  residencyYears: 0
+  matchComp: 5
+  startSalary: 100
+  midSalary: 190
+  peakSalary: 450
+  partTimeFlex: 5
+  procedureMix: 7
+  callSchedule: 5
+  adminBurden: 5
+  hoursWeek: 48
+  burnout: 38
+  partTimeFeasibility: 5
+  vacation: 5
+  careerLongevity: 8
+  malpracticeFreq: 5
+  malpracticeCost: 6
+  geographicFlex: 7
+  automationRisk: 5
+  handsOnInsulation: 6
+  satisfaction: 62
+  chooseAgain: 55
+  intellectualStim: 6
+  varietyRepetition: 6
+  patientImpact: 6
+  physicalToll: 1
+  emotionalToll: 5
+  malpracticeLiability: 5
+  injuryCareerRisk: 3
+  fellowshipOptions: "Construction defect specialization"
+  compModel: "Hourly; landlord-tenant volume practice also viable"
+  revPerPatientVisit: "$250-600/hr"
+  dailyWorkflow: "Lease disputes, foreclosure, title claims, construction defects"
+  patientVolume: "15-30 cases"
+  supportStaffModel: "Paralegals, property inspectors"
+  geographicDemandNotes: "Everywhere — especially hot markets"
+  telehealthPotential: 5
+  genderDistribution: "~40% women"
+
+- name: "Land Use / Zoning"
+  group: real_estate
+  residencyYears: 0
+  matchComp: 5
+  startSalary: 90
+  midSalary: 170
+  peakSalary: 400
+  partTimeFlex: 5
+  procedureMix: 4
+  callSchedule: 6
+  adminBurden: 6
+  hoursWeek: 45
+  burnout: 32
+  partTimeFeasibility: 6
+  vacation: 6
+  careerLongevity: 8
+  malpracticeFreq: 7
+  malpracticeCost: 5
+  geographicFlex: 5
+  automationRisk: 6
+  handsOnInsulation: 7
+  satisfaction: 68
+  chooseAgain: 60
+  intellectualStim: 7
+  varietyRepetition: 6
+  patientImpact: 7
+  physicalToll: 1
+  emotionalToll: 4
+  malpracticeLiability: 4
+  injuryCareerRisk: 3
+  fellowshipOptions: "Urban planning background valued"
+  compModel: "Hourly; government affairs crossover"
+  revPerPatientVisit: "$300-600/hr"
+  dailyWorkflow: "Zoning applications, board hearings, environmental review, permitting"
+  patientVolume: "10-20 projects"
+  supportStaffModel: "Paralegals, planners, engineers"
+  geographicDemandNotes: "Growth markets — Sun Belt, suburbs"
+  telehealthPotential: 5
+  genderDistribution: "~38% women"
+
+- name: "Construction Law"
+  group: real_estate
+  residencyYears: 0
+  matchComp: 5
+  startSalary: 100
+  midSalary: 200
+  peakSalary: 500
+  partTimeFlex: 4
+  procedureMix: 6
+  callSchedule: 5
+  adminBurden: 5
+  hoursWeek: 50
+  burnout: 38
+  partTimeFeasibility: 4
+  vacation: 5
+  careerLongevity: 7
+  malpracticeFreq: 5
+  malpracticeCost: 6
+  geographicFlex: 6
+  automationRisk: 6
+  handsOnInsulation: 6
+  satisfaction: 63
+  chooseAgain: 55
+  intellectualStim: 6
+  varietyRepetition: 6
+  patientImpact: 5
+  physicalToll: 2
+  emotionalToll: 5
+  malpracticeLiability: 5
+  injuryCareerRisk: 3
+  fellowshipOptions: "Engineering or construction management background valued"
+  compModel: "Hourly; mechanics lien work is bread and butter"
+  revPerPatientVisit: "$300-700/hr"
+  dailyWorkflow: "Contract disputes, mechanics liens, delay claims, arbitration"
+  patientVolume: "15-25 matters"
+  supportStaffModel: "Paralegals, construction experts"
+  geographicDemandNotes: "Wherever building is happening — growth markets"
+  telehealthPotential: 5
+  genderDistribution: "~30% women"
+
+# === REGULATORY & COMPLIANCE (5) ===
+
+- name: "Healthcare Regulatory"
+  group: regulatory
+  residencyYears: 0
+  matchComp: 4
+  startSalary: 130
+  midSalary: 240
+  peakSalary: 500
+  partTimeFlex: 5
+  procedureMix: 3
+  callSchedule: 5
+  adminBurden: 6
+  hoursWeek: 50
+  burnout: 38
+  partTimeFeasibility: 5
+  vacation: 5
+  careerLongevity: 8
+  malpracticeFreq: 7
+  malpracticeCost: 5
+  geographicFlex: 6
+  automationRisk: 5
+  handsOnInsulation: 5
+  satisfaction: 65
+  chooseAgain: 58
+  intellectualStim: 7
+  varietyRepetition: 5
+  patientImpact: 6
+  physicalToll: 1
+  emotionalToll: 4
+  malpracticeLiability: 5
+  injuryCareerRisk: 3
+  fellowshipOptions: "LLM Health Law; in-house hospital counsel path"
+  compModel: "Hourly or in-house salary; hospital systems pay well"
+  revPerPatientVisit: "$400-800/hr"
+  dailyWorkflow: "HIPAA compliance, Stark/AKS advisory, CMS audits, M&A regulatory"
+  patientVolume: "10-20 matters"
+  supportStaffModel: "Compliance officers, paralegals"
+  geographicDemandNotes: "Everywhere — healthcare is 18% of GDP"
+  telehealthPotential: 7
+  genderDistribution: "~50% women"
+
+- name: "Financial Regulatory (SEC/FINRA)"
+  group: regulatory
+  residencyYears: 0
+  matchComp: 3
+  startSalary: 140
+  midSalary: 260
+  peakSalary: 600
+  partTimeFlex: 4
+  procedureMix: 4
+  callSchedule: 5
+  adminBurden: 6
+  hoursWeek: 52
+  burnout: 40
+  partTimeFeasibility: 4
+  vacation: 5
+  careerLongevity: 8
+  malpracticeFreq: 6
+  malpracticeCost: 8
+  geographicFlex: 4
+  automationRisk: 5
+  handsOnInsulation: 5
+  satisfaction: 62
+  chooseAgain: 55
+  intellectualStim: 7
+  varietyRepetition: 5
+  patientImpact: 4
+  physicalToll: 1
+  emotionalToll: 4
+  malpracticeLiability: 6
+  injuryCareerRisk: 3
+  fellowshipOptions: "SEC/FINRA experience → private practice premium"
+  compModel: "Hourly or in-house; revolving door SEC → private practice"
+  revPerPatientVisit: "$500-1,000/hr"
+  dailyWorkflow: "SEC investigations, broker-dealer compliance, Dodd-Frank advisory"
+  patientVolume: "8-15 matters"
+  supportStaffModel: "Associates, compliance analysts, paralegals"
+  geographicDemandNotes: "NYC, DC, Chicago — financial centers"
+  telehealthPotential: 7
+  genderDistribution: "~40% women"
+
+- name: "Environmental Regulatory (EPA)"
+  group: regulatory
+  residencyYears: 0
+  matchComp: 4
+  startSalary: 100
+  midSalary: 180
+  peakSalary: 400
+  partTimeFlex: 5
+  procedureMix: 3
+  callSchedule: 6
+  adminBurden: 7
+  hoursWeek: 48
+  burnout: 35
+  partTimeFeasibility: 5
+  vacation: 5
+  careerLongevity: 8
+  malpracticeFreq: 7
+  malpracticeCost: 5
+  geographicFlex: 5
+  automationRisk: 6
+  handsOnInsulation: 6
+  satisfaction: 65
+  chooseAgain: 58
+  intellectualStim: 7
+  varietyRepetition: 6
+  patientImpact: 7
+  physicalToll: 1
+  emotionalToll: 4
+  malpracticeLiability: 5
+  injuryCareerRisk: 3
+  fellowshipOptions: "LLM Environmental Law; EPA/state agency experience"
+  compModel: "Hourly or in-house; EPA → private practice revolving door"
+  revPerPatientVisit: "$400-800/hr"
+  dailyWorkflow: "Permit compliance, CERCLA cleanups, enforcement defense, due diligence"
+  patientVolume: "10-20 matters"
+  supportStaffModel: "Environmental engineers, scientists, paralegals"
+  geographicDemandNotes: "Industrial areas, DC, energy hubs"
+  telehealthPotential: 6
+  genderDistribution: "~42% women"
+
+- name: "Privacy & Data Protection"
+  group: regulatory
+  residencyYears: 0
+  matchComp: 3
+  startSalary: 180
+  midSalary: 320
+  peakSalary: 500
+  partTimeFlex: 5
+  procedureMix: 3
+  callSchedule: 4
+  adminBurden: 5
+  hoursWeek: 52
+  burnout: 38
+  partTimeFeasibility: 5
+  vacation: 5
+  careerLongevity: 9
+  malpracticeFreq: 7
+  malpracticeCost: 5
+  geographicFlex: 7
+  automationRisk: 4
+  handsOnInsulation: 4
+  satisfaction: 72
+  chooseAgain: 65
+  intellectualStim: 9
+  varietyRepetition: 7
+  patientImpact: 7
+  physicalToll: 1
+  emotionalToll: 4
+  malpracticeLiability: 5
+  injuryCareerRisk: 3
+  fellowshipOptions: "CIPP/CIPM certifications; tech company in-house"
+  compModel: "Hourly or in-house CPO/DPO; GDPR/CCPA expertise commands premium"
+  revPerPatientVisit: "$500-1,000/hr"
+  dailyWorkflow: "Data breach response, privacy policies, GDPR/CCPA compliance, vendor contracts"
+  patientVolume: "15-30 matters"
+  supportStaffModel: "Associates, privacy analysts, IT security teams"
+  geographicDemandNotes: "Everywhere — especially tech hubs and in-house"
+  telehealthPotential: 9
+  genderDistribution: "~48% women"
+
+- name: "In-House Compliance Officer"
+  group: regulatory
+  residencyYears: 0
+  matchComp: 5
+  startSalary: 120
+  midSalary: 200
+  peakSalary: 400
+  partTimeFlex: 5
+  procedureMix: 2
+  callSchedule: 5
+  adminBurden: 7
+  hoursWeek: 45
+  burnout: 32
+  partTimeFeasibility: 5
+  vacation: 6
+  careerLongevity: 8
+  malpracticeFreq: 7
+  malpracticeCost: 3
+  geographicFlex: 6
+  automationRisk: 4
+  handsOnInsulation: 5
+  satisfaction: 68
+  chooseAgain: 60
+  intellectualStim: 6
+  varietyRepetition: 5
+  patientImpact: 5
+  physicalToll: 1
+  emotionalToll: 4
+  malpracticeLiability: 5
+  injuryCareerRisk: 3
+  fellowshipOptions: "CCO (Chief Compliance Officer) track; industry certifications"
+  compModel: "Salary + bonus; stock options at tech companies"
+  revPerPatientVisit: "N/A — salaried"
+  dailyWorkflow: "Policy development, training, investigations, regulatory liaison, risk assessment"
+  patientVolume: "Company-wide portfolio"
+  supportStaffModel: "Compliance team, auditors, legal department"
+  geographicDemandNotes: "Financial centers, tech hubs, any major industry"
+  telehealthPotential: 8
+  genderDistribution: "~48% women"
+
+# === EMPLOYMENT & LABOR (4) ===
+
+- name: "Employment Law (Management)"
+  group: employment
+  residencyYears: 0
+  matchComp: 5
+  startSalary: 130
+  midSalary: 240
+  peakSalary: 550
+  partTimeFlex: 5
+  procedureMix: 5
+  callSchedule: 5
+  adminBurden: 5
+  hoursWeek: 52
+  burnout: 40
+  partTimeFeasibility: 5
+  vacation: 5
+  careerLongevity: 8
+  malpracticeFreq: 5
+  malpracticeCost: 6
+  geographicFlex: 7
+  automationRisk: 5
+  handsOnInsulation: 5
+  satisfaction: 62
+  chooseAgain: 55
+  intellectualStim: 6
+  varietyRepetition: 6
+  patientImpact: 5
+  physicalToll: 1
+  emotionalToll: 5
+  malpracticeLiability: 5
+  injuryCareerRisk: 3
+  fellowshipOptions: "In-house HR/legal crossover; SHRM connections"
+  compModel: "Hourly; retainer relationships with employers"
+  revPerPatientVisit: "$400-800/hr"
+  dailyWorkflow: "Handbook drafting, discrimination defense, wage & hour, EEOC response"
+  patientVolume: "15-30 matters"
+  supportStaffModel: "Associates, HR consultants, paralegals"
+  geographicDemandNotes: "Everywhere — every company needs employment counsel"
+  telehealthPotential: 7
+  genderDistribution: "~48% women"
+
+- name: "Employment Law (Plaintiff)"
+  group: employment
+  residencyYears: 0
+  matchComp: 6
+  startSalary: 65
+  midSalary: 160
+  peakSalary: 500
+  partTimeFlex: 5
+  procedureMix: 7
+  callSchedule: 5
+  adminBurden: 5
+  hoursWeek: 48
+  burnout: 42
+  partTimeFeasibility: 5
+  vacation: 5
+  careerLongevity: 7
+  malpracticeFreq: 5
+  malpracticeCost: 5
+  geographicFlex: 7
+  automationRisk: 6
+  handsOnInsulation: 7
+  satisfaction: 68
+  chooseAgain: 60
+  intellectualStim: 7
+  varietyRepetition: 6
+  patientImpact: 9
+  physicalToll: 1
+  emotionalToll: 6
+  malpracticeLiability: 5
+  injuryCareerRisk: 3
+  fellowshipOptions: "Civil rights crossover; class action specialization"
+  compModel: "Contingency or hourly + fee-shifting; class actions = big payouts"
+  revPerPatientVisit: "Contingency or $300-600/hr"
+  dailyWorkflow: "Discrimination claims, harassment, wrongful termination, class actions"
+  patientVolume: "20-40 cases"
+  supportStaffModel: "Paralegals, intake staff"
+  geographicDemandNotes: "Everywhere — larger cities have more claims"
+  telehealthPotential: 6
+  genderDistribution: "~55% women"
+
+- name: "Labor Relations / Union Law"
+  group: employment
+  residencyYears: 0
+  matchComp: 5
+  startSalary: 80
+  midSalary: 150
+  peakSalary: 350
+  partTimeFlex: 4
+  procedureMix: 5
+  callSchedule: 5
+  adminBurden: 5
+  hoursWeek: 48
+  burnout: 38
+  partTimeFeasibility: 4
+  vacation: 5
+  careerLongevity: 7
+  malpracticeFreq: 7
+  malpracticeCost: 4
+  geographicFlex: 5
+  automationRisk: 7
+  handsOnInsulation: 8
+  satisfaction: 65
+  chooseAgain: 58
+  intellectualStim: 7
+  varietyRepetition: 6
+  patientImpact: 8
+  physicalToll: 1
+  emotionalToll: 5
+  malpracticeLiability: 5
+  injuryCareerRisk: 3
+  fellowshipOptions: "NLRB experience valued"
+  compModel: "Hourly or union-side salary; management-side pays more"
+  revPerPatientVisit: "$300-700/hr"
+  dailyWorkflow: "CBA negotiations, NLRB proceedings, grievance arbitration, strikes"
+  patientVolume: "5-15 matters + ongoing advisory"
+  supportStaffModel: "Paralegals, union reps"
+  geographicDemandNotes: "Industrial states, public sector — growing with union resurgence"
+  telehealthPotential: 5
+  genderDistribution: "~42% women"
+
+- name: "Employee Benefits / ERISA"
+  group: employment
+  residencyYears: 0
+  matchComp: 5
+  startSalary: 130
+  midSalary: 230
+  peakSalary: 500
+  partTimeFlex: 6
+  procedureMix: 2
+  callSchedule: 6
+  adminBurden: 6
+  hoursWeek: 48
+  burnout: 32
+  partTimeFeasibility: 6
+  vacation: 5
+  careerLongevity: 8
+  malpracticeFreq: 7
+  malpracticeCost: 5
+  geographicFlex: 7
+  automationRisk: 5
+  handsOnInsulation: 5
+  satisfaction: 65
+  chooseAgain: 58
+  intellectualStim: 7
+  varietyRepetition: 4
+  patientImpact: 5
+  physicalToll: 1
+  emotionalToll: 3
+  malpracticeLiability: 5
+  injuryCareerRisk: 3
+  fellowshipOptions: "LLM Tax; CPA crossover"
+  compModel: "Hourly; niche = job security; in-house benefits counsel"
+  revPerPatientVisit: "$400-800/hr"
+  dailyWorkflow: "401(k) plan design, ERISA compliance, DOL audits, health plan advisory"
+  patientVolume: "10-20 clients"
+  supportStaffModel: "Paralegals, actuaries, benefits consultants"
+  geographicDemandNotes: "Everywhere — every employer has benefit plans"
+  telehealthPotential: 8
+  genderDistribution: "~45% women"
+
+# === TECH LAW (4) ===
+
+- name: "Tech Transactions / SaaS Licensing"
+  group: tech_law
+  residencyYears: 0
+  matchComp: 3
+  startSalary: 190
+  midSalary: 320
+  peakSalary: 600
+  partTimeFlex: 5
+  procedureMix: 2
+  callSchedule: 4
+  adminBurden: 5
+  hoursWeek: 55
+  burnout: 40
+  partTimeFeasibility: 5
+  vacation: 5
+  careerLongevity: 8
+  malpracticeFreq: 7
+  malpracticeCost: 5
+  geographicFlex: 7
+  automationRisk: 4
+  handsOnInsulation: 4
+  satisfaction: 68
+  chooseAgain: 62
+  intellectualStim: 8
+  varietyRepetition: 6
+  patientImpact: 4
+  physicalToll: 1
+  emotionalToll: 4
+  malpracticeLiability: 5
+  injuryCareerRisk: 3
+  fellowshipOptions: "IP LLM; tech company in-house"
+  compModel: "Hourly or in-house; tech company stock compensation"
+  revPerPatientVisit: "$500-1,000/hr"
+  dailyWorkflow: "SaaS agreements, licensing, IP assignments, cloud contracts, MSAs"
+  patientVolume: "15-30 deals"
+  supportStaffModel: "Associates, contract managers, paralegals"
+  geographicDemandNotes: "SF, Seattle, Austin, NYC — tech hubs"
+  telehealthPotential: 9
+  genderDistribution: "~42% women"
+
+- name: "Cybersecurity Law"
+  group: tech_law
+  residencyYears: 0
+  matchComp: 3
+  startSalary: 170
+  midSalary: 300
+  peakSalary: 550
+  partTimeFlex: 4
+  procedureMix: 3
+  callSchedule: 3
+  adminBurden: 5
+  hoursWeek: 55
+  burnout: 42
+  partTimeFeasibility: 4
+  vacation: 4
+  careerLongevity: 9
+  malpracticeFreq: 7
+  malpracticeCost: 5
+  geographicFlex: 7
+  automationRisk: 4
+  handsOnInsulation: 5
+  satisfaction: 70
+  chooseAgain: 63
+  intellectualStim: 9
+  varietyRepetition: 7
+  patientImpact: 6
+  physicalToll: 1
+  emotionalToll: 5
+  malpracticeLiability: 5
+  injuryCareerRisk: 3
+  fellowshipOptions: "CISSP/CISM certs valued; incident response specialization"
+  compModel: "Hourly + breach retainer; premium for incident response"
+  revPerPatientVisit: "$500-1,200/hr (premium during breaches)"
+  dailyWorkflow: "Breach response, incident management, regulatory notification, vendor security"
+  patientVolume: "10-20 matters (spikes during breaches)"
+  supportStaffModel: "Forensics teams, IT security, paralegals"
+  geographicDemandNotes: "DC, SF, NYC — growing everywhere"
+  telehealthPotential: 8
+  genderDistribution: "~38% women"
+
+- name: "AI & Emerging Tech Law"
+  group: tech_law
+  residencyYears: 0
+  matchComp: 2
+  startSalary: 200
+  midSalary: 350
+  peakSalary: 700
+  partTimeFlex: 4
+  procedureMix: 3
+  callSchedule: 4
+  adminBurden: 4
+  hoursWeek: 55
+  burnout: 38
+  partTimeFeasibility: 4
+  vacation: 4
+  careerLongevity: 9
+  malpracticeFreq: 8
+  malpracticeCost: 5
+  geographicFlex: 7
+  automationRisk: 3
+  handsOnInsulation: 3
+  satisfaction: 75
+  chooseAgain: 68
+  intellectualStim: 10
+  varietyRepetition: 8
+  patientImpact: 7
+  physicalToll: 1
+  emotionalToll: 3
+  malpracticeLiability: 4
+  injuryCareerRisk: 3
+  fellowshipOptions: "Tech policy institutes; CS/ML background valued"
+  compModel: "Hourly or in-house; frontier field = premium rates"
+  revPerPatientVisit: "$600-1,200/hr"
+  dailyWorkflow: "AI governance frameworks, algorithmic bias audits, EU AI Act, model licensing"
+  patientVolume: "8-15 matters"
+  supportStaffModel: "Data scientists, policy analysts, associates"
+  geographicDemandNotes: "SF, DC, Brussels — wherever AI regulation happens"
+  telehealthPotential: 9
+  genderDistribution: "~40% women"
+
+- name: "FinTech / Crypto Law"
+  group: tech_law
+  residencyYears: 0
+  matchComp: 3
+  startSalary: 190
+  midSalary: 320
+  peakSalary: 650
+  partTimeFlex: 4
+  procedureMix: 3
+  callSchedule: 4
+  adminBurden: 5
+  hoursWeek: 55
+  burnout: 42
+  partTimeFeasibility: 4
+  vacation: 4
+  careerLongevity: 7
+  malpracticeFreq: 6
+  malpracticeCost: 8
+  geographicFlex: 6
+  automationRisk: 4
+  handsOnInsulation: 4
+  satisfaction: 68
+  chooseAgain: 60
+  intellectualStim: 9
+  varietyRepetition: 7
+  patientImpact: 4
+  physicalToll: 1
+  emotionalToll: 4
+  malpracticeLiability: 6
+  injuryCareerRisk: 4
+  fellowshipOptions: "SEC/CFTC experience; blockchain technical knowledge"
+  compModel: "Hourly or in-house; token compensation at startups"
+  revPerPatientVisit: "$500-1,200/hr"
+  dailyWorkflow: "Token offerings, SEC compliance, money transmitter licensing, DeFi governance"
+  patientVolume: "10-20 matters"
+  supportStaffModel: "Associates, compliance analysts"
+  geographicDemandNotes: "NYC, SF, Miami — crypto/fintech hubs"
+  telehealthPotential: 8
+  genderDistribution: "~30% women"
+
+# === ALTERNATIVE / JD ADVANTAGE (6 JD careers; paralegals + judge in separate files) ===
+
+- name: "Mediator / Arbitrator"
+  group: alternative
+  residencyYears: 0
+  matchComp: 5
+  startSalary: 80
+  midSalary: 160
+  peakSalary: 400
+  partTimeFlex: 8
+  procedureMix: 6
+  callSchedule: 7
+  adminBurden: 4
+  hoursWeek: 38
+  burnout: 22
+  partTimeFeasibility: 9
+  vacation: 7
+  careerLongevity: 10
+  malpracticeFreq: 8
+  malpracticeCost: 3
+  geographicFlex: 7
+  automationRisk: 7
+  handsOnInsulation: 8
+  satisfaction: 80
+  chooseAgain: 75
+  intellectualStim: 7
+  varietyRepetition: 7
+  patientImpact: 8
+  physicalToll: 1
+  emotionalToll: 4
+  malpracticeLiability: 6
+  injuryCareerRisk: 2
+  fellowshipOptions: "ADR certification; AAA/JAMS panels"
+  compModel: "Per-case or per-diem; senior mediators charge $5K-15K/day"
+  revPerPatientVisit: "$2,000-15,000/day"
+  dailyWorkflow: "Mediation sessions, arbitration hearings, settlement facilitation"
+  patientVolume: "3-8 cases/month"
+  supportStaffModel: "Case manager, minimal staff"
+  geographicDemandNotes: "Everywhere — growing as courts push ADR"
+  telehealthPotential: 8
+  genderDistribution: "~40% women"
+
+- name: "Law Professor / Academia"
+  group: alternative
+  residencyYears: 0
+  matchComp: 2
+  startSalary: 120
+  midSalary: 180
+  peakSalary: 300
+  partTimeFlex: 7
+  procedureMix: 2
+  callSchedule: 8
+  adminBurden: 5
+  hoursWeek: 45
+  burnout: 28
+  partTimeFeasibility: 6
+  vacation: 8
+  careerLongevity: 10
+  malpracticeFreq: 10
+  malpracticeCost: 1
+  geographicFlex: 4
+  automationRisk: 6
+  handsOnInsulation: 7
+  satisfaction: 82
+  chooseAgain: 78
+  intellectualStim: 10
+  varietyRepetition: 7
+  patientImpact: 7
+  physicalToll: 1
+  emotionalToll: 3
+  malpracticeLiability: 9
+  injuryCareerRisk: 2
+  fellowshipOptions: "SJD/PhD; VAP/fellowship before tenure-track; publications required"
+  compModel: "Salary + summer research; tenure security; consulting on side"
+  revPerPatientVisit: "N/A — salaried"
+  dailyWorkflow: "Teaching, research, writing, conferences, student advising"
+  patientVolume: "2-4 courses/semester"
+  supportStaffModel: "Research assistants, admin staff"
+  geographicDemandNotes: "200+ law schools — very limited openings"
+  telehealthPotential: 7
+  genderDistribution: "~42% women faculty"
+
+- name: "Management Consulting (JD)"
+  group: alternative
+  residencyYears: 0
+  matchComp: 2
+  startSalary: 190
+  midSalary: 350
+  peakSalary: 800
+  partTimeFlex: 3
+  procedureMix: 2
+  callSchedule: 3
+  adminBurden: 4
+  hoursWeek: 60
+  burnout: 50
+  partTimeFeasibility: 3
+  vacation: 4
+  careerLongevity: 6
+  malpracticeFreq: 9
+  malpracticeCost: 2
+  geographicFlex: 5
+  automationRisk: 5
+  handsOnInsulation: 4
+  satisfaction: 62
+  chooseAgain: 52
+  intellectualStim: 8
+  varietyRepetition: 8
+  patientImpact: 5
+  physicalToll: 3
+  emotionalToll: 5
+  malpracticeLiability: 7
+  injuryCareerRisk: 4
+  fellowshipOptions: "McKinsey, BCG, Bain actively recruit JDs"
+  compModel: "Salary + performance bonus; partner track similar to law"
+  revPerPatientVisit: "N/A — project-based billing"
+  dailyWorkflow: "Client strategy, industry research, presentations, team management"
+  patientVolume: "2-4 engagements/year"
+  supportStaffModel: "Analysts, associates, research teams"
+  geographicDemandNotes: "NYC, SF, Chicago, global offices"
+  telehealthPotential: 7
+  genderDistribution: "~40% women"
+
+- name: "Legal Tech / Legal Ops"
+  group: alternative
+  residencyYears: 0
+  matchComp: 4
+  startSalary: 130
+  midSalary: 220
+  peakSalary: 450
+  partTimeFlex: 6
+  procedureMix: 2
+  callSchedule: 6
+  adminBurden: 5
+  hoursWeek: 45
+  burnout: 30
+  partTimeFeasibility: 6
+  vacation: 6
+  careerLongevity: 9
+  malpracticeFreq: 9
+  malpracticeCost: 2
+  geographicFlex: 8
+  automationRisk: 3
+  handsOnInsulation: 3
+  satisfaction: 72
+  chooseAgain: 65
+  intellectualStim: 8
+  varietyRepetition: 7
+  patientImpact: 5
+  physicalToll: 1
+  emotionalToll: 3
+  malpracticeLiability: 8
+  injuryCareerRisk: 2
+  fellowshipOptions: "CLOC membership; tech skills valued (SQL, data analytics)"
+  compModel: "Salary + equity at startups; in-house legal ops at corporations"
+  revPerPatientVisit: "N/A — salaried or product revenue"
+  dailyWorkflow: "Process optimization, contract automation, vendor management, analytics"
+  patientVolume: "Portfolio management"
+  supportStaffModel: "Developers, project managers, analysts"
+  geographicDemandNotes: "Remote-friendly — tech hubs plus any large corporation"
+  telehealthPotential: 9
+  genderDistribution: "~45% women"
+
+- name: "FBI / Federal Agent (JD)"
+  group: alternative
+  residencyYears: 0
+  matchComp: 3
+  startSalary: 85
+  midSalary: 140
+  peakSalary: 200
+  partTimeFlex: 2
+  procedureMix: 7
+  callSchedule: 3
+  adminBurden: 5
+  hoursWeek: 52
+  burnout: 42
+  partTimeFeasibility: 2
+  vacation: 5
+  careerLongevity: 7
+  malpracticeFreq: 9
+  malpracticeCost: 0
+  geographicFlex: 3
+  automationRisk: 7
+  handsOnInsulation: 8
+  satisfaction: 72
+  chooseAgain: 65
+  intellectualStim: 8
+  varietyRepetition: 8
+  patientImpact: 9
+  physicalToll: 5
+  emotionalToll: 7
+  malpracticeLiability: 8
+  injuryCareerRisk: 5
+  fellowshipOptions: "FBI/DEA/ATF special agent; JD gives hiring advantage"
+  compModel: "GS scale + LEAP (25% premium); federal pension at 20yr"
+  revPerPatientVisit: "N/A — government salary"
+  dailyWorkflow: "Investigations, interviews, surveillance, court testimony, raids"
+  patientVolume: "5-15 cases"
+  supportStaffModel: "Intelligence analysts, forensic accountants, tech specialists"
+  geographicDemandNotes: "56 field offices nationwide — location assigned"
+  telehealthPotential: 2
+  genderDistribution: "~25% women agents"
+

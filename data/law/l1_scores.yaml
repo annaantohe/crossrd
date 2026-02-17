@@ -1,0 +1,506 @@
+# L1 profession-level category scores for law
+professions:
+  JD:
+    l1_only: {}
+    l1_data_points:
+      1:
+        scores: [5, 5, 5, 4]
+        count: 4
+        average: 4.75
+        labels:
+        - Years of undergrad required
+        - Test difficulty (LSAT/GRE)
+        - GPA expectations
+        - Extracurricular expectations
+        data_point_ids: [2, 4, 5, 6]
+      2:
+        scores: [4, 5]
+        count: 2
+        average: 4.5
+        labels:
+        - Acceptance rate (varies hugely by school rank)
+        - Career changers welcome?
+        data_point_ids: [10, 13]
+      3:
+        scores: [6, 4, 3]
+        count: 3
+        average: 4.33
+        labels:
+        - Duration of program (3 years)
+        - Practical experience timing (clinics, externships)
+        - Prestige matters for outcomes?
+        data_point_ids: [16, 18, 23]
+      4:
+        scores: [8, 7]
+        count: 2
+        average: 7.5
+        labels:
+        - Post-grad training required? (bar exam only, no residency)
+        - Total years to independent practice
+        data_point_ids: [24, 32]
+      5:
+        scores: [4, 4, 5, 5, 7]
+        count: 5
+        average: 5.0
+        labels:
+        - Average tuition (total program cost)
+        - Average debt at graduation ($165K avg)
+        - Debt-to-income ratio at career start
+        - Time to break even financially
+        - Opportunity cost (lost earning years)
+        data_point_ids: [33, 34, 35, 38, 40]
+      6:
+        scores: [9, 7, 10, 7, 8, 5]
+        count: 6
+        average: 7.67
+        labels:
+        - Legal scope (advise, litigate, represent)
+        - Scope variation by state (bar admission)
+        - Independent practice allowed
+        - Court access
+        - Ability to specialize/pivot
+        - Competition from non-lawyers
+        data_point_ids: [41, 42, 43, 44, 45, 46]
+      7:
+        scores: [7, 5]
+        count: 2
+        average: 6.0
+        labels:
+        - Practice ownership potential (solo/firm)
+        - Client billing trends
+        data_point_ids: [52, 53]
+      8:
+        scores: [5]
+        count: 1
+        average: 5.0
+        labels:
+        - Profession-level proxy score
+        data_point_ids: [null]
+      9:
+        scores: [4]
+        count: 1
+        average: 4.0
+        labels:
+        - Profession-level proxy score
+        data_point_ids: [null]
+      10:
+        scores: [5, 5, 5, 5]
+        count: 4
+        average: 5.0
+        labels:
+        - Current job market (oversupply concerns)
+        - Projected demand 10-20 years
+        - Impact of aging population
+        - Vulnerability to AI encroachment
+        data_point_ids: [71, 72, 74, 75]
+      11:
+        scores: [4, 5, 5]
+        count: 3
+        average: 4.67
+        labels:
+        - AI impact on legal research and drafting
+        - AI as tool vs replacement
+        - Timeline of disruption
+        data_point_ids: [77, 79, 80]
+      12:
+        scores: [7]
+        count: 1
+        average: 7.0
+        labels:
+        - Ease of pivoting to adjacent careers
+        data_point_ids: [91]
+      13:
+        scores: [5, 5, 4, 6]
+        count: 4
+        average: 5.0
+        labels:
+        - Pay equity (gender pay gap)
+        - Parental leave norms
+        - Culture / old guard dynamics
+        - Welcoming to non-traditional?
+        data_point_ids: [95, 96, 98, 100]
+      14:
+        scores: [5]
+        count: 1
+        average: 5.0
+        labels:
+        - Regulatory burden and trends (bar ethics)
+        data_point_ids: [104]
+  JD+Patent:
+    l1_only: {}
+    l1_data_points:
+      1:
+        scores: [4, 4, 3, 3]
+        count: 4
+        average: 3.5
+        labels:
+        - Years of undergrad required (STEM + pre-law)
+        - Test difficulty (LSAT + patent bar)
+        - GPA expectations
+        - Extracurricular expectations
+        data_point_ids: [2, 4, 5, 6]
+      2:
+        scores: [3, 4]
+        count: 2
+        average: 3.5
+        labels:
+        - Acceptance rate (need STEM degree + T14)
+        - Career changers welcome?
+        data_point_ids: [10, 13]
+      3:
+        scores: [6, 4, 3]
+        count: 3
+        average: 4.33
+        labels:
+        - Duration of program
+        - Practical experience timing
+        - Prestige matters for outcomes?
+        data_point_ids: [16, 18, 23]
+      4:
+        scores: [7, 7]
+        count: 2
+        average: 7.0
+        labels:
+        - Post-grad training (bar + patent bar)
+        - Total years to independent practice
+        data_point_ids: [24, 32]
+      5:
+        scores: [3, 3, 3, 4, 7]
+        count: 5
+        average: 4.0
+        labels:
+        - Average tuition
+        - Average debt at graduation
+        - Debt-to-income ratio (high starting pay)
+        - Time to break even financially
+        - Opportunity cost
+        data_point_ids: [33, 34, 35, 38, 40]
+      6:
+        scores: [8, 7, 10, 7, 6, 3]
+        count: 6
+        average: 6.83
+        labels:
+        - Legal scope
+        - Scope variation by state
+        - Independent practice allowed
+        - Court access
+        - Ability to specialize
+        - Competition from non-lawyers
+        data_point_ids: [41, 42, 43, 44, 45, 46]
+      7:
+        scores: [6, 6]
+        count: 2
+        average: 6.0
+        labels:
+        - Practice ownership potential
+        - Client billing trends
+        data_point_ids: [52, 53]
+      8:
+        scores: [6]
+        count: 1
+        average: 6.0
+        labels:
+        - Profession-level proxy score
+        data_point_ids: [null]
+      9:
+        scores: [5]
+        count: 1
+        average: 5.0
+        labels:
+        - Profession-level proxy score
+        data_point_ids: [null]
+      10:
+        scores: [7, 7, 5, 4]
+        count: 4
+        average: 5.75
+        labels:
+        - Current job market (high demand for STEM+law)
+        - Projected demand 10-20 years
+        - Impact of aging population
+        - Vulnerability to AI encroachment
+        data_point_ids: [71, 72, 74, 75]
+      11:
+        scores: [5, 6, 5]
+        count: 3
+        average: 5.33
+        labels:
+        - AI impact on patent work
+        - AI as tool vs replacement
+        - Timeline of disruption
+        data_point_ids: [77, 79, 80]
+      12:
+        scores: [6]
+        count: 1
+        average: 6.0
+        labels:
+        - Ease of pivoting to adjacent careers
+        data_point_ids: [91]
+      13:
+        scores: [5, 5, 5, 5]
+        count: 4
+        average: 5.0
+        labels:
+        - Pay equity
+        - Parental leave norms
+        - Culture / old guard dynamics
+        - Welcoming to non-traditional?
+        data_point_ids: [95, 96, 98, 100]
+      14:
+        scores: [4]
+        count: 1
+        average: 4.0
+        labels:
+        - Regulatory burden and trends
+        data_point_ids: [104]
+  Paralegal:
+    l1_only: {}
+    l1_data_points:
+      1:
+        scores: [8, 8, 7, 8]
+        count: 4
+        average: 7.75
+        labels:
+        - Years of education required (associate or certificate)
+        - Test difficulty (no standardized exam)
+        - GPA expectations (minimal)
+        - Extracurricular expectations
+        data_point_ids: [2, 4, 5, 6]
+      2:
+        scores: [8, 8]
+        count: 2
+        average: 8.0
+        labels:
+        - Acceptance rate (high)
+        - Career changers welcome? (very)
+        data_point_ids: [10, 13]
+      3:
+        scores: [8, 7, 9]
+        count: 3
+        average: 8.0
+        labels:
+        - Duration of program (1-2 years)
+        - Practical experience timing
+        - Prestige matters? (minimal)
+        data_point_ids: [16, 18, 23]
+      4:
+        scores: [9, 9]
+        count: 2
+        average: 9.0
+        labels:
+        - Post-grad training (none required)
+        - Total years to practice
+        data_point_ids: [24, 32]
+      5:
+        scores: [8, 8, 6, 7, 9]
+        count: 5
+        average: 7.6
+        labels:
+        - Average tuition (low)
+        - Average debt ($20-40K)
+        - Debt-to-income ratio
+        - Time to break even
+        - Opportunity cost (minimal)
+        data_point_ids: [33, 34, 35, 38, 40]
+      6:
+        scores: [3, 5, 1, 1, 3, 7]
+        count: 6
+        average: 3.33
+        labels:
+        - Legal scope (cannot give legal advice)
+        - Scope variation by state
+        - Independent practice (not allowed)
+        - Court access (limited)
+        - Ability to expand scope
+        - Competition from non-lawyers
+        data_point_ids: [41, 42, 43, 44, 45, 46]
+      7:
+        scores: [2, 5]
+        count: 2
+        average: 3.5
+        labels:
+        - Practice ownership potential (none)
+        - Client billing trends
+        data_point_ids: [52, 53]
+      8:
+        scores: [6]
+        count: 1
+        average: 6.0
+        labels:
+        - Profession-level proxy score
+        data_point_ids: [null]
+      9:
+        scores: [7]
+        count: 1
+        average: 7.0
+        labels:
+        - Profession-level proxy score
+        data_point_ids: [null]
+      10:
+        scores: [7, 7, 5, 6]
+        count: 4
+        average: 6.25
+        labels:
+        - Current job market (solid demand)
+        - Projected demand 10-20 years
+        - Impact of aging population
+        - Vulnerability to AI encroachment
+        data_point_ids: [71, 72, 74, 75]
+      11:
+        scores: [3, 3, 3]
+        count: 3
+        average: 3.0
+        labels:
+        - AI impact on paralegal work (high exposure)
+        - AI as tool vs replacement
+        - Timeline of disruption
+        data_point_ids: [77, 79, 80]
+      12:
+        scores: [5]
+        count: 1
+        average: 5.0
+        labels:
+        - Ease of pivoting to adjacent careers
+        data_point_ids: [91]
+      13:
+        scores: [6, 6, 7, 7]
+        count: 4
+        average: 6.5
+        labels:
+        - Pay equity
+        - Parental leave norms
+        - Culture
+        - Welcoming to non-traditional?
+        data_point_ids: [95, 96, 98, 100]
+      14:
+        scores: [7]
+        count: 1
+        average: 7.0
+        labels:
+        - Regulatory burden (low)
+        data_point_ids: [104]
+  Judge:
+    l1_only: {}
+    l1_data_points:
+      1:
+        scores: [5, 5, 5, 4]
+        count: 4
+        average: 4.75
+        labels:
+        - Years of undergrad required
+        - Test difficulty (LSAT)
+        - GPA expectations
+        - Extracurricular expectations
+        data_point_ids: [2, 4, 5, 6]
+      2:
+        scores: [2, 2]
+        count: 2
+        average: 2.0
+        labels:
+        - Acceptance rate (appointment/election, extremely selective)
+        - Career changers welcome?
+        data_point_ids: [10, 13]
+      3:
+        scores: [6, 4, 2]
+        count: 3
+        average: 4.0
+        labels:
+        - Duration of program (3yr law school + years of practice)
+        - Practical experience timing
+        - Prestige matters for outcomes? (very much)
+        data_point_ids: [16, 18, 23]
+      4:
+        scores: [2, 2]
+        count: 2
+        average: 2.0
+        labels:
+        - Post-grad path (10-20yr practice before appointment)
+        - Total years to independent role
+        data_point_ids: [24, 32]
+      5:
+        scores: [5, 5, 6, 5, 3]
+        count: 5
+        average: 4.8
+        labels:
+        - Average tuition
+        - Average debt
+        - Debt-to-income ratio
+        - Time to break even
+        - Opportunity cost (very long path)
+        data_point_ids: [33, 34, 35, 38, 40]
+      6:
+        scores: [10, 10, 10, 10, 3, 3]
+        count: 6
+        average: 7.67
+        labels:
+        - Legal scope (ultimate authority)
+        - Scope variation by jurisdiction
+        - Independent (by design)
+        - Court access (IS the court)
+        - Ability to specialize
+        - Political dynamics
+        data_point_ids: [41, 42, 43, 44, 45, 46]
+      7:
+        scores: [1, 8]
+        count: 2
+        average: 4.5
+        labels:
+        - Practice ownership potential (none, govt salary)
+        - Salary stability trends
+        data_point_ids: [52, 53]
+      8:
+        scores: [7]
+        count: 1
+        average: 7.0
+        labels:
+        - Profession-level proxy score
+        data_point_ids: [null]
+      9:
+        scores: [8]
+        count: 1
+        average: 8.0
+        labels:
+        - Profession-level proxy score
+        data_point_ids: [null]
+      10:
+        scores: [3, 3, 5, 9]
+        count: 4
+        average: 5.0
+        labels:
+        - Current job market (very few openings)
+        - Projected demand
+        - Impact of aging population
+        - Vulnerability to encroachment (none)
+        data_point_ids: [71, 72, 74, 75]
+      11:
+        scores: [9, 9, 9]
+        count: 3
+        average: 9.0
+        labels:
+        - AI impact on judicial role (minimal)
+        - AI as tool vs replacement
+        - Timeline of disruption
+        data_point_ids: [77, 79, 80]
+      12:
+        scores: [3]
+        count: 1
+        average: 3.0
+        labels:
+        - Ease of pivoting (limited once appointed)
+        data_point_ids: [91]
+      13:
+        scores: [6, 7, 4, 4]
+        count: 4
+        average: 5.25
+        labels:
+        - Pay equity
+        - Work-family balance
+        - Culture / prestige dynamics
+        - Welcoming to non-traditional?
+        data_point_ids: [95, 96, 98, 100]
+      14:
+        scores: [8]
+        count: 1
+        average: 8.0
+        labels:
+        - Regulatory burden (ethics rules, recusal, etc.)
+        data_point_ids: [104]

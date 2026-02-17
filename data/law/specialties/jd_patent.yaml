@@ -1,0 +1,83 @@
+# JD+Patent specialties — 2 careers (require STEM undergrad + patent bar)
+profession: JD+Patent
+specialties:
+
+- name: "Patent Prosecution"
+  group: ip
+  residencyYears: 0
+  matchComp: 4
+  startSalary: 200
+  midSalary: 350
+  peakSalary: 600
+  partTimeFlex: 6
+  procedureMix: 1
+  callSchedule: 7
+  adminBurden: 5
+  hoursWeek: 48
+  burnout: 32
+  partTimeFeasibility: 7
+  vacation: 5
+  careerLongevity: 9
+  malpracticeFreq: 7
+  malpracticeCost: 6
+  geographicFlex: 8
+  automationRisk: 5
+  handsOnInsulation: 7
+  satisfaction: 72
+  chooseAgain: 68
+  intellectualStim: 8
+  varietyRepetition: 4
+  patientImpact: 4
+  physicalToll: 1
+  emotionalToll: 3
+  malpracticeLiability: 5
+  injuryCareerRisk: 2
+  fellowshipOptions: "LLM in IP; patent agent → attorney upgrade"
+  compModel: "Salary + billing bonus at firms; in-house stock/options common"
+  revPerPatientVisit: "$400-700/hr; $10K-20K per patent application"
+  dailyWorkflow: "Drafting patent applications, responding to USPTO office actions, prior art searches, client invention disclosures"
+  patientVolume: "15-30 active patent applications"
+  supportStaffModel: "Patent paralegals, docketing staff, technical illustrators"
+  geographicDemandNotes: "Fully remote-friendly — Silicon Valley, Boston, DC, Research Triangle"
+  telehealthPotential: 9
+  genderDistribution: "~30% women (higher than litigation IP)"
+
+- name: "Patent Litigation"
+  group: ip
+  residencyYears: 0
+  matchComp: 3
+  startSalary: 225
+  midSalary: 400
+  peakSalary: 1000
+  partTimeFlex: 3
+  procedureMix: 7
+  callSchedule: 3
+  adminBurden: 5
+  hoursWeek: 58
+  burnout: 42
+  partTimeFeasibility: 3
+  vacation: 4
+  careerLongevity: 7
+  malpracticeFreq: 7
+  malpracticeCost: 10
+  geographicFlex: 5
+  automationRisk: 6
+  handsOnInsulation: 7
+  satisfaction: 70
+  chooseAgain: 65
+  intellectualStim: 9
+  varietyRepetition: 7
+  patientImpact: 4
+  physicalToll: 2
+  emotionalToll: 5
+  malpracticeLiability: 6
+  injuryCareerRisk: 3
+  fellowshipOptions: "LLM in IP; ITC practice specialty"
+  compModel: "Big Law lockstep + bonus; contingency for plaintiff-side firms"
+  revPerPatientVisit: "$800-1,500/hr; cases worth $10M-1B+"
+  dailyWorkflow: "Claim construction analysis, expert depositions, Markman hearings, trial prep, ITC investigations"
+  patientVolume: "3-8 active cases"
+  supportStaffModel: "Associates, patent paralegals, technical experts, e-discovery teams"
+  geographicDemandNotes: "DC (Federal Circuit), Delaware, East Texas, Northern California"
+  telehealthPotential: 6
+  genderDistribution: "~25% women partners"

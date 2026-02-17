@@ -1,0 +1,6365 @@
+{
+  "meta": {
+    "profession_family": "law",
+    "family_name": "Law",
+    "headline": "Which Legal Career Should You Choose?",
+    "subtitle": "A Data-Driven Guide",
+    "icon": "\u2696\ufe0f",
+    "last_updated": "2026-02-17",
+    "total_tracks": 61,
+    "data_points": 107,
+    "source_file": "yaml"
+  },
+  "professions": {
+    "JD": {
+      "label": "Attorney",
+      "color": "#C62828",
+      "track_count": 55
+    },
+    "JD+Patent": {
+      "label": "Patent Attorney",
+      "color": "#1565C0",
+      "track_count": 2
+    },
+    "Paralegal": {
+      "label": "Paralegal",
+      "color": "#2E7D32",
+      "track_count": 3
+    },
+    "Judge": {
+      "label": "Judge",
+      "color": "#6A1B9A",
+      "track_count": 1
+    }
+  },
+  "groups": {
+    "big_law": {
+      "label": "Big Law / Corporate",
+      "icon": "\ud83c\udfe2",
+      "tagline": "you want to make deals and big money",
+      "description": "Top-firm transactional and advisory work",
+      "count": 7,
+      "salary_range": [
+        1200,
+        2500
+      ]
+    },
+    "litigation": {
+      "label": "Litigation",
+      "icon": "\u2696\ufe0f",
+      "tagline": "you want to fight and win",
+      "description": "Trial lawyers, commercial disputes, appeals",
+      "count": 6,
+      "salary_range": [
+        800,
+        2000
+      ]
+    },
+    "criminal": {
+      "label": "Criminal Law",
+      "icon": "\ud83d\udd12",
+      "tagline": "you want justice served",
+      "description": "Prosecution, defense, and criminal justice",
+      "count": 4,
+      "salary_range": [
+        140,
+        500
+      ]
+    },
+    "ip": {
+      "label": "Intellectual Property",
+      "icon": "\ud83d\udca1",
+      "tagline": "you want to protect ideas",
+      "description": "Patents, trademarks, copyrights, trade secrets",
+      "count": 5,
+      "salary_range": [
+        600,
+        1000
+      ]
+    },
+    "government": {
+      "label": "Government & Public Interest",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "tagline": "you want to change the world",
+      "description": "Government agencies, nonprofits, civil rights",
+      "count": 6,
+      "salary_range": [
+        120,
+        200
+      ]
+    },
+    "family": {
+      "label": "People & Family",
+      "icon": "\ud83d\udc68\u200d\ud83d\udc69\u200d\ud83d\udc67",
+      "tagline": "you want to help real people through life",
+      "description": "Family law, estate planning, immigration, injury",
+      "count": 7,
+      "salary_range": [
+        220,
+        900
+      ]
+    },
+    "real_estate": {
+      "label": "Real Estate",
+      "icon": "\ud83c\udfd7\ufe0f",
+      "tagline": "you want to build empires",
+      "description": "Real estate transactions, land use, development",
+      "count": 4,
+      "salary_range": [
+        400,
+        600
+      ]
+    },
+    "regulatory": {
+      "label": "Regulatory & Compliance",
+      "icon": "\ud83d\udccb",
+      "tagline": "you want to know every rule",
+      "description": "Healthcare, financial, and environmental regulation",
+      "count": 5,
+      "salary_range": [
+        400,
+        600
+      ]
+    },
+    "employment": {
+      "label": "Employment & Labor",
+      "icon": "\ud83d\udc54",
+      "tagline": "you want to shape the workplace",
+      "description": "Workplace rights, union law, benefits",
+      "count": 4,
+      "salary_range": [
+        350,
+        550
+      ]
+    },
+    "tech_law": {
+      "label": "Tech Law",
+      "icon": "\ud83d\udda5\ufe0f",
+      "tagline": "you want law meets Silicon Valley",
+      "description": "Privacy, AI regulation, fintech, cybersecurity",
+      "count": 4,
+      "salary_range": [
+        550,
+        700
+      ]
+    },
+    "alternative": {
+      "label": "Alternative / JD Advantage",
+      "icon": "\ud83d\ude80",
+      "tagline": "law degree, no courtroom",
+      "description": "Consulting, compliance, legal ops, paralegal, judiciary",
+      "count": 9,
+      "salary_range": [
+        90,
+        800
+      ]
+    }
+  },
+  "careers": [
+    {
+      "key": "ma",
+      "name": "M&A Attorney",
+      "color": "#B71C1C",
+      "path": "Attorney",
+      "group": "big_law"
+    },
+    {
+      "key": "securities_capital_marke",
+      "name": "Securities & Capital Markets",
+      "color": "#bb3838",
+      "path": "Attorney",
+      "group": "big_law"
+    },
+    {
+      "key": "private_equity_vc_law",
+      "name": "Private Equity / VC Law",
+      "color": "#d0472a",
+      "path": "Attorney",
+      "group": "big_law"
+    },
+    {
+      "key": "banking_finance_law",
+      "name": "Banking & Finance Law",
+      "color": "#bb551c",
+      "path": "Attorney",
+      "group": "big_law"
+    },
+    {
+      "key": "tax_attorney_transaction",
+      "name": "Tax Attorney (Transactional)",
+      "color": "#d08d3e",
+      "path": "Attorney",
+      "group": "big_law"
+    },
+    {
+      "key": "corporate_governance",
+      "name": "Corporate Governance",
+      "color": "#bb9125",
+      "path": "Attorney",
+      "group": "big_law"
+    },
+    {
+      "key": "restructuring_bankruptcy",
+      "name": "Restructuring / Bankruptcy",
+      "color": "#d0be1f",
+      "path": "Attorney",
+      "group": "big_law"
+    },
+    {
+      "key": "commercial_lit",
+      "name": "Commercial Litigation (Big Law)",
+      "color": "#0D47A1",
+      "path": "Attorney",
+      "group": "litigation"
+    },
+    {
+      "key": "white_collar_criminal_de",
+      "name": "White Collar Criminal Defense",
+      "color": "#b1bb38",
+      "path": "Attorney",
+      "group": "litigation"
+    },
+    {
+      "key": "class_action_mass_tort",
+      "name": "Class Action / Mass Tort",
+      "color": "#a5d02a",
+      "path": "Attorney",
+      "group": "litigation"
+    },
+    {
+      "key": "product_liability_defens",
+      "name": "Product Liability Defense",
+      "color": "#75bb1c",
+      "path": "Attorney",
+      "group": "litigation"
+    },
+    {
+      "key": "appellate_litigation",
+      "name": "Appellate Litigation",
+      "color": "#76d03e",
+      "path": "Attorney",
+      "group": "litigation"
+    },
+    {
+      "key": "international_arbitratio",
+      "name": "International Arbitration",
+      "color": "#43bb25",
+      "path": "Attorney",
+      "group": "litigation"
+    },
+    {
+      "key": "prosecutor",
+      "name": "Prosecutor (DA/ADA)",
+      "color": "#1B5E20",
+      "path": "Attorney",
+      "group": "criminal"
+    },
+    {
+      "key": "federal_prosecutor_doj_a",
+      "name": "Federal Prosecutor (DOJ/AUSA)",
+      "color": "#22d01f",
+      "path": "Attorney",
+      "group": "criminal"
+    },
+    {
+      "key": "public_defender",
+      "name": "Public Defender",
+      "color": "#38bb4d",
+      "path": "Attorney",
+      "group": "criminal"
+    },
+    {
+      "key": "criminal_defense_private",
+      "name": "Criminal Defense (Private)",
+      "color": "#2ad062",
+      "path": "Attorney",
+      "group": "criminal"
+    },
+    {
+      "key": "trademark_brand_law",
+      "name": "Trademark & Brand Law",
+      "color": "#1cbb6f",
+      "path": "Attorney",
+      "group": "ip"
+    },
+    {
+      "key": "copyright_entertainment_",
+      "name": "Copyright / Entertainment Law",
+      "color": "#3ed0a4",
+      "path": "Attorney",
+      "group": "ip"
+    },
+    {
+      "key": "trade_secrets",
+      "name": "Trade Secrets",
+      "color": "#25bba9",
+      "path": "Attorney",
+      "group": "ip"
+    },
+    {
+      "key": "civil_rights_constitutio",
+      "name": "Civil Rights / Constitutional Law",
+      "color": "#1fc5d0",
+      "path": "Attorney",
+      "group": "government"
+    },
+    {
+      "key": "legal_aid_poverty_law",
+      "name": "Legal Aid / Poverty Law",
+      "color": "#389cbb",
+      "path": "Attorney",
+      "group": "government"
+    },
+    {
+      "key": "environmental_law_nonpro",
+      "name": "Environmental Law (Nonprofit)",
+      "color": "#2a8ad0",
+      "path": "Attorney",
+      "group": "government"
+    },
+    {
+      "key": "immigration_law_gov_nonp",
+      "name": "Immigration Law (Gov/Nonprofit)",
+      "color": "#1c5cbb",
+      "path": "Attorney",
+      "group": "government"
+    },
+    {
+      "key": "policy_legislative_couns",
+      "name": "Policy / Legislative Counsel",
+      "color": "#3e5ed0",
+      "path": "Attorney",
+      "group": "government"
+    },
+    {
+      "key": "military_jag",
+      "name": "Military JAG",
+      "color": "#252bbb",
+      "path": "Attorney",
+      "group": "government"
+    },
+    {
+      "key": "family_law",
+      "name": "Family Law / Divorce",
+      "color": "#AD1457",
+      "path": "Attorney",
+      "group": "family"
+    },
+    {
+      "key": "estate_planning_trusts_w",
+      "name": "Estate Planning / Trusts & Wills",
+      "color": "#381fd0",
+      "path": "Attorney",
+      "group": "family"
+    },
+    {
+      "key": "elder_law",
+      "name": "Elder Law",
+      "color": "#6238bb",
+      "path": "Attorney",
+      "group": "family"
+    },
+    {
+      "key": "immigration_law_private",
+      "name": "Immigration Law (Private)",
+      "color": "#7d2ad0",
+      "path": "Attorney",
+      "group": "family"
+    },
+    {
+      "key": "pi",
+      "name": "Personal Injury (Plaintiff)",
+      "color": "#E65100",
+      "path": "Attorney",
+      "group": "family"
+    },
+    {
+      "key": "medical_malpractice_plai",
+      "name": "Medical Malpractice (Plaintiff)",
+      "color": "#881cbb",
+      "path": "Attorney",
+      "group": "family"
+    },
+    {
+      "key": "workers_compensation",
+      "name": "Workers' Compensation",
+      "color": "#bb3ed0",
+      "path": "Attorney",
+      "group": "family"
+    },
+    {
+      "key": "real_estate_transactiona",
+      "name": "Real Estate Transactional",
+      "color": "#bb25b5",
+      "path": "Attorney",
+      "group": "real_estate"
+    },
+    {
+      "key": "real_estate_litigation",
+      "name": "Real Estate Litigation",
+      "color": "#d01fa9",
+      "path": "Attorney",
+      "group": "real_estate"
+    },
+    {
+      "key": "land_use_zoning",
+      "name": "Land Use / Zoning",
+      "color": "#bb3887",
+      "path": "Attorney",
+      "group": "real_estate"
+    },
+    {
+      "key": "construction_law",
+      "name": "Construction Law",
+      "color": "#d02a6f",
+      "path": "Attorney",
+      "group": "real_estate"
+    },
+    {
+      "key": "healthcare_regulatory",
+      "name": "Healthcare Regulatory",
+      "color": "#bb1c42",
+      "path": "Attorney",
+      "group": "regulatory"
+    },
+    {
+      "key": "financial_regulatory_sec",
+      "name": "Financial Regulatory (SEC/FINRA)",
+      "color": "#d03e47",
+      "path": "Attorney",
+      "group": "regulatory"
+    },
+    {
+      "key": "environmental_regulatory",
+      "name": "Environmental Regulatory (EPA)",
+      "color": "#bb3725",
+      "path": "Attorney",
+      "group": "regulatory"
+    },
+    {
+      "key": "privacy",
+      "name": "Privacy & Data Protection",
+      "color": "#4A148C",
+      "path": "Attorney",
+      "group": "regulatory"
+    },
+    {
+      "key": "in_house_compliance_offi",
+      "name": "In-House Compliance Officer",
+      "color": "#d0541f",
+      "path": "Attorney",
+      "group": "regulatory"
+    },
+    {
+      "key": "employment_law_managemen",
+      "name": "Employment Law (Management)",
+      "color": "#bb7738",
+      "path": "Attorney",
+      "group": "employment"
+    },
+    {
+      "key": "employment_law_plaintiff",
+      "name": "Employment Law (Plaintiff)",
+      "color": "#d0972a",
+      "path": "Attorney",
+      "group": "employment"
+    },
+    {
+      "key": "labor_relations_union_la",
+      "name": "Labor Relations / Union Law",
+      "color": "#bba21c",
+      "path": "Attorney",
+      "group": "employment"
+    },
+    {
+      "key": "employee_benefits_erisa",
+      "name": "Employee Benefits / ERISA",
+      "color": "#cdd03e",
+      "path": "Attorney",
+      "group": "employment"
+    },
+    {
+      "key": "tech_transactions_saas_l",
+      "name": "Tech Transactions / SaaS Licensing",
+      "color": "#9dbb25",
+      "path": "Attorney",
+      "group": "tech_law"
+    },
+    {
+      "key": "cybersecurity_law",
+      "name": "Cybersecurity Law",
+      "color": "#8cd01f",
+      "path": "Attorney",
+      "group": "tech_law"
+    },
+    {
+      "key": "ai_emerging_tech_law",
+      "name": "AI & Emerging Tech Law",
+      "color": "#72bb38",
+      "path": "Attorney",
+      "group": "tech_law"
+    },
+    {
+      "key": "fintech_crypto_law",
+      "name": "FinTech / Crypto Law",
+      "color": "#55d02a",
+      "path": "Attorney",
+      "group": "tech_law"
+    },
+    {
+      "key": "mediator_arbitrator",
+      "name": "Mediator / Arbitrator",
+      "color": "#28bb1c",
+      "path": "Attorney",
+      "group": "alternative"
+    },
+    {
+      "key": "law_professor_academia",
+      "name": "Law Professor / Academia",
+      "color": "#3ed04d",
+      "path": "Attorney",
+      "group": "alternative"
+    },
+    {
+      "key": "management_consulting_jd",
+      "name": "Management Consulting (JD)",
+      "color": "#25bb4f",
+      "path": "Attorney",
+      "group": "alternative"
+    },
+    {
+      "key": "legal_tech_legal_ops",
+      "name": "Legal Tech / Legal Ops",
+      "color": "#1fd070",
+      "path": "Attorney",
+      "group": "alternative"
+    },
+    {
+      "key": "fbi_federal_agent_jd",
+      "name": "FBI / Federal Agent (JD)",
+      "color": "#38bb8c",
+      "path": "Attorney",
+      "group": "alternative"
+    },
+    {
+      "key": "patent_pros",
+      "name": "Patent Prosecution",
+      "color": "#0D47A1",
+      "path": "Patent Attorney",
+      "group": "ip"
+    },
+    {
+      "key": "patent_litigation",
+      "name": "Patent Litigation",
+      "color": "#2669b5",
+      "path": "Patent Attorney",
+      "group": "ip"
+    },
+    {
+      "key": "judge_track_clerk_judge",
+      "name": "Judge Track (Clerk \u2192 Judge)",
+      "color": "#68278f",
+      "path": "Judge",
+      "group": "alternative"
+    },
+    {
+      "key": "litigation_paralegal",
+      "name": "Litigation Paralegal",
+      "color": "#357238",
+      "path": "Paralegal",
+      "group": "alternative"
+    },
+    {
+      "key": "corporate_paralegal",
+      "name": "Corporate Paralegal",
+      "color": "#318745",
+      "path": "Paralegal",
+      "group": "alternative"
+    },
+    {
+      "key": "ip_paralegal",
+      "name": "IP Paralegal",
+      "color": "#1e7241",
+      "path": "Paralegal",
+      "group": "alternative"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Pre-Professional Phase",
+      "weight_default": 7,
+      "description": "How hard is it to start?"
+    },
+    {
+      "id": 2,
+      "name": "Admissions Competitiveness",
+      "weight_default": 7,
+      "description": "Can you realistically get in?"
+    },
+    {
+      "id": 3,
+      "name": "Professional School",
+      "weight_default": 5,
+      "description": "What's the school experience like?"
+    },
+    {
+      "id": 4,
+      "name": "Post-Graduate Training",
+      "weight_default": 8,
+      "description": "How long/hard is the road after school?"
+    },
+    {
+      "id": 5,
+      "name": "Financial Picture",
+      "weight_default": 10,
+      "description": "Cost, debt, time to financial freedom"
+    },
+    {
+      "id": 6,
+      "name": "Scope of Practice & Autonomy",
+      "weight_default": 8,
+      "description": "What can you do independently?"
+    },
+    {
+      "id": 7,
+      "name": "Career Economics",
+      "weight_default": 12,
+      "description": "How much do you earn over a career?"
+    },
+    {
+      "id": 8,
+      "name": "Daily Life & Practice Reality",
+      "weight_default": 8,
+      "description": "What does the work feel like?"
+    },
+    {
+      "id": 9,
+      "name": "Lifestyle & Work-Life Balance",
+      "weight_default": 10,
+      "description": "Can you have a life outside work?"
+    },
+    {
+      "id": 10,
+      "name": "Job Market & Demand",
+      "weight_default": 5,
+      "description": "Will you find work?"
+    },
+    {
+      "id": 11,
+      "name": "AI Revolution Impact",
+      "weight_default": 7,
+      "description": "How future-proof is this career?"
+    },
+    {
+      "id": 12,
+      "name": "Professional Satisfaction",
+      "weight_default": 8,
+      "description": "Will you enjoy this long-term?"
+    },
+    {
+      "id": 13,
+      "name": "Demographics & Culture",
+      "weight_default": 3,
+      "description": "Culture fit?"
+    },
+    {
+      "id": 14,
+      "name": "Risk Factors & Downsides",
+      "weight_default": 5,
+      "description": "Hidden costs and dangers"
+    }
+  ],
+  "scenario_profiles": {
+    "default": {
+      "1": 7,
+      "2": 7,
+      "3": 5,
+      "4": 8,
+      "5": 10,
+      "6": 8,
+      "7": 12,
+      "8": 8,
+      "9": 10,
+      "10": 5,
+      "11": 7,
+      "12": 8,
+      "13": 3,
+      "14": 5
+    },
+    "equal_weight": {
+      "1": 7,
+      "2": 7,
+      "3": 7,
+      "4": 7,
+      "5": 7,
+      "6": 7,
+      "7": 7,
+      "8": 7,
+      "9": 7,
+      "10": 7,
+      "11": 7,
+      "12": 7,
+      "13": 8,
+      "14": 8
+    },
+    "max_earnings": {
+      "1": 3,
+      "2": 3,
+      "3": 3,
+      "4": 5,
+      "5": 20,
+      "6": 8,
+      "7": 25,
+      "8": 5,
+      "9": 5,
+      "10": 8,
+      "11": 5,
+      "12": 5,
+      "13": 3,
+      "14": 2
+    },
+    "best_lifestyle": {
+      "1": 5,
+      "2": 5,
+      "3": 5,
+      "4": 8,
+      "5": 8,
+      "6": 5,
+      "7": 8,
+      "8": 12,
+      "9": 20,
+      "10": 5,
+      "11": 5,
+      "12": 10,
+      "13": 2,
+      "14": 2
+    },
+    "fastest_to_practice": {
+      "1": 12,
+      "2": 12,
+      "3": 12,
+      "4": 15,
+      "5": 12,
+      "6": 3,
+      "7": 5,
+      "8": 3,
+      "9": 5,
+      "10": 5,
+      "11": 3,
+      "12": 5,
+      "13": 5,
+      "14": 3
+    },
+    "most_procedural": {
+      "1": 5,
+      "2": 5,
+      "3": 5,
+      "4": 5,
+      "5": 5,
+      "6": 15,
+      "7": 5,
+      "8": 20,
+      "9": 5,
+      "10": 5,
+      "11": 5,
+      "12": 15,
+      "13": 3,
+      "14": 2
+    }
+  },
+  "tracks": [
+    {
+      "name": "M&A Attorney",
+      "key": "ma",
+      "profession": "JD",
+      "group": "big_law",
+      "color": "#B71C1C",
+      "path": "Attorney",
+      "raw_data": {
+        "startSalary": 225,
+        "midSalary": 400,
+        "peakSalary": 2000,
+        "hoursWeek": 70,
+        "burnout": 58,
+        "satisfaction": 58,
+        "chooseAgain": 50,
+        "malpracticeCost": 8,
+        "vacation": 3,
+        "matchComp": 2,
+        "callSchedule": 2,
+        "physicalToll": 3,
+        "emotionalToll": 6
+      },
+      "scores": {
+        "category_1": 4.75,
+        "category_2": 3.67,
+        "category_3": 4.33,
+        "category_4": 5.67,
+        "category_5": 6.14,
+        "category_6": 6.86,
+        "category_7": 7.0,
+        "category_8": 3.75,
+        "category_9": 2.78,
+        "category_10": 4.6,
+        "category_11": 4.6,
+        "category_12": 5.25,
+        "category_13": 5.0,
+        "category_14": 5.69
+      },
+      "scenario_totals": {
+        "default": 5.25,
+        "equal_weight": 5.01,
+        "max_earnings": 5.64,
+        "best_lifestyle": 4.69,
+        "fastest_to_practice": 4.98,
+        "most_procedural": 5.01
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 35,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 55,
+        "prof_school_years": 3,
+        "trainee_salary": 0,
+        "education_debt": 200,
+        "loan_rate": 7.0,
+        "living_expenses": 48,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 3,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 25,
+        "starting_salary": 225,
+        "mid_salary": 400,
+        "peak_salary": 2000,
+        "malpractice_per_yr": 8
+      },
+      "stress": {
+        "ai": 5,
+        "pay": 4,
+        "injury": 6,
+        "match": 5
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          25
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 25,
+        "startSalary": 225
+      }
+    },
+    {
+      "name": "Securities & Capital Markets",
+      "key": "securities_capital_marke",
+      "profession": "JD",
+      "group": "big_law",
+      "color": "#bb3838",
+      "path": "Attorney",
+      "raw_data": {
+        "startSalary": 225,
+        "midSalary": 380,
+        "peakSalary": 1800,
+        "hoursWeek": 68,
+        "burnout": 55,
+        "satisfaction": 55,
+        "chooseAgain": 48,
+        "malpracticeCost": 10,
+        "vacation": 3,
+        "matchComp": 2,
+        "callSchedule": 2,
+        "physicalToll": 3,
+        "emotionalToll": 6
+      },
+      "scores": {
+        "category_1": 4.75,
+        "category_2": 3.67,
+        "category_3": 4.33,
+        "category_4": 5.67,
+        "category_5": 6.07,
+        "category_6": 6.86,
+        "category_7": 6.78,
+        "category_8": 4.1,
+        "category_9": 2.98,
+        "category_10": 4.6,
+        "category_11": 4.6,
+        "category_12": 4.6,
+        "category_13": 5.0,
+        "category_14": 5.74
+      },
+      "scenario_totals": {
+        "default": 5.21,
+        "equal_weight": 4.99,
+        "max_earnings": 5.57,
+        "best_lifestyle": 4.68,
+        "fastest_to_practice": 4.95,
+        "most_procedural": 4.98
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 35,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 55,
+        "prof_school_years": 3,
+        "trainee_salary": 0,
+        "education_debt": 200,
+        "loan_rate": 7.0,
+        "living_expenses": 48,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 3,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 25,
+        "starting_salary": 225,
+        "mid_salary": 380,
+        "peak_salary": 1800,
+        "malpractice_per_yr": 10
+      },
+      "stress": {
+        "ai": 5,
+        "pay": 3,
+        "injury": 6,
+        "match": 5
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          25
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 25,
+        "startSalary": 225
+      }
+    },
+    {
+      "name": "Private Equity / VC Law",
+      "key": "private_equity_vc_law",
+      "profession": "JD",
+      "group": "big_law",
+      "color": "#d0472a",
+      "path": "Attorney",
+      "raw_data": {
+        "startSalary": 225,
+        "midSalary": 420,
+        "peakSalary": 2500,
+        "hoursWeek": 72,
+        "burnout": 60,
+        "satisfaction": 60,
+        "chooseAgain": 52,
+        "malpracticeCost": 8,
+        "vacation": 2,
+        "matchComp": 1,
+        "callSchedule": 2,
+        "physicalToll": 3,
+        "emotionalToll": 7
+      },
+      "scores": {
+        "category_1": 4.75,
+        "category_2": 3.33,
+        "category_3": 4.33,
+        "category_4": 5.67,
+        "category_5": 6.2,
+        "category_6": 6.71,
+        "category_7": 6.75,
+        "category_8": 3.65,
+        "category_9": 2.12,
+        "category_10": 4.6,
+        "category_11": 4.6,
+        "category_12": 5.37,
+        "category_13": 5.0,
+        "category_14": 5.83
+      },
+      "scenario_totals": {
+        "default": 5.13,
+        "equal_weight": 4.93,
+        "max_earnings": 5.54,
+        "best_lifestyle": 4.52,
+        "fastest_to_practice": 4.9,
+        "most_procedural": 4.93
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 35,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 55,
+        "prof_school_years": 3,
+        "trainee_salary": 0,
+        "education_debt": 200,
+        "loan_rate": 7.0,
+        "living_expenses": 48,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 3,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 25,
+        "starting_salary": 225,
+        "mid_salary": 420,
+        "peak_salary": 2500,
+        "malpractice_per_yr": 8
+      },
+      "stress": {
+        "ai": 5,
+        "pay": 4,
+        "injury": 6,
+        "match": 5
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          25
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 25,
+        "startSalary": 225
+      }
+    },
+    {
+      "name": "Banking & Finance Law",
+      "key": "banking_finance_law",
+      "profession": "JD",
+      "group": "big_law",
+      "color": "#bb551c",
+      "path": "Attorney",
+      "raw_data": {
+        "startSalary": 225,
+        "midSalary": 370,
+        "peakSalary": 1500,
+        "hoursWeek": 65,
+        "burnout": 52,
+        "satisfaction": 56,
+        "chooseAgain": 48,
+        "malpracticeCost": 8,
+        "vacation": 3,
+        "matchComp": 2,
+        "callSchedule": 3,
+        "physicalToll": 2,
+        "emotionalToll": 5
+      },
+      "scores": {
+        "category_1": 4.75,
+        "category_2": 3.67,
+        "category_3": 4.33,
+        "category_4": 6.0,
+        "category_5": 6.04,
+        "category_6": 6.86,
+        "category_7": 6.67,
+        "category_8": 4.25,
+        "category_9": 3.42,
+        "category_10": 4.8,
+        "category_11": 4.6,
+        "category_12": 4.63,
+        "category_13": 5.0,
+        "category_14": 5.26
+      },
+      "scenario_totals": {
+        "default": 5.27,
+        "equal_weight": 5.02,
+        "max_earnings": 5.59,
+        "best_lifestyle": 4.81,
+        "fastest_to_practice": 5.01,
+        "most_procedural": 5.04
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 35,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 55,
+        "prof_school_years": 3,
+        "trainee_salary": 0,
+        "education_debt": 200,
+        "loan_rate": 7.0,
+        "living_expenses": 48,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 3,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 25,
+        "starting_salary": 225,
+        "mid_salary": 370,
+        "peak_salary": 1500,
+        "malpractice_per_yr": 8
+      },
+      "stress": {
+        "ai": 5,
+        "pay": 4,
+        "injury": 7,
+        "match": 5
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          25
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 25,
+        "startSalary": 225
+      }
+    },
+    {
+      "name": "Tax Attorney (Transactional)",
+      "key": "tax_attorney_transaction",
+      "profession": "JD",
+      "group": "big_law",
+      "color": "#d08d3e",
+      "path": "Attorney",
+      "raw_data": {
+        "startSalary": 225,
+        "midSalary": 350,
+        "peakSalary": 1200,
+        "hoursWeek": 60,
+        "burnout": 42,
+        "satisfaction": 65,
+        "chooseAgain": 58,
+        "malpracticeCost": 6,
+        "vacation": 4,
+        "matchComp": 3,
+        "callSchedule": 4,
+        "physicalToll": 2,
+        "emotionalToll": 4
+      },
+      "scores": {
+        "category_1": 4.75,
+        "category_2": 4.0,
+        "category_3": 4.33,
+        "category_4": 6.33,
+        "category_5": 5.99,
+        "category_6": 7.14,
+        "category_7": 6.55,
+        "category_8": 4.25,
+        "category_9": 4.52,
+        "category_10": 5.2,
+        "category_11": 4.6,
+        "category_12": 5.85,
+        "category_13": 5.0,
+        "category_14": 4.77
+      },
+      "scenario_totals": {
+        "default": 5.52,
+        "equal_weight": 5.23,
+        "max_earnings": 5.74,
+        "best_lifestyle": 5.2,
+        "fastest_to_practice": 5.22,
+        "most_procedural": 5.36
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 35,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 55,
+        "prof_school_years": 3,
+        "trainee_salary": 0,
+        "education_debt": 200,
+        "loan_rate": 7.0,
+        "living_expenses": 48,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 3,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 25,
+        "starting_salary": 225,
+        "mid_salary": 350,
+        "peak_salary": 1200,
+        "malpractice_per_yr": 6
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 5,
+        "injury": 8,
+        "match": 5
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          25
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 25,
+        "startSalary": 225
+      }
+    },
+    {
+      "name": "Corporate Governance",
+      "key": "corporate_governance",
+      "profession": "JD",
+      "group": "big_law",
+      "color": "#bb9125",
+      "path": "Attorney",
+      "raw_data": {
+        "startSalary": 225,
+        "midSalary": 350,
+        "peakSalary": 1200,
+        "hoursWeek": 58,
+        "burnout": 45,
+        "satisfaction": 60,
+        "chooseAgain": 53,
+        "malpracticeCost": 7,
+        "vacation": 4,
+        "matchComp": 3,
+        "callSchedule": 4,
+        "physicalToll": 2,
+        "emotionalToll": 4
+      },
+      "scores": {
+        "category_1": 4.75,
+        "category_2": 4.0,
+        "category_3": 4.33,
+        "category_4": 6.33,
+        "category_5": 5.99,
+        "category_6": 7.0,
+        "category_7": 6.55,
+        "category_8": 4.6,
+        "category_9": 4.28,
+        "category_10": 5.0,
+        "category_11": 4.6,
+        "category_12": 5.23,
+        "category_13": 5.0,
+        "category_14": 4.87
+      },
+      "scenario_totals": {
+        "default": 5.46,
+        "equal_weight": 5.18,
+        "max_earnings": 5.69,
+        "best_lifestyle": 5.12,
+        "fastest_to_practice": 5.17,
+        "most_procedural": 5.29
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 35,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 55,
+        "prof_school_years": 3,
+        "trainee_salary": 0,
+        "education_debt": 200,
+        "loan_rate": 7.0,
+        "living_expenses": 48,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 3,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 25,
+        "starting_salary": 225,
+        "mid_salary": 350,
+        "peak_salary": 1200,
+        "malpractice_per_yr": 7
+      },
+      "stress": {
+        "ai": 5,
+        "pay": 4,
+        "injury": 7,
+        "match": 5
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          25
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 25,
+        "startSalary": 225
+      }
+    },
+    {
+      "name": "Restructuring / Bankruptcy",
+      "key": "restructuring_bankruptcy",
+      "profession": "JD",
+      "group": "big_law",
+      "color": "#d0be1f",
+      "path": "Attorney",
+      "raw_data": {
+        "startSalary": 225,
+        "midSalary": 380,
+        "peakSalary": 1500,
+        "hoursWeek": 65,
+        "burnout": 50,
+        "satisfaction": 62,
+        "chooseAgain": 55,
+        "malpracticeCost": 8,
+        "vacation": 3,
+        "matchComp": 3,
+        "callSchedule": 3,
+        "physicalToll": 2,
+        "emotionalToll": 5
+      },
+      "scores": {
+        "category_1": 4.75,
+        "category_2": 4.0,
+        "category_3": 4.33,
+        "category_4": 6.0,
+        "category_5": 6.07,
+        "category_6": 6.86,
+        "category_7": 6.67,
+        "category_8": 4.5,
+        "category_9": 3.3,
+        "category_10": 4.8,
+        "category_11": 5.0,
+        "category_12": 6.02,
+        "category_13": 5.0,
+        "category_14": 4.97
+      },
+      "scenario_totals": {
+        "default": 5.43,
+        "equal_weight": 5.16,
+        "max_earnings": 5.7,
+        "best_lifestyle": 4.99,
+        "fastest_to_practice": 5.13,
+        "most_procedural": 5.33
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 35,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 55,
+        "prof_school_years": 3,
+        "trainee_salary": 0,
+        "education_debt": 200,
+        "loan_rate": 7.0,
+        "living_expenses": 48,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 3,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 25,
+        "starting_salary": 225,
+        "mid_salary": 380,
+        "peak_salary": 1500,
+        "malpractice_per_yr": 8
+      },
+      "stress": {
+        "ai": 5,
+        "pay": 4,
+        "injury": 6,
+        "match": 5
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          25
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 25,
+        "startSalary": 225
+      }
+    },
+    {
+      "name": "Commercial Litigation (Big Law)",
+      "key": "commercial_lit",
+      "profession": "JD",
+      "group": "litigation",
+      "color": "#0D47A1",
+      "path": "Attorney",
+      "raw_data": {
+        "startSalary": 225,
+        "midSalary": 380,
+        "peakSalary": 1500,
+        "hoursWeek": 65,
+        "burnout": 55,
+        "satisfaction": 60,
+        "chooseAgain": 52,
+        "malpracticeCost": 10,
+        "vacation": 3,
+        "matchComp": 2,
+        "callSchedule": 3,
+        "physicalToll": 2,
+        "emotionalToll": 6
+      },
+      "scores": {
+        "category_1": 4.75,
+        "category_2": 3.67,
+        "category_3": 4.33,
+        "category_4": 6.0,
+        "category_5": 6.07,
+        "category_6": 6.86,
+        "category_7": 6.67,
+        "category_8": 5.25,
+        "category_9": 3.1,
+        "category_10": 5.0,
+        "category_11": 5.0,
+        "category_12": 5.87,
+        "category_13": 5.0,
+        "category_14": 5.31
+      },
+      "scenario_totals": {
+        "default": 5.46,
+        "equal_weight": 5.2,
+        "max_earnings": 5.73,
+        "best_lifestyle": 5.02,
+        "fastest_to_practice": 5.11,
+        "most_procedural": 5.45
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 35,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 55,
+        "prof_school_years": 3,
+        "trainee_salary": 0,
+        "education_debt": 200,
+        "loan_rate": 7.0,
+        "living_expenses": 48,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 3,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 25,
+        "starting_salary": 225,
+        "mid_salary": 380,
+        "peak_salary": 1500,
+        "malpractice_per_yr": 10
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 5,
+        "injury": 4,
+        "match": 5
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          25
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 25,
+        "startSalary": 225
+      }
+    },
+    {
+      "name": "White Collar Criminal Defense",
+      "key": "white_collar_criminal_de",
+      "profession": "JD",
+      "group": "litigation",
+      "color": "#b1bb38",
+      "path": "Attorney",
+      "raw_data": {
+        "startSalary": 225,
+        "midSalary": 400,
+        "peakSalary": 2000,
+        "hoursWeek": 62,
+        "burnout": 48,
+        "satisfaction": 68,
+        "chooseAgain": 62,
+        "malpracticeCost": 10,
+        "vacation": 3,
+        "matchComp": 2,
+        "callSchedule": 3,
+        "physicalToll": 2,
+        "emotionalToll": 6
+      },
+      "scores": {
+        "category_1": 4.75,
+        "category_2": 3.67,
+        "category_3": 4.33,
+        "category_4": 6.0,
+        "category_5": 6.14,
+        "category_6": 6.86,
+        "category_7": 7.5,
+        "category_8": 5.15,
+        "category_9": 3.7,
+        "category_10": 5.0,
+        "category_11": 5.4,
+        "category_12": 7.03,
+        "category_13": 5.0,
+        "category_14": 4.89
+      },
+      "scenario_totals": {
+        "default": 5.72,
+        "equal_weight": 5.38,
+        "max_earnings": 6.05,
+        "best_lifestyle": 5.33,
+        "fastest_to_practice": 5.25,
+        "most_procedural": 5.69
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 35,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 55,
+        "prof_school_years": 3,
+        "trainee_salary": 0,
+        "education_debt": 200,
+        "loan_rate": 7.0,
+        "living_expenses": 48,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 3,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 25,
+        "starting_salary": 225,
+        "mid_salary": 400,
+        "peak_salary": 2000,
+        "malpractice_per_yr": 10
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 6,
+        "injury": 4,
+        "match": 5
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          25
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 25,
+        "startSalary": 225
+      }
+    },
+    {
+      "name": "Class Action / Mass Tort",
+      "key": "class_action_mass_tort",
+      "profession": "JD",
+      "group": "litigation",
+      "color": "#a5d02a",
+      "path": "Attorney",
+      "raw_data": {
+        "startSalary": 200,
+        "midSalary": 350,
+        "peakSalary": 1200,
+        "hoursWeek": 58,
+        "burnout": 48,
+        "satisfaction": 62,
+        "chooseAgain": 55,
+        "malpracticeCost": 12,
+        "vacation": 4,
+        "matchComp": 3,
+        "callSchedule": 4,
+        "physicalToll": 2,
+        "emotionalToll": 5
+      },
+      "scores": {
+        "category_1": 4.75,
+        "category_2": 4.0,
+        "category_3": 4.33,
+        "category_4": 6.33,
+        "category_5": 5.81,
+        "category_6": 7.0,
+        "category_7": 6.3,
+        "category_8": 5.85,
+        "category_9": 4.16,
+        "category_10": 5.0,
+        "category_11": 5.0,
+        "category_12": 6.18,
+        "category_13": 5.0,
+        "category_14": 4.8
+      },
+      "scenario_totals": {
+        "default": 5.6,
+        "equal_weight": 5.31,
+        "max_earnings": 5.71,
+        "best_lifestyle": 5.33,
+        "fastest_to_practice": 5.23,
+        "most_procedural": 5.68
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 35,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 55,
+        "prof_school_years": 3,
+        "trainee_salary": 0,
+        "education_debt": 200,
+        "loan_rate": 7.0,
+        "living_expenses": 48,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 3,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 25,
+        "starting_salary": 200,
+        "mid_salary": 350,
+        "peak_salary": 1200,
+        "malpractice_per_yr": 12
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 4,
+        "injury": 4,
+        "match": 5
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          25
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 25,
+        "startSalary": 200
+      }
+    },
+    {
+      "name": "Product Liability Defense",
+      "key": "product_liability_defens",
+      "profession": "JD",
+      "group": "litigation",
+      "color": "#75bb1c",
+      "path": "Attorney",
+      "raw_data": {
+        "startSalary": 180,
+        "midSalary": 300,
+        "peakSalary": 800,
+        "hoursWeek": 55,
+        "burnout": 45,
+        "satisfaction": 60,
+        "chooseAgain": 52,
+        "malpracticeCost": 8,
+        "vacation": 4,
+        "matchComp": 4,
+        "callSchedule": 4,
+        "physicalToll": 2,
+        "emotionalToll": 5
+      },
+      "scores": {
+        "category_1": 4.75,
+        "category_2": 4.33,
+        "category_3": 4.33,
+        "category_4": 6.33,
+        "category_5": 5.53,
+        "category_6": 7.0,
+        "category_7": 5.85,
+        "category_8": 6.0,
+        "category_9": 4.6,
+        "category_10": 5.2,
+        "category_11": 5.0,
+        "category_12": 5.53,
+        "category_13": 5.0,
+        "category_14": 4.83
+      },
+      "scenario_totals": {
+        "default": 5.56,
+        "equal_weight": 5.3,
+        "max_earnings": 5.57,
+        "best_lifestyle": 5.34,
+        "fastest_to_practice": 5.22,
+        "most_procedural": 5.62
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 35,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 55,
+        "prof_school_years": 3,
+        "trainee_salary": 0,
+        "education_debt": 200,
+        "loan_rate": 7.0,
+        "living_expenses": 48,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 3,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 25,
+        "starting_salary": 180,
+        "mid_salary": 300,
+        "peak_salary": 800,
+        "malpractice_per_yr": 8
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 5,
+        "injury": 4,
+        "match": 4
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          25
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 25,
+        "startSalary": 180
+      }
+    },
+    {
+      "name": "Appellate Litigation",
+      "key": "appellate_litigation",
+      "profession": "JD",
+      "group": "litigation",
+      "color": "#76d03e",
+      "path": "Attorney",
+      "raw_data": {
+        "startSalary": 200,
+        "midSalary": 320,
+        "peakSalary": 900,
+        "hoursWeek": 50,
+        "burnout": 35,
+        "satisfaction": 75,
+        "chooseAgain": 70,
+        "malpracticeCost": 5,
+        "vacation": 5,
+        "matchComp": 2,
+        "callSchedule": 6,
+        "physicalToll": 1,
+        "emotionalToll": 4
+      },
+      "scores": {
+        "category_1": 4.75,
+        "category_2": 3.67,
+        "category_3": 4.33,
+        "category_4": 7.0,
+        "category_5": 5.73,
+        "category_6": 7.29,
+        "category_7": 6.45,
+        "category_8": 5.25,
+        "category_9": 5.7,
+        "category_10": 5.2,
+        "category_11": 5.4,
+        "category_12": 7.3,
+        "category_13": 5.0,
+        "category_14": 4.83
+      },
+      "scenario_totals": {
+        "default": 5.9,
+        "equal_weight": 5.55,
+        "max_earnings": 5.92,
+        "best_lifestyle": 5.76,
+        "fastest_to_practice": 5.43,
+        "most_procedural": 5.9
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 35,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 55,
+        "prof_school_years": 3,
+        "trainee_salary": 0,
+        "education_debt": 200,
+        "loan_rate": 7.0,
+        "living_expenses": 48,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 3,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 25,
+        "starting_salary": 200,
+        "mid_salary": 320,
+        "peak_salary": 900,
+        "malpractice_per_yr": 5
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 6,
+        "injury": 6,
+        "match": 5
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          25
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 25,
+        "startSalary": 200
+      }
+    },
+    {
+      "name": "International Arbitration",
+      "key": "international_arbitratio",
+      "profession": "JD",
+      "group": "litigation",
+      "color": "#43bb25",
+      "path": "Attorney",
+      "raw_data": {
+        "startSalary": 225,
+        "midSalary": 380,
+        "peakSalary": 1200,
+        "hoursWeek": 60,
+        "burnout": 42,
+        "satisfaction": 68,
+        "chooseAgain": 62,
+        "malpracticeCost": 8,
+        "vacation": 4,
+        "matchComp": 2,
+        "callSchedule": 3,
+        "physicalToll": 3,
+        "emotionalToll": 5
+      },
+      "scores": {
+        "category_1": 4.75,
+        "category_2": 3.67,
+        "category_3": 4.33,
+        "category_4": 6.0,
+        "category_5": 6.07,
+        "category_6": 7.0,
+        "category_7": 6.55,
+        "category_8": 5.25,
+        "category_9": 4.32,
+        "category_10": 4.6,
+        "category_11": 5.4,
+        "category_12": 6.53,
+        "category_13": 5.0,
+        "category_14": 5.26
+      },
+      "scenario_totals": {
+        "default": 5.63,
+        "equal_weight": 5.33,
+        "max_earnings": 5.79,
+        "best_lifestyle": 5.33,
+        "fastest_to_practice": 5.2,
+        "most_procedural": 5.62
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 35,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 55,
+        "prof_school_years": 3,
+        "trainee_salary": 0,
+        "education_debt": 200,
+        "loan_rate": 7.0,
+        "living_expenses": 48,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 3,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 25,
+        "starting_salary": 225,
+        "mid_salary": 380,
+        "peak_salary": 1200,
+        "malpractice_per_yr": 8
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 4,
+        "injury": 5,
+        "match": 5
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          25
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 25,
+        "startSalary": 225
+      }
+    },
+    {
+      "name": "Prosecutor (DA/ADA)",
+      "key": "prosecutor",
+      "profession": "JD",
+      "group": "criminal",
+      "color": "#1B5E20",
+      "path": "Attorney",
+      "raw_data": {
+        "startSalary": 65,
+        "midSalary": 100,
+        "peakSalary": 180,
+        "hoursWeek": 50,
+        "burnout": 48,
+        "satisfaction": 72,
+        "chooseAgain": 65,
+        "malpracticeCost": 0,
+        "vacation": 5,
+        "matchComp": 5,
+        "callSchedule": 4,
+        "physicalToll": 2,
+        "emotionalToll": 7
+      },
+      "scores": {
+        "category_1": 4.75,
+        "category_2": 4.67,
+        "category_3": 4.33,
+        "category_4": 6.33,
+        "category_5": 4.11,
+        "category_6": 7.14,
+        "category_7": 5.38,
+        "category_8": 6.5,
+        "category_9": 4.78,
+        "category_10": 5.2,
+        "category_11": 5.8,
+        "category_12": 7.58,
+        "category_13": 5.0,
+        "category_14": 6.0
+      },
+      "scenario_totals": {
+        "default": 5.73,
+        "equal_weight": 5.54,
+        "max_earnings": 5.39,
+        "best_lifestyle": 5.57,
+        "fastest_to_practice": 5.25,
+        "most_procedural": 6.05
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 35,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 55,
+        "prof_school_years": 3,
+        "trainee_salary": 0,
+        "education_debt": 200,
+        "loan_rate": 7.0,
+        "living_expenses": 48,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 3,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 25,
+        "starting_salary": 65,
+        "mid_salary": 100,
+        "peak_salary": 180,
+        "malpractice_per_yr": 0
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 6,
+        "injury": 4,
+        "match": 4
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          25
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 25,
+        "startSalary": 65
+      }
+    },
+    {
+      "name": "Federal Prosecutor (DOJ/AUSA)",
+      "key": "federal_prosecutor_doj_a",
+      "profession": "JD",
+      "group": "criminal",
+      "color": "#22d01f",
+      "path": "Attorney",
+      "raw_data": {
+        "startSalary": 75,
+        "midSalary": 140,
+        "peakSalary": 220,
+        "hoursWeek": 55,
+        "burnout": 42,
+        "satisfaction": 78,
+        "chooseAgain": 72,
+        "malpracticeCost": 0,
+        "vacation": 5,
+        "matchComp": 2,
+        "callSchedule": 3,
+        "physicalToll": 2,
+        "emotionalToll": 7
+      },
+      "scores": {
+        "category_1": 4.75,
+        "category_2": 3.67,
+        "category_3": 4.33,
+        "category_4": 6.0,
+        "category_5": 4.3,
+        "category_6": 7.0,
+        "category_7": 5.42,
+        "category_8": 6.0,
+        "category_9": 4.82,
+        "category_10": 4.8,
+        "category_11": 5.8,
+        "category_12": 8.12,
+        "category_13": 5.0,
+        "category_14": 6.14
+      },
+      "scenario_totals": {
+        "default": 5.64,
+        "equal_weight": 5.44,
+        "max_earnings": 5.35,
+        "best_lifestyle": 5.49,
+        "fastest_to_practice": 5.1,
+        "most_procedural": 5.94
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 35,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 55,
+        "prof_school_years": 3,
+        "trainee_salary": 0,
+        "education_debt": 200,
+        "loan_rate": 7.0,
+        "living_expenses": 48,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 3,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 25,
+        "starting_salary": 75,
+        "mid_salary": 140,
+        "peak_salary": 220,
+        "malpractice_per_yr": 0
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 6,
+        "injury": 4,
+        "match": 5
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          25
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 25,
+        "startSalary": 75
+      }
+    },
+    {
+      "name": "Public Defender",
+      "key": "public_defender",
+      "profession": "JD",
+      "group": "criminal",
+      "color": "#38bb4d",
+      "path": "Attorney",
+      "raw_data": {
+        "startSalary": 58,
+        "midSalary": 85,
+        "peakSalary": 140,
+        "hoursWeek": 52,
+        "burnout": 58,
+        "satisfaction": 65,
+        "chooseAgain": 55,
+        "malpracticeCost": 0,
+        "vacation": 5,
+        "matchComp": 5,
+        "callSchedule": 4,
+        "physicalToll": 2,
+        "emotionalToll": 9
+      },
+      "scores": {
+        "category_1": 4.75,
+        "category_2": 4.67,
+        "category_3": 4.33,
+        "category_4": 6.33,
+        "category_5": 4.01,
+        "category_6": 7.0,
+        "category_7": 4.83,
+        "category_8": 6.15,
+        "category_9": 4.3,
+        "category_10": 5.4,
+        "category_11": 5.8,
+        "category_12": 6.93,
+        "category_13": 5.0,
+        "category_14": 5.86
+      },
+      "scenario_totals": {
+        "default": 5.52,
+        "equal_weight": 5.38,
+        "max_earnings": 5.16,
+        "best_lifestyle": 5.32,
+        "fastest_to_practice": 5.15,
+        "most_procedural": 5.81
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 35,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 55,
+        "prof_school_years": 3,
+        "trainee_salary": 0,
+        "education_debt": 200,
+        "loan_rate": 7.0,
+        "living_expenses": 48,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 3,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 25,
+        "starting_salary": 58,
+        "mid_salary": 85,
+        "peak_salary": 140,
+        "malpractice_per_yr": 0
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 6,
+        "injury": 3,
+        "match": 4
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          25
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 25,
+        "startSalary": 58
+      }
+    },
+    {
+      "name": "Criminal Defense (Private)",
+      "key": "criminal_defense_private",
+      "profession": "JD",
+      "group": "criminal",
+      "color": "#2ad062",
+      "path": "Attorney",
+      "raw_data": {
+        "startSalary": 70,
+        "midSalary": 180,
+        "peakSalary": 500,
+        "hoursWeek": 50,
+        "burnout": 45,
+        "satisfaction": 70,
+        "chooseAgain": 63,
+        "malpracticeCost": 5,
+        "vacation": 5,
+        "matchComp": 6,
+        "callSchedule": 4,
+        "physicalToll": 2,
+        "emotionalToll": 7
+      },
+      "scores": {
+        "category_1": 4.75,
+        "category_2": 5.0,
+        "category_3": 4.33,
+        "category_4": 6.33,
+        "category_5": 4.39,
+        "category_6": 7.29,
+        "category_7": 5.75,
+        "category_8": 6.5,
+        "category_9": 5.3,
+        "category_10": 5.4,
+        "category_11": 5.8,
+        "category_12": 7.3,
+        "category_13": 5.0,
+        "category_14": 5.26
+      },
+      "scenario_totals": {
+        "default": 5.84,
+        "equal_weight": 5.59,
+        "max_earnings": 5.57,
+        "best_lifestyle": 5.72,
+        "fastest_to_practice": 5.35,
+        "most_procedural": 6.1
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 35,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 55,
+        "prof_school_years": 3,
+        "trainee_salary": 0,
+        "education_debt": 200,
+        "loan_rate": 7.0,
+        "living_expenses": 48,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 3,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 25,
+        "starting_salary": 70,
+        "mid_salary": 180,
+        "peak_salary": 500,
+        "malpractice_per_yr": 5
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 6,
+        "injury": 4,
+        "match": 4
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          25
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 25,
+        "startSalary": 70
+      }
+    },
+    {
+      "name": "Trademark & Brand Law",
+      "key": "trademark_brand_law",
+      "profession": "JD",
+      "group": "ip",
+      "color": "#1cbb6f",
+      "path": "Attorney",
+      "raw_data": {
+        "startSalary": 160,
+        "midSalary": 280,
+        "peakSalary": 600,
+        "hoursWeek": 50,
+        "burnout": 35,
+        "satisfaction": 70,
+        "chooseAgain": 63,
+        "malpracticeCost": 5,
+        "vacation": 5,
+        "matchComp": 4,
+        "callSchedule": 6,
+        "physicalToll": 1,
+        "emotionalToll": 3
+      },
+      "scores": {
+        "category_1": 4.75,
+        "category_2": 4.33,
+        "category_3": 4.33,
+        "category_4": 7.0,
+        "category_5": 5.33,
+        "category_6": 7.29,
+        "category_7": 5.85,
+        "category_8": 5.25,
+        "category_9": 5.9,
+        "category_10": 5.4,
+        "category_11": 4.8,
+        "category_12": 6.3,
+        "category_13": 5.0,
+        "category_14": 4.69
+      },
+      "scenario_totals": {
+        "default": 5.73,
+        "equal_weight": 5.43,
+        "max_earnings": 5.65,
+        "best_lifestyle": 5.63,
+        "fastest_to_practice": 5.38,
+        "most_procedural": 5.72
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 35,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 55,
+        "prof_school_years": 3,
+        "trainee_salary": 0,
+        "education_debt": 200,
+        "loan_rate": 7.0,
+        "living_expenses": 48,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 3,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 25,
+        "starting_salary": 160,
+        "mid_salary": 280,
+        "peak_salary": 600,
+        "malpractice_per_yr": 5
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 6,
+        "injury": 7,
+        "match": 4
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          25
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 25,
+        "startSalary": 160
+      }
+    },
+    {
+      "name": "Copyright / Entertainment Law",
+      "key": "copyright_entertainment_",
+      "profession": "JD",
+      "group": "ip",
+      "color": "#3ed0a4",
+      "path": "Attorney",
+      "raw_data": {
+        "startSalary": 140,
+        "midSalary": 260,
+        "peakSalary": 700,
+        "hoursWeek": 50,
+        "burnout": 35,
+        "satisfaction": 72,
+        "chooseAgain": 65,
+        "malpracticeCost": 5,
+        "vacation": 5,
+        "matchComp": 3,
+        "callSchedule": 5,
+        "physicalToll": 1,
+        "emotionalToll": 3
+      },
+      "scores": {
+        "category_1": 4.75,
+        "category_2": 4.0,
+        "category_3": 4.33,
+        "category_4": 6.67,
+        "category_5": 5.13,
+        "category_6": 7.29,
+        "category_7": 5.97,
+        "category_8": 5.0,
+        "category_9": 5.9,
+        "category_10": 5.0,
+        "category_11": 4.8,
+        "category_12": 6.92,
+        "category_13": 5.0,
+        "category_14": 4.69
+      },
+      "scenario_totals": {
+        "default": 5.69,
+        "equal_weight": 5.38,
+        "max_earnings": 5.6,
+        "best_lifestyle": 5.6,
+        "fastest_to_practice": 5.28,
+        "most_procedural": 5.7
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 35,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 55,
+        "prof_school_years": 3,
+        "trainee_salary": 0,
+        "education_debt": 200,
+        "loan_rate": 7.0,
+        "living_expenses": 48,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 3,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 25,
+        "starting_salary": 140,
+        "mid_salary": 260,
+        "peak_salary": 700,
+        "malpractice_per_yr": 5
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 6,
+        "injury": 7,
+        "match": 5
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          25
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 25,
+        "startSalary": 140
+      }
+    },
+    {
+      "name": "Trade Secrets",
+      "key": "trade_secrets",
+      "profession": "JD",
+      "group": "ip",
+      "color": "#25bba9",
+      "path": "Attorney",
+      "raw_data": {
+        "startSalary": 180,
+        "midSalary": 300,
+        "peakSalary": 700,
+        "hoursWeek": 55,
+        "burnout": 40,
+        "satisfaction": 65,
+        "chooseAgain": 58,
+        "malpracticeCost": 8,
+        "vacation": 4,
+        "matchComp": 3,
+        "callSchedule": 5,
+        "physicalToll": 1,
+        "emotionalToll": 5
+      },
+      "scores": {
+        "category_1": 4.75,
+        "category_2": 4.0,
+        "category_3": 4.33,
+        "category_4": 6.67,
+        "category_5": 5.53,
+        "category_6": 7.14,
+        "category_7": 5.72,
+        "category_8": 5.5,
+        "category_9": 4.8,
+        "category_10": 5.2,
+        "category_11": 5.0,
+        "category_12": 6.02,
+        "category_13": 5.0,
+        "category_14": 4.97
+      },
+      "scenario_totals": {
+        "default": 5.58,
+        "equal_weight": 5.32,
+        "max_earnings": 5.56,
+        "best_lifestyle": 5.38,
+        "fastest_to_practice": 5.25,
+        "most_procedural": 5.62
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 35,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 55,
+        "prof_school_years": 3,
+        "trainee_salary": 0,
+        "education_debt": 200,
+        "loan_rate": 7.0,
+        "living_expenses": 48,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 3,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 25,
+        "starting_salary": 180,
+        "mid_salary": 300,
+        "peak_salary": 700,
+        "malpractice_per_yr": 8
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 5,
+        "injury": 5,
+        "match": 5
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          25
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 25,
+        "startSalary": 180
+      }
+    },
+    {
+      "name": "Civil Rights / Constitutional Law",
+      "key": "civil_rights_constitutio",
+      "profession": "JD",
+      "group": "government",
+      "color": "#1fc5d0",
+      "path": "Attorney",
+      "raw_data": {
+        "startSalary": 55,
+        "midSalary": 90,
+        "peakSalary": 160,
+        "hoursWeek": 48,
+        "burnout": 42,
+        "satisfaction": 78,
+        "chooseAgain": 72,
+        "malpracticeCost": 2,
+        "vacation": 5,
+        "matchComp": 3,
+        "callSchedule": 5,
+        "physicalToll": 1,
+        "emotionalToll": 7
+      },
+      "scores": {
+        "category_1": 4.75,
+        "category_2": 4.0,
+        "category_3": 4.33,
+        "category_4": 6.67,
+        "category_5": 4.01,
+        "category_6": 7.14,
+        "category_7": 5.35,
+        "category_8": 6.1,
+        "category_9": 5.3,
+        "category_10": 5.0,
+        "category_11": 5.8,
+        "category_12": 8.28,
+        "category_13": 5.0,
+        "category_14": 5.67
+      },
+      "scenario_totals": {
+        "default": 5.75,
+        "equal_weight": 5.52,
+        "max_earnings": 5.37,
+        "best_lifestyle": 5.67,
+        "fastest_to_practice": 5.24,
+        "most_procedural": 6.06
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 35,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 55,
+        "prof_school_years": 3,
+        "trainee_salary": 0,
+        "education_debt": 200,
+        "loan_rate": 7.0,
+        "living_expenses": 48,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 3,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 25,
+        "starting_salary": 55,
+        "mid_salary": 90,
+        "peak_salary": 160,
+        "malpractice_per_yr": 2
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 6,
+        "injury": 5,
+        "match": 5
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          25
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 25,
+        "startSalary": 55
+      }
+    },
+    {
+      "name": "Legal Aid / Poverty Law",
+      "key": "legal_aid_poverty_law",
+      "profession": "JD",
+      "group": "government",
+      "color": "#389cbb",
+      "path": "Attorney",
+      "raw_data": {
+        "startSalary": 52,
+        "midSalary": 75,
+        "peakSalary": 120,
+        "hoursWeek": 45,
+        "burnout": 50,
+        "satisfaction": 72,
+        "chooseAgain": 62,
+        "malpracticeCost": 1,
+        "vacation": 5,
+        "matchComp": 6,
+        "callSchedule": 5,
+        "physicalToll": 1,
+        "emotionalToll": 8
+      },
+      "scores": {
+        "category_1": 4.75,
+        "category_2": 5.0,
+        "category_3": 4.33,
+        "category_4": 6.67,
+        "category_5": 3.96,
+        "category_6": 7.29,
+        "category_7": 5.05,
+        "category_8": 6.25,
+        "category_9": 5.3,
+        "category_10": 5.6,
+        "category_11": 5.8,
+        "category_12": 7.5,
+        "category_13": 5.0,
+        "category_14": 5.57
+      },
+      "scenario_totals": {
+        "default": 5.76,
+        "equal_weight": 5.57,
+        "max_earnings": 5.35,
+        "best_lifestyle": 5.66,
+        "fastest_to_practice": 5.34,
+        "most_procedural": 6.05
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 35,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 55,
+        "prof_school_years": 3,
+        "trainee_salary": 0,
+        "education_debt": 200,
+        "loan_rate": 7.0,
+        "living_expenses": 48,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 3,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 25,
+        "starting_salary": 52,
+        "mid_salary": 75,
+        "peak_salary": 120,
+        "malpractice_per_yr": 1
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 6,
+        "injury": 5,
+        "match": 4
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          25
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 25,
+        "startSalary": 52
+      }
+    },
+    {
+      "name": "Environmental Law (Nonprofit)",
+      "key": "environmental_law_nonpro",
+      "profession": "JD",
+      "group": "government",
+      "color": "#2a8ad0",
+      "path": "Attorney",
+      "raw_data": {
+        "startSalary": 55,
+        "midSalary": 85,
+        "peakSalary": 150,
+        "hoursWeek": 45,
+        "burnout": 35,
+        "satisfaction": 76,
+        "chooseAgain": 68,
+        "malpracticeCost": 2,
+        "vacation": 6,
+        "matchComp": 3,
+        "callSchedule": 6,
+        "physicalToll": 1,
+        "emotionalToll": 5
+      },
+      "scores": {
+        "category_1": 4.75,
+        "category_2": 4.0,
+        "category_3": 4.33,
+        "category_4": 7.0,
+        "category_5": 4.0,
+        "category_6": 7.29,
+        "category_7": 5.33,
+        "category_8": 5.75,
+        "category_9": 6.2,
+        "category_10": 5.0,
+        "category_11": 5.4,
+        "category_12": 7.62,
+        "category_13": 5.0,
+        "category_14": 5.1
+      },
+      "scenario_totals": {
+        "default": 5.73,
+        "equal_weight": 5.47,
+        "max_earnings": 5.36,
+        "best_lifestyle": 5.74,
+        "fastest_to_practice": 5.26,
+        "most_procedural": 5.94
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 35,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 55,
+        "prof_school_years": 3,
+        "trainee_salary": 0,
+        "education_debt": 200,
+        "loan_rate": 7.0,
+        "living_expenses": 48,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 3,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 25,
+        "starting_salary": 55,
+        "mid_salary": 85,
+        "peak_salary": 150,
+        "malpractice_per_yr": 2
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 6,
+        "injury": 6,
+        "match": 5
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          25
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 25,
+        "startSalary": 55
+      }
+    },
+    {
+      "name": "Immigration Law (Gov/Nonprofit)",
+      "key": "immigration_law_gov_nonp",
+      "profession": "JD",
+      "group": "government",
+      "color": "#1c5cbb",
+      "path": "Attorney",
+      "raw_data": {
+        "startSalary": 52,
+        "midSalary": 78,
+        "peakSalary": 130,
+        "hoursWeek": 48,
+        "burnout": 50,
+        "satisfaction": 70,
+        "chooseAgain": 60,
+        "malpracticeCost": 2,
+        "vacation": 5,
+        "matchComp": 6,
+        "callSchedule": 4,
+        "physicalToll": 2,
+        "emotionalToll": 9
+      },
+      "scores": {
+        "category_1": 4.75,
+        "category_2": 5.0,
+        "category_3": 4.33,
+        "category_4": 6.33,
+        "category_5": 3.97,
+        "category_6": 7.14,
+        "category_7": 5.05,
+        "category_8": 6.1,
+        "category_9": 4.98,
+        "category_10": 5.0,
+        "category_11": 5.4,
+        "category_12": 7.22,
+        "category_13": 5.0,
+        "category_14": 5.67
+      },
+      "scenario_totals": {
+        "default": 5.6,
+        "equal_weight": 5.42,
+        "max_earnings": 5.22,
+        "best_lifestyle": 5.47,
+        "fastest_to_practice": 5.21,
+        "most_procedural": 5.88
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 35,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 55,
+        "prof_school_years": 3,
+        "trainee_salary": 0,
+        "education_debt": 200,
+        "loan_rate": 7.0,
+        "living_expenses": 48,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 3,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 25,
+        "starting_salary": 52,
+        "mid_salary": 78,
+        "peak_salary": 130,
+        "malpractice_per_yr": 2
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 5,
+        "injury": 5,
+        "match": 4
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          25
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 25,
+        "startSalary": 52
+      }
+    },
+    {
+      "name": "Policy / Legislative Counsel",
+      "key": "policy_legislative_couns",
+      "profession": "JD",
+      "group": "government",
+      "color": "#3e5ed0",
+      "path": "Attorney",
+      "raw_data": {
+        "startSalary": 65,
+        "midSalary": 110,
+        "peakSalary": 200,
+        "hoursWeek": 50,
+        "burnout": 38,
+        "satisfaction": 70,
+        "chooseAgain": 62,
+        "malpracticeCost": 1,
+        "vacation": 5,
+        "matchComp": 3,
+        "callSchedule": 5,
+        "physicalToll": 1,
+        "emotionalToll": 4
+      },
+      "scores": {
+        "category_1": 4.75,
+        "category_2": 4.0,
+        "category_3": 4.33,
+        "category_4": 6.67,
+        "category_5": 4.14,
+        "category_6": 7.14,
+        "category_7": 5.4,
+        "category_8": 5.0,
+        "category_9": 5.38,
+        "category_10": 4.6,
+        "category_11": 5.2,
+        "category_12": 7.1,
+        "category_13": 5.0,
+        "category_14": 5.14
+      },
+      "scenario_totals": {
+        "default": 5.5,
+        "equal_weight": 5.27,
+        "max_earnings": 5.23,
+        "best_lifestyle": 5.39,
+        "fastest_to_practice": 5.12,
+        "most_procedural": 5.61
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 35,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 55,
+        "prof_school_years": 3,
+        "trainee_salary": 0,
+        "education_debt": 200,
+        "loan_rate": 7.0,
+        "living_expenses": 48,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 3,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 25,
+        "starting_salary": 65,
+        "mid_salary": 110,
+        "peak_salary": 200,
+        "malpractice_per_yr": 1
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 4,
+        "injury": 8,
+        "match": 5
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          25
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 25,
+        "startSalary": 65
+      }
+    },
+    {
+      "name": "Military JAG",
+      "key": "military_jag",
+      "profession": "JD",
+      "group": "government",
+      "color": "#252bbb",
+      "path": "Attorney",
+      "raw_data": {
+        "startSalary": 70,
+        "midSalary": 120,
+        "peakSalary": 200,
+        "hoursWeek": 50,
+        "burnout": 38,
+        "satisfaction": 75,
+        "chooseAgain": 68,
+        "malpracticeCost": 0,
+        "vacation": 6,
+        "matchComp": 4,
+        "callSchedule": 3,
+        "physicalToll": 4,
+        "emotionalToll": 6
+      },
+      "scores": {
+        "category_1": 4.75,
+        "category_2": 4.33,
+        "category_3": 4.33,
+        "category_4": 6.0,
+        "category_5": 4.2,
+        "category_6": 6.86,
+        "category_7": 5.15,
+        "category_8": 6.25,
+        "category_9": 5.28,
+        "category_10": 4.4,
+        "category_11": 6.2,
+        "category_12": 7.75,
+        "category_13": 5.0,
+        "category_14": 6.29
+      },
+      "scenario_totals": {
+        "default": 5.69,
+        "equal_weight": 5.49,
+        "max_earnings": 5.28,
+        "best_lifestyle": 5.58,
+        "fastest_to_practice": 5.16,
+        "most_procedural": 5.95
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 35,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 55,
+        "prof_school_years": 3,
+        "trainee_salary": 0,
+        "education_debt": 200,
+        "loan_rate": 7.0,
+        "living_expenses": 48,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 3,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 3,
+        "age_independent": 28,
+        "starting_salary": 70,
+        "mid_salary": 120,
+        "peak_salary": 200,
+        "malpractice_per_yr": 0
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 4,
+        "injury": 4,
+        "match": 4
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          25
+        ],
+        "residency": null,
+        "fellowship": [
+          25,
+          28
+        ],
+        "earnAge": 28,
+        "startSalary": 70
+      }
+    },
+    {
+      "name": "Family Law / Divorce",
+      "key": "family_law",
+      "profession": "JD",
+      "group": "family",
+      "color": "#AD1457",
+      "path": "Attorney",
+      "raw_data": {
+        "startSalary": 65,
+        "midSalary": 130,
+        "peakSalary": 300,
+        "hoursWeek": 48,
+        "burnout": 45,
+        "satisfaction": 62,
+        "chooseAgain": 52,
+        "malpracticeCost": 5,
+        "vacation": 5,
+        "matchComp": 7,
+        "callSchedule": 5,
+        "physicalToll": 1,
+        "emotionalToll": 8
+      },
+      "scores": {
+        "category_1": 4.75,
+        "category_2": 5.33,
+        "category_3": 4.33,
+        "category_4": 6.67,
+        "category_5": 4.2,
+        "category_6": 7.43,
+        "category_7": 5.5,
+        "category_8": 6.35,
+        "category_9": 5.58,
+        "category_10": 5.6,
+        "category_11": 5.4,
+        "category_12": 6.27,
+        "category_13": 5.0,
+        "category_14": 4.97
+      },
+      "scenario_totals": {
+        "default": 5.75,
+        "equal_weight": 5.52,
+        "max_earnings": 5.45,
+        "best_lifestyle": 5.66,
+        "fastest_to_practice": 5.36,
+        "most_procedural": 5.94
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 35,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 55,
+        "prof_school_years": 3,
+        "trainee_salary": 0,
+        "education_debt": 200,
+        "loan_rate": 7.0,
+        "living_expenses": 48,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 3,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 25,
+        "starting_salary": 65,
+        "mid_salary": 130,
+        "peak_salary": 300,
+        "malpractice_per_yr": 5
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 6,
+        "injury": 6,
+        "match": 3
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          25
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 25,
+        "startSalary": 65
+      }
+    },
+    {
+      "name": "Estate Planning / Trusts & Wills",
+      "key": "estate_planning_trusts_w",
+      "profession": "JD",
+      "group": "family",
+      "color": "#381fd0",
+      "path": "Attorney",
+      "raw_data": {
+        "startSalary": 70,
+        "midSalary": 150,
+        "peakSalary": 400,
+        "hoursWeek": 42,
+        "burnout": 28,
+        "satisfaction": 72,
+        "chooseAgain": 65,
+        "malpracticeCost": 5,
+        "vacation": 6,
+        "matchComp": 6,
+        "callSchedule": 7,
+        "physicalToll": 1,
+        "emotionalToll": 4
+      },
+      "scores": {
+        "category_1": 4.75,
+        "category_2": 5.0,
+        "category_3": 4.33,
+        "category_4": 7.33,
+        "category_5": 4.29,
+        "category_6": 7.57,
+        "category_7": 5.88,
+        "category_8": 5.15,
+        "category_9": 7.2,
+        "category_10": 5.6,
+        "category_11": 4.6,
+        "category_12": 6.58,
+        "category_13": 5.0,
+        "category_14": 4.54
+      },
+      "scenario_totals": {
+        "default": 5.86,
+        "equal_weight": 5.54,
+        "max_earnings": 5.59,
+        "best_lifestyle": 5.9,
+        "fastest_to_practice": 5.47,
+        "most_procedural": 5.84
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 35,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 55,
+        "prof_school_years": 3,
+        "trainee_salary": 0,
+        "education_debt": 200,
+        "loan_rate": 7.0,
+        "living_expenses": 48,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 3,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 25,
+        "starting_salary": 70,
+        "mid_salary": 150,
+        "peak_salary": 400,
+        "malpractice_per_yr": 5
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 6,
+        "injury": 8,
+        "match": 4
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          25
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 25,
+        "startSalary": 70
+      }
+    },
+    {
+      "name": "Elder Law",
+      "key": "elder_law",
+      "profession": "JD",
+      "group": "family",
+      "color": "#6238bb",
+      "path": "Attorney",
+      "raw_data": {
+        "startSalary": 60,
+        "midSalary": 110,
+        "peakSalary": 250,
+        "hoursWeek": 42,
+        "burnout": 30,
+        "satisfaction": 72,
+        "chooseAgain": 64,
+        "malpracticeCost": 4,
+        "vacation": 6,
+        "matchComp": 7,
+        "callSchedule": 6,
+        "physicalToll": 1,
+        "emotionalToll": 6
+      },
+      "scores": {
+        "category_1": 4.75,
+        "category_2": 5.33,
+        "category_3": 4.33,
+        "category_4": 7.0,
+        "category_5": 4.11,
+        "category_6": 7.57,
+        "category_7": 5.7,
+        "category_8": 5.4,
+        "category_9": 6.92,
+        "category_10": 5.6,
+        "category_11": 5.0,
+        "category_12": 6.73,
+        "category_13": 5.0,
+        "category_14": 5.01
+      },
+      "scenario_totals": {
+        "default": 5.88,
+        "equal_weight": 5.59,
+        "max_earnings": 5.54,
+        "best_lifestyle": 5.88,
+        "fastest_to_practice": 5.46,
+        "most_procedural": 5.91
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 35,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 55,
+        "prof_school_years": 3,
+        "trainee_salary": 0,
+        "education_debt": 200,
+        "loan_rate": 7.0,
+        "living_expenses": 48,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 3,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 25,
+        "starting_salary": 60,
+        "mid_salary": 110,
+        "peak_salary": 250,
+        "malpractice_per_yr": 4
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 6,
+        "injury": 8,
+        "match": 3
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          25
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 25,
+        "startSalary": 60
+      }
+    },
+    {
+      "name": "Immigration Law (Private)",
+      "key": "immigration_law_private",
+      "profession": "JD",
+      "group": "family",
+      "color": "#7d2ad0",
+      "path": "Attorney",
+      "raw_data": {
+        "startSalary": 65,
+        "midSalary": 130,
+        "peakSalary": 350,
+        "hoursWeek": 50,
+        "burnout": 42,
+        "satisfaction": 68,
+        "chooseAgain": 58,
+        "malpracticeCost": 4,
+        "vacation": 5,
+        "matchComp": 6,
+        "callSchedule": 5,
+        "physicalToll": 1,
+        "emotionalToll": 7
+      },
+      "scores": {
+        "category_1": 4.75,
+        "category_2": 5.0,
+        "category_3": 4.33,
+        "category_4": 6.67,
+        "category_5": 4.2,
+        "category_6": 7.29,
+        "category_7": 5.33,
+        "category_8": 6.0,
+        "category_9": 5.42,
+        "category_10": 5.2,
+        "category_11": 5.0,
+        "category_12": 6.77,
+        "category_13": 5.0,
+        "category_14": 4.87
+      },
+      "scenario_totals": {
+        "default": 5.64,
+        "equal_weight": 5.41,
+        "max_earnings": 5.33,
+        "best_lifestyle": 5.55,
+        "fastest_to_practice": 5.27,
+        "most_procedural": 5.85
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 35,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 55,
+        "prof_school_years": 3,
+        "trainee_salary": 0,
+        "education_debt": 200,
+        "loan_rate": 7.0,
+        "living_expenses": 48,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 3,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 25,
+        "starting_salary": 65,
+        "mid_salary": 130,
+        "peak_salary": 350,
+        "malpractice_per_yr": 4
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 5,
+        "injury": 6,
+        "match": 4
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          25
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 25,
+        "startSalary": 65
+      }
+    },
+    {
+      "name": "Personal Injury (Plaintiff)",
+      "key": "pi",
+      "profession": "JD",
+      "group": "family",
+      "color": "#E65100",
+      "path": "Attorney",
+      "raw_data": {
+        "startSalary": 70,
+        "midSalary": 200,
+        "peakSalary": 800,
+        "hoursWeek": 50,
+        "burnout": 40,
+        "satisfaction": 65,
+        "chooseAgain": 58,
+        "malpracticeCost": 8,
+        "vacation": 5,
+        "matchComp": 7,
+        "callSchedule": 5,
+        "physicalToll": 2,
+        "emotionalToll": 6
+      },
+      "scores": {
+        "category_1": 4.75,
+        "category_2": 5.33,
+        "category_3": 4.33,
+        "category_4": 6.67,
+        "category_5": 4.44,
+        "category_6": 7.29,
+        "category_7": 6.1,
+        "category_8": 6.0,
+        "category_9": 5.5,
+        "category_10": 5.6,
+        "category_11": 5.4,
+        "category_12": 6.35,
+        "category_13": 5.0,
+        "category_14": 4.83
+      },
+      "scenario_totals": {
+        "default": 5.8,
+        "equal_weight": 5.53,
+        "max_earnings": 5.62,
+        "best_lifestyle": 5.66,
+        "fastest_to_practice": 5.4,
+        "most_procedural": 5.9
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 35,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 55,
+        "prof_school_years": 3,
+        "trainee_salary": 0,
+        "education_debt": 200,
+        "loan_rate": 7.0,
+        "living_expenses": 48,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 3,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 25,
+        "starting_salary": 70,
+        "mid_salary": 200,
+        "peak_salary": 800,
+        "malpractice_per_yr": 8
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 6,
+        "injury": 5,
+        "match": 3
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          25
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 25,
+        "startSalary": 70
+      }
+    },
+    {
+      "name": "Medical Malpractice (Plaintiff)",
+      "key": "medical_malpractice_plai",
+      "profession": "JD",
+      "group": "family",
+      "color": "#881cbb",
+      "path": "Attorney",
+      "raw_data": {
+        "startSalary": 75,
+        "midSalary": 220,
+        "peakSalary": 900,
+        "hoursWeek": 52,
+        "burnout": 42,
+        "satisfaction": 65,
+        "chooseAgain": 58,
+        "malpracticeCost": 12,
+        "vacation": 5,
+        "matchComp": 4,
+        "callSchedule": 5,
+        "physicalToll": 2,
+        "emotionalToll": 7
+      },
+      "scores": {
+        "category_1": 4.75,
+        "category_2": 4.33,
+        "category_3": 4.33,
+        "category_4": 6.67,
+        "category_5": 4.54,
+        "category_6": 7.14,
+        "category_7": 6.2,
+        "category_8": 5.9,
+        "category_9": 5.14,
+        "category_10": 5.2,
+        "category_11": 5.4,
+        "category_12": 6.85,
+        "category_13": 5.0,
+        "category_14": 4.94
+      },
+      "scenario_totals": {
+        "default": 5.72,
+        "equal_weight": 5.45,
+        "max_earnings": 5.59,
+        "best_lifestyle": 5.57,
+        "fastest_to_practice": 5.28,
+        "most_procedural": 5.86
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 35,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 55,
+        "prof_school_years": 3,
+        "trainee_salary": 0,
+        "education_debt": 200,
+        "loan_rate": 7.0,
+        "living_expenses": 48,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 3,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 25,
+        "starting_salary": 75,
+        "mid_salary": 220,
+        "peak_salary": 900,
+        "malpractice_per_yr": 12
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 5,
+        "injury": 5,
+        "match": 4
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          25
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 25,
+        "startSalary": 75
+      }
+    },
+    {
+      "name": "Workers' Compensation",
+      "key": "workers_compensation",
+      "profession": "JD",
+      "group": "family",
+      "color": "#bb3ed0",
+      "path": "Attorney",
+      "raw_data": {
+        "startSalary": 58,
+        "midSalary": 100,
+        "peakSalary": 220,
+        "hoursWeek": 42,
+        "burnout": 32,
+        "satisfaction": 60,
+        "chooseAgain": 50,
+        "malpracticeCost": 3,
+        "vacation": 6,
+        "matchComp": 8,
+        "callSchedule": 6,
+        "physicalToll": 1,
+        "emotionalToll": 5
+      },
+      "scores": {
+        "category_1": 4.75,
+        "category_2": 5.67,
+        "category_3": 4.33,
+        "category_4": 7.0,
+        "category_5": 4.06,
+        "category_6": 7.43,
+        "category_7": 5.42,
+        "category_8": 6.4,
+        "category_9": 6.64,
+        "category_10": 5.4,
+        "category_11": 5.0,
+        "category_12": 5.48,
+        "category_13": 5.0,
+        "category_14": 4.77
+      },
+      "scenario_totals": {
+        "default": 5.78,
+        "equal_weight": 5.51,
+        "max_earnings": 5.41,
+        "best_lifestyle": 5.79,
+        "fastest_to_practice": 5.41,
+        "most_procedural": 5.88
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 35,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 55,
+        "prof_school_years": 3,
+        "trainee_salary": 0,
+        "education_debt": 200,
+        "loan_rate": 7.0,
+        "living_expenses": 48,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 3,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 25,
+        "starting_salary": 58,
+        "mid_salary": 100,
+        "peak_salary": 220,
+        "malpractice_per_yr": 3
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 5,
+        "injury": 6,
+        "match": 3
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          25
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 25,
+        "startSalary": 58
+      }
+    },
+    {
+      "name": "Real Estate Transactional",
+      "key": "real_estate_transactiona",
+      "profession": "JD",
+      "group": "real_estate",
+      "color": "#bb25b5",
+      "path": "Attorney",
+      "raw_data": {
+        "startSalary": 120,
+        "midSalary": 220,
+        "peakSalary": 600,
+        "hoursWeek": 50,
+        "burnout": 38,
+        "satisfaction": 65,
+        "chooseAgain": 58,
+        "malpracticeCost": 8,
+        "vacation": 5,
+        "matchComp": 5,
+        "callSchedule": 5,
+        "physicalToll": 1,
+        "emotionalToll": 4
+      },
+      "scores": {
+        "category_1": 4.75,
+        "category_2": 4.67,
+        "category_3": 4.33,
+        "category_4": 6.67,
+        "category_5": 4.87,
+        "category_6": 7.29,
+        "category_7": 5.85,
+        "category_8": 4.75,
+        "category_9": 5.58,
+        "category_10": 5.2,
+        "category_11": 4.6,
+        "category_12": 5.68,
+        "category_13": 5.0,
+        "category_14": 4.54
+      },
+      "scenario_totals": {
+        "default": 5.53,
+        "equal_weight": 5.26,
+        "max_earnings": 5.45,
+        "best_lifestyle": 5.38,
+        "fastest_to_practice": 5.24,
+        "most_procedural": 5.46
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 35,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 55,
+        "prof_school_years": 3,
+        "trainee_salary": 0,
+        "education_debt": 200,
+        "loan_rate": 7.0,
+        "living_expenses": 48,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 3,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 25,
+        "starting_salary": 120,
+        "mid_salary": 220,
+        "peak_salary": 600,
+        "malpractice_per_yr": 8
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 5,
+        "injury": 8,
+        "match": 4
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          25
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 25,
+        "startSalary": 120
+      }
+    },
+    {
+      "name": "Real Estate Litigation",
+      "key": "real_estate_litigation",
+      "profession": "JD",
+      "group": "real_estate",
+      "color": "#d01fa9",
+      "path": "Attorney",
+      "raw_data": {
+        "startSalary": 100,
+        "midSalary": 190,
+        "peakSalary": 450,
+        "hoursWeek": 48,
+        "burnout": 38,
+        "satisfaction": 62,
+        "chooseAgain": 55,
+        "malpracticeCost": 6,
+        "vacation": 5,
+        "matchComp": 5,
+        "callSchedule": 5,
+        "physicalToll": 1,
+        "emotionalToll": 5
+      },
+      "scores": {
+        "category_1": 4.75,
+        "category_2": 4.67,
+        "category_3": 4.33,
+        "category_4": 6.67,
+        "category_5": 4.64,
+        "category_6": 7.29,
+        "category_7": 5.67,
+        "category_8": 6.1,
+        "category_9": 5.66,
+        "category_10": 5.4,
+        "category_11": 5.0,
+        "category_12": 5.85,
+        "category_13": 5.0,
+        "category_14": 4.63
+      },
+      "scenario_totals": {
+        "default": 5.66,
+        "equal_weight": 5.39,
+        "max_earnings": 5.48,
+        "best_lifestyle": 5.57,
+        "fastest_to_practice": 5.28,
+        "most_procedural": 5.77
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 35,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 55,
+        "prof_school_years": 3,
+        "trainee_salary": 0,
+        "education_debt": 200,
+        "loan_rate": 7.0,
+        "living_expenses": 48,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 3,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 25,
+        "starting_salary": 100,
+        "mid_salary": 190,
+        "peak_salary": 450,
+        "malpractice_per_yr": 6
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 6,
+        "injury": 5,
+        "match": 4
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          25
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 25,
+        "startSalary": 100
+      }
+    },
+    {
+      "name": "Land Use / Zoning",
+      "key": "land_use_zoning",
+      "profession": "JD",
+      "group": "real_estate",
+      "color": "#bb3887",
+      "path": "Attorney",
+      "raw_data": {
+        "startSalary": 90,
+        "midSalary": 170,
+        "peakSalary": 400,
+        "hoursWeek": 45,
+        "burnout": 32,
+        "satisfaction": 68,
+        "chooseAgain": 60,
+        "malpracticeCost": 5,
+        "vacation": 6,
+        "matchComp": 5,
+        "callSchedule": 6,
+        "physicalToll": 1,
+        "emotionalToll": 4
+      },
+      "scores": {
+        "category_1": 4.75,
+        "category_2": 4.67,
+        "category_3": 4.33,
+        "category_4": 7.0,
+        "category_5": 4.49,
+        "category_6": 7.29,
+        "category_7": 5.62,
+        "category_8": 5.75,
+        "category_9": 6.52,
+        "category_10": 5.0,
+        "category_11": 5.4,
+        "category_12": 6.48,
+        "category_13": 5.0,
+        "category_14": 4.69
+      },
+      "scenario_totals": {
+        "default": 5.79,
+        "equal_weight": 5.49,
+        "max_earnings": 5.5,
+        "best_lifestyle": 5.78,
+        "fastest_to_practice": 5.36,
+        "most_procedural": 5.85
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 35,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 55,
+        "prof_school_years": 3,
+        "trainee_salary": 0,
+        "education_debt": 200,
+        "loan_rate": 7.0,
+        "living_expenses": 48,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 3,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 25,
+        "starting_salary": 90,
+        "mid_salary": 170,
+        "peak_salary": 400,
+        "malpractice_per_yr": 5
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 5,
+        "injury": 7,
+        "match": 4
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          25
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 25,
+        "startSalary": 90
+      }
+    },
+    {
+      "name": "Construction Law",
+      "key": "construction_law",
+      "profession": "JD",
+      "group": "real_estate",
+      "color": "#d02a6f",
+      "path": "Attorney",
+      "raw_data": {
+        "startSalary": 100,
+        "midSalary": 200,
+        "peakSalary": 500,
+        "hoursWeek": 50,
+        "burnout": 38,
+        "satisfaction": 63,
+        "chooseAgain": 55,
+        "malpracticeCost": 6,
+        "vacation": 5,
+        "matchComp": 5,
+        "callSchedule": 5,
+        "physicalToll": 2,
+        "emotionalToll": 5
+      },
+      "scores": {
+        "category_1": 4.75,
+        "category_2": 4.67,
+        "category_3": 4.33,
+        "category_4": 6.67,
+        "category_5": 4.67,
+        "category_6": 7.14,
+        "category_7": 5.5,
+        "category_8": 5.75,
+        "category_9": 5.38,
+        "category_10": 5.2,
+        "category_11": 5.2,
+        "category_12": 5.7,
+        "category_13": 5.0,
+        "category_14": 4.77
+      },
+      "scenario_totals": {
+        "default": 5.57,
+        "equal_weight": 5.33,
+        "max_earnings": 5.39,
+        "best_lifestyle": 5.44,
+        "fastest_to_practice": 5.24,
+        "most_procedural": 5.64
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 35,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 55,
+        "prof_school_years": 3,
+        "trainee_salary": 0,
+        "education_debt": 200,
+        "loan_rate": 7.0,
+        "living_expenses": 48,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 3,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 25,
+        "starting_salary": 100,
+        "mid_salary": 200,
+        "peak_salary": 500,
+        "malpractice_per_yr": 6
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 5,
+        "injury": 5,
+        "match": 4
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          25
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 25,
+        "startSalary": 100
+      }
+    },
+    {
+      "name": "Healthcare Regulatory",
+      "key": "healthcare_regulatory",
+      "profession": "JD",
+      "group": "regulatory",
+      "color": "#bb1c42",
+      "path": "Attorney",
+      "raw_data": {
+        "startSalary": 130,
+        "midSalary": 240,
+        "peakSalary": 500,
+        "hoursWeek": 50,
+        "burnout": 38,
+        "satisfaction": 65,
+        "chooseAgain": 58,
+        "malpracticeCost": 5,
+        "vacation": 5,
+        "matchComp": 4,
+        "callSchedule": 5,
+        "physicalToll": 1,
+        "emotionalToll": 4
+      },
+      "scores": {
+        "category_1": 4.75,
+        "category_2": 4.33,
+        "category_3": 4.33,
+        "category_4": 6.67,
+        "category_5": 4.99,
+        "category_6": 7.29,
+        "category_7": 5.75,
+        "category_8": 5.25,
+        "category_9": 5.58,
+        "category_10": 5.2,
+        "category_11": 4.8,
+        "category_12": 6.02,
+        "category_13": 5.0,
+        "category_14": 4.83
+      },
+      "scenario_totals": {
+        "default": 5.61,
+        "equal_weight": 5.33,
+        "max_earnings": 5.5,
+        "best_lifestyle": 5.47,
+        "fastest_to_practice": 5.25,
+        "most_procedural": 5.61
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 35,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 55,
+        "prof_school_years": 3,
+        "trainee_salary": 0,
+        "education_debt": 200,
+        "loan_rate": 7.0,
+        "living_expenses": 48,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 3,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 25,
+        "starting_salary": 130,
+        "mid_salary": 240,
+        "peak_salary": 500,
+        "malpractice_per_yr": 5
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 5,
+        "injury": 7,
+        "match": 4
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          25
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 25,
+        "startSalary": 130
+      }
+    },
+    {
+      "name": "Financial Regulatory (SEC/FINRA)",
+      "key": "financial_regulatory_sec",
+      "profession": "JD",
+      "group": "regulatory",
+      "color": "#d03e47",
+      "path": "Attorney",
+      "raw_data": {
+        "startSalary": 140,
+        "midSalary": 260,
+        "peakSalary": 600,
+        "hoursWeek": 52,
+        "burnout": 40,
+        "satisfaction": 62,
+        "chooseAgain": 55,
+        "malpracticeCost": 8,
+        "vacation": 5,
+        "matchComp": 3,
+        "callSchedule": 5,
+        "physicalToll": 1,
+        "emotionalToll": 4
+      },
+      "scores": {
+        "category_1": 4.75,
+        "category_2": 4.0,
+        "category_3": 4.33,
+        "category_4": 6.67,
+        "category_5": 5.13,
+        "category_6": 7.14,
+        "category_7": 5.85,
+        "category_8": 5.4,
+        "category_9": 5.22,
+        "category_10": 4.8,
+        "category_11": 4.8,
+        "category_12": 5.52,
+        "category_13": 5.0,
+        "category_14": 4.69
+      },
+      "scenario_totals": {
+        "default": 5.5,
+        "equal_weight": 5.23,
+        "max_earnings": 5.46,
+        "best_lifestyle": 5.34,
+        "fastest_to_practice": 5.17,
+        "most_procedural": 5.5
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 35,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 55,
+        "prof_school_years": 3,
+        "trainee_salary": 0,
+        "education_debt": 200,
+        "loan_rate": 7.0,
+        "living_expenses": 48,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 3,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 25,
+        "starting_salary": 140,
+        "mid_salary": 260,
+        "peak_salary": 600,
+        "malpractice_per_yr": 8
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 4,
+        "injury": 6,
+        "match": 5
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          25
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 25,
+        "startSalary": 140
+      }
+    },
+    {
+      "name": "Environmental Regulatory (EPA)",
+      "key": "environmental_regulatory",
+      "profession": "JD",
+      "group": "regulatory",
+      "color": "#bb3725",
+      "path": "Attorney",
+      "raw_data": {
+        "startSalary": 100,
+        "midSalary": 180,
+        "peakSalary": 400,
+        "hoursWeek": 48,
+        "burnout": 35,
+        "satisfaction": 65,
+        "chooseAgain": 58,
+        "malpracticeCost": 5,
+        "vacation": 5,
+        "matchComp": 4,
+        "callSchedule": 6,
+        "physicalToll": 1,
+        "emotionalToll": 4
+      },
+      "scores": {
+        "category_1": 4.75,
+        "category_2": 4.33,
+        "category_3": 4.33,
+        "category_4": 7.0,
+        "category_5": 4.61,
+        "category_6": 7.29,
+        "category_7": 5.62,
+        "category_8": 5.6,
+        "category_9": 5.78,
+        "category_10": 5.0,
+        "category_11": 5.2,
+        "category_12": 6.35,
+        "category_13": 5.0,
+        "category_14": 4.83
+      },
+      "scenario_totals": {
+        "default": 5.67,
+        "equal_weight": 5.4,
+        "max_earnings": 5.46,
+        "best_lifestyle": 5.58,
+        "fastest_to_practice": 5.29,
+        "most_procedural": 5.74
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 35,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 55,
+        "prof_school_years": 3,
+        "trainee_salary": 0,
+        "education_debt": 200,
+        "loan_rate": 7.0,
+        "living_expenses": 48,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 3,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 25,
+        "starting_salary": 100,
+        "mid_salary": 180,
+        "peak_salary": 400,
+        "malpractice_per_yr": 5
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 4,
+        "injury": 7,
+        "match": 4
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          25
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 25,
+        "startSalary": 100
+      }
+    },
+    {
+      "name": "Privacy & Data Protection",
+      "key": "privacy",
+      "profession": "JD",
+      "group": "regulatory",
+      "color": "#4A148C",
+      "path": "Attorney",
+      "raw_data": {
+        "startSalary": 180,
+        "midSalary": 320,
+        "peakSalary": 500,
+        "hoursWeek": 52,
+        "burnout": 38,
+        "satisfaction": 72,
+        "chooseAgain": 65,
+        "malpracticeCost": 5,
+        "vacation": 5,
+        "matchComp": 3,
+        "callSchedule": 4,
+        "physicalToll": 1,
+        "emotionalToll": 4
+      },
+      "scores": {
+        "category_1": 4.75,
+        "category_2": 4.0,
+        "category_3": 4.33,
+        "category_4": 6.33,
+        "category_5": 5.59,
+        "category_6": 7.29,
+        "category_7": 6.0,
+        "category_8": 4.9,
+        "category_9": 5.5,
+        "category_10": 5.4,
+        "category_11": 4.4,
+        "category_12": 7.25,
+        "category_13": 5.0,
+        "category_14": 4.83
+      },
+      "scenario_totals": {
+        "default": 5.69,
+        "equal_weight": 5.39,
+        "max_earnings": 5.69,
+        "best_lifestyle": 5.55,
+        "fastest_to_practice": 5.29,
+        "most_procedural": 5.72
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 35,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 55,
+        "prof_school_years": 3,
+        "trainee_salary": 0,
+        "education_debt": 200,
+        "loan_rate": 7.0,
+        "living_expenses": 48,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 3,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 25,
+        "starting_salary": 180,
+        "mid_salary": 320,
+        "peak_salary": 500,
+        "malpractice_per_yr": 5
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 6,
+        "injury": 8,
+        "match": 5
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          25
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 25,
+        "startSalary": 180
+      }
+    },
+    {
+      "name": "In-House Compliance Officer",
+      "key": "in_house_compliance_offi",
+      "profession": "JD",
+      "group": "regulatory",
+      "color": "#d0541f",
+      "path": "Attorney",
+      "raw_data": {
+        "startSalary": 120,
+        "midSalary": 200,
+        "peakSalary": 400,
+        "hoursWeek": 45,
+        "burnout": 32,
+        "satisfaction": 68,
+        "chooseAgain": 60,
+        "malpracticeCost": 3,
+        "vacation": 6,
+        "matchComp": 5,
+        "callSchedule": 5,
+        "physicalToll": 1,
+        "emotionalToll": 4
+      },
+      "scores": {
+        "category_1": 4.75,
+        "category_2": 4.67,
+        "category_3": 4.33,
+        "category_4": 6.67,
+        "category_5": 4.81,
+        "category_6": 7.29,
+        "category_7": 5.62,
+        "category_8": 5.5,
+        "category_9": 6.32,
+        "category_10": 5.2,
+        "category_11": 4.6,
+        "category_12": 5.82,
+        "category_13": 5.0,
+        "category_14": 4.91
+      },
+      "scenario_totals": {
+        "default": 5.66,
+        "equal_weight": 5.38,
+        "max_earnings": 5.47,
+        "best_lifestyle": 5.61,
+        "fastest_to_practice": 5.29,
+        "most_procedural": 5.66
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 35,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 55,
+        "prof_school_years": 3,
+        "trainee_salary": 0,
+        "education_debt": 200,
+        "loan_rate": 7.0,
+        "living_expenses": 48,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 3,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 25,
+        "starting_salary": 120,
+        "mid_salary": 200,
+        "peak_salary": 400,
+        "malpractice_per_yr": 3
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 5,
+        "injury": 8,
+        "match": 4
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          25
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 25,
+        "startSalary": 120
+      }
+    },
+    {
+      "name": "Employment Law (Management)",
+      "key": "employment_law_managemen",
+      "profession": "JD",
+      "group": "employment",
+      "color": "#bb7738",
+      "path": "Attorney",
+      "raw_data": {
+        "startSalary": 130,
+        "midSalary": 240,
+        "peakSalary": 550,
+        "hoursWeek": 52,
+        "burnout": 40,
+        "satisfaction": 62,
+        "chooseAgain": 55,
+        "malpracticeCost": 6,
+        "vacation": 5,
+        "matchComp": 5,
+        "callSchedule": 5,
+        "physicalToll": 1,
+        "emotionalToll": 5
+      },
+      "scores": {
+        "category_1": 4.75,
+        "category_2": 4.67,
+        "category_3": 4.33,
+        "category_4": 6.67,
+        "category_5": 4.99,
+        "category_6": 7.29,
+        "category_7": 5.8,
+        "category_8": 5.4,
+        "category_9": 5.42,
+        "category_10": 5.4,
+        "category_11": 4.8,
+        "category_12": 5.68,
+        "category_13": 5.0,
+        "category_14": 4.63
+      },
+      "scenario_totals": {
+        "default": 5.6,
+        "equal_weight": 5.33,
+        "max_earnings": 5.52,
+        "best_lifestyle": 5.45,
+        "fastest_to_practice": 5.28,
+        "most_procedural": 5.61
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 35,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 55,
+        "prof_school_years": 3,
+        "trainee_salary": 0,
+        "education_debt": 200,
+        "loan_rate": 7.0,
+        "living_expenses": 48,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 3,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 25,
+        "starting_salary": 130,
+        "mid_salary": 240,
+        "peak_salary": 550,
+        "malpractice_per_yr": 6
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 6,
+        "injury": 6,
+        "match": 4
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          25
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 25,
+        "startSalary": 130
+      }
+    },
+    {
+      "name": "Employment Law (Plaintiff)",
+      "key": "employment_law_plaintiff",
+      "profession": "JD",
+      "group": "employment",
+      "color": "#d0972a",
+      "path": "Attorney",
+      "raw_data": {
+        "startSalary": 65,
+        "midSalary": 160,
+        "peakSalary": 500,
+        "hoursWeek": 48,
+        "burnout": 42,
+        "satisfaction": 68,
+        "chooseAgain": 60,
+        "malpracticeCost": 5,
+        "vacation": 5,
+        "matchComp": 6,
+        "callSchedule": 5,
+        "physicalToll": 1,
+        "emotionalToll": 6
+      },
+      "scores": {
+        "category_1": 4.75,
+        "category_2": 5.0,
+        "category_3": 4.33,
+        "category_4": 6.67,
+        "category_5": 4.29,
+        "category_6": 7.29,
+        "category_7": 5.5,
+        "category_8": 6.1,
+        "category_9": 5.5,
+        "category_10": 5.4,
+        "category_11": 5.4,
+        "category_12": 6.82,
+        "category_13": 5.0,
+        "category_14": 4.83
+      },
+      "scenario_totals": {
+        "default": 5.73,
+        "equal_weight": 5.48,
+        "max_earnings": 5.44,
+        "best_lifestyle": 5.64,
+        "fastest_to_practice": 5.32,
+        "most_procedural": 5.93
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 35,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 55,
+        "prof_school_years": 3,
+        "trainee_salary": 0,
+        "education_debt": 200,
+        "loan_rate": 7.0,
+        "living_expenses": 48,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 3,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 25,
+        "starting_salary": 65,
+        "mid_salary": 160,
+        "peak_salary": 500,
+        "malpractice_per_yr": 5
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 6,
+        "injury": 5,
+        "match": 4
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          25
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 25,
+        "startSalary": 65
+      }
+    },
+    {
+      "name": "Labor Relations / Union Law",
+      "key": "labor_relations_union_la",
+      "profession": "JD",
+      "group": "employment",
+      "color": "#bba21c",
+      "path": "Attorney",
+      "raw_data": {
+        "startSalary": 80,
+        "midSalary": 150,
+        "peakSalary": 350,
+        "hoursWeek": 48,
+        "burnout": 38,
+        "satisfaction": 65,
+        "chooseAgain": 58,
+        "malpracticeCost": 4,
+        "vacation": 5,
+        "matchComp": 5,
+        "callSchedule": 5,
+        "physicalToll": 1,
+        "emotionalToll": 5
+      },
+      "scores": {
+        "category_1": 4.75,
+        "category_2": 4.67,
+        "category_3": 4.33,
+        "category_4": 6.67,
+        "category_5": 4.37,
+        "category_6": 7.14,
+        "category_7": 5.33,
+        "category_8": 5.6,
+        "category_9": 5.46,
+        "category_10": 5.0,
+        "category_11": 5.8,
+        "category_12": 6.52,
+        "category_13": 5.0,
+        "category_14": 5.01
+      },
+      "scenario_totals": {
+        "default": 5.63,
+        "equal_weight": 5.4,
+        "max_earnings": 5.34,
+        "best_lifestyle": 5.51,
+        "fastest_to_practice": 5.25,
+        "most_procedural": 5.74
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 35,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 55,
+        "prof_school_years": 3,
+        "trainee_salary": 0,
+        "education_debt": 200,
+        "loan_rate": 7.0,
+        "living_expenses": 48,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 3,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 25,
+        "starting_salary": 80,
+        "mid_salary": 150,
+        "peak_salary": 350,
+        "malpractice_per_yr": 4
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 5,
+        "injury": 6,
+        "match": 4
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          25
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 25,
+        "startSalary": 80
+      }
+    },
+    {
+      "name": "Employee Benefits / ERISA",
+      "key": "employee_benefits_erisa",
+      "profession": "JD",
+      "group": "employment",
+      "color": "#cdd03e",
+      "path": "Attorney",
+      "raw_data": {
+        "startSalary": 130,
+        "midSalary": 230,
+        "peakSalary": 500,
+        "hoursWeek": 48,
+        "burnout": 32,
+        "satisfaction": 65,
+        "chooseAgain": 58,
+        "malpracticeCost": 5,
+        "vacation": 5,
+        "matchComp": 5,
+        "callSchedule": 6,
+        "physicalToll": 1,
+        "emotionalToll": 3
+      },
+      "scores": {
+        "category_1": 4.75,
+        "category_2": 4.67,
+        "category_3": 4.33,
+        "category_4": 7.0,
+        "category_5": 4.96,
+        "category_6": 7.43,
+        "category_7": 5.75,
+        "category_8": 5.1,
+        "category_9": 6.1,
+        "category_10": 5.4,
+        "category_11": 4.8,
+        "category_12": 5.68,
+        "category_13": 5.0,
+        "category_14": 4.69
+      },
+      "scenario_totals": {
+        "default": 5.68,
+        "equal_weight": 5.39,
+        "max_earnings": 5.55,
+        "best_lifestyle": 5.58,
+        "fastest_to_practice": 5.35,
+        "most_procedural": 5.62
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 35,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 55,
+        "prof_school_years": 3,
+        "trainee_salary": 0,
+        "education_debt": 200,
+        "loan_rate": 7.0,
+        "living_expenses": 48,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 3,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 25,
+        "starting_salary": 130,
+        "mid_salary": 230,
+        "peak_salary": 500,
+        "malpractice_per_yr": 5
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 6,
+        "injury": 8,
+        "match": 4
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          25
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 25,
+        "startSalary": 130
+      }
+    },
+    {
+      "name": "Tech Transactions / SaaS Licensing",
+      "key": "tech_transactions_saas_l",
+      "profession": "JD",
+      "group": "tech_law",
+      "color": "#9dbb25",
+      "path": "Attorney",
+      "raw_data": {
+        "startSalary": 190,
+        "midSalary": 320,
+        "peakSalary": 600,
+        "hoursWeek": 55,
+        "burnout": 40,
+        "satisfaction": 68,
+        "chooseAgain": 62,
+        "malpracticeCost": 5,
+        "vacation": 5,
+        "matchComp": 3,
+        "callSchedule": 4,
+        "physicalToll": 1,
+        "emotionalToll": 4
+      },
+      "scores": {
+        "category_1": 4.75,
+        "category_2": 4.0,
+        "category_3": 4.33,
+        "category_4": 6.33,
+        "category_5": 5.64,
+        "category_6": 7.29,
+        "category_7": 5.85,
+        "category_8": 4.5,
+        "category_9": 5.3,
+        "category_10": 5.4,
+        "category_11": 4.4,
+        "category_12": 6.2,
+        "category_13": 5.0,
+        "category_14": 4.83
+      },
+      "scenario_totals": {
+        "default": 5.54,
+        "equal_weight": 5.27,
+        "max_earnings": 5.58,
+        "best_lifestyle": 5.35,
+        "fastest_to_practice": 5.21,
+        "most_procedural": 5.47
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 35,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 55,
+        "prof_school_years": 3,
+        "trainee_salary": 0,
+        "education_debt": 200,
+        "loan_rate": 7.0,
+        "living_expenses": 48,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 3,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 25,
+        "starting_salary": 190,
+        "mid_salary": 320,
+        "peak_salary": 600,
+        "malpractice_per_yr": 5
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 6,
+        "injury": 8,
+        "match": 5
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          25
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 25,
+        "startSalary": 190
+      }
+    },
+    {
+      "name": "Cybersecurity Law",
+      "key": "cybersecurity_law",
+      "profession": "JD",
+      "group": "tech_law",
+      "color": "#8cd01f",
+      "path": "Attorney",
+      "raw_data": {
+        "startSalary": 170,
+        "midSalary": 300,
+        "peakSalary": 550,
+        "hoursWeek": 55,
+        "burnout": 42,
+        "satisfaction": 70,
+        "chooseAgain": 63,
+        "malpracticeCost": 5,
+        "vacation": 4,
+        "matchComp": 3,
+        "callSchedule": 3,
+        "physicalToll": 1,
+        "emotionalToll": 5
+      },
+      "scores": {
+        "category_1": 4.75,
+        "category_2": 4.0,
+        "category_3": 4.33,
+        "category_4": 6.0,
+        "category_5": 5.44,
+        "category_6": 7.14,
+        "category_7": 6.05,
+        "category_8": 4.75,
+        "category_9": 4.72,
+        "category_10": 5.4,
+        "category_11": 4.6,
+        "category_12": 6.97,
+        "category_13": 5.0,
+        "category_14": 4.97
+      },
+      "scenario_totals": {
+        "default": 5.55,
+        "equal_weight": 5.29,
+        "max_earnings": 5.6,
+        "best_lifestyle": 5.32,
+        "fastest_to_practice": 5.17,
+        "most_procedural": 5.58
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 35,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 55,
+        "prof_school_years": 3,
+        "trainee_salary": 0,
+        "education_debt": 200,
+        "loan_rate": 7.0,
+        "living_expenses": 48,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 3,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 25,
+        "starting_salary": 170,
+        "mid_salary": 300,
+        "peak_salary": 550,
+        "malpractice_per_yr": 5
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 6,
+        "injury": 7,
+        "match": 5
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          25
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 25,
+        "startSalary": 170
+      }
+    },
+    {
+      "name": "AI & Emerging Tech Law",
+      "key": "ai_emerging_tech_law",
+      "profession": "JD",
+      "group": "tech_law",
+      "color": "#72bb38",
+      "path": "Attorney",
+      "raw_data": {
+        "startSalary": 200,
+        "midSalary": 350,
+        "peakSalary": 700,
+        "hoursWeek": 55,
+        "burnout": 38,
+        "satisfaction": 75,
+        "chooseAgain": 68,
+        "malpracticeCost": 5,
+        "vacation": 4,
+        "matchComp": 2,
+        "callSchedule": 4,
+        "physicalToll": 1,
+        "emotionalToll": 3
+      },
+      "scores": {
+        "category_1": 4.75,
+        "category_2": 3.67,
+        "category_3": 4.33,
+        "category_4": 6.33,
+        "category_5": 5.81,
+        "category_6": 7.14,
+        "category_7": 6.22,
+        "category_8": 4.5,
+        "category_9": 4.88,
+        "category_10": 5.4,
+        "category_11": 4.0,
+        "category_12": 7.75,
+        "category_13": 5.0,
+        "category_14": 4.69
+      },
+      "scenario_totals": {
+        "default": 5.61,
+        "equal_weight": 5.31,
+        "max_earnings": 5.72,
+        "best_lifestyle": 5.42,
+        "fastest_to_practice": 5.25,
+        "most_procedural": 5.65
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 35,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 55,
+        "prof_school_years": 3,
+        "trainee_salary": 0,
+        "education_debt": 200,
+        "loan_rate": 7.0,
+        "living_expenses": 48,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 3,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 25,
+        "starting_salary": 200,
+        "mid_salary": 350,
+        "peak_salary": 700,
+        "malpractice_per_yr": 5
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 7,
+        "injury": 7,
+        "match": 5
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          25
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 25,
+        "startSalary": 200
+      }
+    },
+    {
+      "name": "FinTech / Crypto Law",
+      "key": "fintech_crypto_law",
+      "profession": "JD",
+      "group": "tech_law",
+      "color": "#55d02a",
+      "path": "Attorney",
+      "raw_data": {
+        "startSalary": 190,
+        "midSalary": 320,
+        "peakSalary": 650,
+        "hoursWeek": 55,
+        "burnout": 42,
+        "satisfaction": 68,
+        "chooseAgain": 60,
+        "malpracticeCost": 8,
+        "vacation": 4,
+        "matchComp": 3,
+        "callSchedule": 4,
+        "physicalToll": 1,
+        "emotionalToll": 4
+      },
+      "scores": {
+        "category_1": 4.75,
+        "category_2": 4.0,
+        "category_3": 4.33,
+        "category_4": 6.33,
+        "category_5": 5.64,
+        "category_6": 7.14,
+        "category_7": 5.67,
+        "category_8": 4.75,
+        "category_9": 4.72,
+        "category_10": 5.2,
+        "category_11": 4.4,
+        "category_12": 6.48,
+        "category_13": 5.0,
+        "category_14": 4.83
+      },
+      "scenario_totals": {
+        "default": 5.48,
+        "equal_weight": 5.23,
+        "max_earnings": 5.51,
+        "best_lifestyle": 5.26,
+        "fastest_to_practice": 5.18,
+        "most_procedural": 5.49
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 35,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 55,
+        "prof_school_years": 3,
+        "trainee_salary": 0,
+        "education_debt": 200,
+        "loan_rate": 7.0,
+        "living_expenses": 48,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 3,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 25,
+        "starting_salary": 190,
+        "mid_salary": 320,
+        "peak_salary": 650,
+        "malpractice_per_yr": 8
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 6,
+        "injury": 7,
+        "match": 5
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          25
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 25,
+        "startSalary": 190
+      }
+    },
+    {
+      "name": "Mediator / Arbitrator",
+      "key": "mediator_arbitrator",
+      "profession": "JD",
+      "group": "alternative",
+      "color": "#28bb1c",
+      "path": "Attorney",
+      "raw_data": {
+        "startSalary": 80,
+        "midSalary": 160,
+        "peakSalary": 400,
+        "hoursWeek": 38,
+        "burnout": 22,
+        "satisfaction": 80,
+        "chooseAgain": 75,
+        "malpracticeCost": 3,
+        "vacation": 7,
+        "matchComp": 5,
+        "callSchedule": 7,
+        "physicalToll": 1,
+        "emotionalToll": 4
+      },
+      "scores": {
+        "category_1": 4.75,
+        "category_2": 4.67,
+        "category_3": 4.33,
+        "category_4": 7.33,
+        "category_5": 4.4,
+        "category_6": 7.71,
+        "category_7": 6.12,
+        "category_8": 6.1,
+        "category_9": 8.1,
+        "category_10": 5.4,
+        "category_11": 5.8,
+        "category_12": 7.6,
+        "category_13": 5.0,
+        "category_14": 5.06
+      },
+      "scenario_totals": {
+        "default": 6.24,
+        "equal_weight": 5.87,
+        "max_earnings": 5.87,
+        "best_lifestyle": 6.37,
+        "fastest_to_practice": 5.63,
+        "most_procedural": 6.31
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 35,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 55,
+        "prof_school_years": 3,
+        "trainee_salary": 0,
+        "education_debt": 200,
+        "loan_rate": 7.0,
+        "living_expenses": 48,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 3,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 25,
+        "starting_salary": 80,
+        "mid_salary": 160,
+        "peak_salary": 400,
+        "malpractice_per_yr": 3
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 7,
+        "injury": 7,
+        "match": 4
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          25
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 25,
+        "startSalary": 80
+      }
+    },
+    {
+      "name": "Law Professor / Academia",
+      "key": "law_professor_academia",
+      "profession": "JD",
+      "group": "alternative",
+      "color": "#3ed04d",
+      "path": "Attorney",
+      "raw_data": {
+        "startSalary": 120,
+        "midSalary": 180,
+        "peakSalary": 300,
+        "hoursWeek": 45,
+        "burnout": 28,
+        "satisfaction": 82,
+        "chooseAgain": 78,
+        "malpracticeCost": 1,
+        "vacation": 8,
+        "matchComp": 2,
+        "callSchedule": 8,
+        "physicalToll": 1,
+        "emotionalToll": 3
+      },
+      "scores": {
+        "category_1": 4.75,
+        "category_2": 3.67,
+        "category_3": 4.33,
+        "category_4": 7.67,
+        "category_5": 4.76,
+        "category_6": 7.57,
+        "category_7": 6.0,
+        "category_8": 5.0,
+        "category_9": 7.28,
+        "category_10": 4.8,
+        "category_11": 5.4,
+        "category_12": 8.08,
+        "category_13": 5.0,
+        "category_14": 5.71
+      },
+      "scenario_totals": {
+        "default": 6.05,
+        "equal_weight": 5.71,
+        "max_earnings": 5.76,
+        "best_lifestyle": 6.08,
+        "fastest_to_practice": 5.52,
+        "most_procedural": 6.04
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 35,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 55,
+        "prof_school_years": 3,
+        "trainee_salary": 0,
+        "education_debt": 200,
+        "loan_rate": 7.0,
+        "living_expenses": 48,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 3,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 25,
+        "starting_salary": 120,
+        "mid_salary": 180,
+        "peak_salary": 300,
+        "malpractice_per_yr": 1
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 6,
+        "injury": 9,
+        "match": 5
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          25
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 25,
+        "startSalary": 120
+      }
+    },
+    {
+      "name": "Management Consulting (JD)",
+      "key": "management_consulting_jd",
+      "profession": "JD",
+      "group": "alternative",
+      "color": "#25bb4f",
+      "path": "Attorney",
+      "raw_data": {
+        "startSalary": 190,
+        "midSalary": 350,
+        "peakSalary": 800,
+        "hoursWeek": 60,
+        "burnout": 50,
+        "satisfaction": 62,
+        "chooseAgain": 52,
+        "malpracticeCost": 2,
+        "vacation": 4,
+        "matchComp": 2,
+        "callSchedule": 3,
+        "physicalToll": 3,
+        "emotionalToll": 5
+      },
+      "scores": {
+        "category_1": 4.75,
+        "category_2": 3.67,
+        "category_3": 4.33,
+        "category_4": 6.0,
+        "category_5": 5.73,
+        "category_6": 7.0,
+        "category_7": 5.6,
+        "category_8": 4.0,
+        "category_9": 4.0,
+        "category_10": 5.0,
+        "category_11": 4.6,
+        "category_12": 6.27,
+        "category_13": 5.0,
+        "category_14": 6.1
+      },
+      "scenario_totals": {
+        "default": 5.34,
+        "equal_weight": 5.15,
+        "max_earnings": 5.4,
+        "best_lifestyle": 4.98,
+        "fastest_to_practice": 5.06,
+        "most_procedural": 5.25
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 35,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 55,
+        "prof_school_years": 3,
+        "trainee_salary": 0,
+        "education_debt": 200,
+        "loan_rate": 7.0,
+        "living_expenses": 48,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 3,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 25,
+        "starting_salary": 190,
+        "mid_salary": 350,
+        "peak_salary": 800,
+        "malpractice_per_yr": 2
+      },
+      "stress": {
+        "ai": 5,
+        "pay": 5,
+        "injury": 7,
+        "match": 5
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          25
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 25,
+        "startSalary": 190
+      }
+    },
+    {
+      "name": "Legal Tech / Legal Ops",
+      "key": "legal_tech_legal_ops",
+      "profession": "JD",
+      "group": "alternative",
+      "color": "#1fd070",
+      "path": "Attorney",
+      "raw_data": {
+        "startSalary": 130,
+        "midSalary": 220,
+        "peakSalary": 450,
+        "hoursWeek": 45,
+        "burnout": 30,
+        "satisfaction": 72,
+        "chooseAgain": 65,
+        "malpracticeCost": 2,
+        "vacation": 6,
+        "matchComp": 4,
+        "callSchedule": 6,
+        "physicalToll": 1,
+        "emotionalToll": 3
+      },
+      "scores": {
+        "category_1": 4.75,
+        "category_2": 4.33,
+        "category_3": 4.33,
+        "category_4": 7.0,
+        "category_5": 4.93,
+        "category_6": 7.43,
+        "category_7": 5.92,
+        "category_8": 5.0,
+        "category_9": 6.6,
+        "category_10": 5.6,
+        "category_11": 4.0,
+        "category_12": 6.75,
+        "category_13": 5.0,
+        "category_14": 5.39
+      },
+      "scenario_totals": {
+        "default": 5.79,
+        "equal_weight": 5.5,
+        "max_earnings": 5.64,
+        "best_lifestyle": 5.75,
+        "fastest_to_practice": 5.4,
+        "most_procedural": 5.76
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 35,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 55,
+        "prof_school_years": 3,
+        "trainee_salary": 0,
+        "education_debt": 200,
+        "loan_rate": 7.0,
+        "living_expenses": 48,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 3,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 25,
+        "starting_salary": 130,
+        "mid_salary": 220,
+        "peak_salary": 450,
+        "malpractice_per_yr": 2
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 6,
+        "injury": 8,
+        "match": 4
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          25
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 25,
+        "startSalary": 130
+      }
+    },
+    {
+      "name": "FBI / Federal Agent (JD)",
+      "key": "fbi_federal_agent_jd",
+      "profession": "JD",
+      "group": "alternative",
+      "color": "#38bb8c",
+      "path": "Attorney",
+      "raw_data": {
+        "startSalary": 85,
+        "midSalary": 140,
+        "peakSalary": 200,
+        "hoursWeek": 52,
+        "burnout": 42,
+        "satisfaction": 72,
+        "chooseAgain": 65,
+        "malpracticeCost": 0,
+        "vacation": 5,
+        "matchComp": 3,
+        "callSchedule": 3,
+        "physicalToll": 5,
+        "emotionalToll": 7
+      },
+      "scores": {
+        "category_1": 4.75,
+        "category_2": 4.0,
+        "category_3": 4.33,
+        "category_4": 6.0,
+        "category_5": 4.37,
+        "category_6": 6.86,
+        "category_7": 5.15,
+        "category_8": 5.9,
+        "category_9": 4.74,
+        "category_10": 4.6,
+        "category_11": 5.8,
+        "category_12": 7.58,
+        "category_13": 5.0,
+        "category_14": 7.0
+      },
+      "scenario_totals": {
+        "default": 5.6,
+        "equal_weight": 5.45,
+        "max_earnings": 5.26,
+        "best_lifestyle": 5.41,
+        "fastest_to_practice": 5.11,
+        "most_procedural": 5.82
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 35,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 55,
+        "prof_school_years": 3,
+        "trainee_salary": 0,
+        "education_debt": 200,
+        "loan_rate": 7.0,
+        "living_expenses": 48,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 3,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 25,
+        "starting_salary": 85,
+        "mid_salary": 140,
+        "peak_salary": 200,
+        "malpractice_per_yr": 0
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 4,
+        "injury": 4,
+        "match": 5
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          25
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 25,
+        "startSalary": 85
+      }
+    },
+    {
+      "name": "Patent Prosecution",
+      "key": "patent_pros",
+      "profession": "JD+Patent",
+      "group": "ip",
+      "color": "#0D47A1",
+      "path": "Patent Attorney",
+      "raw_data": {
+        "startSalary": 200,
+        "midSalary": 350,
+        "peakSalary": 600,
+        "hoursWeek": 48,
+        "burnout": 32,
+        "satisfaction": 72,
+        "chooseAgain": 68,
+        "malpracticeCost": 6,
+        "vacation": 5,
+        "matchComp": 4,
+        "callSchedule": 7,
+        "physicalToll": 1,
+        "emotionalToll": 3
+      },
+      "scores": {
+        "category_1": 3.5,
+        "category_2": 3.67,
+        "category_3": 4.33,
+        "category_4": 7.0,
+        "category_5": 5.1,
+        "category_6": 6.71,
+        "category_7": 6.1,
+        "category_8": 4.85,
+        "category_9": 6.5,
+        "category_10": 6.2,
+        "category_11": 5.6,
+        "category_12": 6.0,
+        "category_13": 5.0,
+        "category_14": 4.34
+      },
+      "scenario_totals": {
+        "default": 5.64,
+        "equal_weight": 5.34,
+        "max_earnings": 5.66,
+        "best_lifestyle": 5.63,
+        "fastest_to_practice": 5.18,
+        "most_procedural": 5.51
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 35,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 55,
+        "prof_school_years": 3,
+        "trainee_salary": 0,
+        "education_debt": 220,
+        "loan_rate": 7.0,
+        "living_expenses": 48,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 3,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 25,
+        "starting_salary": 200,
+        "mid_salary": 350,
+        "peak_salary": 600,
+        "malpractice_per_yr": 6
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 6,
+        "injury": 9,
+        "match": 6
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          25
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 25,
+        "startSalary": 200
+      }
+    },
+    {
+      "name": "Patent Litigation",
+      "key": "patent_litigation",
+      "profession": "JD+Patent",
+      "group": "ip",
+      "color": "#2669b5",
+      "path": "Patent Attorney",
+      "raw_data": {
+        "startSalary": 225,
+        "midSalary": 400,
+        "peakSalary": 1000,
+        "hoursWeek": 58,
+        "burnout": 42,
+        "satisfaction": 70,
+        "chooseAgain": 65,
+        "malpracticeCost": 10,
+        "vacation": 4,
+        "matchComp": 3,
+        "callSchedule": 3,
+        "physicalToll": 2,
+        "emotionalToll": 5
+      },
+      "scores": {
+        "category_1": 3.5,
+        "category_2": 3.33,
+        "category_3": 4.33,
+        "category_4": 5.67,
+        "category_5": 5.43,
+        "category_6": 6.29,
+        "category_7": 6.08,
+        "category_8": 5.85,
+        "category_9": 4.6,
+        "category_10": 5.6,
+        "category_11": 5.8,
+        "category_12": 6.52,
+        "category_13": 5.0,
+        "category_14": 4.89
+      },
+      "scenario_totals": {
+        "default": 5.45,
+        "equal_weight": 5.2,
+        "max_earnings": 5.56,
+        "best_lifestyle": 5.29,
+        "fastest_to_practice": 4.92,
+        "most_procedural": 5.56
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 35,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 55,
+        "prof_school_years": 3,
+        "trainee_salary": 0,
+        "education_debt": 220,
+        "loan_rate": 7.0,
+        "living_expenses": 48,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 3,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 25,
+        "starting_salary": 225,
+        "mid_salary": 400,
+        "peak_salary": 1000,
+        "malpractice_per_yr": 10
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 5,
+        "injury": 4,
+        "match": 7
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          25
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 25,
+        "startSalary": 225
+      }
+    },
+    {
+      "name": "Judge Track (Clerk \u2192 Judge)",
+      "key": "judge_track_clerk_judge",
+      "profession": "Judge",
+      "group": "alternative",
+      "color": "#68278f",
+      "path": "Judge",
+      "raw_data": {
+        "startSalary": 75,
+        "midSalary": 180,
+        "peakSalary": 280,
+        "hoursWeek": 50,
+        "burnout": 25,
+        "satisfaction": 82,
+        "chooseAgain": 78,
+        "malpracticeCost": 1,
+        "vacation": 6,
+        "matchComp": 1,
+        "callSchedule": 6,
+        "physicalToll": 1,
+        "emotionalToll": 6
+      },
+      "scores": {
+        "category_1": 4.75,
+        "category_2": 1.67,
+        "category_3": 4.0,
+        "category_4": 3.33,
+        "category_5": 4.29,
+        "category_6": 6.71,
+        "category_7": 5.22,
+        "category_8": 7.0,
+        "category_9": 6.4,
+        "category_10": 4.6,
+        "category_11": 9.2,
+        "category_12": 7.92,
+        "category_13": 5.25,
+        "category_14": 6.14
+      },
+      "scenario_totals": {
+        "default": 5.68,
+        "equal_weight": 5.47,
+        "max_earnings": 5.35,
+        "best_lifestyle": 5.71,
+        "fastest_to_practice": 4.61,
+        "most_procedural": 6.05
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 35,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 55,
+        "prof_school_years": 3,
+        "trainee_salary": 0,
+        "education_debt": 200,
+        "loan_rate": 7.0,
+        "living_expenses": 48,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 2,
+        "salary_growth_to_peak": 1.5,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 2,
+        "fellowship_years": 1,
+        "age_independent": 28,
+        "starting_salary": 75,
+        "mid_salary": 180,
+        "peak_salary": 280,
+        "malpractice_per_yr": 1
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 5,
+        "injury": 4,
+        "match": 3
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          25
+        ],
+        "residency": [
+          25,
+          27
+        ],
+        "fellowship": [
+          27,
+          28
+        ],
+        "earnAge": 28,
+        "startSalary": 75
+      }
+    },
+    {
+      "name": "Litigation Paralegal",
+      "key": "litigation_paralegal",
+      "profession": "Paralegal",
+      "group": "alternative",
+      "color": "#357238",
+      "path": "Paralegal",
+      "raw_data": {
+        "startSalary": 48,
+        "midSalary": 65,
+        "peakSalary": 90,
+        "hoursWeek": 45,
+        "burnout": 35,
+        "satisfaction": 62,
+        "chooseAgain": 55,
+        "malpracticeCost": 1,
+        "vacation": 5,
+        "matchComp": 7,
+        "callSchedule": 5,
+        "physicalToll": 1,
+        "emotionalToll": 5
+      },
+      "scores": {
+        "category_1": 7.75,
+        "category_2": 7.67,
+        "category_3": 8.0,
+        "category_4": 7.67,
+        "category_5": 5.74,
+        "category_6": 3.57,
+        "category_7": 4.0,
+        "category_8": 6.25,
+        "category_9": 6.5,
+        "category_10": 6.4,
+        "category_11": 3.4,
+        "category_12": 5.02,
+        "category_13": 6.5,
+        "category_14": 5.86
+      },
+      "scenario_totals": {
+        "default": 6.03,
+        "equal_weight": 6.03,
+        "max_earnings": 5.4,
+        "best_lifestyle": 6.03,
+        "fastest_to_practice": 6.64,
+        "most_procedural": 5.71
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 25,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 10,
+        "prof_school_years": 1,
+        "trainee_salary": 0,
+        "education_debt": 40,
+        "loan_rate": 6.5,
+        "living_expenses": 42,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 3,
+        "salary_growth_to_peak": 2,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 23,
+        "starting_salary": 48,
+        "mid_salary": 65,
+        "peak_salary": 90,
+        "malpractice_per_yr": 1
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 5,
+        "injury": 7,
+        "match": 7
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          23
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 23,
+        "startSalary": 48
+      }
+    },
+    {
+      "name": "Corporate Paralegal",
+      "key": "corporate_paralegal",
+      "profession": "Paralegal",
+      "group": "alternative",
+      "color": "#318745",
+      "path": "Paralegal",
+      "raw_data": {
+        "startSalary": 52,
+        "midSalary": 72,
+        "peakSalary": 100,
+        "hoursWeek": 45,
+        "burnout": 30,
+        "satisfaction": 65,
+        "chooseAgain": 58,
+        "malpracticeCost": 1,
+        "vacation": 5,
+        "matchComp": 7,
+        "callSchedule": 5,
+        "physicalToll": 1,
+        "emotionalToll": 3
+      },
+      "scores": {
+        "category_1": 7.75,
+        "category_2": 7.67,
+        "category_3": 8.0,
+        "category_4": 7.67,
+        "category_5": 5.8,
+        "category_6": 3.57,
+        "category_7": 4.03,
+        "category_8": 5.5,
+        "category_9": 6.7,
+        "category_10": 6.2,
+        "category_11": 3.2,
+        "category_12": 4.68,
+        "category_13": 6.5,
+        "category_14": 5.71
+      },
+      "scenario_totals": {
+        "default": 5.94,
+        "equal_weight": 5.93,
+        "max_earnings": 5.35,
+        "best_lifestyle": 5.93,
+        "fastest_to_practice": 6.6,
+        "most_procedural": 5.5
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 25,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 10,
+        "prof_school_years": 1,
+        "trainee_salary": 0,
+        "education_debt": 40,
+        "loan_rate": 6.5,
+        "living_expenses": 42,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 3,
+        "salary_growth_to_peak": 2,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 23,
+        "starting_salary": 52,
+        "mid_salary": 72,
+        "peak_salary": 100,
+        "malpractice_per_yr": 1
+      },
+      "stress": {
+        "ai": 5,
+        "pay": 5,
+        "injury": 8,
+        "match": 7
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          23
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 23,
+        "startSalary": 52
+      }
+    },
+    {
+      "name": "IP Paralegal",
+      "key": "ip_paralegal",
+      "profession": "Paralegal",
+      "group": "alternative",
+      "color": "#1e7241",
+      "path": "Paralegal",
+      "raw_data": {
+        "startSalary": 55,
+        "midSalary": 78,
+        "peakSalary": 110,
+        "hoursWeek": 42,
+        "burnout": 28,
+        "satisfaction": 68,
+        "chooseAgain": 60,
+        "malpracticeCost": 1,
+        "vacation": 5,
+        "matchComp": 6,
+        "callSchedule": 6,
+        "physicalToll": 1,
+        "emotionalToll": 2
+      },
+      "scores": {
+        "category_1": 7.75,
+        "category_2": 7.33,
+        "category_3": 8.0,
+        "category_4": 8.0,
+        "category_5": 5.84,
+        "category_6": 3.71,
+        "category_7": 4.03,
+        "category_8": 5.65,
+        "category_9": 7.1,
+        "category_10": 6.6,
+        "category_11": 3.4,
+        "category_12": 4.98,
+        "category_13": 6.5,
+        "category_14": 5.43
+      },
+      "scenario_totals": {
+        "default": 6.05,
+        "equal_weight": 6.02,
+        "max_earnings": 5.45,
+        "best_lifestyle": 6.1,
+        "fastest_to_practice": 6.68,
+        "most_procedural": 5.64
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 25,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 10,
+        "prof_school_years": 1,
+        "trainee_salary": 0,
+        "education_debt": 40,
+        "loan_rate": 6.5,
+        "living_expenses": 42,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 3,
+        "salary_growth_to_peak": 2,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 23,
+        "starting_salary": 55,
+        "mid_salary": 78,
+        "peak_salary": 110,
+        "malpractice_per_yr": 1
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 6,
+        "injury": 8,
+        "match": 8
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          23
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 23,
+        "startSalary": 55
+      }
+    }
+  ],
+  "decision_tree": {
+    "q": "Are you OK with $200K+ in debt for a shot at Big Law?",
+    "yes": {
+      "q": "Same deal type every day, or courtroom variety?",
+      "yes": {
+        "q": "Would you rather close deals or protect innovations?",
+        "procedural": "ma",
+        "variety": "patent_pros"
+      },
+      "no": "commercial_lit"
+    },
+    "no": {
+      "q": "What matters most to you?",
+      "options": [
+        {
+          "label": "\ud83d\udcaa Helping individuals",
+          "result": "pi"
+        },
+        {
+          "label": "\u2696\ufe0f Justice & public service",
+          "result": "prosecutor"
+        },
+        {
+          "label": "\ud83d\udd12 Tech & the future",
+          "result": "privacy"
+        }
+      ]
+    }
+  },
+  "decision_tree_results": {
+    "ma": {
+      "tagline": "Big Law equity partner track",
+      "stat": "$225K start \u2022 $2M+ equity partner"
+    },
+    "commercial_lit": {
+      "tagline": "Top litigator path",
+      "stat": "$225K start \u2022 $1.5M+ partner"
+    },
+    "patent_pros": {
+      "tagline": "STEM + law = rare niche",
+      "stat": "$200K start \u2022 $600K+ partner"
+    },
+    "pi": {
+      "tagline": "Own your practice, big wins",
+      "stat": "$80K start \u2022 $500K+ peak (uncapped)"
+    },
+    "prosecutor": {
+      "tagline": "Fight for justice",
+      "stat": "$65K start \u2022 steady + pension"
+    },
+    "privacy": {
+      "tagline": "Hottest growth area in law",
+      "stat": "$180K start \u2022 $500K+ in-house GC"
+    }
+  },
+  "ranking": [
+    {
+      "rank": 1,
+      "track": "Privacy & Data Protection",
+      "key": "privacy",
+      "note": "Hottest market, best growth trajectory"
+    },
+    {
+      "rank": 2,
+      "track": "M&A Attorney",
+      "key": "ma",
+      "note": "Highest earnings ceiling"
+    },
+    {
+      "rank": 3,
+      "track": "Patent Prosecution",
+      "key": "patent_pros",
+      "note": "Best niche for STEM grads"
+    },
+    {
+      "rank": 4,
+      "track": "Personal Injury (Plaintiff)",
+      "key": "pi",
+      "note": "Best entrepreneurial path"
+    },
+    {
+      "rank": 5,
+      "track": "Prosecutor (DA/ADA)",
+      "key": "prosecutor",
+      "note": "Most impactful public service"
+    },
+    {
+      "rank": 6,
+      "track": "Family Law / Divorce",
+      "key": "family_law",
+      "note": "Best for people-driven lawyers"
+    }
+  ]
+}

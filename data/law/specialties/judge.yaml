@@ -1,0 +1,43 @@
+# Judge specialties — 1 career (appointed/elected after extensive practice)
+profession: Judge
+specialties:
+
+- name: "Judge Track (Clerk → Judge)"
+  group: alternative
+  residencyYears: 2
+  matchComp: 1
+  startSalary: 75
+  midSalary: 180
+  peakSalary: 280
+  partTimeFlex: 1
+  procedureMix: 8
+  callSchedule: 6
+  adminBurden: 6
+  hoursWeek: 50
+  burnout: 25
+  partTimeFeasibility: 1
+  vacation: 6
+  careerLongevity: 10
+  malpracticeFreq: 9
+  malpracticeCost: 1
+  geographicFlex: 3
+  automationRisk: 9
+  handsOnInsulation: 10
+  satisfaction: 82
+  chooseAgain: 78
+  intellectualStim: 9
+  varietyRepetition: 8
+  patientImpact: 10
+  physicalToll: 1
+  emotionalToll: 6
+  malpracticeLiability: 7
+  injuryCareerRisk: 2
+  fellowshipOptions: "Judicial clerkship (1-2yr); magistrate → district → circuit path"
+  compModel: "Government salary (GS/judicial pay scale); pension after 15yr; no bonuses"
+  revPerPatientVisit: "N/A — publicly funded"
+  dailyWorkflow: "Reviewing briefs, hearing oral arguments, writing opinions, managing docket, sentencing"
+  patientVolume: "200-400 cases on docket"
+  supportStaffModel: "Law clerks (2-4), court reporter, bailiff, courtroom deputy"
+  geographicDemandNotes: "Assigned to specific court — federal: lifetime appointment; state: elected/appointed"
+  telehealthPotential: 3
+  genderDistribution: "~35% women federal judges; increasing"

@@ -74,46 +74,6 @@ export default function Explore({
 
   return (
     <div style={{ textAlign: "center", padding: "20px 8px 80px" }}>
-      {/* crossrd brand */}
-      <div
-        style={{
-          fontFamily: "'Playfair Display', Georgia, serif",
-          fontSize: "clamp(40px, 10vw, 64px)",
-          fontWeight: 800,
-          color: "#1a1a2e",
-          lineHeight: 1,
-          letterSpacing: "-0.02em",
-          margin: "0 0 4px",
-        }}
-      >
-        cross<span style={{ color: "#D4A537" }}>rd</span>
-      </div>
-
-      <h1
-        style={{
-          fontFamily: "'DM Sans', sans-serif",
-          fontSize: "clamp(18px, 4.5vw, 26px)",
-          fontWeight: 600,
-          color: "#1a1a2e",
-          lineHeight: 1.3,
-          margin: "0 0 6px",
-        }}
-      >
-        what should i actually be when i grow up?
-      </h1>
-
-      <p
-        style={{
-          fontFamily: "'DM Sans', sans-serif",
-          fontSize: "clamp(13px, 3vw, 16px)",
-          color: "#999",
-          margin: "0 0 20px",
-          fontStyle: "italic",
-        }}
-      >
-        we overthought it so you don't have to
-      </p>
-
       {/* field badge */}
       <div
         style={{

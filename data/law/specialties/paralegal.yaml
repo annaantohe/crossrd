@@ -1,0 +1,123 @@
+# Paralegal specialties — 3 careers (certificate or associate degree)
+profession: Paralegal
+specialties:
+
+- name: "Litigation Paralegal"
+  group: alternative
+  residencyYears: 0
+  matchComp: 7
+  startSalary: 48
+  midSalary: 65
+  peakSalary: 90
+  partTimeFlex: 5
+  procedureMix: 4
+  callSchedule: 5
+  adminBurden: 7
+  hoursWeek: 45
+  burnout: 35
+  partTimeFeasibility: 5
+  vacation: 5
+  careerLongevity: 8
+  malpracticeFreq: 8
+  malpracticeCost: 1
+  geographicFlex: 7
+  automationRisk: 4
+  handsOnInsulation: 4
+  satisfaction: 62
+  chooseAgain: 55
+  intellectualStim: 5
+  varietyRepetition: 6
+  patientImpact: 4
+  physicalToll: 1
+  emotionalToll: 5
+  malpracticeLiability: 8
+  injuryCareerRisk: 2
+  fellowshipOptions: "ABA-approved paralegal certificate; Certified Paralegal (CP) exam"
+  compModel: "Hourly or salaried; billed out at $150-300/hr but paid $25-45/hr"
+  revPerPatientVisit: "$150-300/hr billed to client"
+  dailyWorkflow: "Document review, deposition prep, filing court documents, case management, trial binders"
+  patientVolume: "10-25 active cases"
+  supportStaffModel: "Works under supervising attorney; legal secretaries assist"
+  geographicDemandNotes: "Every major city — Big Law firms, mid-size, boutiques"
+  telehealthPotential: 6
+  genderDistribution: "~85% women"
+
+- name: "Corporate Paralegal"
+  group: alternative
+  residencyYears: 0
+  matchComp: 7
+  startSalary: 52
+  midSalary: 72
+  peakSalary: 100
+  partTimeFlex: 5
+  procedureMix: 1
+  callSchedule: 5
+  adminBurden: 7
+  hoursWeek: 45
+  burnout: 30
+  partTimeFeasibility: 5
+  vacation: 5
+  careerLongevity: 8
+  malpracticeFreq: 9
+  malpracticeCost: 1
+  geographicFlex: 6
+  automationRisk: 4
+  handsOnInsulation: 3
+  satisfaction: 65
+  chooseAgain: 58
+  intellectualStim: 5
+  varietyRepetition: 4
+  patientImpact: 3
+  physicalToll: 1
+  emotionalToll: 3
+  malpracticeLiability: 8
+  injuryCareerRisk: 2
+  fellowshipOptions: "Certified Paralegal (CP); corporate governance certificate"
+  compModel: "Salaried at firms or in-house; higher pay at Big Law"
+  revPerPatientVisit: "$175-350/hr billed to client"
+  dailyWorkflow: "Entity management, board resolutions, SEC filings, M&A due diligence, corporate minutes"
+  patientVolume: "15-30 entities managed"
+  supportStaffModel: "Works under corporate attorneys; legal secretaries"
+  geographicDemandNotes: "Major financial centers — NYC, Chicago, LA, Dallas"
+  telehealthPotential: 7
+  genderDistribution: "~80% women"
+
+- name: "IP Paralegal"
+  group: alternative
+  residencyYears: 0
+  matchComp: 6
+  startSalary: 55
+  midSalary: 78
+  peakSalary: 110
+  partTimeFlex: 6
+  procedureMix: 1
+  callSchedule: 6
+  adminBurden: 7
+  hoursWeek: 42
+  burnout: 28
+  partTimeFeasibility: 6
+  vacation: 5
+  careerLongevity: 8
+  malpracticeFreq: 9
+  malpracticeCost: 1
+  geographicFlex: 8
+  automationRisk: 4
+  handsOnInsulation: 4
+  satisfaction: 68
+  chooseAgain: 60
+  intellectualStim: 6
+  varietyRepetition: 4
+  patientImpact: 3
+  physicalToll: 1
+  emotionalToll: 2
+  malpracticeLiability: 8
+  injuryCareerRisk: 1
+  fellowshipOptions: "NALA CP; IP-specific docketing certification"
+  compModel: "Salaried; premium pay for patent docketing expertise"
+  revPerPatientVisit: "$200-400/hr billed to client"
+  dailyWorkflow: "Patent/trademark docketing, filing deadlines, USPTO correspondence, portfolio management"
+  patientVolume: "200-500 IP assets managed"
+  supportStaffModel: "Works under IP attorneys; docketing clerks assist"
+  geographicDemandNotes: "Remote-friendly — Silicon Valley, Boston, DC, anywhere with tech clients"
+  telehealthPotential: 9
+  genderDistribution: "~80% women"

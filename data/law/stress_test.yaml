@@ -1,0 +1,46 @@
+# stress test resilience scores for law finalists
+scenarios:
+- id: ai
+  name: AI Disruption Accelerates
+- id: pay
+  name: Fee Compression 20%
+- id: injury
+  name: Career-Ending Burnout at 40
+- id: match
+  name: Can't Get Hired at Target Firm
+scores:
+  ma:
+    ai: 4
+    pay: 6
+    injury: 3
+    match: 3
+  commercial_lit:
+    ai: 5
+    pay: 5
+    injury: 4
+    match: 3
+  pi:
+    ai: 7
+    pay: 8
+    injury: 6
+    match: 7
+  prosecutor:
+    ai: 6
+    pay: 9
+    injury: 7
+    match: 5
+  patent_pros:
+    ai: 5
+    pay: 7
+    injury: 7
+    match: 6
+  privacy:
+    ai: 3
+    pay: 5
+    injury: 6
+    match: 7
+  family_law:
+    ai: 7
+    pay: 7
+    injury: 6
+    match: 7

@@ -23,6 +23,11 @@ MATCH_RESILIENCE_BY_PROFESSION = {
     "DDS/DMD": 7,
     "DPM": 9,
     "OD": 8,
+    # law professions
+    "JD": 4,
+    "JD+Patent": 6,
+    "Paralegal": 8,
+    "Judge": 2,
 }
 
 
