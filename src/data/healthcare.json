@@ -5,7 +5,7 @@
     "headline": "Which Doctor Should You Become?",
     "subtitle": "A Data-Driven Guide",
     "icon": "\ud83e\ude7a",
-    "last_updated": "2026-02-16",
+    "last_updated": "2026-02-17",
     "total_tracks": 64,
     "data_points": 107,
     "source_file": "yaml"
@@ -32,390 +32,577 @@
       "track_count": 3
     }
   },
+  "groups": {
+    "surgery": {
+      "label": "Surgery",
+      "icon": "\ud83d\udd2a",
+      "tagline": "you want to cut",
+      "description": "Procedure-heavy, longest training, highest pay ceiling",
+      "count": 17,
+      "salary_range": [
+        500,
+        1200
+      ]
+    },
+    "medicine": {
+      "label": "Subspecialty Medicine",
+      "icon": "\ud83d\udc8a",
+      "tagline": "you want to be THE expert in one thing",
+      "description": "Deep expertise in specific organ systems",
+      "count": 12,
+      "salary_range": [
+        350,
+        650
+      ]
+    },
+    "primary_care": {
+      "label": "Primary Care",
+      "icon": "\ud83c\udfe5",
+      "tagline": "you want to be everyone's doctor",
+      "description": "Front-line medicine, broadest scope",
+      "count": 5,
+      "salary_range": [
+        310,
+        385
+      ]
+    },
+    "procedural": {
+      "label": "Procedural",
+      "icon": "\ud83c\udfaf",
+      "tagline": "you want to do specific procedures, not open surgery",
+      "description": "Image-guided and minimally invasive procedures",
+      "count": 6,
+      "salary_range": [
+        650,
+        1000
+      ]
+    },
+    "emergency": {
+      "label": "Emergency & Critical Care",
+      "icon": "\ud83d\udea8",
+      "tagline": "you want the adrenaline",
+      "description": "High-acuity, fast-paced acute care",
+      "count": 3,
+      "salary_range": [
+        450,
+        550
+      ]
+    },
+    "diagnostic": {
+      "label": "Diagnostic",
+      "icon": "\ud83d\udd2c",
+      "tagline": "you want to solve puzzles from images and labs",
+      "description": "Lab and imaging-based specialties",
+      "count": 3,
+      "salary_range": [
+        450,
+        650
+      ]
+    },
+    "mind": {
+      "label": "Mind & Rehab",
+      "icon": "\ud83e\udde0",
+      "tagline": "you want to help people think, feel, and recover",
+      "description": "Mental health, neurology, and rehabilitation",
+      "count": 3,
+      "salary_range": [
+        450,
+        455
+      ]
+    },
+    "derm": {
+      "label": "Dermatology",
+      "icon": "\u2728",
+      "tagline": "best lifestyle in medicine",
+      "description": "Skin care, highest satisfaction ratings",
+      "count": 2,
+      "salary_range": [
+        700,
+        1000
+      ]
+    },
+    "dentistry": {
+      "label": "Dentistry",
+      "icon": "\ud83e\uddb7",
+      "tagline": "be your own boss, fix teeth",
+      "description": "Oral health and dental procedures",
+      "count": 7,
+      "salary_range": [
+        400,
+        750
+      ]
+    },
+    "podiatry": {
+      "label": "Podiatry",
+      "icon": "\ud83e\uddb6",
+      "tagline": "guaranteed surgical path, shorter training",
+      "description": "Foot and ankle medicine",
+      "count": 3,
+      "salary_range": [
+        350,
+        500
+      ]
+    },
+    "optometry": {
+      "label": "Optometry",
+      "icon": "\ud83d\udc41",
+      "tagline": "great lifestyle, vision care",
+      "description": "Vision care and eye health",
+      "count": 3,
+      "salary_range": [
+        200,
+        220
+      ]
+    }
+  },
   "careers": [
     {
       "key": "oral_maxillofacial_surge",
       "name": "Oral & Maxillofacial Surgery",
       "color": "#2a82b9",
-      "path": "Dentist"
+      "path": "Dentist",
+      "group": "dentistry"
     },
     {
       "key": "endodontics",
       "name": "Endodontics",
       "color": "#1e6bce",
-      "path": "Dentist"
+      "path": "Dentist",
+      "group": "dentistry"
     },
     {
       "key": "periodontics",
       "name": "Periodontics",
       "color": "#1b43b9",
-      "path": "Dentist"
+      "path": "Dentist",
+      "group": "dentistry"
     },
     {
       "key": "prosthodontics",
       "name": "Prosthodontics",
       "color": "#2e3ace",
-      "path": "Dentist"
+      "path": "Dentist",
+      "group": "dentistry"
     },
     {
       "key": "orthodontics",
       "name": "Orthodontics",
       "color": "#2c1bb9",
-      "path": "Dentist"
+      "path": "Dentist",
+      "group": "dentistry"
     },
     {
       "key": "pediatric_dentistry",
       "name": "Pediatric Dentistry",
       "color": "#511ece",
-      "path": "Dentist"
+      "path": "Dentist",
+      "group": "dentistry"
     },
     {
       "key": "general_dentistry",
       "name": "General Dentistry",
       "color": "#6d2ab9",
-      "path": "Dentist"
+      "path": "Dentist",
+      "group": "dentistry"
     },
     {
       "key": "pod",
       "name": "Podiatric Surgery (Foot & Ankle)",
       "color": "#2D3A6E",
-      "path": "Foot Doctor"
+      "path": "Foot Doctor",
+      "group": "podiatry"
     },
     {
       "key": "sport",
       "name": "Sports Medicine / Biomechanics",
       "color": "#3EA66B",
-      "path": "Foot Doctor"
+      "path": "Foot Doctor",
+      "group": "podiatry"
     },
     {
       "key": "wound",
       "name": "Wound Care / Diabetic Limb Salvage",
       "color": "#8B6CAE",
-      "path": "Foot Doctor"
+      "path": "Foot Doctor",
+      "group": "podiatry"
     },
     {
       "key": "general_surgery",
       "name": "General Surgery",
       "color": "#d86546",
-      "path": "Medical Doctor"
+      "path": "Medical Doctor",
+      "group": "surgery"
     },
     {
       "key": "orthopedic_surgery",
       "name": "Orthopedic Surgery",
       "color": "#d87231",
-      "path": "Medical Doctor"
+      "path": "Medical Doctor",
+      "group": "surgery"
     },
     {
       "key": "neurosurgery",
       "name": "Neurosurgery",
       "color": "#d88920",
-      "path": "Medical Doctor"
+      "path": "Medical Doctor",
+      "group": "surgery"
     },
     {
       "key": "cardiothoracic_surgery",
       "name": "Cardiothoracic Surgery",
       "color": "#d8b446",
-      "path": "Medical Doctor"
+      "path": "Medical Doctor",
+      "group": "surgery"
     },
     {
       "key": "vascular_surgery",
       "name": "Vascular Surgery",
       "color": "#d8cc31",
-      "path": "Medical Doctor"
+      "path": "Medical Doctor",
+      "group": "surgery"
     },
     {
       "key": "plastic_reconstructive_s",
       "name": "Plastic & Reconstructive Surgery",
       "color": "#c4d820",
-      "path": "Medical Doctor"
+      "path": "Medical Doctor",
+      "group": "surgery"
     },
     {
       "key": "trauma_acute_care_surger",
       "name": "Trauma / Acute Care Surgery",
       "color": "#aed846",
-      "path": "Medical Doctor"
+      "path": "Medical Doctor",
+      "group": "surgery"
     },
     {
       "key": "transplant_surgery",
       "name": "Transplant Surgery",
       "color": "#8ad831",
-      "path": "Medical Doctor"
+      "path": "Medical Doctor",
+      "group": "surgery"
     },
     {
       "key": "pediatric_surgery",
       "name": "Pediatric Surgery",
       "color": "#61d820",
-      "path": "Medical Doctor"
+      "path": "Medical Doctor",
+      "group": "surgery"
     },
     {
       "key": "colorectal_surgery",
       "name": "Colorectal Surgery",
       "color": "#5fd846",
-      "path": "Medical Doctor"
+      "path": "Medical Doctor",
+      "group": "surgery"
     },
     {
       "key": "hand_surgery",
       "name": "Hand Surgery",
       "color": "#31d832",
-      "path": "Medical Doctor"
+      "path": "Medical Doctor",
+      "group": "surgery"
     },
     {
       "key": "spine_surgery",
       "name": "Spine Surgery",
       "color": "#20d843",
-      "path": "Medical Doctor"
+      "path": "Medical Doctor",
+      "group": "surgery"
     },
     {
       "key": "sports_medicine_surgical",
       "name": "Sports Medicine (Surgical)",
       "color": "#46d87c",
-      "path": "Medical Doctor"
+      "path": "Medical Doctor",
+      "group": "procedural"
     },
     {
       "key": "bariatric_surgery",
       "name": "Bariatric Surgery",
       "color": "#31d88d",
-      "path": "Medical Doctor"
+      "path": "Medical Doctor",
+      "group": "surgery"
     },
     {
       "key": "interventional_cardiolog",
       "name": "Interventional Cardiology",
       "color": "#20d8a6",
-      "path": "Medical Doctor"
+      "path": "Medical Doctor",
+      "group": "procedural"
     },
     {
       "key": "interventional_radiology",
       "name": "Interventional Radiology",
       "color": "#46d8cb",
-      "path": "Medical Doctor"
+      "path": "Medical Doctor",
+      "group": "procedural"
     },
     {
       "key": "gastroenterology_endosco",
       "name": "Gastroenterology (Endoscopy)",
       "color": "#31c9d8",
-      "path": "Medical Doctor"
+      "path": "Medical Doctor",
+      "group": "procedural"
     },
     {
       "key": "urology",
       "name": "Urology",
       "color": "#20a7d8",
-      "path": "Medical Doctor"
+      "path": "Medical Doctor",
+      "group": "surgery"
     },
     {
       "key": "ob_gyn",
       "name": "OB/GYN",
       "color": "#4697d8",
-      "path": "Medical Doctor"
+      "path": "Medical Doctor",
+      "group": "surgery"
     },
     {
       "key": "eye",
       "name": "Ophthalmology",
       "color": "#2BA5B5",
-      "path": "Medical Doctor"
+      "path": "Medical Doctor",
+      "group": "surgery"
     },
     {
       "key": "ent_otolaryngology",
       "name": "ENT / Otolaryngology",
       "color": "#316fd8",
-      "path": "Medical Doctor"
+      "path": "Medical Doctor",
+      "group": "surgery"
     },
     {
       "key": "mohs",
       "name": "Mohs Surgery (Dermatology)",
       "color": "#D4A537",
-      "path": "Medical Doctor"
+      "path": "Medical Doctor",
+      "group": "derm"
     },
     {
       "key": "interventional_pain_medi",
       "name": "Interventional Pain Medicine",
       "color": "#2043d8",
-      "path": "Medical Doctor"
+      "path": "Medical Doctor",
+      "group": "procedural"
     },
     {
       "key": "pulm_critical_care",
       "name": "Pulm / Critical Care",
       "color": "#4648d8",
-      "path": "Medical Doctor"
+      "path": "Medical Doctor",
+      "group": "medicine"
     },
     {
       "key": "diagnostic_radiology",
       "name": "Diagnostic Radiology",
       "color": "#4d31d8",
-      "path": "Medical Doctor"
+      "path": "Medical Doctor",
+      "group": "diagnostic"
     },
     {
       "key": "derm",
       "name": "Dermatology (General/Medical)",
       "color": "#E8685E",
-      "path": "Medical Doctor"
+      "path": "Medical Doctor",
+      "group": "derm"
     },
     {
       "key": "anesthesiology",
       "name": "Anesthesiology",
       "color": "#6020d8",
-      "path": "Medical Doctor"
+      "path": "Medical Doctor",
+      "group": "emergency"
     },
     {
       "key": "emergency_medicine",
       "name": "Emergency Medicine",
       "color": "#9446d8",
-      "path": "Medical Doctor"
+      "path": "Medical Doctor",
+      "group": "emergency"
     },
     {
       "key": "psychiatry",
       "name": "Psychiatry",
       "color": "#a831d8",
-      "path": "Medical Doctor"
+      "path": "Medical Doctor",
+      "group": "mind"
     },
     {
       "key": "internal_medicine_genera",
       "name": "Internal Medicine (General)",
       "color": "#c420d8",
-      "path": "Medical Doctor"
+      "path": "Medical Doctor",
+      "group": "primary_care"
     },
     {
       "key": "family_medicine",
       "name": "Family Medicine",
       "color": "#d846ce",
-      "path": "Medical Doctor"
+      "path": "Medical Doctor",
+      "group": "primary_care"
     },
     {
       "key": "pediatrics_general",
       "name": "Pediatrics (General)",
       "color": "#d831af",
-      "path": "Medical Doctor"
+      "path": "Medical Doctor",
+      "group": "primary_care"
     },
     {
       "key": "cardiology_non_intervent",
       "name": "Cardiology (Non-interventional)",
       "color": "#d82089",
-      "path": "Medical Doctor"
+      "path": "Medical Doctor",
+      "group": "medicine"
     },
     {
       "key": "hematology_oncology",
       "name": "Hematology / Oncology",
       "color": "#d8467f",
-      "path": "Medical Doctor"
+      "path": "Medical Doctor",
+      "group": "medicine"
     },
     {
       "key": "nephrology",
       "name": "Nephrology",
       "color": "#d83154",
-      "path": "Medical Doctor"
+      "path": "Medical Doctor",
+      "group": "medicine"
     },
     {
       "key": "rheumatology",
       "name": "Rheumatology",
       "color": "#d82026",
-      "path": "Medical Doctor"
+      "path": "Medical Doctor",
+      "group": "medicine"
     },
     {
       "key": "endocrinology",
       "name": "Endocrinology",
       "color": "#d85c46",
-      "path": "Medical Doctor"
+      "path": "Medical Doctor",
+      "group": "medicine"
     },
     {
       "key": "infectious_disease",
       "name": "Infectious Disease",
       "color": "#d86831",
-      "path": "Medical Doctor"
+      "path": "Medical Doctor",
+      "group": "medicine"
     },
     {
       "key": "allergy_immunology",
       "name": "Allergy / Immunology",
       "color": "#d87e20",
-      "path": "Medical Doctor"
+      "path": "Medical Doctor",
+      "group": "medicine"
     },
     {
       "key": "physical_medicine_rehabi",
       "name": "Physical Medicine & Rehabilitation",
       "color": "#d8ab46",
-      "path": "Medical Doctor"
+      "path": "Medical Doctor",
+      "group": "mind"
     },
     {
       "key": "radiation_oncology",
       "name": "Radiation Oncology",
       "color": "#d8c231",
-      "path": "Medical Doctor"
+      "path": "Medical Doctor",
+      "group": "procedural"
     },
     {
       "key": "pathology",
       "name": "Pathology",
       "color": "#cfd820",
-      "path": "Medical Doctor"
+      "path": "Medical Doctor",
+      "group": "diagnostic"
     },
     {
       "key": "nuclear_medicine",
       "name": "Nuclear Medicine",
       "color": "#b7d846",
-      "path": "Medical Doctor"
+      "path": "Medical Doctor",
+      "group": "diagnostic"
     },
     {
       "key": "hospice_palliative_medic",
       "name": "Hospice / Palliative Medicine",
       "color": "#94d831",
-      "path": "Medical Doctor"
+      "path": "Medical Doctor",
+      "group": "medicine"
     },
     {
       "key": "geriatrics",
       "name": "Geriatrics",
       "color": "#6cd820",
-      "path": "Medical Doctor"
+      "path": "Medical Doctor",
+      "group": "primary_care"
     },
     {
       "key": "neonatology",
       "name": "Neonatology",
       "color": "#68d846",
-      "path": "Medical Doctor"
+      "path": "Medical Doctor",
+      "group": "medicine"
     },
     {
       "key": "neurology",
       "name": "Neurology",
       "color": "#39d831",
-      "path": "Medical Doctor"
+      "path": "Medical Doctor",
+      "group": "mind"
     },
     {
       "key": "sleep_medicine",
       "name": "Sleep Medicine",
       "color": "#20d838",
-      "path": "Medical Doctor"
+      "path": "Medical Doctor",
+      "group": "medicine"
     },
     {
       "key": "preventive_occupational_",
       "name": "Preventive / Occupational Medicine",
       "color": "#46d873",
-      "path": "Medical Doctor"
+      "path": "Medical Doctor",
+      "group": "primary_care"
     },
     {
       "key": "medical_genetics",
       "name": "Medical Genetics",
       "color": "#31d883",
-      "path": "Medical Doctor"
+      "path": "Medical Doctor",
+      "group": "medicine"
     },
     {
       "key": "critical_care_medicine",
       "name": "Critical Care Medicine",
       "color": "#20d89b",
-      "path": "Medical Doctor"
+      "path": "Medical Doctor",
+      "group": "emergency"
     },
     {
       "key": "medical_therapeutic_opto",
       "name": "Medical / Therapeutic Optometry",
       "color": "#6a5488",
-      "path": "Eye Doctor (Optom.)"
+      "path": "Eye Doctor (Optom.)",
+      "group": "optometry"
     },
     {
       "key": "surgical_co_management_s",
       "name": "Surgical Co-Management / Specialty",
       "color": "#7f519d",
-      "path": "Eye Doctor (Optom.)"
+      "path": "Eye Doctor (Optom.)",
+      "group": "optometry"
     },
     {
       "key": "general_optometry",
       "name": "General Optometry",
       "color": "#773988",
-      "path": "Eye Doctor (Optom.)"
+      "path": "Eye Doctor (Optom.)",
+      "group": "optometry"
     }
   ],
   "categories": [
@@ -607,6 +794,7 @@
       "name": "Oral & Maxillofacial Surgery",
       "key": "oral_maxillofacial_surge",
       "profession": "DDS/DMD",
+      "group": "dentistry",
       "color": "#2a82b9",
       "path": "Dentist",
       "raw_data": {
@@ -702,6 +890,7 @@
       "name": "Endodontics",
       "key": "endodontics",
       "profession": "DDS/DMD",
+      "group": "dentistry",
       "color": "#1e6bce",
       "path": "Dentist",
       "raw_data": {
@@ -794,6 +983,7 @@
       "name": "Periodontics",
       "key": "periodontics",
       "profession": "DDS/DMD",
+      "group": "dentistry",
       "color": "#1b43b9",
       "path": "Dentist",
       "raw_data": {
@@ -886,6 +1076,7 @@
       "name": "Prosthodontics",
       "key": "prosthodontics",
       "profession": "DDS/DMD",
+      "group": "dentistry",
       "color": "#2e3ace",
       "path": "Dentist",
       "raw_data": {
@@ -978,6 +1169,7 @@
       "name": "Orthodontics",
       "key": "orthodontics",
       "profession": "DDS/DMD",
+      "group": "dentistry",
       "color": "#2c1bb9",
       "path": "Dentist",
       "raw_data": {
@@ -1070,6 +1262,7 @@
       "name": "Pediatric Dentistry",
       "key": "pediatric_dentistry",
       "profession": "DDS/DMD",
+      "group": "dentistry",
       "color": "#511ece",
       "path": "Dentist",
       "raw_data": {
@@ -1162,6 +1355,7 @@
       "name": "General Dentistry",
       "key": "general_dentistry",
       "profession": "DDS/DMD",
+      "group": "dentistry",
       "color": "#6d2ab9",
       "path": "Dentist",
       "raw_data": {
@@ -1254,6 +1448,7 @@
       "name": "Podiatric Surgery (Foot & Ankle)",
       "key": "pod",
       "profession": "DPM",
+      "group": "podiatry",
       "color": "#2D3A6E",
       "path": "Foot Doctor",
       "raw_data": {
@@ -1349,6 +1544,7 @@
       "name": "Sports Medicine / Biomechanics",
       "key": "sport",
       "profession": "DPM",
+      "group": "podiatry",
       "color": "#3EA66B",
       "path": "Foot Doctor",
       "raw_data": {
@@ -1444,6 +1640,7 @@
       "name": "Wound Care / Diabetic Limb Salvage",
       "key": "wound",
       "profession": "DPM",
+      "group": "podiatry",
       "color": "#8B6CAE",
       "path": "Foot Doctor",
       "raw_data": {
@@ -1536,6 +1733,7 @@
       "name": "General Surgery",
       "key": "general_surgery",
       "profession": "MD/DO",
+      "group": "surgery",
       "color": "#d86546",
       "path": "Medical Doctor",
       "raw_data": {
@@ -1631,6 +1829,7 @@
       "name": "Orthopedic Surgery",
       "key": "orthopedic_surgery",
       "profession": "MD/DO",
+      "group": "surgery",
       "color": "#d87231",
       "path": "Medical Doctor",
       "raw_data": {
@@ -1726,6 +1925,7 @@
       "name": "Neurosurgery",
       "key": "neurosurgery",
       "profession": "MD/DO",
+      "group": "surgery",
       "color": "#d88920",
       "path": "Medical Doctor",
       "raw_data": {
@@ -1821,6 +2021,7 @@
       "name": "Cardiothoracic Surgery",
       "key": "cardiothoracic_surgery",
       "profession": "MD/DO",
+      "group": "surgery",
       "color": "#d8b446",
       "path": "Medical Doctor",
       "raw_data": {
@@ -1916,6 +2117,7 @@
       "name": "Vascular Surgery",
       "key": "vascular_surgery",
       "profession": "MD/DO",
+      "group": "surgery",
       "color": "#d8cc31",
       "path": "Medical Doctor",
       "raw_data": {
@@ -2011,6 +2213,7 @@
       "name": "Plastic & Reconstructive Surgery",
       "key": "plastic_reconstructive_s",
       "profession": "MD/DO",
+      "group": "surgery",
       "color": "#c4d820",
       "path": "Medical Doctor",
       "raw_data": {
@@ -2106,6 +2309,7 @@
       "name": "Trauma / Acute Care Surgery",
       "key": "trauma_acute_care_surger",
       "profession": "MD/DO",
+      "group": "surgery",
       "color": "#aed846",
       "path": "Medical Doctor",
       "raw_data": {
@@ -2201,6 +2405,7 @@
       "name": "Transplant Surgery",
       "key": "transplant_surgery",
       "profession": "MD/DO",
+      "group": "surgery",
       "color": "#8ad831",
       "path": "Medical Doctor",
       "raw_data": {
@@ -2296,6 +2501,7 @@
       "name": "Pediatric Surgery",
       "key": "pediatric_surgery",
       "profession": "MD/DO",
+      "group": "surgery",
       "color": "#61d820",
       "path": "Medical Doctor",
       "raw_data": {
@@ -2391,6 +2597,7 @@
       "name": "Colorectal Surgery",
       "key": "colorectal_surgery",
       "profession": "MD/DO",
+      "group": "surgery",
       "color": "#5fd846",
       "path": "Medical Doctor",
       "raw_data": {
@@ -2486,6 +2693,7 @@
       "name": "Hand Surgery",
       "key": "hand_surgery",
       "profession": "MD/DO",
+      "group": "surgery",
       "color": "#31d832",
       "path": "Medical Doctor",
       "raw_data": {
@@ -2581,6 +2789,7 @@
       "name": "Spine Surgery",
       "key": "spine_surgery",
       "profession": "MD/DO",
+      "group": "surgery",
       "color": "#20d843",
       "path": "Medical Doctor",
       "raw_data": {
@@ -2676,6 +2885,7 @@
       "name": "Sports Medicine (Surgical)",
       "key": "sports_medicine_surgical",
       "profession": "MD/DO",
+      "group": "procedural",
       "color": "#46d87c",
       "path": "Medical Doctor",
       "raw_data": {
@@ -2771,6 +2981,7 @@
       "name": "Bariatric Surgery",
       "key": "bariatric_surgery",
       "profession": "MD/DO",
+      "group": "surgery",
       "color": "#31d88d",
       "path": "Medical Doctor",
       "raw_data": {
@@ -2866,6 +3077,7 @@
       "name": "Interventional Cardiology",
       "key": "interventional_cardiolog",
       "profession": "MD/DO",
+      "group": "procedural",
       "color": "#20d8a6",
       "path": "Medical Doctor",
       "raw_data": {
@@ -2961,6 +3173,7 @@
       "name": "Interventional Radiology",
       "key": "interventional_radiology",
       "profession": "MD/DO",
+      "group": "procedural",
       "color": "#46d8cb",
       "path": "Medical Doctor",
       "raw_data": {
@@ -3053,6 +3266,7 @@
       "name": "Gastroenterology (Endoscopy)",
       "key": "gastroenterology_endosco",
       "profession": "MD/DO",
+      "group": "procedural",
       "color": "#31c9d8",
       "path": "Medical Doctor",
       "raw_data": {
@@ -3148,6 +3362,7 @@
       "name": "Urology",
       "key": "urology",
       "profession": "MD/DO",
+      "group": "surgery",
       "color": "#20a7d8",
       "path": "Medical Doctor",
       "raw_data": {
@@ -3243,6 +3458,7 @@
       "name": "OB/GYN",
       "key": "ob_gyn",
       "profession": "MD/DO",
+      "group": "surgery",
       "color": "#4697d8",
       "path": "Medical Doctor",
       "raw_data": {
@@ -3338,6 +3554,7 @@
       "name": "Ophthalmology",
       "key": "eye",
       "profession": "MD/DO",
+      "group": "surgery",
       "color": "#2BA5B5",
       "path": "Medical Doctor",
       "raw_data": {
@@ -3433,6 +3650,7 @@
       "name": "ENT / Otolaryngology",
       "key": "ent_otolaryngology",
       "profession": "MD/DO",
+      "group": "surgery",
       "color": "#316fd8",
       "path": "Medical Doctor",
       "raw_data": {
@@ -3528,6 +3746,7 @@
       "name": "Mohs Surgery (Dermatology)",
       "key": "mohs",
       "profession": "MD/DO",
+      "group": "derm",
       "color": "#D4A537",
       "path": "Medical Doctor",
       "raw_data": {
@@ -3623,6 +3842,7 @@
       "name": "Interventional Pain Medicine",
       "key": "interventional_pain_medi",
       "profession": "MD/DO",
+      "group": "procedural",
       "color": "#2043d8",
       "path": "Medical Doctor",
       "raw_data": {
@@ -3718,6 +3938,7 @@
       "name": "Pulm / Critical Care",
       "key": "pulm_critical_care",
       "profession": "MD/DO",
+      "group": "medicine",
       "color": "#4648d8",
       "path": "Medical Doctor",
       "raw_data": {
@@ -3813,6 +4034,7 @@
       "name": "Diagnostic Radiology",
       "key": "diagnostic_radiology",
       "profession": "MD/DO",
+      "group": "diagnostic",
       "color": "#4d31d8",
       "path": "Medical Doctor",
       "raw_data": {
@@ -3908,6 +4130,7 @@
       "name": "Dermatology (General/Medical)",
       "key": "derm",
       "profession": "MD/DO",
+      "group": "derm",
       "color": "#E8685E",
       "path": "Medical Doctor",
       "raw_data": {
@@ -4000,6 +4223,7 @@
       "name": "Anesthesiology",
       "key": "anesthesiology",
       "profession": "MD/DO",
+      "group": "emergency",
       "color": "#6020d8",
       "path": "Medical Doctor",
       "raw_data": {
@@ -4095,6 +4319,7 @@
       "name": "Emergency Medicine",
       "key": "emergency_medicine",
       "profession": "MD/DO",
+      "group": "emergency",
       "color": "#9446d8",
       "path": "Medical Doctor",
       "raw_data": {
@@ -4190,6 +4415,7 @@
       "name": "Psychiatry",
       "key": "psychiatry",
       "profession": "MD/DO",
+      "group": "mind",
       "color": "#a831d8",
       "path": "Medical Doctor",
       "raw_data": {
@@ -4285,6 +4511,7 @@
       "name": "Internal Medicine (General)",
       "key": "internal_medicine_genera",
       "profession": "MD/DO",
+      "group": "primary_care",
       "color": "#c420d8",
       "path": "Medical Doctor",
       "raw_data": {
@@ -4377,6 +4604,7 @@
       "name": "Family Medicine",
       "key": "family_medicine",
       "profession": "MD/DO",
+      "group": "primary_care",
       "color": "#d846ce",
       "path": "Medical Doctor",
       "raw_data": {
@@ -4469,6 +4697,7 @@
       "name": "Pediatrics (General)",
       "key": "pediatrics_general",
       "profession": "MD/DO",
+      "group": "primary_care",
       "color": "#d831af",
       "path": "Medical Doctor",
       "raw_data": {
@@ -4561,6 +4790,7 @@
       "name": "Cardiology (Non-interventional)",
       "key": "cardiology_non_intervent",
       "profession": "MD/DO",
+      "group": "medicine",
       "color": "#d82089",
       "path": "Medical Doctor",
       "raw_data": {
@@ -4653,6 +4883,7 @@
       "name": "Hematology / Oncology",
       "key": "hematology_oncology",
       "profession": "MD/DO",
+      "group": "medicine",
       "color": "#d8467f",
       "path": "Medical Doctor",
       "raw_data": {
@@ -4745,6 +4976,7 @@
       "name": "Nephrology",
       "key": "nephrology",
       "profession": "MD/DO",
+      "group": "medicine",
       "color": "#d83154",
       "path": "Medical Doctor",
       "raw_data": {
@@ -4837,6 +5069,7 @@
       "name": "Rheumatology",
       "key": "rheumatology",
       "profession": "MD/DO",
+      "group": "medicine",
       "color": "#d82026",
       "path": "Medical Doctor",
       "raw_data": {
@@ -4929,6 +5162,7 @@
       "name": "Endocrinology",
       "key": "endocrinology",
       "profession": "MD/DO",
+      "group": "medicine",
       "color": "#d85c46",
       "path": "Medical Doctor",
       "raw_data": {
@@ -5021,6 +5255,7 @@
       "name": "Infectious Disease",
       "key": "infectious_disease",
       "profession": "MD/DO",
+      "group": "medicine",
       "color": "#d86831",
       "path": "Medical Doctor",
       "raw_data": {
@@ -5113,6 +5348,7 @@
       "name": "Allergy / Immunology",
       "key": "allergy_immunology",
       "profession": "MD/DO",
+      "group": "medicine",
       "color": "#d87e20",
       "path": "Medical Doctor",
       "raw_data": {
@@ -5205,6 +5441,7 @@
       "name": "Physical Medicine & Rehabilitation",
       "key": "physical_medicine_rehabi",
       "profession": "MD/DO",
+      "group": "mind",
       "color": "#d8ab46",
       "path": "Medical Doctor",
       "raw_data": {
@@ -5297,6 +5534,7 @@
       "name": "Radiation Oncology",
       "key": "radiation_oncology",
       "profession": "MD/DO",
+      "group": "procedural",
       "color": "#d8c231",
       "path": "Medical Doctor",
       "raw_data": {
@@ -5389,6 +5627,7 @@
       "name": "Pathology",
       "key": "pathology",
       "profession": "MD/DO",
+      "group": "diagnostic",
       "color": "#cfd820",
       "path": "Medical Doctor",
       "raw_data": {
@@ -5481,6 +5720,7 @@
       "name": "Nuclear Medicine",
       "key": "nuclear_medicine",
       "profession": "MD/DO",
+      "group": "diagnostic",
       "color": "#b7d846",
       "path": "Medical Doctor",
       "raw_data": {
@@ -5573,6 +5813,7 @@
       "name": "Hospice / Palliative Medicine",
       "key": "hospice_palliative_medic",
       "profession": "MD/DO",
+      "group": "medicine",
       "color": "#94d831",
       "path": "Medical Doctor",
       "raw_data": {
@@ -5665,6 +5906,7 @@
       "name": "Geriatrics",
       "key": "geriatrics",
       "profession": "MD/DO",
+      "group": "primary_care",
       "color": "#6cd820",
       "path": "Medical Doctor",
       "raw_data": {
@@ -5757,6 +5999,7 @@
       "name": "Neonatology",
       "key": "neonatology",
       "profession": "MD/DO",
+      "group": "medicine",
       "color": "#68d846",
       "path": "Medical Doctor",
       "raw_data": {
@@ -5849,6 +6092,7 @@
       "name": "Neurology",
       "key": "neurology",
       "profession": "MD/DO",
+      "group": "mind",
       "color": "#39d831",
       "path": "Medical Doctor",
       "raw_data": {
@@ -5941,6 +6185,7 @@
       "name": "Sleep Medicine",
       "key": "sleep_medicine",
       "profession": "MD/DO",
+      "group": "medicine",
       "color": "#20d838",
       "path": "Medical Doctor",
       "raw_data": {
@@ -6033,6 +6278,7 @@
       "name": "Preventive / Occupational Medicine",
       "key": "preventive_occupational_",
       "profession": "MD/DO",
+      "group": "primary_care",
       "color": "#46d873",
       "path": "Medical Doctor",
       "raw_data": {
@@ -6125,6 +6371,7 @@
       "name": "Medical Genetics",
       "key": "medical_genetics",
       "profession": "MD/DO",
+      "group": "medicine",
       "color": "#31d883",
       "path": "Medical Doctor",
       "raw_data": {
@@ -6217,6 +6464,7 @@
       "name": "Critical Care Medicine",
       "key": "critical_care_medicine",
       "profession": "MD/DO",
+      "group": "emergency",
       "color": "#20d89b",
       "path": "Medical Doctor",
       "raw_data": {
@@ -6309,6 +6557,7 @@
       "name": "Medical / Therapeutic Optometry",
       "key": "medical_therapeutic_opto",
       "profession": "OD",
+      "group": "optometry",
       "color": "#6a5488",
       "path": "Eye Doctor (Optom.)",
       "raw_data": {
@@ -6401,6 +6650,7 @@
       "name": "Surgical Co-Management / Specialty",
       "key": "surgical_co_management_s",
       "profession": "OD",
+      "group": "optometry",
       "color": "#7f519d",
       "path": "Eye Doctor (Optom.)",
       "raw_data": {
@@ -6493,6 +6743,7 @@
       "name": "General Optometry",
       "key": "general_optometry",
       "profession": "OD",
+      "group": "optometry",
       "color": "#773988",
       "path": "Eye Doctor (Optom.)",
       "raw_data": {

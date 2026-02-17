@@ -12,7 +12,6 @@ import {
   ResponsiveContainer,
 } from "recharts";
 import { styles } from "../styles/theme";
-import CareerSelector from "./CareerSelector";
 
 export default function MoneyScoreboard({ moneyData, careers, selectorProps }) {
   // build the dataset Recharts needs — attach career name + color
@@ -33,7 +32,6 @@ export default function MoneyScoreboard({ moneyData, careers, selectorProps }) {
       <h2 style={styles.header}>The Money Scoreboard</h2>
       <p style={styles.subtitle}>Three key money numbers for each career</p>
 
-      <CareerSelector {...selectorProps} />
 
       {/* bar chart: starting vs peak salary */}
       <h3

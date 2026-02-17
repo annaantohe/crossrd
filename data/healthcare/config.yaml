@@ -7,6 +7,63 @@ icon: "\U0001FA7A"
 headline: "Which Doctor Should You Become?"
 subtitle: "A Data-Driven Guide"
 
+groups:
+  surgery:
+    label: "Surgery"
+    icon: "\U0001F52A"
+    tagline: "you want to cut"
+    description: "Procedure-heavy, longest training, highest pay ceiling"
+  medicine:
+    label: "Subspecialty Medicine"
+    icon: "\U0001F48A"
+    tagline: "you want to be THE expert in one thing"
+    description: "Deep expertise in specific organ systems"
+  primary_care:
+    label: "Primary Care"
+    icon: "\U0001F3E5"
+    tagline: "you want to be everyone's doctor"
+    description: "Front-line medicine, broadest scope"
+  procedural:
+    label: "Procedural"
+    icon: "\U0001F3AF"
+    tagline: "you want to do specific procedures, not open surgery"
+    description: "Image-guided and minimally invasive procedures"
+  emergency:
+    label: "Emergency & Critical Care"
+    icon: "\U0001F6A8"
+    tagline: "you want the adrenaline"
+    description: "High-acuity, fast-paced acute care"
+  diagnostic:
+    label: "Diagnostic"
+    icon: "\U0001F52C"
+    tagline: "you want to solve puzzles from images and labs"
+    description: "Lab and imaging-based specialties"
+  mind:
+    label: "Mind & Rehab"
+    icon: "\U0001F9E0"
+    tagline: "you want to help people think, feel, and recover"
+    description: "Mental health, neurology, and rehabilitation"
+  derm:
+    label: "Dermatology"
+    icon: "\u2728"
+    tagline: "best lifestyle in medicine"
+    description: "Skin care, highest satisfaction ratings"
+  dentistry:
+    label: "Dentistry"
+    icon: "\U0001F9B7"
+    tagline: "be your own boss, fix teeth"
+    description: "Oral health and dental procedures"
+  podiatry:
+    label: "Podiatry"
+    icon: "\U0001F9B6"
+    tagline: "guaranteed surgical path, shorter training"
+    description: "Foot and ankle medicine"
+  optometry:
+    label: "Optometry"
+    icon: "\U0001F441"
+    tagline: "great lifestyle, vision care"
+    description: "Vision care and eye health"
+
 professions:
   MD/DO:
     label: Medical Doctor

@@ -64,6 +64,7 @@ def build_tracks(all_specialties, all_scores, all_scenario_totals,
             "name": name,
             "key": key,
             "profession": spec["profession"],
+            "group": spec.get("group", ""),
             "color": spec["color"],
             "path": prof_label,
             "raw_data": {
@@ -105,11 +106,26 @@ def assemble_output(cfg, tracks, scenario_profiles):
             "track_count": sum(1 for t in tracks if t["profession"] == prof),
         }
 
-    # careers array: all tracks with key/name/color/path
+    # careers array: all tracks with key/name/color/path/group
     careers = [
-        {"key": t["key"], "name": t["name"], "color": t["color"], "path": t["path"]}
+        {"key": t["key"], "name": t["name"], "color": t["color"], "path": t["path"], "group": t["group"]}
         for t in tracks
     ]
+
+    # groups: compute stats from tracks for each group defined in config
+    groups_cfg = cfg.get("groups", {})
+    groups_out = {}
+    for slug, info in groups_cfg.items():
+        group_tracks = [t for t in tracks if t["group"] == slug]
+        peak_salaries = [t["raw_data"].get("peakSalary", 0) for t in group_tracks if t["raw_data"].get("peakSalary")]
+        groups_out[slug] = {
+            "label": info["label"],
+            "icon": info.get("icon", ""),
+            "tagline": info.get("tagline", ""),
+            "description": info.get("description", ""),
+            "count": len(group_tracks),
+            "salary_range": [min(peak_salaries), max(peak_salaries)] if peak_salaries else [0, 0],
+        }
 
     return {
         "meta": {
@@ -124,6 +140,7 @@ def assemble_output(cfg, tracks, scenario_profiles):
             "source_file": "yaml",
         },
         "professions": professions_out,
+        "groups": groups_out,
         "careers": careers,
         "categories": [
             {

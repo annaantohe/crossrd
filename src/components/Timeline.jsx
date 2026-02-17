@@ -2,7 +2,6 @@
 // Shows each selected career's journey from college to first real paycheck.
 
 import { styles } from "../styles/theme";
-import CareerSelector from "./CareerSelector";
 
 // color key for each training phase
 const BLOCKS = {
@@ -23,7 +22,6 @@ export default function Timeline({ timelineData, careers, selectorProps }) {
       <h2 style={styles.header}>How Long Does It Take?</h2>
       <p style={styles.subtitle}>From college to your first real paycheck</p>
 
-      <CareerSelector {...selectorProps} />
 
       {/* legend */}
       <div

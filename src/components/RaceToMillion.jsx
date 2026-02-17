@@ -12,7 +12,6 @@ import {
   ResponsiveContainer,
 } from "recharts";
 import { formatDollars, styles } from "../styles/theme";
-import CareerSelector from "./CareerSelector";
 
 // reusable toggle bar for picking which careers are visible
 function ToggleBar({ careers, visible, toggle }) {
@@ -72,7 +71,6 @@ export default function RaceToMillion({ netWorthData, careers, selectorProps }) 
       <h2 style={styles.header}>The Race to a Million</h2>
       <p style={styles.subtitle}>Total money saved over a lifetime (age 18-65)</p>
 
-      <CareerSelector {...selectorProps} />
       <ToggleBar careers={careers} visible={visible} toggle={toggle} />
 
       <ResponsiveContainer width="100%" height={320}>

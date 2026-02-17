@@ -2,6 +2,7 @@
 profession: OD
 specialties:
 - name: Medical / Therapeutic Optometry
+  group: optometry
   residencyYears: 0
   matchComp: 9
   startSalary: 130
@@ -41,6 +42,7 @@ specialties:
   telehealthPotential: 6
   genderDistribution: ~65% women in optometry overall
 - name: Surgical Co-Management / Specialty
+  group: optometry
   residencyYears: 0
   matchComp: 9
   startSalary: 120
@@ -80,6 +82,7 @@ specialties:
   telehealthPotential: 4
   genderDistribution: ~65% women
 - name: General Optometry
+  group: optometry
   residencyYears: 0
   matchComp: 9
   startSalary: 115

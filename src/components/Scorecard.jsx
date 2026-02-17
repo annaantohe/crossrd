@@ -11,7 +11,6 @@ import {
   ResponsiveContainer,
 } from "recharts";
 import { styles } from "../styles/theme";
-import CareerSelector from "./CareerSelector";
 
 // reusable career toggle buttons
 function ToggleBar({ careers, visible, toggle }) {
@@ -69,7 +68,6 @@ export default function Scorecard({ radarDimensions, careers, selectorProps }) {
       <h2 style={styles.header}>Career Scorecard</h2>
       <p style={styles.subtitle}>6 dimensions rated 1-10 (tap careers to compare)</p>
 
-      <CareerSelector {...selectorProps} />
       <ToggleBar careers={careers} visible={visible} toggle={toggle} />
 
       <ResponsiveContainer width="100%" height={320}>

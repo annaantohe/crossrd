@@ -3,15 +3,10 @@
 
 // tab definitions
 export const TABS = [
-  { id: "home", label: "🏠 Home" },
-  { id: "field", label: "🏟️ All 64" },
-  { id: "race", label: "🏁 Race" },
-  { id: "scorecard", label: "⭐ Scores" },
-  { id: "timeline", label: "⏳ Time" },
-  { id: "risk", label: "⚠️ Risk" },
-  { id: "money", label: "💰 Money" },
-  { id: "tree", label: "🌳 Answer" },
-  { id: "sources", label: "📚 Sources" },
+  { id: "explore", label: "🔍 Explore" },
+  { id: "compare", label: "📊 Compare" },
+  { id: "quiz", label: "🧭 Quiz" },
+  { id: "sources", label: "📖 Sources" },
 ];
 
 // shared text styles

@@ -2,6 +2,7 @@
 profession: DDS/DMD
 specialties:
 - name: Oral & Maxillofacial Surgery
+  group: dentistry
   residencyYears: 4-6 (some include MD)
   matchComp: 2
   startSalary: 350
@@ -41,6 +42,7 @@ specialties:
   telehealthPotential: 1
   genderDistribution: ~10% women
 - name: Endodontics
+  group: dentistry
   residencyYears: 0
   matchComp: 6
   startSalary: 250
@@ -79,6 +81,7 @@ specialties:
   telehealthPotential: 1
   genderDistribution: ~25% women
 - name: Periodontics
+  group: dentistry
   residencyYears: 0
   matchComp: 6
   startSalary: 220
@@ -117,6 +120,7 @@ specialties:
   telehealthPotential: 1
   genderDistribution: ~25% women
 - name: Prosthodontics
+  group: dentistry
   residencyYears: 0
   matchComp: 6
   startSalary: 200
@@ -156,6 +160,7 @@ specialties:
   telehealthPotential: 2
   genderDistribution: ~30% women
 - name: Orthodontics
+  group: dentistry
   residencyYears: 0
   matchComp: 2
   startSalary: 200
@@ -195,6 +200,7 @@ specialties:
   telehealthPotential: 4
   genderDistribution: ~30% women
 - name: Pediatric Dentistry
+  group: dentistry
   residencyYears: 0
   matchComp: 5
   startSalary: 220
@@ -234,6 +240,7 @@ specialties:
   telehealthPotential: 2
   genderDistribution: ~50% women; very balanced
 - name: General Dentistry
+  group: dentistry
   residencyYears: 0
   matchComp: 8
   startSalary: 160

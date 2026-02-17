@@ -35,7 +35,7 @@ function buildTree(raw, results) {
   };
 }
 
-export default function DecisionTree({ decisionTree, decisionTreeResults, ranking, allCareers }) {
+export default function DecisionTree({ decisionTree, decisionTreeResults, ranking, allCareers, picks = [], onTogglePick }) {
   const tree = buildTree(decisionTree, decisionTreeResults);
 
   const [path, setPath] = useState([]);
@@ -217,6 +217,27 @@ export default function DecisionTree({ decisionTree, decisionTreeResults, rankin
           >
             via the {rc.path} path
           </div>
+          {onTogglePick && (
+            <button
+              onClick={() => onTogglePick(current.result)}
+              style={{
+                marginTop: 12,
+                fontFamily: "'DM Sans', sans-serif",
+                fontSize: 13,
+                fontWeight: 700,
+                padding: "8px 20px",
+                borderRadius: 12,
+                border: picks.includes(current.result)
+                  ? `2px solid ${rc.color}`
+                  : "2px solid #D4A537",
+                background: picks.includes(current.result) ? rc.color : "#D4A537",
+                color: "white",
+                cursor: "pointer",
+              }}
+            >
+              {picks.includes(current.result) ? "Picked!" : "⭐ Add to My Picks"}
+            </button>
+          )}
         </div>
       )}
 

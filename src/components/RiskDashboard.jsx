@@ -2,7 +2,6 @@
 // Shows how well each selected career survives 4 bad scenarios.
 
 import { styles } from "../styles/theme";
-import CareerSelector from "./CareerSelector";
 
 // scenario columns
 const SCENARIOS = [
@@ -30,7 +29,6 @@ export default function RiskDashboard({ stressData, careers, selectorProps }) {
         How well each career survives 4 bad scenarios (10 = safest)
       </p>
 
-      <CareerSelector {...selectorProps} />
 
       <div style={{ overflowX: "auto" }}>
         <table

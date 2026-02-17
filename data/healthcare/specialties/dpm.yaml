@@ -2,6 +2,7 @@
 profession: DPM
 specialties:
 - name: Podiatric Surgery (Foot & Ankle)
+  group: podiatry
   residencyYears: 3
   matchComp: 7
   startSalary: 220
@@ -41,6 +42,7 @@ specialties:
   telehealthPotential: 2
   genderDistribution: ~25% women
 - name: Sports Medicine / Biomechanics
+  group: podiatry
   residencyYears: 3
   matchComp: 8
   startSalary: 160
@@ -80,6 +82,7 @@ specialties:
   telehealthPotential: 4
   genderDistribution: ~30% women
 - name: Wound Care / Diabetic Limb Salvage
+  group: podiatry
   residencyYears: 3
   matchComp: 8
   startSalary: 200
