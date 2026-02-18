@@ -162,17 +162,22 @@ export default function App() {
   }, []);
 
   // read picks from ALL families
+  // use React state for current family (localStorage may be stale during render)
   const allPicks = useMemo(() => {
     void mergedTick; // depend on tick
     const merged = [];
     for (const slug of Object.keys(FAMILIES)) {
-      try {
-        const saved = localStorage.getItem(`crossrd-picks-${slug}`);
-        if (saved) merged.push(...JSON.parse(saved));
-      } catch {}
+      if (slug === family) {
+        merged.push(...picks);
+      } else {
+        try {
+          const saved = localStorage.getItem(`crossrd-picks-${slug}`);
+          if (saved) merged.push(...JSON.parse(saved));
+        } catch {}
+      }
     }
     return merged;
-  }, [picks, mergedTick]);
+  }, [picks, family, mergedTick]);
 
   // derive merged chart data
   const mergedSelected = allPicks
@@ -215,6 +220,13 @@ export default function App() {
     }
   };
 
+  // jump straight to compare from front page
+  const goCompare = () => {
+    const firstFamily = Object.keys(FAMILIES)[0];
+    setFamily(firstFamily);
+    setTab("compare");
+  };
+
   // if no family selected, show picker
   if (!family || !data) {
     return (
@@ -227,7 +239,7 @@ export default function App() {
           fontFamily: "'DM Sans', sans-serif",
         }}
       >
-        <FamilyPicker families={FAMILIES} onSelect={setFamily} />
+        <FamilyPicker families={FAMILIES} onSelect={setFamily} onCompare={goCompare} />
       </div>
     );
   }

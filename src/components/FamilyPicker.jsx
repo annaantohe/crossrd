@@ -1,8 +1,24 @@
 // FamilyPicker.jsx — Landing page: pick a profession family
 // Shows crossrd branding + clickable cards for each available family.
 
-export default function FamilyPicker({ families, onSelect }) {
+export default function FamilyPicker({ families, onSelect, onCompare }) {
   const available = Object.entries(families);
+
+  // count total picks across all families from localStorage
+  let totalPicks = 0;
+  const pickSummary = [];
+  for (const [slug, fd] of available) {
+    try {
+      const saved = localStorage.getItem(`crossrd-picks-${slug}`);
+      if (saved) {
+        const count = JSON.parse(saved).length;
+        if (count > 0) {
+          totalPicks += count;
+          pickSummary.push(`${fd.meta.icon} ${count}`);
+        }
+      }
+    } catch {}
+  }
 
   // future families (greyed-out teasers)
   const comingSoon = [
@@ -156,6 +172,37 @@ export default function FamilyPicker({ families, onSelect }) {
           </div>
         ))}
       </div>
+
+      {/* compare across fields */}
+      {totalPicks >= 2 && onCompare && (
+        <button
+          onClick={onCompare}
+          style={{
+            display: "block",
+            margin: "0 auto",
+            padding: "14px 28px",
+            borderRadius: 16,
+            border: "2px solid #D4A537",
+            background: "linear-gradient(135deg, #D4A537, #c4952e)",
+            color: "white",
+            fontFamily: "'DM Sans', sans-serif",
+            fontSize: 15,
+            fontWeight: 700,
+            cursor: "pointer",
+            transition: "all 0.2s",
+          }}
+          onMouseEnter={(e) => {
+            e.currentTarget.style.transform = "translateY(-2px)";
+            e.currentTarget.style.boxShadow = "0 6px 20px rgba(212,165,55,0.3)";
+          }}
+          onMouseLeave={(e) => {
+            e.currentTarget.style.transform = "translateY(0)";
+            e.currentTarget.style.boxShadow = "none";
+          }}
+        >
+          Compare across fields ({pickSummary.join(" + ")})
+        </button>
+      )}
     </div>
   );
 }
