@@ -1,5 +1,5 @@
 // Compare.jsx — Comparison view with sub-tabs
-// Wraps existing chart components (Race, Scores, Time, Risk) with a sub-tab bar.
+// Cross-family: shows picks from ALL families merged together.
 // Shows an empty state if fewer than 2 careers are picked.
 
 import { useState } from "react";
@@ -9,9 +9,11 @@ import Scorecard from "./Scorecard";
 import Timeline from "./Timeline";
 import RiskDashboard from "./RiskDashboard";
 import MoneyScoreboard from "./MoneyScoreboard";
+import EducationPath from "./EducationPath";
 
 const SUB_TABS = [
   { id: "overview", label: "Overview" },
+  { id: "education", label: "Education" },
   { id: "race", label: "Race" },
   { id: "scores", label: "Scores" },
   { id: "time", label: "Time" },
@@ -32,9 +34,10 @@ export default function Compare({
   selectedCareers,
 }) {
   const [subTab, setSubTab] = useState("overview");
-
-  // edit picks inline
   const [editing, setEditing] = useState(false);
+
+  // how many fields are represented
+  const familyCount = new Set(selectedCareers.map((c) => c.family).filter(Boolean)).size;
 
   if (picks.length < 2) {
     return (
@@ -61,15 +64,21 @@ export default function Compare({
         >
           Head to the Explore tab and tap "+ Pick" on careers you're interested in.
           <br />
-          Come back here to compare them side-by-side.
+          Pick from different fields to compare across healthcare and law!
         </div>
       </div>
     );
   }
 
-  // simple inline editor for picks
+  // group careers by family for the editor
   const renderEditor = () => {
     if (!editing) return null;
+    const byFamily = {};
+    for (const c of allCareers) {
+      const fam = c.family || "other";
+      if (!byFamily[fam]) byFamily[fam] = [];
+      byFamily[fam].push(c);
+    }
     return (
       <div
         style={{
@@ -77,38 +86,55 @@ export default function Compare({
           borderRadius: 12,
           padding: "10px 12px",
           margin: "0 8px 12px",
-          display: "flex",
-          flexWrap: "wrap",
-          gap: 4,
+          maxHeight: 300,
+          overflowY: "auto",
         }}
       >
-        {allCareers.map((c) => {
-          const picked = picks.includes(c.key);
-          return (
-            <button
-              key={c.key}
-              onClick={() => onTogglePick(c.key)}
+        {Object.entries(byFamily).map(([fam, careers]) => (
+          <div key={fam}>
+            <div
               style={{
-                fontFamily: "'DM Sans', sans-serif",
-                fontSize: 10,
-                padding: "3px 8px",
-                borderRadius: 8,
-                border: picked ? `1px solid ${c.color}` : "1px solid #ddd",
-                background: picked ? `${c.color}18` : "white",
-                color: picked ? c.color : "#888",
-                cursor: "pointer",
-                fontWeight: picked ? 700 : 400,
+                fontSize: 11,
+                fontWeight: 700,
+                color: "#888",
+                margin: "8px 4px 4px",
+                textTransform: "uppercase",
+                letterSpacing: "0.05em",
               }}
             >
-              {picked ? "✓ " : ""}{c.name.length > 18 ? c.name.slice(0, 16) + "…" : c.name}
-            </button>
-          );
-        })}
+              {careers[0]?.familyIcon || ""} {careers[0]?.familyName || fam}
+            </div>
+            <div style={{ display: "flex", flexWrap: "wrap", gap: 4 }}>
+              {careers.map((c) => {
+                const picked = picks.includes(c.key);
+                return (
+                  <button
+                    key={c.key}
+                    onClick={() => onTogglePick(c.key)}
+                    style={{
+                      fontFamily: "'DM Sans', sans-serif",
+                      fontSize: 10,
+                      padding: "3px 8px",
+                      borderRadius: 8,
+                      border: picked ? `1px solid ${c.color}` : "1px solid #ddd",
+                      background: picked ? `${c.color}18` : "white",
+                      color: picked ? c.color : "#888",
+                      cursor: "pointer",
+                      fontWeight: picked ? 700 : 400,
+                    }}
+                  >
+                    {picked ? "✓ " : ""}
+                    {c.name.length > 18 ? c.name.slice(0, 16) + "…" : c.name}
+                  </button>
+                );
+              })}
+            </div>
+          </div>
+        ))}
       </div>
     );
   };
 
-  // shared selector props for legacy components (they no longer render CareerSelector)
   const selectorProps = {
     allCareers,
     selectedKeys: picks,
@@ -120,7 +146,10 @@ export default function Compare({
   return (
     <div style={{ padding: "4px 0 80px" }}>
       <h2 style={{ ...styles.header, marginBottom: 2 }}>Compare</h2>
-      <p style={styles.subtitle}>{picks.length} careers selected</p>
+      <p style={styles.subtitle}>
+        {picks.length} careers
+        {familyCount > 1 ? ` across ${familyCount} fields` : " selected"}
+      </p>
 
       {/* edit picks button */}
       <div style={{ textAlign: "center", marginBottom: 8 }}>
@@ -152,6 +181,7 @@ export default function Compare({
           background: "#f0f0ee",
           borderRadius: 10,
           padding: 3,
+          overflowX: "auto",
         }}
       >
         {SUB_TABS.map((t) => (
@@ -161,7 +191,7 @@ export default function Compare({
             style={{
               fontFamily: "'DM Sans', sans-serif",
               fontSize: 11,
-              padding: "6px 12px",
+              padding: "6px 10px",
               borderRadius: 8,
               border: "none",
               cursor: "pointer",
@@ -169,6 +199,7 @@ export default function Compare({
               color: subTab === t.id ? "#1a1a2e" : "#888",
               fontWeight: subTab === t.id ? 700 : 500,
               boxShadow: subTab === t.id ? "0 1px 4px rgba(0,0,0,0.08)" : "none",
+              whiteSpace: "nowrap",
             }}
           >
             {t.label}
@@ -182,6 +213,9 @@ export default function Compare({
           <Scorecard radarDimensions={radarData} careers={selectedCareers} selectorProps={selectorProps} />
           <MoneyScoreboard moneyData={moneyData} careers={selectedCareers} selectorProps={selectorProps} />
         </div>
+      )}
+      {subTab === "education" && (
+        <EducationPath timelineData={timelineData} careers={selectedCareers} />
       )}
       {subTab === "race" && (
         <RaceToMillion netWorthData={netWorthData} careers={selectedCareers} selectorProps={selectorProps} />

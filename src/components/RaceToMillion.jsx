@@ -116,32 +116,34 @@ export default function RaceToMillion({ netWorthData, careers, selectorProps }) 
         </LineChart>
       </ResponsiveContainer>
 
-      {/* milestone badges */}
-      <div
-        style={{
-          margin: "8px 8px 0",
-          display: "flex",
-          flexWrap: "wrap",
-          gap: 6,
-          justifyContent: "center",
-        }}
-      >
-        {MILESTONES.map((m) => (
-          <span
-            key={m.label}
-            style={{
-              fontFamily: "'DM Sans', sans-serif",
-              fontSize: 10,
-              padding: "4px 8px",
-              borderRadius: 8,
-              background: m.bg,
-              whiteSpace: "nowrap",
-            }}
-          >
-            Age {m.age}: {m.label}
-          </span>
-        ))}
-      </div>
+      {/* milestone badges (only for single-family) */}
+      {new Set(careers.map((c) => c.family).filter(Boolean)).size <= 1 && (
+        <div
+          style={{
+            margin: "8px 8px 0",
+            display: "flex",
+            flexWrap: "wrap",
+            gap: 6,
+            justifyContent: "center",
+          }}
+        >
+          {MILESTONES.map((m) => (
+            <span
+              key={m.label}
+              style={{
+                fontFamily: "'DM Sans', sans-serif",
+                fontSize: 10,
+                padding: "4px 8px",
+                borderRadius: 8,
+                background: m.bg,
+                whiteSpace: "nowrap",
+              }}
+            >
+              Age {m.age}: {m.label}
+            </span>
+          ))}
+        </div>
+      )}
 
       <div style={styles.soWhat}>
         💡 <strong>So What?</strong> Different paths start earning at different ages. Use

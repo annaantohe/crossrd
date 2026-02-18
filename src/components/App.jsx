@@ -114,6 +114,107 @@ export default function App() {
     setTab("explore");
   };
 
+  // --- cross-family merged data for Compare tab ---
+  // tick counter to force re-derive when other families' picks change
+  const [mergedTick, setMergedTick] = useState(0);
+
+  const mergedTracks = useMemo(() => {
+    const tracks = [];
+    for (const [slug, fd] of Object.entries(FAMILIES)) {
+      for (const t of fd.tracks) {
+        tracks.push({ ...t, family: slug });
+      }
+    }
+    return tracks;
+  }, []);
+
+  const mergedCareers = useMemo(() => {
+    const careers = [];
+    for (const [slug, fd] of Object.entries(FAMILIES)) {
+      for (const c of fd.careers) {
+        const track = fd.tracks.find((t) => t.key === c.key);
+        careers.push({
+          ...c,
+          profession: track?.profession || "",
+          family: slug,
+          familyIcon: fd.meta.icon,
+          familyName: fd.meta.family_name,
+        });
+      }
+    }
+    return careers;
+  }, []);
+
+  const mergedProfColors = useMemo(() => {
+    const colors = {};
+    for (const fd of Object.values(FAMILIES)) {
+      Object.entries(fd.professions).forEach(([k, v]) => { colors[k] = v.color; });
+    }
+    return colors;
+  }, []);
+
+  const mergedProfLabels = useMemo(() => {
+    const labels = {};
+    for (const fd of Object.values(FAMILIES)) {
+      Object.entries(fd.professions).forEach(([k, v]) => { labels[k] = v.label; });
+    }
+    return labels;
+  }, []);
+
+  // read picks from ALL families
+  const allPicks = useMemo(() => {
+    void mergedTick; // depend on tick
+    const merged = [];
+    for (const slug of Object.keys(FAMILIES)) {
+      try {
+        const saved = localStorage.getItem(`crossrd-picks-${slug}`);
+        if (saved) merged.push(...JSON.parse(saved));
+      } catch {}
+    }
+    return merged;
+  }, [picks, mergedTick]);
+
+  // derive merged chart data
+  const mergedSelected = allPicks
+    .map((k) => mergedCareers.find((c) => c.key === k))
+    .filter(Boolean);
+  const mergedNetWorth =
+    allPicks.length >= 2 ? buildNetWorthFromTracks(mergedTracks, allPicks) : [];
+  const mergedRadar =
+    allPicks.length >= 2 ? buildRadarFromTracks(mergedTracks, allPicks) : [];
+  const mergedStress =
+    allPicks.length >= 2
+      ? buildStressFromTracks(mergedTracks, allPicks)
+      : { scenarios: [], scores: [] };
+  const mergedMoney =
+    allPicks.length >= 2 ? buildMoneyFromTracks(mergedTracks, allPicks) : [];
+  const mergedTimeline =
+    allPicks.length >= 2 ? buildTimelineFromTracks(mergedTracks, allPicks) : [];
+
+  // toggle pick from Compare (handles careers from any family)
+  const togglePickCrossFamily = (key) => {
+    for (const [slug, fd] of Object.entries(FAMILIES)) {
+      if (fd.careers.some((c) => c.key === key)) {
+        const sk = `crossrd-picks-${slug}`;
+        try {
+          const saved = localStorage.getItem(sk);
+          const current = saved ? JSON.parse(saved) : [];
+          if (current.includes(key)) {
+            localStorage.setItem(sk, JSON.stringify(current.filter((k) => k !== key)));
+          } else if (allPicks.length < MAX_PICKS) {
+            localStorage.setItem(sk, JSON.stringify([...current, key]));
+          }
+        } catch {}
+        if (slug === family) {
+          togglePick(key);
+        } else {
+          setMergedTick((t) => t + 1);
+        }
+        break;
+      }
+    }
+  };
+
   // if no family selected, show picker
   if (!family || !data) {
     return (
@@ -238,17 +339,17 @@ export default function App() {
         )}
         {tab === "compare" && (
           <Compare
-            picks={picks}
-            allCareers={allCareers}
-            onTogglePick={togglePick}
-            profColors={profColors}
-            profLabels={profLabels}
-            netWorthData={netWorthData}
-            radarData={radarData}
-            stressData={stressData}
-            moneyData={moneyData}
-            timelineData={timelineData}
-            selectedCareers={selectedCareers}
+            picks={allPicks}
+            allCareers={mergedCareers}
+            onTogglePick={togglePickCrossFamily}
+            profColors={mergedProfColors}
+            profLabels={mergedProfLabels}
+            netWorthData={mergedNetWorth}
+            radarData={mergedRadar}
+            stressData={mergedStress}
+            moneyData={mergedMoney}
+            timelineData={mergedTimeline}
+            selectedCareers={mergedSelected}
           />
         )}
         {tab === "quiz" && (

@@ -6,7 +6,7 @@ import { styles } from "../styles/theme";
 // color key for each training phase
 const BLOCKS = {
   college: { color: "#42A5F5", label: "College" },
-  school: { color: "#FF9800", label: "Med/Pod School" },
+  school: { color: "#FF9800", label: "Grad School" },
   residency: { color: "#EF5350", label: "Training" },
   fellowship: { color: "#AB47BC", label: "Extra Training" },
 };
