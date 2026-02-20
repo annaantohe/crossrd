@@ -21,8 +21,10 @@ export default function MoneyScoreboard({ moneyData, careers, selectorProps }) {
       name: c.name,
       shortName: c.name.split(" ").slice(0, 2).join(" "),
       start: m?.start || 0,
-      peak: m?.peak || 0,
-      lifetime: m?.lifetime || 0,
+      typicalPeak: m?.typicalPeak || 0,
+      ceilingExtra: Math.max(0, (m?.ceilingPeak || 0) - (m?.typicalPeak || 0)),
+      typicalLifetime: m?.typicalLifetime || 0,
+      ceilingLifetime: m?.ceilingLifetime || 0,
       color: c.color,
     };
   });
@@ -33,7 +35,7 @@ export default function MoneyScoreboard({ moneyData, careers, selectorProps }) {
       <p style={styles.subtitle}>Three key money numbers for each career</p>
 
 
-      {/* bar chart: starting vs peak salary */}
+      {/* bar chart: starting vs typical peak vs ceiling */}
       <h3
         style={{
           fontFamily: "'DM Sans', sans-serif",
@@ -70,10 +72,14 @@ export default function MoneyScoreboard({ moneyData, careers, selectorProps }) {
               border: "none",
               boxShadow: "0 4px 12px rgba(0,0,0,0.12)",
             }}
-            formatter={(v) => [`$${v}K/year`]}
+            formatter={(v, name) => {
+              if (name === "Ceiling Upside") return [`+$${v}K above typical`];
+              return [`$${v}K/year`];
+            }}
           />
           <Bar dataKey="start" name="Starting Salary" fill="#90CAF9" radius={[4, 4, 0, 0]} />
-          <Bar dataKey="peak" name="Peak Salary" fill="#42A5F5" radius={[4, 4, 0, 0]} />
+          <Bar dataKey="typicalPeak" name="Typical Peak" fill="#42A5F5" stackId="peak" />
+          <Bar dataKey="ceilingExtra" name="Ceiling Upside" fill="#42A5F5" fillOpacity={0.25} stackId="peak" radius={[4, 4, 0, 0]} />
           <Legend wrapperStyle={{ fontFamily: "'DM Sans', sans-serif", fontSize: 11 }} />
         </BarChart>
       </ResponsiveContainer>
@@ -101,7 +107,8 @@ export default function MoneyScoreboard({ moneyData, careers, selectorProps }) {
       >
         {careers.map((c) => {
           const m = moneyData.find((d) => d.key === c.key);
-          const lifetime = m?.lifetime || 0;
+          const typical = m?.typicalLifetime || 0;
+          const ceiling = m?.ceilingLifetime || 0;
           return (
             <div
               key={c.key}
@@ -133,7 +140,7 @@ export default function MoneyScoreboard({ moneyData, careers, selectorProps }) {
                   color: "#1a1a2e",
                 }}
               >
-                ${(lifetime / 1000).toFixed(1)}M
+                ${(typical / 1000).toFixed(1)}M
               </div>
               <div
                 style={{
@@ -142,16 +149,28 @@ export default function MoneyScoreboard({ moneyData, careers, selectorProps }) {
                   color: "#999",
                 }}
               >
-                lifetime
+                typical lifetime
               </div>
+              {ceiling > typical && (
+                <div
+                  style={{
+                    fontFamily: "'DM Sans', sans-serif",
+                    fontSize: 10,
+                    color: "#bbb",
+                    marginTop: 2,
+                  }}
+                >
+                  ceiling ${(ceiling / 1000).toFixed(1)}M
+                </div>
+              )}
             </div>
           );
         })}
       </div>
 
       <div style={styles.soWhat}>
-        💡 <strong>So What?</strong> Higher peak pay doesn't always mean more lifetime
-        earnings — training length and debt matter too!
+        💡 <strong>So What?</strong> The faded bars show the ceiling — what top performers earn.
+        Most people hit the solid bar. A bigger gap = more upside but less predictable.
       </div>
     </div>
   );

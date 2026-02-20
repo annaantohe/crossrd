@@ -22,11 +22,16 @@ const RADAR_DIMENSIONS = [
   { dim: "Safety Net", emoji: "🛡️" },
 ];
 
-function computeNetWorthAtAge(fin, age) {
+// useTypical: true = use typical_peak (realistic), false = use peak_salary (ceiling)
+function computeNetWorthAtAge(fin, age, useTypical = true) {
   const undergradEnd = 18 + (fin.undergrad_years || 4);
   const schoolEnd = undergradEnd + (fin.prof_school_years || 4);
   const resEnd = schoolEnd + (fin.residency_years || 3);
   const practiceStart = resEnd + (fin.fellowship_years || 0);
+
+  const peakTarget = useTypical
+    ? (fin.typical_peak || fin.peak_salary || 600)
+    : (fin.peak_salary || 600);
 
   let cumulative = 0;
   const loanRate = (fin.loan_rate || 6.5) / 100;
@@ -57,10 +62,10 @@ function computeNetWorthAtAge(fin, age) {
         const progress = (a - 40) / 8;
         salary =
           (fin.mid_salary || 400) +
-          progress * ((fin.peak_salary || 600) - (fin.mid_salary || 400));
+          progress * (peakTarget - (fin.mid_salary || 400));
       } else {
         salary =
-          (fin.peak_salary || 600) *
+          peakTarget *
           Math.pow(1 + (fin.post_peak_growth || 1) / 100, a - 48);
       }
       let costs = living + (fin.malpractice_per_yr || 10) + (fin.overhead_per_yr || 5);
@@ -80,7 +85,8 @@ export function buildNetWorthFromTracks(tracks, selectedKeys) {
     for (const key of selectedKeys) {
       const track = tracks.find((t) => t.key === key);
       if (!track?.financial) continue;
-      point[key] = computeNetWorthAtAge(track.financial, age);
+      point[key] = computeNetWorthAtAge(track.financial, age, true);
+      point[`${key}_ceiling`] = computeNetWorthAtAge(track.financial, age, false);
     }
     return point;
   });
@@ -136,8 +142,10 @@ export function buildMoneyFromTracks(tracks, selectedKeys) {
       return {
         key,
         start: fin.starting_salary || track.raw_data?.startSalary || 0,
-        peak: fin.peak_salary || track.raw_data?.peakSalary || 0,
-        lifetime: computeNetWorthAtAge(fin, 65),
+        typicalPeak: fin.typical_peak || fin.peak_salary || 0,
+        ceilingPeak: fin.peak_salary || track.raw_data?.peakSalary || 0,
+        typicalLifetime: computeNetWorthAtAge(fin, 65, true),
+        ceilingLifetime: computeNetWorthAtAge(fin, 65, false),
       };
     })
     .filter(Boolean);

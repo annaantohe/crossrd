@@ -5,7 +5,7 @@ import { useState } from "react";
 import { formatDollars } from "../styles/theme";
 
 const SORT_OPTIONS = [
-  { key: "peakSalary", label: "Peak Pay", dir: "desc" },
+  { key: "typicalPeak", label: "Peak Pay", dir: "desc", fallback: "peakSalary" },
   { key: "satisfaction", label: "Happiness", dir: "desc" },
   { key: "hoursWeek", label: "Hours/Wk", dir: "asc" },
   { key: "matchComp", label: "Ease of Entry", dir: "desc" },
@@ -21,11 +21,12 @@ export default function CareerList({
   onBack,
   profColors,
 }) {
-  const [sortKey, setSortKey] = useState("peakSalary");
+  const [sortKey, setSortKey] = useState("typicalPeak");
 
   const sortOpt = SORT_OPTIONS.find((s) => s.key === sortKey) || SORT_OPTIONS[0];
+  const getVal = (t, opt) => t[opt.key] || (opt.fallback ? t[opt.fallback] : 0) || 0;
   const sorted = [...tracks].sort((a, b) =>
-    sortOpt.dir === "desc" ? (b[sortKey] || 0) - (a[sortKey] || 0) : (a[sortKey] || 0) - (b[sortKey] || 0)
+    sortOpt.dir === "desc" ? getVal(b, sortOpt) - getVal(a, sortOpt) : getVal(a, sortOpt) - getVal(b, sortOpt)
   );
 
   const isPicked = (key) => picks.includes(key);
@@ -186,7 +187,9 @@ export default function CareerList({
                   color: "#555",
                 }}
               >
-                <span>💰 {formatDollars(t.peakSalary)} peak</span>
+                <span>💰 {t.typicalPeak && t.typicalPeak !== t.peakSalary
+                  ? `${formatDollars(t.typicalPeak)}–${formatDollars(t.peakSalary)}`
+                  : `${formatDollars(t.peakSalary)} peak`}</span>
                 <span>⏰ {t.hoursWeek} hrs</span>
                 <span>😊 {t.satisfaction}%</span>
                 <span>🎯 {t.matchComp}/10 entry</span>

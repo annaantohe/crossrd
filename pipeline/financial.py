@@ -172,14 +172,19 @@ def derive_financial_params(spec, profession):
     if isinstance(malpractice, str):
         malpractice = _parse_numeric(malpractice) or 10
 
+    mid_salary = spec.get("midSalary", 300)
+    peak_salary = spec.get("peakSalary", 400)
+    typical_peak = spec.get("typicalPeak", round(mid_salary * 1.2))
+
     return {
         **defaults,
         "residency_years": res_yrs,
         "fellowship_years": fellowship_years,
         "age_independent": age_independent,
         "starting_salary": spec.get("startSalary", 200),
-        "mid_salary": spec.get("midSalary", 300),
-        "peak_salary": spec.get("peakSalary", 400),
+        "mid_salary": mid_salary,
+        "peak_salary": peak_salary,
+        "typical_peak": typical_peak,
         "malpractice_per_yr": int(malpractice),
     }
 

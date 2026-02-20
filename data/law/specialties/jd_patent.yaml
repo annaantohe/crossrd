@@ -9,6 +9,7 @@ specialties:
   startSalary: 200
   midSalary: 350
   peakSalary: 600
+  typicalPeak: 200
   partTimeFlex: 6
   procedureMix: 1
   callSchedule: 7
@@ -49,6 +50,7 @@ specialties:
   startSalary: 225
   midSalary: 400
   peakSalary: 1000
+  typicalPeak: 280
   partTimeFlex: 3
   procedureMix: 7
   callSchedule: 3

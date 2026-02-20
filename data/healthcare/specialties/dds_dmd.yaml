@@ -8,6 +8,7 @@ specialties:
   startSalary: 350
   midSalary: 480
   peakSalary: 750
+  typicalPeak: 400
   partTimeFlex: 3
   procedureMix: 9
   callSchedule: 2
@@ -48,6 +49,7 @@ specialties:
   startSalary: 250
   midSalary: 350
   peakSalary: 550
+  typicalPeak: 330
   partTimeFlex: 7
   procedureMix: 9
   callSchedule: 9
@@ -87,6 +89,7 @@ specialties:
   startSalary: 220
   midSalary: 320
   peakSalary: 500
+  typicalPeak: 290
   partTimeFlex: 7
   procedureMix: 8
   callSchedule: 9
@@ -126,6 +129,7 @@ specialties:
   startSalary: 200
   midSalary: 300
   peakSalary: 450
+  typicalPeak: 275
   partTimeFlex: 7
   procedureMix: 7
   callSchedule: 10
@@ -166,6 +170,7 @@ specialties:
   startSalary: 200
   midSalary: 350
   peakSalary: 600
+  typicalPeak: 340
   partTimeFlex: 7
   procedureMix: 5
   callSchedule: 10
@@ -206,6 +211,7 @@ specialties:
   startSalary: 220
   midSalary: 300
   peakSalary: 450
+  typicalPeak: 280
   partTimeFlex: 6
   procedureMix: 7
   callSchedule: 9
@@ -246,6 +252,7 @@ specialties:
   startSalary: 160
   midSalary: 220
   peakSalary: 400
+  typicalPeak: 220
   partTimeFlex: 7
   procedureMix: 6
   callSchedule: 10

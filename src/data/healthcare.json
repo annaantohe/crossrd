@@ -5,7 +5,7 @@
     "headline": "Which Doctor Should You Become?",
     "subtitle": "A Data-Driven Guide",
     "icon": "\ud83e\ude7a",
-    "last_updated": "2026-02-17",
+    "last_updated": "2026-02-19",
     "total_tracks": 64,
     "data_points": 107,
     "source_file": "yaml"
@@ -801,6 +801,7 @@
         "startSalary": 350,
         "midSalary": 480,
         "peakSalary": 750,
+        "typicalPeak": 400,
         "hoursWeek": 55,
         "burnout": 38,
         "satisfaction": 80,
@@ -857,6 +858,7 @@
         "starting_salary": 350,
         "mid_salary": 480,
         "peak_salary": 750,
+        "typical_peak": 400,
         "malpractice_per_yr": 40
       },
       "stress": {
@@ -897,6 +899,7 @@
         "startSalary": 250,
         "midSalary": 350,
         "peakSalary": 550,
+        "typicalPeak": 330,
         "hoursWeek": 38,
         "burnout": 25,
         "satisfaction": 78,
@@ -953,6 +956,7 @@
         "starting_salary": 250,
         "mid_salary": 350,
         "peak_salary": 550,
+        "typical_peak": 330,
         "malpractice_per_yr": 10
       },
       "stress": {
@@ -990,6 +994,7 @@
         "startSalary": 220,
         "midSalary": 320,
         "peakSalary": 500,
+        "typicalPeak": 290,
         "hoursWeek": 38,
         "burnout": 22,
         "satisfaction": 80,
@@ -1046,6 +1051,7 @@
         "starting_salary": 220,
         "mid_salary": 320,
         "peak_salary": 500,
+        "typical_peak": 290,
         "malpractice_per_yr": 8
       },
       "stress": {
@@ -1083,6 +1089,7 @@
         "startSalary": 200,
         "midSalary": 300,
         "peakSalary": 450,
+        "typicalPeak": 275,
         "hoursWeek": 40,
         "burnout": 20,
         "satisfaction": 78,
@@ -1139,6 +1146,7 @@
         "starting_salary": 200,
         "mid_salary": 300,
         "peak_salary": 450,
+        "typical_peak": 275,
         "malpractice_per_yr": 6
       },
       "stress": {
@@ -1176,6 +1184,7 @@
         "startSalary": 200,
         "midSalary": 350,
         "peakSalary": 600,
+        "typicalPeak": 340,
         "hoursWeek": 38,
         "burnout": 20,
         "satisfaction": 85,
@@ -1232,6 +1241,7 @@
         "starting_salary": 200,
         "mid_salary": 350,
         "peak_salary": 600,
+        "typical_peak": 340,
         "malpractice_per_yr": 5
       },
       "stress": {
@@ -1269,6 +1279,7 @@
         "startSalary": 220,
         "midSalary": 300,
         "peakSalary": 450,
+        "typicalPeak": 280,
         "hoursWeek": 40,
         "burnout": 30,
         "satisfaction": 78,
@@ -1325,6 +1336,7 @@
         "starting_salary": 220,
         "mid_salary": 300,
         "peak_salary": 450,
+        "typical_peak": 280,
         "malpractice_per_yr": 10
       },
       "stress": {
@@ -1362,6 +1374,7 @@
         "startSalary": 160,
         "midSalary": 220,
         "peakSalary": 400,
+        "typicalPeak": 220,
         "hoursWeek": 36,
         "burnout": 30,
         "satisfaction": 72,
@@ -1418,6 +1431,7 @@
         "starting_salary": 160,
         "mid_salary": 220,
         "peak_salary": 400,
+        "typical_peak": 220,
         "malpractice_per_yr": 5
       },
       "stress": {
@@ -1455,6 +1469,7 @@
         "startSalary": 220,
         "midSalary": 320,
         "peakSalary": 500,
+        "typicalPeak": 250,
         "hoursWeek": 48,
         "burnout": 35,
         "satisfaction": 72,
@@ -1511,6 +1526,7 @@
         "starting_salary": 220,
         "mid_salary": 320,
         "peak_salary": 500,
+        "typical_peak": 250,
         "malpractice_per_yr": 18
       },
       "stress": {
@@ -1551,6 +1567,7 @@
         "startSalary": 160,
         "midSalary": 220,
         "peakSalary": 350,
+        "typicalPeak": 190,
         "hoursWeek": 40,
         "burnout": 25,
         "satisfaction": 70,
@@ -1607,6 +1624,7 @@
         "starting_salary": 160,
         "mid_salary": 220,
         "peak_salary": 350,
+        "typical_peak": 190,
         "malpractice_per_yr": 8
       },
       "stress": {
@@ -1647,6 +1665,7 @@
         "startSalary": 200,
         "midSalary": 280,
         "peakSalary": 400,
+        "typicalPeak": 215,
         "hoursWeek": 45,
         "burnout": 35,
         "satisfaction": 68,
@@ -1703,6 +1722,7 @@
         "starting_salary": 200,
         "mid_salary": 280,
         "peak_salary": 400,
+        "typical_peak": 215,
         "malpractice_per_yr": 15
       },
       "stress": {
@@ -1740,6 +1760,7 @@
         "startSalary": 380,
         "midSalary": 450,
         "peakSalary": 600,
+        "typicalPeak": 450,
         "hoursWeek": 60,
         "burnout": 52,
         "satisfaction": 70,
@@ -1796,6 +1817,7 @@
         "starting_salary": 380,
         "mid_salary": 450,
         "peak_salary": 600,
+        "typical_peak": 450,
         "malpractice_per_yr": 50
       },
       "stress": {
@@ -1836,6 +1858,7 @@
         "startSalary": 500,
         "midSalary": 620,
         "peakSalary": 900,
+        "typicalPeak": 600,
         "hoursWeek": 55,
         "burnout": 42,
         "satisfaction": 78,
@@ -1892,6 +1915,7 @@
         "starting_salary": 500,
         "mid_salary": 620,
         "peak_salary": 900,
+        "typical_peak": 600,
         "malpractice_per_yr": 45
       },
       "stress": {
@@ -1932,6 +1956,7 @@
         "startSalary": 600,
         "midSalary": 780,
         "peakSalary": 1200,
+        "typicalPeak": 750,
         "hoursWeek": 65,
         "burnout": 57,
         "satisfaction": 75,
@@ -1988,6 +2013,7 @@
         "starting_salary": 600,
         "mid_salary": 780,
         "peak_salary": 1200,
+        "typical_peak": 750,
         "malpractice_per_yr": 80
       },
       "stress": {
@@ -2028,6 +2054,7 @@
         "startSalary": 500,
         "midSalary": 650,
         "peakSalary": 900,
+        "typicalPeak": 680,
         "hoursWeek": 65,
         "burnout": 55,
         "satisfaction": 72,
@@ -2084,6 +2111,7 @@
         "starting_salary": 500,
         "mid_salary": 650,
         "peak_salary": 900,
+        "typical_peak": 680,
         "malpractice_per_yr": 90
       },
       "stress": {
@@ -2124,6 +2152,7 @@
         "startSalary": 420,
         "midSalary": 530,
         "peakSalary": 700,
+        "typicalPeak": 575,
         "hoursWeek": 58,
         "burnout": 48,
         "satisfaction": 73,
@@ -2180,6 +2209,7 @@
         "starting_salary": 420,
         "mid_salary": 530,
         "peak_salary": 700,
+        "typical_peak": 575,
         "malpractice_per_yr": 55
       },
       "stress": {
@@ -2220,6 +2250,7 @@
         "startSalary": 400,
         "midSalary": 500,
         "peakSalary": 1000,
+        "typicalPeak": 550,
         "hoursWeek": 50,
         "burnout": 35,
         "satisfaction": 82,
@@ -2276,6 +2307,7 @@
         "starting_salary": 400,
         "mid_salary": 500,
         "peak_salary": 1000,
+        "typical_peak": 550,
         "malpractice_per_yr": 40
       },
       "stress": {
@@ -2316,6 +2348,7 @@
         "startSalary": 380,
         "midSalary": 430,
         "peakSalary": 550,
+        "typicalPeak": 450,
         "hoursWeek": 60,
         "burnout": 60,
         "satisfaction": 68,
@@ -2372,6 +2405,7 @@
         "starting_salary": 380,
         "mid_salary": 430,
         "peak_salary": 550,
+        "typical_peak": 450,
         "malpractice_per_yr": 60
       },
       "stress": {
@@ -2412,6 +2446,7 @@
         "startSalary": 400,
         "midSalary": 480,
         "peakSalary": 600,
+        "typicalPeak": 500,
         "hoursWeek": 65,
         "burnout": 55,
         "satisfaction": 75,
@@ -2468,6 +2503,7 @@
         "starting_salary": 400,
         "mid_salary": 480,
         "peak_salary": 600,
+        "typical_peak": 500,
         "malpractice_per_yr": 55
       },
       "stress": {
@@ -2508,6 +2544,7 @@
         "startSalary": 380,
         "midSalary": 450,
         "peakSalary": 550,
+        "typicalPeak": 550,
         "hoursWeek": 58,
         "burnout": 45,
         "satisfaction": 80,
@@ -2564,6 +2601,7 @@
         "starting_salary": 380,
         "mid_salary": 450,
         "peak_salary": 550,
+        "typical_peak": 550,
         "malpractice_per_yr": 45
       },
       "stress": {
@@ -2604,6 +2642,7 @@
         "startSalary": 380,
         "midSalary": 440,
         "peakSalary": 550,
+        "typicalPeak": 475,
         "hoursWeek": 52,
         "burnout": 40,
         "satisfaction": 75,
@@ -2660,6 +2699,7 @@
         "starting_salary": 380,
         "mid_salary": 440,
         "peak_salary": 550,
+        "typical_peak": 475,
         "malpractice_per_yr": 35
       },
       "stress": {
@@ -2700,6 +2740,7 @@
         "startSalary": 450,
         "midSalary": 550,
         "peakSalary": 750,
+        "typicalPeak": 500,
         "hoursWeek": 50,
         "burnout": 35,
         "satisfaction": 80,
@@ -2756,6 +2797,7 @@
         "starting_salary": 450,
         "mid_salary": 550,
         "peak_salary": 750,
+        "typical_peak": 500,
         "malpractice_per_yr": 30
       },
       "stress": {
@@ -2796,6 +2838,7 @@
         "startSalary": 600,
         "midSalary": 750,
         "peakSalary": 1100,
+        "typicalPeak": 650,
         "hoursWeek": 55,
         "burnout": 45,
         "satisfaction": 76,
@@ -2852,6 +2895,7 @@
         "starting_salary": 600,
         "mid_salary": 750,
         "peak_salary": 1100,
+        "typical_peak": 650,
         "malpractice_per_yr": 70
       },
       "stress": {
@@ -2892,6 +2936,7 @@
         "startSalary": 450,
         "midSalary": 560,
         "peakSalary": 800,
+        "typicalPeak": 500,
         "hoursWeek": 50,
         "burnout": 32,
         "satisfaction": 85,
@@ -2948,6 +2993,7 @@
         "starting_salary": 450,
         "mid_salary": 560,
         "peak_salary": 800,
+        "typical_peak": 500,
         "malpractice_per_yr": 25
       },
       "stress": {
@@ -2988,6 +3034,7 @@
         "startSalary": 380,
         "midSalary": 450,
         "peakSalary": 600,
+        "typicalPeak": 450,
         "hoursWeek": 48,
         "burnout": 35,
         "satisfaction": 78,
@@ -3044,6 +3091,7 @@
         "starting_salary": 380,
         "mid_salary": 450,
         "peak_salary": 600,
+        "typical_peak": 450,
         "malpractice_per_yr": 30
       },
       "stress": {
@@ -3084,6 +3132,7 @@
         "startSalary": 500,
         "midSalary": 650,
         "peakSalary": 1000,
+        "typicalPeak": 700,
         "hoursWeek": 58,
         "burnout": 48,
         "satisfaction": 77,
@@ -3140,6 +3189,7 @@
         "starting_salary": 500,
         "mid_salary": 650,
         "peak_salary": 1000,
+        "typical_peak": 700,
         "malpractice_per_yr": 55
       },
       "stress": {
@@ -3180,6 +3230,7 @@
         "startSalary": 400,
         "midSalary": 520,
         "peakSalary": 700,
+        "typicalPeak": 575,
         "hoursWeek": 55,
         "burnout": 40,
         "satisfaction": 80,
@@ -3236,6 +3287,7 @@
         "starting_salary": 400,
         "mid_salary": 520,
         "peak_salary": 700,
+        "typical_peak": 575,
         "malpractice_per_yr": 40
       },
       "stress": {
@@ -3273,6 +3325,7 @@
         "startSalary": 400,
         "midSalary": 530,
         "peakSalary": 750,
+        "typicalPeak": 530,
         "hoursWeek": 50,
         "burnout": 42,
         "satisfaction": 80,
@@ -3329,6 +3382,7 @@
         "starting_salary": 400,
         "mid_salary": 530,
         "peak_salary": 750,
+        "typical_peak": 530,
         "malpractice_per_yr": 25
       },
       "stress": {
@@ -3369,6 +3423,7 @@
         "startSalary": 400,
         "midSalary": 520,
         "peakSalary": 700,
+        "typicalPeak": 520,
         "hoursWeek": 52,
         "burnout": 38,
         "satisfaction": 82,
@@ -3425,6 +3480,7 @@
         "starting_salary": 400,
         "mid_salary": 520,
         "peak_salary": 700,
+        "typical_peak": 520,
         "malpractice_per_yr": 30
       },
       "stress": {
@@ -3465,6 +3521,7 @@
         "startSalary": 310,
         "midSalary": 380,
         "peakSalary": 500,
+        "typicalPeak": 380,
         "hoursWeek": 55,
         "burnout": 52,
         "satisfaction": 68,
@@ -3521,6 +3578,7 @@
         "starting_salary": 310,
         "mid_salary": 380,
         "peak_salary": 500,
+        "typical_peak": 380,
         "malpractice_per_yr": 85
       },
       "stress": {
@@ -3561,6 +3619,7 @@
         "startSalary": 350,
         "midSalary": 450,
         "peakSalary": 800,
+        "typicalPeak": 450,
         "hoursWeek": 47,
         "burnout": 30,
         "satisfaction": 85,
@@ -3617,6 +3676,7 @@
         "starting_salary": 350,
         "mid_salary": 450,
         "peak_salary": 800,
+        "typical_peak": 450,
         "malpractice_per_yr": 15
       },
       "stress": {
@@ -3657,6 +3717,7 @@
         "startSalary": 380,
         "midSalary": 470,
         "peakSalary": 650,
+        "typicalPeak": 490,
         "hoursWeek": 50,
         "burnout": 35,
         "satisfaction": 82,
@@ -3713,6 +3774,7 @@
         "starting_salary": 380,
         "mid_salary": 470,
         "peak_salary": 650,
+        "typical_peak": 490,
         "malpractice_per_yr": 25
       },
       "stress": {
@@ -3753,6 +3815,7 @@
         "startSalary": 450,
         "midSalary": 600,
         "peakSalary": 1000,
+        "typicalPeak": 600,
         "hoursWeek": 45,
         "burnout": 22,
         "satisfaction": 90,
@@ -3809,6 +3872,7 @@
         "starting_salary": 450,
         "mid_salary": 600,
         "peak_salary": 1000,
+        "typical_peak": 600,
         "malpractice_per_yr": 8
       },
       "stress": {
@@ -3849,6 +3913,7 @@
         "startSalary": 350,
         "midSalary": 450,
         "peakSalary": 650,
+        "typicalPeak": 475,
         "hoursWeek": 45,
         "burnout": 38,
         "satisfaction": 72,
@@ -3905,6 +3970,7 @@
         "starting_salary": 350,
         "mid_salary": 450,
         "peak_salary": 650,
+        "typical_peak": 475,
         "malpractice_per_yr": 20
       },
       "stress": {
@@ -3945,6 +4011,7 @@
         "startSalary": 350,
         "midSalary": 420,
         "peakSalary": 550,
+        "typicalPeak": 410,
         "hoursWeek": 55,
         "burnout": 55,
         "satisfaction": 72,
@@ -4001,6 +4068,7 @@
         "starting_salary": 350,
         "mid_salary": 420,
         "peak_salary": 550,
+        "typical_peak": 410,
         "malpractice_per_yr": 30
       },
       "stress": {
@@ -4041,6 +4109,7 @@
         "startSalary": 380,
         "midSalary": 470,
         "peakSalary": 650,
+        "typicalPeak": 520,
         "hoursWeek": 47,
         "burnout": 38,
         "satisfaction": 78,
@@ -4097,6 +4166,7 @@
         "starting_salary": 380,
         "mid_salary": 470,
         "peak_salary": 650,
+        "typical_peak": 520,
         "malpractice_per_yr": 20
       },
       "stress": {
@@ -4137,6 +4207,7 @@
         "startSalary": 350,
         "midSalary": 450,
         "peakSalary": 700,
+        "typicalPeak": 475,
         "hoursWeek": 43,
         "burnout": 25,
         "satisfaction": 88,
@@ -4193,6 +4264,7 @@
         "starting_salary": 350,
         "mid_salary": 450,
         "peak_salary": 700,
+        "typical_peak": 475,
         "malpractice_per_yr": 8
       },
       "stress": {
@@ -4230,6 +4302,7 @@
         "startSalary": 380,
         "midSalary": 430,
         "peakSalary": 550,
+        "typicalPeak": 500,
         "hoursWeek": 50,
         "burnout": 45,
         "satisfaction": 73,
@@ -4286,6 +4359,7 @@
         "starting_salary": 380,
         "mid_salary": 430,
         "peak_salary": 550,
+        "typical_peak": 500,
         "malpractice_per_yr": 30
       },
       "stress": {
@@ -4326,6 +4400,7 @@
         "startSalary": 320,
         "midSalary": 370,
         "peakSalary": 450,
+        "typicalPeak": 390,
         "hoursWeek": 42,
         "burnout": 60,
         "satisfaction": 55,
@@ -4382,6 +4457,7 @@
         "starting_salary": 320,
         "mid_salary": 370,
         "peak_salary": 450,
+        "typical_peak": 390,
         "malpractice_per_yr": 40
       },
       "stress": {
@@ -4422,6 +4498,7 @@
         "startSalary": 270,
         "midSalary": 320,
         "peakSalary": 450,
+        "typicalPeak": 340,
         "hoursWeek": 45,
         "burnout": 48,
         "satisfaction": 75,
@@ -4478,6 +4555,7 @@
         "starting_salary": 270,
         "mid_salary": 320,
         "peak_salary": 450,
+        "typical_peak": 340,
         "malpractice_per_yr": 12
       },
       "stress": {
@@ -4518,6 +4596,7 @@
         "startSalary": 260,
         "midSalary": 320,
         "peakSalary": 385,
+        "typicalPeak": 300,
         "hoursWeek": 55,
         "burnout": 50,
         "satisfaction": 68,
@@ -4574,6 +4653,7 @@
         "starting_salary": 260,
         "mid_salary": 320,
         "peak_salary": 385,
+        "typical_peak": 300,
         "malpractice_per_yr": 12
       },
       "stress": {
@@ -4611,6 +4691,7 @@
         "startSalary": 235,
         "midSalary": 275,
         "peakSalary": 330,
+        "typicalPeak": 290,
         "hoursWeek": 47,
         "burnout": 51,
         "satisfaction": 65,
@@ -4667,6 +4748,7 @@
         "starting_salary": 235,
         "mid_salary": 275,
         "peak_salary": 330,
+        "typical_peak": 290,
         "malpractice_per_yr": 10
       },
       "stress": {
@@ -4704,6 +4786,7 @@
         "startSalary": 215,
         "midSalary": 258,
         "peakSalary": 310,
+        "typicalPeak": 270,
         "hoursWeek": 48,
         "burnout": 51,
         "satisfaction": 70,
@@ -4760,6 +4843,7 @@
         "starting_salary": 215,
         "mid_salary": 258,
         "peak_salary": 310,
+        "typical_peak": 270,
         "malpractice_per_yr": 10
       },
       "stress": {
@@ -4797,6 +4881,7 @@
         "startSalary": 380,
         "midSalary": 500,
         "peakSalary": 650,
+        "typicalPeak": 475,
         "hoursWeek": 55,
         "burnout": 47,
         "satisfaction": 82,
@@ -4853,6 +4938,7 @@
         "starting_salary": 380,
         "mid_salary": 500,
         "peak_salary": 650,
+        "typical_peak": 475,
         "malpractice_per_yr": 18
       },
       "stress": {
@@ -4890,6 +4976,7 @@
         "startSalary": 340,
         "midSalary": 450,
         "peakSalary": 580,
+        "typicalPeak": 470,
         "hoursWeek": 55,
         "burnout": 53,
         "satisfaction": 80,
@@ -4946,6 +5033,7 @@
         "starting_salary": 340,
         "mid_salary": 450,
         "peak_salary": 580,
+        "typical_peak": 470,
         "malpractice_per_yr": 15
       },
       "stress": {
@@ -4983,6 +5071,7 @@
         "startSalary": 280,
         "midSalary": 350,
         "peakSalary": 430,
+        "typicalPeak": 365,
         "hoursWeek": 53,
         "burnout": 46,
         "satisfaction": 72,
@@ -5039,6 +5128,7 @@
         "starting_salary": 280,
         "mid_salary": 350,
         "peak_salary": 430,
+        "typical_peak": 365,
         "malpractice_per_yr": 10
       },
       "stress": {
@@ -5076,6 +5166,7 @@
         "startSalary": 260,
         "midSalary": 325,
         "peakSalary": 400,
+        "typicalPeak": 310,
         "hoursWeek": 45,
         "burnout": 42,
         "satisfaction": 78,
@@ -5132,6 +5223,7 @@
         "starting_salary": 260,
         "mid_salary": 325,
         "peak_salary": 400,
+        "typical_peak": 310,
         "malpractice_per_yr": 7
       },
       "stress": {
@@ -5169,6 +5261,7 @@
         "startSalary": 230,
         "midSalary": 290,
         "peakSalary": 360,
+        "typicalPeak": 285,
         "hoursWeek": 44,
         "burnout": 44,
         "satisfaction": 75,
@@ -5225,6 +5318,7 @@
         "starting_salary": 230,
         "mid_salary": 290,
         "peak_salary": 360,
+        "typical_peak": 285,
         "malpractice_per_yr": 6
       },
       "stress": {
@@ -5262,6 +5356,7 @@
         "startSalary": 240,
         "midSalary": 300,
         "peakSalary": 380,
+        "typicalPeak": 295,
         "hoursWeek": 48,
         "burnout": 45,
         "satisfaction": 82,
@@ -5318,6 +5413,7 @@
         "starting_salary": 240,
         "mid_salary": 300,
         "peak_salary": 380,
+        "typical_peak": 295,
         "malpractice_per_yr": 7
       },
       "stress": {
@@ -5355,6 +5451,7 @@
         "startSalary": 280,
         "midSalary": 363,
         "peakSalary": 430,
+        "typicalPeak": 325,
         "hoursWeek": 42,
         "burnout": 38,
         "satisfaction": 94,
@@ -5411,6 +5508,7 @@
         "starting_salary": 280,
         "mid_salary": 363,
         "peak_salary": 430,
+        "typical_peak": 325,
         "malpractice_per_yr": 5
       },
       "stress": {
@@ -5448,6 +5546,7 @@
         "startSalary": 270,
         "midSalary": 365,
         "peakSalary": 450,
+        "typicalPeak": 370,
         "hoursWeek": 45,
         "burnout": 46,
         "satisfaction": 75,
@@ -5504,6 +5603,7 @@
         "starting_salary": 270,
         "mid_salary": 365,
         "peak_salary": 450,
+        "typical_peak": 370,
         "malpractice_per_yr": 8
       },
       "stress": {
@@ -5541,6 +5641,7 @@
         "startSalary": 380,
         "midSalary": 520,
         "peakSalary": 650,
+        "typicalPeak": 560,
         "hoursWeek": 47,
         "burnout": 45,
         "satisfaction": 78,
@@ -5597,6 +5698,7 @@
         "starting_salary": 380,
         "mid_salary": 520,
         "peak_salary": 650,
+        "typical_peak": 560,
         "malpractice_per_yr": 15
       },
       "stress": {
@@ -5634,6 +5736,7 @@
         "startSalary": 280,
         "midSalary": 373,
         "peakSalary": 450,
+        "typicalPeak": 380,
         "hoursWeek": 45,
         "burnout": 41,
         "satisfaction": 88,
@@ -5690,6 +5793,7 @@
         "starting_salary": 280,
         "mid_salary": 373,
         "peak_salary": 450,
+        "typical_peak": 380,
         "malpractice_per_yr": 7
       },
       "stress": {
@@ -5727,6 +5831,7 @@
         "startSalary": 310,
         "midSalary": 415,
         "peakSalary": 500,
+        "typicalPeak": 380,
         "hoursWeek": 45,
         "burnout": 42,
         "satisfaction": 78,
@@ -5783,6 +5888,7 @@
         "starting_salary": 310,
         "mid_salary": 415,
         "peak_salary": 500,
+        "typical_peak": 380,
         "malpractice_per_yr": 10
       },
       "stress": {
@@ -5820,6 +5926,7 @@
         "startSalary": 230,
         "midSalary": 290,
         "peakSalary": 350,
+        "typicalPeak": 290,
         "hoursWeek": 45,
         "burnout": 43,
         "satisfaction": 80,
@@ -5876,6 +5983,7 @@
         "starting_salary": 230,
         "mid_salary": 290,
         "peak_salary": 350,
+        "typical_peak": 290,
         "malpractice_per_yr": 5
       },
       "stress": {
@@ -5913,6 +6021,7 @@
         "startSalary": 215,
         "midSalary": 265,
         "peakSalary": 330,
+        "typicalPeak": 280,
         "hoursWeek": 44,
         "burnout": 43,
         "satisfaction": 73,
@@ -5969,6 +6078,7 @@
         "starting_salary": 215,
         "mid_salary": 265,
         "peak_salary": 330,
+        "typical_peak": 280,
         "malpractice_per_yr": 6
       },
       "stress": {
@@ -6006,6 +6116,7 @@
         "startSalary": 280,
         "midSalary": 360,
         "peakSalary": 435,
+        "typicalPeak": 360,
         "hoursWeek": 55,
         "burnout": 48,
         "satisfaction": 76,
@@ -6062,6 +6173,7 @@
         "starting_salary": 280,
         "mid_salary": 360,
         "peak_salary": 435,
+        "typical_peak": 360,
         "malpractice_per_yr": 20
       },
       "stress": {
@@ -6099,6 +6211,7 @@
         "startSalary": 280,
         "midSalary": 343,
         "peakSalary": 455,
+        "typicalPeak": 350,
         "hoursWeek": 50,
         "burnout": 44,
         "satisfaction": 74,
@@ -6155,6 +6268,7 @@
         "starting_salary": 280,
         "mid_salary": 343,
         "peak_salary": 455,
+        "typical_peak": 350,
         "malpractice_per_yr": 12
       },
       "stress": {
@@ -6192,6 +6306,7 @@
         "startSalary": 250,
         "midSalary": 325,
         "peakSalary": 400,
+        "typicalPeak": 310,
         "hoursWeek": 42,
         "burnout": 38,
         "satisfaction": 78,
@@ -6248,6 +6363,7 @@
         "starting_salary": 250,
         "mid_salary": 325,
         "peak_salary": 400,
+        "typical_peak": 310,
         "malpractice_per_yr": 5
       },
       "stress": {
@@ -6285,6 +6401,7 @@
         "startSalary": 220,
         "midSalary": 280,
         "peakSalary": 350,
+        "typicalPeak": 280,
         "hoursWeek": 40,
         "burnout": 38,
         "satisfaction": 87,
@@ -6341,6 +6458,7 @@
         "starting_salary": 220,
         "mid_salary": 280,
         "peak_salary": 350,
+        "typical_peak": 280,
         "malpractice_per_yr": 4
       },
       "stress": {
@@ -6378,6 +6496,7 @@
         "startSalary": 200,
         "midSalary": 275,
         "peakSalary": 350,
+        "typicalPeak": 265,
         "hoursWeek": 42,
         "burnout": 38,
         "satisfaction": 78,
@@ -6434,6 +6553,7 @@
         "starting_salary": 200,
         "mid_salary": 275,
         "peak_salary": 350,
+        "typical_peak": 265,
         "malpractice_per_yr": 5
       },
       "stress": {
@@ -6471,6 +6591,7 @@
         "startSalary": 310,
         "midSalary": 406,
         "peakSalary": 500,
+        "typicalPeak": 420,
         "hoursWeek": 55,
         "burnout": 45,
         "satisfaction": 82,
@@ -6527,6 +6648,7 @@
         "starting_salary": 310,
         "mid_salary": 406,
         "peak_salary": 500,
+        "typical_peak": 420,
         "malpractice_per_yr": 18
       },
       "stress": {
@@ -6564,6 +6686,7 @@
         "startSalary": 130,
         "midSalary": 160,
         "peakSalary": 220,
+        "typicalPeak": 165,
         "hoursWeek": 40,
         "burnout": 30,
         "satisfaction": 68,
@@ -6620,6 +6743,7 @@
         "starting_salary": 130,
         "mid_salary": 160,
         "peak_salary": 220,
+        "typical_peak": 165,
         "malpractice_per_yr": 4
       },
       "stress": {
@@ -6657,6 +6781,7 @@
         "startSalary": 120,
         "midSalary": 150,
         "peakSalary": 200,
+        "typicalPeak": 155,
         "hoursWeek": 40,
         "burnout": 28,
         "satisfaction": 65,
@@ -6713,6 +6838,7 @@
         "starting_salary": 120,
         "mid_salary": 150,
         "peak_salary": 200,
+        "typical_peak": 155,
         "malpractice_per_yr": 3
       },
       "stress": {
@@ -6750,6 +6876,7 @@
         "startSalary": 115,
         "midSalary": 140,
         "peakSalary": 200,
+        "typicalPeak": 140,
         "hoursWeek": 40,
         "burnout": 32,
         "satisfaction": 62,
@@ -6806,6 +6933,7 @@
         "starting_salary": 115,
         "mid_salary": 140,
         "peak_salary": 200,
+        "typical_peak": 140,
         "malpractice_per_yr": 3
       },
       "stress": {

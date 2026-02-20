@@ -1,5 +1,5 @@
 // RaceToMillion.jsx — Net worth line chart (age 18–65)
-// Shows how each selected career's total savings grow over a career.
+// Shows each career's typical trajectory + ceiling trajectory as a band.
 
 import { useState } from "react";
 import {
@@ -86,22 +86,50 @@ export default function RaceToMillion({ netWorthData, careers, selectorProps }) 
             width={52}
           />
           <Tooltip
-            contentStyle={{
-              fontFamily: "'DM Sans', sans-serif",
-              fontSize: 12,
-              borderRadius: 8,
-              border: "none",
-              boxShadow: "0 4px 12px rgba(0,0,0,0.12)",
+            content={({ active, payload, label }) => {
+              if (!active || !payload?.length) return null;
+              // group entries by career (typical + ceiling)
+              const grouped = {};
+              for (const entry of payload) {
+                const base = entry.dataKey.replace(/_ceiling$/, "");
+                if (!grouped[base]) grouped[base] = { color: entry.color };
+                if (entry.dataKey.endsWith("_ceiling")) {
+                  grouped[base].ceiling = entry.value;
+                } else {
+                  grouped[base].typical = entry.value;
+                  grouped[base].color = entry.color;
+                }
+              }
+              return (
+                <div
+                  style={{
+                    background: "white",
+                    padding: "8px 12px",
+                    borderRadius: 8,
+                    boxShadow: "0 4px 12px rgba(0,0,0,0.12)",
+                    fontFamily: "'DM Sans', sans-serif",
+                    fontSize: 12,
+                  }}
+                >
+                  <div style={{ fontWeight: 700, marginBottom: 4 }}>Age {label}</div>
+                  {Object.entries(grouped).map(([key, vals]) => {
+                    const career = careers.find((c) => c.key === key);
+                    return (
+                      <div key={key} style={{ color: vals.color, marginBottom: 2 }}>
+                        <strong>{career?.name || key}:</strong> {formatDollars(vals.typical)}
+                        {vals.ceiling != null && vals.ceiling !== vals.typical && (
+                          <span style={{ opacity: 0.5 }}> · ceiling {formatDollars(vals.ceiling)}</span>
+                        )}
+                      </div>
+                    );
+                  })}
+                </div>
+              );
             }}
-            formatter={(v, name) => [
-              formatDollars(v),
-              careers.find((c) => c.key === name)?.name,
-            ]}
-            labelFormatter={(l) => `Age ${l}`}
           />
           {careers.map(
             (c) =>
-              visible[c.key] && (
+              visible[c.key] && [
                 <Line
                   key={c.key}
                   type="monotone"
@@ -110,8 +138,19 @@ export default function RaceToMillion({ netWorthData, careers, selectorProps }) 
                   strokeWidth={2.5}
                   dot={{ r: 3 }}
                   name={c.key}
-                />
-              )
+                />,
+                <Line
+                  key={`${c.key}_ceiling`}
+                  type="monotone"
+                  dataKey={`${c.key}_ceiling`}
+                  stroke={c.color}
+                  strokeWidth={1.5}
+                  strokeDasharray="6 3"
+                  dot={false}
+                  opacity={0.35}
+                  name={`${c.key}_ceiling`}
+                />,
+              ]
           )}
         </LineChart>
       </ResponsiveContainer>
@@ -146,8 +185,8 @@ export default function RaceToMillion({ netWorthData, careers, selectorProps }) 
       )}
 
       <div style={styles.soWhat}>
-        💡 <strong>So What?</strong> Different paths start earning at different ages. Use
-        the career selector above to compare any careers side by side!
+        💡 <strong>So What?</strong> Solid lines show what most people earn. Dashed lines
+        show the ceiling — a wider gap means more upside but less predictability.
       </div>
     </div>
   );
