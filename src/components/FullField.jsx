@@ -17,13 +17,13 @@ import { styles } from "../styles/theme";
 
 // column definitions used by the table
 const COLUMNS = [
+  { key: "matchComp", label: "🎯 Get In", fmt: (v) => `${v}/10` },
   { key: "startSalary", label: "🚀 Start", fmt: (v) => `$${v}K` },
   { key: "typicalPeak", label: "💰 Median", fmt: (v) => `$${v}K` },
   { key: "peakSalary", label: "🏆 Ceiling", fmt: (v) => `$${v}K` },
   { key: "satisfaction", label: "😊 Happy", fmt: (v) => `${v}%` },
   { key: "hoursWeek", label: "⏰ Hrs", fmt: (v) => `${v}` },
   { key: "burnout", label: "🔥 Burn", fmt: (v) => `${v}%` },
-  { key: "matchComp", label: "🎯 Get In", fmt: (v) => `${v}/10` },
 ];
 
 export default function FullField({ allTracks, profColors, profLabels }) {
@@ -274,7 +274,7 @@ export default function FullField({ allTracks, profColors, profLabels }) {
               borderSpacing: "0 2px",
               fontFamily: "'DM Sans', sans-serif",
               fontSize: 10,
-              minWidth: 720,
+              minWidth: 760,
             }}
           >
             <thead>
