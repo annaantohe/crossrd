@@ -17,11 +17,8 @@ import { styles } from "../styles/theme";
 
 // column definitions used by the table
 const COLUMNS = [
-  { key: "typicalPeak", label: "💰 Peak Pay", fmt: (v, t) => {
-    const tp = t?.typicalPeak || v;
-    const ps = t?.peakSalary || v;
-    return tp && tp !== ps ? `$${tp}–${ps}K` : `$${ps}K`;
-  }},
+  { key: "typicalPeak", label: "💰 Median", fmt: (v) => `$${v}K` },
+  { key: "peakSalary", label: "🏆 Ceiling", fmt: (v) => `$${v}K` },
   { key: "startSalary", label: "🚀 Start Pay", fmt: (v) => `$${v}K` },
   { key: "satisfaction", label: "😊 Happy", fmt: (v) => `${v}%` },
   { key: "hoursWeek", label: "⏰ Hrs/Wk", fmt: (v) => `${v}` },
