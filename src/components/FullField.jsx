@@ -341,7 +341,7 @@ export default function FullField({ allTracks, profColors, profLabels }) {
                         left: 0,
                         background: bg,
                         zIndex: 1,
-                        whiteSpace: "nowrap",
+                        maxWidth: 180,
                         borderLeft: `3px solid ${profColors[t.profession]}`,
                       }}
                     >
