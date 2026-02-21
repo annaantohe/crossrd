@@ -19,7 +19,6 @@ import { styles } from "../styles/theme";
 const COLUMNS = [
   { key: "typicalPeak", label: "💰 Median", fmt: (v) => `$${v}K` },
   { key: "peakSalary", label: "🏆 Ceiling", fmt: (v) => `$${v}K` },
-  { key: "startSalary", label: "🚀 Start", fmt: (v) => `$${v}K` },
   { key: "satisfaction", label: "😊 Happy", fmt: (v) => `${v}%` },
   { key: "hoursWeek", label: "⏰ Hrs", fmt: (v) => `${v}` },
   { key: "burnout", label: "🔥 Burn", fmt: (v) => `${v}%` },
