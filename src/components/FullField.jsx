@@ -266,17 +266,24 @@ export default function FullField({ allTracks, profColors, profLabels }) {
         </div>
       ) : (
         /* ── table view ── */
-        <div style={{ overflowX: "auto" }}>
+        <div>
           <table
             style={{
               width: "100%",
+              tableLayout: "fixed",
               borderCollapse: "separate",
               borderSpacing: "0 2px",
               fontFamily: "'DM Sans', sans-serif",
               fontSize: 10,
-              minWidth: 880,
             }}
           >
+            <colgroup>
+              <col style={{ width: "22%" }} />
+              <col style={{ width: "7%" }} />
+              {COLUMNS.map((col) => (
+                <col key={col.key} style={{ width: `${71 / COLUMNS.length}%` }} />
+              ))}
+            </colgroup>
             <thead>
               <tr>
                 <th
@@ -285,11 +292,7 @@ export default function FullField({ allTracks, profColors, profLabels }) {
                     padding: "5px 3px",
                     fontSize: 9,
                     color: "#888",
-                    position: "sticky",
-                    left: 0,
                     background: "#fafaf8",
-                    zIndex: 2,
-                    minWidth: 100,
                   }}
                 >
                   # Career
@@ -299,7 +302,6 @@ export default function FullField({ allTracks, profColors, profLabels }) {
                     padding: "3px",
                     fontSize: 9,
                     color: "#888",
-                    minWidth: 40,
                   }}
                 >
                   Type
@@ -315,8 +317,8 @@ export default function FullField({ allTracks, profColors, profLabels }) {
                       cursor: "pointer",
                       userSelect: "none",
                       textAlign: "center",
-                      minWidth: 44,
                       whiteSpace: "nowrap",
+                      overflow: "hidden",
                     }}
                   >
                     {col.label}{" "}
@@ -337,11 +339,10 @@ export default function FullField({ allTracks, profColors, profLabels }) {
                       style={{
                         padding: "5px 3px",
                         fontWeight: 600,
-                        position: "sticky",
-                        left: 0,
                         background: bg,
-                        zIndex: 1,
-                        maxWidth: 180,
+                        overflow: "hidden",
+                        textOverflow: "ellipsis",
+                        whiteSpace: "nowrap",
                         borderLeft: `3px solid ${profColors[t.profession]}`,
                       }}
                     >
