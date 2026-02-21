@@ -17,7 +17,11 @@ import { styles } from "../styles/theme";
 
 // column definitions used by the table
 const COLUMNS = [
-  { key: "peakSalary", label: "💰 Peak Pay", fmt: (v) => `$${v}K` },
+  { key: "typicalPeak", label: "💰 Peak Pay", fmt: (v, t) => {
+    const tp = t?.typicalPeak || v;
+    const ps = t?.peakSalary || v;
+    return tp && tp !== ps ? `$${tp}–${ps}K` : `$${ps}K`;
+  }},
   { key: "startSalary", label: "🚀 Start Pay", fmt: (v) => `$${v}K` },
   { key: "satisfaction", label: "😊 Happy", fmt: (v) => `${v}%` },
   { key: "hoursWeek", label: "⏰ Hrs/Wk", fmt: (v) => `${v}` },
@@ -26,7 +30,7 @@ const COLUMNS = [
 ];
 
 export default function FullField({ allTracks, profColors, profLabels }) {
-  const [sortKey, setSortKey] = useState("peakSalary");
+  const [sortKey, setSortKey] = useState("typicalPeak");
   const [sortDir, setSortDir] = useState("desc");
   const [filterProf, setFilterProf] = useState("ALL");
   const [view, setView] = useState("table"); // "table" or "scatter"
@@ -46,9 +50,11 @@ export default function FullField({ allTracks, profColors, profLabels }) {
   const sorted = useMemo(() => {
     let data = [...allTracks];
     if (filterProf !== "ALL") data = data.filter((d) => d.profession === filterProf);
-    data.sort((a, b) =>
-      sortDir === "desc" ? b[sortKey] - a[sortKey] : a[sortKey] - b[sortKey]
-    );
+    data.sort((a, b) => {
+      const av = a[sortKey] || (sortKey === "typicalPeak" ? a.peakSalary : 0) || 0;
+      const bv = b[sortKey] || (sortKey === "typicalPeak" ? b.peakSalary : 0) || 0;
+      return sortDir === "desc" ? bv - av : av - bv;
+    });
     return data;
   }, [allTracks, sortKey, sortDir, filterProf]);
 
@@ -153,7 +159,7 @@ export default function FullField({ allTracks, profColors, profLabels }) {
               margin: "0 0 4px",
             }}
           >
-            Peak Pay vs Happiness — bigger dot = easier to get into
+            Typical Peak Pay vs Happiness — bigger dot = easier to get into
           </p>
 
           <ResponsiveContainer width="100%" height={360}>
@@ -175,12 +181,12 @@ export default function FullField({ allTracks, profColors, profLabels }) {
               />
               <YAxis
                 type="number"
-                dataKey="peakSalary"
-                name="Peak Pay"
+                dataKey="typicalPeak"
+                name="Typical Peak"
                 unit="K"
                 tick={{ fontSize: 10, fontFamily: "'DM Sans', sans-serif" }}
                 label={{
-                  value: "💰 Peak Pay ($K)",
+                  value: "💰 Typical Peak ($K)",
                   angle: -90,
                   position: "insideLeft",
                   offset: 10,
@@ -217,7 +223,10 @@ export default function FullField({ allTracks, profColors, profLabels }) {
                         {profLabels[d.profession]}
                       </div>
                       <div>
-                        Peak: <b>${d.peakSalary}K/yr</b>
+                        Typical: <b>${d.typicalPeak}K</b>
+                        {d.peakSalary > d.typicalPeak && (
+                          <span style={{ color: "#aaa" }}> · ceiling ${d.peakSalary}K</span>
+                        )}
                       </div>
                       <div>
                         Happy: <b>{d.satisfaction}%</b>
@@ -400,7 +409,7 @@ export default function FullField({ allTracks, profColors, profLabels }) {
                               : "#555",
                           }}
                         >
-                          {col.fmt(val)}
+                          {col.fmt(val, t)}
                         </td>
                       );
                     })}
