@@ -5,7 +5,7 @@
     "headline": "Which Legal Career Should You Choose?",
     "subtitle": "A Data-Driven Guide",
     "icon": "\u2696\ufe0f",
-    "last_updated": "2026-02-19",
+    "last_updated": "2026-02-21",
     "total_tracks": 61,
     "data_points": 107,
     "source_file": "yaml"
@@ -787,14 +787,16 @@
         "chooseAgain": 50,
         "malpracticeCost": 8,
         "vacation": 3,
-        "matchComp": 2,
+        "matchComp": 5,
+        "annualSpots": 2200,
+        "oneInX": 18,
         "callSchedule": 2,
         "physicalToll": 3,
         "emotionalToll": 6
       },
       "scores": {
         "category_1": 4.75,
-        "category_2": 3.67,
+        "category_2": 4.67,
         "category_3": 4.33,
         "category_4": 5.67,
         "category_5": 6.14,
@@ -809,12 +811,12 @@
         "category_14": 5.69
       },
       "scenario_totals": {
-        "default": 5.25,
-        "equal_weight": 5.01,
-        "max_earnings": 5.64,
-        "best_lifestyle": 4.69,
-        "fastest_to_practice": 4.98,
-        "most_procedural": 5.01
+        "default": 5.32,
+        "equal_weight": 5.08,
+        "max_earnings": 5.67,
+        "best_lifestyle": 4.74,
+        "fastest_to_practice": 5.1,
+        "most_procedural": 5.06
       },
       "financial": {
         "undergrad_cost_per_yr": 35,
@@ -844,7 +846,7 @@
         "ai": 5,
         "pay": 4,
         "injury": 6,
-        "match": 5
+        "match": 4
       },
       "timeline": {
         "college": [
@@ -879,14 +881,16 @@
         "chooseAgain": 48,
         "malpracticeCost": 10,
         "vacation": 3,
-        "matchComp": 2,
+        "matchComp": 4,
+        "annualSpots": 1400,
+        "oneInX": 28,
         "callSchedule": 2,
         "physicalToll": 3,
         "emotionalToll": 6
       },
       "scores": {
         "category_1": 4.75,
-        "category_2": 3.67,
+        "category_2": 4.33,
         "category_3": 4.33,
         "category_4": 5.67,
         "category_5": 6.07,
@@ -901,12 +905,12 @@
         "category_14": 5.74
       },
       "scenario_totals": {
-        "default": 5.21,
-        "equal_weight": 4.99,
-        "max_earnings": 5.57,
-        "best_lifestyle": 4.68,
-        "fastest_to_practice": 4.95,
-        "most_procedural": 4.98
+        "default": 5.26,
+        "equal_weight": 5.04,
+        "max_earnings": 5.59,
+        "best_lifestyle": 4.72,
+        "fastest_to_practice": 5.03,
+        "most_procedural": 5.01
       },
       "financial": {
         "undergrad_cost_per_yr": 35,
@@ -936,7 +940,7 @@
         "ai": 5,
         "pay": 3,
         "injury": 6,
-        "match": 5
+        "match": 4
       },
       "timeline": {
         "college": [
@@ -971,14 +975,16 @@
         "chooseAgain": 52,
         "malpracticeCost": 8,
         "vacation": 2,
-        "matchComp": 1,
+        "matchComp": 3,
+        "annualSpots": 800,
+        "oneInX": 49,
         "callSchedule": 2,
         "physicalToll": 3,
         "emotionalToll": 7
       },
       "scores": {
         "category_1": 4.75,
-        "category_2": 3.33,
+        "category_2": 4.0,
         "category_3": 4.33,
         "category_4": 5.67,
         "category_5": 6.2,
@@ -993,12 +999,12 @@
         "category_14": 5.83
       },
       "scenario_totals": {
-        "default": 5.13,
-        "equal_weight": 4.93,
-        "max_earnings": 5.54,
-        "best_lifestyle": 4.52,
-        "fastest_to_practice": 4.9,
-        "most_procedural": 4.93
+        "default": 5.18,
+        "equal_weight": 4.98,
+        "max_earnings": 5.56,
+        "best_lifestyle": 4.55,
+        "fastest_to_practice": 4.98,
+        "most_procedural": 4.96
       },
       "financial": {
         "undergrad_cost_per_yr": 35,
@@ -1063,14 +1069,16 @@
         "chooseAgain": 48,
         "malpracticeCost": 8,
         "vacation": 3,
-        "matchComp": 2,
+        "matchComp": 4,
+        "annualSpots": 1200,
+        "oneInX": 32,
         "callSchedule": 3,
         "physicalToll": 2,
         "emotionalToll": 5
       },
       "scores": {
         "category_1": 4.75,
-        "category_2": 3.67,
+        "category_2": 4.33,
         "category_3": 4.33,
         "category_4": 6.0,
         "category_5": 6.04,
@@ -1085,12 +1093,12 @@
         "category_14": 5.26
       },
       "scenario_totals": {
-        "default": 5.27,
-        "equal_weight": 5.02,
-        "max_earnings": 5.59,
-        "best_lifestyle": 4.81,
-        "fastest_to_practice": 5.01,
-        "most_procedural": 5.04
+        "default": 5.31,
+        "equal_weight": 5.07,
+        "max_earnings": 5.61,
+        "best_lifestyle": 4.84,
+        "fastest_to_practice": 5.09,
+        "most_procedural": 5.08
       },
       "financial": {
         "undergrad_cost_per_yr": 35,
@@ -1120,7 +1128,7 @@
         "ai": 5,
         "pay": 4,
         "injury": 7,
-        "match": 5
+        "match": 4
       },
       "timeline": {
         "college": [
@@ -1156,6 +1164,8 @@
         "malpracticeCost": 6,
         "vacation": 4,
         "matchComp": 3,
+        "annualSpots": 700,
+        "oneInX": 56,
         "callSchedule": 4,
         "physicalToll": 2,
         "emotionalToll": 4
@@ -1248,6 +1258,8 @@
         "malpracticeCost": 7,
         "vacation": 4,
         "matchComp": 3,
+        "annualSpots": 600,
+        "oneInX": 65,
         "callSchedule": 4,
         "physicalToll": 2,
         "emotionalToll": 4
@@ -1340,6 +1352,8 @@
         "malpracticeCost": 8,
         "vacation": 3,
         "matchComp": 3,
+        "annualSpots": 700,
+        "oneInX": 56,
         "callSchedule": 3,
         "physicalToll": 2,
         "emotionalToll": 5
@@ -1431,14 +1445,16 @@
         "chooseAgain": 52,
         "malpracticeCost": 10,
         "vacation": 3,
-        "matchComp": 2,
+        "matchComp": 6,
+        "annualSpots": 2800,
+        "oneInX": 14,
         "callSchedule": 3,
         "physicalToll": 2,
         "emotionalToll": 6
       },
       "scores": {
         "category_1": 4.75,
-        "category_2": 3.67,
+        "category_2": 5.0,
         "category_3": 4.33,
         "category_4": 6.0,
         "category_5": 6.07,
@@ -1453,12 +1469,12 @@
         "category_14": 5.31
       },
       "scenario_totals": {
-        "default": 5.46,
-        "equal_weight": 5.2,
-        "max_earnings": 5.73,
-        "best_lifestyle": 5.02,
-        "fastest_to_practice": 5.11,
-        "most_procedural": 5.45
+        "default": 5.55,
+        "equal_weight": 5.3,
+        "max_earnings": 5.77,
+        "best_lifestyle": 5.09,
+        "fastest_to_practice": 5.27,
+        "most_procedural": 5.51
       },
       "financial": {
         "undergrad_cost_per_yr": 35,
@@ -1488,7 +1504,7 @@
         "ai": 6,
         "pay": 5,
         "injury": 4,
-        "match": 5
+        "match": 4
       },
       "timeline": {
         "college": [
@@ -1523,14 +1539,16 @@
         "chooseAgain": 62,
         "malpracticeCost": 10,
         "vacation": 3,
-        "matchComp": 2,
+        "matchComp": 4,
+        "annualSpots": 900,
+        "oneInX": 43,
         "callSchedule": 3,
         "physicalToll": 2,
         "emotionalToll": 6
       },
       "scores": {
         "category_1": 4.75,
-        "category_2": 3.67,
+        "category_2": 4.33,
         "category_3": 4.33,
         "category_4": 6.0,
         "category_5": 6.14,
@@ -1545,12 +1563,12 @@
         "category_14": 4.89
       },
       "scenario_totals": {
-        "default": 5.72,
-        "equal_weight": 5.38,
-        "max_earnings": 6.05,
-        "best_lifestyle": 5.33,
-        "fastest_to_practice": 5.25,
-        "most_procedural": 5.69
+        "default": 5.76,
+        "equal_weight": 5.42,
+        "max_earnings": 6.07,
+        "best_lifestyle": 5.36,
+        "fastest_to_practice": 5.33,
+        "most_procedural": 5.72
       },
       "financial": {
         "undergrad_cost_per_yr": 35,
@@ -1580,7 +1598,7 @@
         "ai": 6,
         "pay": 6,
         "injury": 4,
-        "match": 5
+        "match": 4
       },
       "timeline": {
         "college": [
@@ -1616,6 +1634,8 @@
         "malpracticeCost": 12,
         "vacation": 4,
         "matchComp": 3,
+        "annualSpots": 850,
+        "oneInX": 46,
         "callSchedule": 4,
         "physicalToll": 2,
         "emotionalToll": 5
@@ -1707,14 +1727,16 @@
         "chooseAgain": 52,
         "malpracticeCost": 8,
         "vacation": 4,
-        "matchComp": 4,
+        "matchComp": 3,
+        "annualSpots": 650,
+        "oneInX": 60,
         "callSchedule": 4,
         "physicalToll": 2,
         "emotionalToll": 5
       },
       "scores": {
         "category_1": 4.75,
-        "category_2": 4.33,
+        "category_2": 4.0,
         "category_3": 4.33,
         "category_4": 6.33,
         "category_5": 5.53,
@@ -1729,12 +1751,12 @@
         "category_14": 4.83
       },
       "scenario_totals": {
-        "default": 5.56,
-        "equal_weight": 5.3,
-        "max_earnings": 5.57,
-        "best_lifestyle": 5.34,
-        "fastest_to_practice": 5.22,
-        "most_procedural": 5.62
+        "default": 5.53,
+        "equal_weight": 5.27,
+        "max_earnings": 5.56,
+        "best_lifestyle": 5.32,
+        "fastest_to_practice": 5.18,
+        "most_procedural": 5.61
       },
       "financial": {
         "undergrad_cost_per_yr": 35,
@@ -1764,7 +1786,7 @@
         "ai": 6,
         "pay": 5,
         "injury": 4,
-        "match": 4
+        "match": 5
       },
       "timeline": {
         "college": [
@@ -1800,6 +1822,8 @@
         "malpracticeCost": 5,
         "vacation": 5,
         "matchComp": 2,
+        "annualSpots": 350,
+        "oneInX": 111,
         "callSchedule": 6,
         "physicalToll": 1,
         "emotionalToll": 4
@@ -1892,6 +1916,8 @@
         "malpracticeCost": 8,
         "vacation": 4,
         "matchComp": 2,
+        "annualSpots": 400,
+        "oneInX": 97,
         "callSchedule": 3,
         "physicalToll": 3,
         "emotionalToll": 5
@@ -1984,6 +2010,8 @@
         "malpracticeCost": 0,
         "vacation": 5,
         "matchComp": 5,
+        "annualSpots": 2200,
+        "oneInX": 18,
         "callSchedule": 4,
         "physicalToll": 2,
         "emotionalToll": 7
@@ -2075,14 +2103,16 @@
         "chooseAgain": 72,
         "malpracticeCost": 0,
         "vacation": 5,
-        "matchComp": 2,
+        "matchComp": 3,
+        "annualSpots": 550,
+        "oneInX": 71,
         "callSchedule": 3,
         "physicalToll": 2,
         "emotionalToll": 7
       },
       "scores": {
         "category_1": 4.75,
-        "category_2": 3.67,
+        "category_2": 4.0,
         "category_3": 4.33,
         "category_4": 6.0,
         "category_5": 4.3,
@@ -2097,12 +2127,12 @@
         "category_14": 6.14
       },
       "scenario_totals": {
-        "default": 5.64,
-        "equal_weight": 5.44,
-        "max_earnings": 5.35,
-        "best_lifestyle": 5.49,
-        "fastest_to_practice": 5.1,
-        "most_procedural": 5.94
+        "default": 5.66,
+        "equal_weight": 5.47,
+        "max_earnings": 5.36,
+        "best_lifestyle": 5.51,
+        "fastest_to_practice": 5.14,
+        "most_procedural": 5.95
       },
       "financial": {
         "undergrad_cost_per_yr": 35,
@@ -2167,14 +2197,16 @@
         "chooseAgain": 55,
         "malpracticeCost": 0,
         "vacation": 5,
-        "matchComp": 5,
+        "matchComp": 4,
+        "annualSpots": 1200,
+        "oneInX": 32,
         "callSchedule": 4,
         "physicalToll": 2,
         "emotionalToll": 9
       },
       "scores": {
         "category_1": 4.75,
-        "category_2": 4.67,
+        "category_2": 4.33,
         "category_3": 4.33,
         "category_4": 6.33,
         "category_5": 4.01,
@@ -2189,12 +2221,12 @@
         "category_14": 5.86
       },
       "scenario_totals": {
-        "default": 5.52,
-        "equal_weight": 5.38,
-        "max_earnings": 5.16,
-        "best_lifestyle": 5.32,
-        "fastest_to_practice": 5.15,
-        "most_procedural": 5.81
+        "default": 5.49,
+        "equal_weight": 5.36,
+        "max_earnings": 5.15,
+        "best_lifestyle": 5.3,
+        "fastest_to_practice": 5.11,
+        "most_procedural": 5.79
       },
       "financial": {
         "undergrad_cost_per_yr": 35,
@@ -2259,14 +2291,16 @@
         "chooseAgain": 63,
         "malpracticeCost": 5,
         "vacation": 5,
-        "matchComp": 6,
+        "matchComp": 3,
+        "annualSpots": 800,
+        "oneInX": 49,
         "callSchedule": 4,
         "physicalToll": 2,
         "emotionalToll": 7
       },
       "scores": {
         "category_1": 4.75,
-        "category_2": 5.0,
+        "category_2": 4.0,
         "category_3": 4.33,
         "category_4": 6.33,
         "category_5": 4.39,
@@ -2281,12 +2315,12 @@
         "category_14": 5.26
       },
       "scenario_totals": {
-        "default": 5.84,
-        "equal_weight": 5.59,
-        "max_earnings": 5.57,
-        "best_lifestyle": 5.72,
-        "fastest_to_practice": 5.35,
-        "most_procedural": 6.1
+        "default": 5.77,
+        "equal_weight": 5.52,
+        "max_earnings": 5.54,
+        "best_lifestyle": 5.67,
+        "fastest_to_practice": 5.23,
+        "most_procedural": 6.05
       },
       "financial": {
         "undergrad_cost_per_yr": 35,
@@ -2316,7 +2350,7 @@
         "ai": 6,
         "pay": 6,
         "injury": 4,
-        "match": 4
+        "match": 5
       },
       "timeline": {
         "college": [
@@ -2351,14 +2385,16 @@
         "chooseAgain": 63,
         "malpracticeCost": 5,
         "vacation": 5,
-        "matchComp": 4,
+        "matchComp": 3,
+        "annualSpots": 500,
+        "oneInX": 78,
         "callSchedule": 6,
         "physicalToll": 1,
         "emotionalToll": 3
       },
       "scores": {
         "category_1": 4.75,
-        "category_2": 4.33,
+        "category_2": 4.0,
         "category_3": 4.33,
         "category_4": 7.0,
         "category_5": 5.33,
@@ -2373,12 +2409,12 @@
         "category_14": 4.69
       },
       "scenario_totals": {
-        "default": 5.73,
-        "equal_weight": 5.43,
-        "max_earnings": 5.65,
-        "best_lifestyle": 5.63,
-        "fastest_to_practice": 5.38,
-        "most_procedural": 5.72
+        "default": 5.71,
+        "equal_weight": 5.41,
+        "max_earnings": 5.64,
+        "best_lifestyle": 5.62,
+        "fastest_to_practice": 5.34,
+        "most_procedural": 5.7
       },
       "financial": {
         "undergrad_cost_per_yr": 35,
@@ -2408,7 +2444,7 @@
         "ai": 6,
         "pay": 6,
         "injury": 7,
-        "match": 4
+        "match": 5
       },
       "timeline": {
         "college": [
@@ -2443,14 +2479,16 @@
         "chooseAgain": 65,
         "malpracticeCost": 5,
         "vacation": 5,
-        "matchComp": 3,
+        "matchComp": 2,
+        "annualSpots": 350,
+        "oneInX": 111,
         "callSchedule": 5,
         "physicalToll": 1,
         "emotionalToll": 3
       },
       "scores": {
         "category_1": 4.75,
-        "category_2": 4.0,
+        "category_2": 3.67,
         "category_3": 4.33,
         "category_4": 6.67,
         "category_5": 5.13,
@@ -2465,12 +2503,12 @@
         "category_14": 4.69
       },
       "scenario_totals": {
-        "default": 5.69,
-        "equal_weight": 5.38,
-        "max_earnings": 5.6,
-        "best_lifestyle": 5.6,
-        "fastest_to_practice": 5.28,
-        "most_procedural": 5.7
+        "default": 5.67,
+        "equal_weight": 5.36,
+        "max_earnings": 5.59,
+        "best_lifestyle": 5.58,
+        "fastest_to_practice": 5.24,
+        "most_procedural": 5.69
       },
       "financial": {
         "undergrad_cost_per_yr": 35,
@@ -2535,14 +2573,16 @@
         "chooseAgain": 58,
         "malpracticeCost": 8,
         "vacation": 4,
-        "matchComp": 3,
+        "matchComp": 2,
+        "annualSpots": 300,
+        "oneInX": 130,
         "callSchedule": 5,
         "physicalToll": 1,
         "emotionalToll": 5
       },
       "scores": {
         "category_1": 4.75,
-        "category_2": 4.0,
+        "category_2": 3.67,
         "category_3": 4.33,
         "category_4": 6.67,
         "category_5": 5.53,
@@ -2557,12 +2597,12 @@
         "category_14": 4.97
       },
       "scenario_totals": {
-        "default": 5.58,
-        "equal_weight": 5.32,
-        "max_earnings": 5.56,
-        "best_lifestyle": 5.38,
-        "fastest_to_practice": 5.25,
-        "most_procedural": 5.62
+        "default": 5.56,
+        "equal_weight": 5.3,
+        "max_earnings": 5.55,
+        "best_lifestyle": 5.36,
+        "fastest_to_practice": 5.21,
+        "most_procedural": 5.61
       },
       "financial": {
         "undergrad_cost_per_yr": 35,
@@ -2627,14 +2667,16 @@
         "chooseAgain": 72,
         "malpracticeCost": 2,
         "vacation": 5,
-        "matchComp": 3,
+        "matchComp": 2,
+        "annualSpots": 400,
+        "oneInX": 97,
         "callSchedule": 5,
         "physicalToll": 1,
         "emotionalToll": 7
       },
       "scores": {
         "category_1": 4.75,
-        "category_2": 4.0,
+        "category_2": 3.67,
         "category_3": 4.33,
         "category_4": 6.67,
         "category_5": 4.01,
@@ -2649,12 +2691,12 @@
         "category_14": 5.67
       },
       "scenario_totals": {
-        "default": 5.75,
-        "equal_weight": 5.52,
-        "max_earnings": 5.37,
-        "best_lifestyle": 5.67,
-        "fastest_to_practice": 5.24,
-        "most_procedural": 6.06
+        "default": 5.72,
+        "equal_weight": 5.5,
+        "max_earnings": 5.36,
+        "best_lifestyle": 5.65,
+        "fastest_to_practice": 5.2,
+        "most_procedural": 6.04
       },
       "financial": {
         "undergrad_cost_per_yr": 35,
@@ -2719,14 +2761,16 @@
         "chooseAgain": 62,
         "malpracticeCost": 1,
         "vacation": 5,
-        "matchComp": 6,
+        "matchComp": 4,
+        "annualSpots": 1000,
+        "oneInX": 39,
         "callSchedule": 5,
         "physicalToll": 1,
         "emotionalToll": 8
       },
       "scores": {
         "category_1": 4.75,
-        "category_2": 5.0,
+        "category_2": 4.33,
         "category_3": 4.33,
         "category_4": 6.67,
         "category_5": 3.96,
@@ -2741,12 +2785,12 @@
         "category_14": 5.57
       },
       "scenario_totals": {
-        "default": 5.76,
-        "equal_weight": 5.57,
-        "max_earnings": 5.35,
-        "best_lifestyle": 5.66,
-        "fastest_to_practice": 5.34,
-        "most_procedural": 6.05
+        "default": 5.72,
+        "equal_weight": 5.52,
+        "max_earnings": 5.33,
+        "best_lifestyle": 5.63,
+        "fastest_to_practice": 5.25,
+        "most_procedural": 6.02
       },
       "financial": {
         "undergrad_cost_per_yr": 35,
@@ -2811,14 +2855,16 @@
         "chooseAgain": 68,
         "malpracticeCost": 2,
         "vacation": 6,
-        "matchComp": 3,
+        "matchComp": 2,
+        "annualSpots": 300,
+        "oneInX": 130,
         "callSchedule": 6,
         "physicalToll": 1,
         "emotionalToll": 5
       },
       "scores": {
         "category_1": 4.75,
-        "category_2": 4.0,
+        "category_2": 3.67,
         "category_3": 4.33,
         "category_4": 7.0,
         "category_5": 4.0,
@@ -2833,12 +2879,12 @@
         "category_14": 5.1
       },
       "scenario_totals": {
-        "default": 5.73,
-        "equal_weight": 5.47,
-        "max_earnings": 5.36,
-        "best_lifestyle": 5.74,
-        "fastest_to_practice": 5.26,
-        "most_procedural": 5.94
+        "default": 5.71,
+        "equal_weight": 5.45,
+        "max_earnings": 5.35,
+        "best_lifestyle": 5.72,
+        "fastest_to_practice": 5.22,
+        "most_procedural": 5.92
       },
       "financial": {
         "undergrad_cost_per_yr": 35,
@@ -2903,14 +2949,16 @@
         "chooseAgain": 60,
         "malpracticeCost": 2,
         "vacation": 5,
-        "matchComp": 6,
+        "matchComp": 3,
+        "annualSpots": 500,
+        "oneInX": 78,
         "callSchedule": 4,
         "physicalToll": 2,
         "emotionalToll": 9
       },
       "scores": {
         "category_1": 4.75,
-        "category_2": 5.0,
+        "category_2": 4.0,
         "category_3": 4.33,
         "category_4": 6.33,
         "category_5": 3.97,
@@ -2925,12 +2973,12 @@
         "category_14": 5.67
       },
       "scenario_totals": {
-        "default": 5.6,
-        "equal_weight": 5.42,
-        "max_earnings": 5.22,
-        "best_lifestyle": 5.47,
-        "fastest_to_practice": 5.21,
-        "most_procedural": 5.88
+        "default": 5.53,
+        "equal_weight": 5.35,
+        "max_earnings": 5.19,
+        "best_lifestyle": 5.42,
+        "fastest_to_practice": 5.09,
+        "most_procedural": 5.83
       },
       "financial": {
         "undergrad_cost_per_yr": 35,
@@ -2960,7 +3008,7 @@
         "ai": 6,
         "pay": 5,
         "injury": 5,
-        "match": 4
+        "match": 5
       },
       "timeline": {
         "college": [
@@ -2995,14 +3043,16 @@
         "chooseAgain": 62,
         "malpracticeCost": 1,
         "vacation": 5,
-        "matchComp": 3,
+        "matchComp": 2,
+        "annualSpots": 400,
+        "oneInX": 97,
         "callSchedule": 5,
         "physicalToll": 1,
         "emotionalToll": 4
       },
       "scores": {
         "category_1": 4.75,
-        "category_2": 4.0,
+        "category_2": 3.67,
         "category_3": 4.33,
         "category_4": 6.67,
         "category_5": 4.14,
@@ -3017,12 +3067,12 @@
         "category_14": 5.14
       },
       "scenario_totals": {
-        "default": 5.5,
-        "equal_weight": 5.27,
-        "max_earnings": 5.23,
-        "best_lifestyle": 5.39,
-        "fastest_to_practice": 5.12,
-        "most_procedural": 5.61
+        "default": 5.48,
+        "equal_weight": 5.25,
+        "max_earnings": 5.22,
+        "best_lifestyle": 5.37,
+        "fastest_to_practice": 5.08,
+        "most_procedural": 5.6
       },
       "financial": {
         "undergrad_cost_per_yr": 35,
@@ -3087,14 +3137,16 @@
         "chooseAgain": 68,
         "malpracticeCost": 0,
         "vacation": 6,
-        "matchComp": 4,
+        "matchComp": 3,
+        "annualSpots": 600,
+        "oneInX": 65,
         "callSchedule": 3,
         "physicalToll": 4,
         "emotionalToll": 6
       },
       "scores": {
         "category_1": 4.75,
-        "category_2": 4.33,
+        "category_2": 4.0,
         "category_3": 4.33,
         "category_4": 6.0,
         "category_5": 4.2,
@@ -3109,12 +3161,12 @@
         "category_14": 6.29
       },
       "scenario_totals": {
-        "default": 5.69,
-        "equal_weight": 5.49,
-        "max_earnings": 5.28,
-        "best_lifestyle": 5.58,
-        "fastest_to_practice": 5.16,
-        "most_procedural": 5.95
+        "default": 5.66,
+        "equal_weight": 5.47,
+        "max_earnings": 5.27,
+        "best_lifestyle": 5.56,
+        "fastest_to_practice": 5.12,
+        "most_procedural": 5.93
       },
       "financial": {
         "undergrad_cost_per_yr": 35,
@@ -3144,7 +3196,7 @@
         "ai": 6,
         "pay": 4,
         "injury": 4,
-        "match": 4
+        "match": 5
       },
       "timeline": {
         "college": [
@@ -3182,14 +3234,16 @@
         "chooseAgain": 52,
         "malpracticeCost": 5,
         "vacation": 5,
-        "matchComp": 7,
+        "matchComp": 4,
+        "annualSpots": 1400,
+        "oneInX": 28,
         "callSchedule": 5,
         "physicalToll": 1,
         "emotionalToll": 8
       },
       "scores": {
         "category_1": 4.75,
-        "category_2": 5.33,
+        "category_2": 4.33,
         "category_3": 4.33,
         "category_4": 6.67,
         "category_5": 4.2,
@@ -3204,12 +3258,12 @@
         "category_14": 4.97
       },
       "scenario_totals": {
-        "default": 5.75,
-        "equal_weight": 5.52,
-        "max_earnings": 5.45,
-        "best_lifestyle": 5.66,
-        "fastest_to_practice": 5.36,
-        "most_procedural": 5.94
+        "default": 5.68,
+        "equal_weight": 5.45,
+        "max_earnings": 5.42,
+        "best_lifestyle": 5.61,
+        "fastest_to_practice": 5.24,
+        "most_procedural": 5.89
       },
       "financial": {
         "undergrad_cost_per_yr": 35,
@@ -3239,7 +3293,7 @@
         "ai": 6,
         "pay": 6,
         "injury": 6,
-        "match": 3
+        "match": 4
       },
       "timeline": {
         "college": [
@@ -3274,14 +3328,16 @@
         "chooseAgain": 65,
         "malpracticeCost": 5,
         "vacation": 6,
-        "matchComp": 6,
+        "matchComp": 4,
+        "annualSpots": 900,
+        "oneInX": 43,
         "callSchedule": 7,
         "physicalToll": 1,
         "emotionalToll": 4
       },
       "scores": {
         "category_1": 4.75,
-        "category_2": 5.0,
+        "category_2": 4.33,
         "category_3": 4.33,
         "category_4": 7.33,
         "category_5": 4.29,
@@ -3296,12 +3352,12 @@
         "category_14": 4.54
       },
       "scenario_totals": {
-        "default": 5.86,
-        "equal_weight": 5.54,
-        "max_earnings": 5.59,
-        "best_lifestyle": 5.9,
-        "fastest_to_practice": 5.47,
-        "most_procedural": 5.84
+        "default": 5.82,
+        "equal_weight": 5.5,
+        "max_earnings": 5.57,
+        "best_lifestyle": 5.87,
+        "fastest_to_practice": 5.39,
+        "most_procedural": 5.81
       },
       "financial": {
         "undergrad_cost_per_yr": 35,
@@ -3366,14 +3422,16 @@
         "chooseAgain": 64,
         "malpracticeCost": 4,
         "vacation": 6,
-        "matchComp": 7,
+        "matchComp": 2,
+        "annualSpots": 400,
+        "oneInX": 97,
         "callSchedule": 6,
         "physicalToll": 1,
         "emotionalToll": 6
       },
       "scores": {
         "category_1": 4.75,
-        "category_2": 5.33,
+        "category_2": 3.67,
         "category_3": 4.33,
         "category_4": 7.0,
         "category_5": 4.11,
@@ -3388,12 +3446,12 @@
         "category_14": 5.01
       },
       "scenario_totals": {
-        "default": 5.88,
-        "equal_weight": 5.59,
-        "max_earnings": 5.54,
-        "best_lifestyle": 5.88,
-        "fastest_to_practice": 5.46,
-        "most_procedural": 5.91
+        "default": 5.76,
+        "equal_weight": 5.48,
+        "max_earnings": 5.49,
+        "best_lifestyle": 5.8,
+        "fastest_to_practice": 5.26,
+        "most_procedural": 5.83
       },
       "financial": {
         "undergrad_cost_per_yr": 35,
@@ -3423,7 +3481,7 @@
         "ai": 6,
         "pay": 6,
         "injury": 8,
-        "match": 3
+        "match": 5
       },
       "timeline": {
         "college": [
@@ -3458,14 +3516,16 @@
         "chooseAgain": 58,
         "malpracticeCost": 4,
         "vacation": 5,
-        "matchComp": 6,
+        "matchComp": 3,
+        "annualSpots": 700,
+        "oneInX": 56,
         "callSchedule": 5,
         "physicalToll": 1,
         "emotionalToll": 7
       },
       "scores": {
         "category_1": 4.75,
-        "category_2": 5.0,
+        "category_2": 4.0,
         "category_3": 4.33,
         "category_4": 6.67,
         "category_5": 4.2,
@@ -3480,12 +3540,12 @@
         "category_14": 4.87
       },
       "scenario_totals": {
-        "default": 5.64,
-        "equal_weight": 5.41,
-        "max_earnings": 5.33,
-        "best_lifestyle": 5.55,
-        "fastest_to_practice": 5.27,
-        "most_procedural": 5.85
+        "default": 5.57,
+        "equal_weight": 5.34,
+        "max_earnings": 5.3,
+        "best_lifestyle": 5.5,
+        "fastest_to_practice": 5.15,
+        "most_procedural": 5.8
       },
       "financial": {
         "undergrad_cost_per_yr": 35,
@@ -3515,7 +3575,7 @@
         "ai": 6,
         "pay": 5,
         "injury": 6,
-        "match": 4
+        "match": 5
       },
       "timeline": {
         "college": [
@@ -3550,14 +3610,16 @@
         "chooseAgain": 58,
         "malpracticeCost": 8,
         "vacation": 5,
-        "matchComp": 7,
+        "matchComp": 4,
+        "annualSpots": 1200,
+        "oneInX": 32,
         "callSchedule": 5,
         "physicalToll": 2,
         "emotionalToll": 6
       },
       "scores": {
         "category_1": 4.75,
-        "category_2": 5.33,
+        "category_2": 4.33,
         "category_3": 4.33,
         "category_4": 6.67,
         "category_5": 4.44,
@@ -3572,12 +3634,12 @@
         "category_14": 4.83
       },
       "scenario_totals": {
-        "default": 5.8,
-        "equal_weight": 5.53,
-        "max_earnings": 5.62,
-        "best_lifestyle": 5.66,
-        "fastest_to_practice": 5.4,
-        "most_procedural": 5.9
+        "default": 5.73,
+        "equal_weight": 5.46,
+        "max_earnings": 5.59,
+        "best_lifestyle": 5.61,
+        "fastest_to_practice": 5.28,
+        "most_procedural": 5.85
       },
       "financial": {
         "undergrad_cost_per_yr": 35,
@@ -3607,7 +3669,7 @@
         "ai": 6,
         "pay": 6,
         "injury": 5,
-        "match": 3
+        "match": 4
       },
       "timeline": {
         "college": [
@@ -3642,14 +3704,16 @@
         "chooseAgain": 58,
         "malpracticeCost": 12,
         "vacation": 5,
-        "matchComp": 4,
+        "matchComp": 2,
+        "annualSpots": 350,
+        "oneInX": 111,
         "callSchedule": 5,
         "physicalToll": 2,
         "emotionalToll": 7
       },
       "scores": {
         "category_1": 4.75,
-        "category_2": 4.33,
+        "category_2": 3.67,
         "category_3": 4.33,
         "category_4": 6.67,
         "category_5": 4.54,
@@ -3664,12 +3728,12 @@
         "category_14": 4.94
       },
       "scenario_totals": {
-        "default": 5.72,
-        "equal_weight": 5.45,
-        "max_earnings": 5.59,
-        "best_lifestyle": 5.57,
-        "fastest_to_practice": 5.28,
-        "most_procedural": 5.86
+        "default": 5.68,
+        "equal_weight": 5.4,
+        "max_earnings": 5.57,
+        "best_lifestyle": 5.54,
+        "fastest_to_practice": 5.2,
+        "most_procedural": 5.82
       },
       "financial": {
         "undergrad_cost_per_yr": 35,
@@ -3699,7 +3763,7 @@
         "ai": 6,
         "pay": 5,
         "injury": 5,
-        "match": 4
+        "match": 5
       },
       "timeline": {
         "college": [
@@ -3734,14 +3798,16 @@
         "chooseAgain": 50,
         "malpracticeCost": 3,
         "vacation": 6,
-        "matchComp": 8,
+        "matchComp": 2,
+        "annualSpots": 400,
+        "oneInX": 97,
         "callSchedule": 6,
         "physicalToll": 1,
         "emotionalToll": 5
       },
       "scores": {
         "category_1": 4.75,
-        "category_2": 5.67,
+        "category_2": 3.67,
         "category_3": 4.33,
         "category_4": 7.0,
         "category_5": 4.06,
@@ -3756,12 +3822,12 @@
         "category_14": 4.77
       },
       "scenario_totals": {
-        "default": 5.78,
-        "equal_weight": 5.51,
-        "max_earnings": 5.41,
-        "best_lifestyle": 5.79,
-        "fastest_to_practice": 5.41,
-        "most_procedural": 5.88
+        "default": 5.64,
+        "equal_weight": 5.37,
+        "max_earnings": 5.35,
+        "best_lifestyle": 5.69,
+        "fastest_to_practice": 5.17,
+        "most_procedural": 5.78
       },
       "financial": {
         "undergrad_cost_per_yr": 35,
@@ -3791,7 +3857,7 @@
         "ai": 6,
         "pay": 5,
         "injury": 6,
-        "match": 3
+        "match": 5
       },
       "timeline": {
         "college": [
@@ -3826,14 +3892,16 @@
         "chooseAgain": 58,
         "malpracticeCost": 8,
         "vacation": 5,
-        "matchComp": 5,
+        "matchComp": 3,
+        "annualSpots": 650,
+        "oneInX": 60,
         "callSchedule": 5,
         "physicalToll": 1,
         "emotionalToll": 4
       },
       "scores": {
         "category_1": 4.75,
-        "category_2": 4.67,
+        "category_2": 4.0,
         "category_3": 4.33,
         "category_4": 6.67,
         "category_5": 4.87,
@@ -3848,12 +3916,12 @@
         "category_14": 4.54
       },
       "scenario_totals": {
-        "default": 5.53,
-        "equal_weight": 5.26,
-        "max_earnings": 5.45,
-        "best_lifestyle": 5.38,
-        "fastest_to_practice": 5.24,
-        "most_procedural": 5.46
+        "default": 5.49,
+        "equal_weight": 5.21,
+        "max_earnings": 5.43,
+        "best_lifestyle": 5.34,
+        "fastest_to_practice": 5.16,
+        "most_procedural": 5.43
       },
       "financial": {
         "undergrad_cost_per_yr": 35,
@@ -3883,7 +3951,7 @@
         "ai": 6,
         "pay": 5,
         "injury": 8,
-        "match": 4
+        "match": 5
       },
       "timeline": {
         "college": [
@@ -3918,14 +3986,16 @@
         "chooseAgain": 55,
         "malpracticeCost": 6,
         "vacation": 5,
-        "matchComp": 5,
+        "matchComp": 2,
+        "annualSpots": 400,
+        "oneInX": 97,
         "callSchedule": 5,
         "physicalToll": 1,
         "emotionalToll": 5
       },
       "scores": {
         "category_1": 4.75,
-        "category_2": 4.67,
+        "category_2": 3.67,
         "category_3": 4.33,
         "category_4": 6.67,
         "category_5": 4.64,
@@ -3940,12 +4010,12 @@
         "category_14": 4.63
       },
       "scenario_totals": {
-        "default": 5.66,
-        "equal_weight": 5.39,
-        "max_earnings": 5.48,
-        "best_lifestyle": 5.57,
-        "fastest_to_practice": 5.28,
-        "most_procedural": 5.77
+        "default": 5.59,
+        "equal_weight": 5.32,
+        "max_earnings": 5.45,
+        "best_lifestyle": 5.52,
+        "fastest_to_practice": 5.16,
+        "most_procedural": 5.72
       },
       "financial": {
         "undergrad_cost_per_yr": 35,
@@ -3975,7 +4045,7 @@
         "ai": 6,
         "pay": 6,
         "injury": 5,
-        "match": 4
+        "match": 5
       },
       "timeline": {
         "college": [
@@ -4010,14 +4080,16 @@
         "chooseAgain": 60,
         "malpracticeCost": 5,
         "vacation": 6,
-        "matchComp": 5,
+        "matchComp": 1,
+        "annualSpots": 250,
+        "oneInX": 156,
         "callSchedule": 6,
         "physicalToll": 1,
         "emotionalToll": 4
       },
       "scores": {
         "category_1": 4.75,
-        "category_2": 4.67,
+        "category_2": 3.33,
         "category_3": 4.33,
         "category_4": 7.0,
         "category_5": 4.49,
@@ -4032,12 +4104,12 @@
         "category_14": 4.69
       },
       "scenario_totals": {
-        "default": 5.79,
-        "equal_weight": 5.49,
-        "max_earnings": 5.5,
-        "best_lifestyle": 5.78,
-        "fastest_to_practice": 5.36,
-        "most_procedural": 5.85
+        "default": 5.69,
+        "equal_weight": 5.39,
+        "max_earnings": 5.46,
+        "best_lifestyle": 5.71,
+        "fastest_to_practice": 5.2,
+        "most_procedural": 5.78
       },
       "financial": {
         "undergrad_cost_per_yr": 35,
@@ -4067,7 +4139,7 @@
         "ai": 6,
         "pay": 5,
         "injury": 7,
-        "match": 4
+        "match": 5
       },
       "timeline": {
         "college": [
@@ -4102,14 +4174,16 @@
         "chooseAgain": 55,
         "malpracticeCost": 6,
         "vacation": 5,
-        "matchComp": 5,
+        "matchComp": 2,
+        "annualSpots": 300,
+        "oneInX": 130,
         "callSchedule": 5,
         "physicalToll": 2,
         "emotionalToll": 5
       },
       "scores": {
         "category_1": 4.75,
-        "category_2": 4.67,
+        "category_2": 3.67,
         "category_3": 4.33,
         "category_4": 6.67,
         "category_5": 4.67,
@@ -4124,12 +4198,12 @@
         "category_14": 4.77
       },
       "scenario_totals": {
-        "default": 5.57,
-        "equal_weight": 5.33,
-        "max_earnings": 5.39,
-        "best_lifestyle": 5.44,
-        "fastest_to_practice": 5.24,
-        "most_procedural": 5.64
+        "default": 5.5,
+        "equal_weight": 5.26,
+        "max_earnings": 5.36,
+        "best_lifestyle": 5.39,
+        "fastest_to_practice": 5.12,
+        "most_procedural": 5.59
       },
       "financial": {
         "undergrad_cost_per_yr": 35,
@@ -4159,7 +4233,7 @@
         "ai": 6,
         "pay": 5,
         "injury": 5,
-        "match": 4
+        "match": 5
       },
       "timeline": {
         "college": [
@@ -4194,14 +4268,16 @@
         "chooseAgain": 58,
         "malpracticeCost": 5,
         "vacation": 5,
-        "matchComp": 4,
+        "matchComp": 3,
+        "annualSpots": 500,
+        "oneInX": 78,
         "callSchedule": 5,
         "physicalToll": 1,
         "emotionalToll": 4
       },
       "scores": {
         "category_1": 4.75,
-        "category_2": 4.33,
+        "category_2": 4.0,
         "category_3": 4.33,
         "category_4": 6.67,
         "category_5": 4.99,
@@ -4216,12 +4292,12 @@
         "category_14": 4.83
       },
       "scenario_totals": {
-        "default": 5.61,
-        "equal_weight": 5.33,
-        "max_earnings": 5.5,
-        "best_lifestyle": 5.47,
-        "fastest_to_practice": 5.25,
-        "most_procedural": 5.61
+        "default": 5.58,
+        "equal_weight": 5.31,
+        "max_earnings": 5.49,
+        "best_lifestyle": 5.46,
+        "fastest_to_practice": 5.21,
+        "most_procedural": 5.6
       },
       "financial": {
         "undergrad_cost_per_yr": 35,
@@ -4251,7 +4327,7 @@
         "ai": 6,
         "pay": 5,
         "injury": 7,
-        "match": 4
+        "match": 5
       },
       "timeline": {
         "college": [
@@ -4286,14 +4362,16 @@
         "chooseAgain": 55,
         "malpracticeCost": 8,
         "vacation": 5,
-        "matchComp": 3,
+        "matchComp": 2,
+        "annualSpots": 450,
+        "oneInX": 87,
         "callSchedule": 5,
         "physicalToll": 1,
         "emotionalToll": 4
       },
       "scores": {
         "category_1": 4.75,
-        "category_2": 4.0,
+        "category_2": 3.67,
         "category_3": 4.33,
         "category_4": 6.67,
         "category_5": 5.13,
@@ -4308,12 +4386,12 @@
         "category_14": 4.69
       },
       "scenario_totals": {
-        "default": 5.5,
-        "equal_weight": 5.23,
-        "max_earnings": 5.46,
-        "best_lifestyle": 5.34,
-        "fastest_to_practice": 5.17,
-        "most_procedural": 5.5
+        "default": 5.48,
+        "equal_weight": 5.2,
+        "max_earnings": 5.45,
+        "best_lifestyle": 5.32,
+        "fastest_to_practice": 5.13,
+        "most_procedural": 5.48
       },
       "financial": {
         "undergrad_cost_per_yr": 35,
@@ -4378,14 +4456,16 @@
         "chooseAgain": 58,
         "malpracticeCost": 5,
         "vacation": 5,
-        "matchComp": 4,
+        "matchComp": 2,
+        "annualSpots": 350,
+        "oneInX": 111,
         "callSchedule": 6,
         "physicalToll": 1,
         "emotionalToll": 4
       },
       "scores": {
         "category_1": 4.75,
-        "category_2": 4.33,
+        "category_2": 3.67,
         "category_3": 4.33,
         "category_4": 7.0,
         "category_5": 4.61,
@@ -4400,12 +4480,12 @@
         "category_14": 4.83
       },
       "scenario_totals": {
-        "default": 5.67,
-        "equal_weight": 5.4,
-        "max_earnings": 5.46,
-        "best_lifestyle": 5.58,
-        "fastest_to_practice": 5.29,
-        "most_procedural": 5.74
+        "default": 5.62,
+        "equal_weight": 5.35,
+        "max_earnings": 5.44,
+        "best_lifestyle": 5.55,
+        "fastest_to_practice": 5.21,
+        "most_procedural": 5.71
       },
       "financial": {
         "undergrad_cost_per_yr": 35,
@@ -4435,7 +4515,7 @@
         "ai": 6,
         "pay": 4,
         "injury": 7,
-        "match": 4
+        "match": 5
       },
       "timeline": {
         "college": [
@@ -4471,6 +4551,8 @@
         "malpracticeCost": 5,
         "vacation": 5,
         "matchComp": 3,
+        "annualSpots": 600,
+        "oneInX": 65,
         "callSchedule": 4,
         "physicalToll": 1,
         "emotionalToll": 4
@@ -4562,14 +4644,16 @@
         "chooseAgain": 60,
         "malpracticeCost": 3,
         "vacation": 6,
-        "matchComp": 5,
+        "matchComp": 3,
+        "annualSpots": 700,
+        "oneInX": 56,
         "callSchedule": 5,
         "physicalToll": 1,
         "emotionalToll": 4
       },
       "scores": {
         "category_1": 4.75,
-        "category_2": 4.67,
+        "category_2": 4.0,
         "category_3": 4.33,
         "category_4": 6.67,
         "category_5": 4.81,
@@ -4584,12 +4668,12 @@
         "category_14": 4.91
       },
       "scenario_totals": {
-        "default": 5.66,
-        "equal_weight": 5.38,
-        "max_earnings": 5.47,
-        "best_lifestyle": 5.61,
-        "fastest_to_practice": 5.29,
-        "most_procedural": 5.66
+        "default": 5.62,
+        "equal_weight": 5.34,
+        "max_earnings": 5.45,
+        "best_lifestyle": 5.58,
+        "fastest_to_practice": 5.21,
+        "most_procedural": 5.63
       },
       "financial": {
         "undergrad_cost_per_yr": 35,
@@ -4619,7 +4703,7 @@
         "ai": 6,
         "pay": 5,
         "injury": 8,
-        "match": 4
+        "match": 5
       },
       "timeline": {
         "college": [
@@ -4654,14 +4738,16 @@
         "chooseAgain": 55,
         "malpracticeCost": 6,
         "vacation": 5,
-        "matchComp": 5,
+        "matchComp": 3,
+        "annualSpots": 600,
+        "oneInX": 65,
         "callSchedule": 5,
         "physicalToll": 1,
         "emotionalToll": 5
       },
       "scores": {
         "category_1": 4.75,
-        "category_2": 4.67,
+        "category_2": 4.0,
         "category_3": 4.33,
         "category_4": 6.67,
         "category_5": 4.99,
@@ -4676,12 +4762,12 @@
         "category_14": 4.63
       },
       "scenario_totals": {
-        "default": 5.6,
-        "equal_weight": 5.33,
-        "max_earnings": 5.52,
-        "best_lifestyle": 5.45,
-        "fastest_to_practice": 5.28,
-        "most_procedural": 5.61
+        "default": 5.56,
+        "equal_weight": 5.29,
+        "max_earnings": 5.5,
+        "best_lifestyle": 5.42,
+        "fastest_to_practice": 5.2,
+        "most_procedural": 5.58
       },
       "financial": {
         "undergrad_cost_per_yr": 35,
@@ -4711,7 +4797,7 @@
         "ai": 6,
         "pay": 6,
         "injury": 6,
-        "match": 4
+        "match": 5
       },
       "timeline": {
         "college": [
@@ -4746,14 +4832,16 @@
         "chooseAgain": 60,
         "malpracticeCost": 5,
         "vacation": 5,
-        "matchComp": 6,
+        "matchComp": 3,
+        "annualSpots": 500,
+        "oneInX": 78,
         "callSchedule": 5,
         "physicalToll": 1,
         "emotionalToll": 6
       },
       "scores": {
         "category_1": 4.75,
-        "category_2": 5.0,
+        "category_2": 4.0,
         "category_3": 4.33,
         "category_4": 6.67,
         "category_5": 4.29,
@@ -4768,12 +4856,12 @@
         "category_14": 4.83
       },
       "scenario_totals": {
-        "default": 5.73,
-        "equal_weight": 5.48,
-        "max_earnings": 5.44,
-        "best_lifestyle": 5.64,
-        "fastest_to_practice": 5.32,
-        "most_procedural": 5.93
+        "default": 5.66,
+        "equal_weight": 5.41,
+        "max_earnings": 5.41,
+        "best_lifestyle": 5.59,
+        "fastest_to_practice": 5.2,
+        "most_procedural": 5.88
       },
       "financial": {
         "undergrad_cost_per_yr": 35,
@@ -4803,7 +4891,7 @@
         "ai": 6,
         "pay": 6,
         "injury": 5,
-        "match": 4
+        "match": 5
       },
       "timeline": {
         "college": [
@@ -4838,14 +4926,16 @@
         "chooseAgain": 58,
         "malpracticeCost": 4,
         "vacation": 5,
-        "matchComp": 5,
+        "matchComp": 2,
+        "annualSpots": 300,
+        "oneInX": 130,
         "callSchedule": 5,
         "physicalToll": 1,
         "emotionalToll": 5
       },
       "scores": {
         "category_1": 4.75,
-        "category_2": 4.67,
+        "category_2": 3.67,
         "category_3": 4.33,
         "category_4": 6.67,
         "category_5": 4.37,
@@ -4860,12 +4950,12 @@
         "category_14": 5.01
       },
       "scenario_totals": {
-        "default": 5.63,
-        "equal_weight": 5.4,
-        "max_earnings": 5.34,
-        "best_lifestyle": 5.51,
-        "fastest_to_practice": 5.25,
-        "most_procedural": 5.74
+        "default": 5.56,
+        "equal_weight": 5.33,
+        "max_earnings": 5.31,
+        "best_lifestyle": 5.46,
+        "fastest_to_practice": 5.13,
+        "most_procedural": 5.69
       },
       "financial": {
         "undergrad_cost_per_yr": 35,
@@ -4895,7 +4985,7 @@
         "ai": 6,
         "pay": 5,
         "injury": 6,
-        "match": 4
+        "match": 5
       },
       "timeline": {
         "college": [
@@ -4930,14 +5020,16 @@
         "chooseAgain": 58,
         "malpracticeCost": 5,
         "vacation": 5,
-        "matchComp": 5,
+        "matchComp": 2,
+        "annualSpots": 400,
+        "oneInX": 97,
         "callSchedule": 6,
         "physicalToll": 1,
         "emotionalToll": 3
       },
       "scores": {
         "category_1": 4.75,
-        "category_2": 4.67,
+        "category_2": 3.67,
         "category_3": 4.33,
         "category_4": 7.0,
         "category_5": 4.96,
@@ -4952,12 +5044,12 @@
         "category_14": 4.69
       },
       "scenario_totals": {
-        "default": 5.68,
-        "equal_weight": 5.39,
-        "max_earnings": 5.55,
-        "best_lifestyle": 5.58,
-        "fastest_to_practice": 5.35,
-        "most_procedural": 5.62
+        "default": 5.61,
+        "equal_weight": 5.32,
+        "max_earnings": 5.52,
+        "best_lifestyle": 5.53,
+        "fastest_to_practice": 5.23,
+        "most_procedural": 5.57
       },
       "financial": {
         "undergrad_cost_per_yr": 35,
@@ -4987,7 +5079,7 @@
         "ai": 6,
         "pay": 6,
         "injury": 8,
-        "match": 4
+        "match": 5
       },
       "timeline": {
         "college": [
@@ -5022,14 +5114,16 @@
         "chooseAgain": 62,
         "malpracticeCost": 5,
         "vacation": 5,
-        "matchComp": 3,
+        "matchComp": 2,
+        "annualSpots": 400,
+        "oneInX": 97,
         "callSchedule": 4,
         "physicalToll": 1,
         "emotionalToll": 4
       },
       "scores": {
         "category_1": 4.75,
-        "category_2": 4.0,
+        "category_2": 3.67,
         "category_3": 4.33,
         "category_4": 6.33,
         "category_5": 5.64,
@@ -5044,12 +5138,12 @@
         "category_14": 4.83
       },
       "scenario_totals": {
-        "default": 5.54,
-        "equal_weight": 5.27,
-        "max_earnings": 5.58,
-        "best_lifestyle": 5.35,
-        "fastest_to_practice": 5.21,
-        "most_procedural": 5.47
+        "default": 5.52,
+        "equal_weight": 5.24,
+        "max_earnings": 5.57,
+        "best_lifestyle": 5.33,
+        "fastest_to_practice": 5.17,
+        "most_procedural": 5.45
       },
       "financial": {
         "undergrad_cost_per_yr": 35,
@@ -5114,14 +5208,16 @@
         "chooseAgain": 63,
         "malpracticeCost": 5,
         "vacation": 4,
-        "matchComp": 3,
+        "matchComp": 2,
+        "annualSpots": 300,
+        "oneInX": 130,
         "callSchedule": 3,
         "physicalToll": 1,
         "emotionalToll": 5
       },
       "scores": {
         "category_1": 4.75,
-        "category_2": 4.0,
+        "category_2": 3.67,
         "category_3": 4.33,
         "category_4": 6.0,
         "category_5": 5.44,
@@ -5136,12 +5232,12 @@
         "category_14": 4.97
       },
       "scenario_totals": {
-        "default": 5.55,
-        "equal_weight": 5.29,
-        "max_earnings": 5.6,
-        "best_lifestyle": 5.32,
-        "fastest_to_practice": 5.17,
-        "most_procedural": 5.58
+        "default": 5.53,
+        "equal_weight": 5.27,
+        "max_earnings": 5.59,
+        "best_lifestyle": 5.3,
+        "fastest_to_practice": 5.13,
+        "most_procedural": 5.56
       },
       "financial": {
         "undergrad_cost_per_yr": 35,
@@ -5206,14 +5302,16 @@
         "chooseAgain": 68,
         "malpracticeCost": 5,
         "vacation": 4,
-        "matchComp": 2,
+        "matchComp": 1,
+        "annualSpots": 200,
+        "oneInX": 195,
         "callSchedule": 4,
         "physicalToll": 1,
         "emotionalToll": 3
       },
       "scores": {
         "category_1": 4.75,
-        "category_2": 3.67,
+        "category_2": 3.33,
         "category_3": 4.33,
         "category_4": 6.33,
         "category_5": 5.81,
@@ -5228,12 +5326,12 @@
         "category_14": 4.69
       },
       "scenario_totals": {
-        "default": 5.61,
-        "equal_weight": 5.31,
-        "max_earnings": 5.72,
-        "best_lifestyle": 5.42,
-        "fastest_to_practice": 5.25,
-        "most_procedural": 5.65
+        "default": 5.59,
+        "equal_weight": 5.29,
+        "max_earnings": 5.71,
+        "best_lifestyle": 5.4,
+        "fastest_to_practice": 5.21,
+        "most_procedural": 5.63
       },
       "financial": {
         "undergrad_cost_per_yr": 35,
@@ -5298,14 +5396,16 @@
         "chooseAgain": 60,
         "malpracticeCost": 8,
         "vacation": 4,
-        "matchComp": 3,
+        "matchComp": 1,
+        "annualSpots": 200,
+        "oneInX": 195,
         "callSchedule": 4,
         "physicalToll": 1,
         "emotionalToll": 4
       },
       "scores": {
         "category_1": 4.75,
-        "category_2": 4.0,
+        "category_2": 3.33,
         "category_3": 4.33,
         "category_4": 6.33,
         "category_5": 5.64,
@@ -5320,12 +5420,12 @@
         "category_14": 4.83
       },
       "scenario_totals": {
-        "default": 5.48,
-        "equal_weight": 5.23,
-        "max_earnings": 5.51,
-        "best_lifestyle": 5.26,
-        "fastest_to_practice": 5.18,
-        "most_procedural": 5.49
+        "default": 5.43,
+        "equal_weight": 5.18,
+        "max_earnings": 5.49,
+        "best_lifestyle": 5.23,
+        "fastest_to_practice": 5.1,
+        "most_procedural": 5.46
       },
       "financial": {
         "undergrad_cost_per_yr": 35,
@@ -5390,14 +5490,16 @@
         "chooseAgain": 75,
         "malpracticeCost": 3,
         "vacation": 7,
-        "matchComp": 5,
+        "matchComp": 2,
+        "annualSpots": 300,
+        "oneInX": 130,
         "callSchedule": 7,
         "physicalToll": 1,
         "emotionalToll": 4
       },
       "scores": {
         "category_1": 4.75,
-        "category_2": 4.67,
+        "category_2": 3.67,
         "category_3": 4.33,
         "category_4": 7.33,
         "category_5": 4.4,
@@ -5412,12 +5514,12 @@
         "category_14": 5.06
       },
       "scenario_totals": {
-        "default": 6.24,
-        "equal_weight": 5.87,
-        "max_earnings": 5.87,
-        "best_lifestyle": 6.37,
-        "fastest_to_practice": 5.63,
-        "most_procedural": 6.31
+        "default": 6.17,
+        "equal_weight": 5.8,
+        "max_earnings": 5.84,
+        "best_lifestyle": 6.32,
+        "fastest_to_practice": 5.51,
+        "most_procedural": 6.26
       },
       "financial": {
         "undergrad_cost_per_yr": 35,
@@ -5447,7 +5549,7 @@
         "ai": 6,
         "pay": 7,
         "injury": 7,
-        "match": 4
+        "match": 5
       },
       "timeline": {
         "college": [
@@ -5482,14 +5584,16 @@
         "chooseAgain": 78,
         "malpracticeCost": 1,
         "vacation": 8,
-        "matchComp": 2,
+        "matchComp": 1,
+        "annualSpots": 150,
+        "oneInX": 260,
         "callSchedule": 8,
         "physicalToll": 1,
         "emotionalToll": 3
       },
       "scores": {
         "category_1": 4.75,
-        "category_2": 3.67,
+        "category_2": 3.33,
         "category_3": 4.33,
         "category_4": 7.67,
         "category_5": 4.76,
@@ -5504,12 +5608,12 @@
         "category_14": 5.71
       },
       "scenario_totals": {
-        "default": 6.05,
-        "equal_weight": 5.71,
-        "max_earnings": 5.76,
-        "best_lifestyle": 6.08,
-        "fastest_to_practice": 5.52,
-        "most_procedural": 6.04
+        "default": 6.03,
+        "equal_weight": 5.68,
+        "max_earnings": 5.75,
+        "best_lifestyle": 6.06,
+        "fastest_to_practice": 5.48,
+        "most_procedural": 6.03
       },
       "financial": {
         "undergrad_cost_per_yr": 35,
@@ -5575,6 +5679,8 @@
         "malpracticeCost": 2,
         "vacation": 4,
         "matchComp": 2,
+        "annualSpots": 350,
+        "oneInX": 111,
         "callSchedule": 3,
         "physicalToll": 3,
         "emotionalToll": 5
@@ -5666,14 +5772,16 @@
         "chooseAgain": 65,
         "malpracticeCost": 2,
         "vacation": 6,
-        "matchComp": 4,
+        "matchComp": 2,
+        "annualSpots": 300,
+        "oneInX": 130,
         "callSchedule": 6,
         "physicalToll": 1,
         "emotionalToll": 3
       },
       "scores": {
         "category_1": 4.75,
-        "category_2": 4.33,
+        "category_2": 3.67,
         "category_3": 4.33,
         "category_4": 7.0,
         "category_5": 4.93,
@@ -5688,12 +5796,12 @@
         "category_14": 5.39
       },
       "scenario_totals": {
-        "default": 5.79,
-        "equal_weight": 5.5,
-        "max_earnings": 5.64,
-        "best_lifestyle": 5.75,
-        "fastest_to_practice": 5.4,
-        "most_procedural": 5.76
+        "default": 5.74,
+        "equal_weight": 5.45,
+        "max_earnings": 5.62,
+        "best_lifestyle": 5.72,
+        "fastest_to_practice": 5.32,
+        "most_procedural": 5.72
       },
       "financial": {
         "undergrad_cost_per_yr": 35,
@@ -5723,7 +5831,7 @@
         "ai": 6,
         "pay": 6,
         "injury": 8,
-        "match": 4
+        "match": 5
       },
       "timeline": {
         "college": [
@@ -5758,14 +5866,16 @@
         "chooseAgain": 65,
         "malpracticeCost": 0,
         "vacation": 5,
-        "matchComp": 3,
+        "matchComp": 1,
+        "annualSpots": 150,
+        "oneInX": 260,
         "callSchedule": 3,
         "physicalToll": 5,
         "emotionalToll": 7
       },
       "scores": {
         "category_1": 4.75,
-        "category_2": 4.0,
+        "category_2": 3.33,
         "category_3": 4.33,
         "category_4": 6.0,
         "category_5": 4.37,
@@ -5780,12 +5890,12 @@
         "category_14": 7.0
       },
       "scenario_totals": {
-        "default": 5.6,
-        "equal_weight": 5.45,
-        "max_earnings": 5.26,
-        "best_lifestyle": 5.41,
-        "fastest_to_practice": 5.11,
-        "most_procedural": 5.82
+        "default": 5.55,
+        "equal_weight": 5.4,
+        "max_earnings": 5.24,
+        "best_lifestyle": 5.38,
+        "fastest_to_practice": 5.03,
+        "most_procedural": 5.79
       },
       "financial": {
         "undergrad_cost_per_yr": 35,
@@ -5850,14 +5960,16 @@
         "chooseAgain": 68,
         "malpracticeCost": 6,
         "vacation": 5,
-        "matchComp": 4,
+        "matchComp": 3,
+        "annualSpots": 650,
+        "oneInX": 60,
         "callSchedule": 7,
         "physicalToll": 1,
         "emotionalToll": 3
       },
       "scores": {
         "category_1": 3.5,
-        "category_2": 3.67,
+        "category_2": 3.33,
         "category_3": 4.33,
         "category_4": 7.0,
         "category_5": 5.1,
@@ -5872,12 +5984,12 @@
         "category_14": 4.34
       },
       "scenario_totals": {
-        "default": 5.64,
-        "equal_weight": 5.34,
-        "max_earnings": 5.66,
-        "best_lifestyle": 5.63,
-        "fastest_to_practice": 5.18,
-        "most_procedural": 5.51
+        "default": 5.62,
+        "equal_weight": 5.31,
+        "max_earnings": 5.65,
+        "best_lifestyle": 5.61,
+        "fastest_to_practice": 5.14,
+        "most_procedural": 5.5
       },
       "financial": {
         "undergrad_cost_per_yr": 35,
@@ -5907,7 +6019,7 @@
         "ai": 6,
         "pay": 6,
         "injury": 9,
-        "match": 6
+        "match": 7
       },
       "timeline": {
         "college": [
@@ -5942,14 +6054,16 @@
         "chooseAgain": 65,
         "malpracticeCost": 10,
         "vacation": 4,
-        "matchComp": 3,
+        "matchComp": 2,
+        "annualSpots": 350,
+        "oneInX": 111,
         "callSchedule": 3,
         "physicalToll": 2,
         "emotionalToll": 5
       },
       "scores": {
         "category_1": 3.5,
-        "category_2": 3.33,
+        "category_2": 3.0,
         "category_3": 4.33,
         "category_4": 5.67,
         "category_5": 5.43,
@@ -5964,12 +6078,12 @@
         "category_14": 4.89
       },
       "scenario_totals": {
-        "default": 5.45,
-        "equal_weight": 5.2,
-        "max_earnings": 5.56,
-        "best_lifestyle": 5.29,
-        "fastest_to_practice": 4.92,
-        "most_procedural": 5.56
+        "default": 5.43,
+        "equal_weight": 5.18,
+        "max_earnings": 5.55,
+        "best_lifestyle": 5.27,
+        "fastest_to_practice": 4.88,
+        "most_procedural": 5.54
       },
       "financial": {
         "undergrad_cost_per_yr": 35,
@@ -6034,14 +6148,16 @@
         "chooseAgain": 78,
         "malpracticeCost": 1,
         "vacation": 6,
-        "matchComp": 1,
+        "matchComp": 6,
+        "annualSpots": 3560,
+        "oneInX": 11,
         "callSchedule": 6,
         "physicalToll": 1,
         "emotionalToll": 6
       },
       "scores": {
         "category_1": 4.75,
-        "category_2": 1.67,
+        "category_2": 3.33,
         "category_3": 4.0,
         "category_4": 3.33,
         "category_5": 4.29,
@@ -6056,12 +6172,12 @@
         "category_14": 6.14
       },
       "scenario_totals": {
-        "default": 5.68,
-        "equal_weight": 5.47,
-        "max_earnings": 5.35,
-        "best_lifestyle": 5.71,
-        "fastest_to_practice": 4.61,
-        "most_procedural": 6.05
+        "default": 5.8,
+        "equal_weight": 5.58,
+        "max_earnings": 5.4,
+        "best_lifestyle": 5.8,
+        "fastest_to_practice": 4.8,
+        "most_procedural": 6.13
       },
       "financial": {
         "undergrad_cost_per_yr": 35,
@@ -6091,7 +6207,7 @@
         "ai": 6,
         "pay": 5,
         "injury": 4,
-        "match": 3
+        "match": 2
       },
       "timeline": {
         "college": [
@@ -6132,14 +6248,16 @@
         "chooseAgain": 55,
         "malpracticeCost": 1,
         "vacation": 5,
-        "matchComp": 7,
+        "matchComp": 9,
+        "annualSpots": 8100,
+        "oneInX": 2,
         "callSchedule": 5,
         "physicalToll": 1,
         "emotionalToll": 5
       },
       "scores": {
         "category_1": 7.75,
-        "category_2": 7.67,
+        "category_2": 8.33,
         "category_3": 8.0,
         "category_4": 7.67,
         "category_5": 5.74,
@@ -6154,12 +6272,12 @@
         "category_14": 5.86
       },
       "scenario_totals": {
-        "default": 6.03,
-        "equal_weight": 6.03,
-        "max_earnings": 5.4,
-        "best_lifestyle": 6.03,
-        "fastest_to_practice": 6.64,
-        "most_procedural": 5.71
+        "default": 6.08,
+        "equal_weight": 6.07,
+        "max_earnings": 5.42,
+        "best_lifestyle": 6.06,
+        "fastest_to_practice": 6.72,
+        "most_procedural": 5.74
       },
       "financial": {
         "undergrad_cost_per_yr": 25,
@@ -6224,14 +6342,16 @@
         "chooseAgain": 58,
         "malpracticeCost": 1,
         "vacation": 5,
-        "matchComp": 7,
+        "matchComp": 8,
+        "annualSpots": 5400,
+        "oneInX": 3,
         "callSchedule": 5,
         "physicalToll": 1,
         "emotionalToll": 3
       },
       "scores": {
         "category_1": 7.75,
-        "category_2": 7.67,
+        "category_2": 8.0,
         "category_3": 8.0,
         "category_4": 7.67,
         "category_5": 5.8,
@@ -6246,12 +6366,12 @@
         "category_14": 5.71
       },
       "scenario_totals": {
-        "default": 5.94,
-        "equal_weight": 5.93,
-        "max_earnings": 5.35,
-        "best_lifestyle": 5.93,
-        "fastest_to_practice": 6.6,
-        "most_procedural": 5.5
+        "default": 5.96,
+        "equal_weight": 5.95,
+        "max_earnings": 5.36,
+        "best_lifestyle": 5.95,
+        "fastest_to_practice": 6.64,
+        "most_procedural": 5.51
       },
       "financial": {
         "undergrad_cost_per_yr": 25,
@@ -6316,14 +6436,16 @@
         "chooseAgain": 60,
         "malpracticeCost": 1,
         "vacation": 5,
-        "matchComp": 6,
+        "matchComp": 8,
+        "annualSpots": 4500,
+        "oneInX": 4,
         "callSchedule": 6,
         "physicalToll": 1,
         "emotionalToll": 2
       },
       "scores": {
         "category_1": 7.75,
-        "category_2": 7.33,
+        "category_2": 8.0,
         "category_3": 8.0,
         "category_4": 8.0,
         "category_5": 5.84,
@@ -6338,12 +6460,12 @@
         "category_14": 5.43
       },
       "scenario_totals": {
-        "default": 6.05,
-        "equal_weight": 6.02,
-        "max_earnings": 5.45,
-        "best_lifestyle": 6.1,
-        "fastest_to_practice": 6.68,
-        "most_procedural": 5.64
+        "default": 6.1,
+        "equal_weight": 6.07,
+        "max_earnings": 5.47,
+        "best_lifestyle": 6.14,
+        "fastest_to_practice": 6.76,
+        "most_procedural": 5.67
       },
       "financial": {
         "undergrad_cost_per_yr": 25,
@@ -6373,7 +6495,7 @@
         "ai": 6,
         "pay": 6,
         "injury": 8,
-        "match": 8
+        "match": 7
       },
       "timeline": {
         "college": [

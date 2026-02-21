@@ -4,7 +4,7 @@ specialties:
 - name: Oral & Maxillofacial Surgery
   group: dentistry
   residencyYears: 4-6 (some include MD)
-  matchComp: 2
+  annualSpots: 242
   startSalary: 350
   midSalary: 480
   peakSalary: 750
@@ -45,7 +45,7 @@ specialties:
 - name: Endodontics
   group: dentistry
   residencyYears: 0
-  matchComp: 6
+  annualSpots: 340
   startSalary: 250
   midSalary: 350
   peakSalary: 550
@@ -85,7 +85,7 @@ specialties:
 - name: Periodontics
   group: dentistry
   residencyYears: 0
-  matchComp: 6
+  annualSpots: 310
   startSalary: 220
   midSalary: 320
   peakSalary: 500
@@ -125,7 +125,7 @@ specialties:
 - name: Prosthodontics
   group: dentistry
   residencyYears: 0
-  matchComp: 6
+  annualSpots: 195
   startSalary: 200
   midSalary: 300
   peakSalary: 450
@@ -166,7 +166,7 @@ specialties:
 - name: Orthodontics
   group: dentistry
   residencyYears: 0
-  matchComp: 2
+  annualSpots: 380
   startSalary: 200
   midSalary: 350
   peakSalary: 600
@@ -207,7 +207,7 @@ specialties:
 - name: Pediatric Dentistry
   group: dentistry
   residencyYears: 0
-  matchComp: 5
+  annualSpots: 465
   startSalary: 220
   midSalary: 300
   peakSalary: 450
@@ -248,7 +248,7 @@ specialties:
 - name: General Dentistry
   group: dentistry
   residencyYears: 0
-  matchComp: 8
+  annualSpots: 5083
   startSalary: 160
   midSalary: 220
   peakSalary: 400

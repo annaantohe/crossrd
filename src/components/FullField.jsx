@@ -17,7 +17,7 @@ import { styles } from "../styles/theme";
 
 // column definitions used by the table
 const COLUMNS = [
-  { key: "matchComp", label: "🎯 Get In", fmt: (v) => `${v}/10` },
+  { key: "oneInX", label: "🎯 Get In", fmt: (v) => v >= 999 ? "N/A" : `1:${v}` },
   { key: "startSalary", label: "🚀 Start", fmt: (v) => `$${v}K` },
   { key: "typicalPeak", label: "💰 Median", fmt: (v) => `$${v}K` },
   { key: "peakSalary", label: "🏆 Ceiling", fmt: (v) => `$${v}K` },
@@ -39,7 +39,7 @@ export default function FullField({ allTracks, profColors, profLabels }) {
     } else {
       setSortKey(key);
       // for "bad = high" columns default to ascending
-      setSortDir(key === "hoursWeek" || key === "burnout" ? "asc" : "desc");
+      setSortDir(key === "hoursWeek" || key === "burnout" || key === "oneInX" ? "asc" : "desc");
     }
   };
 
@@ -229,7 +229,7 @@ export default function FullField({ allTracks, profColors, profLabels }) {
                         Happy: <b>{d.satisfaction}%</b>
                       </div>
                       <div>
-                        Get in: <b>{d.matchComp}/10</b>
+                        Get in: <b>1 in {d.oneInX}</b>
                       </div>
                       <div>
                         Hours: <b>{d.hoursWeek}/wk</b>
@@ -385,7 +385,7 @@ export default function FullField({ allTracks, profColors, profLabels }) {
 
                       // for hours & burnout, lower is better
                       const inverted =
-                        col.key === "hoursWeek" || col.key === "burnout";
+                        col.key === "hoursWeek" || col.key === "burnout" || col.key === "oneInX";
                       const isGood = inverted
                         ? val <= min + (max - min) * 0.25
                         : val >= max - (max - min) * 0.25;

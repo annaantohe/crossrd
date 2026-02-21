@@ -5,7 +5,7 @@ specialties:
 - name: "Patent Prosecution"
   group: ip
   residencyYears: 0
-  matchComp: 4
+  annualSpots: 650
   startSalary: 200
   midSalary: 350
   peakSalary: 600
@@ -46,7 +46,7 @@ specialties:
 - name: "Patent Litigation"
   group: ip
   residencyYears: 0
-  matchComp: 3
+  annualSpots: 350
   startSalary: 225
   midSalary: 400
   peakSalary: 1000

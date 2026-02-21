@@ -8,7 +8,7 @@ const SORT_OPTIONS = [
   { key: "typicalPeak", label: "Peak Pay", dir: "desc", fallback: "peakSalary" },
   { key: "satisfaction", label: "Happiness", dir: "desc" },
   { key: "hoursWeek", label: "Hours/Wk", dir: "asc" },
-  { key: "matchComp", label: "Ease of Entry", dir: "desc" },
+  { key: "oneInX", label: "Ease of Entry", dir: "asc" },
   { key: "burnout", label: "Low Burnout", dir: "asc" },
 ];
 
@@ -192,7 +192,7 @@ export default function CareerList({
                   : `${formatDollars(t.peakSalary)} peak`}</span>
                 <span>⏰ {t.hoursWeek} hrs</span>
                 <span>😊 {t.satisfaction}%</span>
-                <span>🎯 {t.matchComp}/10 entry</span>
+                <span>🎯 1 in {t.oneInX} entry</span>
                 <span>🔥 {t.burnout}% burnout</span>
               </div>
             </div>

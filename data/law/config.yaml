@@ -67,15 +67,19 @@ professions:
   JD:
     label: Attorney
     color: "#C62828"
+    annualGraduates: 38950
   JD+Patent:
     label: Patent Attorney
     color: "#1565C0"
+    annualGraduates: 38950
   Paralegal:
     label: Paralegal
     color: "#2E7D32"
+    annualGraduates: 18000
   Judge:
     label: Judge
     color: "#6A1B9A"
+    annualGraduates: 38950
 
 key_overrides:
   "M&A Attorney":

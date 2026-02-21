@@ -5,7 +5,7 @@ specialties:
 - name: "Litigation Paralegal"
   group: alternative
   residencyYears: 0
-  matchComp: 7
+  annualSpots: 8100
   startSalary: 48
   midSalary: 65
   peakSalary: 90
@@ -46,7 +46,7 @@ specialties:
 - name: "Corporate Paralegal"
   group: alternative
   residencyYears: 0
-  matchComp: 7
+  annualSpots: 5400
   startSalary: 52
   midSalary: 72
   peakSalary: 100
@@ -87,7 +87,7 @@ specialties:
 - name: "IP Paralegal"
   group: alternative
   residencyYears: 0
-  matchComp: 6
+  annualSpots: 4500
   startSalary: 55
   midSalary: 78
   peakSalary: 110

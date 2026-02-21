@@ -68,15 +68,19 @@ professions:
   MD/DO:
     label: Medical Doctor
     color: "#E55934"
+    annualGraduates: 30400
   DDS/DMD:
     label: Dentist
     color: "#1982C4"
+    annualGraduates: 7015
   DPM:
     label: Foot Doctor
     color: "#8AC926"
+    annualGraduates: 575
   OD:
     label: "Eye Doctor (Optom.)"
     color: "#6A4C93"
+    annualGraduates: 1791
 
 # stable key/color overrides for careers referenced by the decision tree
 key_overrides:

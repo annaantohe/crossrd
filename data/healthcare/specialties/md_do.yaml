@@ -4,7 +4,7 @@ specialties:
 - name: General Surgery
   group: surgery
   residencyYears: 5
-  matchComp: 4
+  annualSpots: 1778
   startSalary: 380
   midSalary: 450
   peakSalary: 600
@@ -44,7 +44,7 @@ specialties:
 - name: Orthopedic Surgery
   group: surgery
   residencyYears: 5
-  matchComp: 2
+  annualSpots: 929
   startSalary: 500
   midSalary: 620
   peakSalary: 900
@@ -84,7 +84,7 @@ specialties:
 - name: Neurosurgery
   group: surgery
   residencyYears: 7
-  matchComp: 1
+  annualSpots: 268
   startSalary: 600
   midSalary: 780
   peakSalary: 1200
@@ -124,7 +124,7 @@ specialties:
 - name: Cardiothoracic Surgery
   group: surgery
   residencyYears: 5+2 or 6 (I6)
-  matchComp: 2
+  annualSpots: 185
   startSalary: 500
   midSalary: 650
   peakSalary: 900
@@ -164,7 +164,7 @@ specialties:
 - name: Vascular Surgery
   group: surgery
   residencyYears: 5+2 or 5 (integrated)
-  matchComp: 3
+  annualSpots: 230
   startSalary: 420
   midSalary: 530
   peakSalary: 700
@@ -204,7 +204,7 @@ specialties:
 - name: Plastic & Reconstructive Surgery
   group: surgery
   residencyYears: 6 (integrated) or 5+3
-  matchComp: 1
+  annualSpots: 221
   startSalary: 400
   midSalary: 500
   peakSalary: 1000
@@ -244,7 +244,7 @@ specialties:
 - name: Trauma / Acute Care Surgery
   group: surgery
   residencyYears: 5
-  matchComp: 4
+  annualSpots: 350
   startSalary: 380
   midSalary: 430
   peakSalary: 550
@@ -284,7 +284,7 @@ specialties:
 - name: Transplant Surgery
   group: surgery
   residencyYears: 5
-  matchComp: 3
+  annualSpots: 80
   startSalary: 400
   midSalary: 480
   peakSalary: 600
@@ -324,7 +324,7 @@ specialties:
 - name: Pediatric Surgery
   group: surgery
   residencyYears: 5
-  matchComp: 2
+  annualSpots: 45
   startSalary: 380
   midSalary: 450
   peakSalary: 550
@@ -364,7 +364,7 @@ specialties:
 - name: Colorectal Surgery
   group: surgery
   residencyYears: 5
-  matchComp: 5
+  annualSpots: 85
   startSalary: 380
   midSalary: 440
   peakSalary: 550
@@ -404,7 +404,7 @@ specialties:
 - name: Hand Surgery
   group: surgery
   residencyYears: 5
-  matchComp: 3
+  annualSpots: 150
   startSalary: 450
   midSalary: 550
   peakSalary: 750
@@ -444,7 +444,7 @@ specialties:
 - name: Spine Surgery
   group: surgery
   residencyYears: 5
-  matchComp: 3
+  annualSpots: 200
   startSalary: 600
   midSalary: 750
   peakSalary: 1100
@@ -484,7 +484,7 @@ specialties:
 - name: Sports Medicine (Surgical)
   group: procedural
   residencyYears: 5
-  matchComp: 2
+  annualSpots: 300
   startSalary: 450
   midSalary: 560
   peakSalary: 800
@@ -524,7 +524,7 @@ specialties:
 - name: Bariatric Surgery
   group: surgery
   residencyYears: 5
-  matchComp: 5
+  annualSpots: 150
   startSalary: 380
   midSalary: 450
   peakSalary: 600
@@ -564,7 +564,7 @@ specialties:
 - name: Interventional Cardiology
   group: procedural
   residencyYears: 3
-  matchComp: 2
+  annualSpots: 450
   startSalary: 500
   midSalary: 650
   peakSalary: 1000
@@ -604,7 +604,7 @@ specialties:
 - name: Interventional Radiology
   group: procedural
   residencyYears: 5 (integrated) or 5+1-2
-  matchComp: 3
+  annualSpots: 207
   startSalary: 400
   midSalary: 520
   peakSalary: 700
@@ -644,7 +644,7 @@ specialties:
 - name: Gastroenterology (Endoscopy)
   group: procedural
   residencyYears: 3
-  matchComp: 3
+  annualSpots: 759
   startSalary: 400
   midSalary: 530
   peakSalary: 750
@@ -684,7 +684,7 @@ specialties:
 - name: Urology
   group: surgery
   residencyYears: 5-6
-  matchComp: 2
+  annualSpots: 403
   startSalary: 400
   midSalary: 520
   peakSalary: 700
@@ -724,7 +724,7 @@ specialties:
 - name: OB/GYN
   group: surgery
   residencyYears: 4
-  matchComp: 4
+  annualSpots: 1604
   startSalary: 310
   midSalary: 380
   peakSalary: 500
@@ -764,7 +764,7 @@ specialties:
 - name: Ophthalmology
   group: surgery
   residencyYears: 1+3 (intern + 3yr)
-  matchComp: 1
+  annualSpots: 525
   startSalary: 350
   midSalary: 450
   peakSalary: 800
@@ -804,7 +804,7 @@ specialties:
 - name: ENT / Otolaryngology
   group: surgery
   residencyYears: 5
-  matchComp: 2
+  annualSpots: 361
   startSalary: 380
   midSalary: 470
   peakSalary: 650
@@ -845,7 +845,7 @@ specialties:
 - name: Mohs Surgery (Dermatology)
   group: derm
   residencyYears: 1+3 (intern + 3yr derm)
-  matchComp: 1
+  annualSpots: 120
   startSalary: 450
   midSalary: 600
   peakSalary: 1000
@@ -885,7 +885,7 @@ specialties:
 - name: Interventional Pain Medicine
   group: procedural
   residencyYears: 3-4 (anesthesia or PM&R)
-  matchComp: 5
+  annualSpots: 350
   startSalary: 350
   midSalary: 450
   peakSalary: 650
@@ -925,7 +925,7 @@ specialties:
 - name: Pulm / Critical Care
   group: medicine
   residencyYears: 3
-  matchComp: 5
+  annualSpots: 844
   startSalary: 350
   midSalary: 420
   peakSalary: 550
@@ -965,7 +965,7 @@ specialties:
 - name: Diagnostic Radiology
   group: diagnostic
   residencyYears: 1+4 (intern + 4yr)
-  matchComp: 4
+  annualSpots: 975
   startSalary: 380
   midSalary: 470
   peakSalary: 650
@@ -1005,7 +1005,7 @@ specialties:
 - name: Dermatology (General/Medical)
   group: derm
   residencyYears: 1+3 (intern + 3yr)
-  matchComp: 1
+  annualSpots: 554
   startSalary: 350
   midSalary: 450
   peakSalary: 700
@@ -1045,7 +1045,7 @@ specialties:
 - name: Anesthesiology
   group: emergency
   residencyYears: 1+3 (intern + 3yr CA)
-  matchComp: 5
+  annualSpots: 1805
   startSalary: 380
   midSalary: 430
   peakSalary: 550
@@ -1085,7 +1085,7 @@ specialties:
 - name: Emergency Medicine
   group: emergency
   residencyYears: 3-4
-  matchComp: 6
+  annualSpots: 3068
   startSalary: 320
   midSalary: 370
   peakSalary: 450
@@ -1125,7 +1125,7 @@ specialties:
 - name: Psychiatry
   group: mind
   residencyYears: 4
-  matchComp: 7
+  annualSpots: 2388
   startSalary: 270
   midSalary: 320
   peakSalary: 450
@@ -1166,7 +1166,7 @@ specialties:
 - name: Internal Medicine (General)
   group: primary_care
   residencyYears: 3
-  matchComp: 3
+  annualSpots: 11750
   startSalary: 260
   midSalary: 320
   peakSalary: 385
@@ -1197,7 +1197,7 @@ specialties:
 - name: Family Medicine
   group: primary_care
   residencyYears: 3
-  matchComp: 2
+  annualSpots: 5357
   startSalary: 235
   midSalary: 275
   peakSalary: 330
@@ -1228,7 +1228,7 @@ specialties:
 - name: Pediatrics (General)
   group: primary_care
   residencyYears: 3
-  matchComp: 3
+  annualSpots: 3193
   startSalary: 215
   midSalary: 258
   peakSalary: 310
@@ -1259,7 +1259,7 @@ specialties:
 - name: Cardiology (Non-interventional)
   group: medicine
   residencyYears: 6
-  matchComp: 9
+  annualSpots: 897
   startSalary: 380
   midSalary: 500
   peakSalary: 650
@@ -1290,7 +1290,7 @@ specialties:
 - name: Hematology / Oncology
   group: medicine
   residencyYears: 6
-  matchComp: 8
+  annualSpots: 809
   startSalary: 340
   midSalary: 450
   peakSalary: 580
@@ -1321,7 +1321,7 @@ specialties:
 - name: Nephrology
   group: medicine
   residencyYears: 5
-  matchComp: 4
+  annualSpots: 500
   startSalary: 280
   midSalary: 350
   peakSalary: 430
@@ -1352,7 +1352,7 @@ specialties:
 - name: Rheumatology
   group: medicine
   residencyYears: 5
-  matchComp: 7
+  annualSpots: 302
   startSalary: 260
   midSalary: 325
   peakSalary: 400
@@ -1383,7 +1383,7 @@ specialties:
 - name: Endocrinology
   group: medicine
   residencyYears: 5
-  matchComp: 6
+  annualSpots: 420
   startSalary: 230
   midSalary: 290
   peakSalary: 360
@@ -1414,7 +1414,7 @@ specialties:
 - name: Infectious Disease
   group: medicine
   residencyYears: 5
-  matchComp: 3
+  annualSpots: 450
   startSalary: 240
   midSalary: 300
   peakSalary: 380
@@ -1445,7 +1445,7 @@ specialties:
 - name: Allergy / Immunology
   group: medicine
   residencyYears: 5
-  matchComp: 7
+  annualSpots: 200
   startSalary: 280
   midSalary: 363
   peakSalary: 430
@@ -1476,7 +1476,7 @@ specialties:
 - name: Physical Medicine & Rehabilitation
   group: mind
   residencyYears: 4
-  matchComp: 4
+  annualSpots: 450
   startSalary: 270
   midSalary: 365
   peakSalary: 450
@@ -1507,7 +1507,7 @@ specialties:
 - name: Radiation Oncology
   group: procedural
   residencyYears: 5
-  matchComp: 5
+  annualSpots: 200
   startSalary: 380
   midSalary: 520
   peakSalary: 650
@@ -1538,7 +1538,7 @@ specialties:
 - name: Pathology
   group: diagnostic
   residencyYears: 4
-  matchComp: 3
+  annualSpots: 635
   startSalary: 280
   midSalary: 373
   peakSalary: 450
@@ -1569,7 +1569,7 @@ specialties:
 - name: Nuclear Medicine
   group: diagnostic
   residencyYears: 4
-  matchComp: 3
+  annualSpots: 150
   startSalary: 310
   midSalary: 415
   peakSalary: 500
@@ -1600,7 +1600,7 @@ specialties:
 - name: Hospice / Palliative Medicine
   group: medicine
   residencyYears: 4
-  matchComp: 3
+  annualSpots: 877
   startSalary: 230
   midSalary: 290
   peakSalary: 350
@@ -1631,7 +1631,7 @@ specialties:
 - name: Geriatrics
   group: primary_care
   residencyYears: 4
-  matchComp: 2
+  annualSpots: 388
   startSalary: 215
   midSalary: 265
   peakSalary: 330
@@ -1662,7 +1662,7 @@ specialties:
 - name: Neonatology
   group: medicine
   residencyYears: 6
-  matchComp: 5
+  annualSpots: 500
   startSalary: 280
   midSalary: 360
   peakSalary: 435
@@ -1693,7 +1693,7 @@ specialties:
 - name: Neurology
   group: mind
   residencyYears: 4
-  matchComp: 5
+  annualSpots: 950
   startSalary: 280
   midSalary: 343
   peakSalary: 455
@@ -1724,7 +1724,7 @@ specialties:
 - name: Sleep Medicine
   group: medicine
   residencyYears: 5
-  matchComp: 3
+  annualSpots: 250
   startSalary: 250
   midSalary: 325
   peakSalary: 400
@@ -1755,7 +1755,7 @@ specialties:
 - name: Preventive / Occupational Medicine
   group: primary_care
   residencyYears: 3
-  matchComp: 2
+  annualSpots: 300
   startSalary: 220
   midSalary: 280
   peakSalary: 350
@@ -1786,7 +1786,7 @@ specialties:
 - name: Medical Genetics
   group: medicine
   residencyYears: 4
-  matchComp: 2
+  annualSpots: 70
   startSalary: 200
   midSalary: 275
   peakSalary: 350
@@ -1817,7 +1817,7 @@ specialties:
 - name: Critical Care Medicine
   group: emergency
   residencyYears: 5
-  matchComp: 6
+  annualSpots: 500
   startSalary: 310
   midSalary: 406
   peakSalary: 500

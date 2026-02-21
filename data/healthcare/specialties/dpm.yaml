@@ -4,7 +4,7 @@ specialties:
 - name: Podiatric Surgery (Foot & Ankle)
   group: podiatry
   residencyYears: 3
-  matchComp: 7
+  annualSpots: 460
   startSalary: 220
   midSalary: 320
   peakSalary: 500
@@ -45,7 +45,7 @@ specialties:
 - name: Sports Medicine / Biomechanics
   group: podiatry
   residencyYears: 3
-  matchComp: 8
+  annualSpots: 45
   startSalary: 160
   midSalary: 220
   peakSalary: 350
@@ -86,7 +86,7 @@ specialties:
 - name: Wound Care / Diabetic Limb Salvage
   group: podiatry
   residencyYears: 3
-  matchComp: 8
+  annualSpots: 70
   startSalary: 200
   midSalary: 280
   peakSalary: 400

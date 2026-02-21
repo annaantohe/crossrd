@@ -13,6 +13,7 @@ usage:
 import argparse
 import colorsys
 import json
+import math
 import re
 import sys
 from datetime import date
@@ -51,6 +52,21 @@ def generate_colors(n, existing_colors):
     return colors
 
 
+def compute_one_in_x(annual_grads, annual_spots):
+    """Compute 'out of every X graduates, 1 lands this career'."""
+    if not annual_spots or annual_spots <= 0:
+        return 999
+    return max(1, round(annual_grads / annual_spots))
+
+
+def one_in_x_to_match_comp(one_in_x):
+    """Log-scale mapping: 1 in 1 → 10, 1 in 200+ → 1."""
+    log_max = math.log(200)
+    clamped = max(1, min(one_in_x, 200))
+    score = 10 - (math.log(clamped) / log_max) * 9
+    return max(1, min(10, round(score)))
+
+
 def build_tracks(all_specialties, all_scores, all_scenario_totals,
                  all_financial, all_stress, all_timelines, professions):
     """Build the tracks array with full data for every specialty."""
@@ -79,6 +95,8 @@ def build_tracks(all_specialties, all_scores, all_scenario_totals,
                 "malpracticeCost": spec.get("malpracticeCost", 0),
                 "vacation": spec.get("vacation", 0),
                 "matchComp": spec.get("matchComp", 0),
+                "annualSpots": spec.get("annualSpots", 0),
+                "oneInX": spec.get("oneInX", 999),
                 "callSchedule": spec.get("callSchedule", 0),
                 "physicalToll": spec.get("physicalToll", 0),
                 "emotionalToll": spec.get("emotionalToll", 0),
@@ -180,6 +198,14 @@ def process(family_slug, output_path=None):
     print("loading specialty data...")
     all_specialties = load_specialties(family_slug)
     print(f"  loaded {len(all_specialties)} specialties")
+
+    # 1.5 — compute oneInX difficulty metric from annualSpots + annualGraduates
+    print("computing oneInX difficulty metric...")
+    for spec in all_specialties:
+        grads = cfg["professions"].get(spec["profession"], {}).get("annualGraduates", 0)
+        spots = spec.get("annualSpots", 0)
+        spec["oneInX"] = compute_one_in_x(grads, spots)
+        spec["matchComp"] = one_in_x_to_match_comp(spec["oneInX"])
 
     print("loading L1 scores...")
     l1_scores = load_l1_scores(family_slug)

@@ -5,7 +5,7 @@ specialties:
 - name: "Judge Track (Clerk → Judge)"
   group: alternative
   residencyYears: 2
-  matchComp: 1
+  annualSpots: 3560
   startSalary: 75
   midSalary: 180
   peakSalary: 280

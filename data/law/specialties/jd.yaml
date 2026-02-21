@@ -7,7 +7,7 @@ specialties:
 - name: "M&A Attorney"
   group: big_law
   residencyYears: 0
-  matchComp: 2
+  annualSpots: 2200
   startSalary: 225
   midSalary: 400
   peakSalary: 2000
@@ -48,7 +48,7 @@ specialties:
 - name: "Securities & Capital Markets"
   group: big_law
   residencyYears: 0
-  matchComp: 2
+  annualSpots: 1400
   startSalary: 225
   midSalary: 380
   peakSalary: 1800
@@ -89,7 +89,7 @@ specialties:
 - name: "Private Equity / VC Law"
   group: big_law
   residencyYears: 0
-  matchComp: 1
+  annualSpots: 800
   startSalary: 225
   midSalary: 420
   peakSalary: 2500
@@ -130,7 +130,7 @@ specialties:
 - name: "Banking & Finance Law"
   group: big_law
   residencyYears: 0
-  matchComp: 2
+  annualSpots: 1200
   startSalary: 225
   midSalary: 370
   peakSalary: 1500
@@ -171,7 +171,7 @@ specialties:
 - name: "Tax Attorney (Transactional)"
   group: big_law
   residencyYears: 0
-  matchComp: 3
+  annualSpots: 700
   startSalary: 225
   midSalary: 350
   peakSalary: 1200
@@ -212,7 +212,7 @@ specialties:
 - name: "Corporate Governance"
   group: big_law
   residencyYears: 0
-  matchComp: 3
+  annualSpots: 600
   startSalary: 225
   midSalary: 350
   peakSalary: 1200
@@ -253,7 +253,7 @@ specialties:
 - name: "Restructuring / Bankruptcy"
   group: big_law
   residencyYears: 0
-  matchComp: 3
+  annualSpots: 700
   startSalary: 225
   midSalary: 380
   peakSalary: 1500
@@ -296,7 +296,7 @@ specialties:
 - name: "Commercial Litigation (Big Law)"
   group: litigation
   residencyYears: 0
-  matchComp: 2
+  annualSpots: 2800
   startSalary: 225
   midSalary: 380
   peakSalary: 1500
@@ -337,7 +337,7 @@ specialties:
 - name: "White Collar Criminal Defense"
   group: litigation
   residencyYears: 0
-  matchComp: 2
+  annualSpots: 900
   startSalary: 225
   midSalary: 400
   peakSalary: 2000
@@ -378,7 +378,7 @@ specialties:
 - name: "Class Action / Mass Tort"
   group: litigation
   residencyYears: 0
-  matchComp: 3
+  annualSpots: 850
   startSalary: 200
   midSalary: 350
   peakSalary: 1200
@@ -419,7 +419,7 @@ specialties:
 - name: "Product Liability Defense"
   group: litigation
   residencyYears: 0
-  matchComp: 4
+  annualSpots: 650
   startSalary: 180
   midSalary: 300
   peakSalary: 800
@@ -460,7 +460,7 @@ specialties:
 - name: "Appellate Litigation"
   group: litigation
   residencyYears: 0
-  matchComp: 2
+  annualSpots: 350
   startSalary: 200
   midSalary: 320
   peakSalary: 900
@@ -501,7 +501,7 @@ specialties:
 - name: "International Arbitration"
   group: litigation
   residencyYears: 0
-  matchComp: 2
+  annualSpots: 400
   startSalary: 225
   midSalary: 380
   peakSalary: 1200
@@ -544,7 +544,7 @@ specialties:
 - name: "Prosecutor (DA/ADA)"
   group: criminal
   residencyYears: 0
-  matchComp: 5
+  annualSpots: 2200
   startSalary: 65
   midSalary: 100
   peakSalary: 180
@@ -585,7 +585,7 @@ specialties:
 - name: "Federal Prosecutor (DOJ/AUSA)"
   group: criminal
   residencyYears: 0
-  matchComp: 2
+  annualSpots: 550
   startSalary: 75
   midSalary: 140
   peakSalary: 220
@@ -626,7 +626,7 @@ specialties:
 - name: "Public Defender"
   group: criminal
   residencyYears: 0
-  matchComp: 5
+  annualSpots: 1200
   startSalary: 58
   midSalary: 85
   peakSalary: 140
@@ -667,7 +667,7 @@ specialties:
 - name: "Criminal Defense (Private)"
   group: criminal
   residencyYears: 0
-  matchComp: 6
+  annualSpots: 800
   startSalary: 70
   midSalary: 180
   peakSalary: 500
@@ -710,7 +710,7 @@ specialties:
 - name: "Trademark & Brand Law"
   group: ip
   residencyYears: 0
-  matchComp: 4
+  annualSpots: 500
   startSalary: 160
   midSalary: 280
   peakSalary: 600
@@ -751,7 +751,7 @@ specialties:
 - name: "Copyright / Entertainment Law"
   group: ip
   residencyYears: 0
-  matchComp: 3
+  annualSpots: 350
   startSalary: 140
   midSalary: 260
   peakSalary: 700
@@ -792,7 +792,7 @@ specialties:
 - name: "Trade Secrets"
   group: ip
   residencyYears: 0
-  matchComp: 3
+  annualSpots: 300
   startSalary: 180
   midSalary: 300
   peakSalary: 700
@@ -835,7 +835,7 @@ specialties:
 - name: "Civil Rights / Constitutional Law"
   group: government
   residencyYears: 0
-  matchComp: 3
+  annualSpots: 400
   startSalary: 55
   midSalary: 90
   peakSalary: 160
@@ -876,7 +876,7 @@ specialties:
 - name: "Legal Aid / Poverty Law"
   group: government
   residencyYears: 0
-  matchComp: 6
+  annualSpots: 1000
   startSalary: 52
   midSalary: 75
   peakSalary: 120
@@ -917,7 +917,7 @@ specialties:
 - name: "Environmental Law (Nonprofit)"
   group: government
   residencyYears: 0
-  matchComp: 3
+  annualSpots: 300
   startSalary: 55
   midSalary: 85
   peakSalary: 150
@@ -958,7 +958,7 @@ specialties:
 - name: "Immigration Law (Gov/Nonprofit)"
   group: government
   residencyYears: 0
-  matchComp: 6
+  annualSpots: 500
   startSalary: 52
   midSalary: 78
   peakSalary: 130
@@ -999,7 +999,7 @@ specialties:
 - name: "Policy / Legislative Counsel"
   group: government
   residencyYears: 0
-  matchComp: 3
+  annualSpots: 400
   startSalary: 65
   midSalary: 110
   peakSalary: 200
@@ -1040,7 +1040,7 @@ specialties:
 - name: "Military JAG"
   group: government
   residencyYears: 0
-  matchComp: 4
+  annualSpots: 600
   startSalary: 70
   midSalary: 120
   peakSalary: 200
@@ -1083,7 +1083,7 @@ specialties:
 - name: "Family Law / Divorce"
   group: family
   residencyYears: 0
-  matchComp: 7
+  annualSpots: 1400
   startSalary: 65
   midSalary: 130
   peakSalary: 300
@@ -1124,7 +1124,7 @@ specialties:
 - name: "Estate Planning / Trusts & Wills"
   group: family
   residencyYears: 0
-  matchComp: 6
+  annualSpots: 900
   startSalary: 70
   midSalary: 150
   peakSalary: 400
@@ -1165,7 +1165,7 @@ specialties:
 - name: "Elder Law"
   group: family
   residencyYears: 0
-  matchComp: 7
+  annualSpots: 400
   startSalary: 60
   midSalary: 110
   peakSalary: 250
@@ -1206,7 +1206,7 @@ specialties:
 - name: "Immigration Law (Private)"
   group: family
   residencyYears: 0
-  matchComp: 6
+  annualSpots: 700
   startSalary: 65
   midSalary: 130
   peakSalary: 350
@@ -1247,7 +1247,7 @@ specialties:
 - name: "Personal Injury (Plaintiff)"
   group: family
   residencyYears: 0
-  matchComp: 7
+  annualSpots: 1200
   startSalary: 70
   midSalary: 200
   peakSalary: 800
@@ -1288,7 +1288,7 @@ specialties:
 - name: "Medical Malpractice (Plaintiff)"
   group: family
   residencyYears: 0
-  matchComp: 4
+  annualSpots: 350
   startSalary: 75
   midSalary: 220
   peakSalary: 900
@@ -1329,7 +1329,7 @@ specialties:
 - name: "Workers' Compensation"
   group: family
   residencyYears: 0
-  matchComp: 8
+  annualSpots: 400
   startSalary: 58
   midSalary: 100
   peakSalary: 220
@@ -1372,7 +1372,7 @@ specialties:
 - name: "Real Estate Transactional"
   group: real_estate
   residencyYears: 0
-  matchComp: 5
+  annualSpots: 650
   startSalary: 120
   midSalary: 220
   peakSalary: 600
@@ -1413,7 +1413,7 @@ specialties:
 - name: "Real Estate Litigation"
   group: real_estate
   residencyYears: 0
-  matchComp: 5
+  annualSpots: 400
   startSalary: 100
   midSalary: 190
   peakSalary: 450
@@ -1454,7 +1454,7 @@ specialties:
 - name: "Land Use / Zoning"
   group: real_estate
   residencyYears: 0
-  matchComp: 5
+  annualSpots: 250
   startSalary: 90
   midSalary: 170
   peakSalary: 400
@@ -1495,7 +1495,7 @@ specialties:
 - name: "Construction Law"
   group: real_estate
   residencyYears: 0
-  matchComp: 5
+  annualSpots: 300
   startSalary: 100
   midSalary: 200
   peakSalary: 500
@@ -1538,7 +1538,7 @@ specialties:
 - name: "Healthcare Regulatory"
   group: regulatory
   residencyYears: 0
-  matchComp: 4
+  annualSpots: 500
   startSalary: 130
   midSalary: 240
   peakSalary: 500
@@ -1579,7 +1579,7 @@ specialties:
 - name: "Financial Regulatory (SEC/FINRA)"
   group: regulatory
   residencyYears: 0
-  matchComp: 3
+  annualSpots: 450
   startSalary: 140
   midSalary: 260
   peakSalary: 600
@@ -1620,7 +1620,7 @@ specialties:
 - name: "Environmental Regulatory (EPA)"
   group: regulatory
   residencyYears: 0
-  matchComp: 4
+  annualSpots: 350
   startSalary: 100
   midSalary: 180
   peakSalary: 400
@@ -1661,7 +1661,7 @@ specialties:
 - name: "Privacy & Data Protection"
   group: regulatory
   residencyYears: 0
-  matchComp: 3
+  annualSpots: 600
   startSalary: 180
   midSalary: 320
   peakSalary: 500
@@ -1702,7 +1702,7 @@ specialties:
 - name: "In-House Compliance Officer"
   group: regulatory
   residencyYears: 0
-  matchComp: 5
+  annualSpots: 700
   startSalary: 120
   midSalary: 200
   peakSalary: 400
@@ -1745,7 +1745,7 @@ specialties:
 - name: "Employment Law (Management)"
   group: employment
   residencyYears: 0
-  matchComp: 5
+  annualSpots: 600
   startSalary: 130
   midSalary: 240
   peakSalary: 550
@@ -1786,7 +1786,7 @@ specialties:
 - name: "Employment Law (Plaintiff)"
   group: employment
   residencyYears: 0
-  matchComp: 6
+  annualSpots: 500
   startSalary: 65
   midSalary: 160
   peakSalary: 500
@@ -1827,7 +1827,7 @@ specialties:
 - name: "Labor Relations / Union Law"
   group: employment
   residencyYears: 0
-  matchComp: 5
+  annualSpots: 300
   startSalary: 80
   midSalary: 150
   peakSalary: 350
@@ -1868,7 +1868,7 @@ specialties:
 - name: "Employee Benefits / ERISA"
   group: employment
   residencyYears: 0
-  matchComp: 5
+  annualSpots: 400
   startSalary: 130
   midSalary: 230
   peakSalary: 500
@@ -1911,7 +1911,7 @@ specialties:
 - name: "Tech Transactions / SaaS Licensing"
   group: tech_law
   residencyYears: 0
-  matchComp: 3
+  annualSpots: 400
   startSalary: 190
   midSalary: 320
   peakSalary: 600
@@ -1952,7 +1952,7 @@ specialties:
 - name: "Cybersecurity Law"
   group: tech_law
   residencyYears: 0
-  matchComp: 3
+  annualSpots: 300
   startSalary: 170
   midSalary: 300
   peakSalary: 550
@@ -1993,7 +1993,7 @@ specialties:
 - name: "AI & Emerging Tech Law"
   group: tech_law
   residencyYears: 0
-  matchComp: 2
+  annualSpots: 200
   startSalary: 200
   midSalary: 350
   peakSalary: 700
@@ -2034,7 +2034,7 @@ specialties:
 - name: "FinTech / Crypto Law"
   group: tech_law
   residencyYears: 0
-  matchComp: 3
+  annualSpots: 200
   startSalary: 190
   midSalary: 320
   peakSalary: 650
@@ -2077,7 +2077,7 @@ specialties:
 - name: "Mediator / Arbitrator"
   group: alternative
   residencyYears: 0
-  matchComp: 5
+  annualSpots: 300
   startSalary: 80
   midSalary: 160
   peakSalary: 400
@@ -2118,7 +2118,7 @@ specialties:
 - name: "Law Professor / Academia"
   group: alternative
   residencyYears: 0
-  matchComp: 2
+  annualSpots: 150
   startSalary: 120
   midSalary: 180
   peakSalary: 300
@@ -2159,7 +2159,7 @@ specialties:
 - name: "Management Consulting (JD)"
   group: alternative
   residencyYears: 0
-  matchComp: 2
+  annualSpots: 350
   startSalary: 190
   midSalary: 350
   peakSalary: 800
@@ -2200,7 +2200,7 @@ specialties:
 - name: "Legal Tech / Legal Ops"
   group: alternative
   residencyYears: 0
-  matchComp: 4
+  annualSpots: 300
   startSalary: 130
   midSalary: 220
   peakSalary: 450
@@ -2241,7 +2241,7 @@ specialties:
 - name: "FBI / Federal Agent (JD)"
   group: alternative
   residencyYears: 0
-  matchComp: 3
+  annualSpots: 150
   startSalary: 85
   midSalary: 140
   peakSalary: 200

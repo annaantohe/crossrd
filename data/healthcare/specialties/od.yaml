@@ -4,7 +4,7 @@ specialties:
 - name: Medical / Therapeutic Optometry
   group: optometry
   residencyYears: 0
-  matchComp: 9
+  annualSpots: 215
   startSalary: 130
   midSalary: 160
   peakSalary: 220
@@ -45,7 +45,7 @@ specialties:
 - name: Surgical Co-Management / Specialty
   group: optometry
   residencyYears: 0
-  matchComp: 9
+  annualSpots: 255
   startSalary: 120
   midSalary: 150
   peakSalary: 200
@@ -86,7 +86,7 @@ specialties:
 - name: General Optometry
   group: optometry
   residencyYears: 0
-  matchComp: 9
+  annualSpots: 1321
   startSalary: 115
   midSalary: 140
   peakSalary: 200
