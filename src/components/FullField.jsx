@@ -19,10 +19,10 @@ import { styles } from "../styles/theme";
 const COLUMNS = [
   { key: "typicalPeak", label: "💰 Median", fmt: (v) => `$${v}K` },
   { key: "peakSalary", label: "🏆 Ceiling", fmt: (v) => `$${v}K` },
-  { key: "startSalary", label: "🚀 Start Pay", fmt: (v) => `$${v}K` },
+  { key: "startSalary", label: "🚀 Start", fmt: (v) => `$${v}K` },
   { key: "satisfaction", label: "😊 Happy", fmt: (v) => `${v}%` },
-  { key: "hoursWeek", label: "⏰ Hrs/Wk", fmt: (v) => `${v}` },
-  { key: "burnout", label: "🔥 Burnout", fmt: (v) => `${v}%` },
+  { key: "hoursWeek", label: "⏰ Hrs", fmt: (v) => `${v}` },
+  { key: "burnout", label: "🔥 Burn", fmt: (v) => `${v}%` },
   { key: "matchComp", label: "🎯 Get In", fmt: (v) => `${v}/10` },
 ];
 
@@ -274,7 +274,7 @@ export default function FullField({ allTracks, profColors, profLabels }) {
               borderSpacing: "0 2px",
               fontFamily: "'DM Sans', sans-serif",
               fontSize: 11,
-              minWidth: 600,
+              minWidth: 700,
             }}
           >
             <thead>
@@ -315,7 +315,7 @@ export default function FullField({ allTracks, profColors, profLabels }) {
                       cursor: "pointer",
                       userSelect: "none",
                       textAlign: "center",
-                      minWidth: 60,
+                      minWidth: 50,
                       whiteSpace: "nowrap",
                     }}
                   >
