@@ -49,6 +49,7 @@ export default function FamilyPicker({ families, onSelect, onCompare }) {
         }}
       >
         cross<span style={{ color: "#D4A537" }}>rd</span>
+        <sup style={{ fontSize: "0.3em", color: "#bbb", fontWeight: 400, verticalAlign: "super" }}>™</sup>
       </div>
 
       <h1
@@ -203,6 +204,19 @@ export default function FamilyPicker({ families, onSelect, onCompare }) {
           Compare across fields ({pickSummary.join(" + ")})
         </button>
       )}
+
+      {/* footer */}
+      <div
+        style={{
+          marginTop: 48,
+          paddingTop: 16,
+          borderTop: "1px solid #eee",
+          fontSize: 11,
+          color: "#bbb",
+        }}
+      >
+        © 2025 Anna Antohe · crossrd™
+      </div>
     </div>
   );
 }

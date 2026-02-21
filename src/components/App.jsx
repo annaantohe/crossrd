@@ -385,6 +385,19 @@ export default function App() {
           onCompare={() => setTab("compare")}
         />
       )}
+
+      {/* footer */}
+      <div
+        style={{
+          textAlign: "center",
+          padding: "24px 12px 16px",
+          fontSize: 11,
+          color: "#bbb",
+          fontFamily: "'DM Sans', sans-serif",
+        }}
+      >
+        © 2025 Anna Antohe · crossrd™
+      </div>
     </div>
   );
 }
