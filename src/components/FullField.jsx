@@ -17,6 +17,7 @@ import { styles } from "../styles/theme";
 
 // column definitions used by the table
 const COLUMNS = [
+  { key: "startSalary", label: "🚀 Start", fmt: (v) => `$${v}K` },
   { key: "typicalPeak", label: "💰 Median", fmt: (v) => `$${v}K` },
   { key: "peakSalary", label: "🏆 Ceiling", fmt: (v) => `$${v}K` },
   { key: "satisfaction", label: "😊 Happy", fmt: (v) => `${v}%` },
@@ -272,8 +273,8 @@ export default function FullField({ allTracks, profColors, profLabels }) {
               borderCollapse: "separate",
               borderSpacing: "0 2px",
               fontFamily: "'DM Sans', sans-serif",
-              fontSize: 11,
-              minWidth: 700,
+              fontSize: 10,
+              minWidth: 720,
             }}
           >
             <thead>
@@ -281,24 +282,24 @@ export default function FullField({ allTracks, profColors, profLabels }) {
                 <th
                   style={{
                     textAlign: "left",
-                    padding: "6px 4px",
-                    fontSize: 10,
+                    padding: "5px 3px",
+                    fontSize: 9,
                     color: "#888",
                     position: "sticky",
                     left: 0,
                     background: "#fafaf8",
                     zIndex: 2,
-                    minWidth: 110,
+                    minWidth: 100,
                   }}
                 >
                   # Career
                 </th>
                 <th
                   style={{
-                    padding: "4px",
-                    fontSize: 10,
+                    padding: "3px",
+                    fontSize: 9,
                     color: "#888",
-                    minWidth: 48,
+                    minWidth: 40,
                   }}
                 >
                   Type
@@ -308,13 +309,13 @@ export default function FullField({ allTracks, profColors, profLabels }) {
                     key={col.key}
                     onClick={() => toggleSort(col.key)}
                     style={{
-                      padding: "6px 4px",
-                      fontSize: 10,
+                      padding: "5px 2px",
+                      fontSize: 9,
                       color: sortKey === col.key ? "#D4A537" : "#888",
                       cursor: "pointer",
                       userSelect: "none",
                       textAlign: "center",
-                      minWidth: 50,
+                      minWidth: 44,
                       whiteSpace: "nowrap",
                     }}
                   >
@@ -334,7 +335,7 @@ export default function FullField({ allTracks, profColors, profLabels }) {
                     {/* sticky career name column */}
                     <td
                       style={{
-                        padding: "7px 4px",
+                        padding: "5px 3px",
                         fontWeight: 600,
                         position: "sticky",
                         left: 0,
@@ -395,7 +396,7 @@ export default function FullField({ allTracks, profColors, profLabels }) {
                         <td
                           key={col.key}
                           style={{
-                            padding: "7px 4px",
+                            padding: "5px 2px",
                             textAlign: "center",
                             fontWeight: 600,
                             color: isGood
