@@ -274,7 +274,7 @@ export default function FullField({ allTracks, profColors, profLabels }) {
               borderSpacing: "0 2px",
               fontFamily: "'DM Sans', sans-serif",
               fontSize: 10,
-              minWidth: 760,
+              minWidth: 880,
             }}
           >
             <thead>
