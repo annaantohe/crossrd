@@ -1,0 +1,380 @@
+# L1 profession-level category scores for engineering
+professions:
+  BS:
+    l1_only: {}
+    l1_data_points:
+      1:
+        scores: [7, 7, 6, 7]
+        count: 4
+        average: 6.75
+        labels:
+        - Years of undergrad required (4yr standard)
+        - Test difficulty (SAT/ACT, not MCAT/LSAT)
+        - GPA expectations (3.0-3.5 typical)
+        - Extracurricular expectations (moderate)
+        data_point_ids: [2, 4, 5, 6]
+      2:
+        scores: [7, 8]
+        count: 2
+        average: 7.5
+        labels:
+        - Acceptance rate (most programs accessible)
+        - Career changers welcome? (yes, broad field)
+        data_point_ids: [10, 13]
+      3:
+        scores: [7, 7, 6]
+        count: 3
+        average: 6.67
+        labels:
+        - Duration of program (4 years)
+        - Practical experience timing (co-ops, internships common)
+        - Prestige matters? (moderate, top schools help for top companies)
+        data_point_ids: [16, 18, 23]
+      4:
+        scores: [9, 9]
+        count: 2
+        average: 9.0
+        labels:
+        - Post-grad training (none required, immediate employment)
+        - Total years to independent practice (4yr undergrad only)
+        data_point_ids: [24, 32]
+      5:
+        scores: [7, 7, 8, 8, 9]
+        count: 5
+        average: 7.8
+        labels:
+        - Average tuition ($25K/yr state school)
+        - Average debt at graduation ($35K avg)
+        - Debt-to-income ratio (excellent, earning at 22)
+        - Time to break even (fast, 1-3 years)
+        - Opportunity cost (minimal, earning at 22)
+        data_point_ids: [33, 34, 35, 38, 40]
+      6:
+        scores: [6, 7, 5, 3, 7, 4]
+        count: 6
+        average: 5.33
+        labels:
+        - Professional scope (varies, some need PE)
+        - Scope variation by state (PE reciprocity)
+        - Independent practice (need PE for some)
+        - Signing authority (PE required for public safety)
+        - Ability to specialize/pivot
+        - Competition from adjacent fields
+        data_point_ids: [41, 42, 43, 44, 45, 46]
+      7:
+        scores: [4, 6]
+        count: 2
+        average: 5.0
+        labels:
+        - Business ownership potential (consulting firms)
+        - Industry compensation trends
+        data_point_ids: [52, 53]
+      8:
+        scores: [7]
+        count: 1
+        average: 7.0
+        labels:
+        - Profession-level proxy score
+        data_point_ids: [null]
+      9:
+        scores: [7]
+        count: 1
+        average: 7.0
+        labels:
+        - Profession-level proxy score (generally good WLB)
+        data_point_ids: [null]
+      10:
+        scores: [8, 7, 5, 5]
+        count: 4
+        average: 6.25
+        labels:
+        - Current job market (strong demand)
+        - Projected demand 10-20 years
+        - Impact of demographic changes
+        - Vulnerability to offshoring
+        data_point_ids: [71, 72, 74, 75]
+      11:
+        scores: [5, 5, 5]
+        count: 3
+        average: 5.0
+        labels:
+        - AI impact on engineering work (mixed)
+        - AI as tool vs replacement
+        - Timeline of disruption
+        data_point_ids: [77, 79, 80]
+      12:
+        scores: [7]
+        count: 1
+        average: 7.0
+        labels:
+        - Ease of pivoting to adjacent careers
+        data_point_ids: [91]
+      13:
+        scores: [4, 5, 4, 5]
+        count: 4
+        average: 4.5
+        labels:
+        - Pay equity (gender gap exists)
+        - Parental leave norms
+        - Culture / bro culture in some areas
+        - Welcoming to non-traditional?
+        data_point_ids: [95, 96, 98, 100]
+      14:
+        scores: [8]
+        count: 1
+        average: 8.0
+        labels:
+        - Regulatory burden (PE license, minimal for most)
+        data_point_ids: [104]
+  MS:
+    l1_only: {}
+    l1_data_points:
+      1:
+        scores: [6, 6, 5, 6]
+        count: 4
+        average: 5.75
+        labels:
+        - Years of undergrad required (4yr + strong GPA)
+        - Test difficulty (GRE)
+        - GPA expectations (3.3+ typical)
+        - Research/extracurricular expectations
+        data_point_ids: [2, 4, 5, 6]
+      2:
+        scores: [6, 7]
+        count: 2
+        average: 6.5
+        labels:
+        - Acceptance rate (competitive at top programs)
+        - Career changers welcome? (yes with BS)
+        data_point_ids: [10, 13]
+      3:
+        scores: [7, 7, 5]
+        count: 3
+        average: 6.33
+        labels:
+        - Duration of program (2 years)
+        - Practical experience timing (thesis/project)
+        - Prestige matters? (somewhat for top employers)
+        data_point_ids: [16, 18, 23]
+      4:
+        scores: [8, 8]
+        count: 2
+        average: 8.0
+        labels:
+        - Post-grad training (none, work immediately)
+        - Total years to practice (6yr total)
+        data_point_ids: [24, 32]
+      5:
+        scores: [6, 6, 7, 7, 8]
+        count: 5
+        average: 6.8
+        labels:
+        - Average tuition ($30K/yr, some funded)
+        - Average debt at graduation ($55K avg)
+        - Debt-to-income ratio (good, higher starting salary)
+        - Time to break even (2-4 years)
+        - Opportunity cost (moderate, 2yr lost earnings)
+        data_point_ids: [33, 34, 35, 38, 40]
+      6:
+        scores: [7, 7, 5, 3, 8, 3]
+        count: 6
+        average: 5.5
+        labels:
+        - Professional scope
+        - Scope variation
+        - Independent practice
+        - Signing authority
+        - Ability to specialize (deep niche)
+        - Competition
+        data_point_ids: [41, 42, 43, 44, 45, 46]
+      7:
+        scores: [4, 7]
+        count: 2
+        average: 5.5
+        labels:
+        - Business ownership potential
+        - Compensation trends (premium for MS)
+        data_point_ids: [52, 53]
+      8:
+        scores: [7]
+        count: 1
+        average: 7.0
+        labels:
+        - Profession-level proxy score
+        data_point_ids: [null]
+      9:
+        scores: [6]
+        count: 1
+        average: 6.0
+        labels:
+        - Profession-level proxy score
+        data_point_ids: [null]
+      10:
+        scores: [7, 7, 5, 5]
+        count: 4
+        average: 6.0
+        labels:
+        - Current job market
+        - Projected demand
+        - Impact of demographic changes
+        - Vulnerability to offshoring
+        data_point_ids: [71, 72, 74, 75]
+      11:
+        scores: [5, 6, 5]
+        count: 3
+        average: 5.33
+        labels:
+        - AI impact
+        - AI as tool vs replacement
+        - Timeline of disruption
+        data_point_ids: [77, 79, 80]
+      12:
+        scores: [7]
+        count: 1
+        average: 7.0
+        labels:
+        - Ease of pivoting to adjacent careers
+        data_point_ids: [91]
+      13:
+        scores: [4, 5, 4, 5]
+        count: 4
+        average: 4.5
+        labels:
+        - Pay equity
+        - Parental leave norms
+        - Culture
+        - Welcoming to non-traditional?
+        data_point_ids: [95, 96, 98, 100]
+      14:
+        scores: [8]
+        count: 1
+        average: 8.0
+        labels:
+        - Regulatory burden
+        data_point_ids: [104]
+  PhD:
+    l1_only: {}
+    l1_data_points:
+      1:
+        scores: [4, 5, 3, 4]
+        count: 4
+        average: 4.0
+        labels:
+        - Years of undergrad required (4yr + strong research record)
+        - Test difficulty (GRE + research portfolio)
+        - GPA expectations (3.5+ typical)
+        - Research/publication expectations
+        data_point_ids: [2, 4, 5, 6]
+      2:
+        scores: [4, 5]
+        count: 2
+        average: 4.5
+        labels:
+        - Acceptance rate (very competitive at top programs)
+        - Career changers welcome? (limited)
+        data_point_ids: [10, 13]
+      3:
+        scores: [4, 5, 3]
+        count: 3
+        average: 4.0
+        labels:
+        - Duration of program (5-6 years)
+        - Practical experience timing (research-heavy)
+        - Prestige matters? (very much for academia/top labs)
+        data_point_ids: [16, 18, 23]
+      4:
+        scores: [4, 4]
+        count: 2
+        average: 4.0
+        labels:
+        - Post-grad training (postdoc common, 1-3yr)
+        - Total years to independent role (9-11yr total)
+        data_point_ids: [24, 32]
+      5:
+        scores: [7, 8, 6, 5, 4]
+        count: 5
+        average: 6.0
+        labels:
+        - Average tuition (usually funded/waived)
+        - Average debt ($35K undergrad only)
+        - Debt-to-income ratio (moderate)
+        - Time to break even (long, 5-8 years)
+        - Opportunity cost (high, 5yr stipend vs industry salary)
+        data_point_ids: [33, 34, 35, 38, 40]
+      6:
+        scores: [8, 7, 7, 3, 5, 2]
+        count: 6
+        average: 5.33
+        labels:
+        - Professional scope (research leadership)
+        - Scope variation
+        - Independent practice (PI, research lead)
+        - Authority (grant-funded independence)
+        - Ability to specialize (very deep)
+        - Competition (intense for positions)
+        data_point_ids: [41, 42, 43, 44, 45, 46]
+      7:
+        scores: [3, 6]
+        count: 2
+        average: 4.5
+        labels:
+        - Business ownership potential (startup, consulting)
+        - Compensation trends
+        data_point_ids: [52, 53]
+      8:
+        scores: [7]
+        count: 1
+        average: 7.0
+        labels:
+        - Profession-level proxy score
+        data_point_ids: [null]
+      9:
+        scores: [5]
+        count: 1
+        average: 5.0
+        labels:
+        - Profession-level proxy score (variable, academia can be intense)
+        data_point_ids: [null]
+      10:
+        scores: [5, 6, 5, 7]
+        count: 4
+        average: 5.75
+        labels:
+        - Current job market (niche, fewer openings)
+        - Projected demand
+        - Impact of demographic changes
+        - Vulnerability to offshoring (low for research)
+        data_point_ids: [71, 72, 74, 75]
+      11:
+        scores: [7, 7, 6]
+        count: 3
+        average: 6.67
+        labels:
+        - AI impact (PhDs drive AI, not replaced by it)
+        - AI as tool vs replacement
+        - Timeline of disruption
+        data_point_ids: [77, 79, 80]
+      12:
+        scores: [5]
+        count: 1
+        average: 5.0
+        labels:
+        - Ease of pivoting (narrow specialization)
+        data_point_ids: [91]
+      13:
+        scores: [4, 5, 4, 4]
+        count: 4
+        average: 4.25
+        labels:
+        - Pay equity
+        - Parental leave norms
+        - Culture / publish-or-perish
+        - Welcoming to non-traditional?
+        data_point_ids: [95, 96, 98, 100]
+      14:
+        scores: [8]
+        count: 1
+        average: 8.0
+        labels:
+        - Regulatory burden
+        data_point_ids: [104]

@@ -1,0 +1,41 @@
+# stress test resilience scores for engineering finalists
+scenarios:
+- id: ai
+  name: AI Disruption Accelerates
+- id: pay
+  name: Tech Layoffs / Pay Compression 20%
+- id: injury
+  name: Career Burnout at 40
+- id: match
+  name: Can't Land Target Role
+scores:
+  swe:
+    ai: 4
+    pay: 5
+    injury: 7
+    match: 8
+  ml_eng:
+    ai: 3
+    pay: 4
+    injury: 6
+    match: 6
+  quant:
+    ai: 5
+    pay: 3
+    injury: 4
+    match: 3
+  propulsion:
+    ai: 9
+    pay: 7
+    injury: 5
+    match: 5
+  ai_researcher:
+    ai: 2
+    pay: 6
+    injury: 5
+    match: 4
+  consultant:
+    ai: 6
+    pay: 6
+    injury: 5
+    match: 5

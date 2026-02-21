@@ -28,6 +28,10 @@ MATCH_RESILIENCE_BY_PROFESSION = {
     "JD+Patent": 6,
     "Paralegal": 8,
     "Judge": 2,
+    # engineering professions
+    "BS": 7,
+    "MS": 6,
+    "PhD": 4,
 }
 
 

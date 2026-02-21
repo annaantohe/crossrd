@@ -1,0 +1,1825 @@
+# BS Engineering specialties — 44 careers across 9 groups
+profession: BS
+specialties:
+
+# === SOFTWARE / TECH (5) ===
+
+- name: "Software Engineer (General)"
+  group: software_tech
+  residencyYears: 0
+  annualSpots: 150000
+  startSalary: 95
+  midSalary: 160
+  peakSalary: 250
+  typicalPeak: 180
+  partTimeFlex: 7
+  procedureMix: 1
+  callSchedule: 7
+  adminBurden: 4
+  hoursWeek: 45
+  burnout: 35
+  partTimeFeasibility: 7
+  vacation: 6
+  careerLongevity: 5
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 9
+  automationRisk: 5
+  handsOnInsulation: 2
+  satisfaction: 72
+  chooseAgain: 70
+  intellectualStim: 8
+  varietyRepetition: 7
+  patientImpact: 5
+  physicalToll: 9
+  emotionalToll: 7
+  malpracticeLiability: 10
+  injuryCareerRisk: 10
+  fellowshipOptions: "None required; optional MS in CS, MBA"
+  compModel: "Base + RSU/equity + bonus; senior IC track or management track"
+  revPerPatientVisit: "$150-300/hr (contractor) or salaried"
+  dailyWorkflow: "Code review, feature development, standups, debugging, deployment"
+  patientVolume: "2-5 active projects/sprints"
+  supportStaffModel: "PM, designer, QA, DevOps support"
+  geographicDemandNotes: "SF Bay Area, Seattle, NYC, Austin — remote widely available"
+  telehealthPotential: 9
+  genderDistribution: "~25% women"
+
+- name: "Frontend / Full-Stack Developer"
+  group: software_tech
+  residencyYears: 0
+  annualSpots: 90000
+  startSalary: 85
+  midSalary: 145
+  peakSalary: 200
+  typicalPeak: 155
+  partTimeFlex: 8
+  procedureMix: 1
+  callSchedule: 8
+  adminBurden: 3
+  hoursWeek: 43
+  burnout: 30
+  partTimeFeasibility: 8
+  vacation: 6
+  careerLongevity: 5
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 10
+  automationRisk: 6
+  handsOnInsulation: 2
+  satisfaction: 70
+  chooseAgain: 68
+  intellectualStim: 7
+  varietyRepetition: 7
+  patientImpact: 5
+  physicalToll: 9
+  emotionalToll: 8
+  malpracticeLiability: 10
+  injuryCareerRisk: 10
+  fellowshipOptions: "None required; bootcamp or self-taught paths common"
+  compModel: "Base + RSU/equity; freelance/contract common"
+  revPerPatientVisit: "$100-250/hr (contractor) or salaried"
+  dailyWorkflow: "UI implementation, API integration, design reviews, testing"
+  patientVolume: "2-4 active projects"
+  supportStaffModel: "Designer, backend engineer, PM"
+  geographicDemandNotes: "Ubiquitous demand; strong remote market"
+  telehealthPotential: 10
+  genderDistribution: "~28% women"
+
+- name: "Backend / Infrastructure Engineer"
+  group: software_tech
+  residencyYears: 0
+  annualSpots: 80000
+  startSalary: 100
+  midSalary: 170
+  peakSalary: 280
+  typicalPeak: 195
+  partTimeFlex: 7
+  procedureMix: 1
+  callSchedule: 6
+  adminBurden: 4
+  hoursWeek: 45
+  burnout: 35
+  partTimeFeasibility: 7
+  vacation: 6
+  careerLongevity: 6
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 9
+  automationRisk: 5
+  handsOnInsulation: 2
+  satisfaction: 74
+  chooseAgain: 72
+  intellectualStim: 8
+  varietyRepetition: 6
+  patientImpact: 5
+  physicalToll: 9
+  emotionalToll: 7
+  malpracticeLiability: 10
+  injuryCareerRisk: 10
+  fellowshipOptions: "None required; optional MS in distributed systems"
+  compModel: "Base + RSU/equity + bonus; FAANG-tier comp at senior levels"
+  revPerPatientVisit: "$150-350/hr (contractor) or salaried"
+  dailyWorkflow: "System design, API development, database optimization, scaling"
+  patientVolume: "2-4 active services/systems"
+  supportStaffModel: "Frontend engineers, DevOps, PM, SRE"
+  geographicDemandNotes: "SF, Seattle, NYC — remote widely available"
+  telehealthPotential: 9
+  genderDistribution: "~22% women"
+
+- name: "DevOps / Site Reliability Engineer"
+  group: software_tech
+  residencyYears: 0
+  annualSpots: 45000
+  startSalary: 105
+  midSalary: 165
+  peakSalary: 270
+  typicalPeak: 185
+  partTimeFlex: 5
+  procedureMix: 2
+  callSchedule: 4
+  adminBurden: 5
+  hoursWeek: 44
+  burnout: 38
+  partTimeFeasibility: 5
+  vacation: 5
+  careerLongevity: 6
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 8
+  automationRisk: 4
+  handsOnInsulation: 3
+  satisfaction: 72
+  chooseAgain: 68
+  intellectualStim: 7
+  varietyRepetition: 6
+  patientImpact: 4
+  physicalToll: 9
+  emotionalToll: 6
+  malpracticeLiability: 10
+  injuryCareerRisk: 10
+  fellowshipOptions: "None required; cloud certifications (AWS, GCP, Azure)"
+  compModel: "Base + RSU/equity + on-call bonus; high demand market"
+  revPerPatientVisit: "$150-300/hr (contractor) or salaried"
+  dailyWorkflow: "CI/CD pipelines, incident response, infrastructure automation, monitoring"
+  patientVolume: "5-15 active services/systems"
+  supportStaffModel: "SWE teams, security, platform team"
+  geographicDemandNotes: "Major tech hubs; strong remote market"
+  telehealthPotential: 9
+  genderDistribution: "~18% women"
+
+- name: "Cybersecurity Engineer"
+  group: software_tech
+  residencyYears: 0
+  annualSpots: 35000
+  startSalary: 90
+  midSalary: 140
+  peakSalary: 230
+  typicalPeak: 160
+  partTimeFlex: 5
+  procedureMix: 2
+  callSchedule: 5
+  adminBurden: 5
+  hoursWeek: 44
+  burnout: 32
+  partTimeFeasibility: 5
+  vacation: 5
+  careerLongevity: 7
+  malpracticeFreq: 9
+  malpracticeCost: 1
+  geographicFlex: 8
+  automationRisk: 4
+  handsOnInsulation: 3
+  satisfaction: 74
+  chooseAgain: 70
+  intellectualStim: 8
+  varietyRepetition: 7
+  patientImpact: 6
+  physicalToll: 9
+  emotionalToll: 6
+  malpracticeLiability: 9
+  injuryCareerRisk: 10
+  fellowshipOptions: "CISSP, CEH, OSCP certifications"
+  compModel: "Base + bonus; government/defense often includes clearance premium"
+  revPerPatientVisit: "$150-350/hr (consulting) or salaried"
+  dailyWorkflow: "Threat analysis, penetration testing, security audits, incident response"
+  patientVolume: "3-8 active assessments/projects"
+  supportStaffModel: "SOC analysts, IT ops, compliance team"
+  geographicDemandNotes: "DC/NoVA (defense), NYC (finance), tech hubs — remote growing"
+  telehealthPotential: 8
+  genderDistribution: "~24% women"
+
+# === MECHANICAL / MANUFACTURING (6) ===
+
+- name: "Mechanical Design Engineer"
+  group: mechanical_mfg
+  residencyYears: 0
+  annualSpots: 18000
+  startSalary: 70
+  midSalary: 105
+  peakSalary: 150
+  typicalPeak: 115
+  partTimeFlex: 3
+  procedureMix: 5
+  callSchedule: 9
+  adminBurden: 4
+  hoursWeek: 44
+  burnout: 28
+  partTimeFeasibility: 3
+  vacation: 4
+  careerLongevity: 8
+  malpracticeFreq: 9
+  malpracticeCost: 2
+  geographicFlex: 5
+  automationRisk: 4
+  handsOnInsulation: 6
+  satisfaction: 72
+  chooseAgain: 68
+  intellectualStim: 7
+  varietyRepetition: 6
+  patientImpact: 5
+  physicalToll: 8
+  emotionalToll: 8
+  malpracticeLiability: 8
+  injuryCareerRisk: 9
+  fellowshipOptions: "PE license optional; optional MS in ME"
+  compModel: "Base salary + annual bonus; seniority-based raises"
+  revPerPatientVisit: "$100-180/hr (consulting) or salaried"
+  dailyWorkflow: "CAD modeling, FEA simulation, prototyping, design reviews"
+  patientVolume: "2-5 active design projects"
+  supportStaffModel: "Drafters, technicians, test engineers, PM"
+  geographicDemandNotes: "Midwest (auto), Houston (energy), nationwide manufacturing hubs"
+  telehealthPotential: 4
+  genderDistribution: "~15% women"
+
+- name: "Manufacturing / Process Engineer"
+  group: mechanical_mfg
+  residencyYears: 0
+  annualSpots: 15000
+  startSalary: 68
+  midSalary: 98
+  peakSalary: 140
+  typicalPeak: 108
+  partTimeFlex: 3
+  procedureMix: 7
+  callSchedule: 7
+  adminBurden: 5
+  hoursWeek: 45
+  burnout: 25
+  partTimeFeasibility: 3
+  vacation: 4
+  careerLongevity: 8
+  malpracticeFreq: 9
+  malpracticeCost: 2
+  geographicFlex: 4
+  automationRisk: 3
+  handsOnInsulation: 8
+  satisfaction: 68
+  chooseAgain: 62
+  intellectualStim: 6
+  varietyRepetition: 5
+  patientImpact: 4
+  physicalToll: 7
+  emotionalToll: 8
+  malpracticeLiability: 8
+  injuryCareerRisk: 7
+  fellowshipOptions: "Six Sigma, Lean certifications; PE optional"
+  compModel: "Base salary + shift differential + bonus"
+  revPerPatientVisit: "$90-150/hr (consulting) or salaried"
+  dailyWorkflow: "Line optimization, SPC, root cause analysis, equipment setup"
+  patientVolume: "3-8 active production lines/processes"
+  supportStaffModel: "Technicians, operators, quality inspectors, maintenance"
+  geographicDemandNotes: "Midwest, Southeast — near manufacturing plants"
+  telehealthPotential: 2
+  genderDistribution: "~20% women"
+
+- name: "Automotive Engineer"
+  group: mechanical_mfg
+  residencyYears: 0
+  annualSpots: 8000
+  startSalary: 75
+  midSalary: 110
+  peakSalary: 170
+  typicalPeak: 125
+  partTimeFlex: 3
+  procedureMix: 6
+  callSchedule: 8
+  adminBurden: 5
+  hoursWeek: 46
+  burnout: 30
+  partTimeFeasibility: 3
+  vacation: 4
+  careerLongevity: 8
+  malpracticeFreq: 8
+  malpracticeCost: 3
+  geographicFlex: 4
+  automationRisk: 4
+  handsOnInsulation: 6
+  satisfaction: 72
+  chooseAgain: 66
+  intellectualStim: 7
+  varietyRepetition: 6
+  patientImpact: 5
+  physicalToll: 7
+  emotionalToll: 7
+  malpracticeLiability: 7
+  injuryCareerRisk: 8
+  fellowshipOptions: "SAE certifications; optional MS in automotive engineering"
+  compModel: "Base salary + OEM profit sharing + bonus"
+  revPerPatientVisit: "$110-180/hr (consulting) or salaried"
+  dailyWorkflow: "Vehicle design, testing, DFMEA, supplier coordination, validation"
+  patientVolume: "1-3 active vehicle programs"
+  supportStaffModel: "Technicians, test drivers, CAD designers, suppliers"
+  geographicDemandNotes: "Detroit metro, Southern US (transplant OEMs), EV hubs (CA, TX)"
+  telehealthPotential: 3
+  genderDistribution: "~13% women"
+
+- name: "HVAC / Building Systems Engineer"
+  group: mechanical_mfg
+  residencyYears: 0
+  annualSpots: 12000
+  startSalary: 65
+  midSalary: 95
+  peakSalary: 130
+  typicalPeak: 100
+  partTimeFlex: 4
+  procedureMix: 6
+  callSchedule: 7
+  adminBurden: 5
+  hoursWeek: 44
+  burnout: 22
+  partTimeFeasibility: 4
+  vacation: 4
+  careerLongevity: 9
+  malpracticeFreq: 8
+  malpracticeCost: 3
+  geographicFlex: 5
+  automationRisk: 3
+  handsOnInsulation: 7
+  satisfaction: 68
+  chooseAgain: 62
+  intellectualStim: 6
+  varietyRepetition: 5
+  patientImpact: 5
+  physicalToll: 7
+  emotionalToll: 8
+  malpracticeLiability: 7
+  injuryCareerRisk: 8
+  fellowshipOptions: "PE license recommended; LEED certification"
+  compModel: "Base salary + bonus; consulting firms or MEP contractors"
+  revPerPatientVisit: "$90-160/hr (consulting) or salaried"
+  dailyWorkflow: "Load calculations, system design, site visits, energy modeling"
+  patientVolume: "3-8 active building projects"
+  supportStaffModel: "Drafters, technicians, contractors, architects"
+  geographicDemandNotes: "Nationwide — wherever construction is active"
+  telehealthPotential: 4
+  genderDistribution: "~16% women"
+
+- name: "Quality / Reliability Engineer"
+  group: mechanical_mfg
+  residencyYears: 0
+  annualSpots: 10000
+  startSalary: 68
+  midSalary: 100
+  peakSalary: 140
+  typicalPeak: 110
+  partTimeFlex: 4
+  procedureMix: 5
+  callSchedule: 8
+  adminBurden: 6
+  hoursWeek: 42
+  burnout: 22
+  partTimeFeasibility: 4
+  vacation: 4
+  careerLongevity: 9
+  malpracticeFreq: 8
+  malpracticeCost: 2
+  geographicFlex: 5
+  automationRisk: 5
+  handsOnInsulation: 6
+  satisfaction: 66
+  chooseAgain: 60
+  intellectualStim: 6
+  varietyRepetition: 4
+  patientImpact: 5
+  physicalToll: 8
+  emotionalToll: 8
+  malpracticeLiability: 7
+  injuryCareerRisk: 9
+  fellowshipOptions: "CQE, Six Sigma Black Belt certifications"
+  compModel: "Base salary + bonus; stable corporate positions"
+  revPerPatientVisit: "$90-150/hr (consulting) or salaried"
+  dailyWorkflow: "FMEA, inspection protocols, failure analysis, audit preparation"
+  patientVolume: "5-15 active product lines/processes"
+  supportStaffModel: "Inspectors, technicians, test engineers"
+  geographicDemandNotes: "Manufacturing hubs — Midwest, Southeast, Texas"
+  telehealthPotential: 3
+  genderDistribution: "~22% women"
+
+- name: "Mechatronics / Controls Engineer"
+  group: mechanical_mfg
+  residencyYears: 0
+  annualSpots: 8000
+  startSalary: 78
+  midSalary: 115
+  peakSalary: 170
+  typicalPeak: 130
+  partTimeFlex: 4
+  procedureMix: 6
+  callSchedule: 7
+  adminBurden: 4
+  hoursWeek: 44
+  burnout: 28
+  partTimeFeasibility: 4
+  vacation: 4
+  careerLongevity: 8
+  malpracticeFreq: 9
+  malpracticeCost: 2
+  geographicFlex: 5
+  automationRisk: 3
+  handsOnInsulation: 7
+  satisfaction: 74
+  chooseAgain: 68
+  intellectualStim: 8
+  varietyRepetition: 7
+  patientImpact: 5
+  physicalToll: 7
+  emotionalToll: 8
+  malpracticeLiability: 8
+  injuryCareerRisk: 8
+  fellowshipOptions: "Optional MS in robotics or controls; PLC certifications"
+  compModel: "Base salary + bonus; automation integrators or OEMs"
+  revPerPatientVisit: "$110-200/hr (consulting) or salaried"
+  dailyWorkflow: "PLC programming, sensor integration, motion control, system commissioning"
+  patientVolume: "2-5 active automation projects"
+  supportStaffModel: "Electricians, technicians, mechanical engineers, PMs"
+  geographicDemandNotes: "Midwest (auto), nationwide manufacturing — some travel required"
+  telehealthPotential: 3
+  genderDistribution: "~14% women"
+
+# === CIVIL / CONSTRUCTION (6) ===
+
+- name: "Structural Engineer"
+  group: civil_construction
+  residencyYears: 0
+  annualSpots: 7000
+  startSalary: 68
+  midSalary: 100
+  peakSalary: 150
+  typicalPeak: 110
+  partTimeFlex: 4
+  procedureMix: 5
+  callSchedule: 8
+  adminBurden: 5
+  hoursWeek: 44
+  burnout: 25
+  partTimeFeasibility: 4
+  vacation: 4
+  careerLongevity: 9
+  malpracticeFreq: 6
+  malpracticeCost: 8
+  geographicFlex: 5
+  automationRisk: 3
+  handsOnInsulation: 5
+  satisfaction: 72
+  chooseAgain: 66
+  intellectualStim: 8
+  varietyRepetition: 6
+  patientImpact: 7
+  physicalToll: 7
+  emotionalToll: 7
+  malpracticeLiability: 6
+  injuryCareerRisk: 8
+  fellowshipOptions: "PE/SE license required; optional MS in structural"
+  compModel: "Base salary + bonus; partnership track at consulting firms"
+  revPerPatientVisit: "$120-220/hr (consulting) or salaried"
+  dailyWorkflow: "Structural analysis, code review, drawing review, site visits"
+  patientVolume: "3-8 active building/bridge projects"
+  supportStaffModel: "Drafters, EITs, technicians, contractors"
+  geographicDemandNotes: "Urban centers with construction activity; seismic zones (CA, Pacific NW)"
+  telehealthPotential: 4
+  genderDistribution: "~18% women"
+
+- name: "Transportation / Traffic Engineer"
+  group: civil_construction
+  residencyYears: 0
+  annualSpots: 8000
+  startSalary: 65
+  midSalary: 95
+  peakSalary: 135
+  typicalPeak: 105
+  partTimeFlex: 4
+  procedureMix: 5
+  callSchedule: 8
+  adminBurden: 6
+  hoursWeek: 42
+  burnout: 22
+  partTimeFeasibility: 4
+  vacation: 5
+  careerLongevity: 9
+  malpracticeFreq: 7
+  malpracticeCost: 5
+  geographicFlex: 5
+  automationRisk: 3
+  handsOnInsulation: 5
+  satisfaction: 68
+  chooseAgain: 62
+  intellectualStim: 6
+  varietyRepetition: 5
+  patientImpact: 7
+  physicalToll: 7
+  emotionalToll: 8
+  malpracticeLiability: 7
+  injuryCareerRisk: 8
+  fellowshipOptions: "PE license; PTOE certification"
+  compModel: "Base salary; government or consulting firm positions"
+  revPerPatientVisit: "$100-180/hr (consulting) or government GS scale"
+  dailyWorkflow: "Traffic studies, signal timing, roadway design, public meetings"
+  patientVolume: "4-10 active roadway/intersection projects"
+  supportStaffModel: "Technicians, surveyors, CAD drafters, planners"
+  geographicDemandNotes: "State DOTs nationwide; urban metro areas with growth"
+  telehealthPotential: 4
+  genderDistribution: "~20% women"
+
+- name: "Geotechnical Engineer"
+  group: civil_construction
+  residencyYears: 0
+  annualSpots: 4000
+  startSalary: 68
+  midSalary: 100
+  peakSalary: 145
+  typicalPeak: 110
+  partTimeFlex: 3
+  procedureMix: 7
+  callSchedule: 8
+  adminBurden: 5
+  hoursWeek: 44
+  burnout: 24
+  partTimeFeasibility: 3
+  vacation: 4
+  careerLongevity: 9
+  malpracticeFreq: 6
+  malpracticeCost: 7
+  geographicFlex: 5
+  automationRisk: 2
+  handsOnInsulation: 8
+  satisfaction: 72
+  chooseAgain: 66
+  intellectualStim: 7
+  varietyRepetition: 6
+  patientImpact: 6
+  physicalToll: 6
+  emotionalToll: 8
+  malpracticeLiability: 6
+  injuryCareerRisk: 7
+  fellowshipOptions: "PE license required; MS in geotech strongly preferred"
+  compModel: "Base salary + bonus; consulting firm or government"
+  revPerPatientVisit: "$110-200/hr (consulting) or salaried"
+  dailyWorkflow: "Soil testing, slope stability analysis, foundation design, field investigations"
+  patientVolume: "3-8 active site investigations/projects"
+  supportStaffModel: "Drilling crews, lab technicians, field engineers"
+  geographicDemandNotes: "Nationwide — areas with construction, seismic risk, or unstable soils"
+  telehealthPotential: 3
+  genderDistribution: "~19% women"
+
+- name: "Water Resources Engineer"
+  group: civil_construction
+  residencyYears: 0
+  annualSpots: 5000
+  startSalary: 66
+  midSalary: 98
+  peakSalary: 140
+  typicalPeak: 108
+  partTimeFlex: 4
+  procedureMix: 5
+  callSchedule: 8
+  adminBurden: 5
+  hoursWeek: 42
+  burnout: 22
+  partTimeFeasibility: 4
+  vacation: 5
+  careerLongevity: 9
+  malpracticeFreq: 7
+  malpracticeCost: 5
+  geographicFlex: 5
+  automationRisk: 3
+  handsOnInsulation: 5
+  satisfaction: 72
+  chooseAgain: 66
+  intellectualStim: 7
+  varietyRepetition: 6
+  patientImpact: 8
+  physicalToll: 7
+  emotionalToll: 8
+  malpracticeLiability: 7
+  injuryCareerRisk: 8
+  fellowshipOptions: "PE license; CFM certification; optional MS"
+  compModel: "Base salary; government (USACE, FEMA) or consulting"
+  revPerPatientVisit: "$100-180/hr (consulting) or government GS scale"
+  dailyWorkflow: "Flood modeling, stormwater design, hydrology studies, permitting"
+  patientVolume: "3-8 active watershed/stormwater projects"
+  supportStaffModel: "Technicians, GIS analysts, CAD drafters"
+  geographicDemandNotes: "Flood-prone areas, coastal cities, western states (water scarcity)"
+  telehealthPotential: 5
+  genderDistribution: "~25% women"
+
+- name: "Construction Manager / Engineer"
+  group: civil_construction
+  residencyYears: 0
+  annualSpots: 25000
+  startSalary: 72
+  midSalary: 110
+  peakSalary: 160
+  typicalPeak: 120
+  partTimeFlex: 2
+  procedureMix: 8
+  callSchedule: 6
+  adminBurden: 7
+  hoursWeek: 50
+  burnout: 32
+  partTimeFeasibility: 2
+  vacation: 3
+  careerLongevity: 7
+  malpracticeFreq: 7
+  malpracticeCost: 5
+  geographicFlex: 4
+  automationRisk: 2
+  handsOnInsulation: 9
+  satisfaction: 70
+  chooseAgain: 64
+  intellectualStim: 6
+  varietyRepetition: 7
+  patientImpact: 6
+  physicalToll: 5
+  emotionalToll: 6
+  malpracticeLiability: 6
+  injuryCareerRisk: 6
+  fellowshipOptions: "PE or PMP certification; CCM credential"
+  compModel: "Base salary + project bonus; GC firms or owner's rep"
+  revPerPatientVisit: "$120-250/hr (consulting) or salaried"
+  dailyWorkflow: "Site supervision, scheduling, subcontractor coordination, safety inspections"
+  patientVolume: "1-3 active construction sites"
+  supportStaffModel: "Field engineers, superintendents, safety officers, subcontractors"
+  geographicDemandNotes: "Nationwide — wherever there is construction activity"
+  telehealthPotential: 2
+  genderDistribution: "~12% women"
+
+- name: "Surveyor / Geospatial Engineer"
+  group: civil_construction
+  residencyYears: 0
+  annualSpots: 6000
+  startSalary: 60
+  midSalary: 82
+  peakSalary: 110
+  typicalPeak: 90
+  partTimeFlex: 3
+  procedureMix: 9
+  callSchedule: 9
+  adminBurden: 4
+  hoursWeek: 42
+  burnout: 18
+  partTimeFeasibility: 3
+  vacation: 4
+  careerLongevity: 9
+  malpracticeFreq: 7
+  malpracticeCost: 4
+  geographicFlex: 5
+  automationRisk: 4
+  handsOnInsulation: 9
+  satisfaction: 70
+  chooseAgain: 64
+  intellectualStim: 6
+  varietyRepetition: 5
+  patientImpact: 5
+  physicalToll: 5
+  emotionalToll: 9
+  malpracticeLiability: 7
+  injuryCareerRisk: 7
+  fellowshipOptions: "PLS license required; GIS certifications"
+  compModel: "Base salary; surveying firms or self-employment"
+  revPerPatientVisit: "$80-150/hr (consulting) or salaried"
+  dailyWorkflow: "GPS/total station fieldwork, boundary surveys, topographic mapping, deed research"
+  patientVolume: "5-15 active survey projects"
+  supportStaffModel: "Survey crew (rod person, instrument operator), CAD technicians"
+  geographicDemandNotes: "Nationwide — tied to construction and land development"
+  telehealthPotential: 2
+  genderDistribution: "~10% women"
+
+# === ELECTRICAL (5) ===
+
+- name: "Electrical Design Engineer"
+  group: electrical
+  residencyYears: 0
+  annualSpots: 12000
+  startSalary: 75
+  midSalary: 110
+  peakSalary: 160
+  typicalPeak: 120
+  partTimeFlex: 4
+  procedureMix: 4
+  callSchedule: 9
+  adminBurden: 4
+  hoursWeek: 43
+  burnout: 26
+  partTimeFeasibility: 4
+  vacation: 4
+  careerLongevity: 8
+  malpracticeFreq: 9
+  malpracticeCost: 2
+  geographicFlex: 5
+  automationRisk: 4
+  handsOnInsulation: 6
+  satisfaction: 72
+  chooseAgain: 66
+  intellectualStim: 8
+  varietyRepetition: 6
+  patientImpact: 5
+  physicalToll: 8
+  emotionalToll: 8
+  malpracticeLiability: 8
+  injuryCareerRisk: 8
+  fellowshipOptions: "PE license optional; optional MS in EE"
+  compModel: "Base salary + bonus; OEMs, consulting firms, utilities"
+  revPerPatientVisit: "$100-180/hr (consulting) or salaried"
+  dailyWorkflow: "Circuit design, PCB layout, simulation, prototype testing, documentation"
+  patientVolume: "2-5 active design projects"
+  supportStaffModel: "Technicians, drafters, test engineers, PCB fabrication"
+  geographicDemandNotes: "Silicon Valley, Boston, Austin, Pacific NW — semiconductor hubs"
+  telehealthPotential: 4
+  genderDistribution: "~15% women"
+
+- name: "Embedded Systems / Firmware Engineer"
+  group: electrical
+  residencyYears: 0
+  annualSpots: 15000
+  startSalary: 85
+  midSalary: 130
+  peakSalary: 200
+  typicalPeak: 150
+  partTimeFlex: 5
+  procedureMix: 4
+  callSchedule: 8
+  adminBurden: 3
+  hoursWeek: 44
+  burnout: 30
+  partTimeFeasibility: 5
+  vacation: 5
+  careerLongevity: 7
+  malpracticeFreq: 9
+  malpracticeCost: 1
+  geographicFlex: 6
+  automationRisk: 3
+  handsOnInsulation: 5
+  satisfaction: 76
+  chooseAgain: 72
+  intellectualStim: 9
+  varietyRepetition: 7
+  patientImpact: 5
+  physicalToll: 9
+  emotionalToll: 8
+  malpracticeLiability: 9
+  injuryCareerRisk: 9
+  fellowshipOptions: "None required; optional MS in embedded systems or CS"
+  compModel: "Base salary + RSU/equity at tech companies + bonus"
+  revPerPatientVisit: "$120-220/hr (consulting) or salaried"
+  dailyWorkflow: "Firmware development, hardware debugging, RTOS programming, device testing"
+  patientVolume: "1-3 active device/product projects"
+  supportStaffModel: "Hardware engineers, test engineers, PCB designers"
+  geographicDemandNotes: "Silicon Valley, Boston, Austin, Seattle — IoT and automotive hubs"
+  telehealthPotential: 5
+  genderDistribution: "~16% women"
+
+- name: "RF / Wireless Engineer"
+  group: electrical
+  residencyYears: 0
+  annualSpots: 5000
+  startSalary: 80
+  midSalary: 120
+  peakSalary: 180
+  typicalPeak: 135
+  partTimeFlex: 4
+  procedureMix: 5
+  callSchedule: 8
+  adminBurden: 4
+  hoursWeek: 43
+  burnout: 25
+  partTimeFeasibility: 4
+  vacation: 4
+  careerLongevity: 8
+  malpracticeFreq: 9
+  malpracticeCost: 1
+  geographicFlex: 5
+  automationRisk: 3
+  handsOnInsulation: 6
+  satisfaction: 74
+  chooseAgain: 68
+  intellectualStim: 9
+  varietyRepetition: 6
+  patientImpact: 5
+  physicalToll: 8
+  emotionalToll: 8
+  malpracticeLiability: 9
+  injuryCareerRisk: 9
+  fellowshipOptions: "MS strongly preferred; optional PhD for research"
+  compModel: "Base salary + bonus; telecom, defense, or semiconductor companies"
+  revPerPatientVisit: "$120-220/hr (consulting) or salaried"
+  dailyWorkflow: "Antenna design, signal analysis, spectrum management, field testing"
+  patientVolume: "1-3 active RF design projects"
+  supportStaffModel: "Technicians, test engineers, antenna fabrication team"
+  geographicDemandNotes: "San Diego (Qualcomm), Dallas, Boston — telecom & defense hubs"
+  telehealthPotential: 4
+  genderDistribution: "~12% women"
+
+- name: "Power Systems / Grid Engineer"
+  group: electrical
+  residencyYears: 0
+  annualSpots: 8000
+  startSalary: 72
+  midSalary: 108
+  peakSalary: 155
+  typicalPeak: 118
+  partTimeFlex: 3
+  procedureMix: 6
+  callSchedule: 6
+  adminBurden: 5
+  hoursWeek: 43
+  burnout: 22
+  partTimeFeasibility: 3
+  vacation: 4
+  careerLongevity: 9
+  malpracticeFreq: 8
+  malpracticeCost: 3
+  geographicFlex: 4
+  automationRisk: 3
+  handsOnInsulation: 7
+  satisfaction: 70
+  chooseAgain: 64
+  intellectualStim: 7
+  varietyRepetition: 5
+  patientImpact: 7
+  physicalToll: 7
+  emotionalToll: 7
+  malpracticeLiability: 7
+  injuryCareerRisk: 7
+  fellowshipOptions: "PE license important; optional MS in power systems"
+  compModel: "Base salary + utility benefits; stable regulated-industry pay"
+  revPerPatientVisit: "$100-180/hr (consulting) or utility salary"
+  dailyWorkflow: "Load flow analysis, relay protection, substation design, grid modeling"
+  patientVolume: "3-8 active grid/substation projects"
+  supportStaffModel: "Lineworkers, technicians, SCADA operators, drafters"
+  geographicDemandNotes: "Nationwide — utilities, ISOs, engineering consultancies"
+  telehealthPotential: 4
+  genderDistribution: "~17% women"
+
+- name: "Controls / Instrumentation Engineer"
+  group: electrical
+  residencyYears: 0
+  annualSpots: 7000
+  startSalary: 74
+  midSalary: 108
+  peakSalary: 150
+  typicalPeak: 115
+  partTimeFlex: 3
+  procedureMix: 7
+  callSchedule: 7
+  adminBurden: 4
+  hoursWeek: 44
+  burnout: 24
+  partTimeFeasibility: 3
+  vacation: 4
+  careerLongevity: 9
+  malpracticeFreq: 9
+  malpracticeCost: 2
+  geographicFlex: 4
+  automationRisk: 3
+  handsOnInsulation: 8
+  satisfaction: 72
+  chooseAgain: 66
+  intellectualStim: 7
+  varietyRepetition: 5
+  patientImpact: 5
+  physicalToll: 7
+  emotionalToll: 8
+  malpracticeLiability: 8
+  injuryCareerRisk: 7
+  fellowshipOptions: "ISA certifications (CAP, CCST); PE optional"
+  compModel: "Base salary + overtime; process industries or system integrators"
+  revPerPatientVisit: "$100-180/hr (consulting) or salaried"
+  dailyWorkflow: "DCS/PLC programming, P&ID review, loop tuning, commissioning"
+  patientVolume: "2-6 active plant/process projects"
+  supportStaffModel: "Electricians, instrument techs, process engineers"
+  geographicDemandNotes: "Gulf Coast (refining), Midwest (manufacturing), nationwide plants"
+  telehealthPotential: 3
+  genderDistribution: "~14% women"
+
+# === AEROSPACE / DEFENSE (5) ===
+
+- name: "Aerospace Structures Engineer"
+  group: aerospace_defense
+  residencyYears: 0
+  annualSpots: 4000
+  startSalary: 78
+  midSalary: 115
+  peakSalary: 170
+  typicalPeak: 130
+  partTimeFlex: 3
+  procedureMix: 5
+  callSchedule: 8
+  adminBurden: 5
+  hoursWeek: 44
+  burnout: 28
+  partTimeFeasibility: 3
+  vacation: 4
+  careerLongevity: 8
+  malpracticeFreq: 9
+  malpracticeCost: 2
+  geographicFlex: 3
+  automationRisk: 3
+  handsOnInsulation: 6
+  satisfaction: 76
+  chooseAgain: 70
+  intellectualStim: 8
+  varietyRepetition: 6
+  patientImpact: 6
+  physicalToll: 8
+  emotionalToll: 7
+  malpracticeLiability: 8
+  injuryCareerRisk: 9
+  fellowshipOptions: "MS preferred for advancement; optional PhD for research"
+  compModel: "Base salary + annual merit; defense primes or NASA"
+  revPerPatientVisit: "$110-200/hr (consulting) or salaried"
+  dailyWorkflow: "FEA modeling, stress analysis, material selection, fatigue/fracture analysis"
+  patientVolume: "1-3 active aircraft/spacecraft programs"
+  supportStaffModel: "Stress analysts, test engineers, manufacturing engineers, drafters"
+  geographicDemandNotes: "Seattle (Boeing), LA (Northrop/Raytheon), Wichita, Huntsville"
+  telehealthPotential: 3
+  genderDistribution: "~16% women"
+
+- name: "Avionics / Flight Systems Engineer"
+  group: aerospace_defense
+  residencyYears: 0
+  annualSpots: 3000
+  startSalary: 82
+  midSalary: 120
+  peakSalary: 180
+  typicalPeak: 135
+  partTimeFlex: 3
+  procedureMix: 5
+  callSchedule: 8
+  adminBurden: 5
+  hoursWeek: 44
+  burnout: 26
+  partTimeFeasibility: 3
+  vacation: 4
+  careerLongevity: 8
+  malpracticeFreq: 9
+  malpracticeCost: 2
+  geographicFlex: 3
+  automationRisk: 3
+  handsOnInsulation: 6
+  satisfaction: 76
+  chooseAgain: 72
+  intellectualStim: 9
+  varietyRepetition: 6
+  patientImpact: 6
+  physicalToll: 8
+  emotionalToll: 7
+  malpracticeLiability: 8
+  injuryCareerRisk: 9
+  fellowshipOptions: "MS in avionics or controls; DO-178C/DO-254 expertise valued"
+  compModel: "Base salary + annual merit; clearance premium possible"
+  revPerPatientVisit: "$120-220/hr (consulting) or salaried"
+  dailyWorkflow: "Avionics architecture, flight software, hardware integration, DO-178 compliance"
+  patientVolume: "1-2 active aircraft/UAV programs"
+  supportStaffModel: "Software engineers, test pilots, systems engineers, certification team"
+  geographicDemandNotes: "Wichita, Seattle, Dallas, Melbourne FL — major aero OEM locations"
+  telehealthPotential: 3
+  genderDistribution: "~15% women"
+
+- name: "Systems Engineer (Defense)"
+  group: aerospace_defense
+  residencyYears: 0
+  annualSpots: 12000
+  startSalary: 80
+  midSalary: 118
+  peakSalary: 175
+  typicalPeak: 130
+  partTimeFlex: 3
+  procedureMix: 3
+  callSchedule: 8
+  adminBurden: 7
+  hoursWeek: 43
+  burnout: 25
+  partTimeFeasibility: 3
+  vacation: 4
+  careerLongevity: 8
+  malpracticeFreq: 9
+  malpracticeCost: 1
+  geographicFlex: 3
+  automationRisk: 4
+  handsOnInsulation: 4
+  satisfaction: 70
+  chooseAgain: 64
+  intellectualStim: 7
+  varietyRepetition: 6
+  patientImpact: 5
+  physicalToll: 9
+  emotionalToll: 7
+  malpracticeLiability: 9
+  injuryCareerRisk: 10
+  fellowshipOptions: "INCOSE certification (CSEP/ESEP); optional MS in systems engineering"
+  compModel: "Base salary + clearance premium; defense primes (Lockheed, Raytheon, etc.)"
+  revPerPatientVisit: "$110-200/hr (consulting) or salaried"
+  dailyWorkflow: "Requirements management, V&V, interface control, trade studies, CDRs"
+  patientVolume: "1-3 active weapon system/platform programs"
+  supportStaffModel: "Discipline engineers, program managers, test engineers, subcontractors"
+  geographicDemandNotes: "DC/NoVA, Huntsville, San Diego, Colorado Springs — near DoD installations"
+  telehealthPotential: 3
+  genderDistribution: "~22% women"
+
+- name: "Flight Test Engineer"
+  group: aerospace_defense
+  residencyYears: 0
+  annualSpots: 1500
+  startSalary: 80
+  midSalary: 115
+  peakSalary: 170
+  typicalPeak: 128
+  partTimeFlex: 2
+  procedureMix: 8
+  callSchedule: 7
+  adminBurden: 5
+  hoursWeek: 45
+  burnout: 28
+  partTimeFeasibility: 2
+  vacation: 4
+  careerLongevity: 7
+  malpracticeFreq: 9
+  malpracticeCost: 2
+  geographicFlex: 2
+  automationRisk: 2
+  handsOnInsulation: 9
+  satisfaction: 80
+  chooseAgain: 76
+  intellectualStim: 9
+  varietyRepetition: 8
+  patientImpact: 6
+  physicalToll: 6
+  emotionalToll: 6
+  malpracticeLiability: 8
+  injuryCareerRisk: 6
+  fellowshipOptions: "USAF TPS or equivalent flight test school; MS common"
+  compModel: "Base salary + flight pay; military or defense OEM positions"
+  revPerPatientVisit: "$120-200/hr (consulting) or salaried"
+  dailyWorkflow: "Test planning, instrumentation setup, flight data analysis, test cards"
+  patientVolume: "1-2 active flight test campaigns"
+  supportStaffModel: "Test pilots, instrumentation techs, data analysts, safety officers"
+  geographicDemandNotes: "Edwards AFB, Patuxent River, Wichita, Mojave — test range locations"
+  telehealthPotential: 1
+  genderDistribution: "~12% women"
+
+- name: "Missile / Weapons Systems Engineer"
+  group: aerospace_defense
+  residencyYears: 0
+  annualSpots: 3000
+  startSalary: 85
+  midSalary: 125
+  peakSalary: 185
+  typicalPeak: 140
+  partTimeFlex: 3
+  procedureMix: 4
+  callSchedule: 8
+  adminBurden: 6
+  hoursWeek: 44
+  burnout: 25
+  partTimeFeasibility: 3
+  vacation: 4
+  careerLongevity: 8
+  malpracticeFreq: 9
+  malpracticeCost: 1
+  geographicFlex: 2
+  automationRisk: 3
+  handsOnInsulation: 5
+  satisfaction: 72
+  chooseAgain: 66
+  intellectualStim: 8
+  varietyRepetition: 6
+  patientImpact: 5
+  physicalToll: 8
+  emotionalToll: 6
+  malpracticeLiability: 9
+  injuryCareerRisk: 9
+  fellowshipOptions: "Security clearance required; MS common for advancement"
+  compModel: "Base salary + clearance premium + annual bonus; defense primes"
+  revPerPatientVisit: "$120-220/hr (consulting) or salaried"
+  dailyWorkflow: "Guidance system design, propulsion analysis, lethality modeling, testing"
+  patientVolume: "1-2 active weapon system programs"
+  supportStaffModel: "Propulsion engineers, guidance engineers, test range personnel"
+  geographicDemandNotes: "Tucson (Raytheon), Huntsville, DC/NoVA, White Sands — defense hubs"
+  telehealthPotential: 2
+  genderDistribution: "~14% women"
+
+# === CHEMICAL / PROCESS (5) ===
+
+- name: "Chemical Process Engineer"
+  group: chemical_process
+  residencyYears: 0
+  annualSpots: 6000
+  startSalary: 75
+  midSalary: 115
+  peakSalary: 165
+  typicalPeak: 125
+  partTimeFlex: 3
+  procedureMix: 6
+  callSchedule: 7
+  adminBurden: 5
+  hoursWeek: 45
+  burnout: 28
+  partTimeFeasibility: 3
+  vacation: 4
+  careerLongevity: 8
+  malpracticeFreq: 8
+  malpracticeCost: 3
+  geographicFlex: 4
+  automationRisk: 3
+  handsOnInsulation: 7
+  satisfaction: 70
+  chooseAgain: 64
+  intellectualStim: 7
+  varietyRepetition: 5
+  patientImpact: 5
+  physicalToll: 7
+  emotionalToll: 7
+  malpracticeLiability: 7
+  injuryCareerRisk: 7
+  fellowshipOptions: "PE license; Six Sigma certifications"
+  compModel: "Base salary + plant bonus; major chemical companies or EPCs"
+  revPerPatientVisit: "$100-180/hr (consulting) or salaried"
+  dailyWorkflow: "P&ID design, mass/energy balances, HAZOP reviews, process optimization"
+  patientVolume: "2-5 active plant/process projects"
+  supportStaffModel: "Operators, technicians, instrument engineers, safety team"
+  geographicDemandNotes: "Gulf Coast (TX, LA), Delaware Valley, Midwest chemical corridors"
+  telehealthPotential: 3
+  genderDistribution: "~30% women"
+
+- name: "Pharmaceutical / Bioprocess Engineer"
+  group: chemical_process
+  residencyYears: 0
+  annualSpots: 5000
+  startSalary: 78
+  midSalary: 120
+  peakSalary: 180
+  typicalPeak: 135
+  partTimeFlex: 4
+  procedureMix: 6
+  callSchedule: 7
+  adminBurden: 6
+  hoursWeek: 44
+  burnout: 26
+  partTimeFeasibility: 4
+  vacation: 5
+  careerLongevity: 8
+  malpracticeFreq: 8
+  malpracticeCost: 3
+  geographicFlex: 4
+  automationRisk: 3
+  handsOnInsulation: 7
+  satisfaction: 74
+  chooseAgain: 68
+  intellectualStim: 8
+  varietyRepetition: 6
+  patientImpact: 8
+  physicalToll: 7
+  emotionalToll: 7
+  malpracticeLiability: 7
+  injuryCareerRisk: 8
+  fellowshipOptions: "Optional MS in bioprocess; PMP or Six Sigma"
+  compModel: "Base salary + bonus; pharma/biotech companies"
+  revPerPatientVisit: "$110-200/hr (consulting) or salaried"
+  dailyWorkflow: "Bioreactor scale-up, GMP compliance, batch record review, tech transfer"
+  patientVolume: "2-4 active drug product/process projects"
+  supportStaffModel: "Lab technicians, quality, validation engineers, operators"
+  geographicDemandNotes: "NJ/PA (pharma corridor), Boston/Cambridge, San Francisco, RTP"
+  telehealthPotential: 3
+  genderDistribution: "~40% women"
+
+- name: "Food / Beverage Process Engineer"
+  group: chemical_process
+  residencyYears: 0
+  annualSpots: 4000
+  startSalary: 65
+  midSalary: 95
+  peakSalary: 130
+  typicalPeak: 102
+  partTimeFlex: 3
+  procedureMix: 7
+  callSchedule: 7
+  adminBurden: 5
+  hoursWeek: 44
+  burnout: 22
+  partTimeFeasibility: 3
+  vacation: 4
+  careerLongevity: 8
+  malpracticeFreq: 8
+  malpracticeCost: 3
+  geographicFlex: 4
+  automationRisk: 3
+  handsOnInsulation: 8
+  satisfaction: 68
+  chooseAgain: 62
+  intellectualStim: 6
+  varietyRepetition: 5
+  patientImpact: 6
+  physicalToll: 7
+  emotionalToll: 8
+  malpracticeLiability: 7
+  injuryCareerRisk: 8
+  fellowshipOptions: "Food safety certifications (SQF, PCQI); optional MS in food science"
+  compModel: "Base salary + bonus; CPG companies or food manufacturers"
+  revPerPatientVisit: "$80-140/hr (consulting) or salaried"
+  dailyWorkflow: "Line optimization, sanitation design, thermal processing, HACCP compliance"
+  patientVolume: "3-8 active production lines"
+  supportStaffModel: "Line operators, QA technicians, maintenance, sanitation crew"
+  geographicDemandNotes: "Midwest (dairy, meat), California (produce), nationwide food plants"
+  telehealthPotential: 2
+  genderDistribution: "~35% women"
+
+- name: "Petroleum / Reservoir Engineer"
+  group: chemical_process
+  residencyYears: 0
+  annualSpots: 3000
+  startSalary: 95
+  midSalary: 145
+  peakSalary: 220
+  typicalPeak: 165
+  partTimeFlex: 2
+  procedureMix: 6
+  callSchedule: 5
+  adminBurden: 5
+  hoursWeek: 48
+  burnout: 30
+  partTimeFeasibility: 2
+  vacation: 4
+  careerLongevity: 7
+  malpracticeFreq: 8
+  malpracticeCost: 5
+  geographicFlex: 3
+  automationRisk: 4
+  handsOnInsulation: 7
+  satisfaction: 70
+  chooseAgain: 62
+  intellectualStim: 7
+  varietyRepetition: 5
+  patientImpact: 4
+  physicalToll: 6
+  emotionalToll: 7
+  malpracticeLiability: 7
+  injuryCareerRisk: 7
+  fellowshipOptions: "PE license; optional MS in petroleum engineering"
+  compModel: "Base salary + field bonus + profit sharing; oil majors or service companies"
+  revPerPatientVisit: "$150-300/hr (consulting) or salaried"
+  dailyWorkflow: "Reservoir simulation, well planning, production optimization, decline analysis"
+  patientVolume: "3-10 active wells/fields"
+  supportStaffModel: "Geologists, drilling engineers, field technicians, landmen"
+  geographicDemandNotes: "Houston, Midland/Permian, Denver, Anchorage — oil & gas basins"
+  telehealthPotential: 3
+  genderDistribution: "~18% women"
+
+- name: "Plastics / Composites Engineer"
+  group: chemical_process
+  residencyYears: 0
+  annualSpots: 3000
+  startSalary: 68
+  midSalary: 100
+  peakSalary: 140
+  typicalPeak: 110
+  partTimeFlex: 3
+  procedureMix: 7
+  callSchedule: 8
+  adminBurden: 4
+  hoursWeek: 44
+  burnout: 22
+  partTimeFeasibility: 3
+  vacation: 4
+  careerLongevity: 8
+  malpracticeFreq: 9
+  malpracticeCost: 2
+  geographicFlex: 4
+  automationRisk: 3
+  handsOnInsulation: 8
+  satisfaction: 68
+  chooseAgain: 62
+  intellectualStim: 7
+  varietyRepetition: 5
+  patientImpact: 4
+  physicalToll: 7
+  emotionalToll: 8
+  malpracticeLiability: 8
+  injuryCareerRisk: 8
+  fellowshipOptions: "Optional MS in materials/polymer science; SPE certifications"
+  compModel: "Base salary + bonus; automotive suppliers, aerospace, consumer goods"
+  revPerPatientVisit: "$90-160/hr (consulting) or salaried"
+  dailyWorkflow: "Mold design, material selection, processing optimization, failure analysis"
+  patientVolume: "3-8 active material/product projects"
+  supportStaffModel: "Lab technicians, mold makers, machine operators, QA"
+  geographicDemandNotes: "Midwest (auto), Southeast, anywhere with plastics manufacturing"
+  telehealthPotential: 2
+  genderDistribution: "~22% women"
+
+# === BIOMEDICAL (2) ===
+
+- name: "Biomedical Device Engineer"
+  group: biomedical
+  residencyYears: 0
+  annualSpots: 5000
+  startSalary: 72
+  midSalary: 108
+  peakSalary: 160
+  typicalPeak: 120
+  partTimeFlex: 4
+  procedureMix: 5
+  callSchedule: 8
+  adminBurden: 5
+  hoursWeek: 44
+  burnout: 25
+  partTimeFeasibility: 4
+  vacation: 5
+  careerLongevity: 8
+  malpracticeFreq: 7
+  malpracticeCost: 5
+  geographicFlex: 5
+  automationRisk: 3
+  handsOnInsulation: 6
+  satisfaction: 76
+  chooseAgain: 72
+  intellectualStim: 9
+  varietyRepetition: 7
+  patientImpact: 9
+  physicalToll: 8
+  emotionalToll: 7
+  malpracticeLiability: 6
+  injuryCareerRisk: 9
+  fellowshipOptions: "Optional MS in BME; Six Sigma, FDA regulatory knowledge"
+  compModel: "Base salary + bonus; medical device companies (Medtronic, J&J, etc.)"
+  revPerPatientVisit: "$100-200/hr (consulting) or salaried"
+  dailyWorkflow: "Device design, biocompatibility testing, V&V, design controls, FDA submissions"
+  patientVolume: "1-3 active device development projects"
+  supportStaffModel: "Regulatory affairs, quality, test engineers, clinical team"
+  geographicDemandNotes: "Minneapolis, Boston, San Jose, Orange County — medtech hubs"
+  telehealthPotential: 4
+  genderDistribution: "~38% women"
+
+- name: "Clinical / Regulatory Engineer"
+  group: biomedical
+  residencyYears: 0
+  annualSpots: 4000
+  startSalary: 70
+  midSalary: 105
+  peakSalary: 150
+  typicalPeak: 115
+  partTimeFlex: 5
+  procedureMix: 3
+  callSchedule: 9
+  adminBurden: 8
+  hoursWeek: 42
+  burnout: 22
+  partTimeFeasibility: 5
+  vacation: 5
+  careerLongevity: 9
+  malpracticeFreq: 7
+  malpracticeCost: 4
+  geographicFlex: 6
+  automationRisk: 4
+  handsOnInsulation: 3
+  satisfaction: 70
+  chooseAgain: 64
+  intellectualStim: 6
+  varietyRepetition: 5
+  patientImpact: 8
+  physicalToll: 9
+  emotionalToll: 7
+  malpracticeLiability: 6
+  injuryCareerRisk: 10
+  fellowshipOptions: "RAC certification; optional MS in regulatory science"
+  compModel: "Base salary + bonus; device/pharma companies or consulting"
+  revPerPatientVisit: "$100-180/hr (consulting) or salaried"
+  dailyWorkflow: "510(k)/PMA submissions, clinical trial protocols, risk analysis, audits"
+  patientVolume: "3-8 active regulatory submissions"
+  supportStaffModel: "Quality engineers, clinical affairs, documentation specialists"
+  geographicDemandNotes: "Boston, Minneapolis, San Jose — near medical device/pharma HQs"
+  telehealthPotential: 7
+  genderDistribution: "~48% women"
+
+# === ENVIRONMENTAL / ENERGY (6) ===
+
+- name: "Environmental / Remediation Engineer"
+  group: environmental_energy
+  residencyYears: 0
+  annualSpots: 7000
+  startSalary: 62
+  midSalary: 92
+  peakSalary: 130
+  typicalPeak: 100
+  partTimeFlex: 4
+  procedureMix: 6
+  callSchedule: 8
+  adminBurden: 6
+  hoursWeek: 42
+  burnout: 22
+  partTimeFeasibility: 4
+  vacation: 5
+  careerLongevity: 9
+  malpracticeFreq: 7
+  malpracticeCost: 5
+  geographicFlex: 5
+  automationRisk: 3
+  handsOnInsulation: 6
+  satisfaction: 74
+  chooseAgain: 68
+  intellectualStim: 7
+  varietyRepetition: 6
+  patientImpact: 8
+  physicalToll: 6
+  emotionalToll: 7
+  malpracticeLiability: 7
+  injuryCareerRisk: 7
+  fellowshipOptions: "PE license; optional MS in environmental engineering"
+  compModel: "Base salary; consulting firms, government (EPA), or industry"
+  revPerPatientVisit: "$90-160/hr (consulting) or government GS scale"
+  dailyWorkflow: "Site assessment, remediation design, permit applications, sampling"
+  patientVolume: "3-8 active cleanup/compliance projects"
+  supportStaffModel: "Field technicians, lab analysts, geologists, regulators"
+  geographicDemandNotes: "Nationwide — Superfund sites, industrial areas, coastal zones"
+  telehealthPotential: 4
+  genderDistribution: "~32% women"
+
+- name: "Solar / Photovoltaic Engineer"
+  group: environmental_energy
+  residencyYears: 0
+  annualSpots: 6000
+  startSalary: 72
+  midSalary: 108
+  peakSalary: 155
+  typicalPeak: 118
+  partTimeFlex: 4
+  procedureMix: 6
+  callSchedule: 8
+  adminBurden: 5
+  hoursWeek: 44
+  burnout: 24
+  partTimeFeasibility: 4
+  vacation: 4
+  careerLongevity: 8
+  malpracticeFreq: 8
+  malpracticeCost: 3
+  geographicFlex: 5
+  automationRisk: 3
+  handsOnInsulation: 7
+  satisfaction: 76
+  chooseAgain: 72
+  intellectualStim: 7
+  varietyRepetition: 5
+  patientImpact: 8
+  physicalToll: 6
+  emotionalToll: 8
+  malpracticeLiability: 7
+  injuryCareerRisk: 7
+  fellowshipOptions: "NABCEP certification; PE license; optional MS in renewable energy"
+  compModel: "Base salary + bonus; solar developers, EPCs, or utilities"
+  revPerPatientVisit: "$100-180/hr (consulting) or salaried"
+  dailyWorkflow: "PV system design, energy yield modeling, site assessment, interconnection"
+  patientVolume: "3-8 active solar projects"
+  supportStaffModel: "Installers, electricians, CAD technicians, permitting team"
+  geographicDemandNotes: "Sun Belt states (CA, TX, FL, AZ), but growing nationwide"
+  telehealthPotential: 5
+  genderDistribution: "~28% women"
+
+- name: "Wind Energy Engineer"
+  group: environmental_energy
+  residencyYears: 0
+  annualSpots: 4000
+  startSalary: 74
+  midSalary: 110
+  peakSalary: 155
+  typicalPeak: 120
+  partTimeFlex: 3
+  procedureMix: 6
+  callSchedule: 7
+  adminBurden: 5
+  hoursWeek: 44
+  burnout: 24
+  partTimeFeasibility: 3
+  vacation: 4
+  careerLongevity: 8
+  malpracticeFreq: 8
+  malpracticeCost: 3
+  geographicFlex: 4
+  automationRisk: 3
+  handsOnInsulation: 7
+  satisfaction: 76
+  chooseAgain: 72
+  intellectualStim: 7
+  varietyRepetition: 5
+  patientImpact: 8
+  physicalToll: 6
+  emotionalToll: 8
+  malpracticeLiability: 7
+  injuryCareerRisk: 7
+  fellowshipOptions: "Optional MS in wind/energy engineering; GWO safety certifications"
+  compModel: "Base salary + bonus; wind developers, OEMs (Vestas, GE), or utilities"
+  revPerPatientVisit: "$100-180/hr (consulting) or salaried"
+  dailyWorkflow: "Wind resource assessment, turbine layout, structural loads, O&M optimization"
+  patientVolume: "2-5 active wind farm projects"
+  supportStaffModel: "Turbine technicians, met tower crew, GIS analysts, construction teams"
+  geographicDemandNotes: "Great Plains (TX, OK, KS, IA), offshore (East Coast), Midwest"
+  telehealthPotential: 4
+  genderDistribution: "~22% women"
+
+- name: "Nuclear Engineer"
+  group: environmental_energy
+  residencyYears: 0
+  annualSpots: 2000
+  startSalary: 80
+  midSalary: 120
+  peakSalary: 175
+  typicalPeak: 135
+  partTimeFlex: 2
+  procedureMix: 5
+  callSchedule: 6
+  adminBurden: 7
+  hoursWeek: 44
+  burnout: 24
+  partTimeFeasibility: 2
+  vacation: 4
+  careerLongevity: 9
+  malpracticeFreq: 8
+  malpracticeCost: 4
+  geographicFlex: 3
+  automationRisk: 2
+  handsOnInsulation: 6
+  satisfaction: 74
+  chooseAgain: 68
+  intellectualStim: 9
+  varietyRepetition: 5
+  patientImpact: 7
+  physicalToll: 7
+  emotionalToll: 6
+  malpracticeLiability: 6
+  injuryCareerRisk: 7
+  fellowshipOptions: "NRC reactor operator license; PE; optional MS in nuclear engineering"
+  compModel: "Base salary + nuclear premium; utilities, DOE, or Navy"
+  revPerPatientVisit: "$120-220/hr (consulting) or salaried"
+  dailyWorkflow: "Core analysis, safety reviews, refueling outage planning, NRC compliance"
+  patientVolume: "1-3 active reactor/project assignments"
+  supportStaffModel: "Reactor operators, radiation protection, health physics, NRC inspectors"
+  geographicDemandNotes: "Southeast (TVA, Duke), Illinois, Pennsylvania — near existing reactors"
+  telehealthPotential: 2
+  genderDistribution: "~15% women"
+
+- name: "Sustainability / ESG Consultant"
+  group: environmental_energy
+  residencyYears: 0
+  annualSpots: 5000
+  startSalary: 60
+  midSalary: 88
+  peakSalary: 120
+  typicalPeak: 96
+  partTimeFlex: 6
+  procedureMix: 3
+  callSchedule: 9
+  adminBurden: 7
+  hoursWeek: 42
+  burnout: 20
+  partTimeFeasibility: 6
+  vacation: 5
+  careerLongevity: 7
+  malpracticeFreq: 9
+  malpracticeCost: 1
+  geographicFlex: 7
+  automationRisk: 5
+  handsOnInsulation: 3
+  satisfaction: 74
+  chooseAgain: 68
+  intellectualStim: 7
+  varietyRepetition: 7
+  patientImpact: 7
+  physicalToll: 9
+  emotionalToll: 7
+  malpracticeLiability: 9
+  injuryCareerRisk: 10
+  fellowshipOptions: "LEED AP, WELL AP, GHG certifications; optional MBA"
+  compModel: "Base salary + bonus; consulting firms, corporations, or NGOs"
+  revPerPatientVisit: "$80-160/hr (consulting) or salaried"
+  dailyWorkflow: "Carbon footprint analysis, ESG reporting, lifecycle assessment, strategy"
+  patientVolume: "4-10 active client/reporting projects"
+  supportStaffModel: "Data analysts, environmental scientists, communications, legal"
+  geographicDemandNotes: "Major metros (NYC, SF, Chicago, DC) — remote growing rapidly"
+  telehealthPotential: 8
+  genderDistribution: "~45% women"
+
+- name: "Water / Wastewater Treatment Engineer"
+  group: environmental_energy
+  residencyYears: 0
+  annualSpots: 5000
+  startSalary: 64
+  midSalary: 92
+  peakSalary: 130
+  typicalPeak: 100
+  partTimeFlex: 3
+  procedureMix: 7
+  callSchedule: 7
+  adminBurden: 5
+  hoursWeek: 42
+  burnout: 20
+  partTimeFeasibility: 3
+  vacation: 5
+  careerLongevity: 9
+  malpracticeFreq: 7
+  malpracticeCost: 5
+  geographicFlex: 5
+  automationRisk: 2
+  handsOnInsulation: 8
+  satisfaction: 72
+  chooseAgain: 66
+  intellectualStim: 7
+  varietyRepetition: 5
+  patientImpact: 9
+  physicalToll: 6
+  emotionalToll: 8
+  malpracticeLiability: 7
+  injuryCareerRisk: 7
+  fellowshipOptions: "PE license required; WEF/AWWA certifications"
+  compModel: "Base salary; municipalities, consulting firms, or utilities"
+  revPerPatientVisit: "$90-160/hr (consulting) or government salary"
+  dailyWorkflow: "Treatment process design, plant optimization, permit compliance, field sampling"
+  patientVolume: "2-6 active treatment plant projects"
+  supportStaffModel: "Plant operators, lab technicians, construction crews, regulators"
+  geographicDemandNotes: "Nationwide — every municipality needs water/wastewater infrastructure"
+  telehealthPotential: 3
+  genderDistribution: "~30% women"
+
+# === MANAGEMENT / CONSULTING (4) ===
+
+- name: "Technical Program Manager"
+  group: management_consulting
+  residencyYears: 0
+  annualSpots: 25000
+  startSalary: 100
+  midSalary: 160
+  peakSalary: 250
+  typicalPeak: 180
+  partTimeFlex: 4
+  procedureMix: 2
+  callSchedule: 6
+  adminBurden: 8
+  hoursWeek: 48
+  burnout: 35
+  partTimeFeasibility: 4
+  vacation: 5
+  careerLongevity: 7
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 8
+  automationRisk: 5
+  handsOnInsulation: 2
+  satisfaction: 70
+  chooseAgain: 64
+  intellectualStim: 6
+  varietyRepetition: 7
+  patientImpact: 5
+  physicalToll: 9
+  emotionalToll: 5
+  malpracticeLiability: 10
+  injuryCareerRisk: 10
+  fellowshipOptions: "PMP certification; optional MBA; Agile/Scrum certifications"
+  compModel: "Base + RSU/equity + bonus; tech companies or defense primes"
+  revPerPatientVisit: "$150-300/hr (consulting) or salaried"
+  dailyWorkflow: "Cross-team coordination, roadmap planning, risk mitigation, status reviews"
+  patientVolume: "2-5 active programs/launches"
+  supportStaffModel: "Engineering leads, PMs, scrum masters, exec stakeholders"
+  geographicDemandNotes: "SF, Seattle, NYC, Austin — wherever major tech companies are"
+  telehealthPotential: 8
+  genderDistribution: "~32% women"
+
+- name: "Patent Engineer / Agent"
+  group: management_consulting
+  residencyYears: 0
+  annualSpots: 3000
+  startSalary: 75
+  midSalary: 115
+  peakSalary: 180
+  typicalPeak: 135
+  partTimeFlex: 6
+  procedureMix: 1
+  callSchedule: 9
+  adminBurden: 7
+  hoursWeek: 45
+  burnout: 28
+  partTimeFeasibility: 6
+  vacation: 4
+  careerLongevity: 9
+  malpracticeFreq: 7
+  malpracticeCost: 5
+  geographicFlex: 7
+  automationRisk: 5
+  handsOnInsulation: 2
+  satisfaction: 70
+  chooseAgain: 64
+  intellectualStim: 8
+  varietyRepetition: 6
+  patientImpact: 4
+  physicalToll: 9
+  emotionalToll: 7
+  malpracticeLiability: 7
+  injuryCareerRisk: 10
+  fellowshipOptions: "Patent bar exam required; optional JD for patent attorney path"
+  compModel: "Base salary + billing bonus; IP law firms or corporate in-house"
+  revPerPatientVisit: "$200-450/hr billing rate"
+  dailyWorkflow: "Prior art search, claims drafting, prosecution, inventor interviews"
+  patientVolume: "10-30 active patent applications"
+  supportStaffModel: "Paralegals, docketing specialists, patent attorneys"
+  geographicDemandNotes: "DC, Silicon Valley, Boston, NYC — IP law firm concentrations"
+  telehealthPotential: 8
+  genderDistribution: "~30% women"
+
+- name: "Engineering Sales / Solutions Engineer"
+  group: management_consulting
+  residencyYears: 0
+  annualSpots: 15000
+  startSalary: 80
+  midSalary: 135
+  peakSalary: 220
+  typicalPeak: 155
+  partTimeFlex: 3
+  procedureMix: 3
+  callSchedule: 6
+  adminBurden: 6
+  hoursWeek: 46
+  burnout: 30
+  partTimeFeasibility: 3
+  vacation: 4
+  careerLongevity: 7
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 6
+  automationRisk: 4
+  handsOnInsulation: 3
+  satisfaction: 72
+  chooseAgain: 66
+  intellectualStim: 7
+  varietyRepetition: 8
+  patientImpact: 5
+  physicalToll: 8
+  emotionalToll: 6
+  malpracticeLiability: 10
+  injuryCareerRisk: 10
+  fellowshipOptions: "None required; industry certifications help (AWS, Salesforce, etc.)"
+  compModel: "Base salary + commission (50-100% variable); uncapped at top firms"
+  revPerPatientVisit: "$0 (revenue from closed deals, not hourly billing)"
+  dailyWorkflow: "Customer demos, technical proposals, RFP responses, relationship building"
+  patientVolume: "10-30 active prospects/accounts"
+  supportStaffModel: "Account executives, product team, marketing, customer success"
+  geographicDemandNotes: "Major metros nationwide; significant travel (30-50%)"
+  telehealthPotential: 7
+  genderDistribution: "~25% women"
+
+- name: "Product Manager (Tech)"
+  group: management_consulting
+  residencyYears: 0
+  annualSpots: 20000
+  startSalary: 100
+  midSalary: 165
+  peakSalary: 280
+  typicalPeak: 190
+  partTimeFlex: 4
+  procedureMix: 1
+  callSchedule: 7
+  adminBurden: 7
+  hoursWeek: 48
+  burnout: 38
+  partTimeFeasibility: 4
+  vacation: 5
+  careerLongevity: 6
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 8
+  automationRisk: 4
+  handsOnInsulation: 2
+  satisfaction: 72
+  chooseAgain: 66
+  intellectualStim: 7
+  varietyRepetition: 8
+  patientImpact: 6
+  physicalToll: 9
+  emotionalToll: 5
+  malpracticeLiability: 10
+  injuryCareerRisk: 10
+  fellowshipOptions: "None required; MBA common; CSPO/product certifications"
+  compModel: "Base + RSU/equity + bonus; FAANG-tier comp at senior levels"
+  revPerPatientVisit: "$0 (drives product revenue, not hourly billing)"
+  dailyWorkflow: "User research, roadmap prioritization, sprint planning, stakeholder alignment"
+  patientVolume: "1-3 active product areas"
+  supportStaffModel: "Engineers, designers, data analysts, marketing, exec sponsors"
+  geographicDemandNotes: "SF, Seattle, NYC, Austin — remote increasingly available"
+  telehealthPotential: 8
+  genderDistribution: "~35% women"

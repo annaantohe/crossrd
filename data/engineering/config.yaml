@@ -1,0 +1,153 @@
+# config.yaml — engineering profession family
+
+name: Engineering
+slug: engineering
+icon: "\U0001F527"
+headline: "Which Engineer Should You Become?"
+subtitle: "A Data-Driven Guide"
+
+groups:
+  software_tech:
+    label: "Software / Tech"
+    icon: "\U0001F4BB"
+    tagline: "you want to build the digital world"
+    description: "Software development, AI/ML, data, and cybersecurity"
+  mechanical_mfg:
+    label: "Mechanical / Manufacturing"
+    icon: "\u2699\uFE0F"
+    tagline: "you want to design real things"
+    description: "Product design, automotive, robotics, factory systems"
+  civil_construction:
+    label: "Civil / Construction"
+    icon: "\U0001F3D7\uFE0F"
+    tagline: "you want to build the world around you"
+    description: "Structures, roads, water systems, construction"
+  electrical:
+    label: "Electrical"
+    icon: "\u26A1"
+    tagline: "you want to control electrons"
+    description: "Circuits, chips, power, embedded systems"
+  aerospace_defense:
+    label: "Aerospace / Defense"
+    icon: "\U0001F680"
+    tagline: "you want to reach the sky and beyond"
+    description: "Aircraft, rockets, satellites, defense systems"
+  chemical_process:
+    label: "Chemical / Process"
+    icon: "\U0001F9EA"
+    tagline: "you want to transform matter"
+    description: "Refineries, pharma, materials, food processing"
+  biomedical:
+    label: "Biomedical"
+    icon: "\U0001FA7A"
+    tagline: "you want engineering to save lives"
+    description: "Medical devices, implants, imaging, neural interfaces"
+  environmental_energy:
+    label: "Environmental / Energy"
+    icon: "\U0001F33F"
+    tagline: "you want to power the future"
+    description: "Solar, wind, batteries, nuclear, sustainability"
+  management_consulting:
+    label: "Management / Consulting"
+    icon: "\U0001F4C8"
+    tagline: "you want to lead or advise"
+    description: "TPM, consulting, product management, quant finance"
+
+professions:
+  BS:
+    label: BS Engineer
+    color: "#2196F3"
+    annualGraduates: 130000
+  MS:
+    label: MS Engineer
+    color: "#FF9800"
+    annualGraduates: 55000
+  PhD:
+    label: PhD Engineer
+    color: "#9C27B0"
+    annualGraduates: 12000
+
+key_overrides:
+  "Software Engineer (General)":
+    key: swe
+    color: "#0D47A1"
+  "Machine Learning Engineer":
+    key: ml_eng
+    color: "#1565C0"
+  "AI / Deep Learning Researcher":
+    key: ai_researcher
+    color: "#6A1B9A"
+  "Quantitative Analyst / Quant Developer":
+    key: quant
+    color: "#880E4F"
+  "Propulsion Engineer":
+    key: propulsion
+    color: "#E65100"
+  "Management Consultant (Engineering)":
+    key: consultant
+    color: "#2E7D32"
+
+final_ranking:
+  - rank: 1
+    track: Machine Learning Engineer
+    key: ml_eng
+    note: Highest risk-adjusted earnings in tech
+  - rank: 2
+    track: Software Engineer (General)
+    key: swe
+    note: Best all-around engineering career
+  - rank: 3
+    track: Quantitative Analyst / Quant Developer
+    key: quant
+    note: Highest earnings ceiling
+  - rank: 4
+    track: Propulsion Engineer
+    key: propulsion
+    note: Most exciting hands-on path
+  - rank: 5
+    track: AI / Deep Learning Researcher
+    key: ai_researcher
+    note: Frontier of human knowledge
+  - rank: 6
+    track: Management Consultant (Engineering)
+    key: consultant
+    note: Best pivot to business leadership
+
+decision_tree:
+  q: "Do you enjoy coding and want to work on a computer most of the day?"
+  "yes":
+    q: "Do you care more about building products or doing research?"
+    "yes":
+      q: "Highest pay, or work you find meaningful?"
+      procedural: quant
+      variety: swe
+    "no": ai_researcher
+  "no":
+    q: "What matters most to you?"
+    options:
+      - label: "\U0001F4AA Highest pay + business impact"
+        result: consultant
+      - label: "\U0001F680 Building physical things that fly"
+        result: propulsion
+      - label: "\U0001F916 Cutting-edge technology"
+        result: ml_eng
+
+decision_tree_results:
+  swe:
+    tagline: "Best all-around engineering career"
+    stat: "$95K start \u2022 $250K peak \u2022 remote-friendly"
+  ml_eng:
+    tagline: "Hottest engineering specialty"
+    stat: "$130K start \u2022 $350K peak \u2022 explosive demand"
+  quant:
+    tagline: "Wall Street's math wizards"
+    stat: "$130K start \u2022 $500K+ peak \u2022 bonus-heavy"
+  propulsion:
+    tagline: "Build rocket engines"
+    stat: "$90K start \u2022 $200K peak \u2022 SpaceX/NASA"
+  ai_researcher:
+    tagline: "Push the frontier of intelligence"
+    stat: "$150K start \u2022 $400K peak \u2022 PhD required"
+  consultant:
+    tagline: "Engineering brain, business impact"
+    stat: "$85K start \u2022 $300K+ peak \u2022 MBB track"

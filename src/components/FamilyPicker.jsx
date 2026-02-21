@@ -22,7 +22,6 @@ export default function FamilyPicker({ families, onSelect, onCompare }) {
 
   // future families (greyed-out teasers)
   const comingSoon = [
-    { slug: "engineering", icon: "🔧", name: "Engineering", tagline: "build things that matter" },
     { slug: "business", icon: "💼", name: "Business", tagline: "run the show" },
   ];
 

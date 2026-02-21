@@ -1,0 +1,552 @@
+# MS Engineering specialties — 13 careers across 7 groups
+profession: MS
+specialties:
+
+# === SOFTWARE & TECH (2) ===
+
+- name: "Machine Learning Engineer"
+  group: software_tech
+  residencyYears: 0
+  annualSpots: 25000
+  startSalary: 130
+  midSalary: 210
+  peakSalary: 350
+  typicalPeak: 250
+  partTimeFlex: 6
+  procedureMix: 2
+  callSchedule: 8
+  adminBurden: 4
+  hoursWeek: 48
+  burnout: 38
+  partTimeFeasibility: 6
+  vacation: 5
+  careerLongevity: 6
+  malpracticeFreq: 10
+  malpracticeCost: 1
+  geographicFlex: 8
+  automationRisk: 3
+  handsOnInsulation: 2
+  satisfaction: 78
+  chooseAgain: 75
+  intellectualStim: 9
+  varietyRepetition: 7
+  patientImpact: 5
+  physicalToll: 9
+  emotionalToll: 7
+  malpracticeLiability: 10
+  injuryCareerRisk: 10
+  fellowshipOptions: "PhD track; specialization in NLP, computer vision, reinforcement learning"
+  compModel: "Base salary + RSUs + signing bonus; FAANG/top-tier startup comp"
+  revPerPatientVisit: "N/A — salaried or project-based"
+  dailyWorkflow: "Model training, data pipeline development, experiment tracking, deployment"
+  patientVolume: "2-5 active projects"
+  supportStaffModel: "Data engineers, MLOps, product managers"
+  geographicDemandNotes: "SF Bay Area, Seattle, NYC, Austin — remote increasingly common"
+  telehealthPotential: 8
+  genderDistribution: "~22% women"
+
+- name: "Data Scientist / Analytics Engineer"
+  group: software_tech
+  residencyYears: 0
+  annualSpots: 30000
+  startSalary: 95
+  midSalary: 150
+  peakSalary: 250
+  typicalPeak: 175
+  partTimeFlex: 7
+  procedureMix: 1
+  callSchedule: 9
+  adminBurden: 4
+  hoursWeek: 44
+  burnout: 30
+  partTimeFeasibility: 7
+  vacation: 6
+  careerLongevity: 6
+  malpracticeFreq: 10
+  malpracticeCost: 1
+  geographicFlex: 9
+  automationRisk: 5
+  handsOnInsulation: 2
+  satisfaction: 75
+  chooseAgain: 70
+  intellectualStim: 8
+  varietyRepetition: 7
+  patientImpact: 4
+  physicalToll: 10
+  emotionalToll: 8
+  malpracticeLiability: 10
+  injuryCareerRisk: 10
+  fellowshipOptions: "PhD in statistics/CS; specialization in causal inference, experimentation"
+  compModel: "Base salary + RSUs + bonus; tech and finance sectors pay highest"
+  revPerPatientVisit: "N/A — salaried"
+  dailyWorkflow: "SQL queries, A/B test analysis, dashboards, stakeholder presentations, modeling"
+  patientVolume: "3-8 concurrent analyses"
+  supportStaffModel: "Data engineers, analysts, product managers"
+  geographicDemandNotes: "Fully remote common; SF, NYC, Seattle hubs"
+  telehealthPotential: 9
+  genderDistribution: "~35% women"
+
+# === MECHANICAL & MANUFACTURING (1) ===
+
+- name: "Robotics Engineer"
+  group: mechanical_mfg
+  residencyYears: 0
+  annualSpots: 6000
+  startSalary: 95
+  midSalary: 145
+  peakSalary: 220
+  typicalPeak: 165
+  partTimeFlex: 4
+  procedureMix: 7
+  callSchedule: 8
+  adminBurden: 4
+  hoursWeek: 45
+  burnout: 30
+  partTimeFeasibility: 4
+  vacation: 5
+  careerLongevity: 7
+  malpracticeFreq: 10
+  malpracticeCost: 1
+  geographicFlex: 5
+  automationRisk: 3
+  handsOnInsulation: 8
+  satisfaction: 80
+  chooseAgain: 75
+  intellectualStim: 9
+  varietyRepetition: 7
+  patientImpact: 5
+  physicalToll: 8
+  emotionalToll: 8
+  malpracticeLiability: 10
+  injuryCareerRisk: 9
+  fellowshipOptions: "PhD robotics; specialization in perception, manipulation, autonomous systems"
+  compModel: "Base salary + bonus; startup equity common in robotics"
+  revPerPatientVisit: "N/A — salaried"
+  dailyWorkflow: "System integration, controls programming, sensor fusion, hardware testing, simulation"
+  patientVolume: "1-3 major projects"
+  supportStaffModel: "Mechanical technicians, software engineers, test engineers"
+  geographicDemandNotes: "Boston, Pittsburgh, SF Bay Area, Detroit — robotics clusters"
+  telehealthPotential: 4
+  genderDistribution: "~18% women"
+
+# === CIVIL & CONSTRUCTION (1) ===
+
+- name: "Urban / City Planner (Engineering)"
+  group: civil_construction
+  residencyYears: 0
+  annualSpots: 4000
+  startSalary: 62
+  midSalary: 88
+  peakSalary: 120
+  typicalPeak: 95
+  partTimeFlex: 4
+  procedureMix: 3
+  callSchedule: 9
+  adminBurden: 6
+  hoursWeek: 42
+  burnout: 20
+  partTimeFeasibility: 5
+  vacation: 6
+  careerLongevity: 8
+  malpracticeFreq: 9
+  malpracticeCost: 1
+  geographicFlex: 4
+  automationRisk: 4
+  handsOnInsulation: 3
+  satisfaction: 72
+  chooseAgain: 65
+  intellectualStim: 7
+  varietyRepetition: 6
+  patientImpact: 7
+  physicalToll: 9
+  emotionalToll: 7
+  malpracticeLiability: 9
+  injuryCareerRisk: 10
+  fellowshipOptions: "AICP certification; specialization in transportation, environmental planning"
+  compModel: "Government salary + pension; consulting firms pay 15-20% more"
+  revPerPatientVisit: "N/A — salaried or project-based billing"
+  dailyWorkflow: "Zoning analysis, public meetings, GIS mapping, comprehensive plan drafting, site review"
+  patientVolume: "5-15 active projects"
+  supportStaffModel: "GIS analysts, planning technicians, admin staff"
+  geographicDemandNotes: "Every metro area — growth cities (Austin, Phoenix, Nashville) have highest demand"
+  telehealthPotential: 5
+  genderDistribution: "~40% women"
+
+# === ELECTRICAL (2) ===
+
+- name: "Semiconductor / Chip Design Engineer"
+  group: electrical
+  residencyYears: 0
+  annualSpots: 5000
+  startSalary: 115
+  midSalary: 175
+  peakSalary: 300
+  typicalPeak: 210
+  partTimeFlex: 4
+  procedureMix: 5
+  callSchedule: 8
+  adminBurden: 4
+  hoursWeek: 46
+  burnout: 32
+  partTimeFeasibility: 4
+  vacation: 5
+  careerLongevity: 7
+  malpracticeFreq: 10
+  malpracticeCost: 1
+  geographicFlex: 4
+  automationRisk: 4
+  handsOnInsulation: 6
+  satisfaction: 78
+  chooseAgain: 72
+  intellectualStim: 9
+  varietyRepetition: 5
+  patientImpact: 5
+  physicalToll: 9
+  emotionalToll: 7
+  malpracticeLiability: 10
+  injuryCareerRisk: 10
+  fellowshipOptions: "PhD VLSI/IC design; specialization in RF, analog, digital, process node"
+  compModel: "Base salary + RSUs + bonus; CHIPS Act driving domestic investment"
+  revPerPatientVisit: "N/A — salaried"
+  dailyWorkflow: "RTL design, verification, layout review, tape-out prep, simulation, fab liaison"
+  patientVolume: "1-3 chip projects (long cycles)"
+  supportStaffModel: "Verification engineers, layout teams, fab technicians"
+  geographicDemandNotes: "Silicon Valley, Austin, Portland, Boise — fab and design centers"
+  telehealthPotential: 5
+  genderDistribution: "~15% women"
+
+- name: "Signal Processing / DSP Engineer"
+  group: electrical
+  residencyYears: 0
+  annualSpots: 4000
+  startSalary: 90
+  midSalary: 140
+  peakSalary: 200
+  typicalPeak: 155
+  partTimeFlex: 5
+  procedureMix: 3
+  callSchedule: 9
+  adminBurden: 3
+  hoursWeek: 43
+  burnout: 25
+  partTimeFeasibility: 5
+  vacation: 5
+  careerLongevity: 7
+  malpracticeFreq: 10
+  malpracticeCost: 1
+  geographicFlex: 6
+  automationRisk: 5
+  handsOnInsulation: 4
+  satisfaction: 75
+  chooseAgain: 70
+  intellectualStim: 9
+  varietyRepetition: 5
+  patientImpact: 4
+  physicalToll: 9
+  emotionalToll: 8
+  malpracticeLiability: 10
+  injuryCareerRisk: 10
+  fellowshipOptions: "PhD signal processing; specialization in radar, communications, audio, image"
+  compModel: "Base salary + bonus; defense contractors offer clearance premium"
+  revPerPatientVisit: "N/A — salaried"
+  dailyWorkflow: "Algorithm development, MATLAB/Python prototyping, embedded implementation, testing"
+  patientVolume: "2-4 projects"
+  supportStaffModel: "Test engineers, firmware developers, systems engineers"
+  geographicDemandNotes: "Defense hubs (DC, San Diego, Dallas), telecom centers, tech hubs"
+  telehealthPotential: 6
+  genderDistribution: "~18% women"
+
+# === AEROSPACE & DEFENSE (2) ===
+
+- name: "Propulsion Engineer"
+  group: aerospace_defense
+  residencyYears: 0
+  annualSpots: 2000
+  startSalary: 90
+  midSalary: 140
+  peakSalary: 200
+  typicalPeak: 155
+  partTimeFlex: 3
+  procedureMix: 7
+  callSchedule: 8
+  adminBurden: 5
+  hoursWeek: 46
+  burnout: 30
+  partTimeFeasibility: 3
+  vacation: 4
+  careerLongevity: 8
+  malpracticeFreq: 10
+  malpracticeCost: 1
+  geographicFlex: 3
+  automationRisk: 3
+  handsOnInsulation: 8
+  satisfaction: 82
+  chooseAgain: 78
+  intellectualStim: 9
+  varietyRepetition: 6
+  patientImpact: 5
+  physicalToll: 8
+  emotionalToll: 7
+  malpracticeLiability: 10
+  injuryCareerRisk: 9
+  fellowshipOptions: "PhD propulsion/combustion; NASA fellowships; specialization in electric, liquid, solid"
+  compModel: "Base salary + clearance premium; government contractor or NASA civil servant"
+  revPerPatientVisit: "N/A — salaried"
+  dailyWorkflow: "Engine analysis, CFD simulation, test firing coordination, design review, reporting"
+  patientVolume: "1-2 major programs"
+  supportStaffModel: "Test technicians, machinists, systems engineers, program managers"
+  geographicDemandNotes: "Huntsville AL, Houston, Cape Canaveral, Edwards AFB — launch/test sites"
+  telehealthPotential: 3
+  genderDistribution: "~16% women"
+
+- name: "Satellite / Spacecraft Engineer"
+  group: aerospace_defense
+  residencyYears: 0
+  annualSpots: 2500
+  startSalary: 88
+  midSalary: 135
+  peakSalary: 190
+  typicalPeak: 150
+  partTimeFlex: 3
+  procedureMix: 6
+  callSchedule: 7
+  adminBurden: 5
+  hoursWeek: 45
+  burnout: 28
+  partTimeFeasibility: 3
+  vacation: 4
+  careerLongevity: 8
+  malpracticeFreq: 10
+  malpracticeCost: 1
+  geographicFlex: 3
+  automationRisk: 3
+  handsOnInsulation: 7
+  satisfaction: 80
+  chooseAgain: 76
+  intellectualStim: 9
+  varietyRepetition: 6
+  patientImpact: 5
+  physicalToll: 8
+  emotionalToll: 7
+  malpracticeLiability: 10
+  injuryCareerRisk: 9
+  fellowshipOptions: "PhD aerospace; specialization in GNC, structures, thermal, power systems"
+  compModel: "Base salary + clearance premium; SpaceX/Blue Origin stock options"
+  revPerPatientVisit: "N/A — salaried"
+  dailyWorkflow: "Subsystem design, thermal/structural analysis, integration testing, mission ops support"
+  patientVolume: "1-2 spacecraft programs"
+  supportStaffModel: "Technicians, systems engineers, mission analysts, program managers"
+  geographicDemandNotes: "LA/El Segundo, Denver, DC metro, Cape Canaveral, Seattle — space hubs"
+  telehealthPotential: 3
+  genderDistribution: "~20% women"
+
+# === BIOMEDICAL (2) ===
+
+- name: "Biomechanics / Orthopedic Engineer"
+  group: biomedical
+  residencyYears: 0
+  annualSpots: 3000
+  startSalary: 78
+  midSalary: 120
+  peakSalary: 170
+  typicalPeak: 135
+  partTimeFlex: 4
+  procedureMix: 7
+  callSchedule: 8
+  adminBurden: 5
+  hoursWeek: 44
+  burnout: 24
+  partTimeFeasibility: 4
+  vacation: 5
+  careerLongevity: 8
+  malpracticeFreq: 9
+  malpracticeCost: 2
+  geographicFlex: 5
+  automationRisk: 4
+  handsOnInsulation: 7
+  satisfaction: 76
+  chooseAgain: 70
+  intellectualStim: 8
+  varietyRepetition: 6
+  patientImpact: 8
+  physicalToll: 8
+  emotionalToll: 7
+  malpracticeLiability: 9
+  injuryCareerRisk: 9
+  fellowshipOptions: "PhD biomechanics; specialization in implants, prosthetics, sports biomech"
+  compModel: "Base salary + bonus; medical device companies (Stryker, Zimmer) pay well"
+  revPerPatientVisit: "N/A — salaried"
+  dailyWorkflow: "FEA modeling, cadaver testing, implant design, clinical collaboration, FDA submissions"
+  patientVolume: "2-4 device development projects"
+  supportStaffModel: "Lab technicians, regulatory affairs, clinical specialists"
+  geographicDemandNotes: "Minneapolis, Boston, Warsaw IN, Memphis — med device clusters"
+  telehealthPotential: 4
+  genderDistribution: "~35% women"
+
+- name: "Medical Imaging Engineer"
+  group: biomedical
+  residencyYears: 0
+  annualSpots: 3000
+  startSalary: 82
+  midSalary: 128
+  peakSalary: 185
+  typicalPeak: 145
+  partTimeFlex: 5
+  procedureMix: 5
+  callSchedule: 8
+  adminBurden: 4
+  hoursWeek: 44
+  burnout: 25
+  partTimeFeasibility: 5
+  vacation: 5
+  careerLongevity: 8
+  malpracticeFreq: 9
+  malpracticeCost: 2
+  geographicFlex: 5
+  automationRisk: 4
+  handsOnInsulation: 5
+  satisfaction: 78
+  chooseAgain: 72
+  intellectualStim: 9
+  varietyRepetition: 6
+  patientImpact: 8
+  physicalToll: 9
+  emotionalToll: 7
+  malpracticeLiability: 9
+  injuryCareerRisk: 10
+  fellowshipOptions: "PhD medical imaging; specialization in MRI, CT, ultrasound, AI-assisted diagnostics"
+  compModel: "Base salary + bonus; GE Healthcare, Siemens, Philips are major employers"
+  revPerPatientVisit: "N/A — salaried"
+  dailyWorkflow: "Algorithm development, image reconstruction, clinical validation, regulatory documentation"
+  patientVolume: "2-4 product development programs"
+  supportStaffModel: "Software developers, clinical scientists, QA engineers"
+  geographicDemandNotes: "Milwaukee, Boston, SF Bay Area — imaging company HQs and research hospitals"
+  telehealthPotential: 6
+  genderDistribution: "~32% women"
+
+# === ENVIRONMENTAL & ENERGY (1) ===
+
+- name: "Battery / Energy Storage Engineer"
+  group: environmental_energy
+  residencyYears: 0
+  annualSpots: 5000
+  startSalary: 90
+  midSalary: 140
+  peakSalary: 210
+  typicalPeak: 160
+  partTimeFlex: 4
+  procedureMix: 7
+  callSchedule: 8
+  adminBurden: 4
+  hoursWeek: 45
+  burnout: 28
+  partTimeFeasibility: 4
+  vacation: 5
+  careerLongevity: 8
+  malpracticeFreq: 10
+  malpracticeCost: 1
+  geographicFlex: 5
+  automationRisk: 3
+  handsOnInsulation: 8
+  satisfaction: 78
+  chooseAgain: 74
+  intellectualStim: 9
+  varietyRepetition: 6
+  patientImpact: 7
+  physicalToll: 8
+  emotionalToll: 7
+  malpracticeLiability: 10
+  injuryCareerRisk: 9
+  fellowshipOptions: "PhD electrochemistry/materials science; specialization in Li-ion, solid-state, flow batteries"
+  compModel: "Base salary + bonus; EV companies (Tesla, Rivian) offer stock options"
+  revPerPatientVisit: "N/A — salaried"
+  dailyWorkflow: "Cell testing, electrochemical analysis, material characterization, prototype assembly, data analysis"
+  patientVolume: "2-4 R&D projects"
+  supportStaffModel: "Lab technicians, materials scientists, manufacturing engineers"
+  geographicDemandNotes: "Detroit, Bay Area, Nevada (gigafactories), Austin — EV and battery hubs"
+  telehealthPotential: 3
+  genderDistribution: "~25% women"
+
+# === MANAGEMENT & CONSULTING (2) ===
+
+- name: "Management Consultant (Engineering)"
+  group: management_consulting
+  residencyYears: 0
+  annualSpots: 8000
+  startSalary: 85
+  midSalary: 170
+  peakSalary: 300
+  typicalPeak: 200
+  partTimeFlex: 3
+  procedureMix: 2
+  callSchedule: 5
+  adminBurden: 7
+  hoursWeek: 55
+  burnout: 45
+  partTimeFeasibility: 3
+  vacation: 3
+  careerLongevity: 7
+  malpracticeFreq: 9
+  malpracticeCost: 2
+  geographicFlex: 7
+  automationRisk: 5
+  handsOnInsulation: 3
+  satisfaction: 72
+  chooseAgain: 65
+  intellectualStim: 7
+  varietyRepetition: 8
+  patientImpact: 4
+  physicalToll: 9
+  emotionalToll: 5
+  malpracticeLiability: 9
+  injuryCareerRisk: 10
+  fellowshipOptions: "MBA valued; specialization in operations, supply chain, digital transformation"
+  compModel: "Base salary + performance bonus; partner track (5-10yr) with profit sharing"
+  revPerPatientVisit: "N/A — project-based billing $300-500/hr per consultant"
+  dailyWorkflow: "Client workshops, data analysis, slide decks, stakeholder presentations, travel"
+  patientVolume: "2-4 engagements/year"
+  supportStaffModel: "Analysts, associates, research teams, subject matter experts"
+  geographicDemandNotes: "NYC, Chicago, SF, DC, Dallas — client proximity matters; heavy travel"
+  telehealthPotential: 6
+  genderDistribution: "~35% women partners"
+
+- name: "Quantitative Analyst / Quant Developer"
+  group: management_consulting
+  residencyYears: 0
+  annualSpots: 3000
+  startSalary: 130
+  midSalary: 250
+  peakSalary: 500
+  typicalPeak: 320
+  partTimeFlex: 3
+  procedureMix: 1
+  callSchedule: 5
+  adminBurden: 3
+  hoursWeek: 55
+  burnout: 42
+  partTimeFeasibility: 3
+  vacation: 4
+  careerLongevity: 7
+  malpracticeFreq: 10
+  malpracticeCost: 1
+  geographicFlex: 4
+  automationRisk: 4
+  handsOnInsulation: 2
+  satisfaction: 75
+  chooseAgain: 68
+  intellectualStim: 9
+  varietyRepetition: 5
+  patientImpact: 2
+  physicalToll: 10
+  emotionalToll: 5
+  malpracticeLiability: 10
+  injuryCareerRisk: 10
+  fellowshipOptions: "PhD in math/physics/CS valued; specialization in pricing, risk, alpha generation"
+  compModel: "Base salary + performance bonus (50-200% of base); hedge fund comp can be 7-figure"
+  revPerPatientVisit: "N/A — P&L driven compensation"
+  dailyWorkflow: "Model building, backtesting, C++/Python coding, risk analysis, market research"
+  patientVolume: "2-5 active strategies/models"
+  supportStaffModel: "Quant researchers, data engineers, traders, risk managers"
+  geographicDemandNotes: "NYC (dominant), Chicago, Greenwich CT, London — financial centers"
+  telehealthPotential: 5
+  genderDistribution: "~18% women"

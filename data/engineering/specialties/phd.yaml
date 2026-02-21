@@ -1,0 +1,372 @@
+# PhD Engineering specialty raw data — full 38 columns
+profession: PhD
+
+specialties:
+- name: AI / Deep Learning Researcher
+  group: software_tech
+  residencyYears: 0
+  annualSpots: 3000
+  startSalary: 150
+  midSalary: 250
+  peakSalary: 400
+  typicalPeak: 300
+  partTimeFlex: 3
+  procedureMix: 2
+  callSchedule: 8
+  adminBurden: 4
+  hoursWeek: 50
+  burnout: 35
+  partTimeFeasibility: 4
+  vacation: 5
+  careerLongevity: 8
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 7
+  automationRisk: 2
+  handsOnInsulation: 3
+  satisfaction: 82
+  chooseAgain: 75
+  intellectualStim: 10
+  varietyRepetition: 8
+  patientImpact: 6
+  physicalToll: 9
+  emotionalToll: 6
+  malpracticeLiability: 10
+  injuryCareerRisk: 10
+  fellowshipOptions: Postdoc 1-3yr (NLP, CV, RL, generative models)
+  compModel: Base salary + RSU/equity; big tech or startup
+  revPerPatientVisit: N/A — revenue via IP, products, licensing
+  dailyWorkflow: Research 60%, coding/experiments 30%, meetings/papers 10%
+  patientVolume: N/A
+  supportStaffModel: Research team (PhD students, research engineers, MLOps)
+  geographicDemandNotes: Bay Area, Seattle, NYC dominate; fully remote common
+  telehealthPotential: 9
+  genderDistribution: ~25% women; improving slowly
+
+- name: Materials / Polymer Scientist
+  group: chemical_process
+  residencyYears: 0
+  annualSpots: 2000
+  startSalary: 80
+  midSalary: 125
+  peakSalary: 175
+  typicalPeak: 140
+  partTimeFlex: 3
+  procedureMix: 7
+  callSchedule: 8
+  adminBurden: 5
+  hoursWeek: 45
+  burnout: 25
+  partTimeFeasibility: 3
+  vacation: 5
+  careerLongevity: 9
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 4
+  automationRisk: 3
+  handsOnInsulation: 7
+  satisfaction: 74
+  chooseAgain: 68
+  intellectualStim: 9
+  varietyRepetition: 7
+  patientImpact: 5
+  physicalToll: 8
+  emotionalToll: 5
+  malpracticeLiability: 10
+  injuryCareerRisk: 9
+  fellowshipOptions: Postdoc 1-2yr (polymer chemistry, nanomaterials, composites)
+  compModel: Salaried R&D; industry or national lab
+  revPerPatientVisit: N/A — revenue via patents, product development
+  dailyWorkflow: Lab synthesis/testing 50%, analysis/modeling 30%, writing 20%
+  patientVolume: N/A
+  supportStaffModel: Lab techs, analytical chemists, grad students
+  geographicDemandNotes: Chemical corridor (TX, LA), Midwest, national labs (NM, CA)
+  telehealthPotential: 2
+  genderDistribution: ~30% women; varies by sub-field
+
+- name: Tissue / Bioengineering Researcher
+  group: biomedical
+  residencyYears: 0
+  annualSpots: 1500
+  startSalary: 65
+  midSalary: 105
+  peakSalary: 150
+  typicalPeak: 115
+  partTimeFlex: 3
+  procedureMix: 8
+  callSchedule: 7
+  adminBurden: 5
+  hoursWeek: 48
+  burnout: 30
+  partTimeFeasibility: 3
+  vacation: 4
+  careerLongevity: 8
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 4
+  automationRisk: 3
+  handsOnInsulation: 8
+  satisfaction: 72
+  chooseAgain: 62
+  intellectualStim: 9
+  varietyRepetition: 7
+  patientImpact: 9
+  physicalToll: 8
+  emotionalToll: 6
+  malpracticeLiability: 10
+  injuryCareerRisk: 9
+  fellowshipOptions: Postdoc 2-3yr (tissue eng, regenerative med, biomaterials)
+  compModel: Academic salary + grants; industry R&D salaried
+  revPerPatientVisit: N/A — revenue via grants, IP licensing
+  dailyWorkflow: Cell culture/fabrication 40%, imaging/analysis 30%, writing/grants 30%
+  patientVolume: N/A
+  supportStaffModel: Grad students, lab techs, clinical collaborators
+  geographicDemandNotes: Major research universities; Boston, Bay Area, RTP dominate
+  telehealthPotential: 2
+  genderDistribution: ~40% women; one of more balanced eng PhDs
+
+- name: Neural / Brain-Computer Interface Engineer
+  group: biomedical
+  residencyYears: 0
+  annualSpots: 800
+  startSalary: 85
+  midSalary: 140
+  peakSalary: 200
+  typicalPeak: 160
+  partTimeFlex: 3
+  procedureMix: 6
+  callSchedule: 7
+  adminBurden: 4
+  hoursWeek: 48
+  burnout: 32
+  partTimeFeasibility: 3
+  vacation: 5
+  careerLongevity: 8
+  malpracticeFreq: 10
+  malpracticeCost: 1
+  geographicFlex: 4
+  automationRisk: 2
+  handsOnInsulation: 6
+  satisfaction: 80
+  chooseAgain: 72
+  intellectualStim: 10
+  varietyRepetition: 8
+  patientImpact: 9
+  physicalToll: 8
+  emotionalToll: 6
+  malpracticeLiability: 10
+  injuryCareerRisk: 9
+  fellowshipOptions: Postdoc 2-3yr (neural eng, neurotech, computational neuro)
+  compModel: Academic salary + grants; startup equity; Neuralink-type industry
+  revPerPatientVisit: N/A — revenue via grants, device licensing, startup equity
+  dailyWorkflow: Device design/testing 35%, signal processing 30%, writing/collab 35%
+  patientVolume: N/A
+  supportStaffModel: Grad students, EE techs, neuroscience collaborators, clinicians
+  geographicDemandNotes: Bay Area (Neuralink), Pittsburgh (CMU), Boston; very niche
+  telehealthPotential: 3
+  genderDistribution: ~28% women; growing field
+
+- name: Computational Scientist / HPC Researcher
+  group: software_tech
+  residencyYears: 0
+  annualSpots: 2000
+  startSalary: 100
+  midSalary: 160
+  peakSalary: 250
+  typicalPeak: 185
+  partTimeFlex: 4
+  procedureMix: 2
+  callSchedule: 8
+  adminBurden: 4
+  hoursWeek: 48
+  burnout: 30
+  partTimeFeasibility: 4
+  vacation: 5
+  careerLongevity: 9
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 6
+  automationRisk: 3
+  handsOnInsulation: 3
+  satisfaction: 76
+  chooseAgain: 70
+  intellectualStim: 9
+  varietyRepetition: 7
+  patientImpact: 6
+  physicalToll: 9
+  emotionalToll: 5
+  malpracticeLiability: 10
+  injuryCareerRisk: 10
+  fellowshipOptions: Postdoc 1-2yr (scientific computing, numerical methods, CFD)
+  compModel: Salaried; national lab or industry R&D (often DOE funded)
+  revPerPatientVisit: N/A — revenue via grants, compute contracts, consulting
+  dailyWorkflow: Code development 40%, simulation runs 30%, analysis/papers 30%
+  patientVolume: N/A
+  supportStaffModel: Research programmers, sysadmins, grad students
+  geographicDemandNotes: National labs (Livermore, Sandia, Oak Ridge); remote growing
+  telehealthPotential: 7
+  genderDistribution: ~20% women; one of lowest in eng PhD
+
+- name: Semiconductor Research Scientist
+  group: electrical
+  residencyYears: 0
+  annualSpots: 1500
+  startSalary: 120
+  midSalary: 180
+  peakSalary: 280
+  typicalPeak: 210
+  partTimeFlex: 3
+  procedureMix: 6
+  callSchedule: 8
+  adminBurden: 4
+  hoursWeek: 47
+  burnout: 28
+  partTimeFeasibility: 3
+  vacation: 5
+  careerLongevity: 8
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 3
+  automationRisk: 3
+  handsOnInsulation: 7
+  satisfaction: 75
+  chooseAgain: 70
+  intellectualStim: 9
+  varietyRepetition: 6
+  patientImpact: 5
+  physicalToll: 8
+  emotionalToll: 5
+  malpracticeLiability: 10
+  injuryCareerRisk: 9
+  fellowshipOptions: Postdoc 1-2yr (device physics, VLSI, photonics)
+  compModel: Industry salary + RSU (Intel, TSMC, Applied Materials); national lab
+  revPerPatientVisit: N/A — revenue via chip IP, process patents
+  dailyWorkflow: Cleanroom fabrication 35%, characterization 30%, modeling/papers 35%
+  patientVolume: N/A
+  supportStaffModel: Process engineers, fab techs, equipment specialists
+  geographicDemandNotes: Tied to fabs — Phoenix, Portland, Austin, upstate NY (CHIPS Act)
+  telehealthPotential: 2
+  genderDistribution: ~22% women; heavy industry push to diversify
+
+- name: Aerospace Research Scientist
+  group: aerospace_defense
+  residencyYears: 0
+  annualSpots: 1000
+  startSalary: 90
+  midSalary: 140
+  peakSalary: 200
+  typicalPeak: 155
+  partTimeFlex: 3
+  procedureMix: 5
+  callSchedule: 8
+  adminBurden: 5
+  hoursWeek: 47
+  burnout: 28
+  partTimeFeasibility: 3
+  vacation: 5
+  careerLongevity: 9
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 3
+  automationRisk: 3
+  handsOnInsulation: 5
+  satisfaction: 77
+  chooseAgain: 72
+  intellectualStim: 9
+  varietyRepetition: 7
+  patientImpact: 6
+  physicalToll: 9
+  emotionalToll: 5
+  malpracticeLiability: 10
+  injuryCareerRisk: 10
+  fellowshipOptions: Postdoc 1-2yr (propulsion, hypersonics, orbital mechanics, structures)
+  compModel: Salaried; defense contractor, NASA, national lab
+  revPerPatientVisit: N/A — revenue via gov contracts, SBIR grants
+  dailyWorkflow: Simulation/wind tunnel 40%, design/analysis 35%, reports/reviews 25%
+  patientVolume: N/A
+  supportStaffModel: Test engineers, machinists, grad students, program managers
+  geographicDemandNotes: Huntsville AL, LA basin, Denver, DC metro; security clearance often required
+  telehealthPotential: 3
+  genderDistribution: ~20% women; defense culture slow to shift
+
+- name: Climate / Energy Systems Researcher
+  group: environmental_energy
+  residencyYears: 0
+  annualSpots: 1500
+  startSalary: 70
+  midSalary: 110
+  peakSalary: 160
+  typicalPeak: 125
+  partTimeFlex: 4
+  procedureMix: 3
+  callSchedule: 8
+  adminBurden: 5
+  hoursWeek: 46
+  burnout: 28
+  partTimeFeasibility: 4
+  vacation: 4
+  careerLongevity: 9
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 5
+  automationRisk: 3
+  handsOnInsulation: 4
+  satisfaction: 78
+  chooseAgain: 72
+  intellectualStim: 9
+  varietyRepetition: 7
+  patientImpact: 8
+  physicalToll: 9
+  emotionalToll: 7
+  malpracticeLiability: 10
+  injuryCareerRisk: 10
+  fellowshipOptions: Postdoc 1-3yr (climate modeling, grid optimization, renewable systems)
+  compModel: Academic salary + grants; national lab; clean energy industry
+  revPerPatientVisit: N/A — revenue via DOE/NSF grants, consulting
+  dailyWorkflow: Modeling/simulation 40%, data analysis 30%, writing/policy 30%
+  patientVolume: N/A
+  supportStaffModel: Grad students, data engineers, policy analysts
+  geographicDemandNotes: National labs (NREL, LBNL), DC policy, university towns; growing everywhere
+  telehealthPotential: 6
+  genderDistribution: ~35% women; above average for eng PhD
+
+- name: Engineering Professor (Tenure Track)
+  group: management_consulting
+  residencyYears: 0
+  annualSpots: 3000
+  startSalary: 85
+  midSalary: 130
+  peakSalary: 200
+  typicalPeak: 145
+  partTimeFlex: 5
+  procedureMix: 3
+  callSchedule: 7
+  adminBurden: 8
+  hoursWeek: 55
+  burnout: 40
+  partTimeFeasibility: 3
+  vacation: 4
+  careerLongevity: 9
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 4
+  automationRisk: 4
+  handsOnInsulation: 4
+  satisfaction: 75
+  chooseAgain: 68
+  intellectualStim: 10
+  varietyRepetition: 8
+  patientImpact: 7
+  physicalToll: 9
+  emotionalToll: 7
+  malpracticeLiability: 10
+  injuryCareerRisk: 10
+  fellowshipOptions: Postdoc 1-3yr required; sabbatical every 7yr
+  compModel: 9-month salary + summer grants + consulting; endowed chair bonuses
+  revPerPatientVisit: N/A — revenue via grants (overhead), tuition, consulting
+  dailyWorkflow: Teaching 25%, research/advising 40%, grants/admin 25%, service 10%
+  patientVolume: N/A
+  supportStaffModel: Grad students (3-8), postdocs, lab manager, dept admin staff
+  geographicDemandNotes: University towns nationwide; R1 schools most competitive
+  telehealthPotential: 5
+  genderDistribution: ~25% women faculty; higher in biomed, lower in ME/EE

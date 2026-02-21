@@ -1,0 +1,7105 @@
+{
+  "meta": {
+    "profession_family": "engineering",
+    "family_name": "Engineering",
+    "headline": "Which Engineer Should You Become?",
+    "subtitle": "A Data-Driven Guide",
+    "icon": "\ud83d\udd27",
+    "last_updated": "2026-02-21",
+    "total_tracks": 66,
+    "data_points": 107,
+    "source_file": "yaml"
+  },
+  "professions": {
+    "BS": {
+      "label": "BS Engineer",
+      "color": "#2196F3",
+      "track_count": 44
+    },
+    "MS": {
+      "label": "MS Engineer",
+      "color": "#FF9800",
+      "track_count": 13
+    },
+    "PhD": {
+      "label": "PhD Engineer",
+      "color": "#9C27B0",
+      "track_count": 9
+    }
+  },
+  "groups": {
+    "software_tech": {
+      "label": "Software / Tech",
+      "icon": "\ud83d\udcbb",
+      "tagline": "you want to build the digital world",
+      "description": "Software development, AI/ML, data, and cybersecurity",
+      "count": 9,
+      "salary_range": [
+        200,
+        400
+      ]
+    },
+    "mechanical_mfg": {
+      "label": "Mechanical / Manufacturing",
+      "icon": "\u2699\ufe0f",
+      "tagline": "you want to design real things",
+      "description": "Product design, automotive, robotics, factory systems",
+      "count": 7,
+      "salary_range": [
+        130,
+        220
+      ]
+    },
+    "civil_construction": {
+      "label": "Civil / Construction",
+      "icon": "\ud83c\udfd7\ufe0f",
+      "tagline": "you want to build the world around you",
+      "description": "Structures, roads, water systems, construction",
+      "count": 7,
+      "salary_range": [
+        110,
+        160
+      ]
+    },
+    "electrical": {
+      "label": "Electrical",
+      "icon": "\u26a1",
+      "tagline": "you want to control electrons",
+      "description": "Circuits, chips, power, embedded systems",
+      "count": 8,
+      "salary_range": [
+        150,
+        300
+      ]
+    },
+    "aerospace_defense": {
+      "label": "Aerospace / Defense",
+      "icon": "\ud83d\ude80",
+      "tagline": "you want to reach the sky and beyond",
+      "description": "Aircraft, rockets, satellites, defense systems",
+      "count": 8,
+      "salary_range": [
+        170,
+        200
+      ]
+    },
+    "chemical_process": {
+      "label": "Chemical / Process",
+      "icon": "\ud83e\uddea",
+      "tagline": "you want to transform matter",
+      "description": "Refineries, pharma, materials, food processing",
+      "count": 6,
+      "salary_range": [
+        130,
+        220
+      ]
+    },
+    "biomedical": {
+      "label": "Biomedical",
+      "icon": "\ud83e\ude7a",
+      "tagline": "you want engineering to save lives",
+      "description": "Medical devices, implants, imaging, neural interfaces",
+      "count": 6,
+      "salary_range": [
+        150,
+        200
+      ]
+    },
+    "environmental_energy": {
+      "label": "Environmental / Energy",
+      "icon": "\ud83c\udf3f",
+      "tagline": "you want to power the future",
+      "description": "Solar, wind, batteries, nuclear, sustainability",
+      "count": 8,
+      "salary_range": [
+        120,
+        210
+      ]
+    },
+    "management_consulting": {
+      "label": "Management / Consulting",
+      "icon": "\ud83d\udcc8",
+      "tagline": "you want to lead or advise",
+      "description": "TPM, consulting, product management, quant finance",
+      "count": 7,
+      "salary_range": [
+        180,
+        500
+      ]
+    }
+  },
+  "careers": [
+    {
+      "key": "swe",
+      "name": "Software Engineer (General)",
+      "color": "#0D47A1",
+      "path": "BS Engineer",
+      "group": "software_tech"
+    },
+    {
+      "key": "frontend_full_stack_deve",
+      "name": "Frontend / Full-Stack Developer",
+      "color": "#338fd8",
+      "path": "BS Engineer",
+      "group": "software_tech"
+    },
+    {
+      "key": "backend_infrastructure_e",
+      "name": "Backend / Infrastructure Engineer",
+      "color": "#2065d8",
+      "path": "BS Engineer",
+      "group": "software_tech"
+    },
+    {
+      "key": "devops_site_reliability_",
+      "name": "DevOps / Site Reliability Engineer",
+      "color": "#2044d8",
+      "path": "BS Engineer",
+      "group": "software_tech"
+    },
+    {
+      "key": "cybersecurity_engineer",
+      "name": "Cybersecurity Engineer",
+      "color": "#3335d8",
+      "path": "BS Engineer",
+      "group": "software_tech"
+    },
+    {
+      "key": "mechanical_design_engine",
+      "name": "Mechanical Design Engineer",
+      "color": "#3e20d8",
+      "path": "BS Engineer",
+      "group": "mechanical_mfg"
+    },
+    {
+      "key": "manufacturing_process_en",
+      "name": "Manufacturing / Process Engineer",
+      "color": "#5f20d8",
+      "path": "BS Engineer",
+      "group": "mechanical_mfg"
+    },
+    {
+      "key": "automotive_engineer",
+      "name": "Automotive Engineer",
+      "color": "#8933d8",
+      "path": "BS Engineer",
+      "group": "mechanical_mfg"
+    },
+    {
+      "key": "hvac_building_systems_en",
+      "name": "HVAC / Building Systems Engineer",
+      "color": "#a220d8",
+      "path": "BS Engineer",
+      "group": "mechanical_mfg"
+    },
+    {
+      "key": "quality_reliability_engi",
+      "name": "Quality / Reliability Engineer",
+      "color": "#c320d8",
+      "path": "BS Engineer",
+      "group": "mechanical_mfg"
+    },
+    {
+      "key": "mechatronics_controls_en",
+      "name": "Mechatronics / Controls Engineer",
+      "color": "#d833ce",
+      "path": "BS Engineer",
+      "group": "mechanical_mfg"
+    },
+    {
+      "key": "structural_engineer",
+      "name": "Structural Engineer",
+      "color": "#d820ac",
+      "path": "BS Engineer",
+      "group": "civil_construction"
+    },
+    {
+      "key": "transportation_traffic_e",
+      "name": "Transportation / Traffic Engineer",
+      "color": "#d8208a",
+      "path": "BS Engineer",
+      "group": "civil_construction"
+    },
+    {
+      "key": "geotechnical_engineer",
+      "name": "Geotechnical Engineer",
+      "color": "#d83374",
+      "path": "BS Engineer",
+      "group": "civil_construction"
+    },
+    {
+      "key": "water_resources_engineer",
+      "name": "Water Resources Engineer",
+      "color": "#d82048",
+      "path": "BS Engineer",
+      "group": "civil_construction"
+    },
+    {
+      "key": "construction_manager_eng",
+      "name": "Construction Manager / Engineer",
+      "color": "#d82027",
+      "path": "BS Engineer",
+      "group": "civil_construction"
+    },
+    {
+      "key": "surveyor_geospatial_engi",
+      "name": "Surveyor / Geospatial Engineer",
+      "color": "#d84a33",
+      "path": "BS Engineer",
+      "group": "civil_construction"
+    },
+    {
+      "key": "electrical_design_engine",
+      "name": "Electrical Design Engineer",
+      "color": "#d85b20",
+      "path": "BS Engineer",
+      "group": "electrical"
+    },
+    {
+      "key": "embedded_systems_firmwar",
+      "name": "Embedded Systems / Firmware Engineer",
+      "color": "#d87d20",
+      "path": "BS Engineer",
+      "group": "electrical"
+    },
+    {
+      "key": "rf_wireless_engineer",
+      "name": "RF / Wireless Engineer",
+      "color": "#d8a433",
+      "path": "BS Engineer",
+      "group": "electrical"
+    },
+    {
+      "key": "power_systems_grid_engin",
+      "name": "Power Systems / Grid Engineer",
+      "color": "#d8bf20",
+      "path": "BS Engineer",
+      "group": "electrical"
+    },
+    {
+      "key": "controls_instrumentation",
+      "name": "Controls / Instrumentation Engineer",
+      "color": "#d0d820",
+      "path": "BS Engineer",
+      "group": "electrical"
+    },
+    {
+      "key": "aerospace_structures_eng",
+      "name": "Aerospace Structures Engineer",
+      "color": "#b3d833",
+      "path": "BS Engineer",
+      "group": "aerospace_defense"
+    },
+    {
+      "key": "avionics_flight_systems_",
+      "name": "Avionics / Flight Systems Engineer",
+      "color": "#8ed820",
+      "path": "BS Engineer",
+      "group": "aerospace_defense"
+    },
+    {
+      "key": "systems_engineer_defense",
+      "name": "Systems Engineer (Defense)",
+      "color": "#6dd820",
+      "path": "BS Engineer",
+      "group": "aerospace_defense"
+    },
+    {
+      "key": "flight_test_engineer",
+      "name": "Flight Test Engineer",
+      "color": "#5ad833",
+      "path": "BS Engineer",
+      "group": "aerospace_defense"
+    },
+    {
+      "key": "missile_weapons_systems_",
+      "name": "Missile / Weapons Systems Engineer",
+      "color": "#2bd820",
+      "path": "BS Engineer",
+      "group": "aerospace_defense"
+    },
+    {
+      "key": "chemical_process_enginee",
+      "name": "Chemical Process Engineer",
+      "color": "#20d837",
+      "path": "BS Engineer",
+      "group": "chemical_process"
+    },
+    {
+      "key": "pharmaceutical_bioproces",
+      "name": "Pharmaceutical / Bioprocess Engineer",
+      "color": "#33d865",
+      "path": "BS Engineer",
+      "group": "chemical_process"
+    },
+    {
+      "key": "food_beverage_process_en",
+      "name": "Food / Beverage Process Engineer",
+      "color": "#20d879",
+      "path": "BS Engineer",
+      "group": "chemical_process"
+    },
+    {
+      "key": "petroleum_reservoir_engi",
+      "name": "Petroleum / Reservoir Engineer",
+      "color": "#20d89a",
+      "path": "BS Engineer",
+      "group": "chemical_process"
+    },
+    {
+      "key": "plastics_composites_engi",
+      "name": "Plastics / Composites Engineer",
+      "color": "#33d8be",
+      "path": "BS Engineer",
+      "group": "chemical_process"
+    },
+    {
+      "key": "biomedical_device_engine",
+      "name": "Biomedical Device Engineer",
+      "color": "#20d4d8",
+      "path": "BS Engineer",
+      "group": "biomedical"
+    },
+    {
+      "key": "clinical_regulatory_engi",
+      "name": "Clinical / Regulatory Engineer",
+      "color": "#20b3d8",
+      "path": "BS Engineer",
+      "group": "biomedical"
+    },
+    {
+      "key": "environmental_remediatio",
+      "name": "Environmental / Remediation Engineer",
+      "color": "#3399d8",
+      "path": "BS Engineer",
+      "group": "environmental_energy"
+    },
+    {
+      "key": "solar_photovoltaic_engin",
+      "name": "Solar / Photovoltaic Engineer",
+      "color": "#2071d8",
+      "path": "BS Engineer",
+      "group": "environmental_energy"
+    },
+    {
+      "key": "wind_energy_engineer",
+      "name": "Wind Energy Engineer",
+      "color": "#204fd8",
+      "path": "BS Engineer",
+      "group": "environmental_energy"
+    },
+    {
+      "key": "nuclear_engineer",
+      "name": "Nuclear Engineer",
+      "color": "#333fd8",
+      "path": "BS Engineer",
+      "group": "environmental_energy"
+    },
+    {
+      "key": "sustainability_esg_consu",
+      "name": "Sustainability / ESG Consultant",
+      "color": "#3320d8",
+      "path": "BS Engineer",
+      "group": "environmental_energy"
+    },
+    {
+      "key": "water_wastewater_treatme",
+      "name": "Water / Wastewater Treatment Engineer",
+      "color": "#5420d8",
+      "path": "BS Engineer",
+      "group": "environmental_energy"
+    },
+    {
+      "key": "technical_program_manage",
+      "name": "Technical Program Manager",
+      "color": "#7f33d8",
+      "path": "BS Engineer",
+      "group": "management_consulting"
+    },
+    {
+      "key": "patent_engineer_agent",
+      "name": "Patent Engineer / Agent",
+      "color": "#9620d8",
+      "path": "BS Engineer",
+      "group": "management_consulting"
+    },
+    {
+      "key": "engineering_sales_soluti",
+      "name": "Engineering Sales / Solutions Engineer",
+      "color": "#b820d8",
+      "path": "BS Engineer",
+      "group": "management_consulting"
+    },
+    {
+      "key": "product_manager_tech",
+      "name": "Product Manager (Tech)",
+      "color": "#d833d8",
+      "path": "BS Engineer",
+      "group": "management_consulting"
+    },
+    {
+      "key": "ml_eng",
+      "name": "Machine Learning Engineer",
+      "color": "#1565C0",
+      "path": "MS Engineer",
+      "group": "software_tech"
+    },
+    {
+      "key": "data_scientist_analytics",
+      "name": "Data Scientist / Analytics Engineer",
+      "color": "#d88e20",
+      "path": "MS Engineer",
+      "group": "software_tech"
+    },
+    {
+      "key": "robotics_engineer",
+      "name": "Robotics Engineer",
+      "color": "#d8af20",
+      "path": "MS Engineer",
+      "group": "mechanical_mfg"
+    },
+    {
+      "key": "urban_city_planner_engin",
+      "name": "Urban / City Planner (Engineering)",
+      "color": "#d8d020",
+      "path": "MS Engineer",
+      "group": "civil_construction"
+    },
+    {
+      "key": "semiconductor_chip_desig",
+      "name": "Semiconductor / Chip Design Engineer",
+      "color": "#bfd820",
+      "path": "MS Engineer",
+      "group": "electrical"
+    },
+    {
+      "key": "signal_processing_dsp_en",
+      "name": "Signal Processing / DSP Engineer",
+      "color": "#9ed820",
+      "path": "MS Engineer",
+      "group": "electrical"
+    },
+    {
+      "key": "propulsion",
+      "name": "Propulsion Engineer",
+      "color": "#E65100",
+      "path": "MS Engineer",
+      "group": "aerospace_defense"
+    },
+    {
+      "key": "satellite_spacecraft_eng",
+      "name": "Satellite / Spacecraft Engineer",
+      "color": "#7dd820",
+      "path": "MS Engineer",
+      "group": "aerospace_defense"
+    },
+    {
+      "key": "biomechanics_orthopedic_",
+      "name": "Biomechanics / Orthopedic Engineer",
+      "color": "#5cd820",
+      "path": "MS Engineer",
+      "group": "biomedical"
+    },
+    {
+      "key": "medical_imaging_engineer",
+      "name": "Medical Imaging Engineer",
+      "color": "#3bd820",
+      "path": "MS Engineer",
+      "group": "biomedical"
+    },
+    {
+      "key": "battery_energy_storage_e",
+      "name": "Battery / Energy Storage Engineer",
+      "color": "#20d827",
+      "path": "MS Engineer",
+      "group": "environmental_energy"
+    },
+    {
+      "key": "consultant",
+      "name": "Management Consultant (Engineering)",
+      "color": "#2E7D32",
+      "path": "MS Engineer",
+      "group": "management_consulting"
+    },
+    {
+      "key": "quant",
+      "name": "Quantitative Analyst / Quant Developer",
+      "color": "#880E4F",
+      "path": "MS Engineer",
+      "group": "management_consulting"
+    },
+    {
+      "key": "ai_researcher",
+      "name": "AI / Deep Learning Researcher",
+      "color": "#6A1B9A",
+      "path": "PhD Engineer",
+      "group": "software_tech"
+    },
+    {
+      "key": "materials_polymer_scient",
+      "name": "Materials / Polymer Scientist",
+      "color": "#9535a5",
+      "path": "PhD Engineer",
+      "group": "chemical_process"
+    },
+    {
+      "key": "tissue_bioengineering_re",
+      "name": "Tissue / Bioengineering Researcher",
+      "color": "#ba29b5",
+      "path": "PhD Engineer",
+      "group": "biomedical"
+    },
+    {
+      "key": "neural_brain_computer_in",
+      "name": "Neural / Brain-Computer Interface Engineer",
+      "color": "#a51887",
+      "path": "PhD Engineer",
+      "group": "biomedical"
+    },
+    {
+      "key": "computational_scientist_",
+      "name": "Computational Scientist / HPC Researcher",
+      "color": "#ba3b88",
+      "path": "PhD Engineer",
+      "group": "software_tech"
+    },
+    {
+      "key": "semiconductor_research_s",
+      "name": "Semiconductor Research Scientist",
+      "color": "#a5245b",
+      "path": "PhD Engineer",
+      "group": "electrical"
+    },
+    {
+      "key": "aerospace_research_scien",
+      "name": "Aerospace Research Scientist",
+      "color": "#ba1b42",
+      "path": "PhD Engineer",
+      "group": "aerospace_defense"
+    },
+    {
+      "key": "climate_energy_systems_r",
+      "name": "Climate / Energy Systems Researcher",
+      "color": "#a5353c",
+      "path": "PhD Engineer",
+      "group": "environmental_energy"
+    },
+    {
+      "key": "engineering_professor_te",
+      "name": "Engineering Professor (Tenure Track)",
+      "color": "#ba3929",
+      "path": "PhD Engineer",
+      "group": "management_consulting"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Pre-Professional Phase",
+      "weight_default": 7,
+      "description": "How hard is it to start?"
+    },
+    {
+      "id": 2,
+      "name": "Admissions Competitiveness",
+      "weight_default": 7,
+      "description": "Can you realistically get in?"
+    },
+    {
+      "id": 3,
+      "name": "Professional School",
+      "weight_default": 5,
+      "description": "What's the school experience like?"
+    },
+    {
+      "id": 4,
+      "name": "Post-Graduate Training",
+      "weight_default": 8,
+      "description": "How long/hard is the road after school?"
+    },
+    {
+      "id": 5,
+      "name": "Financial Picture",
+      "weight_default": 10,
+      "description": "Cost, debt, time to financial freedom"
+    },
+    {
+      "id": 6,
+      "name": "Scope of Practice & Autonomy",
+      "weight_default": 8,
+      "description": "What can you do independently?"
+    },
+    {
+      "id": 7,
+      "name": "Career Economics",
+      "weight_default": 12,
+      "description": "How much do you earn over a career?"
+    },
+    {
+      "id": 8,
+      "name": "Daily Life & Practice Reality",
+      "weight_default": 8,
+      "description": "What does the work feel like?"
+    },
+    {
+      "id": 9,
+      "name": "Lifestyle & Work-Life Balance",
+      "weight_default": 10,
+      "description": "Can you have a life outside work?"
+    },
+    {
+      "id": 10,
+      "name": "Job Market & Demand",
+      "weight_default": 5,
+      "description": "Will you find work?"
+    },
+    {
+      "id": 11,
+      "name": "AI Revolution Impact",
+      "weight_default": 7,
+      "description": "How future-proof is this career?"
+    },
+    {
+      "id": 12,
+      "name": "Professional Satisfaction",
+      "weight_default": 8,
+      "description": "Will you enjoy this long-term?"
+    },
+    {
+      "id": 13,
+      "name": "Demographics & Culture",
+      "weight_default": 3,
+      "description": "Culture fit?"
+    },
+    {
+      "id": 14,
+      "name": "Risk Factors & Downsides",
+      "weight_default": 5,
+      "description": "Hidden costs and dangers"
+    }
+  ],
+  "scenario_profiles": {
+    "default": {
+      "1": 7,
+      "2": 7,
+      "3": 5,
+      "4": 8,
+      "5": 10,
+      "6": 8,
+      "7": 12,
+      "8": 8,
+      "9": 10,
+      "10": 5,
+      "11": 7,
+      "12": 8,
+      "13": 3,
+      "14": 5
+    },
+    "equal_weight": {
+      "1": 7,
+      "2": 7,
+      "3": 7,
+      "4": 7,
+      "5": 7,
+      "6": 7,
+      "7": 7,
+      "8": 7,
+      "9": 7,
+      "10": 7,
+      "11": 7,
+      "12": 7,
+      "13": 8,
+      "14": 8
+    },
+    "max_earnings": {
+      "1": 3,
+      "2": 3,
+      "3": 3,
+      "4": 5,
+      "5": 20,
+      "6": 8,
+      "7": 25,
+      "8": 5,
+      "9": 5,
+      "10": 8,
+      "11": 5,
+      "12": 5,
+      "13": 3,
+      "14": 2
+    },
+    "best_lifestyle": {
+      "1": 5,
+      "2": 5,
+      "3": 5,
+      "4": 8,
+      "5": 8,
+      "6": 5,
+      "7": 8,
+      "8": 12,
+      "9": 20,
+      "10": 5,
+      "11": 5,
+      "12": 10,
+      "13": 2,
+      "14": 2
+    },
+    "fastest_to_practice": {
+      "1": 12,
+      "2": 12,
+      "3": 12,
+      "4": 15,
+      "5": 12,
+      "6": 3,
+      "7": 5,
+      "8": 3,
+      "9": 5,
+      "10": 5,
+      "11": 3,
+      "12": 5,
+      "13": 5,
+      "14": 3
+    },
+    "most_procedural": {
+      "1": 5,
+      "2": 5,
+      "3": 5,
+      "4": 5,
+      "5": 5,
+      "6": 15,
+      "7": 5,
+      "8": 20,
+      "9": 5,
+      "10": 5,
+      "11": 5,
+      "12": 15,
+      "13": 3,
+      "14": 2
+    }
+  },
+  "tracks": [
+    {
+      "name": "Software Engineer (General)",
+      "key": "swe",
+      "profession": "BS",
+      "group": "software_tech",
+      "color": "#0D47A1",
+      "path": "BS Engineer",
+      "raw_data": {
+        "startSalary": 95,
+        "midSalary": 160,
+        "peakSalary": 250,
+        "typicalPeak": 180,
+        "hoursWeek": 45,
+        "burnout": 35,
+        "satisfaction": 72,
+        "chooseAgain": 70,
+        "malpracticeCost": 0,
+        "vacation": 6,
+        "matchComp": 10,
+        "annualSpots": 150000,
+        "oneInX": 1,
+        "callSchedule": 7,
+        "physicalToll": 9,
+        "emotionalToll": 7
+      },
+      "scores": {
+        "category_1": 6.75,
+        "category_2": 8.33,
+        "category_3": 6.67,
+        "category_4": 8.33,
+        "category_5": 6.6,
+        "category_6": 5.57,
+        "category_7": 4.85,
+        "category_8": 4.78,
+        "category_9": 6.6,
+        "category_10": 6.8,
+        "category_11": 4.4,
+        "category_12": 6.42,
+        "category_13": 4.5,
+        "category_14": 9.14
+      },
+      "scenario_totals": {
+        "default": 6.54,
+        "equal_weight": 6.42,
+        "max_earnings": 6.02,
+        "best_lifestyle": 6.32,
+        "fastest_to_practice": 6.83,
+        "most_procedural": 6.04
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 25,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 0,
+        "trainee_salary": 0,
+        "education_debt": 35,
+        "loan_rate": 5.5,
+        "living_expenses": 45,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 5,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 22,
+        "starting_salary": 95,
+        "mid_salary": 160,
+        "peak_salary": 250,
+        "typical_peak": 180,
+        "malpractice_per_yr": 0
+      },
+      "stress": {
+        "ai": 4,
+        "pay": 7,
+        "injury": 8,
+        "match": 6
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          22
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 22,
+        "startSalary": 95
+      }
+    },
+    {
+      "name": "Frontend / Full-Stack Developer",
+      "key": "frontend_full_stack_deve",
+      "profession": "BS",
+      "group": "software_tech",
+      "color": "#338fd8",
+      "path": "BS Engineer",
+      "raw_data": {
+        "startSalary": 85,
+        "midSalary": 145,
+        "peakSalary": 200,
+        "typicalPeak": 155,
+        "hoursWeek": 43,
+        "burnout": 30,
+        "satisfaction": 70,
+        "chooseAgain": 68,
+        "malpracticeCost": 0,
+        "vacation": 6,
+        "matchComp": 10,
+        "annualSpots": 90000,
+        "oneInX": 1,
+        "callSchedule": 8,
+        "physicalToll": 9,
+        "emotionalToll": 8
+      },
+      "scores": {
+        "category_1": 6.75,
+        "category_2": 8.33,
+        "category_3": 6.67,
+        "category_4": 8.67,
+        "category_5": 6.44,
+        "category_6": 5.71,
+        "category_7": 4.55,
+        "category_8": 4.75,
+        "category_9": 7.22,
+        "category_10": 7.0,
+        "category_11": 4.6,
+        "category_12": 6.08,
+        "category_13": 4.5,
+        "category_14": 9.29
+      },
+      "scenario_totals": {
+        "default": 6.59,
+        "equal_weight": 6.48,
+        "max_earnings": 5.98,
+        "best_lifestyle": 6.42,
+        "fastest_to_practice": 6.88,
+        "most_procedural": 6.05
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 25,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 0,
+        "trainee_salary": 0,
+        "education_debt": 35,
+        "loan_rate": 5.5,
+        "living_expenses": 45,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 5,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 22,
+        "starting_salary": 85,
+        "mid_salary": 145,
+        "peak_salary": 200,
+        "typical_peak": 155,
+        "malpractice_per_yr": 0
+      },
+      "stress": {
+        "ai": 4,
+        "pay": 8,
+        "injury": 8,
+        "match": 6
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          22
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 22,
+        "startSalary": 85
+      }
+    },
+    {
+      "name": "Backend / Infrastructure Engineer",
+      "key": "backend_infrastructure_e",
+      "profession": "BS",
+      "group": "software_tech",
+      "color": "#2065d8",
+      "path": "BS Engineer",
+      "raw_data": {
+        "startSalary": 100,
+        "midSalary": 170,
+        "peakSalary": 280,
+        "typicalPeak": 195,
+        "hoursWeek": 45,
+        "burnout": 35,
+        "satisfaction": 74,
+        "chooseAgain": 72,
+        "malpracticeCost": 0,
+        "vacation": 6,
+        "matchComp": 9,
+        "annualSpots": 80000,
+        "oneInX": 2,
+        "callSchedule": 6,
+        "physicalToll": 9,
+        "emotionalToll": 7
+      },
+      "scores": {
+        "category_1": 6.75,
+        "category_2": 8.0,
+        "category_3": 6.67,
+        "category_4": 8.0,
+        "category_5": 6.69,
+        "category_6": 5.57,
+        "category_7": 5.25,
+        "category_8": 4.78,
+        "category_9": 6.6,
+        "category_10": 6.8,
+        "category_11": 4.4,
+        "category_12": 6.43,
+        "category_13": 4.5,
+        "category_14": 9.14
+      },
+      "scenario_totals": {
+        "default": 6.55,
+        "equal_weight": 6.41,
+        "max_earnings": 6.11,
+        "best_lifestyle": 6.31,
+        "fastest_to_practice": 6.77,
+        "most_procedural": 6.03
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 25,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 0,
+        "trainee_salary": 0,
+        "education_debt": 35,
+        "loan_rate": 5.5,
+        "living_expenses": 45,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 5,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 22,
+        "starting_salary": 100,
+        "mid_salary": 170,
+        "peak_salary": 280,
+        "typical_peak": 195,
+        "malpractice_per_yr": 0
+      },
+      "stress": {
+        "ai": 4,
+        "pay": 8,
+        "injury": 8,
+        "match": 6
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          22
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 22,
+        "startSalary": 100
+      }
+    },
+    {
+      "name": "DevOps / Site Reliability Engineer",
+      "key": "devops_site_reliability_",
+      "profession": "BS",
+      "group": "software_tech",
+      "color": "#2044d8",
+      "path": "BS Engineer",
+      "raw_data": {
+        "startSalary": 105,
+        "midSalary": 165,
+        "peakSalary": 270,
+        "typicalPeak": 185,
+        "hoursWeek": 44,
+        "burnout": 38,
+        "satisfaction": 72,
+        "chooseAgain": 68,
+        "malpracticeCost": 0,
+        "vacation": 5,
+        "matchComp": 8,
+        "annualSpots": 45000,
+        "oneInX": 3,
+        "callSchedule": 4,
+        "physicalToll": 9,
+        "emotionalToll": 6
+      },
+      "scores": {
+        "category_1": 6.75,
+        "category_2": 7.67,
+        "category_3": 6.67,
+        "category_4": 7.33,
+        "category_5": 6.7,
+        "category_6": 5.29,
+        "category_7": 5.2,
+        "category_8": 5.38,
+        "category_9": 5.82,
+        "category_10": 6.6,
+        "category_11": 4.4,
+        "category_12": 5.83,
+        "category_13": 4.5,
+        "category_14": 9.0
+      },
+      "scenario_totals": {
+        "default": 6.35,
+        "equal_weight": 6.23,
+        "max_earnings": 5.98,
+        "best_lifestyle": 6.07,
+        "fastest_to_practice": 6.55,
+        "most_procedural": 5.92
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 25,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 0,
+        "trainee_salary": 0,
+        "education_debt": 35,
+        "loan_rate": 5.5,
+        "living_expenses": 45,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 5,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 22,
+        "starting_salary": 105,
+        "mid_salary": 165,
+        "peak_salary": 270,
+        "typical_peak": 185,
+        "malpractice_per_yr": 0
+      },
+      "stress": {
+        "ai": 5,
+        "pay": 6,
+        "injury": 7,
+        "match": 6
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          22
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 22,
+        "startSalary": 105
+      }
+    },
+    {
+      "name": "Cybersecurity Engineer",
+      "key": "cybersecurity_engineer",
+      "profession": "BS",
+      "group": "software_tech",
+      "color": "#3335d8",
+      "path": "BS Engineer",
+      "raw_data": {
+        "startSalary": 90,
+        "midSalary": 140,
+        "peakSalary": 230,
+        "typicalPeak": 160,
+        "hoursWeek": 44,
+        "burnout": 32,
+        "satisfaction": 74,
+        "chooseAgain": 70,
+        "malpracticeCost": 1,
+        "vacation": 5,
+        "matchComp": 8,
+        "annualSpots": 35000,
+        "oneInX": 4,
+        "callSchedule": 5,
+        "physicalToll": 9,
+        "emotionalToll": 6
+      },
+      "scores": {
+        "category_1": 6.75,
+        "category_2": 7.67,
+        "category_3": 6.67,
+        "category_4": 7.67,
+        "category_5": 6.46,
+        "category_6": 5.29,
+        "category_7": 5.22,
+        "category_8": 5.38,
+        "category_9": 6.12,
+        "category_10": 6.6,
+        "category_11": 4.4,
+        "category_12": 6.67,
+        "category_13": 4.5,
+        "category_14": 8.63
+      },
+      "scenario_totals": {
+        "default": 6.43,
+        "equal_weight": 6.29,
+        "max_earnings": 6.0,
+        "best_lifestyle": 6.22,
+        "fastest_to_practice": 6.62,
+        "most_procedural": 6.06
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 25,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 0,
+        "trainee_salary": 0,
+        "education_debt": 35,
+        "loan_rate": 5.5,
+        "living_expenses": 45,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 5,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 22,
+        "starting_salary": 90,
+        "mid_salary": 140,
+        "peak_salary": 230,
+        "typical_peak": 160,
+        "malpractice_per_yr": 1
+      },
+      "stress": {
+        "ai": 5,
+        "pay": 7,
+        "injury": 8,
+        "match": 6
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          22
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 22,
+        "startSalary": 90
+      }
+    },
+    {
+      "name": "Mechanical Design Engineer",
+      "key": "mechanical_design_engine",
+      "profession": "BS",
+      "group": "mechanical_mfg",
+      "color": "#3e20d8",
+      "path": "BS Engineer",
+      "raw_data": {
+        "startSalary": 70,
+        "midSalary": 105,
+        "peakSalary": 150,
+        "typicalPeak": 115,
+        "hoursWeek": 44,
+        "burnout": 28,
+        "satisfaction": 72,
+        "chooseAgain": 68,
+        "malpracticeCost": 2,
+        "vacation": 4,
+        "matchComp": 7,
+        "annualSpots": 18000,
+        "oneInX": 7,
+        "callSchedule": 9,
+        "physicalToll": 8,
+        "emotionalToll": 8
+      },
+      "scores": {
+        "category_1": 6.75,
+        "category_2": 7.33,
+        "category_3": 6.67,
+        "category_4": 9.0,
+        "category_5": 6.1,
+        "category_6": 5.0,
+        "category_7": 5.03,
+        "category_8": 5.88,
+        "category_9": 5.64,
+        "category_10": 6.0,
+        "category_11": 5.0,
+        "category_12": 6.0,
+        "category_13": 4.5,
+        "category_14": 8.4
+      },
+      "scenario_totals": {
+        "default": 6.37,
+        "equal_weight": 6.24,
+        "max_earnings": 5.86,
+        "best_lifestyle": 6.14,
+        "fastest_to_practice": 6.66,
+        "most_procedural": 6.0
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 25,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 0,
+        "trainee_salary": 0,
+        "education_debt": 35,
+        "loan_rate": 5.5,
+        "living_expenses": 45,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 5,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 22,
+        "starting_salary": 70,
+        "mid_salary": 105,
+        "peak_salary": 150,
+        "typical_peak": 115,
+        "malpractice_per_yr": 2
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 6,
+        "injury": 6,
+        "match": 6
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          22
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 22,
+        "startSalary": 70
+      }
+    },
+    {
+      "name": "Manufacturing / Process Engineer",
+      "key": "manufacturing_process_en",
+      "profession": "BS",
+      "group": "mechanical_mfg",
+      "color": "#5f20d8",
+      "path": "BS Engineer",
+      "raw_data": {
+        "startSalary": 68,
+        "midSalary": 98,
+        "peakSalary": 140,
+        "typicalPeak": 108,
+        "hoursWeek": 45,
+        "burnout": 25,
+        "satisfaction": 68,
+        "chooseAgain": 62,
+        "malpracticeCost": 2,
+        "vacation": 4,
+        "matchComp": 6,
+        "annualSpots": 15000,
+        "oneInX": 9,
+        "callSchedule": 7,
+        "physicalToll": 7,
+        "emotionalToll": 8
+      },
+      "scores": {
+        "category_1": 6.75,
+        "category_2": 7.0,
+        "category_3": 6.67,
+        "category_4": 8.33,
+        "category_5": 6.06,
+        "category_6": 5.0,
+        "category_7": 4.97,
+        "category_8": 6.53,
+        "category_9": 5.7,
+        "category_10": 5.8,
+        "category_11": 5.2,
+        "category_12": 5.07,
+        "category_13": 4.5,
+        "category_14": 7.97
+      },
+      "scenario_totals": {
+        "default": 6.25,
+        "equal_weight": 6.11,
+        "max_earnings": 5.77,
+        "best_lifestyle": 6.05,
+        "fastest_to_practice": 6.47,
+        "most_procedural": 5.93
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 25,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 0,
+        "trainee_salary": 0,
+        "education_debt": 35,
+        "loan_rate": 5.5,
+        "living_expenses": 45,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 5,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 22,
+        "starting_salary": 68,
+        "mid_salary": 98,
+        "peak_salary": 140,
+        "typical_peak": 108,
+        "malpractice_per_yr": 2
+      },
+      "stress": {
+        "ai": 8,
+        "pay": 5,
+        "injury": 5,
+        "match": 7
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          22
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 22,
+        "startSalary": 68
+      }
+    },
+    {
+      "name": "Automotive Engineer",
+      "key": "automotive_engineer",
+      "profession": "BS",
+      "group": "mechanical_mfg",
+      "color": "#8933d8",
+      "path": "BS Engineer",
+      "raw_data": {
+        "startSalary": 75,
+        "midSalary": 110,
+        "peakSalary": 170,
+        "typicalPeak": 125,
+        "hoursWeek": 46,
+        "burnout": 30,
+        "satisfaction": 72,
+        "chooseAgain": 66,
+        "malpracticeCost": 3,
+        "vacation": 4,
+        "matchComp": 5,
+        "annualSpots": 8000,
+        "oneInX": 16,
+        "callSchedule": 8,
+        "physicalToll": 7,
+        "emotionalToll": 7
+      },
+      "scores": {
+        "category_1": 6.75,
+        "category_2": 6.67,
+        "category_3": 6.67,
+        "category_4": 8.67,
+        "category_5": 6.17,
+        "category_6": 5.0,
+        "category_7": 5.15,
+        "category_8": 6.17,
+        "category_9": 5.36,
+        "category_10": 5.8,
+        "category_11": 5.0,
+        "category_12": 5.92,
+        "category_13": 4.5,
+        "category_14": 7.6
+      },
+      "scenario_totals": {
+        "default": 6.26,
+        "equal_weight": 6.1,
+        "max_earnings": 5.83,
+        "best_lifestyle": 6.04,
+        "fastest_to_practice": 6.5,
+        "most_procedural": 5.97
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 25,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 0,
+        "trainee_salary": 0,
+        "education_debt": 35,
+        "loan_rate": 5.5,
+        "living_expenses": 45,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 5,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 22,
+        "starting_salary": 75,
+        "mid_salary": 110,
+        "peak_salary": 170,
+        "typical_peak": 125,
+        "malpractice_per_yr": 3
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 5,
+        "injury": 5,
+        "match": 7
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          22
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 22,
+        "startSalary": 75
+      }
+    },
+    {
+      "name": "HVAC / Building Systems Engineer",
+      "key": "hvac_building_systems_en",
+      "profession": "BS",
+      "group": "mechanical_mfg",
+      "color": "#a220d8",
+      "path": "BS Engineer",
+      "raw_data": {
+        "startSalary": 65,
+        "midSalary": 95,
+        "peakSalary": 130,
+        "typicalPeak": 100,
+        "hoursWeek": 44,
+        "burnout": 22,
+        "satisfaction": 68,
+        "chooseAgain": 62,
+        "malpracticeCost": 3,
+        "vacation": 4,
+        "matchComp": 6,
+        "annualSpots": 12000,
+        "oneInX": 11,
+        "callSchedule": 7,
+        "physicalToll": 7,
+        "emotionalToll": 8
+      },
+      "scores": {
+        "category_1": 6.75,
+        "category_2": 7.0,
+        "category_3": 6.67,
+        "category_4": 8.33,
+        "category_5": 6.01,
+        "category_6": 5.14,
+        "category_7": 5.17,
+        "category_8": 6.38,
+        "category_9": 6.14,
+        "category_10": 6.0,
+        "category_11": 5.0,
+        "category_12": 5.23,
+        "category_13": 4.5,
+        "category_14": 7.74
+      },
+      "scenario_totals": {
+        "default": 6.31,
+        "equal_weight": 6.15,
+        "max_earnings": 5.84,
+        "best_lifestyle": 6.15,
+        "fastest_to_practice": 6.5,
+        "most_procedural": 5.97
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 25,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 0,
+        "trainee_salary": 0,
+        "education_debt": 35,
+        "loan_rate": 5.5,
+        "living_expenses": 45,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 5,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 22,
+        "starting_salary": 65,
+        "mid_salary": 95,
+        "peak_salary": 130,
+        "typical_peak": 100,
+        "malpractice_per_yr": 3
+      },
+      "stress": {
+        "ai": 8,
+        "pay": 5,
+        "injury": 6,
+        "match": 7
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          22
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 22,
+        "startSalary": 65
+      }
+    },
+    {
+      "name": "Quality / Reliability Engineer",
+      "key": "quality_reliability_engi",
+      "profession": "BS",
+      "group": "mechanical_mfg",
+      "color": "#c320d8",
+      "path": "BS Engineer",
+      "raw_data": {
+        "startSalary": 68,
+        "midSalary": 100,
+        "peakSalary": 140,
+        "typicalPeak": 110,
+        "hoursWeek": 42,
+        "burnout": 22,
+        "satisfaction": 66,
+        "chooseAgain": 60,
+        "malpracticeCost": 2,
+        "vacation": 4,
+        "matchComp": 6,
+        "annualSpots": 10000,
+        "oneInX": 13,
+        "callSchedule": 8,
+        "physicalToll": 8,
+        "emotionalToll": 8
+      },
+      "scores": {
+        "category_1": 6.75,
+        "category_2": 7.0,
+        "category_3": 6.67,
+        "category_4": 8.67,
+        "category_5": 6.07,
+        "category_6": 5.14,
+        "category_7": 5.22,
+        "category_8": 6.6,
+        "category_9": 6.32,
+        "category_10": 6.0,
+        "category_11": 5.2,
+        "category_12": 4.9,
+        "category_13": 4.5,
+        "category_14": 8.11
+      },
+      "scenario_totals": {
+        "default": 6.39,
+        "equal_weight": 6.23,
+        "max_earnings": 5.9,
+        "best_lifestyle": 6.23,
+        "fastest_to_practice": 6.58,
+        "most_procedural": 6.02
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 25,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 0,
+        "trainee_salary": 0,
+        "education_debt": 35,
+        "loan_rate": 5.5,
+        "living_expenses": 45,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 5,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 22,
+        "starting_salary": 68,
+        "mid_salary": 100,
+        "peak_salary": 140,
+        "typical_peak": 110,
+        "malpractice_per_yr": 2
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 5,
+        "injury": 6,
+        "match": 7
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          22
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 22,
+        "startSalary": 68
+      }
+    },
+    {
+      "name": "Mechatronics / Controls Engineer",
+      "key": "mechatronics_controls_en",
+      "profession": "BS",
+      "group": "mechanical_mfg",
+      "color": "#d833ce",
+      "path": "BS Engineer",
+      "raw_data": {
+        "startSalary": 78,
+        "midSalary": 115,
+        "peakSalary": 170,
+        "typicalPeak": 130,
+        "hoursWeek": 44,
+        "burnout": 28,
+        "satisfaction": 74,
+        "chooseAgain": 68,
+        "malpracticeCost": 2,
+        "vacation": 4,
+        "matchComp": 5,
+        "annualSpots": 8000,
+        "oneInX": 16,
+        "callSchedule": 7,
+        "physicalToll": 7,
+        "emotionalToll": 8
+      },
+      "scores": {
+        "category_1": 6.75,
+        "category_2": 6.67,
+        "category_3": 6.67,
+        "category_4": 8.33,
+        "category_5": 6.23,
+        "category_6": 5.14,
+        "category_7": 5.15,
+        "category_8": 6.12,
+        "category_9": 5.84,
+        "category_10": 6.0,
+        "category_11": 5.0,
+        "category_12": 6.42,
+        "category_13": 4.5,
+        "category_14": 8.11
+      },
+      "scenario_totals": {
+        "default": 6.37,
+        "equal_weight": 6.21,
+        "max_earnings": 5.91,
+        "best_lifestyle": 6.18,
+        "fastest_to_practice": 6.53,
+        "most_procedural": 6.09
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 25,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 0,
+        "trainee_salary": 0,
+        "education_debt": 35,
+        "loan_rate": 5.5,
+        "living_expenses": 45,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 5,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 22,
+        "starting_salary": 78,
+        "mid_salary": 115,
+        "peak_salary": 170,
+        "typical_peak": 130,
+        "malpractice_per_yr": 2
+      },
+      "stress": {
+        "ai": 8,
+        "pay": 6,
+        "injury": 6,
+        "match": 7
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          22
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 22,
+        "startSalary": 78
+      }
+    },
+    {
+      "name": "Structural Engineer",
+      "key": "structural_engineer",
+      "profession": "BS",
+      "group": "civil_construction",
+      "color": "#d820ac",
+      "path": "BS Engineer",
+      "raw_data": {
+        "startSalary": 68,
+        "midSalary": 100,
+        "peakSalary": 150,
+        "typicalPeak": 110,
+        "hoursWeek": 44,
+        "burnout": 25,
+        "satisfaction": 72,
+        "chooseAgain": 66,
+        "malpracticeCost": 8,
+        "vacation": 4,
+        "matchComp": 5,
+        "annualSpots": 7000,
+        "oneInX": 19,
+        "callSchedule": 8,
+        "physicalToll": 7,
+        "emotionalToll": 7
+      },
+      "scores": {
+        "category_1": 6.75,
+        "category_2": 6.67,
+        "category_3": 6.67,
+        "category_4": 8.67,
+        "category_5": 6.07,
+        "category_6": 5.14,
+        "category_7": 5.28,
+        "category_8": 6.12,
+        "category_9": 5.98,
+        "category_10": 6.0,
+        "category_11": 4.6,
+        "category_12": 6.42,
+        "category_13": 4.5,
+        "category_14": 6.74
+      },
+      "scenario_totals": {
+        "default": 6.31,
+        "equal_weight": 6.11,
+        "max_earnings": 5.89,
+        "best_lifestyle": 6.19,
+        "fastest_to_practice": 6.53,
+        "most_procedural": 6.06
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 25,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 0,
+        "trainee_salary": 0,
+        "education_debt": 35,
+        "loan_rate": 5.5,
+        "living_expenses": 45,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 5,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 22,
+        "starting_salary": 68,
+        "mid_salary": 100,
+        "peak_salary": 150,
+        "typical_peak": 110,
+        "malpractice_per_yr": 8
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 5,
+        "injury": 6,
+        "match": 7
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          22
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 22,
+        "startSalary": 68
+      }
+    },
+    {
+      "name": "Transportation / Traffic Engineer",
+      "key": "transportation_traffic_e",
+      "profession": "BS",
+      "group": "civil_construction",
+      "color": "#d8208a",
+      "path": "BS Engineer",
+      "raw_data": {
+        "startSalary": 65,
+        "midSalary": 95,
+        "peakSalary": 135,
+        "typicalPeak": 105,
+        "hoursWeek": 42,
+        "burnout": 22,
+        "satisfaction": 68,
+        "chooseAgain": 62,
+        "malpracticeCost": 5,
+        "vacation": 5,
+        "matchComp": 5,
+        "annualSpots": 8000,
+        "oneInX": 16,
+        "callSchedule": 8,
+        "physicalToll": 7,
+        "emotionalToll": 8
+      },
+      "scores": {
+        "category_1": 6.75,
+        "category_2": 6.67,
+        "category_3": 6.67,
+        "category_4": 8.67,
+        "category_5": 6.01,
+        "category_6": 5.14,
+        "category_7": 5.2,
+        "category_8": 6.6,
+        "category_9": 6.62,
+        "category_10": 6.0,
+        "category_11": 4.6,
+        "category_12": 5.57,
+        "category_13": 4.5,
+        "category_14": 7.43
+      },
+      "scenario_totals": {
+        "default": 6.37,
+        "equal_weight": 6.17,
+        "max_earnings": 5.88,
+        "best_lifestyle": 6.29,
+        "fastest_to_practice": 6.54,
+        "most_procedural": 6.07
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 25,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 0,
+        "trainee_salary": 0,
+        "education_debt": 35,
+        "loan_rate": 5.5,
+        "living_expenses": 45,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 5,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 22,
+        "starting_salary": 65,
+        "mid_salary": 95,
+        "peak_salary": 135,
+        "typical_peak": 105,
+        "malpractice_per_yr": 5
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 5,
+        "injury": 6,
+        "match": 7
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          22
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 22,
+        "startSalary": 65
+      }
+    },
+    {
+      "name": "Geotechnical Engineer",
+      "key": "geotechnical_engineer",
+      "profession": "BS",
+      "group": "civil_construction",
+      "color": "#d83374",
+      "path": "BS Engineer",
+      "raw_data": {
+        "startSalary": 68,
+        "midSalary": 100,
+        "peakSalary": 145,
+        "typicalPeak": 110,
+        "hoursWeek": 44,
+        "burnout": 24,
+        "satisfaction": 72,
+        "chooseAgain": 66,
+        "malpracticeCost": 7,
+        "vacation": 4,
+        "matchComp": 4,
+        "annualSpots": 4000,
+        "oneInX": 32,
+        "callSchedule": 8,
+        "physicalToll": 6,
+        "emotionalToll": 8
+      },
+      "scores": {
+        "category_1": 6.75,
+        "category_2": 6.33,
+        "category_3": 6.67,
+        "category_4": 8.67,
+        "category_5": 6.07,
+        "category_6": 5.0,
+        "category_7": 5.25,
+        "category_8": 6.62,
+        "category_9": 5.84,
+        "category_10": 6.0,
+        "category_11": 5.0,
+        "category_12": 6.08,
+        "category_13": 4.5,
+        "category_14": 6.69
+      },
+      "scenario_totals": {
+        "default": 6.3,
+        "equal_weight": 6.09,
+        "max_earnings": 5.88,
+        "best_lifestyle": 6.18,
+        "fastest_to_practice": 6.48,
+        "most_procedural": 6.08
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 25,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 0,
+        "trainee_salary": 0,
+        "education_debt": 35,
+        "loan_rate": 5.5,
+        "living_expenses": 45,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 5,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 22,
+        "starting_salary": 68,
+        "mid_salary": 100,
+        "peak_salary": 145,
+        "typical_peak": 110,
+        "malpractice_per_yr": 7
+      },
+      "stress": {
+        "ai": 8,
+        "pay": 5,
+        "injury": 5,
+        "match": 7
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          22
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 22,
+        "startSalary": 68
+      }
+    },
+    {
+      "name": "Water Resources Engineer",
+      "key": "water_resources_engineer",
+      "profession": "BS",
+      "group": "civil_construction",
+      "color": "#d82048",
+      "path": "BS Engineer",
+      "raw_data": {
+        "startSalary": 66,
+        "midSalary": 98,
+        "peakSalary": 140,
+        "typicalPeak": 108,
+        "hoursWeek": 42,
+        "burnout": 22,
+        "satisfaction": 72,
+        "chooseAgain": 66,
+        "malpracticeCost": 5,
+        "vacation": 5,
+        "matchComp": 4,
+        "annualSpots": 5000,
+        "oneInX": 26,
+        "callSchedule": 8,
+        "physicalToll": 7,
+        "emotionalToll": 8
+      },
+      "scores": {
+        "category_1": 6.75,
+        "category_2": 6.33,
+        "category_3": 6.67,
+        "category_4": 8.67,
+        "category_5": 6.04,
+        "category_6": 5.14,
+        "category_7": 5.22,
+        "category_8": 6.35,
+        "category_9": 6.62,
+        "category_10": 6.0,
+        "category_11": 4.6,
+        "category_12": 6.42,
+        "category_13": 4.5,
+        "category_14": 7.43
+      },
+      "scenario_totals": {
+        "default": 6.4,
+        "equal_weight": 6.19,
+        "max_earnings": 5.91,
+        "best_lifestyle": 6.34,
+        "fastest_to_practice": 6.54,
+        "most_procedural": 6.13
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 25,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 0,
+        "trainee_salary": 0,
+        "education_debt": 35,
+        "loan_rate": 5.5,
+        "living_expenses": 45,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 5,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 22,
+        "starting_salary": 66,
+        "mid_salary": 98,
+        "peak_salary": 140,
+        "typical_peak": 108,
+        "malpractice_per_yr": 5
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 5,
+        "injury": 6,
+        "match": 7
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          22
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 22,
+        "startSalary": 66
+      }
+    },
+    {
+      "name": "Construction Manager / Engineer",
+      "key": "construction_manager_eng",
+      "profession": "BS",
+      "group": "civil_construction",
+      "color": "#d82027",
+      "path": "BS Engineer",
+      "raw_data": {
+        "startSalary": 72,
+        "midSalary": 110,
+        "peakSalary": 160,
+        "typicalPeak": 120,
+        "hoursWeek": 50,
+        "burnout": 32,
+        "satisfaction": 70,
+        "chooseAgain": 64,
+        "malpracticeCost": 5,
+        "vacation": 3,
+        "matchComp": 7,
+        "annualSpots": 25000,
+        "oneInX": 5,
+        "callSchedule": 6,
+        "physicalToll": 5,
+        "emotionalToll": 6
+      },
+      "scores": {
+        "category_1": 6.75,
+        "category_2": 7.33,
+        "category_3": 6.67,
+        "category_4": 8.0,
+        "category_5": 6.16,
+        "category_6": 4.86,
+        "category_7": 4.83,
+        "category_8": 6.78,
+        "category_9": 4.44,
+        "category_10": 5.8,
+        "category_11": 5.2,
+        "category_12": 5.92,
+        "category_13": 4.5,
+        "category_14": 6.43
+      },
+      "scenario_totals": {
+        "default": 6.11,
+        "equal_weight": 5.97,
+        "max_earnings": 5.7,
+        "best_lifestyle": 5.86,
+        "fastest_to_practice": 6.4,
+        "most_procedural": 6.0
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 25,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 0,
+        "trainee_salary": 0,
+        "education_debt": 35,
+        "loan_rate": 5.5,
+        "living_expenses": 45,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 5,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 22,
+        "starting_salary": 72,
+        "mid_salary": 110,
+        "peak_salary": 160,
+        "typical_peak": 120,
+        "malpractice_per_yr": 5
+      },
+      "stress": {
+        "ai": 9,
+        "pay": 4,
+        "injury": 4,
+        "match": 6
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          22
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 22,
+        "startSalary": 72
+      }
+    },
+    {
+      "name": "Surveyor / Geospatial Engineer",
+      "key": "surveyor_geospatial_engi",
+      "profession": "BS",
+      "group": "civil_construction",
+      "color": "#d84a33",
+      "path": "BS Engineer",
+      "raw_data": {
+        "startSalary": 60,
+        "midSalary": 82,
+        "peakSalary": 110,
+        "typicalPeak": 90,
+        "hoursWeek": 42,
+        "burnout": 18,
+        "satisfaction": 70,
+        "chooseAgain": 64,
+        "malpracticeCost": 4,
+        "vacation": 4,
+        "matchComp": 5,
+        "annualSpots": 6000,
+        "oneInX": 22,
+        "callSchedule": 9,
+        "physicalToll": 5,
+        "emotionalToll": 9
+      },
+      "scores": {
+        "category_1": 6.75,
+        "category_2": 6.67,
+        "category_3": 6.67,
+        "category_4": 9.0,
+        "category_5": 5.91,
+        "category_6": 5.0,
+        "category_7": 5.05,
+        "category_8": 7.1,
+        "category_9": 6.32,
+        "category_10": 6.0,
+        "category_11": 5.6,
+        "category_12": 5.42,
+        "category_13": 4.5,
+        "category_14": 7.23
+      },
+      "scenario_totals": {
+        "default": 6.41,
+        "equal_weight": 6.22,
+        "max_earnings": 5.88,
+        "best_lifestyle": 6.32,
+        "fastest_to_practice": 6.58,
+        "most_procedural": 6.16
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 25,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 0,
+        "trainee_salary": 0,
+        "education_debt": 35,
+        "loan_rate": 5.5,
+        "living_expenses": 45,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 5,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 22,
+        "starting_salary": 60,
+        "mid_salary": 82,
+        "peak_salary": 110,
+        "typical_peak": 90,
+        "malpractice_per_yr": 4
+      },
+      "stress": {
+        "ai": 8,
+        "pay": 6,
+        "injury": 4,
+        "match": 7
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          22
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 22,
+        "startSalary": 60
+      }
+    },
+    {
+      "name": "Electrical Design Engineer",
+      "key": "electrical_design_engine",
+      "profession": "BS",
+      "group": "electrical",
+      "color": "#d85b20",
+      "path": "BS Engineer",
+      "raw_data": {
+        "startSalary": 75,
+        "midSalary": 110,
+        "peakSalary": 160,
+        "typicalPeak": 120,
+        "hoursWeek": 43,
+        "burnout": 26,
+        "satisfaction": 72,
+        "chooseAgain": 66,
+        "malpracticeCost": 2,
+        "vacation": 4,
+        "matchComp": 6,
+        "annualSpots": 12000,
+        "oneInX": 11,
+        "callSchedule": 9,
+        "physicalToll": 8,
+        "emotionalToll": 8
+      },
+      "scores": {
+        "category_1": 6.75,
+        "category_2": 7.0,
+        "category_3": 6.67,
+        "category_4": 9.0,
+        "category_5": 6.17,
+        "category_6": 5.14,
+        "category_7": 5.08,
+        "category_8": 5.75,
+        "category_9": 6.04,
+        "category_10": 6.0,
+        "category_11": 5.0,
+        "category_12": 6.08,
+        "category_13": 4.5,
+        "category_14": 8.26
+      },
+      "scenario_totals": {
+        "default": 6.4,
+        "equal_weight": 6.25,
+        "max_earnings": 5.9,
+        "best_lifestyle": 6.21,
+        "fastest_to_practice": 6.65,
+        "most_procedural": 6.02
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 25,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 0,
+        "trainee_salary": 0,
+        "education_debt": 35,
+        "loan_rate": 5.5,
+        "living_expenses": 45,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 5,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 22,
+        "starting_salary": 75,
+        "mid_salary": 110,
+        "peak_salary": 160,
+        "typical_peak": 120,
+        "malpractice_per_yr": 2
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 6,
+        "injury": 6,
+        "match": 7
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          22
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 22,
+        "startSalary": 75
+      }
+    },
+    {
+      "name": "Embedded Systems / Firmware Engineer",
+      "key": "embedded_systems_firmwar",
+      "profession": "BS",
+      "group": "electrical",
+      "color": "#d87d20",
+      "path": "BS Engineer",
+      "raw_data": {
+        "startSalary": 85,
+        "midSalary": 130,
+        "peakSalary": 200,
+        "typicalPeak": 150,
+        "hoursWeek": 44,
+        "burnout": 30,
+        "satisfaction": 76,
+        "chooseAgain": 72,
+        "malpracticeCost": 1,
+        "vacation": 5,
+        "matchComp": 6,
+        "annualSpots": 15000,
+        "oneInX": 9,
+        "callSchedule": 8,
+        "physicalToll": 9,
+        "emotionalToll": 8
+      },
+      "scores": {
+        "category_1": 6.75,
+        "category_2": 7.0,
+        "category_3": 6.67,
+        "category_4": 8.67,
+        "category_5": 6.37,
+        "category_6": 5.29,
+        "category_7": 5.05,
+        "category_8": 5.38,
+        "category_9": 6.22,
+        "category_10": 6.2,
+        "category_11": 4.6,
+        "category_12": 6.85,
+        "category_13": 4.5,
+        "category_14": 8.77
+      },
+      "scenario_totals": {
+        "default": 6.46,
+        "equal_weight": 6.32,
+        "max_earnings": 5.96,
+        "best_lifestyle": 6.27,
+        "fastest_to_practice": 6.68,
+        "most_procedural": 6.08
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 25,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 0,
+        "trainee_salary": 0,
+        "education_debt": 35,
+        "loan_rate": 5.5,
+        "living_expenses": 45,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 5,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 22,
+        "starting_salary": 85,
+        "mid_salary": 130,
+        "peak_salary": 200,
+        "typical_peak": 150,
+        "malpractice_per_yr": 1
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 7,
+        "injury": 6,
+        "match": 7
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          22
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 22,
+        "startSalary": 85
+      }
+    },
+    {
+      "name": "RF / Wireless Engineer",
+      "key": "rf_wireless_engineer",
+      "profession": "BS",
+      "group": "electrical",
+      "color": "#d8a433",
+      "path": "BS Engineer",
+      "raw_data": {
+        "startSalary": 80,
+        "midSalary": 120,
+        "peakSalary": 180,
+        "typicalPeak": 135,
+        "hoursWeek": 43,
+        "burnout": 25,
+        "satisfaction": 74,
+        "chooseAgain": 68,
+        "malpracticeCost": 1,
+        "vacation": 4,
+        "matchComp": 4,
+        "annualSpots": 5000,
+        "oneInX": 26,
+        "callSchedule": 8,
+        "physicalToll": 8,
+        "emotionalToll": 8
+      },
+      "scores": {
+        "category_1": 6.75,
+        "category_2": 6.33,
+        "category_3": 6.67,
+        "category_4": 8.67,
+        "category_5": 6.27,
+        "category_6": 5.14,
+        "category_7": 5.2,
+        "category_8": 6.0,
+        "category_9": 6.08,
+        "category_10": 6.0,
+        "category_11": 4.8,
+        "category_12": 6.42,
+        "category_13": 4.5,
+        "category_14": 8.63
+      },
+      "scenario_totals": {
+        "default": 6.41,
+        "equal_weight": 6.25,
+        "max_earnings": 5.94,
+        "best_lifestyle": 6.24,
+        "fastest_to_practice": 6.57,
+        "most_procedural": 6.08
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 25,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 0,
+        "trainee_salary": 0,
+        "education_debt": 35,
+        "loan_rate": 5.5,
+        "living_expenses": 45,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 5,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 22,
+        "starting_salary": 80,
+        "mid_salary": 120,
+        "peak_salary": 180,
+        "typical_peak": 135,
+        "malpractice_per_yr": 1
+      },
+      "stress": {
+        "ai": 7,
+        "pay": 6,
+        "injury": 6,
+        "match": 7
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          22
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 22,
+        "startSalary": 80
+      }
+    },
+    {
+      "name": "Power Systems / Grid Engineer",
+      "key": "power_systems_grid_engin",
+      "profession": "BS",
+      "group": "electrical",
+      "color": "#d8bf20",
+      "path": "BS Engineer",
+      "raw_data": {
+        "startSalary": 72,
+        "midSalary": 108,
+        "peakSalary": 155,
+        "typicalPeak": 118,
+        "hoursWeek": 43,
+        "burnout": 22,
+        "satisfaction": 70,
+        "chooseAgain": 64,
+        "malpracticeCost": 3,
+        "vacation": 4,
+        "matchComp": 5,
+        "annualSpots": 8000,
+        "oneInX": 16,
+        "callSchedule": 6,
+        "physicalToll": 7,
+        "emotionalToll": 7
+      },
+      "scores": {
+        "category_1": 6.75,
+        "category_2": 6.67,
+        "category_3": 6.67,
+        "category_4": 8.0,
+        "category_5": 6.14,
+        "category_6": 5.0,
+        "category_7": 5.3,
+        "category_8": 6.5,
+        "category_9": 6.04,
+        "category_10": 5.8,
+        "category_11": 5.0,
+        "category_12": 5.92,
+        "category_13": 4.5,
+        "category_14": 7.46
+      },
+      "scenario_totals": {
+        "default": 6.31,
+        "equal_weight": 6.12,
+        "max_earnings": 5.88,
+        "best_lifestyle": 6.17,
+        "fastest_to_practice": 6.44,
+        "most_procedural": 6.04
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 25,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 0,
+        "trainee_salary": 0,
+        "education_debt": 35,
+        "loan_rate": 5.5,
+        "living_expenses": 45,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 5,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 22,
+        "starting_salary": 72,
+        "mid_salary": 108,
+        "peak_salary": 155,
+        "typical_peak": 118,
+        "malpractice_per_yr": 3
+      },
+      "stress": {
+        "ai": 8,
+        "pay": 5,
+        "injury": 6,
+        "match": 7
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          22
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 22,
+        "startSalary": 72
+      }
+    },
+    {
+      "name": "Controls / Instrumentation Engineer",
+      "key": "controls_instrumentation",
+      "profession": "BS",
+      "group": "electrical",
+      "color": "#d0d820",
+      "path": "BS Engineer",
+      "raw_data": {
+        "startSalary": 74,
+        "midSalary": 108,
+        "peakSalary": 150,
+        "typicalPeak": 115,
+        "hoursWeek": 44,
+        "burnout": 24,
+        "satisfaction": 72,
+        "chooseAgain": 66,
+        "malpracticeCost": 2,
+        "vacation": 4,
+        "matchComp": 5,
+        "annualSpots": 7000,
+        "oneInX": 19,
+        "callSchedule": 7,
+        "physicalToll": 7,
+        "emotionalToll": 8
+      },
+      "scores": {
+        "category_1": 6.75,
+        "category_2": 6.67,
+        "category_3": 6.67,
+        "category_4": 8.33,
+        "category_5": 6.16,
+        "category_6": 5.0,
+        "category_7": 5.28,
+        "category_8": 6.38,
+        "category_9": 5.84,
+        "category_10": 5.8,
+        "category_11": 5.2,
+        "category_12": 5.75,
+        "category_13": 4.5,
+        "category_14": 7.97
+      },
+      "scenario_totals": {
+        "default": 6.33,
+        "equal_weight": 6.17,
+        "max_earnings": 5.89,
+        "best_lifestyle": 6.14,
+        "fastest_to_practice": 6.49,
+        "most_procedural": 6.02
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 25,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 0,
+        "trainee_salary": 0,
+        "education_debt": 35,
+        "loan_rate": 5.5,
+        "living_expenses": 45,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 5,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 22,
+        "starting_salary": 74,
+        "mid_salary": 108,
+        "peak_salary": 150,
+        "typical_peak": 115,
+        "malpractice_per_yr": 2
+      },
+      "stress": {
+        "ai": 8,
+        "pay": 5,
+        "injury": 5,
+        "match": 7
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          22
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 22,
+        "startSalary": 74
+      }
+    },
+    {
+      "name": "Aerospace Structures Engineer",
+      "key": "aerospace_structures_eng",
+      "profession": "BS",
+      "group": "aerospace_defense",
+      "color": "#b3d833",
+      "path": "BS Engineer",
+      "raw_data": {
+        "startSalary": 78,
+        "midSalary": 115,
+        "peakSalary": 170,
+        "typicalPeak": 130,
+        "hoursWeek": 44,
+        "burnout": 28,
+        "satisfaction": 76,
+        "chooseAgain": 70,
+        "malpracticeCost": 2,
+        "vacation": 4,
+        "matchComp": 4,
+        "annualSpots": 4000,
+        "oneInX": 32,
+        "callSchedule": 8,
+        "physicalToll": 8,
+        "emotionalToll": 7
+      },
+      "scores": {
+        "category_1": 6.75,
+        "category_2": 6.33,
+        "category_3": 6.67,
+        "category_4": 8.67,
+        "category_5": 6.23,
+        "category_6": 5.0,
+        "category_7": 5.15,
+        "category_8": 6.12,
+        "category_9": 5.64,
+        "category_10": 5.6,
+        "category_11": 4.8,
+        "category_12": 6.58,
+        "category_13": 4.5,
+        "category_14": 8.26
+      },
+      "scenario_totals": {
+        "default": 6.33,
+        "equal_weight": 6.17,
+        "max_earnings": 5.86,
+        "best_lifestyle": 6.14,
+        "fastest_to_practice": 6.52,
+        "most_procedural": 6.05
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 25,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 0,
+        "trainee_salary": 0,
+        "education_debt": 35,
+        "loan_rate": 5.5,
+        "living_expenses": 45,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 5,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 22,
+        "starting_salary": 78,
+        "mid_salary": 115,
+        "peak_salary": 170,
+        "typical_peak": 130,
+        "malpractice_per_yr": 2
+      },
+      "stress": {
+        "ai": 7,
+        "pay": 5,
+        "injury": 6,
+        "match": 7
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          22
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 22,
+        "startSalary": 78
+      }
+    },
+    {
+      "name": "Avionics / Flight Systems Engineer",
+      "key": "avionics_flight_systems_",
+      "profession": "BS",
+      "group": "aerospace_defense",
+      "color": "#8ed820",
+      "path": "BS Engineer",
+      "raw_data": {
+        "startSalary": 82,
+        "midSalary": 120,
+        "peakSalary": 180,
+        "typicalPeak": 135,
+        "hoursWeek": 44,
+        "burnout": 26,
+        "satisfaction": 76,
+        "chooseAgain": 72,
+        "malpracticeCost": 2,
+        "vacation": 4,
+        "matchComp": 4,
+        "annualSpots": 3000,
+        "oneInX": 43,
+        "callSchedule": 8,
+        "physicalToll": 8,
+        "emotionalToll": 7
+      },
+      "scores": {
+        "category_1": 6.75,
+        "category_2": 6.33,
+        "category_3": 6.67,
+        "category_4": 8.67,
+        "category_5": 6.29,
+        "category_6": 5.0,
+        "category_7": 5.2,
+        "category_8": 6.12,
+        "category_9": 5.74,
+        "category_10": 5.6,
+        "category_11": 4.8,
+        "category_12": 6.85,
+        "category_13": 4.5,
+        "category_14": 8.26
+      },
+      "scenario_totals": {
+        "default": 6.37,
+        "equal_weight": 6.2,
+        "max_earnings": 5.91,
+        "best_lifestyle": 6.19,
+        "fastest_to_practice": 6.55,
+        "most_procedural": 6.1
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 25,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 0,
+        "trainee_salary": 0,
+        "education_debt": 35,
+        "loan_rate": 5.5,
+        "living_expenses": 45,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 5,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 22,
+        "starting_salary": 82,
+        "mid_salary": 120,
+        "peak_salary": 180,
+        "typical_peak": 135,
+        "malpractice_per_yr": 2
+      },
+      "stress": {
+        "ai": 7,
+        "pay": 5,
+        "injury": 6,
+        "match": 7
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          22
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 22,
+        "startSalary": 82
+      }
+    },
+    {
+      "name": "Systems Engineer (Defense)",
+      "key": "systems_engineer_defense",
+      "profession": "BS",
+      "group": "aerospace_defense",
+      "color": "#6dd820",
+      "path": "BS Engineer",
+      "raw_data": {
+        "startSalary": 80,
+        "midSalary": 118,
+        "peakSalary": 175,
+        "typicalPeak": 130,
+        "hoursWeek": 43,
+        "burnout": 25,
+        "satisfaction": 70,
+        "chooseAgain": 64,
+        "malpracticeCost": 1,
+        "vacation": 4,
+        "matchComp": 6,
+        "annualSpots": 12000,
+        "oneInX": 11,
+        "callSchedule": 8,
+        "physicalToll": 9,
+        "emotionalToll": 7
+      },
+      "scores": {
+        "category_1": 6.75,
+        "category_2": 7.0,
+        "category_3": 6.67,
+        "category_4": 8.67,
+        "category_5": 6.27,
+        "category_6": 5.0,
+        "category_7": 5.17,
+        "category_8": 6.25,
+        "category_9": 5.88,
+        "category_10": 5.6,
+        "category_11": 4.6,
+        "category_12": 5.75,
+        "category_13": 4.5,
+        "category_14": 8.77
+      },
+      "scenario_totals": {
+        "default": 6.36,
+        "equal_weight": 6.21,
+        "max_earnings": 5.87,
+        "best_lifestyle": 6.16,
+        "fastest_to_practice": 6.59,
+        "most_procedural": 6.0
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 25,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 0,
+        "trainee_salary": 0,
+        "education_debt": 35,
+        "loan_rate": 5.5,
+        "living_expenses": 45,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 5,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 22,
+        "starting_salary": 80,
+        "mid_salary": 118,
+        "peak_salary": 175,
+        "typical_peak": 130,
+        "malpractice_per_yr": 1
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 4,
+        "injury": 7,
+        "match": 7
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          22
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 22,
+        "startSalary": 80
+      }
+    },
+    {
+      "name": "Flight Test Engineer",
+      "key": "flight_test_engineer",
+      "profession": "BS",
+      "group": "aerospace_defense",
+      "color": "#5ad833",
+      "path": "BS Engineer",
+      "raw_data": {
+        "startSalary": 80,
+        "midSalary": 115,
+        "peakSalary": 170,
+        "typicalPeak": 128,
+        "hoursWeek": 45,
+        "burnout": 28,
+        "satisfaction": 80,
+        "chooseAgain": 76,
+        "malpracticeCost": 2,
+        "vacation": 4,
+        "matchComp": 2,
+        "annualSpots": 1500,
+        "oneInX": 87,
+        "callSchedule": 7,
+        "physicalToll": 6,
+        "emotionalToll": 6
+      },
+      "scores": {
+        "category_1": 6.75,
+        "category_2": 5.67,
+        "category_3": 6.67,
+        "category_4": 8.33,
+        "category_5": 6.26,
+        "category_6": 4.86,
+        "category_7": 4.9,
+        "category_8": 6.78,
+        "category_9": 5.36,
+        "category_10": 5.4,
+        "category_11": 5.2,
+        "category_12": 7.52,
+        "category_13": 4.5,
+        "category_14": 7.4
+      },
+      "scenario_totals": {
+        "default": 6.29,
+        "equal_weight": 6.11,
+        "max_earnings": 5.81,
+        "best_lifestyle": 6.16,
+        "fastest_to_practice": 6.4,
+        "most_procedural": 6.22
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 25,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 0,
+        "trainee_salary": 0,
+        "education_debt": 35,
+        "loan_rate": 5.5,
+        "living_expenses": 45,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 5,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 22,
+        "starting_salary": 80,
+        "mid_salary": 115,
+        "peak_salary": 170,
+        "typical_peak": 128,
+        "malpractice_per_yr": 2
+      },
+      "stress": {
+        "ai": 9,
+        "pay": 5,
+        "injury": 4,
+        "match": 8
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          22
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 22,
+        "startSalary": 80
+      }
+    },
+    {
+      "name": "Missile / Weapons Systems Engineer",
+      "key": "missile_weapons_systems_",
+      "profession": "BS",
+      "group": "aerospace_defense",
+      "color": "#2bd820",
+      "path": "BS Engineer",
+      "raw_data": {
+        "startSalary": 85,
+        "midSalary": 125,
+        "peakSalary": 185,
+        "typicalPeak": 140,
+        "hoursWeek": 44,
+        "burnout": 25,
+        "satisfaction": 72,
+        "chooseAgain": 66,
+        "malpracticeCost": 1,
+        "vacation": 4,
+        "matchComp": 4,
+        "annualSpots": 3000,
+        "oneInX": 43,
+        "callSchedule": 8,
+        "physicalToll": 8,
+        "emotionalToll": 6
+      },
+      "scores": {
+        "category_1": 6.75,
+        "category_2": 6.33,
+        "category_3": 6.67,
+        "category_4": 8.67,
+        "category_5": 6.34,
+        "category_6": 5.0,
+        "category_7": 5.22,
+        "category_8": 6.12,
+        "category_9": 5.78,
+        "category_10": 5.4,
+        "category_11": 4.6,
+        "category_12": 6.08,
+        "category_13": 4.5,
+        "category_14": 8.34
+      },
+      "scenario_totals": {
+        "default": 6.3,
+        "equal_weight": 6.13,
+        "max_earnings": 5.86,
+        "best_lifestyle": 6.11,
+        "fastest_to_practice": 6.5,
+        "most_procedural": 5.98
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 25,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 0,
+        "trainee_salary": 0,
+        "education_debt": 35,
+        "loan_rate": 5.5,
+        "living_expenses": 45,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 5,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 22,
+        "starting_salary": 85,
+        "mid_salary": 125,
+        "peak_salary": 185,
+        "typical_peak": 140,
+        "malpractice_per_yr": 1
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 4,
+        "injury": 6,
+        "match": 7
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          22
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 22,
+        "startSalary": 85
+      }
+    },
+    {
+      "name": "Chemical Process Engineer",
+      "key": "chemical_process_enginee",
+      "profession": "BS",
+      "group": "chemical_process",
+      "color": "#20d837",
+      "path": "BS Engineer",
+      "raw_data": {
+        "startSalary": 75,
+        "midSalary": 115,
+        "peakSalary": 165,
+        "typicalPeak": 125,
+        "hoursWeek": 45,
+        "burnout": 28,
+        "satisfaction": 70,
+        "chooseAgain": 64,
+        "malpracticeCost": 3,
+        "vacation": 4,
+        "matchComp": 5,
+        "annualSpots": 6000,
+        "oneInX": 22,
+        "callSchedule": 7,
+        "physicalToll": 7,
+        "emotionalToll": 7
+      },
+      "scores": {
+        "category_1": 6.75,
+        "category_2": 6.67,
+        "category_3": 6.67,
+        "category_4": 8.33,
+        "category_5": 6.2,
+        "category_6": 5.0,
+        "category_7": 5.12,
+        "category_8": 6.28,
+        "category_9": 5.56,
+        "category_10": 5.8,
+        "category_11": 5.0,
+        "category_12": 5.58,
+        "category_13": 4.5,
+        "category_14": 7.46
+      },
+      "scenario_totals": {
+        "default": 6.23,
+        "equal_weight": 6.06,
+        "max_earnings": 5.81,
+        "best_lifestyle": 6.03,
+        "fastest_to_practice": 6.44,
+        "most_procedural": 5.93
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 25,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 0,
+        "trainee_salary": 0,
+        "education_debt": 35,
+        "loan_rate": 5.5,
+        "living_expenses": 45,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 5,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 22,
+        "starting_salary": 75,
+        "mid_salary": 115,
+        "peak_salary": 165,
+        "typical_peak": 125,
+        "malpractice_per_yr": 3
+      },
+      "stress": {
+        "ai": 8,
+        "pay": 5,
+        "injury": 5,
+        "match": 7
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          22
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 22,
+        "startSalary": 75
+      }
+    },
+    {
+      "name": "Pharmaceutical / Bioprocess Engineer",
+      "key": "pharmaceutical_bioproces",
+      "profession": "BS",
+      "group": "chemical_process",
+      "color": "#33d865",
+      "path": "BS Engineer",
+      "raw_data": {
+        "startSalary": 78,
+        "midSalary": 120,
+        "peakSalary": 180,
+        "typicalPeak": 135,
+        "hoursWeek": 44,
+        "burnout": 26,
+        "satisfaction": 74,
+        "chooseAgain": 68,
+        "malpracticeCost": 3,
+        "vacation": 5,
+        "matchComp": 4,
+        "annualSpots": 5000,
+        "oneInX": 26,
+        "callSchedule": 7,
+        "physicalToll": 7,
+        "emotionalToll": 7
+      },
+      "scores": {
+        "category_1": 6.75,
+        "category_2": 6.33,
+        "category_3": 6.67,
+        "category_4": 8.33,
+        "category_5": 6.24,
+        "category_6": 5.14,
+        "category_7": 5.2,
+        "category_8": 6.62,
+        "category_9": 6.24,
+        "category_10": 5.8,
+        "category_11": 5.0,
+        "category_12": 6.75,
+        "category_13": 4.5,
+        "category_14": 7.6
+      },
+      "scenario_totals": {
+        "default": 6.42,
+        "equal_weight": 6.22,
+        "max_earnings": 5.95,
+        "best_lifestyle": 6.33,
+        "fastest_to_practice": 6.52,
+        "most_procedural": 6.22
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 25,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 0,
+        "trainee_salary": 0,
+        "education_debt": 35,
+        "loan_rate": 5.5,
+        "living_expenses": 45,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 5,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 22,
+        "starting_salary": 78,
+        "mid_salary": 120,
+        "peak_salary": 180,
+        "typical_peak": 135,
+        "malpractice_per_yr": 3
+      },
+      "stress": {
+        "ai": 8,
+        "pay": 5,
+        "injury": 6,
+        "match": 7
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          22
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 22,
+        "startSalary": 78
+      }
+    },
+    {
+      "name": "Food / Beverage Process Engineer",
+      "key": "food_beverage_process_en",
+      "profession": "BS",
+      "group": "chemical_process",
+      "color": "#20d879",
+      "path": "BS Engineer",
+      "raw_data": {
+        "startSalary": 65,
+        "midSalary": 95,
+        "peakSalary": 130,
+        "typicalPeak": 102,
+        "hoursWeek": 44,
+        "burnout": 22,
+        "satisfaction": 68,
+        "chooseAgain": 62,
+        "malpracticeCost": 3,
+        "vacation": 4,
+        "matchComp": 4,
+        "annualSpots": 4000,
+        "oneInX": 32,
+        "callSchedule": 7,
+        "physicalToll": 7,
+        "emotionalToll": 8
+      },
+      "scores": {
+        "category_1": 6.75,
+        "category_2": 6.33,
+        "category_3": 6.67,
+        "category_4": 8.33,
+        "category_5": 6.01,
+        "category_6": 5.0,
+        "category_7": 4.92,
+        "category_8": 6.62,
+        "category_9": 5.94,
+        "category_10": 5.8,
+        "category_11": 5.2,
+        "category_12": 5.4,
+        "category_13": 4.5,
+        "category_14": 7.74
+      },
+      "scenario_totals": {
+        "default": 6.24,
+        "equal_weight": 6.09,
+        "max_earnings": 5.75,
+        "best_lifestyle": 6.1,
+        "fastest_to_practice": 6.41,
+        "most_procedural": 5.97
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 25,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 0,
+        "trainee_salary": 0,
+        "education_debt": 35,
+        "loan_rate": 5.5,
+        "living_expenses": 45,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 5,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 22,
+        "starting_salary": 65,
+        "mid_salary": 95,
+        "peak_salary": 130,
+        "typical_peak": 102,
+        "malpractice_per_yr": 3
+      },
+      "stress": {
+        "ai": 8,
+        "pay": 5,
+        "injury": 5,
+        "match": 7
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          22
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 22,
+        "startSalary": 65
+      }
+    },
+    {
+      "name": "Petroleum / Reservoir Engineer",
+      "key": "petroleum_reservoir_engi",
+      "profession": "BS",
+      "group": "chemical_process",
+      "color": "#20d89a",
+      "path": "BS Engineer",
+      "raw_data": {
+        "startSalary": 95,
+        "midSalary": 145,
+        "peakSalary": 220,
+        "typicalPeak": 165,
+        "hoursWeek": 48,
+        "burnout": 30,
+        "satisfaction": 70,
+        "chooseAgain": 62,
+        "malpracticeCost": 5,
+        "vacation": 4,
+        "matchComp": 4,
+        "annualSpots": 3000,
+        "oneInX": 43,
+        "callSchedule": 5,
+        "physicalToll": 6,
+        "emotionalToll": 7
+      },
+      "scores": {
+        "category_1": 6.75,
+        "category_2": 6.33,
+        "category_3": 6.67,
+        "category_4": 7.67,
+        "category_5": 6.53,
+        "category_6": 4.86,
+        "category_7": 5.17,
+        "category_8": 5.97,
+        "category_9": 5.0,
+        "category_10": 5.6,
+        "category_11": 5.2,
+        "category_12": 5.33,
+        "category_13": 4.5,
+        "category_14": 7.14
+      },
+      "scenario_totals": {
+        "default": 6.06,
+        "equal_weight": 5.91,
+        "max_earnings": 5.76,
+        "best_lifestyle": 5.8,
+        "fastest_to_practice": 6.28,
+        "most_procedural": 5.75
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 25,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 0,
+        "trainee_salary": 0,
+        "education_debt": 35,
+        "loan_rate": 5.5,
+        "living_expenses": 45,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 5,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 22,
+        "starting_salary": 95,
+        "mid_salary": 145,
+        "peak_salary": 220,
+        "typical_peak": 165,
+        "malpractice_per_yr": 5
+      },
+      "stress": {
+        "ai": 7,
+        "pay": 4,
+        "injury": 5,
+        "match": 7
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          22
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 22,
+        "startSalary": 95
+      }
+    },
+    {
+      "name": "Plastics / Composites Engineer",
+      "key": "plastics_composites_engi",
+      "profession": "BS",
+      "group": "chemical_process",
+      "color": "#33d8be",
+      "path": "BS Engineer",
+      "raw_data": {
+        "startSalary": 68,
+        "midSalary": 100,
+        "peakSalary": 140,
+        "typicalPeak": 110,
+        "hoursWeek": 44,
+        "burnout": 22,
+        "satisfaction": 68,
+        "chooseAgain": 62,
+        "malpracticeCost": 2,
+        "vacation": 4,
+        "matchComp": 4,
+        "annualSpots": 3000,
+        "oneInX": 43,
+        "callSchedule": 8,
+        "physicalToll": 7,
+        "emotionalToll": 8
+      },
+      "scores": {
+        "category_1": 6.75,
+        "category_2": 6.33,
+        "category_3": 6.67,
+        "category_4": 8.67,
+        "category_5": 6.07,
+        "category_6": 5.0,
+        "category_7": 4.97,
+        "category_8": 6.38,
+        "category_9": 5.94,
+        "category_10": 5.8,
+        "category_11": 5.2,
+        "category_12": 5.23,
+        "category_13": 4.5,
+        "category_14": 8.11
+      },
+      "scenario_totals": {
+        "default": 6.26,
+        "equal_weight": 6.12,
+        "max_earnings": 5.78,
+        "best_lifestyle": 6.09,
+        "fastest_to_practice": 6.46,
+        "most_procedural": 5.93
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 25,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 0,
+        "trainee_salary": 0,
+        "education_debt": 35,
+        "loan_rate": 5.5,
+        "living_expenses": 45,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 5,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 22,
+        "starting_salary": 68,
+        "mid_salary": 100,
+        "peak_salary": 140,
+        "typical_peak": 110,
+        "malpractice_per_yr": 2
+      },
+      "stress": {
+        "ai": 8,
+        "pay": 5,
+        "injury": 5,
+        "match": 7
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          22
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 22,
+        "startSalary": 68
+      }
+    },
+    {
+      "name": "Biomedical Device Engineer",
+      "key": "biomedical_device_engine",
+      "profession": "BS",
+      "group": "biomedical",
+      "color": "#20d4d8",
+      "path": "BS Engineer",
+      "raw_data": {
+        "startSalary": 72,
+        "midSalary": 108,
+        "peakSalary": 160,
+        "typicalPeak": 120,
+        "hoursWeek": 44,
+        "burnout": 25,
+        "satisfaction": 76,
+        "chooseAgain": 72,
+        "malpracticeCost": 5,
+        "vacation": 5,
+        "matchComp": 4,
+        "annualSpots": 5000,
+        "oneInX": 26,
+        "callSchedule": 8,
+        "physicalToll": 8,
+        "emotionalToll": 7
+      },
+      "scores": {
+        "category_1": 6.75,
+        "category_2": 6.33,
+        "category_3": 6.67,
+        "category_4": 8.67,
+        "category_5": 6.14,
+        "category_6": 5.14,
+        "category_7": 5.08,
+        "category_8": 6.12,
+        "category_9": 6.28,
+        "category_10": 6.0,
+        "category_11": 4.8,
+        "category_12": 7.52,
+        "category_13": 4.5,
+        "category_14": 7.43
+      },
+      "scenario_totals": {
+        "default": 6.44,
+        "equal_weight": 6.24,
+        "max_earnings": 5.93,
+        "best_lifestyle": 6.36,
+        "fastest_to_practice": 6.58,
+        "most_procedural": 6.24
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 25,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 0,
+        "trainee_salary": 0,
+        "education_debt": 35,
+        "loan_rate": 5.5,
+        "living_expenses": 45,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 5,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 22,
+        "starting_salary": 72,
+        "mid_salary": 108,
+        "peak_salary": 160,
+        "typical_peak": 120,
+        "malpractice_per_yr": 5
+      },
+      "stress": {
+        "ai": 7,
+        "pay": 6,
+        "injury": 6,
+        "match": 7
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          22
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 22,
+        "startSalary": 72
+      }
+    },
+    {
+      "name": "Clinical / Regulatory Engineer",
+      "key": "clinical_regulatory_engi",
+      "profession": "BS",
+      "group": "biomedical",
+      "color": "#20b3d8",
+      "path": "BS Engineer",
+      "raw_data": {
+        "startSalary": 70,
+        "midSalary": 105,
+        "peakSalary": 150,
+        "typicalPeak": 115,
+        "hoursWeek": 42,
+        "burnout": 22,
+        "satisfaction": 70,
+        "chooseAgain": 64,
+        "malpracticeCost": 4,
+        "vacation": 5,
+        "matchComp": 4,
+        "annualSpots": 4000,
+        "oneInX": 32,
+        "callSchedule": 9,
+        "physicalToll": 9,
+        "emotionalToll": 7
+      },
+      "scores": {
+        "category_1": 6.75,
+        "category_2": 6.33,
+        "category_3": 6.67,
+        "category_4": 9.0,
+        "category_5": 6.1,
+        "category_6": 5.29,
+        "category_7": 5.28,
+        "category_8": 6.6,
+        "category_9": 6.82,
+        "category_10": 6.2,
+        "category_11": 4.4,
+        "category_12": 5.92,
+        "category_13": 4.5,
+        "category_14": 7.8
+      },
+      "scenario_totals": {
+        "default": 6.46,
+        "equal_weight": 6.26,
+        "max_earnings": 5.98,
+        "best_lifestyle": 6.41,
+        "fastest_to_practice": 6.61,
+        "most_procedural": 6.17
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 25,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 0,
+        "trainee_salary": 0,
+        "education_debt": 35,
+        "loan_rate": 5.5,
+        "living_expenses": 45,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 5,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 22,
+        "starting_salary": 70,
+        "mid_salary": 105,
+        "peak_salary": 150,
+        "typical_peak": 115,
+        "malpractice_per_yr": 4
+      },
+      "stress": {
+        "ai": 5,
+        "pay": 5,
+        "injury": 8,
+        "match": 7
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          22
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 22,
+        "startSalary": 70
+      }
+    },
+    {
+      "name": "Environmental / Remediation Engineer",
+      "key": "environmental_remediatio",
+      "profession": "BS",
+      "group": "environmental_energy",
+      "color": "#3399d8",
+      "path": "BS Engineer",
+      "raw_data": {
+        "startSalary": 62,
+        "midSalary": 92,
+        "peakSalary": 130,
+        "typicalPeak": 100,
+        "hoursWeek": 42,
+        "burnout": 22,
+        "satisfaction": 74,
+        "chooseAgain": 68,
+        "malpracticeCost": 5,
+        "vacation": 5,
+        "matchComp": 5,
+        "annualSpots": 7000,
+        "oneInX": 19,
+        "callSchedule": 8,
+        "physicalToll": 6,
+        "emotionalToll": 7
+      },
+      "scores": {
+        "category_1": 6.75,
+        "category_2": 6.67,
+        "category_3": 6.67,
+        "category_4": 8.67,
+        "category_5": 5.97,
+        "category_6": 5.14,
+        "category_7": 5.17,
+        "category_8": 6.85,
+        "category_9": 6.62,
+        "category_10": 6.0,
+        "category_11": 4.8,
+        "category_12": 6.58,
+        "category_13": 4.5,
+        "category_14": 7.0
+      },
+      "scenario_totals": {
+        "default": 6.45,
+        "equal_weight": 6.23,
+        "max_earnings": 5.93,
+        "best_lifestyle": 6.42,
+        "fastest_to_practice": 6.58,
+        "most_procedural": 6.27
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 25,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 0,
+        "trainee_salary": 0,
+        "education_debt": 35,
+        "loan_rate": 5.5,
+        "living_expenses": 45,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 5,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 22,
+        "starting_salary": 62,
+        "mid_salary": 92,
+        "peak_salary": 130,
+        "typical_peak": 100,
+        "malpractice_per_yr": 5
+      },
+      "stress": {
+        "ai": 7,
+        "pay": 5,
+        "injury": 6,
+        "match": 7
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          22
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 22,
+        "startSalary": 62
+      }
+    },
+    {
+      "name": "Solar / Photovoltaic Engineer",
+      "key": "solar_photovoltaic_engin",
+      "profession": "BS",
+      "group": "environmental_energy",
+      "color": "#2071d8",
+      "path": "BS Engineer",
+      "raw_data": {
+        "startSalary": 72,
+        "midSalary": 108,
+        "peakSalary": 155,
+        "typicalPeak": 118,
+        "hoursWeek": 44,
+        "burnout": 24,
+        "satisfaction": 76,
+        "chooseAgain": 72,
+        "malpracticeCost": 3,
+        "vacation": 4,
+        "matchComp": 5,
+        "annualSpots": 6000,
+        "oneInX": 22,
+        "callSchedule": 8,
+        "physicalToll": 6,
+        "emotionalToll": 8
+      },
+      "scores": {
+        "category_1": 6.75,
+        "category_2": 6.67,
+        "category_3": 6.67,
+        "category_4": 8.67,
+        "category_5": 6.14,
+        "category_6": 5.14,
+        "category_7": 5.05,
+        "category_8": 6.38,
+        "category_9": 6.04,
+        "category_10": 6.0,
+        "category_11": 5.0,
+        "category_12": 6.68,
+        "category_13": 4.5,
+        "category_14": 7.46
+      },
+      "scenario_totals": {
+        "default": 6.4,
+        "equal_weight": 6.22,
+        "max_earnings": 5.91,
+        "best_lifestyle": 6.28,
+        "fastest_to_practice": 6.58,
+        "most_procedural": 6.18
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 25,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 0,
+        "trainee_salary": 0,
+        "education_debt": 35,
+        "loan_rate": 5.5,
+        "living_expenses": 45,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 5,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 22,
+        "starting_salary": 72,
+        "mid_salary": 108,
+        "peak_salary": 155,
+        "typical_peak": 118,
+        "malpractice_per_yr": 3
+      },
+      "stress": {
+        "ai": 8,
+        "pay": 6,
+        "injury": 6,
+        "match": 7
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          22
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 22,
+        "startSalary": 72
+      }
+    },
+    {
+      "name": "Wind Energy Engineer",
+      "key": "wind_energy_engineer",
+      "profession": "BS",
+      "group": "environmental_energy",
+      "color": "#204fd8",
+      "path": "BS Engineer",
+      "raw_data": {
+        "startSalary": 74,
+        "midSalary": 110,
+        "peakSalary": 155,
+        "typicalPeak": 120,
+        "hoursWeek": 44,
+        "burnout": 24,
+        "satisfaction": 76,
+        "chooseAgain": 72,
+        "malpracticeCost": 3,
+        "vacation": 4,
+        "matchComp": 4,
+        "annualSpots": 4000,
+        "oneInX": 32,
+        "callSchedule": 7,
+        "physicalToll": 6,
+        "emotionalToll": 8
+      },
+      "scores": {
+        "category_1": 6.75,
+        "category_2": 6.33,
+        "category_3": 6.67,
+        "category_4": 8.33,
+        "category_5": 6.17,
+        "category_6": 5.0,
+        "category_7": 5.05,
+        "category_8": 6.38,
+        "category_9": 5.84,
+        "category_10": 5.8,
+        "category_11": 5.0,
+        "category_12": 6.68,
+        "category_13": 4.5,
+        "category_14": 7.46
+      },
+      "scenario_totals": {
+        "default": 6.32,
+        "equal_weight": 6.14,
+        "max_earnings": 5.85,
+        "best_lifestyle": 6.18,
+        "fastest_to_practice": 6.47,
+        "most_procedural": 6.11
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 25,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 0,
+        "trainee_salary": 0,
+        "education_debt": 35,
+        "loan_rate": 5.5,
+        "living_expenses": 45,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 5,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 22,
+        "starting_salary": 74,
+        "mid_salary": 110,
+        "peak_salary": 155,
+        "typical_peak": 120,
+        "malpractice_per_yr": 3
+      },
+      "stress": {
+        "ai": 8,
+        "pay": 5,
+        "injury": 5,
+        "match": 7
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          22
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 22,
+        "startSalary": 74
+      }
+    },
+    {
+      "name": "Nuclear Engineer",
+      "key": "nuclear_engineer",
+      "profession": "BS",
+      "group": "environmental_energy",
+      "color": "#333fd8",
+      "path": "BS Engineer",
+      "raw_data": {
+        "startSalary": 80,
+        "midSalary": 120,
+        "peakSalary": 175,
+        "typicalPeak": 135,
+        "hoursWeek": 44,
+        "burnout": 24,
+        "satisfaction": 74,
+        "chooseAgain": 68,
+        "malpracticeCost": 4,
+        "vacation": 4,
+        "matchComp": 3,
+        "annualSpots": 2000,
+        "oneInX": 65,
+        "callSchedule": 6,
+        "physicalToll": 7,
+        "emotionalToll": 6
+      },
+      "scores": {
+        "category_1": 6.75,
+        "category_2": 6.0,
+        "category_3": 6.67,
+        "category_4": 8.0,
+        "category_5": 6.27,
+        "category_6": 4.86,
+        "category_7": 5.42,
+        "category_8": 6.62,
+        "category_9": 5.64,
+        "category_10": 5.6,
+        "category_11": 4.6,
+        "category_12": 6.58,
+        "category_13": 4.5,
+        "category_14": 7.09
+      },
+      "scenario_totals": {
+        "default": 6.24,
+        "equal_weight": 6.04,
+        "max_earnings": 5.88,
+        "best_lifestyle": 6.11,
+        "fastest_to_practice": 6.36,
+        "most_procedural": 6.06
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 25,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 0,
+        "trainee_salary": 0,
+        "education_debt": 35,
+        "loan_rate": 5.5,
+        "living_expenses": 45,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 5,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 22,
+        "starting_salary": 80,
+        "mid_salary": 120,
+        "peak_salary": 175,
+        "typical_peak": 135,
+        "malpractice_per_yr": 4
+      },
+      "stress": {
+        "ai": 8,
+        "pay": 4,
+        "injury": 6,
+        "match": 8
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          22
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 22,
+        "startSalary": 80
+      }
+    },
+    {
+      "name": "Sustainability / ESG Consultant",
+      "key": "sustainability_esg_consu",
+      "profession": "BS",
+      "group": "environmental_energy",
+      "color": "#3320d8",
+      "path": "BS Engineer",
+      "raw_data": {
+        "startSalary": 60,
+        "midSalary": 88,
+        "peakSalary": 120,
+        "typicalPeak": 96,
+        "hoursWeek": 42,
+        "burnout": 20,
+        "satisfaction": 74,
+        "chooseAgain": 68,
+        "malpracticeCost": 1,
+        "vacation": 5,
+        "matchComp": 4,
+        "annualSpots": 5000,
+        "oneInX": 26,
+        "callSchedule": 9,
+        "physicalToll": 9,
+        "emotionalToll": 7
+      },
+      "scores": {
+        "category_1": 6.75,
+        "category_2": 6.33,
+        "category_3": 6.67,
+        "category_4": 9.0,
+        "category_5": 5.94,
+        "category_6": 5.43,
+        "category_7": 4.6,
+        "category_8": 6.35,
+        "category_9": 7.12,
+        "category_10": 6.4,
+        "category_11": 4.6,
+        "category_12": 6.58,
+        "category_13": 4.5,
+        "category_14": 8.77
+      },
+      "scenario_totals": {
+        "default": 6.51,
+        "equal_weight": 6.37,
+        "max_earnings": 5.87,
+        "best_lifestyle": 6.48,
+        "fastest_to_practice": 6.65,
+        "most_procedural": 6.25
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 25,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 0,
+        "trainee_salary": 0,
+        "education_debt": 35,
+        "loan_rate": 5.5,
+        "living_expenses": 45,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 5,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 22,
+        "starting_salary": 60,
+        "mid_salary": 88,
+        "peak_salary": 120,
+        "typical_peak": 96,
+        "malpractice_per_yr": 1
+      },
+      "stress": {
+        "ai": 4,
+        "pay": 6,
+        "injury": 7,
+        "match": 7
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          22
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 22,
+        "startSalary": 60
+      }
+    },
+    {
+      "name": "Water / Wastewater Treatment Engineer",
+      "key": "water_wastewater_treatme",
+      "profession": "BS",
+      "group": "environmental_energy",
+      "color": "#5420d8",
+      "path": "BS Engineer",
+      "raw_data": {
+        "startSalary": 64,
+        "midSalary": 92,
+        "peakSalary": 130,
+        "typicalPeak": 100,
+        "hoursWeek": 42,
+        "burnout": 20,
+        "satisfaction": 72,
+        "chooseAgain": 66,
+        "malpracticeCost": 5,
+        "vacation": 5,
+        "matchComp": 4,
+        "annualSpots": 5000,
+        "oneInX": 26,
+        "callSchedule": 7,
+        "physicalToll": 6,
+        "emotionalToll": 8
+      },
+      "scores": {
+        "category_1": 6.75,
+        "category_2": 6.33,
+        "category_3": 6.67,
+        "category_4": 8.33,
+        "category_5": 6.0,
+        "category_6": 5.0,
+        "category_7": 5.17,
+        "category_8": 6.85,
+        "category_9": 6.52,
+        "category_10": 6.0,
+        "category_11": 5.0,
+        "category_12": 6.42,
+        "category_13": 4.5,
+        "category_14": 7.14
+      },
+      "scenario_totals": {
+        "default": 6.39,
+        "equal_weight": 6.18,
+        "max_earnings": 5.9,
+        "best_lifestyle": 6.35,
+        "fastest_to_practice": 6.49,
+        "most_procedural": 6.2
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 25,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 0,
+        "trainee_salary": 0,
+        "education_debt": 35,
+        "loan_rate": 5.5,
+        "living_expenses": 45,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 5,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 22,
+        "starting_salary": 64,
+        "mid_salary": 92,
+        "peak_salary": 130,
+        "typical_peak": 100,
+        "malpractice_per_yr": 5
+      },
+      "stress": {
+        "ai": 8,
+        "pay": 5,
+        "injury": 5,
+        "match": 7
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          22
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 22,
+        "startSalary": 64
+      }
+    },
+    {
+      "name": "Technical Program Manager",
+      "key": "technical_program_manage",
+      "profession": "BS",
+      "group": "management_consulting",
+      "color": "#7f33d8",
+      "path": "BS Engineer",
+      "raw_data": {
+        "startSalary": 100,
+        "midSalary": 160,
+        "peakSalary": 250,
+        "typicalPeak": 180,
+        "hoursWeek": 48,
+        "burnout": 35,
+        "satisfaction": 70,
+        "chooseAgain": 64,
+        "malpracticeCost": 0,
+        "vacation": 5,
+        "matchComp": 7,
+        "annualSpots": 25000,
+        "oneInX": 5,
+        "callSchedule": 6,
+        "physicalToll": 9,
+        "emotionalToll": 5
+      },
+      "scores": {
+        "category_1": 6.75,
+        "category_2": 7.33,
+        "category_3": 6.67,
+        "category_4": 8.0,
+        "category_5": 6.64,
+        "category_6": 5.14,
+        "category_7": 5.35,
+        "category_8": 5.72,
+        "category_9": 5.46,
+        "category_10": 6.6,
+        "category_11": 4.4,
+        "category_12": 5.75,
+        "category_13": 4.5,
+        "category_14": 8.86
+      },
+      "scenario_totals": {
+        "default": 6.36,
+        "equal_weight": 6.24,
+        "max_earnings": 6.01,
+        "best_lifestyle": 6.06,
+        "fastest_to_practice": 6.59,
+        "most_procedural": 5.95
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 25,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 0,
+        "trainee_salary": 0,
+        "education_debt": 35,
+        "loan_rate": 5.5,
+        "living_expenses": 45,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 5,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 22,
+        "starting_salary": 100,
+        "mid_salary": 160,
+        "peak_salary": 250,
+        "typical_peak": 180,
+        "malpractice_per_yr": 0
+      },
+      "stress": {
+        "ai": 4,
+        "pay": 6,
+        "injury": 7,
+        "match": 6
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          22
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 22,
+        "startSalary": 100
+      }
+    },
+    {
+      "name": "Patent Engineer / Agent",
+      "key": "patent_engineer_agent",
+      "profession": "BS",
+      "group": "management_consulting",
+      "color": "#9620d8",
+      "path": "BS Engineer",
+      "raw_data": {
+        "startSalary": 75,
+        "midSalary": 115,
+        "peakSalary": 180,
+        "typicalPeak": 135,
+        "hoursWeek": 45,
+        "burnout": 28,
+        "satisfaction": 70,
+        "chooseAgain": 64,
+        "malpracticeCost": 5,
+        "vacation": 4,
+        "matchComp": 4,
+        "annualSpots": 3000,
+        "oneInX": 43,
+        "callSchedule": 9,
+        "physicalToll": 9,
+        "emotionalToll": 7
+      },
+      "scores": {
+        "category_1": 6.75,
+        "category_2": 6.33,
+        "category_3": 6.67,
+        "category_4": 9.0,
+        "category_5": 6.2,
+        "category_6": 5.43,
+        "category_7": 5.45,
+        "category_8": 5.53,
+        "category_9": 6.16,
+        "category_10": 6.4,
+        "category_11": 4.4,
+        "category_12": 5.75,
+        "category_13": 4.5,
+        "category_14": 7.86
+      },
+      "scenario_totals": {
+        "default": 6.35,
+        "equal_weight": 6.17,
+        "max_earnings": 5.98,
+        "best_lifestyle": 6.17,
+        "fastest_to_practice": 6.57,
+        "most_procedural": 5.94
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 25,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 0,
+        "trainee_salary": 0,
+        "education_debt": 35,
+        "loan_rate": 5.5,
+        "living_expenses": 45,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 5,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 22,
+        "starting_salary": 75,
+        "mid_salary": 115,
+        "peak_salary": 180,
+        "typical_peak": 135,
+        "malpractice_per_yr": 5
+      },
+      "stress": {
+        "ai": 4,
+        "pay": 6,
+        "injury": 9,
+        "match": 7
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          22
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 22,
+        "startSalary": 75
+      }
+    },
+    {
+      "name": "Engineering Sales / Solutions Engineer",
+      "key": "engineering_sales_soluti",
+      "profession": "BS",
+      "group": "management_consulting",
+      "color": "#b820d8",
+      "path": "BS Engineer",
+      "raw_data": {
+        "startSalary": 80,
+        "midSalary": 135,
+        "peakSalary": 220,
+        "typicalPeak": 155,
+        "hoursWeek": 46,
+        "burnout": 30,
+        "satisfaction": 72,
+        "chooseAgain": 66,
+        "malpracticeCost": 0,
+        "vacation": 4,
+        "matchComp": 6,
+        "annualSpots": 15000,
+        "oneInX": 9,
+        "callSchedule": 6,
+        "physicalToll": 8,
+        "emotionalToll": 6
+      },
+      "scores": {
+        "category_1": 6.75,
+        "category_2": 7.0,
+        "category_3": 6.67,
+        "category_4": 8.0,
+        "category_5": 6.34,
+        "category_6": 5.0,
+        "category_7": 5.17,
+        "category_8": 5.67,
+        "category_9": 5.36,
+        "category_10": 6.2,
+        "category_11": 4.4,
+        "category_12": 6.25,
+        "category_13": 4.5,
+        "category_14": 8.86
+      },
+      "scenario_totals": {
+        "default": 6.28,
+        "equal_weight": 6.17,
+        "max_earnings": 5.87,
+        "best_lifestyle": 6.01,
+        "fastest_to_practice": 6.5,
+        "most_procedural": 5.93
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 25,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 0,
+        "trainee_salary": 0,
+        "education_debt": 35,
+        "loan_rate": 5.5,
+        "living_expenses": 45,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 5,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 22,
+        "starting_salary": 80,
+        "mid_salary": 135,
+        "peak_salary": 220,
+        "typical_peak": 155,
+        "malpractice_per_yr": 0
+      },
+      "stress": {
+        "ai": 5,
+        "pay": 5,
+        "injury": 6,
+        "match": 7
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          22
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 22,
+        "startSalary": 80
+      }
+    },
+    {
+      "name": "Product Manager (Tech)",
+      "key": "product_manager_tech",
+      "profession": "BS",
+      "group": "management_consulting",
+      "color": "#d833d8",
+      "path": "BS Engineer",
+      "raw_data": {
+        "startSalary": 100,
+        "midSalary": 165,
+        "peakSalary": 280,
+        "typicalPeak": 190,
+        "hoursWeek": 48,
+        "burnout": 38,
+        "satisfaction": 72,
+        "chooseAgain": 66,
+        "malpracticeCost": 0,
+        "vacation": 5,
+        "matchComp": 7,
+        "annualSpots": 20000,
+        "oneInX": 6,
+        "callSchedule": 7,
+        "physicalToll": 9,
+        "emotionalToll": 5
+      },
+      "scores": {
+        "category_1": 6.75,
+        "category_2": 7.33,
+        "category_3": 6.67,
+        "category_4": 8.33,
+        "category_5": 6.66,
+        "category_6": 5.14,
+        "category_7": 5.25,
+        "category_8": 5.22,
+        "category_9": 5.3,
+        "category_10": 6.6,
+        "category_11": 4.2,
+        "category_12": 6.42,
+        "category_13": 4.5,
+        "category_14": 8.86
+      },
+      "scenario_totals": {
+        "default": 6.36,
+        "equal_weight": 6.24,
+        "max_earnings": 5.99,
+        "best_lifestyle": 6.05,
+        "fastest_to_practice": 6.64,
+        "most_procedural": 5.94
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 25,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 0,
+        "trainee_salary": 0,
+        "education_debt": 35,
+        "loan_rate": 5.5,
+        "living_expenses": 45,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 5,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 22,
+        "starting_salary": 100,
+        "mid_salary": 165,
+        "peak_salary": 280,
+        "typical_peak": 190,
+        "malpractice_per_yr": 0
+      },
+      "stress": {
+        "ai": 4,
+        "pay": 6,
+        "injury": 8,
+        "match": 6
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          22
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 22,
+        "startSalary": 100
+      }
+    },
+    {
+      "name": "Machine Learning Engineer",
+      "key": "ml_eng",
+      "profession": "MS",
+      "group": "software_tech",
+      "color": "#1565C0",
+      "path": "MS Engineer",
+      "raw_data": {
+        "startSalary": 130,
+        "midSalary": 210,
+        "peakSalary": 350,
+        "typicalPeak": 250,
+        "hoursWeek": 48,
+        "burnout": 38,
+        "satisfaction": 78,
+        "chooseAgain": 75,
+        "malpracticeCost": 1,
+        "vacation": 5,
+        "matchComp": 9,
+        "annualSpots": 25000,
+        "oneInX": 2,
+        "callSchedule": 8,
+        "physicalToll": 9,
+        "emotionalToll": 7
+      },
+      "scores": {
+        "category_1": 5.75,
+        "category_2": 7.33,
+        "category_3": 6.33,
+        "category_4": 8.0,
+        "category_5": 6.43,
+        "category_6": 5.57,
+        "category_7": 5.9,
+        "category_8": 4.72,
+        "category_9": 5.5,
+        "category_10": 6.4,
+        "category_11": 4.2,
+        "category_12": 7.05,
+        "category_13": 4.5,
+        "category_14": 9.06
+      },
+      "scenario_totals": {
+        "default": 6.36,
+        "equal_weight": 6.21,
+        "max_earnings": 6.09,
+        "best_lifestyle": 6.05,
+        "fastest_to_practice": 6.47,
+        "most_procedural": 5.95
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 25,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 30,
+        "prof_school_years": 2,
+        "trainee_salary": 25,
+        "education_debt": 55,
+        "loan_rate": 5.5,
+        "living_expenses": 45,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 5,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 24,
+        "starting_salary": 130,
+        "mid_salary": 210,
+        "peak_salary": 350,
+        "typical_peak": 250,
+        "malpractice_per_yr": 1
+      },
+      "stress": {
+        "ai": 5,
+        "pay": 7,
+        "injury": 8,
+        "match": 5
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          24
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 24,
+        "startSalary": 130
+      }
+    },
+    {
+      "name": "Data Scientist / Analytics Engineer",
+      "key": "data_scientist_analytics",
+      "profession": "MS",
+      "group": "software_tech",
+      "color": "#d88e20",
+      "path": "MS Engineer",
+      "raw_data": {
+        "startSalary": 95,
+        "midSalary": 150,
+        "peakSalary": 250,
+        "typicalPeak": 175,
+        "hoursWeek": 44,
+        "burnout": 30,
+        "satisfaction": 75,
+        "chooseAgain": 70,
+        "malpracticeCost": 1,
+        "vacation": 6,
+        "matchComp": 9,
+        "annualSpots": 30000,
+        "oneInX": 2,
+        "callSchedule": 9,
+        "physicalToll": 10,
+        "emotionalToll": 8
+      },
+      "scores": {
+        "category_1": 5.75,
+        "category_2": 7.33,
+        "category_3": 6.33,
+        "category_4": 8.33,
+        "category_5": 5.83,
+        "category_6": 5.71,
+        "category_7": 5.35,
+        "category_8": 4.88,
+        "category_9": 6.72,
+        "category_10": 6.6,
+        "category_11": 4.6,
+        "category_12": 6.37,
+        "category_13": 4.5,
+        "category_14": 9.34
+      },
+      "scenario_totals": {
+        "default": 6.41,
+        "equal_weight": 6.27,
+        "max_earnings": 5.94,
+        "best_lifestyle": 6.22,
+        "fastest_to_practice": 6.49,
+        "most_procedural": 5.95
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 25,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 30,
+        "prof_school_years": 2,
+        "trainee_salary": 25,
+        "education_debt": 55,
+        "loan_rate": 5.5,
+        "living_expenses": 45,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 5,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 24,
+        "starting_salary": 95,
+        "mid_salary": 150,
+        "peak_salary": 250,
+        "typical_peak": 175,
+        "malpractice_per_yr": 1
+      },
+      "stress": {
+        "ai": 4,
+        "pay": 8,
+        "injury": 8,
+        "match": 5
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          24
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 24,
+        "startSalary": 95
+      }
+    },
+    {
+      "name": "Robotics Engineer",
+      "key": "robotics_engineer",
+      "profession": "MS",
+      "group": "mechanical_mfg",
+      "color": "#d8af20",
+      "path": "MS Engineer",
+      "raw_data": {
+        "startSalary": 95,
+        "midSalary": 145,
+        "peakSalary": 220,
+        "typicalPeak": 165,
+        "hoursWeek": 45,
+        "burnout": 30,
+        "satisfaction": 80,
+        "chooseAgain": 75,
+        "malpracticeCost": 1,
+        "vacation": 5,
+        "matchComp": 6,
+        "annualSpots": 6000,
+        "oneInX": 9,
+        "callSchedule": 8,
+        "physicalToll": 8,
+        "emotionalToll": 8
+      },
+      "scores": {
+        "category_1": 5.75,
+        "category_2": 6.33,
+        "category_3": 6.33,
+        "category_4": 8.0,
+        "category_5": 5.81,
+        "category_6": 5.29,
+        "category_7": 5.42,
+        "category_8": 6.28,
+        "category_9": 5.74,
+        "category_10": 5.8,
+        "category_11": 5.4,
+        "category_12": 7.13,
+        "category_13": 4.5,
+        "category_14": 8.91
+      },
+      "scenario_totals": {
+        "default": 6.35,
+        "equal_weight": 6.2,
+        "max_earnings": 5.9,
+        "best_lifestyle": 6.17,
+        "fastest_to_practice": 6.31,
+        "most_procedural": 6.16
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 25,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 30,
+        "prof_school_years": 2,
+        "trainee_salary": 25,
+        "education_debt": 55,
+        "loan_rate": 5.5,
+        "living_expenses": 45,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 5,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 24,
+        "starting_salary": 95,
+        "mid_salary": 145,
+        "peak_salary": 220,
+        "typical_peak": 165,
+        "malpractice_per_yr": 1
+      },
+      "stress": {
+        "ai": 8,
+        "pay": 6,
+        "injury": 5,
+        "match": 6
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          24
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 24,
+        "startSalary": 95
+      }
+    },
+    {
+      "name": "Urban / City Planner (Engineering)",
+      "key": "urban_city_planner_engin",
+      "profession": "MS",
+      "group": "civil_construction",
+      "color": "#d8d020",
+      "path": "MS Engineer",
+      "raw_data": {
+        "startSalary": 62,
+        "midSalary": 88,
+        "peakSalary": 120,
+        "typicalPeak": 95,
+        "hoursWeek": 42,
+        "burnout": 20,
+        "satisfaction": 72,
+        "chooseAgain": 65,
+        "malpracticeCost": 1,
+        "vacation": 6,
+        "matchComp": 6,
+        "annualSpots": 4000,
+        "oneInX": 14,
+        "callSchedule": 9,
+        "physicalToll": 9,
+        "emotionalToll": 7
+      },
+      "scores": {
+        "category_1": 5.75,
+        "category_2": 6.33,
+        "category_3": 6.33,
+        "category_4": 8.33,
+        "category_5": 5.24,
+        "category_6": 5.29,
+        "category_7": 5.1,
+        "category_8": 6.1,
+        "category_9": 7.02,
+        "category_10": 5.6,
+        "category_11": 4.6,
+        "category_12": 6.22,
+        "category_13": 4.5,
+        "category_14": 8.77
+      },
+      "scenario_totals": {
+        "default": 6.25,
+        "equal_weight": 6.1,
+        "max_earnings": 5.67,
+        "best_lifestyle": 6.21,
+        "fastest_to_practice": 6.25,
+        "most_procedural": 5.97
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 25,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 30,
+        "prof_school_years": 2,
+        "trainee_salary": 25,
+        "education_debt": 55,
+        "loan_rate": 5.5,
+        "living_expenses": 45,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 5,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 24,
+        "starting_salary": 62,
+        "mid_salary": 88,
+        "peak_salary": 120,
+        "typical_peak": 95,
+        "malpractice_per_yr": 1
+      },
+      "stress": {
+        "ai": 5,
+        "pay": 5,
+        "injury": 7,
+        "match": 6
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          24
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 24,
+        "startSalary": 62
+      }
+    },
+    {
+      "name": "Semiconductor / Chip Design Engineer",
+      "key": "semiconductor_chip_desig",
+      "profession": "MS",
+      "group": "electrical",
+      "color": "#bfd820",
+      "path": "MS Engineer",
+      "raw_data": {
+        "startSalary": 115,
+        "midSalary": 175,
+        "peakSalary": 300,
+        "typicalPeak": 210,
+        "hoursWeek": 46,
+        "burnout": 32,
+        "satisfaction": 78,
+        "chooseAgain": 72,
+        "malpracticeCost": 1,
+        "vacation": 5,
+        "matchComp": 6,
+        "annualSpots": 5000,
+        "oneInX": 11,
+        "callSchedule": 8,
+        "physicalToll": 9,
+        "emotionalToll": 7
+      },
+      "scores": {
+        "category_1": 5.75,
+        "category_2": 6.33,
+        "category_3": 6.33,
+        "category_4": 8.0,
+        "category_5": 6.13,
+        "category_6": 5.29,
+        "category_7": 5.88,
+        "category_8": 5.67,
+        "category_9": 5.56,
+        "category_10": 5.6,
+        "category_11": 5.2,
+        "category_12": 6.6,
+        "category_13": 4.5,
+        "category_14": 9.06
+      },
+      "scenario_totals": {
+        "default": 6.31,
+        "equal_weight": 6.15,
+        "max_earnings": 5.99,
+        "best_lifestyle": 6.05,
+        "fastest_to_practice": 6.31,
+        "most_procedural": 5.97
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 25,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 30,
+        "prof_school_years": 2,
+        "trainee_salary": 25,
+        "education_debt": 55,
+        "loan_rate": 5.5,
+        "living_expenses": 45,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 5,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 24,
+        "starting_salary": 115,
+        "mid_salary": 175,
+        "peak_salary": 300,
+        "typical_peak": 210,
+        "malpractice_per_yr": 1
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 6,
+        "injury": 6,
+        "match": 6
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          24
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 24,
+        "startSalary": 115
+      }
+    },
+    {
+      "name": "Signal Processing / DSP Engineer",
+      "key": "signal_processing_dsp_en",
+      "profession": "MS",
+      "group": "electrical",
+      "color": "#9ed820",
+      "path": "MS Engineer",
+      "raw_data": {
+        "startSalary": 90,
+        "midSalary": 140,
+        "peakSalary": 200,
+        "typicalPeak": 155,
+        "hoursWeek": 43,
+        "burnout": 25,
+        "satisfaction": 75,
+        "chooseAgain": 70,
+        "malpracticeCost": 1,
+        "vacation": 5,
+        "matchComp": 6,
+        "annualSpots": 4000,
+        "oneInX": 14,
+        "callSchedule": 9,
+        "physicalToll": 9,
+        "emotionalToll": 8
+      },
+      "scores": {
+        "category_1": 5.75,
+        "category_2": 6.33,
+        "category_3": 6.33,
+        "category_4": 8.33,
+        "category_5": 5.74,
+        "category_6": 5.43,
+        "category_7": 5.3,
+        "category_8": 5.25,
+        "category_9": 6.38,
+        "category_10": 6.0,
+        "category_11": 5.0,
+        "category_12": 6.2,
+        "category_13": 4.5,
+        "category_14": 9.2
+      },
+      "scenario_totals": {
+        "default": 6.27,
+        "equal_weight": 6.14,
+        "max_earnings": 5.82,
+        "best_lifestyle": 6.09,
+        "fastest_to_practice": 6.31,
+        "most_procedural": 5.87
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 25,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 30,
+        "prof_school_years": 2,
+        "trainee_salary": 25,
+        "education_debt": 55,
+        "loan_rate": 5.5,
+        "living_expenses": 45,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 5,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 24,
+        "starting_salary": 90,
+        "mid_salary": 140,
+        "peak_salary": 200,
+        "typical_peak": 155,
+        "malpractice_per_yr": 1
+      },
+      "stress": {
+        "ai": 5,
+        "pay": 7,
+        "injury": 7,
+        "match": 6
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          24
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 24,
+        "startSalary": 90
+      }
+    },
+    {
+      "name": "Propulsion Engineer",
+      "key": "propulsion",
+      "profession": "MS",
+      "group": "aerospace_defense",
+      "color": "#E65100",
+      "path": "MS Engineer",
+      "raw_data": {
+        "startSalary": 90,
+        "midSalary": 140,
+        "peakSalary": 200,
+        "typicalPeak": 155,
+        "hoursWeek": 46,
+        "burnout": 30,
+        "satisfaction": 82,
+        "chooseAgain": 78,
+        "malpracticeCost": 1,
+        "vacation": 4,
+        "matchComp": 4,
+        "annualSpots": 2000,
+        "oneInX": 28,
+        "callSchedule": 8,
+        "physicalToll": 8,
+        "emotionalToll": 7
+      },
+      "scores": {
+        "category_1": 5.75,
+        "category_2": 5.67,
+        "category_3": 6.33,
+        "category_4": 8.0,
+        "category_5": 5.74,
+        "category_6": 5.14,
+        "category_7": 5.55,
+        "category_8": 6.42,
+        "category_9": 5.16,
+        "category_10": 5.4,
+        "category_11": 5.4,
+        "category_12": 7.18,
+        "category_13": 4.5,
+        "category_14": 8.77
+      },
+      "scenario_totals": {
+        "default": 6.23,
+        "equal_weight": 6.08,
+        "max_earnings": 5.83,
+        "best_lifestyle": 6.01,
+        "fastest_to_practice": 6.18,
+        "most_procedural": 6.09
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 25,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 30,
+        "prof_school_years": 2,
+        "trainee_salary": 25,
+        "education_debt": 55,
+        "loan_rate": 5.5,
+        "living_expenses": 45,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 5,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 24,
+        "starting_salary": 90,
+        "mid_salary": 140,
+        "peak_salary": 200,
+        "typical_peak": 155,
+        "malpractice_per_yr": 1
+      },
+      "stress": {
+        "ai": 8,
+        "pay": 5,
+        "injury": 5,
+        "match": 6
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          24
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 24,
+        "startSalary": 90
+      }
+    },
+    {
+      "name": "Satellite / Spacecraft Engineer",
+      "key": "satellite_spacecraft_eng",
+      "profession": "MS",
+      "group": "aerospace_defense",
+      "color": "#7dd820",
+      "path": "MS Engineer",
+      "raw_data": {
+        "startSalary": 88,
+        "midSalary": 135,
+        "peakSalary": 190,
+        "typicalPeak": 150,
+        "hoursWeek": 45,
+        "burnout": 28,
+        "satisfaction": 80,
+        "chooseAgain": 76,
+        "malpracticeCost": 1,
+        "vacation": 4,
+        "matchComp": 5,
+        "annualSpots": 2500,
+        "oneInX": 22,
+        "callSchedule": 7,
+        "physicalToll": 8,
+        "emotionalToll": 7
+      },
+      "scores": {
+        "category_1": 5.75,
+        "category_2": 6.0,
+        "category_3": 6.33,
+        "category_4": 7.67,
+        "category_5": 5.69,
+        "category_6": 5.14,
+        "category_7": 5.5,
+        "category_8": 6.28,
+        "category_9": 5.36,
+        "category_10": 5.4,
+        "category_11": 5.2,
+        "category_12": 7.02,
+        "category_13": 4.5,
+        "category_14": 8.77
+      },
+      "scenario_totals": {
+        "default": 6.2,
+        "equal_weight": 6.06,
+        "max_earnings": 5.79,
+        "best_lifestyle": 5.99,
+        "fastest_to_practice": 6.15,
+        "most_procedural": 6.04
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 25,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 30,
+        "prof_school_years": 2,
+        "trainee_salary": 25,
+        "education_debt": 55,
+        "loan_rate": 5.5,
+        "living_expenses": 45,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 5,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 24,
+        "starting_salary": 88,
+        "mid_salary": 135,
+        "peak_salary": 190,
+        "typical_peak": 150,
+        "malpractice_per_yr": 1
+      },
+      "stress": {
+        "ai": 8,
+        "pay": 5,
+        "injury": 5,
+        "match": 6
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          24
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 24,
+        "startSalary": 88
+      }
+    },
+    {
+      "name": "Biomechanics / Orthopedic Engineer",
+      "key": "biomechanics_orthopedic_",
+      "profession": "MS",
+      "group": "biomedical",
+      "color": "#5cd820",
+      "path": "MS Engineer",
+      "raw_data": {
+        "startSalary": 78,
+        "midSalary": 120,
+        "peakSalary": 170,
+        "typicalPeak": 135,
+        "hoursWeek": 44,
+        "burnout": 24,
+        "satisfaction": 76,
+        "chooseAgain": 70,
+        "malpracticeCost": 2,
+        "vacation": 5,
+        "matchComp": 5,
+        "annualSpots": 3000,
+        "oneInX": 18,
+        "callSchedule": 8,
+        "physicalToll": 8,
+        "emotionalToll": 7
+      },
+      "scores": {
+        "category_1": 5.75,
+        "category_2": 6.0,
+        "category_3": 6.33,
+        "category_4": 8.0,
+        "category_5": 5.53,
+        "category_6": 5.29,
+        "category_7": 5.4,
+        "category_8": 6.62,
+        "category_9": 6.14,
+        "category_10": 5.8,
+        "category_11": 5.4,
+        "category_12": 6.92,
+        "category_13": 4.5,
+        "category_14": 8.4
+      },
+      "scenario_totals": {
+        "default": 6.32,
+        "equal_weight": 6.15,
+        "max_earnings": 5.84,
+        "best_lifestyle": 6.22,
+        "fastest_to_practice": 6.24,
+        "most_procedural": 6.18
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 25,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 30,
+        "prof_school_years": 2,
+        "trainee_salary": 25,
+        "education_debt": 55,
+        "loan_rate": 5.5,
+        "living_expenses": 45,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 5,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 24,
+        "starting_salary": 78,
+        "mid_salary": 120,
+        "peak_salary": 170,
+        "typical_peak": 135,
+        "malpractice_per_yr": 2
+      },
+      "stress": {
+        "ai": 7,
+        "pay": 6,
+        "injury": 5,
+        "match": 6
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          24
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 24,
+        "startSalary": 78
+      }
+    },
+    {
+      "name": "Medical Imaging Engineer",
+      "key": "medical_imaging_engineer",
+      "profession": "MS",
+      "group": "biomedical",
+      "color": "#3bd820",
+      "path": "MS Engineer",
+      "raw_data": {
+        "startSalary": 82,
+        "midSalary": 128,
+        "peakSalary": 185,
+        "typicalPeak": 145,
+        "hoursWeek": 44,
+        "burnout": 25,
+        "satisfaction": 78,
+        "chooseAgain": 72,
+        "malpracticeCost": 2,
+        "vacation": 5,
+        "matchComp": 5,
+        "annualSpots": 3000,
+        "oneInX": 18,
+        "callSchedule": 8,
+        "physicalToll": 9,
+        "emotionalToll": 7
+      },
+      "scores": {
+        "category_1": 5.75,
+        "category_2": 6.0,
+        "category_3": 6.33,
+        "category_4": 8.0,
+        "category_5": 5.61,
+        "category_6": 5.43,
+        "category_7": 5.47,
+        "category_8": 5.88,
+        "category_9": 6.28,
+        "category_10": 5.8,
+        "category_11": 5.0,
+        "category_12": 7.27,
+        "category_13": 4.5,
+        "category_14": 8.69
+      },
+      "scenario_totals": {
+        "default": 6.32,
+        "equal_weight": 6.15,
+        "max_earnings": 5.86,
+        "best_lifestyle": 6.19,
+        "fastest_to_practice": 6.26,
+        "most_procedural": 6.1
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 25,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 30,
+        "prof_school_years": 2,
+        "trainee_salary": 25,
+        "education_debt": 55,
+        "loan_rate": 5.5,
+        "living_expenses": 45,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 5,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 24,
+        "starting_salary": 82,
+        "mid_salary": 128,
+        "peak_salary": 185,
+        "typical_peak": 145,
+        "malpractice_per_yr": 2
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 6,
+        "injury": 6,
+        "match": 6
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          24
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 24,
+        "startSalary": 82
+      }
+    },
+    {
+      "name": "Battery / Energy Storage Engineer",
+      "key": "battery_energy_storage_e",
+      "profession": "MS",
+      "group": "environmental_energy",
+      "color": "#20d827",
+      "path": "MS Engineer",
+      "raw_data": {
+        "startSalary": 90,
+        "midSalary": 140,
+        "peakSalary": 210,
+        "typicalPeak": 160,
+        "hoursWeek": 45,
+        "burnout": 28,
+        "satisfaction": 78,
+        "chooseAgain": 74,
+        "malpracticeCost": 1,
+        "vacation": 5,
+        "matchComp": 6,
+        "annualSpots": 5000,
+        "oneInX": 11,
+        "callSchedule": 8,
+        "physicalToll": 8,
+        "emotionalToll": 7
+      },
+      "scores": {
+        "category_1": 5.75,
+        "category_2": 6.33,
+        "category_3": 6.33,
+        "category_4": 8.0,
+        "category_5": 5.74,
+        "category_6": 5.29,
+        "category_7": 5.62,
+        "category_8": 6.28,
+        "category_9": 5.86,
+        "category_10": 5.8,
+        "category_11": 5.4,
+        "category_12": 7.18,
+        "category_13": 4.5,
+        "category_14": 8.77
+      },
+      "scenario_totals": {
+        "default": 6.38,
+        "equal_weight": 6.21,
+        "max_earnings": 5.94,
+        "best_lifestyle": 6.2,
+        "fastest_to_practice": 6.32,
+        "most_procedural": 6.18
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 25,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 30,
+        "prof_school_years": 2,
+        "trainee_salary": 25,
+        "education_debt": 55,
+        "loan_rate": 5.5,
+        "living_expenses": 45,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 5,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 24,
+        "starting_salary": 90,
+        "mid_salary": 140,
+        "peak_salary": 210,
+        "typical_peak": 160,
+        "malpractice_per_yr": 1
+      },
+      "stress": {
+        "ai": 8,
+        "pay": 6,
+        "injury": 5,
+        "match": 6
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          24
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 24,
+        "startSalary": 90
+      }
+    },
+    {
+      "name": "Management Consultant (Engineering)",
+      "key": "consultant",
+      "profession": "MS",
+      "group": "management_consulting",
+      "color": "#2E7D32",
+      "path": "MS Engineer",
+      "raw_data": {
+        "startSalary": 85,
+        "midSalary": 170,
+        "peakSalary": 300,
+        "typicalPeak": 200,
+        "hoursWeek": 55,
+        "burnout": 45,
+        "satisfaction": 72,
+        "chooseAgain": 65,
+        "malpracticeCost": 2,
+        "vacation": 3,
+        "matchComp": 7,
+        "annualSpots": 8000,
+        "oneInX": 7,
+        "callSchedule": 5,
+        "physicalToll": 9,
+        "emotionalToll": 5
+      },
+      "scores": {
+        "category_1": 5.75,
+        "category_2": 6.67,
+        "category_3": 6.33,
+        "category_4": 7.0,
+        "category_5": 5.84,
+        "category_6": 5.14,
+        "category_7": 5.88,
+        "category_8": 4.75,
+        "category_9": 3.36,
+        "category_10": 6.2,
+        "category_11": 4.8,
+        "category_12": 6.05,
+        "category_13": 4.5,
+        "category_14": 8.4
+      },
+      "scenario_totals": {
+        "default": 5.85,
+        "equal_weight": 5.78,
+        "max_earnings": 5.71,
+        "best_lifestyle": 5.35,
+        "fastest_to_practice": 5.99,
+        "most_procedural": 5.52
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 25,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 30,
+        "prof_school_years": 2,
+        "trainee_salary": 25,
+        "education_debt": 55,
+        "loan_rate": 5.5,
+        "living_expenses": 45,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 5,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 24,
+        "starting_salary": 85,
+        "mid_salary": 170,
+        "peak_salary": 300,
+        "typical_peak": 200,
+        "malpractice_per_yr": 2
+      },
+      "stress": {
+        "ai": 4,
+        "pay": 6,
+        "injury": 7,
+        "match": 5
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          24
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 24,
+        "startSalary": 85
+      }
+    },
+    {
+      "name": "Quantitative Analyst / Quant Developer",
+      "key": "quant",
+      "profession": "MS",
+      "group": "management_consulting",
+      "color": "#880E4F",
+      "path": "MS Engineer",
+      "raw_data": {
+        "startSalary": 130,
+        "midSalary": 250,
+        "peakSalary": 500,
+        "typicalPeak": 320,
+        "hoursWeek": 55,
+        "burnout": 42,
+        "satisfaction": 75,
+        "chooseAgain": 68,
+        "malpracticeCost": 1,
+        "vacation": 4,
+        "matchComp": 5,
+        "annualSpots": 3000,
+        "oneInX": 18,
+        "callSchedule": 5,
+        "physicalToll": 10,
+        "emotionalToll": 5
+      },
+      "scores": {
+        "category_1": 5.75,
+        "category_2": 6.0,
+        "category_3": 6.33,
+        "category_4": 7.0,
+        "category_5": 6.63,
+        "category_6": 5.14,
+        "category_7": 7.0,
+        "category_8": 3.5,
+        "category_9": 3.82,
+        "category_10": 5.6,
+        "category_11": 4.4,
+        "category_12": 5.78,
+        "category_13": 4.5,
+        "category_14": 8.91
+      },
+      "scenario_totals": {
+        "default": 5.91,
+        "equal_weight": 5.76,
+        "max_earnings": 6.02,
+        "best_lifestyle": 5.34,
+        "fastest_to_practice": 6.01,
+        "most_procedural": 5.28
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 25,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 30,
+        "prof_school_years": 2,
+        "trainee_salary": 25,
+        "education_debt": 55,
+        "loan_rate": 5.5,
+        "living_expenses": 45,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 5,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 24,
+        "starting_salary": 130,
+        "mid_salary": 250,
+        "peak_salary": 500,
+        "typical_peak": 320,
+        "malpractice_per_yr": 1
+      },
+      "stress": {
+        "ai": 4,
+        "pay": 6,
+        "injury": 8,
+        "match": 6
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          24
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 24,
+        "startSalary": 130
+      }
+    },
+    {
+      "name": "AI / Deep Learning Researcher",
+      "key": "ai_researcher",
+      "profession": "PhD",
+      "group": "software_tech",
+      "color": "#6A1B9A",
+      "path": "PhD Engineer",
+      "raw_data": {
+        "startSalary": 150,
+        "midSalary": 250,
+        "peakSalary": 400,
+        "typicalPeak": 300,
+        "hoursWeek": 50,
+        "burnout": 35,
+        "satisfaction": 82,
+        "chooseAgain": 75,
+        "malpracticeCost": 0,
+        "vacation": 5,
+        "matchComp": 8,
+        "annualSpots": 3000,
+        "oneInX": 4,
+        "callSchedule": 8,
+        "physicalToll": 9,
+        "emotionalToll": 6
+      },
+      "scores": {
+        "category_1": 4.0,
+        "category_2": 5.67,
+        "category_3": 4.0,
+        "category_4": 5.33,
+        "category_5": 6.23,
+        "category_6": 5.0,
+        "category_7": 6.2,
+        "category_8": 4.53,
+        "category_9": 4.9,
+        "category_10": 6.0,
+        "category_11": 5.0,
+        "category_12": 7.38,
+        "category_13": 4.25,
+        "category_14": 9.0
+      },
+      "scenario_totals": {
+        "default": 5.74,
+        "equal_weight": 5.56,
+        "max_earnings": 5.75,
+        "best_lifestyle": 5.43,
+        "fastest_to_practice": 5.33,
+        "most_procedural": 5.44
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 25,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 5,
+        "trainee_salary": 35,
+        "education_debt": 35,
+        "loan_rate": 5.5,
+        "living_expenses": 42,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 1,
+        "age_independent": 28,
+        "starting_salary": 150,
+        "mid_salary": 250,
+        "peak_salary": 400,
+        "typical_peak": 300,
+        "malpractice_per_yr": 0
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 7,
+        "injury": 7,
+        "match": 3
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          27
+        ],
+        "residency": null,
+        "fellowship": [
+          27,
+          28
+        ],
+        "earnAge": 28,
+        "startSalary": 150
+      }
+    },
+    {
+      "name": "Materials / Polymer Scientist",
+      "key": "materials_polymer_scient",
+      "profession": "PhD",
+      "group": "chemical_process",
+      "color": "#9535a5",
+      "path": "PhD Engineer",
+      "raw_data": {
+        "startSalary": 80,
+        "midSalary": 125,
+        "peakSalary": 175,
+        "typicalPeak": 140,
+        "hoursWeek": 45,
+        "burnout": 25,
+        "satisfaction": 74,
+        "chooseAgain": 68,
+        "malpracticeCost": 0,
+        "vacation": 5,
+        "matchComp": 7,
+        "annualSpots": 2000,
+        "oneInX": 6,
+        "callSchedule": 8,
+        "physicalToll": 8,
+        "emotionalToll": 5
+      },
+      "scores": {
+        "category_1": 4.0,
+        "category_2": 5.33,
+        "category_3": 4.0,
+        "category_4": 5.33,
+        "category_5": 5.01,
+        "category_6": 5.0,
+        "category_7": 5.17,
+        "category_8": 6.53,
+        "category_9": 5.6,
+        "category_10": 5.4,
+        "category_11": 6.0,
+        "category_12": 6.25,
+        "category_13": 4.25,
+        "category_14": 8.57
+      },
+      "scenario_totals": {
+        "default": 5.63,
+        "equal_weight": 5.48,
+        "max_earnings": 5.31,
+        "best_lifestyle": 5.51,
+        "fastest_to_practice": 5.12,
+        "most_procedural": 5.58
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 25,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 5,
+        "trainee_salary": 35,
+        "education_debt": 35,
+        "loan_rate": 5.5,
+        "living_expenses": 42,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 1,
+        "age_independent": 28,
+        "starting_salary": 80,
+        "mid_salary": 125,
+        "peak_salary": 175,
+        "typical_peak": 140,
+        "malpractice_per_yr": 0
+      },
+      "stress": {
+        "ai": 8,
+        "pay": 5,
+        "injury": 5,
+        "match": 3
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          27
+        ],
+        "residency": null,
+        "fellowship": [
+          27,
+          28
+        ],
+        "earnAge": 28,
+        "startSalary": 80
+      }
+    },
+    {
+      "name": "Tissue / Bioengineering Researcher",
+      "key": "tissue_bioengineering_re",
+      "profession": "PhD",
+      "group": "biomedical",
+      "color": "#ba29b5",
+      "path": "PhD Engineer",
+      "raw_data": {
+        "startSalary": 65,
+        "midSalary": 105,
+        "peakSalary": 150,
+        "typicalPeak": 115,
+        "hoursWeek": 48,
+        "burnout": 30,
+        "satisfaction": 72,
+        "chooseAgain": 62,
+        "malpracticeCost": 0,
+        "vacation": 4,
+        "matchComp": 6,
+        "annualSpots": 1500,
+        "oneInX": 8,
+        "callSchedule": 7,
+        "physicalToll": 8,
+        "emotionalToll": 6
+      },
+      "scores": {
+        "category_1": 4.0,
+        "category_2": 5.0,
+        "category_3": 4.0,
+        "category_4": 5.0,
+        "category_5": 4.77,
+        "category_6": 5.0,
+        "category_7": 4.78,
+        "category_8": 6.47,
+        "category_9": 4.8,
+        "category_10": 5.4,
+        "category_11": 6.2,
+        "category_12": 6.58,
+        "category_13": 4.25,
+        "category_14": 8.71
+      },
+      "scenario_totals": {
+        "default": 5.47,
+        "equal_weight": 5.38,
+        "max_earnings": 5.13,
+        "best_lifestyle": 5.3,
+        "fastest_to_practice": 4.96,
+        "most_procedural": 5.53
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 25,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 5,
+        "trainee_salary": 35,
+        "education_debt": 35,
+        "loan_rate": 5.5,
+        "living_expenses": 42,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 2,
+        "age_independent": 29,
+        "starting_salary": 65,
+        "mid_salary": 105,
+        "peak_salary": 150,
+        "typical_peak": 115,
+        "malpractice_per_yr": 0
+      },
+      "stress": {
+        "ai": 8,
+        "pay": 5,
+        "injury": 4,
+        "match": 4
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          27
+        ],
+        "residency": null,
+        "fellowship": [
+          27,
+          29
+        ],
+        "earnAge": 29,
+        "startSalary": 65
+      }
+    },
+    {
+      "name": "Neural / Brain-Computer Interface Engineer",
+      "key": "neural_brain_computer_in",
+      "profession": "PhD",
+      "group": "biomedical",
+      "color": "#a51887",
+      "path": "PhD Engineer",
+      "raw_data": {
+        "startSalary": 85,
+        "midSalary": 140,
+        "peakSalary": 200,
+        "typicalPeak": 160,
+        "hoursWeek": 48,
+        "burnout": 32,
+        "satisfaction": 80,
+        "chooseAgain": 72,
+        "malpracticeCost": 1,
+        "vacation": 5,
+        "matchComp": 5,
+        "annualSpots": 800,
+        "oneInX": 15,
+        "callSchedule": 7,
+        "physicalToll": 8,
+        "emotionalToll": 6
+      },
+      "scores": {
+        "category_1": 4.0,
+        "category_2": 4.67,
+        "category_3": 4.0,
+        "category_4": 5.0,
+        "category_5": 5.13,
+        "category_6": 5.0,
+        "category_7": 5.05,
+        "category_8": 5.72,
+        "category_9": 5.0,
+        "category_10": 5.4,
+        "category_11": 5.6,
+        "category_12": 7.68,
+        "category_13": 4.25,
+        "category_14": 8.63
+      },
+      "scenario_totals": {
+        "default": 5.52,
+        "equal_weight": 5.39,
+        "max_earnings": 5.25,
+        "best_lifestyle": 5.36,
+        "fastest_to_practice": 5.0,
+        "most_procedural": 5.54
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 25,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 5,
+        "trainee_salary": 35,
+        "education_debt": 35,
+        "loan_rate": 5.5,
+        "living_expenses": 42,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 2,
+        "age_independent": 29,
+        "starting_salary": 85,
+        "mid_salary": 140,
+        "peak_salary": 200,
+        "typical_peak": 160,
+        "malpractice_per_yr": 1
+      },
+      "stress": {
+        "ai": 8,
+        "pay": 6,
+        "injury": 5,
+        "match": 4
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          27
+        ],
+        "residency": null,
+        "fellowship": [
+          27,
+          29
+        ],
+        "earnAge": 29,
+        "startSalary": 85
+      }
+    },
+    {
+      "name": "Computational Scientist / HPC Researcher",
+      "key": "computational_scientist_",
+      "profession": "PhD",
+      "group": "software_tech",
+      "color": "#ba3b88",
+      "path": "PhD Engineer",
+      "raw_data": {
+        "startSalary": 100,
+        "midSalary": 160,
+        "peakSalary": 250,
+        "typicalPeak": 185,
+        "hoursWeek": 48,
+        "burnout": 30,
+        "satisfaction": 76,
+        "chooseAgain": 70,
+        "malpracticeCost": 0,
+        "vacation": 5,
+        "matchComp": 7,
+        "annualSpots": 2000,
+        "oneInX": 6,
+        "callSchedule": 8,
+        "physicalToll": 9,
+        "emotionalToll": 5
+      },
+      "scores": {
+        "category_1": 4.0,
+        "category_2": 5.33,
+        "category_3": 4.0,
+        "category_4": 5.33,
+        "category_5": 5.36,
+        "category_6": 5.14,
+        "category_7": 5.6,
+        "category_8": 4.72,
+        "category_9": 5.3,
+        "category_10": 5.8,
+        "category_11": 5.2,
+        "category_12": 6.58,
+        "category_13": 4.25,
+        "category_14": 8.86
+      },
+      "scenario_totals": {
+        "default": 5.56,
+        "equal_weight": 5.41,
+        "max_earnings": 5.41,
+        "best_lifestyle": 5.32,
+        "fastest_to_practice": 5.14,
+        "most_procedural": 5.3
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 25,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 5,
+        "trainee_salary": 35,
+        "education_debt": 35,
+        "loan_rate": 5.5,
+        "living_expenses": 42,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 1,
+        "age_independent": 28,
+        "starting_salary": 100,
+        "mid_salary": 160,
+        "peak_salary": 250,
+        "typical_peak": 185,
+        "malpractice_per_yr": 0
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 6,
+        "injury": 8,
+        "match": 3
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          27
+        ],
+        "residency": null,
+        "fellowship": [
+          27,
+          28
+        ],
+        "earnAge": 28,
+        "startSalary": 100
+      }
+    },
+    {
+      "name": "Semiconductor Research Scientist",
+      "key": "semiconductor_research_s",
+      "profession": "PhD",
+      "group": "electrical",
+      "color": "#a5245b",
+      "path": "PhD Engineer",
+      "raw_data": {
+        "startSalary": 120,
+        "midSalary": 180,
+        "peakSalary": 280,
+        "typicalPeak": 210,
+        "hoursWeek": 47,
+        "burnout": 28,
+        "satisfaction": 75,
+        "chooseAgain": 70,
+        "malpracticeCost": 0,
+        "vacation": 5,
+        "matchComp": 6,
+        "annualSpots": 1500,
+        "oneInX": 8,
+        "callSchedule": 8,
+        "physicalToll": 8,
+        "emotionalToll": 5
+      },
+      "scores": {
+        "category_1": 4.0,
+        "category_2": 5.0,
+        "category_3": 4.0,
+        "category_4": 5.33,
+        "category_5": 5.61,
+        "category_6": 5.0,
+        "category_7": 5.5,
+        "category_8": 5.83,
+        "category_9": 5.3,
+        "category_10": 5.2,
+        "category_11": 6.0,
+        "category_12": 6.2,
+        "category_13": 4.25,
+        "category_14": 8.57
+      },
+      "scenario_totals": {
+        "default": 5.61,
+        "equal_weight": 5.43,
+        "max_earnings": 5.43,
+        "best_lifestyle": 5.41,
+        "fastest_to_practice": 5.12,
+        "most_procedural": 5.44
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 25,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 5,
+        "trainee_salary": 35,
+        "education_debt": 35,
+        "loan_rate": 5.5,
+        "living_expenses": 42,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 1,
+        "age_independent": 28,
+        "starting_salary": 120,
+        "mid_salary": 180,
+        "peak_salary": 280,
+        "typical_peak": 210,
+        "malpractice_per_yr": 0
+      },
+      "stress": {
+        "ai": 8,
+        "pay": 5,
+        "injury": 5,
+        "match": 4
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          27
+        ],
+        "residency": null,
+        "fellowship": [
+          27,
+          28
+        ],
+        "earnAge": 28,
+        "startSalary": 120
+      }
+    },
+    {
+      "name": "Aerospace Research Scientist",
+      "key": "aerospace_research_scien",
+      "profession": "PhD",
+      "group": "aerospace_defense",
+      "color": "#ba1b42",
+      "path": "PhD Engineer",
+      "raw_data": {
+        "startSalary": 90,
+        "midSalary": 140,
+        "peakSalary": 200,
+        "typicalPeak": 155,
+        "hoursWeek": 47,
+        "burnout": 28,
+        "satisfaction": 77,
+        "chooseAgain": 72,
+        "malpracticeCost": 0,
+        "vacation": 5,
+        "matchComp": 6,
+        "annualSpots": 1000,
+        "oneInX": 12,
+        "callSchedule": 8,
+        "physicalToll": 9,
+        "emotionalToll": 5
+      },
+      "scores": {
+        "category_1": 4.0,
+        "category_2": 5.0,
+        "category_3": 4.0,
+        "category_4": 5.33,
+        "category_5": 5.17,
+        "category_6": 5.0,
+        "category_7": 5.3,
+        "category_8": 5.83,
+        "category_9": 5.3,
+        "category_10": 5.2,
+        "category_11": 5.6,
+        "category_12": 6.73,
+        "category_13": 4.25,
+        "category_14": 8.86
+      },
+      "scenario_totals": {
+        "default": 5.57,
+        "equal_weight": 5.42,
+        "max_earnings": 5.31,
+        "best_lifestyle": 5.4,
+        "fastest_to_practice": 5.08,
+        "most_procedural": 5.48
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 25,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 5,
+        "trainee_salary": 35,
+        "education_debt": 35,
+        "loan_rate": 5.5,
+        "living_expenses": 42,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 1,
+        "age_independent": 28,
+        "starting_salary": 90,
+        "mid_salary": 140,
+        "peak_salary": 200,
+        "typical_peak": 155,
+        "malpractice_per_yr": 0
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 5,
+        "injury": 6,
+        "match": 4
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          27
+        ],
+        "residency": null,
+        "fellowship": [
+          27,
+          28
+        ],
+        "earnAge": 28,
+        "startSalary": 90
+      }
+    },
+    {
+      "name": "Climate / Energy Systems Researcher",
+      "key": "climate_energy_systems_r",
+      "profession": "PhD",
+      "group": "environmental_energy",
+      "color": "#a5353c",
+      "path": "PhD Engineer",
+      "raw_data": {
+        "startSalary": 70,
+        "midSalary": 110,
+        "peakSalary": 160,
+        "typicalPeak": 125,
+        "hoursWeek": 46,
+        "burnout": 28,
+        "satisfaction": 78,
+        "chooseAgain": 72,
+        "malpracticeCost": 0,
+        "vacation": 4,
+        "matchComp": 6,
+        "annualSpots": 1500,
+        "oneInX": 8,
+        "callSchedule": 8,
+        "physicalToll": 9,
+        "emotionalToll": 7
+      },
+      "scores": {
+        "category_1": 4.0,
+        "category_2": 5.0,
+        "category_3": 4.0,
+        "category_4": 5.33,
+        "category_5": 4.84,
+        "category_6": 5.14,
+        "category_7": 5.08,
+        "category_8": 5.42,
+        "category_9": 5.28,
+        "category_10": 5.6,
+        "category_11": 5.4,
+        "category_12": 7.1,
+        "category_13": 4.25,
+        "category_14": 9.14
+      },
+      "scenario_totals": {
+        "default": 5.53,
+        "equal_weight": 5.42,
+        "max_earnings": 5.22,
+        "best_lifestyle": 5.36,
+        "fastest_to_practice": 5.06,
+        "most_procedural": 5.46
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 25,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 5,
+        "trainee_salary": 35,
+        "education_debt": 35,
+        "loan_rate": 5.5,
+        "living_expenses": 42,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 1,
+        "age_independent": 28,
+        "starting_salary": 70,
+        "mid_salary": 110,
+        "peak_salary": 160,
+        "typical_peak": 125,
+        "malpractice_per_yr": 0
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 6,
+        "injury": 7,
+        "match": 4
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          27
+        ],
+        "residency": null,
+        "fellowship": [
+          27,
+          28
+        ],
+        "earnAge": 28,
+        "startSalary": 70
+      }
+    },
+    {
+      "name": "Engineering Professor (Tenure Track)",
+      "key": "engineering_professor_te",
+      "profession": "PhD",
+      "group": "management_consulting",
+      "color": "#ba3929",
+      "path": "PhD Engineer",
+      "raw_data": {
+        "startSalary": 85,
+        "midSalary": 130,
+        "peakSalary": 200,
+        "typicalPeak": 145,
+        "hoursWeek": 55,
+        "burnout": 40,
+        "satisfaction": 75,
+        "chooseAgain": 68,
+        "malpracticeCost": 0,
+        "vacation": 4,
+        "matchComp": 8,
+        "annualSpots": 3000,
+        "oneInX": 4,
+        "callSchedule": 7,
+        "physicalToll": 9,
+        "emotionalToll": 7
+      },
+      "scores": {
+        "category_1": 4.0,
+        "category_2": 5.67,
+        "category_3": 4.0,
+        "category_4": 5.0,
+        "category_5": 5.09,
+        "category_6": 5.29,
+        "category_7": 5.3,
+        "category_8": 5.25,
+        "category_9": 3.72,
+        "category_10": 5.4,
+        "category_11": 5.6,
+        "category_12": 6.95,
+        "category_13": 4.25,
+        "category_14": 9.14
+      },
+      "scenario_totals": {
+        "default": 5.44,
+        "equal_weight": 5.36,
+        "max_earnings": 5.24,
+        "best_lifestyle": 5.07,
+        "fastest_to_practice": 5.04,
+        "most_procedural": 5.39
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 25,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 5,
+        "trainee_salary": 35,
+        "education_debt": 35,
+        "loan_rate": 5.5,
+        "living_expenses": 42,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 1,
+        "age_independent": 28,
+        "starting_salary": 85,
+        "mid_salary": 130,
+        "peak_salary": 200,
+        "typical_peak": 145,
+        "malpractice_per_yr": 0
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 4,
+        "injury": 8,
+        "match": 3
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          27
+        ],
+        "residency": null,
+        "fellowship": [
+          27,
+          28
+        ],
+        "earnAge": 28,
+        "startSalary": 85
+      }
+    }
+  ],
+  "decision_tree": {
+    "q": "Do you enjoy coding and want to work on a computer most of the day?",
+    "yes": {
+      "q": "Do you care more about building products or doing research?",
+      "yes": {
+        "q": "Highest pay, or work you find meaningful?",
+        "procedural": "quant",
+        "variety": "swe"
+      },
+      "no": "ai_researcher"
+    },
+    "no": {
+      "q": "What matters most to you?",
+      "options": [
+        {
+          "label": "\ud83d\udcaa Highest pay + business impact",
+          "result": "consultant"
+        },
+        {
+          "label": "\ud83d\ude80 Building physical things that fly",
+          "result": "propulsion"
+        },
+        {
+          "label": "\ud83e\udd16 Cutting-edge technology",
+          "result": "ml_eng"
+        }
+      ]
+    }
+  },
+  "decision_tree_results": {
+    "swe": {
+      "tagline": "Best all-around engineering career",
+      "stat": "$95K start \u2022 $250K peak \u2022 remote-friendly"
+    },
+    "ml_eng": {
+      "tagline": "Hottest engineering specialty",
+      "stat": "$130K start \u2022 $350K peak \u2022 explosive demand"
+    },
+    "quant": {
+      "tagline": "Wall Street's math wizards",
+      "stat": "$130K start \u2022 $500K+ peak \u2022 bonus-heavy"
+    },
+    "propulsion": {
+      "tagline": "Build rocket engines",
+      "stat": "$90K start \u2022 $200K peak \u2022 SpaceX/NASA"
+    },
+    "ai_researcher": {
+      "tagline": "Push the frontier of intelligence",
+      "stat": "$150K start \u2022 $400K peak \u2022 PhD required"
+    },
+    "consultant": {
+      "tagline": "Engineering brain, business impact",
+      "stat": "$85K start \u2022 $300K+ peak \u2022 MBB track"
+    }
+  },
+  "ranking": [
+    {
+      "rank": 1,
+      "track": "Machine Learning Engineer",
+      "key": "ml_eng",
+      "note": "Highest risk-adjusted earnings in tech"
+    },
+    {
+      "rank": 2,
+      "track": "Software Engineer (General)",
+      "key": "swe",
+      "note": "Best all-around engineering career"
+    },
+    {
+      "rank": 3,
+      "track": "Quantitative Analyst / Quant Developer",
+      "key": "quant",
+      "note": "Highest earnings ceiling"
+    },
+    {
+      "rank": 4,
+      "track": "Propulsion Engineer",
+      "key": "propulsion",
+      "note": "Most exciting hands-on path"
+    },
+    {
+      "rank": 5,
+      "track": "AI / Deep Learning Researcher",
+      "key": "ai_researcher",
+      "note": "Frontier of human knowledge"
+    },
+    {
+      "rank": 6,
+      "track": "Management Consultant (Engineering)",
+      "key": "consultant",
+      "note": "Best pivot to business leadership"
+    }
+  ]
+}
