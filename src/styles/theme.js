@@ -7,6 +7,7 @@ export const TABS = [
   { id: "compare", label: "📊 Compare" },
   { id: "quiz", label: "🧭 Quiz" },
   { id: "sources", label: "📖 Sources" },
+  { id: "method", label: "📐 Method" },
 ];
 
 // shared text styles

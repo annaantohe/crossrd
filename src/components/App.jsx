@@ -23,6 +23,7 @@ import Explore from "./Explore";
 import Compare from "./Compare";
 import DecisionTree from "./DecisionTree";
 import Sources from "./Sources";
+import Methodology from "./Methodology";
 import PicksBar from "./PicksBar";
 
 // all available profession families
@@ -385,6 +386,7 @@ export default function App() {
           />
         )}
         {tab === "sources" && <Sources familySlug={family} />}
+        {tab === "method" && <Methodology />}
       </div>
 
       {showPicksBar && (
