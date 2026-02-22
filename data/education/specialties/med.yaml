@@ -1,0 +1,548 @@
+# M.Ed specialties — 12 careers across 2 groups
+# Master's or Doctorate in Education (4yr undergrad + 2yr M.Ed)
+profession: M.Ed
+specialties:
+
+# === STUDENT SUPPORT (2) ===
+
+- name: "School Counselor"
+  group: student_support
+  residencyYears: 0
+  annualSpots: 12000
+  startSalary: 45
+  midSalary: 60
+  peakSalary: 78
+  typicalPeak: 68
+  partTimeFlex: 2
+  procedureMix: 6
+  callSchedule: 6
+  adminBurden: 7
+  hoursWeek: 45
+  burnout: 42
+  partTimeFeasibility: 2
+  vacation: 7
+  careerLongevity: 8
+  malpracticeFreq: 9
+  malpracticeCost: 0
+  geographicFlex: 7
+  automationRisk: 3
+  handsOnInsulation: 8
+  satisfaction: 72
+  chooseAgain: 64
+  intellectualStim: 6
+  varietyRepetition: 7
+  patientImpact: 8
+  physicalToll: 8
+  emotionalToll: 3
+  malpracticeLiability: 9
+  injuryCareerRisk: 10
+  aiRiskNow: 2
+  aiRiskMedium: 3
+  aiRiskLong: 4
+  aiNarrative: "AI chatbots and mental health screening tools can help identify at-risk students earlier, but the deeply personal nature of counseling — building trust with a scared teenager, navigating family crises, de-escalating emotional situations — requires human empathy that AI cannot replicate."
+  fellowshipOptions: "Licensed Professional Counselor (LPC), National Certified Counselor (NCC), school counseling supervisor, district counseling coordinator, Ed.D pathway to director roles"
+  compModel: "District salary schedule based on education level and years of service; some districts offer stipends for extra duties like college advising"
+  revPerPatientVisit: "N/A — salaried $45K-$78K/yr"
+  dailyWorkflow: "Individual student counseling sessions, small group sessions, classroom guidance lessons, college and career planning, crisis intervention, parent meetings, 504/IEP team participation"
+  patientVolume: "Caseload of 250-500 students depending on district; 8-12 individual sessions per day"
+  supportStaffModel: "School psychologist, social worker, front office staff, special education team, outside agency referrals"
+  geographicDemandNotes: "High demand nationwide, especially in rural and urban Title I schools; every state requires school counselors but ratios vary widely (recommended 1:250, reality often 1:400+)"
+  telehealthPotential: 4
+  genderDistribution: "~75% women"
+
+- name: "School Psychologist"
+  group: student_support
+  residencyYears: 0
+  annualSpots: 6000
+  startSalary: 55
+  midSalary: 72
+  peakSalary: 95
+  typicalPeak: 82
+  partTimeFlex: 3
+  procedureMix: 6
+  callSchedule: 6
+  adminBurden: 8
+  hoursWeek: 45
+  burnout: 38
+  partTimeFeasibility: 3
+  vacation: 7
+  careerLongevity: 8
+  malpracticeFreq: 9
+  malpracticeCost: 0
+  geographicFlex: 8
+  automationRisk: 3
+  handsOnInsulation: 8
+  satisfaction: 75
+  chooseAgain: 68
+  intellectualStim: 8
+  varietyRepetition: 7
+  patientImpact: 8
+  physicalToll: 8
+  emotionalToll: 4
+  malpracticeLiability: 8
+  injuryCareerRisk: 10
+  aiRiskNow: 2
+  aiRiskMedium: 3
+  aiRiskLong: 4
+  aiNarrative: "AI-assisted psychoeducational testing and scoring tools are speeding up report writing, but interpreting assessment results in context, diagnosing learning disabilities, and navigating the emotional dynamics of IEP meetings require human clinical judgment and interpersonal skill that AI cannot replace."
+  fellowshipOptions: "Ed.S or Ph.D/Psy.D in School Psychology, BCBA certification, neuropsychology specialization, private practice licensure, district lead psychologist, university faculty"
+  compModel: "District salary schedule, typically higher than teachers due to specialist credential; some districts offer signing bonuses due to shortages"
+  revPerPatientVisit: "N/A — salaried $55K-$95K/yr"
+  dailyWorkflow: "Psychoeducational assessments, cognitive and behavioral testing, IEP meetings, consultation with teachers, crisis response, behavioral intervention planning, report writing"
+  patientVolume: "Serves 1-3 school buildings; 500-1,500 students across sites; 3-5 full evaluations per month"
+  supportStaffModel: "Special education team, school counselors, speech-language pathologists, occupational therapists, outside clinicians for referrals"
+  geographicDemandNotes: "Severe national shortage — NASP reports 5:1 ratio of open positions to candidates; highest demand in rural districts and states with strict credentialing requirements"
+  telehealthPotential: 4
+  genderDistribution: "~78% women"
+
+# === EDUCATION LEADERSHIP (10) ===
+
+- name: "Assistant Principal"
+  group: education_leadership
+  residencyYears: 0
+  annualSpots: 8000
+  startSalary: 60
+  midSalary: 80
+  peakSalary: 105
+  typicalPeak: 90
+  partTimeFlex: 1
+  procedureMix: 7
+  callSchedule: 4
+  adminBurden: 8
+  hoursWeek: 50
+  burnout: 48
+  partTimeFeasibility: 1
+  vacation: 5
+  careerLongevity: 7
+  malpracticeFreq: 9
+  malpracticeCost: 0
+  geographicFlex: 7
+  automationRisk: 4
+  handsOnInsulation: 7
+  satisfaction: 66
+  chooseAgain: 57
+  intellectualStim: 6
+  varietyRepetition: 8
+  patientImpact: 8
+  physicalToll: 8
+  emotionalToll: 4
+  malpracticeLiability: 9
+  injuryCareerRisk: 9
+  aiRiskNow: 2
+  aiRiskMedium: 3
+  aiRiskLong: 4
+  aiNarrative: "AI scheduling tools and student information systems are automating some administrative tasks like attendance tracking and discipline logging, but the core of the role — handling student crises, coaching teachers, and being the visible daily leader of a building — is fundamentally human work."
+  fellowshipOptions: "Principal certification, Ed.D/Ph.D in Educational Leadership, district-level administration, curriculum coordinator, Title I director"
+  compModel: "12-month administrator contract; salary set by district schedule based on building size and experience; some performance bonuses tied to school improvement metrics"
+  revPerPatientVisit: "N/A — salaried $60K-$105K/yr"
+  dailyWorkflow: "Morning bus duty, student discipline conferences, teacher observations and feedback, hallway supervision, parent meetings, data review, scheduling, after-school event coverage"
+  patientVolume: "400-1,500 students in building; 30-80 teachers and staff; handles 5-15 discipline referrals per day"
+  supportStaffModel: "Principal, office staff (secretary, registrar), counselors, security, custodial team, instructional coaches"
+  geographicDemandNotes: "Steady demand in suburban and urban districts; high turnover creates consistent openings; rural districts struggle to attract candidates"
+  telehealthPotential: 3
+  genderDistribution: "~52% women"
+
+- name: "Principal"
+  group: education_leadership
+  residencyYears: 0
+  annualSpots: 5000
+  startSalary: 75
+  midSalary: 100
+  peakSalary: 135
+  typicalPeak: 115
+  partTimeFlex: 1
+  procedureMix: 7
+  callSchedule: 3
+  adminBurden: 9
+  hoursWeek: 55
+  burnout: 52
+  partTimeFeasibility: 1
+  vacation: 5
+  careerLongevity: 7
+  malpracticeFreq: 9
+  malpracticeCost: 0
+  geographicFlex: 6
+  automationRisk: 3
+  handsOnInsulation: 7
+  satisfaction: 68
+  chooseAgain: 58
+  intellectualStim: 7
+  varietyRepetition: 8
+  patientImpact: 9
+  physicalToll: 8
+  emotionalToll: 3
+  malpracticeLiability: 8
+  injuryCareerRisk: 9
+  aiRiskNow: 2
+  aiRiskMedium: 3
+  aiRiskLong: 4
+  aiNarrative: "AI data dashboards can surface student performance trends and flag at-risk learners faster, but the principal's job is leading people — motivating a demoralized staff, making tough calls on expulsions, navigating school board politics, and being the face of a school community. That is deeply human work."
+  fellowshipOptions: "Ed.D, district superintendent track, regional education service center, state department of education, charter management organization leadership, university adjunct/faculty"
+  compModel: "12-month administrator contract; salary varies widely by district size ($75K rural to $180K+ large urban); performance bonuses in some districts tied to test scores and graduation rates"
+  revPerPatientVisit: "N/A — salaried $75K-$135K/yr"
+  dailyWorkflow: "Building walkthroughs, teacher evaluations, budget meetings, parent conferences, student crisis response, staff meetings, community engagement events, data-driven instructional planning"
+  patientVolume: "400-2,500 students; 30-120 staff; responsible for entire building culture and outcomes"
+  supportStaffModel: "Assistant principals, department chairs, counselors, office staff, instructional coaches, custodial and food service teams"
+  geographicDemandNotes: "High turnover nationwide — average tenure is 4 years; urban districts with challenging schools have chronic shortages; suburban districts are competitive"
+  telehealthPotential: 3
+  genderDistribution: "~54% women (elementary), ~34% women (secondary)"
+
+- name: "Superintendent"
+  group: education_leadership
+  residencyYears: 0
+  annualSpots: 2000
+  startSalary: 120
+  midSalary: 170
+  peakSalary: 225
+  typicalPeak: 185
+  partTimeFlex: 1
+  procedureMix: 5
+  callSchedule: 3
+  adminBurden: 9
+  hoursWeek: 55
+  burnout: 55
+  partTimeFeasibility: 1
+  vacation: 4
+  careerLongevity: 7
+  malpracticeFreq: 8
+  malpracticeCost: 0
+  geographicFlex: 5
+  automationRisk: 3
+  handsOnInsulation: 5
+  satisfaction: 65
+  chooseAgain: 55
+  intellectualStim: 8
+  varietyRepetition: 7
+  patientImpact: 9
+  physicalToll: 8
+  emotionalToll: 3
+  malpracticeLiability: 8
+  injuryCareerRisk: 10
+  aiRiskNow: 2
+  aiRiskMedium: 3
+  aiRiskLong: 4
+  aiNarrative: "AI analytics can help superintendents model budget scenarios and predict enrollment trends, but the role is fundamentally political — managing a school board, negotiating union contracts, handling media during crises, and casting a vision for an entire community. No AI can do that."
+  fellowshipOptions: "Ed.D or Ph.D in Educational Administration, AASA National Superintendent Certification, state commissioner of education, higher education presidency, education consulting, nonprofit leadership"
+  compModel: "Multi-year contract negotiated with school board; base salary + car allowance + retirement contributions + performance bonuses; large urban districts pay $200K-$350K+; buyout clauses common"
+  revPerPatientVisit: "N/A — salaried $120K-$225K/yr"
+  dailyWorkflow: "School board meeting preparation, cabinet meetings with senior staff, budget planning, community forums, media interviews, legislative advocacy, school site visits, labor negotiations"
+  patientVolume: "Oversees 2,000-100,000+ students district-wide; manages 200-10,000+ employees; responsible for dozens of buildings"
+  supportStaffModel: "Deputy and assistant superintendents, CFO, HR director, curriculum directors, communications director, legal counsel, executive assistant"
+  geographicDemandNotes: "~13,000 districts nationwide; small rural districts turn over frequently but pay less; large urban superintendencies are high-profile and high-risk; relocation typically required"
+  telehealthPotential: 3
+  genderDistribution: "~27% women"
+
+- name: "Curriculum Director"
+  group: education_leadership
+  residencyYears: 0
+  annualSpots: 4000
+  startSalary: 65
+  midSalary: 85
+  peakSalary: 110
+  typicalPeak: 95
+  partTimeFlex: 2
+  procedureMix: 5
+  callSchedule: 7
+  adminBurden: 8
+  hoursWeek: 48
+  burnout: 35
+  partTimeFeasibility: 2
+  vacation: 6
+  careerLongevity: 8
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 6
+  automationRisk: 4
+  handsOnInsulation: 6
+  satisfaction: 72
+  chooseAgain: 63
+  intellectualStim: 7
+  varietyRepetition: 6
+  patientImpact: 8
+  physicalToll: 9
+  emotionalToll: 5
+  malpracticeLiability: 10
+  injuryCareerRisk: 10
+  aiRiskNow: 3
+  aiRiskMedium: 4
+  aiRiskLong: 5
+  aiNarrative: "AI curriculum mapping tools and adaptive learning platforms are changing how content is sequenced and personalized, but deciding what students should learn, aligning standards across a district, and training teachers on new instructional approaches still requires deep pedagogical expertise and human leadership."
+  fellowshipOptions: "Ed.D in Curriculum and Instruction, Chief Academic Officer, assistant superintendent of instruction, state curriculum specialist, textbook/edtech company leadership, university faculty"
+  compModel: "12-month district administrator salary; step increases based on experience and education level; some districts tie compensation to student achievement outcomes"
+  revPerPatientVisit: "N/A — salaried $65K-$110K/yr"
+  dailyWorkflow: "Reviewing and selecting instructional materials, leading professional development sessions, analyzing assessment data, meeting with principals on instructional priorities, managing curriculum adoption cycles, coordinating with state standards teams"
+  patientVolume: "Impacts all students district-wide (2,000-50,000+); works directly with 50-200 teachers in training sessions monthly"
+  supportStaffModel: "Instructional coaches, content area specialists, assessment coordinators, professional development facilitators, technology integration specialists"
+  geographicDemandNotes: "Every mid-to-large district needs one; smaller districts often combine with other roles; state departments of education also hire; suburban and urban districts pay more"
+  telehealthPotential: 5
+  genderDistribution: "~65% women"
+
+- name: "Instructional Coach"
+  group: education_leadership
+  residencyYears: 0
+  annualSpots: 10000
+  startSalary: 55
+  midSalary: 70
+  peakSalary: 90
+  typicalPeak: 78
+  partTimeFlex: 2
+  procedureMix: 6
+  callSchedule: 7
+  adminBurden: 7
+  hoursWeek: 45
+  burnout: 35
+  partTimeFeasibility: 2
+  vacation: 7
+  careerLongevity: 8
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 7
+  automationRisk: 4
+  handsOnInsulation: 7
+  satisfaction: 75
+  chooseAgain: 66
+  intellectualStim: 7
+  varietyRepetition: 7
+  patientImpact: 8
+  physicalToll: 8
+  emotionalToll: 5
+  malpracticeLiability: 10
+  injuryCareerRisk: 10
+  aiRiskNow: 2
+  aiRiskMedium: 3
+  aiRiskLong: 4
+  aiNarrative: "AI can provide teachers with automated feedback on lesson plans and student data analysis, but the nuanced work of coaching — observing a teacher's classroom presence, building trust for difficult feedback conversations, and modeling lessons in real time — is irreplaceably human."
+  fellowshipOptions: "Curriculum director, assistant principal, Ed.D pathway, National Board Certification facilitator, district instructional specialist, literacy or math coordinator, edtech training lead"
+  compModel: "Teacher salary schedule plus stipend or separate coach scale; typically 10-15% above teacher pay; some Title I funded positions with year-to-year renewal"
+  revPerPatientVisit: "N/A — salaried $55K-$90K/yr"
+  dailyWorkflow: "Classroom observations, one-on-one coaching conversations with teachers, co-teaching demonstration lessons, facilitating PLCs (professional learning communities), analyzing student work samples, leading professional development workshops"
+  patientVolume: "Works with 15-30 teachers directly; indirect impact on 400-1,000+ students per building"
+  supportStaffModel: "Curriculum director (supervisor), fellow coaches in other buildings, data specialists, principal (building-level support)"
+  geographicDemandNotes: "Strong demand in districts investing in instructional improvement; Title I schools fund many positions; growing role in charter networks and turnaround schools"
+  telehealthPotential: 4
+  genderDistribution: "~72% women"
+
+- name: "Education Policy Analyst"
+  group: education_leadership
+  residencyYears: 0
+  annualSpots: 3000
+  startSalary: 55
+  midSalary: 72
+  peakSalary: 95
+  typicalPeak: 82
+  partTimeFlex: 3
+  procedureMix: 5
+  callSchedule: 7
+  adminBurden: 7
+  hoursWeek: 45
+  burnout: 30
+  partTimeFeasibility: 3
+  vacation: 6
+  careerLongevity: 9
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 5
+  automationRisk: 5
+  handsOnInsulation: 5
+  satisfaction: 70
+  chooseAgain: 60
+  intellectualStim: 8
+  varietyRepetition: 6
+  patientImpact: 7
+  physicalToll: 9
+  emotionalToll: 6
+  malpracticeLiability: 10
+  injuryCareerRisk: 10
+  aiRiskNow: 3
+  aiRiskMedium: 4
+  aiRiskLong: 5
+  aiNarrative: "AI can rapidly synthesize research and model policy outcomes, which will make analysts more productive, but interpreting political feasibility, understanding stakeholder dynamics, and crafting persuasive policy recommendations still require human judgment and communication skills."
+  fellowshipOptions: "Ed.D or Ph.D in Education Policy, state legislative staff director, think tank senior fellow, U.S. Department of Education roles, international development (UNESCO, World Bank education), lobbying and advocacy leadership"
+  compModel: "Salaried position at state agencies, think tanks, or nonprofits; federal GS-11 to GS-14 scale for government roles; think tanks and advocacy orgs may offer higher pay"
+  revPerPatientVisit: "N/A — salaried $55K-$95K/yr"
+  dailyWorkflow: "Researching education legislation, analyzing student outcome data, writing policy briefs and white papers, testifying or presenting to legislative committees, stakeholder meetings, grant proposal writing"
+  patientVolume: "Policy impacts thousands to millions of students statewide; directly manages 2-5 research projects at a time"
+  supportStaffModel: "Research assistants, data analysts, communications staff, legislative liaisons, external academic consultants"
+  geographicDemandNotes: "Concentrated in state capitals and Washington DC; think tanks (Brookings, RAND, AEI) mostly in DC; some remote policy work emerging at national nonprofits"
+  telehealthPotential: 5
+  genderDistribution: "~60% women"
+
+- name: "Ed Tech Director"
+  group: education_leadership
+  residencyYears: 0
+  annualSpots: 3500
+  startSalary: 70
+  midSalary: 95
+  peakSalary: 130
+  typicalPeak: 110
+  partTimeFlex: 2
+  procedureMix: 6
+  callSchedule: 4
+  adminBurden: 7
+  hoursWeek: 48
+  burnout: 38
+  partTimeFeasibility: 2
+  vacation: 5
+  careerLongevity: 7
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 6
+  automationRisk: 5
+  handsOnInsulation: 6
+  satisfaction: 72
+  chooseAgain: 64
+  intellectualStim: 8
+  varietyRepetition: 7
+  patientImpact: 7
+  physicalToll: 9
+  emotionalToll: 5
+  malpracticeLiability: 10
+  injuryCareerRisk: 10
+  aiRiskNow: 3
+  aiRiskMedium: 4
+  aiRiskLong: 5
+  aiNarrative: "Ironically, the ed tech director is both empowered and threatened by AI — they need to evaluate and deploy AI learning tools across the district, but AI could also automate some of their infrastructure management. The strategic and vendor management aspects of the role remain human-driven."
+  fellowshipOptions: "Chief Technology Officer (district or state level), edtech company product leadership, Chief Information Officer, higher education IT leadership, digital learning consultancy, Ed.D in Instructional Technology"
+  compModel: "12-month administrator salary; often classified with other district directors; some districts offer technology stipends; edtech company roles pay significantly more"
+  revPerPatientVisit: "N/A — salaried $70K-$130K/yr"
+  dailyWorkflow: "Evaluating new edtech platforms, managing LMS and SIS systems, leading technology PD for teachers, troubleshooting district-wide tech issues, cybersecurity oversight, budgeting for device and infrastructure refreshes, vendor negotiations"
+  patientVolume: "All students and staff district-wide (2,000-50,000+); manages technology for dozens of buildings"
+  supportStaffModel: "IT technicians, network administrators, instructional technology specialists, help desk staff, device deployment teams"
+  geographicDemandNotes: "Every mid-to-large district has one; demand surged post-COVID; suburban districts pay well; rural districts often combine with other IT roles; some fully remote edtech company positions exist"
+  telehealthPotential: 5
+  genderDistribution: "~40% women"
+
+- name: "College Admissions Director"
+  group: education_leadership
+  residencyYears: 0
+  annualSpots: 2500
+  startSalary: 55
+  midSalary: 75
+  peakSalary: 100
+  typicalPeak: 85
+  partTimeFlex: 1
+  procedureMix: 6
+  callSchedule: 5
+  adminBurden: 8
+  hoursWeek: 48
+  burnout: 40
+  partTimeFeasibility: 1
+  vacation: 5
+  careerLongevity: 8
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 5
+  automationRisk: 5
+  handsOnInsulation: 6
+  satisfaction: 68
+  chooseAgain: 58
+  intellectualStim: 6
+  varietyRepetition: 6
+  patientImpact: 7
+  physicalToll: 8
+  emotionalToll: 4
+  malpracticeLiability: 9
+  injuryCareerRisk: 10
+  aiRiskNow: 3
+  aiRiskMedium: 4
+  aiRiskLong: 5
+  aiNarrative: "AI application readers and predictive enrollment models are already transforming admissions offices, reducing time spent on initial file review. But holistic admissions decisions, recruiting strategy, and the deeply relational work of connecting with families and high school counselors still requires human judgment."
+  fellowshipOptions: "VP of Enrollment Management, Dean of Admissions, university advancement, student affairs VP, higher education consulting, enrollment management at edtech companies"
+  compModel: "12-month salaried position; salary varies by institution type and prestige; private universities generally pay more than public; some performance bonuses tied to enrollment targets"
+  revPerPatientVisit: "N/A — salaried $55K-$100K/yr"
+  dailyWorkflow: "Application file review, recruitment travel and high school visits, admitted student yield events, data analysis on enrollment trends, committee meetings on admissions standards, financial aid coordination, CRM management"
+  patientVolume: "Reviews or oversees 5,000-50,000+ applications per cycle; manages team reading thousands of files; enrolls 500-10,000 students annually"
+  supportStaffModel: "Admissions counselors (regional recruiters), file readers, visit coordinators, financial aid office, marketing and communications team, data analysts"
+  geographicDemandNotes: "Every 4-year college and university; most competitive at selective private institutions; heavy travel during recruitment season (Sept-Nov); positions exist nationwide but concentrated near college towns"
+  telehealthPotential: 4
+  genderDistribution: "~58% women"
+
+- name: "Dean of Students"
+  group: education_leadership
+  residencyYears: 0
+  annualSpots: 3000
+  startSalary: 60
+  midSalary: 80
+  peakSalary: 105
+  typicalPeak: 90
+  partTimeFlex: 1
+  procedureMix: 7
+  callSchedule: 4
+  adminBurden: 8
+  hoursWeek: 50
+  burnout: 45
+  partTimeFeasibility: 1
+  vacation: 5
+  careerLongevity: 8
+  malpracticeFreq: 9
+  malpracticeCost: 0
+  geographicFlex: 6
+  automationRisk: 3
+  handsOnInsulation: 7
+  satisfaction: 70
+  chooseAgain: 60
+  intellectualStim: 7
+  varietyRepetition: 8
+  patientImpact: 8
+  physicalToll: 8
+  emotionalToll: 3
+  malpracticeLiability: 9
+  injuryCareerRisk: 10
+  aiRiskNow: 2
+  aiRiskMedium: 3
+  aiRiskLong: 4
+  aiNarrative: "AI early warning systems can flag students in academic or behavioral trouble, but the dean's role is fundamentally about human connection — mediating conflicts, supporting students through crises, enforcing conduct standards with empathy, and shaping campus culture. These are irreplaceable human skills."
+  fellowshipOptions: "VP of Student Affairs, Associate Provost, higher education presidency track, Ed.D in Higher Education Administration, student affairs consulting, residential life director"
+  compModel: "12-month salaried position at college or university; salary varies by institution size and type; public university salaries are published; some include housing benefits"
+  revPerPatientVisit: "N/A — salaried $60K-$105K/yr"
+  dailyWorkflow: "Student conduct hearings, crisis response, meeting with student organizations, coordinating with residential life, orientation planning, Title IX case management, advising student government, parent communication"
+  patientVolume: "Oversees student life for 2,000-40,000+ students; handles 10-30 conduct cases per week; manages 5-20 direct reports"
+  supportStaffModel: "Student conduct officers, residential life staff, campus activities coordinators, Title IX office, counseling center liaison, campus police"
+  geographicDemandNotes: "Every college and university; positions at all institution types; larger universities have multiple deans; residential campuses have more demand than commuter schools"
+  telehealthPotential: 3
+  genderDistribution: "~55% women"
+
+- name: "Provost"
+  group: education_leadership
+  residencyYears: 0
+  annualSpots: 500
+  startSalary: 100
+  midSalary: 150
+  peakSalary: 200
+  typicalPeak: 170
+  partTimeFlex: 1
+  procedureMix: 5
+  callSchedule: 5
+  adminBurden: 9
+  hoursWeek: 55
+  burnout: 42
+  partTimeFeasibility: 1
+  vacation: 4
+  careerLongevity: 7
+  malpracticeFreq: 9
+  malpracticeCost: 0
+  geographicFlex: 4
+  automationRisk: 3
+  handsOnInsulation: 5
+  satisfaction: 72
+  chooseAgain: 62
+  intellectualStim: 8
+  varietyRepetition: 7
+  patientImpact: 9
+  physicalToll: 9
+  emotionalToll: 4
+  malpracticeLiability: 9
+  injuryCareerRisk: 10
+  aiRiskNow: 2
+  aiRiskMedium: 3
+  aiRiskLong: 4
+  aiNarrative: "AI tools for enrollment prediction, program evaluation, and academic analytics will be useful instruments in the provost's toolkit, but the role is about institutional vision — balancing competing academic priorities, managing faculty governance, and making strategic decisions about which programs to grow or cut. This is leadership AI cannot perform."
+  fellowshipOptions: "University president, college system chancellor, higher education board membership, foundation leadership, consulting for accreditation agencies, return to faculty with distinguished professorship"
+  compModel: "Multi-year contract with board-approved salary; base $150K-$400K+ depending on institution size and prestige; deferred compensation, housing allowance, and sabbatical provisions common at R1 universities"
+  revPerPatientVisit: "N/A — salaried $100K-$200K/yr"
+  dailyWorkflow: "Academic council meetings, budget allocation across colleges, faculty tenure and promotion reviews, accreditation oversight, strategic planning, meeting with deans, research agenda prioritization, donor engagement with advancement office"
+  patientVolume: "Oversees all academic programs for 5,000-60,000+ students; manages 5-15 deans and 100+ department chairs indirectly; responsible for hundreds of faculty"
+  supportStaffModel: "Associate provosts, deans of each college, registrar, institutional research office, academic affairs staff, faculty senate liaison, accreditation coordinator"
+  geographicDemandNotes: "~4,000 colleges and universities in the US but only ~500 openings per year; must relocate to institution; R1 research universities and large state systems are most prestigious and highest-paying"
+  telehealthPotential: 3
+  genderDistribution: "~38% women"

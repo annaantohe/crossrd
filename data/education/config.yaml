@@ -1,0 +1,157 @@
+# config.yaml — education & research profession family
+
+name: "Education & Research"
+slug: education
+icon: "\U0001F393"
+headline: "Which Education or Research Career Should You Pursue?"
+subtitle: "A Data-Driven Guide"
+
+groups:
+  k12_classroom:
+    label: "K-12 Classroom"
+    icon: "\U0001F4DA"
+    tagline: "you want to teach kids every day"
+    description: "Pre-K through high school classroom teachers in core subjects"
+  specialized_teaching:
+    label: "Specialized Teaching"
+    icon: "\U0001F3A8"
+    tagline: "you want a unique teaching niche"
+    description: "Special education, ESL, music, art, PE, and career & technical education"
+  student_support:
+    label: "Student Support"
+    icon: "\U0001F91D"
+    tagline: "you want to help students beyond the classroom"
+    description: "Reading specialists, gifted specialists, librarians, counselors, and school psychologists"
+  education_leadership:
+    label: "Education Leadership"
+    icon: "\U0001F3DB\uFE0F"
+    tagline: "you want to shape the whole school or district"
+    description: "Principals, superintendents, curriculum directors, ed policy, and higher ed administration"
+  stem_professors:
+    label: "STEM Professors"
+    icon: "\U0001F52C"
+    tagline: "you want to push the frontiers of science"
+    description: "Biology, chemistry, physics, CS, math, neuroscience, environmental science, astronomy"
+  humanities_social:
+    label: "Humanities & Social Science"
+    icon: "\U0001F4D6"
+    tagline: "you want to understand people and society"
+    description: "Psychology, economics, political science, sociology, history, English, philosophy, linguistics"
+  lab_medical_research:
+    label: "Lab & Medical Research"
+    icon: "\U0001F9EA"
+    tagline: "you want to work in the lab"
+    description: "Lab technicians, data scientists, forensic scientists, epidemiologists, food scientists"
+  field_earth_science:
+    label: "Field & Earth Science"
+    icon: "\U0001F30D"
+    tagline: "you want to study the natural world"
+    description: "Environmental scientists, wildlife biologists, marine biologists, geologists, meteorologists"
+
+professions:
+  Teaching Cert:
+    label: "Teaching Cert (BA + Cert)"
+    color: "#2E7D32"
+    annualGraduates: 180000
+  M.Ed:
+    label: "M.Ed / Ed.D"
+    color: "#1565C0"
+    annualGraduates: 55000
+  Research PhD:
+    label: "Research PhD"
+    color: "#9C27B0"
+    annualGraduates: 28000
+  Applied Science:
+    label: "Applied Scientist (BS/MS)"
+    color: "#E65100"
+    annualGraduates: 65000
+
+key_overrides:
+  "Elementary School Teacher":
+    key: elementary_teacher
+    color: "#2E7D32"
+  "HS Math Teacher":
+    key: hs_math_teacher
+    color: "#1B5E20"
+  "Principal":
+    key: principal
+    color: "#1565C0"
+  "Computer Science Professor":
+    key: cs_professor
+    color: "#6A1B9A"
+  "Epidemiologist":
+    key: epidemiologist
+    color: "#E65100"
+  "Marine Biologist":
+    key: marine_biologist
+    color: "#006064"
+
+final_ranking:
+  - rank: 1
+    track: Computer Science Professor
+    key: cs_professor
+    note: Best pay + intellectual satisfaction in academia
+  - rank: 2
+    track: Principal
+    key: principal
+    note: Lead a school, strong job security + pension
+  - rank: 3
+    track: Epidemiologist
+    key: epidemiologist
+    note: High impact public health + growing demand
+  - rank: 4
+    track: HS Math Teacher
+    key: hs_math_teacher
+    note: Best job security in K-12, summers off + pension
+  - rank: 5
+    track: Elementary School Teacher
+    key: elementary_teacher
+    note: Highest satisfaction in teaching
+  - rank: 6
+    track: Marine Biologist
+    key: marine_biologist
+    note: Dream job for nature lovers
+
+decision_tree:
+  q: "Do you want to work with kids (K-12), or with adults and ideas?"
+  "yes":
+    q: "Classroom teaching, or running the school?"
+    options:
+      - label: "\U0001F4DA Classroom teaching"
+        q: "What age group?"
+        options:
+          - label: "\U0001F476 Elementary (Pre-K to 5th)"
+            result: elementary_teacher
+          - label: "\U0001F4CA High school (math, science, etc.)"
+            result: hs_math_teacher
+      - label: "\U0001F3DB\uFE0F Running the school"
+        result: principal
+  "no":
+    q: "Research and teaching at a university, or applied science?"
+    options:
+      - label: "\U0001F393 University professor"
+        result: cs_professor
+      - label: "\U0001F9EA Lab or data science"
+        result: epidemiologist
+      - label: "\U0001F30D Fieldwork and nature"
+        result: marine_biologist
+
+decision_tree_results:
+  elementary_teacher:
+    tagline: "Shape young minds every day"
+    stat: "$38K start \u2022 $52K mid \u2022 summers off + pension"
+  hs_math_teacher:
+    tagline: "Most in-demand teaching subject"
+    stat: "$42K start \u2022 $60K mid \u2022 pension + summers"
+  principal:
+    tagline: "Lead a school community"
+    stat: "$75K start \u2022 $100K+ mid \u2022 M.Ed required"
+  cs_professor:
+    tagline: "Research + teach + consult"
+    stat: "$105K start \u2022 $155K+ mid \u2022 PhD + postdoc"
+  epidemiologist:
+    tagline: "Fight diseases with data"
+    stat: "$55K start \u2022 $78K mid \u2022 MS required"
+  marine_biologist:
+    tagline: "Study the ocean"
+    stat: "$42K start \u2022 $62K mid \u2022 fieldwork + travel"

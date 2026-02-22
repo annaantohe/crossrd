@@ -1,0 +1,41 @@
+# stress test resilience scores for education & research finalists
+scenarios:
+- id: ai
+  name: AI Tutoring & Research Tools Go Mainstream
+- id: pay
+  name: Education Budget Cuts 20%
+- id: injury
+  name: Career-Ending Burnout at 40
+- id: match
+  name: Can't Land a Position
+scores:
+  cs_professor:
+    ai: 4
+    pay: 6
+    injury: 6
+    match: 3
+  principal:
+    ai: 7
+    pay: 4
+    injury: 5
+    match: 5
+  epidemiologist:
+    ai: 5
+    pay: 7
+    injury: 8
+    match: 6
+  hs_math_teacher:
+    ai: 7
+    pay: 7
+    injury: 7
+    match: 8
+  elementary_teacher:
+    ai: 8
+    pay: 5
+    injury: 7
+    match: 7
+  marine_biologist:
+    ai: 7
+    pay: 4
+    injury: 6
+    match: 4

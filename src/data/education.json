@@ -1,0 +1,6828 @@
+{
+  "meta": {
+    "profession_family": "education",
+    "family_name": "Education & Research",
+    "headline": "Which Education or Research Career Should You Pursue?",
+    "subtitle": "A Data-Driven Guide",
+    "icon": "\ud83c\udf93",
+    "last_updated": "2026-02-22",
+    "total_tracks": 60,
+    "data_points": 107,
+    "source_file": "yaml"
+  },
+  "professions": {
+    "Teaching Cert": {
+      "label": "Teaching Cert (BA + Cert)",
+      "color": "#2E7D32",
+      "track_count": 18
+    },
+    "M.Ed": {
+      "label": "M.Ed / Ed.D",
+      "color": "#1565C0",
+      "track_count": 12
+    },
+    "Research PhD": {
+      "label": "Research PhD",
+      "color": "#9C27B0",
+      "track_count": 18
+    },
+    "Applied Science": {
+      "label": "Applied Scientist (BS/MS)",
+      "color": "#E65100",
+      "track_count": 12
+    }
+  },
+  "groups": {
+    "k12_classroom": {
+      "label": "K-12 Classroom",
+      "icon": "\ud83d\udcda",
+      "tagline": "you want to teach kids every day",
+      "description": "Pre-K through high school classroom teachers in core subjects",
+      "count": 9,
+      "salary_range": [
+        55,
+        80
+      ]
+    },
+    "specialized_teaching": {
+      "label": "Specialized Teaching",
+      "icon": "\ud83c\udfa8",
+      "tagline": "you want a unique teaching niche",
+      "description": "Special education, ESL, music, art, PE, and career & technical education",
+      "count": 6,
+      "salary_range": [
+        64,
+        75
+      ]
+    },
+    "student_support": {
+      "label": "Student Support",
+      "icon": "\ud83e\udd1d",
+      "tagline": "you want to help students beyond the classroom",
+      "description": "Reading specialists, gifted specialists, librarians, counselors, and school psychologists",
+      "count": 5,
+      "salary_range": [
+        72,
+        95
+      ]
+    },
+    "education_leadership": {
+      "label": "Education Leadership",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "tagline": "you want to shape the whole school or district",
+      "description": "Principals, superintendents, curriculum directors, ed policy, and higher ed administration",
+      "count": 10,
+      "salary_range": [
+        90,
+        225
+      ]
+    },
+    "stem_professors": {
+      "label": "STEM Professors",
+      "icon": "\ud83d\udd2c",
+      "tagline": "you want to push the frontiers of science",
+      "description": "Biology, chemistry, physics, CS, math, neuroscience, environmental science, astronomy",
+      "count": 8,
+      "salary_range": [
+        120,
+        220
+      ]
+    },
+    "humanities_social": {
+      "label": "Humanities & Social Science",
+      "icon": "\ud83d\udcd6",
+      "tagline": "you want to understand people and society",
+      "description": "Psychology, economics, political science, sociology, history, English, philosophy, linguistics",
+      "count": 10,
+      "salary_range": [
+        100,
+        200
+      ]
+    },
+    "lab_medical_research": {
+      "label": "Lab & Medical Research",
+      "icon": "\ud83e\uddea",
+      "tagline": "you want to work in the lab",
+      "description": "Lab technicians, data scientists, forensic scientists, epidemiologists, food scientists",
+      "count": 5,
+      "salary_range": [
+        65,
+        150
+      ]
+    },
+    "field_earth_science": {
+      "label": "Field & Earth Science",
+      "icon": "\ud83c\udf0d",
+      "tagline": "you want to study the natural world",
+      "description": "Environmental scientists, wildlife biologists, marine biologists, geologists, meteorologists",
+      "count": 7,
+      "salary_range": [
+        75,
+        105
+      ]
+    }
+  },
+  "careers": [
+    {
+      "key": "lab_technician",
+      "name": "Lab Technician",
+      "color": "#d86120",
+      "path": "Applied Scientist (BS/MS)",
+      "group": "lab_medical_research"
+    },
+    {
+      "key": "data_scientist_research",
+      "name": "Data Scientist (Research)",
+      "color": "#d88220",
+      "path": "Applied Scientist (BS/MS)",
+      "group": "lab_medical_research"
+    },
+    {
+      "key": "forensic_scientist",
+      "name": "Forensic Scientist",
+      "color": "#d8a320",
+      "path": "Applied Scientist (BS/MS)",
+      "group": "lab_medical_research"
+    },
+    {
+      "key": "epidemiologist",
+      "name": "Epidemiologist",
+      "color": "#E65100",
+      "path": "Applied Scientist (BS/MS)",
+      "group": "lab_medical_research"
+    },
+    {
+      "key": "food_scientist",
+      "name": "Food Scientist",
+      "color": "#d8c420",
+      "path": "Applied Scientist (BS/MS)",
+      "group": "lab_medical_research"
+    },
+    {
+      "key": "environmental_scientist",
+      "name": "Environmental Scientist",
+      "color": "#cbd820",
+      "path": "Applied Scientist (BS/MS)",
+      "group": "field_earth_science"
+    },
+    {
+      "key": "wildlife_biologist",
+      "name": "Wildlife Biologist",
+      "color": "#aad820",
+      "path": "Applied Scientist (BS/MS)",
+      "group": "field_earth_science"
+    },
+    {
+      "key": "marine_biologist",
+      "name": "Marine Biologist",
+      "color": "#006064",
+      "path": "Applied Scientist (BS/MS)",
+      "group": "field_earth_science"
+    },
+    {
+      "key": "geologist",
+      "name": "Geologist",
+      "color": "#89d820",
+      "path": "Applied Scientist (BS/MS)",
+      "group": "field_earth_science"
+    },
+    {
+      "key": "meteorologist",
+      "name": "Meteorologist",
+      "color": "#67d820",
+      "path": "Applied Scientist (BS/MS)",
+      "group": "field_earth_science"
+    },
+    {
+      "key": "science_writer",
+      "name": "Science Writer",
+      "color": "#46d820",
+      "path": "Applied Scientist (BS/MS)",
+      "group": "field_earth_science"
+    },
+    {
+      "key": "museum_curator",
+      "name": "Museum Curator",
+      "color": "#25d820",
+      "path": "Applied Scientist (BS/MS)",
+      "group": "field_earth_science"
+    },
+    {
+      "key": "school_counselor",
+      "name": "School Counselor",
+      "color": "#2669b5",
+      "path": "M.Ed / Ed.D",
+      "group": "student_support"
+    },
+    {
+      "key": "school_psychologist",
+      "name": "School Psychologist",
+      "color": "#1e4fca",
+      "path": "M.Ed / Ed.D",
+      "group": "student_support"
+    },
+    {
+      "key": "assistant_principal",
+      "name": "Assistant Principal",
+      "color": "#1b2bb5",
+      "path": "M.Ed / Ed.D",
+      "group": "education_leadership"
+    },
+    {
+      "key": "principal",
+      "name": "Principal",
+      "color": "#1565C0",
+      "path": "M.Ed / Ed.D",
+      "group": "education_leadership"
+    },
+    {
+      "key": "superintendent",
+      "name": "Superintendent",
+      "color": "#352aca",
+      "path": "M.Ed / Ed.D",
+      "group": "education_leadership"
+    },
+    {
+      "key": "curriculum_director",
+      "name": "Curriculum Director",
+      "color": "#421bb5",
+      "path": "M.Ed / Ed.D",
+      "group": "education_leadership"
+    },
+    {
+      "key": "instructional_coach",
+      "name": "Instructional Coach",
+      "color": "#681eca",
+      "path": "M.Ed / Ed.D",
+      "group": "education_leadership"
+    },
+    {
+      "key": "education_policy_analyst",
+      "name": "Education Policy Analyst",
+      "color": "#7e26b5",
+      "path": "M.Ed / Ed.D",
+      "group": "education_leadership"
+    },
+    {
+      "key": "ed_tech_director",
+      "name": "Ed Tech Director",
+      "color": "#a61eca",
+      "path": "M.Ed / Ed.D",
+      "group": "education_leadership"
+    },
+    {
+      "key": "college_admissions_direc",
+      "name": "College Admissions Director",
+      "color": "#b11bb5",
+      "path": "M.Ed / Ed.D",
+      "group": "education_leadership"
+    },
+    {
+      "key": "dean_of_students",
+      "name": "Dean of Students",
+      "color": "#ca2ab1",
+      "path": "M.Ed / Ed.D",
+      "group": "education_leadership"
+    },
+    {
+      "key": "provost",
+      "name": "Provost",
+      "color": "#b51b82",
+      "path": "M.Ed / Ed.D",
+      "group": "education_leadership"
+    },
+    {
+      "key": "biology_professor",
+      "name": "Biology Professor",
+      "color": "#9535a5",
+      "path": "Research PhD",
+      "group": "stem_professors"
+    },
+    {
+      "key": "chemistry_professor",
+      "name": "Chemistry Professor",
+      "color": "#ba29b5",
+      "path": "Research PhD",
+      "group": "stem_professors"
+    },
+    {
+      "key": "physics_professor",
+      "name": "Physics Professor",
+      "color": "#a51887",
+      "path": "Research PhD",
+      "group": "stem_professors"
+    },
+    {
+      "key": "cs_professor",
+      "name": "Computer Science Professor",
+      "color": "#6A1B9A",
+      "path": "Research PhD",
+      "group": "stem_professors"
+    },
+    {
+      "key": "mathematics_professor",
+      "name": "Mathematics Professor",
+      "color": "#ba3b88",
+      "path": "Research PhD",
+      "group": "stem_professors"
+    },
+    {
+      "key": "neuroscience_professor",
+      "name": "Neuroscience Professor",
+      "color": "#a5245b",
+      "path": "Research PhD",
+      "group": "stem_professors"
+    },
+    {
+      "key": "environmental_science_pr",
+      "name": "Environmental Science Professor",
+      "color": "#ba1b42",
+      "path": "Research PhD",
+      "group": "stem_professors"
+    },
+    {
+      "key": "astronomy_professor",
+      "name": "Astronomy Professor",
+      "color": "#a5353c",
+      "path": "Research PhD",
+      "group": "stem_professors"
+    },
+    {
+      "key": "psychology_professor",
+      "name": "Psychology Professor",
+      "color": "#ba3929",
+      "path": "Research PhD",
+      "group": "humanities_social"
+    },
+    {
+      "key": "economics_professor",
+      "name": "Economics Professor",
+      "color": "#a54218",
+      "path": "Research PhD",
+      "group": "humanities_social"
+    },
+    {
+      "key": "political_science_profes",
+      "name": "Political Science Professor",
+      "color": "#ba773b",
+      "path": "Research PhD",
+      "group": "humanities_social"
+    },
+    {
+      "key": "sociology_professor",
+      "name": "Sociology Professor",
+      "color": "#a57924",
+      "path": "Research PhD",
+      "group": "humanities_social"
+    },
+    {
+      "key": "history_professor",
+      "name": "History Professor",
+      "color": "#ba9f1b",
+      "path": "Research PhD",
+      "group": "humanities_social"
+    },
+    {
+      "key": "english_professor",
+      "name": "English Professor",
+      "color": "#a4a535",
+      "path": "Research PhD",
+      "group": "humanities_social"
+    },
+    {
+      "key": "philosophy_professor",
+      "name": "Philosophy Professor",
+      "color": "#9eba29",
+      "path": "Research PhD",
+      "group": "humanities_social"
+    },
+    {
+      "key": "linguistics_professor",
+      "name": "Linguistics Professor",
+      "color": "#71a518",
+      "path": "Research PhD",
+      "group": "humanities_social"
+    },
+    {
+      "key": "education_researcher",
+      "name": "Education Researcher",
+      "color": "#74ba3b",
+      "path": "Research PhD",
+      "group": "humanities_social"
+    },
+    {
+      "key": "biomedical_researcher",
+      "name": "Biomedical Researcher",
+      "color": "#47a524",
+      "path": "Research PhD",
+      "group": "humanities_social"
+    },
+    {
+      "key": "pre_k_teacher",
+      "name": "Pre-K Teacher",
+      "color": "#357238",
+      "path": "Teaching Cert (BA + Cert)",
+      "group": "k12_classroom"
+    },
+    {
+      "key": "elementary_teacher",
+      "name": "Elementary School Teacher",
+      "color": "#2E7D32",
+      "path": "Teaching Cert (BA + Cert)",
+      "group": "k12_classroom"
+    },
+    {
+      "key": "middle_school_math_teach",
+      "name": "Middle School Math Teacher",
+      "color": "#318745",
+      "path": "Teaching Cert (BA + Cert)",
+      "group": "k12_classroom"
+    },
+    {
+      "key": "middle_school_english_te",
+      "name": "Middle School English Teacher",
+      "color": "#1e7241",
+      "path": "Teaching Cert (BA + Cert)",
+      "group": "k12_classroom"
+    },
+    {
+      "key": "middle_school_science_te",
+      "name": "Middle School Science Teacher",
+      "color": "#3f8769",
+      "path": "Teaching Cert (BA + Cert)",
+      "group": "k12_classroom"
+    },
+    {
+      "key": "hs_math_teacher",
+      "name": "HS Math Teacher",
+      "color": "#1B5E20",
+      "path": "Teaching Cert (BA + Cert)",
+      "group": "k12_classroom"
+    },
+    {
+      "key": "hs_english_teacher",
+      "name": "HS English Teacher",
+      "color": "#2a7262",
+      "path": "Teaching Cert (BA + Cert)",
+      "group": "k12_classroom"
+    },
+    {
+      "key": "hs_science_teacher",
+      "name": "HS Science Teacher",
+      "color": "#248782",
+      "path": "Teaching Cert (BA + Cert)",
+      "group": "k12_classroom"
+    },
+    {
+      "key": "hs_history_teacher",
+      "name": "HS History Teacher",
+      "color": "#356a72",
+      "path": "Teaching Cert (BA + Cert)",
+      "group": "k12_classroom"
+    },
+    {
+      "key": "special_education_teache",
+      "name": "Special Education Teacher",
+      "color": "#316c87",
+      "path": "Teaching Cert (BA + Cert)",
+      "group": "specialized_teaching"
+    },
+    {
+      "key": "esl_teacher",
+      "name": "ESL Teacher",
+      "color": "#1e4972",
+      "path": "Teaching Cert (BA + Cert)",
+      "group": "specialized_teaching"
+    },
+    {
+      "key": "music_teacher",
+      "name": "Music Teacher",
+      "color": "#3f5687",
+      "path": "Teaching Cert (BA + Cert)",
+      "group": "specialized_teaching"
+    },
+    {
+      "key": "art_teacher",
+      "name": "Art Teacher",
+      "color": "#2a3572",
+      "path": "Teaching Cert (BA + Cert)",
+      "group": "specialized_teaching"
+    },
+    {
+      "key": "pe_teacher",
+      "name": "PE Teacher",
+      "color": "#272487",
+      "path": "Teaching Cert (BA + Cert)",
+      "group": "specialized_teaching"
+    },
+    {
+      "key": "cte_teacher",
+      "name": "CTE Teacher",
+      "color": "#423572",
+      "path": "Teaching Cert (BA + Cert)",
+      "group": "specialized_teaching"
+    },
+    {
+      "key": "reading_specialist",
+      "name": "Reading Specialist",
+      "color": "#533187",
+      "path": "Teaching Cert (BA + Cert)",
+      "group": "student_support"
+    },
+    {
+      "key": "gifted_specialist",
+      "name": "Gifted Specialist",
+      "color": "#4e1e72",
+      "path": "Teaching Cert (BA + Cert)",
+      "group": "student_support"
+    },
+    {
+      "key": "school_librarian",
+      "name": "School Librarian",
+      "color": "#753f87",
+      "path": "Teaching Cert (BA + Cert)",
+      "group": "student_support"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Pre-Professional Phase",
+      "weight_default": 7,
+      "description": "How hard is it to start?"
+    },
+    {
+      "id": 2,
+      "name": "Admissions Competitiveness",
+      "weight_default": 7,
+      "description": "Can you realistically get in?"
+    },
+    {
+      "id": 3,
+      "name": "Professional School",
+      "weight_default": 5,
+      "description": "What's the school experience like?"
+    },
+    {
+      "id": 4,
+      "name": "Post-Graduate Training",
+      "weight_default": 8,
+      "description": "How long/hard is the road after school?"
+    },
+    {
+      "id": 5,
+      "name": "Financial Picture",
+      "weight_default": 10,
+      "description": "Cost, debt, time to financial freedom"
+    },
+    {
+      "id": 6,
+      "name": "Scope of Practice & Autonomy",
+      "weight_default": 8,
+      "description": "What can you do independently?"
+    },
+    {
+      "id": 7,
+      "name": "Career Economics",
+      "weight_default": 12,
+      "description": "How much do you earn over a career?"
+    },
+    {
+      "id": 8,
+      "name": "Daily Life & Practice Reality",
+      "weight_default": 8,
+      "description": "What does the work feel like?"
+    },
+    {
+      "id": 9,
+      "name": "Lifestyle & Work-Life Balance",
+      "weight_default": 10,
+      "description": "Can you have a life outside work?"
+    },
+    {
+      "id": 10,
+      "name": "Job Market & Demand",
+      "weight_default": 5,
+      "description": "Will you find work?"
+    },
+    {
+      "id": 11,
+      "name": "AI Revolution Impact",
+      "weight_default": 7,
+      "description": "How future-proof is this career?"
+    },
+    {
+      "id": 12,
+      "name": "Professional Satisfaction",
+      "weight_default": 8,
+      "description": "Will you enjoy this long-term?"
+    },
+    {
+      "id": 13,
+      "name": "Demographics & Culture",
+      "weight_default": 3,
+      "description": "Culture fit?"
+    },
+    {
+      "id": 14,
+      "name": "Risk Factors & Downsides",
+      "weight_default": 5,
+      "description": "Hidden costs and dangers"
+    }
+  ],
+  "scenario_profiles": {
+    "default": {
+      "1": 7,
+      "2": 7,
+      "3": 5,
+      "4": 8,
+      "5": 10,
+      "6": 8,
+      "7": 12,
+      "8": 8,
+      "9": 10,
+      "10": 5,
+      "11": 7,
+      "12": 8,
+      "13": 3,
+      "14": 5
+    },
+    "equal_weight": {
+      "1": 7,
+      "2": 7,
+      "3": 7,
+      "4": 7,
+      "5": 7,
+      "6": 7,
+      "7": 7,
+      "8": 7,
+      "9": 7,
+      "10": 7,
+      "11": 7,
+      "12": 7,
+      "13": 8,
+      "14": 8
+    },
+    "max_earnings": {
+      "1": 3,
+      "2": 3,
+      "3": 3,
+      "4": 5,
+      "5": 20,
+      "6": 8,
+      "7": 25,
+      "8": 5,
+      "9": 5,
+      "10": 8,
+      "11": 5,
+      "12": 5,
+      "13": 3,
+      "14": 2
+    },
+    "best_lifestyle": {
+      "1": 5,
+      "2": 5,
+      "3": 5,
+      "4": 8,
+      "5": 8,
+      "6": 5,
+      "7": 8,
+      "8": 12,
+      "9": 20,
+      "10": 5,
+      "11": 5,
+      "12": 10,
+      "13": 2,
+      "14": 2
+    },
+    "fastest_to_practice": {
+      "1": 12,
+      "2": 12,
+      "3": 12,
+      "4": 15,
+      "5": 12,
+      "6": 3,
+      "7": 5,
+      "8": 3,
+      "9": 5,
+      "10": 5,
+      "11": 3,
+      "12": 5,
+      "13": 5,
+      "14": 3
+    },
+    "most_procedural": {
+      "1": 5,
+      "2": 5,
+      "3": 5,
+      "4": 5,
+      "5": 5,
+      "6": 15,
+      "7": 5,
+      "8": 20,
+      "9": 5,
+      "10": 5,
+      "11": 5,
+      "12": 15,
+      "13": 3,
+      "14": 2
+    }
+  },
+  "tracks": [
+    {
+      "name": "Lab Technician",
+      "key": "lab_technician",
+      "profession": "Applied Science",
+      "group": "lab_medical_research",
+      "color": "#d86120",
+      "path": "Applied Scientist (BS/MS)",
+      "raw_data": {
+        "startSalary": 38,
+        "midSalary": 50,
+        "peakSalary": 65,
+        "typicalPeak": 56,
+        "hoursWeek": 40,
+        "burnout": 22,
+        "satisfaction": 68,
+        "chooseAgain": 60,
+        "malpracticeCost": 0,
+        "vacation": 4,
+        "matchComp": 8,
+        "annualSpots": 20000,
+        "oneInX": 3,
+        "callSchedule": 2,
+        "physicalToll": 7,
+        "emotionalToll": 8,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 4,
+        "aiRiskLong": 5,
+        "aiNarrative": "Lab automation is real and accelerating \u2014 robotic pipetting, automated sample processing, and AI-driven analysis are reducing the number of hands needed for routine assays. But someone still has to troubleshoot equipment, prepare non-standard samples, and handle the weird stuff that breaks protocol."
+      },
+      "scores": {
+        "category_1": 6.5,
+        "category_2": 7.33,
+        "category_3": 5.67,
+        "category_4": 5.67,
+        "category_5": 4.97,
+        "category_6": 5.14,
+        "category_7": 4.17,
+        "category_8": 6.4,
+        "category_9": 6.84,
+        "category_10": 7.0,
+        "category_11": 5.6,
+        "category_12": 5.77,
+        "category_13": 5.75,
+        "category_14": 8.43
+      },
+      "scenario_totals": {
+        "default": 6.11,
+        "equal_weight": 6.11,
+        "max_earnings": 5.45,
+        "best_lifestyle": 6.04,
+        "fastest_to_practice": 6.03,
+        "most_procedural": 5.95
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 22,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 20,
+        "prof_school_years": 1.5,
+        "trainee_salary": 0,
+        "education_debt": 40,
+        "loan_rate": 5.5,
+        "living_expenses": 42,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 23.5,
+        "starting_salary": 38,
+        "mid_salary": 50,
+        "peak_salary": 65,
+        "typical_peak": 56,
+        "malpractice_per_yr": 0
+      },
+      "stress": {
+        "ai": 4,
+        "pay": 7,
+        "injury": 5,
+        "match": 5
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          23.5
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 23.5,
+        "startSalary": 38
+      }
+    },
+    {
+      "name": "Data Scientist (Research)",
+      "key": "data_scientist_research",
+      "profession": "Applied Science",
+      "group": "lab_medical_research",
+      "color": "#d88220",
+      "path": "Applied Scientist (BS/MS)",
+      "raw_data": {
+        "startSalary": 70,
+        "midSalary": 105,
+        "peakSalary": 150,
+        "typicalPeak": 130,
+        "hoursWeek": 44,
+        "burnout": 30,
+        "satisfaction": 78,
+        "chooseAgain": 72,
+        "malpracticeCost": 0,
+        "vacation": 5,
+        "matchComp": 8,
+        "annualSpots": 15000,
+        "oneInX": 4,
+        "callSchedule": 1,
+        "physicalToll": 9,
+        "emotionalToll": 8,
+        "aiRiskNow": 3,
+        "aiRiskMedium": 5,
+        "aiRiskLong": 6,
+        "aiNarrative": "AI automates some routine analysis \u2014 cleaning data, running standard models, generating charts \u2014 but paradoxically creates even more work for data scientists who can frame research questions, interpret messy real-world data, and communicate findings to non-technical stakeholders. The job is evolving fast, not disappearing."
+      },
+      "scores": {
+        "category_1": 6.5,
+        "category_2": 7.33,
+        "category_3": 5.67,
+        "category_4": 5.33,
+        "category_5": 6.01,
+        "category_6": 5.29,
+        "category_7": 5.12,
+        "category_8": 5.92,
+        "category_9": 6.82,
+        "category_10": 7.2,
+        "category_11": 5.2,
+        "category_12": 7.5,
+        "category_13": 5.75,
+        "category_14": 8.86
+      },
+      "scenario_totals": {
+        "default": 6.41,
+        "equal_weight": 6.34,
+        "max_earnings": 5.95,
+        "best_lifestyle": 6.29,
+        "fastest_to_practice": 6.24,
+        "most_procedural": 6.21
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 22,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 20,
+        "prof_school_years": 1.5,
+        "trainee_salary": 0,
+        "education_debt": 40,
+        "loan_rate": 5.5,
+        "living_expenses": 42,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 23.5,
+        "starting_salary": 70,
+        "mid_salary": 105,
+        "peak_salary": 150,
+        "typical_peak": 130,
+        "malpractice_per_yr": 0
+      },
+      "stress": {
+        "ai": 4,
+        "pay": 7,
+        "injury": 6,
+        "match": 5
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          23.5
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 23.5,
+        "startSalary": 70
+      }
+    },
+    {
+      "name": "Forensic Scientist",
+      "key": "forensic_scientist",
+      "profession": "Applied Science",
+      "group": "lab_medical_research",
+      "color": "#d8a320",
+      "path": "Applied Scientist (BS/MS)",
+      "raw_data": {
+        "startSalary": 48,
+        "midSalary": 65,
+        "peakSalary": 85,
+        "typicalPeak": 75,
+        "hoursWeek": 42,
+        "burnout": 30,
+        "satisfaction": 74,
+        "chooseAgain": 66,
+        "malpracticeCost": 0,
+        "vacation": 4,
+        "matchComp": 6,
+        "annualSpots": 5000,
+        "oneInX": 13,
+        "callSchedule": 3,
+        "physicalToll": 7,
+        "emotionalToll": 7,
+        "aiRiskNow": 1,
+        "aiRiskMedium": 2,
+        "aiRiskLong": 3,
+        "aiNarrative": "Forensic science requires courtroom testimony, chain-of-custody documentation, and expert judgment that carries legal weight. AI can help with DNA matching algorithms and pattern recognition, but a judge and jury need a human expert to explain the evidence. The legal system keeps this role very safe from automation."
+      },
+      "scores": {
+        "category_1": 6.5,
+        "category_2": 6.67,
+        "category_3": 5.67,
+        "category_4": 6.0,
+        "category_5": 5.27,
+        "category_6": 4.86,
+        "category_7": 4.65,
+        "category_8": 6.78,
+        "category_9": 6.06,
+        "category_10": 6.6,
+        "category_11": 5.6,
+        "category_12": 7.17,
+        "category_13": 5.75,
+        "category_14": 8.0
+      },
+      "scenario_totals": {
+        "default": 6.18,
+        "equal_weight": 6.13,
+        "max_earnings": 5.61,
+        "best_lifestyle": 6.09,
+        "fastest_to_practice": 6.06,
+        "most_procedural": 6.14
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 22,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 20,
+        "prof_school_years": 1.5,
+        "trainee_salary": 0,
+        "education_debt": 40,
+        "loan_rate": 5.5,
+        "living_expenses": 42,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 23.5,
+        "starting_salary": 48,
+        "mid_salary": 65,
+        "peak_salary": 85,
+        "typical_peak": 75,
+        "malpractice_per_yr": 0
+      },
+      "stress": {
+        "ai": 8,
+        "pay": 6,
+        "injury": 5,
+        "match": 6
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          23.5
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 23.5,
+        "startSalary": 48
+      }
+    },
+    {
+      "name": "Epidemiologist",
+      "key": "epidemiologist",
+      "profession": "Applied Science",
+      "group": "lab_medical_research",
+      "color": "#E65100",
+      "path": "Applied Scientist (BS/MS)",
+      "raw_data": {
+        "startSalary": 55,
+        "midSalary": 78,
+        "peakSalary": 105,
+        "typicalPeak": 90,
+        "hoursWeek": 42,
+        "burnout": 28,
+        "satisfaction": 78,
+        "chooseAgain": 72,
+        "malpracticeCost": 0,
+        "vacation": 4,
+        "matchComp": 6,
+        "annualSpots": 8000,
+        "oneInX": 8,
+        "callSchedule": 3,
+        "physicalToll": 8,
+        "emotionalToll": 7,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 3,
+        "aiRiskLong": 4,
+        "aiNarrative": "COVID proved that epidemiologists are essential \u2014 AI can crunch disease data faster, but interpreting outbreak patterns, advising public health policy, and communicating risk to the public require human judgment and trust. The field has more visibility and funding than ever."
+      },
+      "scores": {
+        "category_1": 6.5,
+        "category_2": 6.67,
+        "category_3": 5.67,
+        "category_4": 6.0,
+        "category_5": 5.51,
+        "category_6": 5.14,
+        "category_7": 4.88,
+        "category_8": 6.28,
+        "category_9": 6.54,
+        "category_10": 6.8,
+        "category_11": 5.4,
+        "category_12": 7.67,
+        "category_13": 5.75,
+        "category_14": 8.57
+      },
+      "scenario_totals": {
+        "default": 6.32,
+        "equal_weight": 6.26,
+        "max_earnings": 5.78,
+        "best_lifestyle": 6.24,
+        "fastest_to_practice": 6.17,
+        "most_procedural": 6.22
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 22,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 20,
+        "prof_school_years": 1.5,
+        "trainee_salary": 0,
+        "education_debt": 40,
+        "loan_rate": 5.5,
+        "living_expenses": 42,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 23.5,
+        "starting_salary": 55,
+        "mid_salary": 78,
+        "peak_salary": 105,
+        "typical_peak": 90,
+        "malpractice_per_yr": 0
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 6,
+        "injury": 6,
+        "match": 6
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          23.5
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 23.5,
+        "startSalary": 55
+      }
+    },
+    {
+      "name": "Food Scientist",
+      "key": "food_scientist",
+      "profession": "Applied Science",
+      "group": "lab_medical_research",
+      "color": "#d8c420",
+      "path": "Applied Scientist (BS/MS)",
+      "raw_data": {
+        "startSalary": 50,
+        "midSalary": 70,
+        "peakSalary": 95,
+        "typicalPeak": 82,
+        "hoursWeek": 42,
+        "burnout": 22,
+        "satisfaction": 72,
+        "chooseAgain": 65,
+        "malpracticeCost": 0,
+        "vacation": 4,
+        "matchComp": 6,
+        "annualSpots": 6000,
+        "oneInX": 11,
+        "callSchedule": 2,
+        "physicalToll": 7,
+        "emotionalToll": 8,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 3,
+        "aiRiskLong": 4,
+        "aiNarrative": "Food science is deeply hands-on \u2014 you taste, smell, and texture-test products that AI literally cannot experience. AI helps with formulation optimization and shelf-life prediction, but sensory evaluation, pilot plant work, and food safety inspections need human presence."
+      },
+      "scores": {
+        "category_1": 6.5,
+        "category_2": 6.67,
+        "category_3": 5.67,
+        "category_4": 5.67,
+        "category_5": 5.36,
+        "category_6": 5.0,
+        "category_7": 4.75,
+        "category_8": 6.53,
+        "category_9": 6.54,
+        "category_10": 6.6,
+        "category_11": 5.6,
+        "category_12": 6.57,
+        "category_13": 5.75,
+        "category_14": 8.14
+      },
+      "scenario_totals": {
+        "default": 6.17,
+        "equal_weight": 6.11,
+        "max_earnings": 5.63,
+        "best_lifestyle": 6.09,
+        "fastest_to_practice": 6.02,
+        "most_procedural": 6.04
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 22,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 20,
+        "prof_school_years": 1.5,
+        "trainee_salary": 0,
+        "education_debt": 40,
+        "loan_rate": 5.5,
+        "living_expenses": 42,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 23.5,
+        "starting_salary": 50,
+        "mid_salary": 70,
+        "peak_salary": 95,
+        "typical_peak": 82,
+        "malpractice_per_yr": 0
+      },
+      "stress": {
+        "ai": 8,
+        "pay": 6,
+        "injury": 5,
+        "match": 6
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          23.5
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 23.5,
+        "startSalary": 50
+      }
+    },
+    {
+      "name": "Environmental Scientist",
+      "key": "environmental_scientist",
+      "profession": "Applied Science",
+      "group": "field_earth_science",
+      "color": "#cbd820",
+      "path": "Applied Scientist (BS/MS)",
+      "raw_data": {
+        "startSalary": 45,
+        "midSalary": 65,
+        "peakSalary": 88,
+        "typicalPeak": 75,
+        "hoursWeek": 42,
+        "burnout": 24,
+        "satisfaction": 76,
+        "chooseAgain": 68,
+        "malpracticeCost": 0,
+        "vacation": 4,
+        "matchComp": 7,
+        "annualSpots": 10000,
+        "oneInX": 6,
+        "callSchedule": 2,
+        "physicalToll": 6,
+        "emotionalToll": 8,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 3,
+        "aiRiskLong": 4,
+        "aiNarrative": "Environmental science means boots in the mud \u2014 collecting water samples, conducting site assessments, and writing environmental impact reports that require site-specific judgment. AI helps with data analysis and modeling, but the fieldwork and regulatory compliance need humans."
+      },
+      "scores": {
+        "category_1": 6.5,
+        "category_2": 7.0,
+        "category_3": 5.67,
+        "category_4": 5.67,
+        "category_5": 5.23,
+        "category_6": 5.0,
+        "category_7": 4.67,
+        "category_8": 6.53,
+        "category_9": 6.48,
+        "category_10": 6.8,
+        "category_11": 5.6,
+        "category_12": 6.97,
+        "category_13": 5.75,
+        "category_14": 8.14
+      },
+      "scenario_totals": {
+        "default": 6.21,
+        "equal_weight": 6.16,
+        "max_earnings": 5.63,
+        "best_lifestyle": 6.13,
+        "fastest_to_practice": 6.07,
+        "most_procedural": 6.12
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 22,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 20,
+        "prof_school_years": 1.5,
+        "trainee_salary": 0,
+        "education_debt": 40,
+        "loan_rate": 5.5,
+        "living_expenses": 42,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 23.5,
+        "starting_salary": 45,
+        "mid_salary": 65,
+        "peak_salary": 88,
+        "typical_peak": 75,
+        "malpractice_per_yr": 0
+      },
+      "stress": {
+        "ai": 8,
+        "pay": 6,
+        "injury": 6,
+        "match": 5
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          23.5
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 23.5,
+        "startSalary": 45
+      }
+    },
+    {
+      "name": "Wildlife Biologist",
+      "key": "wildlife_biologist",
+      "profession": "Applied Science",
+      "group": "field_earth_science",
+      "color": "#aad820",
+      "path": "Applied Scientist (BS/MS)",
+      "raw_data": {
+        "startSalary": 42,
+        "midSalary": 60,
+        "peakSalary": 80,
+        "typicalPeak": 70,
+        "hoursWeek": 42,
+        "burnout": 25,
+        "satisfaction": 80,
+        "chooseAgain": 72,
+        "malpracticeCost": 0,
+        "vacation": 4,
+        "matchComp": 5,
+        "annualSpots": 4000,
+        "oneInX": 16,
+        "callSchedule": 2,
+        "physicalToll": 5,
+        "emotionalToll": 7,
+        "aiRiskNow": 1,
+        "aiRiskMedium": 2,
+        "aiRiskLong": 3,
+        "aiNarrative": "You spend your days tracking animals through forests, setting up camera traps, and doing population surveys in remote areas. AI helps with camera trap image classification and habitat modeling, but the physical fieldwork in rugged terrain is impossible to automate. This is about as AI-proof as it gets."
+      },
+      "scores": {
+        "category_1": 6.5,
+        "category_2": 6.33,
+        "category_3": 5.67,
+        "category_4": 5.67,
+        "category_5": 5.13,
+        "category_6": 4.86,
+        "category_7": 4.58,
+        "category_8": 6.53,
+        "category_9": 6.24,
+        "category_10": 6.4,
+        "category_11": 5.6,
+        "category_12": 7.4,
+        "category_13": 5.75,
+        "category_14": 7.71
+      },
+      "scenario_totals": {
+        "default": 6.1,
+        "equal_weight": 6.04,
+        "max_earnings": 5.53,
+        "best_lifestyle": 6.04,
+        "fastest_to_practice": 5.95,
+        "most_procedural": 6.08
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 22,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 20,
+        "prof_school_years": 1.5,
+        "trainee_salary": 0,
+        "education_debt": 40,
+        "loan_rate": 5.5,
+        "living_expenses": 42,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 23.5,
+        "starting_salary": 42,
+        "mid_salary": 60,
+        "peak_salary": 80,
+        "typical_peak": 70,
+        "malpractice_per_yr": 0
+      },
+      "stress": {
+        "ai": 8,
+        "pay": 6,
+        "injury": 5,
+        "match": 6
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          23.5
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 23.5,
+        "startSalary": 42
+      }
+    },
+    {
+      "name": "Marine Biologist",
+      "key": "marine_biologist",
+      "profession": "Applied Science",
+      "group": "field_earth_science",
+      "color": "#006064",
+      "path": "Applied Scientist (BS/MS)",
+      "raw_data": {
+        "startSalary": 42,
+        "midSalary": 62,
+        "peakSalary": 82,
+        "typicalPeak": 72,
+        "hoursWeek": 42,
+        "burnout": 25,
+        "satisfaction": 82,
+        "chooseAgain": 75,
+        "malpracticeCost": 0,
+        "vacation": 4,
+        "matchComp": 4,
+        "annualSpots": 2000,
+        "oneInX": 32,
+        "callSchedule": 2,
+        "physicalToll": 5,
+        "emotionalToll": 8,
+        "aiRiskNow": 1,
+        "aiRiskMedium": 2,
+        "aiRiskLong": 3,
+        "aiNarrative": "SCUBA diving on coral reefs, tagging sea turtles, and working on research vessels \u2014 this is the definition of hands-on work that AI cannot replace. AI helps analyze ocean data and satellite imagery, but the physical fieldwork in marine environments is uniquely human. Jobs are scarce but deeply rewarding."
+      },
+      "scores": {
+        "category_1": 6.5,
+        "category_2": 6.0,
+        "category_3": 5.67,
+        "category_4": 5.67,
+        "category_5": 5.14,
+        "category_6": 4.86,
+        "category_7": 4.6,
+        "category_8": 6.53,
+        "category_9": 6.24,
+        "category_10": 6.2,
+        "category_11": 5.6,
+        "category_12": 7.57,
+        "category_13": 5.75,
+        "category_14": 7.86
+      },
+      "scenario_totals": {
+        "default": 6.09,
+        "equal_weight": 6.03,
+        "max_earnings": 5.52,
+        "best_lifestyle": 6.04,
+        "fastest_to_practice": 5.91,
+        "most_procedural": 6.08
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 22,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 20,
+        "prof_school_years": 1.5,
+        "trainee_salary": 0,
+        "education_debt": 40,
+        "loan_rate": 5.5,
+        "living_expenses": 42,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 23.5,
+        "starting_salary": 42,
+        "mid_salary": 62,
+        "peak_salary": 82,
+        "typical_peak": 72,
+        "malpractice_per_yr": 0
+      },
+      "stress": {
+        "ai": 8,
+        "pay": 5,
+        "injury": 5,
+        "match": 6
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          23.5
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 23.5,
+        "startSalary": 42
+      }
+    },
+    {
+      "name": "Geologist",
+      "key": "geologist",
+      "profession": "Applied Science",
+      "group": "field_earth_science",
+      "color": "#89d820",
+      "path": "Applied Scientist (BS/MS)",
+      "raw_data": {
+        "startSalary": 52,
+        "midSalary": 75,
+        "peakSalary": 105,
+        "typicalPeak": 90,
+        "hoursWeek": 44,
+        "burnout": 23,
+        "satisfaction": 76,
+        "chooseAgain": 70,
+        "malpracticeCost": 0,
+        "vacation": 4,
+        "matchComp": 6,
+        "annualSpots": 7000,
+        "oneInX": 9,
+        "callSchedule": 2,
+        "physicalToll": 5,
+        "emotionalToll": 8,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 3,
+        "aiRiskLong": 4,
+        "aiNarrative": "Geology means hiking to outcrops, logging drill cores, and making judgment calls about what's underground based on limited data. AI helps with seismic interpretation and 3D modeling, but every site is geologically unique, and the fieldwork is impossible to automate. Oil/gas geologists earn significantly more than environmental geologists."
+      },
+      "scores": {
+        "category_1": 6.5,
+        "category_2": 6.67,
+        "category_3": 5.67,
+        "category_4": 5.67,
+        "category_5": 5.43,
+        "category_6": 4.86,
+        "category_7": 5.12,
+        "category_8": 6.42,
+        "category_9": 6.24,
+        "category_10": 6.6,
+        "category_11": 5.6,
+        "category_12": 7.03,
+        "category_13": 5.75,
+        "category_14": 7.71
+      },
+      "scenario_totals": {
+        "default": 6.19,
+        "equal_weight": 6.1,
+        "max_earnings": 5.72,
+        "best_lifestyle": 6.08,
+        "fastest_to_practice": 6.04,
+        "most_procedural": 6.07
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 22,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 20,
+        "prof_school_years": 1.5,
+        "trainee_salary": 0,
+        "education_debt": 40,
+        "loan_rate": 5.5,
+        "living_expenses": 42,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 23.5,
+        "starting_salary": 52,
+        "mid_salary": 75,
+        "peak_salary": 105,
+        "typical_peak": 90,
+        "malpractice_per_yr": 0
+      },
+      "stress": {
+        "ai": 8,
+        "pay": 6,
+        "injury": 5,
+        "match": 6
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          23.5
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 23.5,
+        "startSalary": 52
+      }
+    },
+    {
+      "name": "Meteorologist",
+      "key": "meteorologist",
+      "profession": "Applied Science",
+      "group": "field_earth_science",
+      "color": "#67d820",
+      "path": "Applied Scientist (BS/MS)",
+      "raw_data": {
+        "startSalary": 50,
+        "midSalary": 72,
+        "peakSalary": 100,
+        "typicalPeak": 85,
+        "hoursWeek": 40,
+        "burnout": 22,
+        "satisfaction": 76,
+        "chooseAgain": 70,
+        "malpracticeCost": 0,
+        "vacation": 4,
+        "matchComp": 5,
+        "annualSpots": 3500,
+        "oneInX": 19,
+        "callSchedule": 3,
+        "physicalToll": 8,
+        "emotionalToll": 8,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 4,
+        "aiRiskLong": 5,
+        "aiNarrative": "AI weather models (like Google DeepMind's GenCast) are getting impressively accurate, which means fewer meteorologists are needed for routine forecasting. But severe weather warnings, broadcast meteorology, and specialized consulting (aviation, energy, agriculture) still need human judgment and communication skills."
+      },
+      "scores": {
+        "category_1": 6.5,
+        "category_2": 6.33,
+        "category_3": 5.67,
+        "category_4": 6.0,
+        "category_5": 5.37,
+        "category_6": 4.86,
+        "category_7": 5.05,
+        "category_8": 5.9,
+        "category_9": 6.44,
+        "category_10": 6.6,
+        "category_11": 5.4,
+        "category_12": 7.03,
+        "category_13": 5.75,
+        "category_14": 8.57
+      },
+      "scenario_totals": {
+        "default": 6.18,
+        "equal_weight": 6.13,
+        "max_earnings": 5.69,
+        "best_lifestyle": 6.07,
+        "fastest_to_practice": 6.05,
+        "most_procedural": 5.98
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 22,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 20,
+        "prof_school_years": 1.5,
+        "trainee_salary": 0,
+        "education_debt": 40,
+        "loan_rate": 5.5,
+        "living_expenses": 42,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 23.5,
+        "starting_salary": 50,
+        "mid_salary": 72,
+        "peak_salary": 100,
+        "typical_peak": 85,
+        "malpractice_per_yr": 0
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 6,
+        "injury": 6,
+        "match": 6
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          23.5
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 23.5,
+        "startSalary": 50
+      }
+    },
+    {
+      "name": "Science Writer",
+      "key": "science_writer",
+      "profession": "Applied Science",
+      "group": "field_earth_science",
+      "color": "#46d820",
+      "path": "Applied Scientist (BS/MS)",
+      "raw_data": {
+        "startSalary": 42,
+        "midSalary": 62,
+        "peakSalary": 85,
+        "typicalPeak": 72,
+        "hoursWeek": 40,
+        "burnout": 20,
+        "satisfaction": 78,
+        "chooseAgain": 70,
+        "malpracticeCost": 0,
+        "vacation": 5,
+        "matchComp": 6,
+        "annualSpots": 5000,
+        "oneInX": 13,
+        "callSchedule": 1,
+        "physicalToll": 9,
+        "emotionalToll": 8,
+        "aiRiskNow": 3,
+        "aiRiskMedium": 5,
+        "aiRiskLong": 6,
+        "aiNarrative": "AI can generate passable science summaries and press releases, which is putting pressure on entry-level science writing. But truly excellent science journalism \u2014 investigative reporting, long-form features, and making complex research accessible \u2014 still needs a human who deeply understands both the science and the audience. The bar for entry is rising."
+      },
+      "scores": {
+        "category_1": 6.5,
+        "category_2": 6.67,
+        "category_3": 5.67,
+        "category_4": 5.33,
+        "category_5": 5.14,
+        "category_6": 5.29,
+        "category_7": 4.9,
+        "category_8": 5.9,
+        "category_9": 7.36,
+        "category_10": 7.2,
+        "category_11": 5.4,
+        "category_12": 7.27,
+        "category_13": 5.75,
+        "category_14": 8.86
+      },
+      "scenario_totals": {
+        "default": 6.3,
+        "equal_weight": 6.25,
+        "max_earnings": 5.73,
+        "best_lifestyle": 6.27,
+        "fastest_to_practice": 6.06,
+        "most_procedural": 6.12
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 22,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 20,
+        "prof_school_years": 1.5,
+        "trainee_salary": 0,
+        "education_debt": 40,
+        "loan_rate": 5.5,
+        "living_expenses": 42,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 23.5,
+        "starting_salary": 42,
+        "mid_salary": 62,
+        "peak_salary": 85,
+        "typical_peak": 72,
+        "malpractice_per_yr": 0
+      },
+      "stress": {
+        "ai": 4,
+        "pay": 8,
+        "injury": 7,
+        "match": 6
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          23.5
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 23.5,
+        "startSalary": 42
+      }
+    },
+    {
+      "name": "Museum Curator",
+      "key": "museum_curator",
+      "profession": "Applied Science",
+      "group": "field_earth_science",
+      "color": "#25d820",
+      "path": "Applied Scientist (BS/MS)",
+      "raw_data": {
+        "startSalary": 40,
+        "midSalary": 55,
+        "peakSalary": 75,
+        "typicalPeak": 65,
+        "hoursWeek": 40,
+        "burnout": 20,
+        "satisfaction": 82,
+        "chooseAgain": 74,
+        "malpracticeCost": 0,
+        "vacation": 4,
+        "matchComp": 3,
+        "annualSpots": 1000,
+        "oneInX": 65,
+        "callSchedule": 1,
+        "physicalToll": 7,
+        "emotionalToll": 9,
+        "aiRiskNow": 1,
+        "aiRiskMedium": 2,
+        "aiRiskLong": 3,
+        "aiNarrative": "Curation is deeply human \u2014 deciding which specimens to acquire, designing exhibits that tell a story, and preserving irreplaceable objects. AI can help with collections databases and digital exhibits, but the curatorial judgment, physical conservation work, and community engagement cannot be automated. Positions are rare and competitive."
+      },
+      "scores": {
+        "category_1": 6.5,
+        "category_2": 5.67,
+        "category_3": 5.67,
+        "category_4": 5.33,
+        "category_5": 5.04,
+        "category_6": 5.0,
+        "category_7": 4.78,
+        "category_8": 6.65,
+        "category_9": 6.72,
+        "category_10": 6.2,
+        "category_11": 5.6,
+        "category_12": 7.37,
+        "category_13": 5.75,
+        "category_14": 8.57
+      },
+      "scenario_totals": {
+        "default": 6.14,
+        "equal_weight": 6.08,
+        "max_earnings": 5.56,
+        "best_lifestyle": 6.11,
+        "fastest_to_practice": 5.86,
+        "most_procedural": 6.1
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 22,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 20,
+        "prof_school_years": 1.5,
+        "trainee_salary": 0,
+        "education_debt": 40,
+        "loan_rate": 5.5,
+        "living_expenses": 42,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 23.5,
+        "starting_salary": 40,
+        "mid_salary": 55,
+        "peak_salary": 75,
+        "typical_peak": 65,
+        "malpractice_per_yr": 0
+      },
+      "stress": {
+        "ai": 8,
+        "pay": 5,
+        "injury": 6,
+        "match": 7
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          23.5
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 23.5,
+        "startSalary": 40
+      }
+    },
+    {
+      "name": "School Counselor",
+      "key": "school_counselor",
+      "profession": "M.Ed",
+      "group": "student_support",
+      "color": "#2669b5",
+      "path": "M.Ed / Ed.D",
+      "raw_data": {
+        "startSalary": 45,
+        "midSalary": 60,
+        "peakSalary": 78,
+        "typicalPeak": 68,
+        "hoursWeek": 45,
+        "burnout": 42,
+        "satisfaction": 72,
+        "chooseAgain": 64,
+        "malpracticeCost": 0,
+        "vacation": 7,
+        "matchComp": 7,
+        "annualSpots": 12000,
+        "oneInX": 5,
+        "callSchedule": 6,
+        "physicalToll": 8,
+        "emotionalToll": 3,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 3,
+        "aiRiskLong": 4,
+        "aiNarrative": "AI chatbots and mental health screening tools can help identify at-risk students earlier, but the deeply personal nature of counseling \u2014 building trust with a scared teenager, navigating family crises, de-escalating emotional situations \u2014 requires human empathy that AI cannot replicate."
+      },
+      "scores": {
+        "category_1": 6.5,
+        "category_2": 6.67,
+        "category_3": 5.0,
+        "category_4": 6.33,
+        "category_5": 4.47,
+        "category_6": 5.71,
+        "category_7": 4.83,
+        "category_8": 6.88,
+        "category_9": 5.86,
+        "category_10": 7.2,
+        "category_11": 6.4,
+        "category_12": 6.53,
+        "category_13": 6.0,
+        "category_14": 8.14
+      },
+      "scenario_totals": {
+        "default": 6.22,
+        "equal_weight": 6.2,
+        "max_earnings": 5.62,
+        "best_lifestyle": 6.06,
+        "fastest_to_practice": 6.0,
+        "most_procedural": 6.22
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 20,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 25,
+        "prof_school_years": 2,
+        "trainee_salary": 0,
+        "education_debt": 55,
+        "loan_rate": 6,
+        "living_expenses": 45,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1.5,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 24,
+        "starting_salary": 45,
+        "mid_salary": 60,
+        "peak_salary": 78,
+        "typical_peak": 68,
+        "malpractice_per_yr": 0
+      },
+      "stress": {
+        "ai": 8,
+        "pay": 6,
+        "injury": 5,
+        "match": 4
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          24
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 24,
+        "startSalary": 45
+      }
+    },
+    {
+      "name": "School Psychologist",
+      "key": "school_psychologist",
+      "profession": "M.Ed",
+      "group": "student_support",
+      "color": "#1e4fca",
+      "path": "M.Ed / Ed.D",
+      "raw_data": {
+        "startSalary": 55,
+        "midSalary": 72,
+        "peakSalary": 95,
+        "typicalPeak": 82,
+        "hoursWeek": 45,
+        "burnout": 38,
+        "satisfaction": 75,
+        "chooseAgain": 68,
+        "malpracticeCost": 0,
+        "vacation": 7,
+        "matchComp": 6,
+        "annualSpots": 6000,
+        "oneInX": 9,
+        "callSchedule": 6,
+        "physicalToll": 8,
+        "emotionalToll": 4,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 3,
+        "aiRiskLong": 4,
+        "aiNarrative": "AI-assisted psychoeducational testing and scoring tools are speeding up report writing, but interpreting assessment results in context, diagnosing learning disabilities, and navigating the emotional dynamics of IEP meetings require human clinical judgment and interpersonal skill that AI cannot replace."
+      },
+      "scores": {
+        "category_1": 6.5,
+        "category_2": 6.33,
+        "category_3": 5.0,
+        "category_4": 6.33,
+        "category_5": 4.74,
+        "category_6": 5.86,
+        "category_7": 5.0,
+        "category_8": 7.12,
+        "category_9": 6.22,
+        "category_10": 7.4,
+        "category_11": 6.4,
+        "category_12": 7.1,
+        "category_13": 6.0,
+        "category_14": 8.14
+      },
+      "scenario_totals": {
+        "default": 6.36,
+        "equal_weight": 6.31,
+        "max_earnings": 5.8,
+        "best_lifestyle": 6.25,
+        "fastest_to_practice": 6.07,
+        "most_procedural": 6.41
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 20,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 25,
+        "prof_school_years": 2,
+        "trainee_salary": 0,
+        "education_debt": 55,
+        "loan_rate": 6,
+        "living_expenses": 45,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1.5,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 24,
+        "starting_salary": 55,
+        "mid_salary": 72,
+        "peak_salary": 95,
+        "typical_peak": 82,
+        "malpractice_per_yr": 0
+      },
+      "stress": {
+        "ai": 8,
+        "pay": 6,
+        "injury": 5,
+        "match": 5
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          24
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 24,
+        "startSalary": 55
+      }
+    },
+    {
+      "name": "Assistant Principal",
+      "key": "assistant_principal",
+      "profession": "M.Ed",
+      "group": "education_leadership",
+      "color": "#1b2bb5",
+      "path": "M.Ed / Ed.D",
+      "raw_data": {
+        "startSalary": 60,
+        "midSalary": 80,
+        "peakSalary": 105,
+        "typicalPeak": 90,
+        "hoursWeek": 50,
+        "burnout": 48,
+        "satisfaction": 66,
+        "chooseAgain": 57,
+        "malpracticeCost": 0,
+        "vacation": 5,
+        "matchComp": 7,
+        "annualSpots": 8000,
+        "oneInX": 7,
+        "callSchedule": 4,
+        "physicalToll": 8,
+        "emotionalToll": 4,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 3,
+        "aiRiskLong": 4,
+        "aiNarrative": "AI scheduling tools and student information systems are automating some administrative tasks like attendance tracking and discipline logging, but the core of the role \u2014 handling student crises, coaching teachers, and being the visible daily leader of a building \u2014 is fundamentally human work."
+      },
+      "scores": {
+        "category_1": 6.5,
+        "category_2": 6.67,
+        "category_3": 5.0,
+        "category_4": 5.67,
+        "category_5": 4.9,
+        "category_6": 5.57,
+        "category_7": 4.88,
+        "category_8": 7.1,
+        "category_9": 4.72,
+        "category_10": 7.2,
+        "category_11": 6.4,
+        "category_12": 6.27,
+        "category_13": 6.0,
+        "category_14": 8.14
+      },
+      "scenario_totals": {
+        "default": 6.08,
+        "equal_weight": 6.09,
+        "max_earnings": 5.62,
+        "best_lifestyle": 5.81,
+        "fastest_to_practice": 5.89,
+        "most_procedural": 6.14
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 20,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 25,
+        "prof_school_years": 2,
+        "trainee_salary": 0,
+        "education_debt": 55,
+        "loan_rate": 6,
+        "living_expenses": 45,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1.5,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 24,
+        "starting_salary": 60,
+        "mid_salary": 80,
+        "peak_salary": 105,
+        "typical_peak": 90,
+        "malpractice_per_yr": 0
+      },
+      "stress": {
+        "ai": 7,
+        "pay": 5,
+        "injury": 4,
+        "match": 4
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          24
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 24,
+        "startSalary": 60
+      }
+    },
+    {
+      "name": "Principal",
+      "key": "principal",
+      "profession": "M.Ed",
+      "group": "education_leadership",
+      "color": "#1565C0",
+      "path": "M.Ed / Ed.D",
+      "raw_data": {
+        "startSalary": 75,
+        "midSalary": 100,
+        "peakSalary": 135,
+        "typicalPeak": 115,
+        "hoursWeek": 55,
+        "burnout": 52,
+        "satisfaction": 68,
+        "chooseAgain": 58,
+        "malpracticeCost": 0,
+        "vacation": 5,
+        "matchComp": 6,
+        "annualSpots": 5000,
+        "oneInX": 11,
+        "callSchedule": 3,
+        "physicalToll": 8,
+        "emotionalToll": 3,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 3,
+        "aiRiskLong": 4,
+        "aiNarrative": "AI data dashboards can surface student performance trends and flag at-risk learners faster, but the principal's job is leading people \u2014 motivating a demoralized staff, making tough calls on expulsions, navigating school board politics, and being the face of a school community. That is deeply human work."
+      },
+      "scores": {
+        "category_1": 6.5,
+        "category_2": 6.33,
+        "category_3": 5.0,
+        "category_4": 5.33,
+        "category_5": 5.34,
+        "category_6": 5.57,
+        "category_7": 5.2,
+        "category_8": 7.1,
+        "category_9": 4.36,
+        "category_10": 7.0,
+        "category_11": 6.2,
+        "category_12": 6.7,
+        "category_13": 6.0,
+        "category_14": 7.86
+      },
+      "scenario_totals": {
+        "default": 6.08,
+        "equal_weight": 6.05,
+        "max_earnings": 5.73,
+        "best_lifestyle": 5.77,
+        "fastest_to_practice": 5.84,
+        "most_procedural": 6.16
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 20,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 25,
+        "prof_school_years": 2,
+        "trainee_salary": 0,
+        "education_debt": 55,
+        "loan_rate": 6,
+        "living_expenses": 45,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1.5,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 24,
+        "starting_salary": 75,
+        "mid_salary": 100,
+        "peak_salary": 135,
+        "typical_peak": 115,
+        "malpractice_per_yr": 0
+      },
+      "stress": {
+        "ai": 8,
+        "pay": 4,
+        "injury": 4,
+        "match": 5
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          24
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 24,
+        "startSalary": 75
+      }
+    },
+    {
+      "name": "Superintendent",
+      "key": "superintendent",
+      "profession": "M.Ed",
+      "group": "education_leadership",
+      "color": "#352aca",
+      "path": "M.Ed / Ed.D",
+      "raw_data": {
+        "startSalary": 120,
+        "midSalary": 170,
+        "peakSalary": 225,
+        "typicalPeak": 185,
+        "hoursWeek": 55,
+        "burnout": 55,
+        "satisfaction": 65,
+        "chooseAgain": 55,
+        "malpracticeCost": 0,
+        "vacation": 4,
+        "matchComp": 4,
+        "annualSpots": 2000,
+        "oneInX": 28,
+        "callSchedule": 3,
+        "physicalToll": 8,
+        "emotionalToll": 3,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 3,
+        "aiRiskLong": 4,
+        "aiNarrative": "AI analytics can help superintendents model budget scenarios and predict enrollment trends, but the role is fundamentally political \u2014 managing a school board, negotiating union contracts, handling media during crises, and casting a vision for an entire community. No AI can do that."
+      },
+      "scores": {
+        "category_1": 6.5,
+        "category_2": 5.67,
+        "category_3": 5.0,
+        "category_4": 5.33,
+        "category_5": 6.57,
+        "category_6": 5.57,
+        "category_7": 6.22,
+        "category_8": 6.6,
+        "category_9": 4.02,
+        "category_10": 6.8,
+        "category_11": 5.8,
+        "category_12": 6.5,
+        "category_13": 6.0,
+        "category_14": 7.86
+      },
+      "scenario_totals": {
+        "default": 6.15,
+        "equal_weight": 6.05,
+        "max_earnings": 6.12,
+        "best_lifestyle": 5.74,
+        "fastest_to_practice": 5.9,
+        "most_procedural": 6.06
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 20,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 25,
+        "prof_school_years": 2,
+        "trainee_salary": 0,
+        "education_debt": 55,
+        "loan_rate": 6,
+        "living_expenses": 45,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1.5,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 24,
+        "starting_salary": 120,
+        "mid_salary": 170,
+        "peak_salary": 225,
+        "typical_peak": 185,
+        "malpractice_per_yr": 0
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 4,
+        "injury": 5,
+        "match": 5
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          24
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 24,
+        "startSalary": 120
+      }
+    },
+    {
+      "name": "Curriculum Director",
+      "key": "curriculum_director",
+      "profession": "M.Ed",
+      "group": "education_leadership",
+      "color": "#421bb5",
+      "path": "M.Ed / Ed.D",
+      "raw_data": {
+        "startSalary": 65,
+        "midSalary": 85,
+        "peakSalary": 110,
+        "typicalPeak": 95,
+        "hoursWeek": 48,
+        "burnout": 35,
+        "satisfaction": 72,
+        "chooseAgain": 63,
+        "malpracticeCost": 0,
+        "vacation": 6,
+        "matchComp": 6,
+        "annualSpots": 4000,
+        "oneInX": 14,
+        "callSchedule": 7,
+        "physicalToll": 9,
+        "emotionalToll": 5,
+        "aiRiskNow": 3,
+        "aiRiskMedium": 4,
+        "aiRiskLong": 5,
+        "aiNarrative": "AI curriculum mapping tools and adaptive learning platforms are changing how content is sequenced and personalized, but deciding what students should learn, aligning standards across a district, and training teachers on new instructional approaches still requires deep pedagogical expertise and human leadership."
+      },
+      "scores": {
+        "category_1": 6.5,
+        "category_2": 6.33,
+        "category_3": 5.0,
+        "category_4": 6.67,
+        "category_5": 5.03,
+        "category_6": 5.71,
+        "category_7": 5.17,
+        "category_8": 6.72,
+        "category_9": 5.74,
+        "category_10": 7.0,
+        "category_11": 6.2,
+        "category_12": 6.5,
+        "category_13": 6.0,
+        "category_14": 8.86
+      },
+      "scenario_totals": {
+        "default": 6.3,
+        "equal_weight": 6.27,
+        "max_earnings": 5.8,
+        "best_lifestyle": 6.09,
+        "fastest_to_practice": 6.09,
+        "most_procedural": 6.21
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 20,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 25,
+        "prof_school_years": 2,
+        "trainee_salary": 0,
+        "education_debt": 55,
+        "loan_rate": 6,
+        "living_expenses": 45,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1.5,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 24,
+        "starting_salary": 65,
+        "mid_salary": 85,
+        "peak_salary": 110,
+        "typical_peak": 95,
+        "malpractice_per_yr": 0
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 5,
+        "injury": 6,
+        "match": 5
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          24
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 24,
+        "startSalary": 65
+      }
+    },
+    {
+      "name": "Instructional Coach",
+      "key": "instructional_coach",
+      "profession": "M.Ed",
+      "group": "education_leadership",
+      "color": "#681eca",
+      "path": "M.Ed / Ed.D",
+      "raw_data": {
+        "startSalary": 55,
+        "midSalary": 70,
+        "peakSalary": 90,
+        "typicalPeak": 78,
+        "hoursWeek": 45,
+        "burnout": 35,
+        "satisfaction": 75,
+        "chooseAgain": 66,
+        "malpracticeCost": 0,
+        "vacation": 7,
+        "matchComp": 7,
+        "annualSpots": 10000,
+        "oneInX": 6,
+        "callSchedule": 7,
+        "physicalToll": 8,
+        "emotionalToll": 5,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 3,
+        "aiRiskLong": 4,
+        "aiNarrative": "AI can provide teachers with automated feedback on lesson plans and student data analysis, but the nuanced work of coaching \u2014 observing a teacher's classroom presence, building trust for difficult feedback conversations, and modeling lessons in real time \u2014 is irreplaceably human."
+      },
+      "scores": {
+        "category_1": 6.5,
+        "category_2": 6.67,
+        "category_3": 5.0,
+        "category_4": 6.67,
+        "category_5": 4.73,
+        "category_6": 5.71,
+        "category_7": 4.95,
+        "category_8": 6.88,
+        "category_9": 6.12,
+        "category_10": 7.2,
+        "category_11": 6.4,
+        "category_12": 6.87,
+        "category_13": 6.0,
+        "category_14": 8.71
+      },
+      "scenario_totals": {
+        "default": 6.36,
+        "equal_weight": 6.34,
+        "max_earnings": 5.76,
+        "best_lifestyle": 6.21,
+        "fastest_to_practice": 6.14,
+        "most_procedural": 6.33
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 20,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 25,
+        "prof_school_years": 2,
+        "trainee_salary": 0,
+        "education_debt": 55,
+        "loan_rate": 6,
+        "living_expenses": 45,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1.5,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 24,
+        "starting_salary": 55,
+        "mid_salary": 70,
+        "peak_salary": 90,
+        "typical_peak": 78,
+        "malpractice_per_yr": 0
+      },
+      "stress": {
+        "ai": 7,
+        "pay": 6,
+        "injury": 5,
+        "match": 4
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          24
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 24,
+        "startSalary": 55
+      }
+    },
+    {
+      "name": "Education Policy Analyst",
+      "key": "education_policy_analyst",
+      "profession": "M.Ed",
+      "group": "education_leadership",
+      "color": "#7e26b5",
+      "path": "M.Ed / Ed.D",
+      "raw_data": {
+        "startSalary": 55,
+        "midSalary": 72,
+        "peakSalary": 95,
+        "typicalPeak": 82,
+        "hoursWeek": 45,
+        "burnout": 30,
+        "satisfaction": 70,
+        "chooseAgain": 60,
+        "malpracticeCost": 0,
+        "vacation": 6,
+        "matchComp": 5,
+        "annualSpots": 3000,
+        "oneInX": 18,
+        "callSchedule": 7,
+        "physicalToll": 9,
+        "emotionalToll": 6,
+        "aiRiskNow": 3,
+        "aiRiskMedium": 4,
+        "aiRiskLong": 5,
+        "aiNarrative": "AI can rapidly synthesize research and model policy outcomes, which will make analysts more productive, but interpreting political feasibility, understanding stakeholder dynamics, and crafting persuasive policy recommendations still require human judgment and communication skills."
+      },
+      "scores": {
+        "category_1": 6.5,
+        "category_2": 6.0,
+        "category_3": 5.0,
+        "category_4": 6.67,
+        "category_5": 4.74,
+        "category_6": 5.86,
+        "category_7": 5.25,
+        "category_8": 6.62,
+        "category_9": 6.24,
+        "category_10": 6.8,
+        "category_11": 6.2,
+        "category_12": 6.33,
+        "category_13": 6.0,
+        "category_14": 9.0
+      },
+      "scenario_totals": {
+        "default": 6.3,
+        "equal_weight": 6.25,
+        "max_earnings": 5.76,
+        "best_lifestyle": 6.13,
+        "fastest_to_practice": 6.03,
+        "most_procedural": 6.18
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 20,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 25,
+        "prof_school_years": 2,
+        "trainee_salary": 0,
+        "education_debt": 55,
+        "loan_rate": 6,
+        "living_expenses": 45,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1.5,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 24,
+        "starting_salary": 55,
+        "mid_salary": 72,
+        "peak_salary": 95,
+        "typical_peak": 82,
+        "malpractice_per_yr": 0
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 5,
+        "injury": 6,
+        "match": 5
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          24
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 24,
+        "startSalary": 55
+      }
+    },
+    {
+      "name": "Ed Tech Director",
+      "key": "ed_tech_director",
+      "profession": "M.Ed",
+      "group": "education_leadership",
+      "color": "#a61eca",
+      "path": "M.Ed / Ed.D",
+      "raw_data": {
+        "startSalary": 70,
+        "midSalary": 95,
+        "peakSalary": 130,
+        "typicalPeak": 110,
+        "hoursWeek": 48,
+        "burnout": 38,
+        "satisfaction": 72,
+        "chooseAgain": 64,
+        "malpracticeCost": 0,
+        "vacation": 5,
+        "matchComp": 5,
+        "annualSpots": 3500,
+        "oneInX": 16,
+        "callSchedule": 4,
+        "physicalToll": 9,
+        "emotionalToll": 5,
+        "aiRiskNow": 3,
+        "aiRiskMedium": 4,
+        "aiRiskLong": 5,
+        "aiNarrative": "Ironically, the ed tech director is both empowered and threatened by AI \u2014 they need to evaluate and deploy AI learning tools across the district, but AI could also automate some of their infrastructure management. The strategic and vendor management aspects of the role remain human-driven."
+      },
+      "scores": {
+        "category_1": 6.5,
+        "category_2": 6.0,
+        "category_3": 5.0,
+        "category_4": 5.67,
+        "category_5": 5.2,
+        "category_6": 5.71,
+        "category_7": 5.15,
+        "category_8": 6.72,
+        "category_9": 5.38,
+        "category_10": 7.0,
+        "category_11": 6.4,
+        "category_12": 6.7,
+        "category_13": 6.0,
+        "category_14": 8.86
+      },
+      "scenario_totals": {
+        "default": 6.21,
+        "equal_weight": 6.19,
+        "max_earnings": 5.77,
+        "best_lifestyle": 5.96,
+        "fastest_to_practice": 5.92,
+        "most_procedural": 6.18
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 20,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 25,
+        "prof_school_years": 2,
+        "trainee_salary": 0,
+        "education_debt": 55,
+        "loan_rate": 6,
+        "living_expenses": 45,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1.5,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 24,
+        "starting_salary": 70,
+        "mid_salary": 95,
+        "peak_salary": 130,
+        "typical_peak": 110,
+        "malpractice_per_yr": 0
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 5,
+        "injury": 5,
+        "match": 5
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          24
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 24,
+        "startSalary": 70
+      }
+    },
+    {
+      "name": "College Admissions Director",
+      "key": "college_admissions_direc",
+      "profession": "M.Ed",
+      "group": "education_leadership",
+      "color": "#b11bb5",
+      "path": "M.Ed / Ed.D",
+      "raw_data": {
+        "startSalary": 55,
+        "midSalary": 75,
+        "peakSalary": 100,
+        "typicalPeak": 85,
+        "hoursWeek": 48,
+        "burnout": 40,
+        "satisfaction": 68,
+        "chooseAgain": 58,
+        "malpracticeCost": 0,
+        "vacation": 5,
+        "matchComp": 5,
+        "annualSpots": 2500,
+        "oneInX": 22,
+        "callSchedule": 5,
+        "physicalToll": 8,
+        "emotionalToll": 4,
+        "aiRiskNow": 3,
+        "aiRiskMedium": 4,
+        "aiRiskLong": 5,
+        "aiNarrative": "AI application readers and predictive enrollment models are already transforming admissions offices, reducing time spent on initial file review. But holistic admissions decisions, recruiting strategy, and the deeply relational work of connecting with families and high school counselors still requires human judgment."
+      },
+      "scores": {
+        "category_1": 6.5,
+        "category_2": 6.0,
+        "category_3": 5.0,
+        "category_4": 6.0,
+        "category_5": 4.77,
+        "category_6": 5.57,
+        "category_7": 5.05,
+        "category_8": 6.97,
+        "category_9": 5.1,
+        "category_10": 6.8,
+        "category_11": 6.4,
+        "category_12": 5.87,
+        "category_13": 6.0,
+        "category_14": 8.43
+      },
+      "scenario_totals": {
+        "default": 6.06,
+        "equal_weight": 6.06,
+        "max_earnings": 5.6,
+        "best_lifestyle": 5.81,
+        "fastest_to_practice": 5.83,
+        "most_procedural": 6.04
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 20,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 25,
+        "prof_school_years": 2,
+        "trainee_salary": 0,
+        "education_debt": 55,
+        "loan_rate": 6,
+        "living_expenses": 45,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1.5,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 24,
+        "starting_salary": 55,
+        "mid_salary": 75,
+        "peak_salary": 100,
+        "typical_peak": 85,
+        "malpractice_per_yr": 0
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 4,
+        "injury": 5,
+        "match": 5
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          24
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 24,
+        "startSalary": 55
+      }
+    },
+    {
+      "name": "Dean of Students",
+      "key": "dean_of_students",
+      "profession": "M.Ed",
+      "group": "education_leadership",
+      "color": "#ca2ab1",
+      "path": "M.Ed / Ed.D",
+      "raw_data": {
+        "startSalary": 60,
+        "midSalary": 80,
+        "peakSalary": 105,
+        "typicalPeak": 90,
+        "hoursWeek": 50,
+        "burnout": 45,
+        "satisfaction": 70,
+        "chooseAgain": 60,
+        "malpracticeCost": 0,
+        "vacation": 5,
+        "matchComp": 5,
+        "annualSpots": 3000,
+        "oneInX": 18,
+        "callSchedule": 4,
+        "physicalToll": 8,
+        "emotionalToll": 3,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 3,
+        "aiRiskLong": 4,
+        "aiNarrative": "AI early warning systems can flag students in academic or behavioral trouble, but the dean's role is fundamentally about human connection \u2014 mediating conflicts, supporting students through crises, enforcing conduct standards with empathy, and shaping campus culture. These are irreplaceable human skills."
+      },
+      "scores": {
+        "category_1": 6.5,
+        "category_2": 6.0,
+        "category_3": 5.0,
+        "category_4": 5.67,
+        "category_5": 4.9,
+        "category_6": 5.57,
+        "category_7": 5.12,
+        "category_8": 7.1,
+        "category_9": 4.82,
+        "category_10": 7.0,
+        "category_11": 6.2,
+        "category_12": 6.67,
+        "category_13": 6.0,
+        "category_14": 8.14
+      },
+      "scenario_totals": {
+        "default": 6.08,
+        "equal_weight": 6.07,
+        "max_earnings": 5.66,
+        "best_lifestyle": 5.83,
+        "fastest_to_practice": 5.83,
+        "most_procedural": 6.16
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 20,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 25,
+        "prof_school_years": 2,
+        "trainee_salary": 0,
+        "education_debt": 55,
+        "loan_rate": 6,
+        "living_expenses": 45,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1.5,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 24,
+        "starting_salary": 60,
+        "mid_salary": 80,
+        "peak_salary": 105,
+        "typical_peak": 90,
+        "malpractice_per_yr": 0
+      },
+      "stress": {
+        "ai": 8,
+        "pay": 5,
+        "injury": 4,
+        "match": 5
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          24
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 24,
+        "startSalary": 60
+      }
+    },
+    {
+      "name": "Provost",
+      "key": "provost",
+      "profession": "M.Ed",
+      "group": "education_leadership",
+      "color": "#b51b82",
+      "path": "M.Ed / Ed.D",
+      "raw_data": {
+        "startSalary": 100,
+        "midSalary": 150,
+        "peakSalary": 200,
+        "typicalPeak": 170,
+        "hoursWeek": 55,
+        "burnout": 42,
+        "satisfaction": 72,
+        "chooseAgain": 62,
+        "malpracticeCost": 0,
+        "vacation": 4,
+        "matchComp": 2,
+        "annualSpots": 500,
+        "oneInX": 110,
+        "callSchedule": 5,
+        "physicalToll": 9,
+        "emotionalToll": 4,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 3,
+        "aiRiskLong": 4,
+        "aiNarrative": "AI tools for enrollment prediction, program evaluation, and academic analytics will be useful instruments in the provost's toolkit, but the role is about institutional vision \u2014 balancing competing academic priorities, managing faculty governance, and making strategic decisions about which programs to grow or cut. This is leadership AI cannot perform."
+      },
+      "scores": {
+        "category_1": 6.5,
+        "category_2": 5.0,
+        "category_3": 5.0,
+        "category_4": 6.0,
+        "category_5": 6.21,
+        "category_6": 5.57,
+        "category_7": 5.95,
+        "category_8": 6.6,
+        "category_9": 4.48,
+        "category_10": 6.6,
+        "category_11": 5.8,
+        "category_12": 6.97,
+        "category_13": 6.0,
+        "category_14": 8.43
+      },
+      "scenario_totals": {
+        "default": 6.19,
+        "equal_weight": 6.1,
+        "max_earnings": 6.04,
+        "best_lifestyle": 5.85,
+        "fastest_to_practice": 5.92,
+        "most_procedural": 6.13
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 20,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 25,
+        "prof_school_years": 2,
+        "trainee_salary": 0,
+        "education_debt": 55,
+        "loan_rate": 6,
+        "living_expenses": 45,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1.5,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 24,
+        "starting_salary": 100,
+        "mid_salary": 150,
+        "peak_salary": 200,
+        "typical_peak": 170,
+        "malpractice_per_yr": 0
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 4,
+        "injury": 5,
+        "match": 6
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          24
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 24,
+        "startSalary": 100
+      }
+    },
+    {
+      "name": "Biology Professor",
+      "key": "biology_professor",
+      "profession": "Research PhD",
+      "group": "stem_professors",
+      "color": "#9535a5",
+      "path": "Research PhD",
+      "raw_data": {
+        "startSalary": 65,
+        "midSalary": 95,
+        "peakSalary": 130,
+        "typicalPeak": 110,
+        "hoursWeek": 52,
+        "burnout": 35,
+        "satisfaction": 76,
+        "chooseAgain": 68,
+        "malpracticeCost": 0,
+        "vacation": 8,
+        "matchComp": 5,
+        "annualSpots": 1200,
+        "oneInX": 23,
+        "callSchedule": 3,
+        "physicalToll": 8,
+        "emotionalToll": 6,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 3,
+        "aiRiskLong": 4,
+        "aiNarrative": "AI accelerates genomics, bioinformatics, and image analysis but cannot replace the wet-lab experimental design, organism-level thinking, and mentorship that define biology professorships. You still need someone to ask the right questions and interpret surprising results."
+      },
+      "scores": {
+        "category_1": 4.75,
+        "category_2": 4.0,
+        "category_3": 3.67,
+        "category_4": 3.0,
+        "category_5": 5.13,
+        "category_6": 6.0,
+        "category_7": 5.9,
+        "category_8": 6.5,
+        "category_9": 6.28,
+        "category_10": 5.2,
+        "category_11": 5.4,
+        "category_12": 7.3,
+        "category_13": 5.25,
+        "category_14": 8.71
+      },
+      "scenario_totals": {
+        "default": 5.7,
+        "equal_weight": 5.54,
+        "max_earnings": 5.53,
+        "best_lifestyle": 5.62,
+        "fastest_to_practice": 4.85,
+        "most_procedural": 5.79
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 22,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 5,
+        "trainee_salary": 32,
+        "education_debt": 30,
+        "loan_rate": 5.5,
+        "living_expenses": 42,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 2,
+        "fellowship_years": 2,
+        "age_independent": 31,
+        "starting_salary": 65,
+        "mid_salary": 95,
+        "peak_salary": 130,
+        "typical_peak": 110,
+        "malpractice_per_yr": 0
+      },
+      "stress": {
+        "ai": 7,
+        "pay": 5,
+        "injury": 5,
+        "match": 3
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          27
+        ],
+        "residency": [
+          27,
+          29
+        ],
+        "fellowship": [
+          29,
+          31
+        ],
+        "earnAge": 31,
+        "startSalary": 65
+      }
+    },
+    {
+      "name": "Chemistry Professor",
+      "key": "chemistry_professor",
+      "profession": "Research PhD",
+      "group": "stem_professors",
+      "color": "#ba29b5",
+      "path": "Research PhD",
+      "raw_data": {
+        "startSalary": 70,
+        "midSalary": 100,
+        "peakSalary": 140,
+        "typicalPeak": 120,
+        "hoursWeek": 52,
+        "burnout": 34,
+        "satisfaction": 75,
+        "chooseAgain": 68,
+        "malpracticeCost": 0,
+        "vacation": 8,
+        "matchComp": 4,
+        "annualSpots": 900,
+        "oneInX": 31,
+        "callSchedule": 3,
+        "physicalToll": 8,
+        "emotionalToll": 6,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 3,
+        "aiRiskLong": 4,
+        "aiNarrative": "AI helps with molecular modeling and reaction prediction, but synthesis is fundamentally hands-on. You can't computationally create a new molecule \u2014 someone has to stand at the fume hood. Chemistry professors who embrace computational tools alongside wet chemistry will thrive."
+      },
+      "scores": {
+        "category_1": 4.75,
+        "category_2": 3.67,
+        "category_3": 3.67,
+        "category_4": 3.0,
+        "category_5": 5.26,
+        "category_6": 6.0,
+        "category_7": 6.0,
+        "category_8": 6.5,
+        "category_9": 6.32,
+        "category_10": 5.0,
+        "category_11": 5.6,
+        "category_12": 7.1,
+        "category_13": 5.25,
+        "category_14": 8.71
+      },
+      "scenario_totals": {
+        "default": 5.69,
+        "equal_weight": 5.52,
+        "max_earnings": 5.55,
+        "best_lifestyle": 5.61,
+        "fastest_to_practice": 4.82,
+        "most_procedural": 5.76
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 22,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 5,
+        "trainee_salary": 32,
+        "education_debt": 30,
+        "loan_rate": 5.5,
+        "living_expenses": 42,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 2,
+        "fellowship_years": 2,
+        "age_independent": 31,
+        "starting_salary": 70,
+        "mid_salary": 100,
+        "peak_salary": 140,
+        "typical_peak": 120,
+        "malpractice_per_yr": 0
+      },
+      "stress": {
+        "ai": 8,
+        "pay": 5,
+        "injury": 5,
+        "match": 3
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          27
+        ],
+        "residency": [
+          27,
+          29
+        ],
+        "fellowship": [
+          29,
+          31
+        ],
+        "earnAge": 31,
+        "startSalary": 70
+      }
+    },
+    {
+      "name": "Physics Professor",
+      "key": "physics_professor",
+      "profession": "Research PhD",
+      "group": "stem_professors",
+      "color": "#a51887",
+      "path": "Research PhD",
+      "raw_data": {
+        "startSalary": 72,
+        "midSalary": 105,
+        "peakSalary": 145,
+        "typicalPeak": 125,
+        "hoursWeek": 54,
+        "burnout": 36,
+        "satisfaction": 78,
+        "chooseAgain": 70,
+        "malpracticeCost": 0,
+        "vacation": 8,
+        "matchComp": 4,
+        "annualSpots": 700,
+        "oneInX": 40,
+        "callSchedule": 3,
+        "physicalToll": 9,
+        "emotionalToll": 6,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 3,
+        "aiRiskLong": 4,
+        "aiNarrative": "Physics professors push the boundaries of fundamental knowledge \u2014 AI helps with simulation and data analysis (especially in particle physics and astrophysics), but the creative theoretical leaps and experimental design remain deeply human. The field's rigor actually makes it resistant to shallow AI substitution."
+      },
+      "scores": {
+        "category_1": 4.75,
+        "category_2": 3.67,
+        "category_3": 3.67,
+        "category_4": 3.0,
+        "category_5": 5.33,
+        "category_6": 6.0,
+        "category_7": 6.33,
+        "category_8": 6.15,
+        "category_9": 5.96,
+        "category_10": 5.0,
+        "category_11": 5.0,
+        "category_12": 7.6,
+        "category_13": 5.25,
+        "category_14": 9.0
+      },
+      "scenario_totals": {
+        "default": 5.69,
+        "equal_weight": 5.51,
+        "max_earnings": 5.61,
+        "best_lifestyle": 5.55,
+        "fastest_to_practice": 4.83,
+        "most_procedural": 5.74
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 22,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 5,
+        "trainee_salary": 32,
+        "education_debt": 30,
+        "loan_rate": 5.5,
+        "living_expenses": 42,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 2,
+        "fellowship_years": 2,
+        "age_independent": 31,
+        "starting_salary": 72,
+        "mid_salary": 105,
+        "peak_salary": 145,
+        "typical_peak": 125,
+        "malpractice_per_yr": 0
+      },
+      "stress": {
+        "ai": 7,
+        "pay": 5,
+        "injury": 6,
+        "match": 3
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          27
+        ],
+        "residency": [
+          27,
+          29
+        ],
+        "fellowship": [
+          29,
+          31
+        ],
+        "earnAge": 31,
+        "startSalary": 72
+      }
+    },
+    {
+      "name": "Computer Science Professor",
+      "key": "cs_professor",
+      "profession": "Research PhD",
+      "group": "stem_professors",
+      "color": "#6A1B9A",
+      "path": "Research PhD",
+      "raw_data": {
+        "startSalary": 105,
+        "midSalary": 155,
+        "peakSalary": 220,
+        "typicalPeak": 180,
+        "hoursWeek": 53,
+        "burnout": 38,
+        "satisfaction": 82,
+        "chooseAgain": 75,
+        "malpracticeCost": 0,
+        "vacation": 7,
+        "matchComp": 6,
+        "annualSpots": 2000,
+        "oneInX": 14,
+        "callSchedule": 3,
+        "physicalToll": 9,
+        "emotionalToll": 5,
+        "aiRiskNow": 3,
+        "aiRiskMedium": 4,
+        "aiRiskLong": 5,
+        "aiNarrative": "CS professors are at the epicenter of the AI revolution \u2014 many are building the tools themselves. The field evolves so fast that staying current is exhausting, but it also means constant demand for people who can teach and research the next thing. Industry consulting creates a lucrative safety net."
+      },
+      "scores": {
+        "category_1": 4.75,
+        "category_2": 4.33,
+        "category_3": 3.67,
+        "category_4": 3.0,
+        "category_5": 6.36,
+        "category_6": 6.14,
+        "category_7": 6.9,
+        "category_8": 6.2,
+        "category_9": 5.88,
+        "category_10": 5.4,
+        "category_11": 5.0,
+        "category_12": 8.23,
+        "category_13": 5.25,
+        "category_14": 8.86
+      },
+      "scenario_totals": {
+        "default": 5.98,
+        "equal_weight": 5.74,
+        "max_earnings": 6.05,
+        "best_lifestyle": 5.79,
+        "fastest_to_practice": 5.11,
+        "most_procedural": 5.99
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 22,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 5,
+        "trainee_salary": 32,
+        "education_debt": 30,
+        "loan_rate": 5.5,
+        "living_expenses": 42,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 2,
+        "fellowship_years": 1,
+        "age_independent": 30,
+        "starting_salary": 105,
+        "mid_salary": 155,
+        "peak_salary": 220,
+        "typical_peak": 180,
+        "malpractice_per_yr": 0
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 6,
+        "injury": 6,
+        "match": 3
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          27
+        ],
+        "residency": [
+          27,
+          29
+        ],
+        "fellowship": [
+          29,
+          30
+        ],
+        "earnAge": 30,
+        "startSalary": 105
+      }
+    },
+    {
+      "name": "Mathematics Professor",
+      "key": "mathematics_professor",
+      "profession": "Research PhD",
+      "group": "stem_professors",
+      "color": "#ba3b88",
+      "path": "Research PhD",
+      "raw_data": {
+        "startSalary": 70,
+        "midSalary": 100,
+        "peakSalary": 140,
+        "typicalPeak": 120,
+        "hoursWeek": 50,
+        "burnout": 32,
+        "satisfaction": 78,
+        "chooseAgain": 72,
+        "malpracticeCost": 0,
+        "vacation": 9,
+        "matchComp": 4,
+        "annualSpots": 800,
+        "oneInX": 35,
+        "callSchedule": 2,
+        "physicalToll": 9,
+        "emotionalToll": 6,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 3,
+        "aiRiskLong": 5,
+        "aiNarrative": "AI proof assistants (Lean, Coq) are changing how math is verified, and AI can conjecture patterns, but true mathematical creativity \u2014 crafting elegant proofs and identifying deep structural connections \u2014 remains deeply human. Teaching mathematical thinking is also hard to automate."
+      },
+      "scores": {
+        "category_1": 4.75,
+        "category_2": 3.67,
+        "category_3": 3.67,
+        "category_4": 2.67,
+        "category_5": 5.26,
+        "category_6": 6.0,
+        "category_7": 6.25,
+        "category_8": 5.85,
+        "category_9": 6.46,
+        "category_10": 5.2,
+        "category_11": 4.8,
+        "category_12": 7.5,
+        "category_13": 5.25,
+        "category_14": 9.0
+      },
+      "scenario_totals": {
+        "default": 5.66,
+        "equal_weight": 5.49,
+        "max_earnings": 5.57,
+        "best_lifestyle": 5.57,
+        "fastest_to_practice": 4.79,
+        "most_procedural": 5.67
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 22,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 5,
+        "trainee_salary": 32,
+        "education_debt": 30,
+        "loan_rate": 5.5,
+        "living_expenses": 42,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 2,
+        "fellowship_years": 2,
+        "age_independent": 31,
+        "starting_salary": 70,
+        "mid_salary": 100,
+        "peak_salary": 140,
+        "typical_peak": 120,
+        "malpractice_per_yr": 0
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 6,
+        "injury": 6,
+        "match": 3
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          27
+        ],
+        "residency": [
+          27,
+          29
+        ],
+        "fellowship": [
+          29,
+          31
+        ],
+        "earnAge": 31,
+        "startSalary": 70
+      }
+    },
+    {
+      "name": "Neuroscience Professor",
+      "key": "neuroscience_professor",
+      "profession": "Research PhD",
+      "group": "stem_professors",
+      "color": "#a5245b",
+      "path": "Research PhD",
+      "raw_data": {
+        "startSalary": 68,
+        "midSalary": 98,
+        "peakSalary": 135,
+        "typicalPeak": 115,
+        "hoursWeek": 53,
+        "burnout": 36,
+        "satisfaction": 77,
+        "chooseAgain": 69,
+        "malpracticeCost": 0,
+        "vacation": 7,
+        "matchComp": 3,
+        "annualSpots": 600,
+        "oneInX": 47,
+        "callSchedule": 3,
+        "physicalToll": 8,
+        "emotionalToll": 6,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 3,
+        "aiRiskLong": 4,
+        "aiNarrative": "Neuroscience sits at the frontier of understanding consciousness and brain function \u2014 areas where AI is a tool, not a replacement. AI helps analyze neural imaging data and model circuits, but designing experiments to probe the brain's deepest mysteries requires human intuition and creativity."
+      },
+      "scores": {
+        "category_1": 4.75,
+        "category_2": 3.33,
+        "category_3": 3.67,
+        "category_4": 3.0,
+        "category_5": 5.2,
+        "category_6": 6.0,
+        "category_7": 5.95,
+        "category_8": 6.45,
+        "category_9": 5.94,
+        "category_10": 5.0,
+        "category_11": 5.4,
+        "category_12": 7.7,
+        "category_13": 5.25,
+        "category_14": 8.71
+      },
+      "scenario_totals": {
+        "default": 5.65,
+        "equal_weight": 5.48,
+        "max_earnings": 5.52,
+        "best_lifestyle": 5.55,
+        "fastest_to_practice": 4.77,
+        "most_procedural": 5.79
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 22,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 5,
+        "trainee_salary": 32,
+        "education_debt": 30,
+        "loan_rate": 5.5,
+        "living_expenses": 42,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 2,
+        "fellowship_years": 2,
+        "age_independent": 31,
+        "starting_salary": 68,
+        "mid_salary": 98,
+        "peak_salary": 135,
+        "typical_peak": 115,
+        "malpractice_per_yr": 0
+      },
+      "stress": {
+        "ai": 7,
+        "pay": 5,
+        "injury": 5,
+        "match": 4
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          27
+        ],
+        "residency": [
+          27,
+          29
+        ],
+        "fellowship": [
+          29,
+          31
+        ],
+        "earnAge": 31,
+        "startSalary": 68
+      }
+    },
+    {
+      "name": "Environmental Science Professor",
+      "key": "environmental_science_pr",
+      "profession": "Research PhD",
+      "group": "stem_professors",
+      "color": "#ba1b42",
+      "path": "Research PhD",
+      "raw_data": {
+        "startSalary": 62,
+        "midSalary": 88,
+        "peakSalary": 120,
+        "typicalPeak": 102,
+        "hoursWeek": 50,
+        "burnout": 33,
+        "satisfaction": 79,
+        "chooseAgain": 72,
+        "malpracticeCost": 0,
+        "vacation": 8,
+        "matchComp": 3,
+        "annualSpots": 500,
+        "oneInX": 56,
+        "callSchedule": 3,
+        "physicalToll": 8,
+        "emotionalToll": 6,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 3,
+        "aiRiskLong": 4,
+        "aiNarrative": "Environmental science combines field work, lab analysis, and policy \u2014 a mix that is hard to automate. AI helps with remote sensing and climate modeling, but someone still needs to collect soil samples, design field studies, and translate science into actionable policy."
+      },
+      "scores": {
+        "category_1": 4.75,
+        "category_2": 3.33,
+        "category_3": 3.67,
+        "category_4": 3.0,
+        "category_5": 5.0,
+        "category_6": 6.0,
+        "category_7": 5.8,
+        "category_8": 6.6,
+        "category_9": 6.44,
+        "category_10": 5.2,
+        "category_11": 5.2,
+        "category_12": 7.87,
+        "category_13": 5.25,
+        "category_14": 8.71
+      },
+      "scenario_totals": {
+        "default": 5.68,
+        "equal_weight": 5.52,
+        "max_earnings": 5.49,
+        "best_lifestyle": 5.66,
+        "fastest_to_practice": 4.78,
+        "most_procedural": 5.85
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 22,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 5,
+        "trainee_salary": 32,
+        "education_debt": 30,
+        "loan_rate": 5.5,
+        "living_expenses": 42,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 2,
+        "fellowship_years": 2,
+        "age_independent": 31,
+        "starting_salary": 62,
+        "mid_salary": 88,
+        "peak_salary": 120,
+        "typical_peak": 102,
+        "malpractice_per_yr": 0
+      },
+      "stress": {
+        "ai": 8,
+        "pay": 6,
+        "injury": 5,
+        "match": 4
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          27
+        ],
+        "residency": [
+          27,
+          29
+        ],
+        "fellowship": [
+          29,
+          31
+        ],
+        "earnAge": 31,
+        "startSalary": 62
+      }
+    },
+    {
+      "name": "Astronomy Professor",
+      "key": "astronomy_professor",
+      "profession": "Research PhD",
+      "group": "stem_professors",
+      "color": "#a5353c",
+      "path": "Research PhD",
+      "raw_data": {
+        "startSalary": 68,
+        "midSalary": 95,
+        "peakSalary": 130,
+        "typicalPeak": 110,
+        "hoursWeek": 52,
+        "burnout": 34,
+        "satisfaction": 80,
+        "chooseAgain": 72,
+        "malpracticeCost": 0,
+        "vacation": 8,
+        "matchComp": 2,
+        "annualSpots": 200,
+        "oneInX": 140,
+        "callSchedule": 3,
+        "physicalToll": 9,
+        "emotionalToll": 6,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 4,
+        "aiRiskLong": 5,
+        "aiNarrative": "AI is transforming astronomy \u2014 machine learning sifts through vast datasets from telescopes like JWST and Rubin Observatory. But identifying which questions to ask, designing observing programs, and interpreting what the universe is telling us remains deeply human. Extremely competitive with very few tenure-track slots."
+      },
+      "scores": {
+        "category_1": 4.75,
+        "category_2": 3.0,
+        "category_3": 3.67,
+        "category_4": 3.0,
+        "category_5": 5.17,
+        "category_6": 6.0,
+        "category_7": 6.15,
+        "category_8": 6.25,
+        "category_9": 6.12,
+        "category_10": 5.0,
+        "category_11": 5.0,
+        "category_12": 7.57,
+        "category_13": 5.25,
+        "category_14": 9.0
+      },
+      "scenario_totals": {
+        "default": 5.63,
+        "equal_weight": 5.46,
+        "max_earnings": 5.53,
+        "best_lifestyle": 5.53,
+        "fastest_to_practice": 4.73,
+        "most_procedural": 5.72
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 22,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 5,
+        "trainee_salary": 32,
+        "education_debt": 30,
+        "loan_rate": 5.5,
+        "living_expenses": 42,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 2,
+        "fellowship_years": 2,
+        "age_independent": 31,
+        "starting_salary": 68,
+        "mid_salary": 95,
+        "peak_salary": 130,
+        "typical_peak": 110,
+        "malpractice_per_yr": 0
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 5,
+        "injury": 6,
+        "match": 4
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          27
+        ],
+        "residency": [
+          27,
+          29
+        ],
+        "fellowship": [
+          29,
+          31
+        ],
+        "earnAge": 31,
+        "startSalary": 68
+      }
+    },
+    {
+      "name": "Psychology Professor",
+      "key": "psychology_professor",
+      "profession": "Research PhD",
+      "group": "humanities_social",
+      "color": "#ba3929",
+      "path": "Research PhD",
+      "raw_data": {
+        "startSalary": 65,
+        "midSalary": 90,
+        "peakSalary": 125,
+        "typicalPeak": 105,
+        "hoursWeek": 50,
+        "burnout": 35,
+        "satisfaction": 76,
+        "chooseAgain": 68,
+        "malpracticeCost": 0,
+        "vacation": 8,
+        "matchComp": 4,
+        "annualSpots": 1000,
+        "oneInX": 28,
+        "callSchedule": 3,
+        "physicalToll": 9,
+        "emotionalToll": 6,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 3,
+        "aiRiskLong": 4,
+        "aiNarrative": "Psychology research involves understanding human behavior through experiments that require IRB approval, subject interaction, and nuanced interpretation. AI helps with data analysis and literature review, but designing studies about the human mind requires a human mind. The replication crisis has actually increased demand for rigorous researchers."
+      },
+      "scores": {
+        "category_1": 4.75,
+        "category_2": 3.67,
+        "category_3": 3.67,
+        "category_4": 3.0,
+        "category_5": 5.09,
+        "category_6": 6.0,
+        "category_7": 5.85,
+        "category_8": 6.35,
+        "category_9": 6.36,
+        "category_10": 5.2,
+        "category_11": 5.0,
+        "category_12": 7.47,
+        "category_13": 5.25,
+        "category_14": 9.0
+      },
+      "scenario_totals": {
+        "default": 5.66,
+        "equal_weight": 5.51,
+        "max_earnings": 5.49,
+        "best_lifestyle": 5.6,
+        "fastest_to_practice": 4.81,
+        "most_procedural": 5.76
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 22,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 5,
+        "trainee_salary": 32,
+        "education_debt": 30,
+        "loan_rate": 5.5,
+        "living_expenses": 42,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 2,
+        "fellowship_years": 1,
+        "age_independent": 30,
+        "starting_salary": 65,
+        "mid_salary": 90,
+        "peak_salary": 125,
+        "typical_peak": 105,
+        "malpractice_per_yr": 0
+      },
+      "stress": {
+        "ai": 7,
+        "pay": 5,
+        "injury": 6,
+        "match": 3
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          27
+        ],
+        "residency": [
+          27,
+          29
+        ],
+        "fellowship": [
+          29,
+          30
+        ],
+        "earnAge": 30,
+        "startSalary": 65
+      }
+    },
+    {
+      "name": "Economics Professor",
+      "key": "economics_professor",
+      "profession": "Research PhD",
+      "group": "humanities_social",
+      "color": "#a54218",
+      "path": "Research PhD",
+      "raw_data": {
+        "startSalary": 90,
+        "midSalary": 140,
+        "peakSalary": 200,
+        "typicalPeak": 165,
+        "hoursWeek": 52,
+        "burnout": 35,
+        "satisfaction": 78,
+        "chooseAgain": 72,
+        "malpracticeCost": 0,
+        "vacation": 8,
+        "matchComp": 4,
+        "annualSpots": 800,
+        "oneInX": 35,
+        "callSchedule": 2,
+        "physicalToll": 9,
+        "emotionalToll": 5,
+        "aiRiskNow": 3,
+        "aiRiskMedium": 4,
+        "aiRiskLong": 5,
+        "aiNarrative": "Economics is data-heavy, and AI can automate much of the econometric grunt work. But identifying causal mechanisms, designing natural experiments, and providing policy insight requires deep institutional knowledge and creative thinking. The highest-paid social science professorship because of finance/consulting outside options."
+      },
+      "scores": {
+        "category_1": 4.75,
+        "category_2": 3.67,
+        "category_3": 3.67,
+        "category_4": 2.67,
+        "category_5": 5.96,
+        "category_6": 6.0,
+        "category_7": 6.95,
+        "category_8": 6.0,
+        "category_9": 6.28,
+        "category_10": 5.2,
+        "category_11": 5.2,
+        "category_12": 7.5,
+        "category_13": 5.25,
+        "category_14": 8.86
+      },
+      "scenario_totals": {
+        "default": 5.83,
+        "equal_weight": 5.6,
+        "max_earnings": 5.91,
+        "best_lifestyle": 5.68,
+        "fastest_to_practice": 4.91,
+        "most_procedural": 5.78
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 22,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 5,
+        "trainee_salary": 32,
+        "education_debt": 30,
+        "loan_rate": 5.5,
+        "living_expenses": 42,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 2,
+        "fellowship_years": 1,
+        "age_independent": 30,
+        "starting_salary": 90,
+        "mid_salary": 140,
+        "peak_salary": 200,
+        "typical_peak": 165,
+        "malpractice_per_yr": 0
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 6,
+        "injury": 6,
+        "match": 3
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          27
+        ],
+        "residency": [
+          27,
+          29
+        ],
+        "fellowship": [
+          29,
+          30
+        ],
+        "earnAge": 30,
+        "startSalary": 90
+      }
+    },
+    {
+      "name": "Political Science Professor",
+      "key": "political_science_profes",
+      "profession": "Research PhD",
+      "group": "humanities_social",
+      "color": "#ba773b",
+      "path": "Research PhD",
+      "raw_data": {
+        "startSalary": 62,
+        "midSalary": 88,
+        "peakSalary": 120,
+        "typicalPeak": 102,
+        "hoursWeek": 50,
+        "burnout": 33,
+        "satisfaction": 74,
+        "chooseAgain": 66,
+        "malpracticeCost": 0,
+        "vacation": 8,
+        "matchComp": 3,
+        "annualSpots": 600,
+        "oneInX": 47,
+        "callSchedule": 2,
+        "physicalToll": 9,
+        "emotionalToll": 6,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 3,
+        "aiRiskLong": 4,
+        "aiNarrative": "Political science involves interpreting power, institutions, and human governance \u2014 areas where contextual judgment matters enormously. AI helps with text analysis of legislation and polling data, but understanding why nations go to war or how democracies erode requires deep qualitative insight."
+      },
+      "scores": {
+        "category_1": 4.75,
+        "category_2": 3.33,
+        "category_3": 3.67,
+        "category_4": 2.67,
+        "category_5": 5.0,
+        "category_6": 6.0,
+        "category_7": 6.05,
+        "category_8": 6.1,
+        "category_9": 6.44,
+        "category_10": 5.0,
+        "category_11": 4.8,
+        "category_12": 7.17,
+        "category_13": 5.25,
+        "category_14": 9.0
+      },
+      "scenario_totals": {
+        "default": 5.57,
+        "equal_weight": 5.41,
+        "max_earnings": 5.44,
+        "best_lifestyle": 5.5,
+        "fastest_to_practice": 4.68,
+        "most_procedural": 5.62
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 22,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 5,
+        "trainee_salary": 32,
+        "education_debt": 30,
+        "loan_rate": 5.5,
+        "living_expenses": 42,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 2,
+        "fellowship_years": 1,
+        "age_independent": 30,
+        "starting_salary": 62,
+        "mid_salary": 88,
+        "peak_salary": 120,
+        "typical_peak": 102,
+        "malpractice_per_yr": 0
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 5,
+        "injury": 6,
+        "match": 4
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          27
+        ],
+        "residency": [
+          27,
+          29
+        ],
+        "fellowship": [
+          29,
+          30
+        ],
+        "earnAge": 30,
+        "startSalary": 62
+      }
+    },
+    {
+      "name": "Sociology Professor",
+      "key": "sociology_professor",
+      "profession": "Research PhD",
+      "group": "humanities_social",
+      "color": "#a57924",
+      "path": "Research PhD",
+      "raw_data": {
+        "startSalary": 60,
+        "midSalary": 82,
+        "peakSalary": 110,
+        "typicalPeak": 95,
+        "hoursWeek": 50,
+        "burnout": 34,
+        "satisfaction": 74,
+        "chooseAgain": 66,
+        "malpracticeCost": 0,
+        "vacation": 8,
+        "matchComp": 3,
+        "annualSpots": 500,
+        "oneInX": 56,
+        "callSchedule": 2,
+        "physicalToll": 9,
+        "emotionalToll": 6,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 3,
+        "aiRiskLong": 4,
+        "aiNarrative": "Sociology involves ethnographic fieldwork, interview-based research, and interpreting complex social systems \u2014 work that requires empathy and cultural understanding AI cannot replicate. AI helps with survey analysis and text mining, but the questions sociologists ask are inherently about human meaning-making."
+      },
+      "scores": {
+        "category_1": 4.75,
+        "category_2": 3.33,
+        "category_3": 3.67,
+        "category_4": 2.67,
+        "category_5": 4.91,
+        "category_6": 6.0,
+        "category_7": 5.92,
+        "category_8": 6.1,
+        "category_9": 6.4,
+        "category_10": 5.0,
+        "category_11": 4.8,
+        "category_12": 7.17,
+        "category_13": 5.25,
+        "category_14": 9.0
+      },
+      "scenario_totals": {
+        "default": 5.54,
+        "equal_weight": 5.39,
+        "max_earnings": 5.39,
+        "best_lifestyle": 5.47,
+        "fastest_to_practice": 4.66,
+        "most_procedural": 5.61
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 22,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 5,
+        "trainee_salary": 32,
+        "education_debt": 30,
+        "loan_rate": 5.5,
+        "living_expenses": 42,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 2,
+        "fellowship_years": 1,
+        "age_independent": 30,
+        "starting_salary": 60,
+        "mid_salary": 82,
+        "peak_salary": 110,
+        "typical_peak": 95,
+        "malpractice_per_yr": 0
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 5,
+        "injury": 6,
+        "match": 4
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          27
+        ],
+        "residency": [
+          27,
+          29
+        ],
+        "fellowship": [
+          29,
+          30
+        ],
+        "earnAge": 30,
+        "startSalary": 60
+      }
+    },
+    {
+      "name": "History Professor",
+      "key": "history_professor",
+      "profession": "Research PhD",
+      "group": "humanities_social",
+      "color": "#ba9f1b",
+      "path": "Research PhD",
+      "raw_data": {
+        "startSalary": 58,
+        "midSalary": 78,
+        "peakSalary": 105,
+        "typicalPeak": 90,
+        "hoursWeek": 50,
+        "burnout": 35,
+        "satisfaction": 76,
+        "chooseAgain": 67,
+        "malpracticeCost": 0,
+        "vacation": 9,
+        "matchComp": 3,
+        "annualSpots": 500,
+        "oneInX": 56,
+        "callSchedule": 2,
+        "physicalToll": 9,
+        "emotionalToll": 6,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 3,
+        "aiRiskLong": 4,
+        "aiNarrative": "History requires archival research in physical repositories, reading handwritten manuscripts, and constructing nuanced narratives about human experience. AI can help digitize and search archives, but interpreting what happened and why \u2014 the historian's core skill \u2014 requires judgment, empathy, and storytelling ability."
+      },
+      "scores": {
+        "category_1": 4.75,
+        "category_2": 3.33,
+        "category_3": 3.67,
+        "category_4": 2.67,
+        "category_5": 4.84,
+        "category_6": 6.0,
+        "category_7": 5.88,
+        "category_8": 6.1,
+        "category_9": 6.36,
+        "category_10": 5.0,
+        "category_11": 4.8,
+        "category_12": 7.27,
+        "category_13": 5.25,
+        "category_14": 9.0
+      },
+      "scenario_totals": {
+        "default": 5.53,
+        "equal_weight": 5.39,
+        "max_earnings": 5.37,
+        "best_lifestyle": 5.46,
+        "fastest_to_practice": 4.66,
+        "most_procedural": 5.61
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 22,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 5,
+        "trainee_salary": 32,
+        "education_debt": 30,
+        "loan_rate": 5.5,
+        "living_expenses": 42,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 2,
+        "fellowship_years": 1,
+        "age_independent": 30,
+        "starting_salary": 58,
+        "mid_salary": 78,
+        "peak_salary": 105,
+        "typical_peak": 90,
+        "malpractice_per_yr": 0
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 5,
+        "injury": 6,
+        "match": 4
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          27
+        ],
+        "residency": [
+          27,
+          29
+        ],
+        "fellowship": [
+          29,
+          30
+        ],
+        "earnAge": 30,
+        "startSalary": 58
+      }
+    },
+    {
+      "name": "English Professor",
+      "key": "english_professor",
+      "profession": "Research PhD",
+      "group": "humanities_social",
+      "color": "#a4a535",
+      "path": "Research PhD",
+      "raw_data": {
+        "startSalary": 55,
+        "midSalary": 75,
+        "peakSalary": 100,
+        "typicalPeak": 85,
+        "hoursWeek": 48,
+        "burnout": 36,
+        "satisfaction": 73,
+        "chooseAgain": 65,
+        "malpracticeCost": 0,
+        "vacation": 9,
+        "matchComp": 4,
+        "annualSpots": 800,
+        "oneInX": 35,
+        "callSchedule": 2,
+        "physicalToll": 9,
+        "emotionalToll": 6,
+        "aiRiskNow": 3,
+        "aiRiskMedium": 4,
+        "aiRiskLong": 5,
+        "aiNarrative": "AI-generated text is the elephant in the room for English departments. Professors must rethink writing pedagogy, but close reading, literary interpretation, and critical theory require the kind of nuanced human thinking AI struggles with. The irony is that AI makes teaching writing harder while making the skills English professors teach more important."
+      },
+      "scores": {
+        "category_1": 4.75,
+        "category_2": 3.67,
+        "category_3": 3.67,
+        "category_4": 2.67,
+        "category_5": 4.77,
+        "category_6": 6.14,
+        "category_7": 5.8,
+        "category_8": 6.22,
+        "category_9": 6.62,
+        "category_10": 5.0,
+        "category_11": 5.0,
+        "category_12": 6.93,
+        "category_13": 5.25,
+        "category_14": 9.0
+      },
+      "scenario_totals": {
+        "default": 5.57,
+        "equal_weight": 5.43,
+        "max_earnings": 5.37,
+        "best_lifestyle": 5.52,
+        "fastest_to_practice": 4.69,
+        "most_procedural": 5.64
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 22,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 5,
+        "trainee_salary": 32,
+        "education_debt": 30,
+        "loan_rate": 5.5,
+        "living_expenses": 42,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 2,
+        "fellowship_years": 1,
+        "age_independent": 30,
+        "starting_salary": 55,
+        "mid_salary": 75,
+        "peak_salary": 100,
+        "typical_peak": 85,
+        "malpractice_per_yr": 0
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 5,
+        "injury": 6,
+        "match": 3
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          27
+        ],
+        "residency": [
+          27,
+          29
+        ],
+        "fellowship": [
+          29,
+          30
+        ],
+        "earnAge": 30,
+        "startSalary": 55
+      }
+    },
+    {
+      "name": "Philosophy Professor",
+      "key": "philosophy_professor",
+      "profession": "Research PhD",
+      "group": "humanities_social",
+      "color": "#9eba29",
+      "path": "Research PhD",
+      "raw_data": {
+        "startSalary": 58,
+        "midSalary": 80,
+        "peakSalary": 108,
+        "typicalPeak": 92,
+        "hoursWeek": 48,
+        "burnout": 32,
+        "satisfaction": 77,
+        "chooseAgain": 70,
+        "malpracticeCost": 0,
+        "vacation": 9,
+        "matchComp": 3,
+        "annualSpots": 350,
+        "oneInX": 80,
+        "callSchedule": 2,
+        "physicalToll": 9,
+        "emotionalToll": 5,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 3,
+        "aiRiskLong": 4,
+        "aiNarrative": "Philosophy of mind, ethics, and logic are suddenly hot because of AI \u2014 who better to think about machine consciousness, algorithmic bias, and the ethics of autonomous systems? Ironically, the field AI threatens least is the one most needed to think about AI's implications. AI ethics positions are growing."
+      },
+      "scores": {
+        "category_1": 4.75,
+        "category_2": 3.33,
+        "category_3": 3.67,
+        "category_4": 2.67,
+        "category_5": 4.87,
+        "category_6": 6.0,
+        "category_7": 5.9,
+        "category_8": 5.97,
+        "category_9": 6.56,
+        "category_10": 5.0,
+        "category_11": 4.8,
+        "category_12": 7.23,
+        "category_13": 5.25,
+        "category_14": 8.86
+      },
+      "scenario_totals": {
+        "default": 5.54,
+        "equal_weight": 5.38,
+        "max_earnings": 5.38,
+        "best_lifestyle": 5.49,
+        "fastest_to_practice": 4.66,
+        "most_procedural": 5.59
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 22,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 5,
+        "trainee_salary": 32,
+        "education_debt": 30,
+        "loan_rate": 5.5,
+        "living_expenses": 42,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 2,
+        "fellowship_years": 1,
+        "age_independent": 30,
+        "starting_salary": 58,
+        "mid_salary": 80,
+        "peak_salary": 108,
+        "typical_peak": 92,
+        "malpractice_per_yr": 0
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 5,
+        "injury": 6,
+        "match": 4
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          27
+        ],
+        "residency": [
+          27,
+          29
+        ],
+        "fellowship": [
+          29,
+          30
+        ],
+        "earnAge": 30,
+        "startSalary": 58
+      }
+    },
+    {
+      "name": "Linguistics Professor",
+      "key": "linguistics_professor",
+      "profession": "Research PhD",
+      "group": "humanities_social",
+      "color": "#71a518",
+      "path": "Research PhD",
+      "raw_data": {
+        "startSalary": 60,
+        "midSalary": 82,
+        "peakSalary": 112,
+        "typicalPeak": 95,
+        "hoursWeek": 49,
+        "burnout": 31,
+        "satisfaction": 76,
+        "chooseAgain": 69,
+        "malpracticeCost": 0,
+        "vacation": 8,
+        "matchComp": 2,
+        "annualSpots": 300,
+        "oneInX": 93,
+        "callSchedule": 2,
+        "physicalToll": 9,
+        "emotionalToll": 5,
+        "aiRiskNow": 3,
+        "aiRiskMedium": 4,
+        "aiRiskLong": 5,
+        "aiNarrative": "Large language models have made linguistics suddenly relevant to the tech industry \u2014 understanding how language works is crucial for improving AI. Computational linguistics PhDs can command industry salaries, while field linguists documenting endangered languages do work AI cannot replicate. The field is splitting into high-demand computational and niche theoretical tracks."
+      },
+      "scores": {
+        "category_1": 4.75,
+        "category_2": 3.0,
+        "category_3": 3.67,
+        "category_4": 2.67,
+        "category_5": 4.91,
+        "category_6": 6.0,
+        "category_7": 5.95,
+        "category_8": 6.4,
+        "category_9": 6.54,
+        "category_10": 5.2,
+        "category_11": 5.0,
+        "category_12": 7.33,
+        "category_13": 5.25,
+        "category_14": 8.86
+      },
+      "scenario_totals": {
+        "default": 5.59,
+        "equal_weight": 5.43,
+        "max_earnings": 5.44,
+        "best_lifestyle": 5.55,
+        "fastest_to_practice": 4.66,
+        "most_procedural": 5.7
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 22,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 5,
+        "trainee_salary": 32,
+        "education_debt": 30,
+        "loan_rate": 5.5,
+        "living_expenses": 42,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 2,
+        "fellowship_years": 1,
+        "age_independent": 30,
+        "starting_salary": 60,
+        "mid_salary": 82,
+        "peak_salary": 112,
+        "typical_peak": 95,
+        "malpractice_per_yr": 0
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 5,
+        "injury": 6,
+        "match": 4
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          27
+        ],
+        "residency": [
+          27,
+          29
+        ],
+        "fellowship": [
+          29,
+          30
+        ],
+        "earnAge": 30,
+        "startSalary": 60
+      }
+    },
+    {
+      "name": "Education Researcher",
+      "key": "education_researcher",
+      "profession": "Research PhD",
+      "group": "humanities_social",
+      "color": "#74ba3b",
+      "path": "Research PhD",
+      "raw_data": {
+        "startSalary": 60,
+        "midSalary": 82,
+        "peakSalary": 110,
+        "typicalPeak": 95,
+        "hoursWeek": 49,
+        "burnout": 34,
+        "satisfaction": 75,
+        "chooseAgain": 67,
+        "malpracticeCost": 0,
+        "vacation": 8,
+        "matchComp": 4,
+        "annualSpots": 900,
+        "oneInX": 31,
+        "callSchedule": 3,
+        "physicalToll": 9,
+        "emotionalToll": 6,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 3,
+        "aiRiskLong": 4,
+        "aiNarrative": "Education research is about understanding how humans learn \u2014 and AI is creating a natural experiment in real time as schools adopt AI tutoring tools. Researchers who can evaluate these interventions are in growing demand. Classroom observation, qualitative research, and working with school districts require human presence and trust."
+      },
+      "scores": {
+        "category_1": 4.75,
+        "category_2": 3.67,
+        "category_3": 3.67,
+        "category_4": 3.0,
+        "category_5": 4.91,
+        "category_6": 6.0,
+        "category_7": 5.67,
+        "category_8": 6.65,
+        "category_9": 6.44,
+        "category_10": 5.2,
+        "category_11": 5.0,
+        "category_12": 7.23,
+        "category_13": 5.25,
+        "category_14": 9.0
+      },
+      "scenario_totals": {
+        "default": 5.64,
+        "equal_weight": 5.49,
+        "max_earnings": 5.41,
+        "best_lifestyle": 5.59,
+        "fastest_to_practice": 4.78,
+        "most_procedural": 5.77
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 22,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 5,
+        "trainee_salary": 32,
+        "education_debt": 30,
+        "loan_rate": 5.5,
+        "living_expenses": 42,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 2,
+        "fellowship_years": 1,
+        "age_independent": 30,
+        "starting_salary": 60,
+        "mid_salary": 82,
+        "peak_salary": 110,
+        "typical_peak": 95,
+        "malpractice_per_yr": 0
+      },
+      "stress": {
+        "ai": 7,
+        "pay": 5,
+        "injury": 6,
+        "match": 3
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          27
+        ],
+        "residency": [
+          27,
+          29
+        ],
+        "fellowship": [
+          29,
+          30
+        ],
+        "earnAge": 30,
+        "startSalary": 60
+      }
+    },
+    {
+      "name": "Biomedical Researcher",
+      "key": "biomedical_researcher",
+      "profession": "Research PhD",
+      "group": "humanities_social",
+      "color": "#47a524",
+      "path": "Research PhD",
+      "raw_data": {
+        "startSalary": 60,
+        "midSalary": 85,
+        "peakSalary": 115,
+        "typicalPeak": 100,
+        "hoursWeek": 55,
+        "burnout": 40,
+        "satisfaction": 72,
+        "chooseAgain": 62,
+        "malpracticeCost": 0,
+        "vacation": 6,
+        "matchComp": 5,
+        "annualSpots": 1100,
+        "oneInX": 25,
+        "callSchedule": 3,
+        "physicalToll": 8,
+        "emotionalToll": 7,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 3,
+        "aiRiskLong": 4,
+        "aiNarrative": "Biomedical research is fundamentally wet-lab work \u2014 cell culture, animal models, clinical trials. AI helps with drug target identification and image analysis, but the bench science that validates discoveries cannot be automated. The long postdoc pipeline and grant pressure make this path demanding, but the potential to save lives is real."
+      },
+      "scores": {
+        "category_1": 4.75,
+        "category_2": 4.0,
+        "category_3": 3.67,
+        "category_4": 3.0,
+        "category_5": 4.94,
+        "category_6": 6.0,
+        "category_7": 5.72,
+        "category_8": 6.85,
+        "category_9": 5.26,
+        "category_10": 5.0,
+        "category_11": 5.6,
+        "category_12": 7.13,
+        "category_13": 5.25,
+        "category_14": 8.86
+      },
+      "scenario_totals": {
+        "default": 5.58,
+        "equal_weight": 5.46,
+        "max_earnings": 5.4,
+        "best_lifestyle": 5.41,
+        "fastest_to_practice": 4.77,
+        "most_procedural": 5.77
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 22,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 5,
+        "trainee_salary": 32,
+        "education_debt": 30,
+        "loan_rate": 5.5,
+        "living_expenses": 42,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 2,
+        "fellowship_years": 2,
+        "age_independent": 31,
+        "starting_salary": 60,
+        "mid_salary": 85,
+        "peak_salary": 115,
+        "typical_peak": 100,
+        "malpractice_per_yr": 0
+      },
+      "stress": {
+        "ai": 8,
+        "pay": 4,
+        "injury": 4,
+        "match": 3
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          27
+        ],
+        "residency": [
+          27,
+          29
+        ],
+        "fellowship": [
+          29,
+          31
+        ],
+        "earnAge": 31,
+        "startSalary": 60
+      }
+    },
+    {
+      "name": "Pre-K Teacher",
+      "key": "pre_k_teacher",
+      "profession": "Teaching Cert",
+      "group": "k12_classroom",
+      "color": "#357238",
+      "path": "Teaching Cert (BA + Cert)",
+      "raw_data": {
+        "startSalary": 32,
+        "midSalary": 42,
+        "peakSalary": 55,
+        "typicalPeak": 48,
+        "hoursWeek": 42,
+        "burnout": 42,
+        "satisfaction": 72,
+        "chooseAgain": 62,
+        "malpracticeCost": 0,
+        "vacation": 10,
+        "matchComp": 6,
+        "annualSpots": 22000,
+        "oneInX": 8,
+        "callSchedule": 2,
+        "physicalToll": 6,
+        "emotionalToll": 5,
+        "aiRiskNow": 1,
+        "aiRiskMedium": 1,
+        "aiRiskLong": 2,
+        "aiNarrative": "Pre-K teaching is almost entirely about human connection \u2014 building social-emotional skills, managing toddler behavior, and creating safe learning environments. AI tools may assist with developmental assessments and activity planning, but the hands-on nurturing and constant supervision of 3-5 year olds is irreplaceable."
+      },
+      "scores": {
+        "category_1": 7.75,
+        "category_2": 7.67,
+        "category_3": 7.0,
+        "category_4": 6.33,
+        "category_5": 5.07,
+        "category_6": 4.57,
+        "category_7": 4.05,
+        "category_8": 6.78,
+        "category_9": 7.24,
+        "category_10": 7.8,
+        "category_11": 7.0,
+        "category_12": 6.13,
+        "category_13": 6.5,
+        "category_14": 8.0
+      },
+      "scenario_totals": {
+        "default": 6.53,
+        "equal_weight": 6.58,
+        "max_earnings": 5.72,
+        "best_lifestyle": 6.49,
+        "fastest_to_practice": 6.62,
+        "most_procedural": 6.31
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 20,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 8,
+        "prof_school_years": 1,
+        "trainee_salary": 0,
+        "education_debt": 32,
+        "loan_rate": 5.5,
+        "living_expenses": 40,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 1,
+        "salary_growth_to_mid": 3,
+        "salary_growth_to_peak": 2,
+        "post_peak_growth": 1.5,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 23,
+        "starting_salary": 32,
+        "mid_salary": 42,
+        "peak_salary": 55,
+        "typical_peak": 48,
+        "malpractice_per_yr": 0
+      },
+      "stress": {
+        "ai": 9,
+        "pay": 6,
+        "injury": 6,
+        "match": 8
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          23
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 23,
+        "startSalary": 32
+      }
+    },
+    {
+      "name": "Elementary School Teacher",
+      "key": "elementary_teacher",
+      "profession": "Teaching Cert",
+      "group": "k12_classroom",
+      "color": "#2E7D32",
+      "path": "Teaching Cert (BA + Cert)",
+      "raw_data": {
+        "startSalary": 38,
+        "midSalary": 52,
+        "peakSalary": 68,
+        "typicalPeak": 58,
+        "hoursWeek": 45,
+        "burnout": 45,
+        "satisfaction": 72,
+        "chooseAgain": 65,
+        "malpracticeCost": 0,
+        "vacation": 11,
+        "matchComp": 7,
+        "annualSpots": 35000,
+        "oneInX": 5,
+        "callSchedule": 2,
+        "physicalToll": 6,
+        "emotionalToll": 5,
+        "aiRiskNow": 1,
+        "aiRiskMedium": 2,
+        "aiRiskLong": 3,
+        "aiNarrative": "Elementary teaching involves managing a whole classroom of developing children across every subject \u2014 reading, math, science, social studies, art. AI tutoring tools may supplement instruction, but the classroom management, social-emotional development, and differentiated instruction for 25 unique learners requires a skilled human educator."
+      },
+      "scores": {
+        "category_1": 7.75,
+        "category_2": 8.0,
+        "category_3": 7.0,
+        "category_4": 6.33,
+        "category_5": 5.27,
+        "category_6": 4.29,
+        "category_7": 4.2,
+        "category_8": 7.12,
+        "category_9": 6.62,
+        "category_10": 8.0,
+        "category_11": 7.0,
+        "category_12": 6.4,
+        "category_13": 6.5,
+        "category_14": 8.0
+      },
+      "scenario_totals": {
+        "default": 6.56,
+        "equal_weight": 6.62,
+        "max_earnings": 5.8,
+        "best_lifestyle": 6.47,
+        "fastest_to_practice": 6.69,
+        "most_procedural": 6.39
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 20,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 8,
+        "prof_school_years": 1,
+        "trainee_salary": 0,
+        "education_debt": 32,
+        "loan_rate": 5.5,
+        "living_expenses": 40,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 1,
+        "salary_growth_to_mid": 3,
+        "salary_growth_to_peak": 2,
+        "post_peak_growth": 1.5,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 23,
+        "starting_salary": 38,
+        "mid_salary": 52,
+        "peak_salary": 68,
+        "typical_peak": 58,
+        "malpractice_per_yr": 0
+      },
+      "stress": {
+        "ai": 9,
+        "pay": 6,
+        "injury": 5,
+        "match": 7
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          23
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 23,
+        "startSalary": 38
+      }
+    },
+    {
+      "name": "Middle School Math Teacher",
+      "key": "middle_school_math_teach",
+      "profession": "Teaching Cert",
+      "group": "k12_classroom",
+      "color": "#318745",
+      "path": "Teaching Cert (BA + Cert)",
+      "raw_data": {
+        "startSalary": 40,
+        "midSalary": 55,
+        "peakSalary": 72,
+        "typicalPeak": 62,
+        "hoursWeek": 45,
+        "burnout": 48,
+        "satisfaction": 68,
+        "chooseAgain": 60,
+        "malpracticeCost": 0,
+        "vacation": 11,
+        "matchComp": 5,
+        "annualSpots": 12000,
+        "oneInX": 15,
+        "callSchedule": 3,
+        "physicalToll": 7,
+        "emotionalToll": 5,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 3,
+        "aiRiskLong": 4,
+        "aiNarrative": "AI tutoring platforms like Khan Academy and IXL already supplement middle school math instruction, and tools like ChatGPT can solve algebra problems. But managing a room of 12-14 year olds, building number sense, diagnosing misconceptions in real time, and motivating reluctant learners is deeply human work. Math teachers remain in critical shortage."
+      },
+      "scores": {
+        "category_1": 7.75,
+        "category_2": 7.33,
+        "category_3": 7.0,
+        "category_4": 6.67,
+        "category_5": 5.33,
+        "category_6": 4.29,
+        "category_7": 4.25,
+        "category_8": 6.62,
+        "category_9": 6.52,
+        "category_10": 8.0,
+        "category_11": 7.0,
+        "category_12": 6.1,
+        "category_13": 6.5,
+        "category_14": 8.29
+      },
+      "scenario_totals": {
+        "default": 6.49,
+        "equal_weight": 6.56,
+        "max_earnings": 5.78,
+        "best_lifestyle": 6.37,
+        "fastest_to_practice": 6.64,
+        "most_procedural": 6.24
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 20,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 8,
+        "prof_school_years": 1,
+        "trainee_salary": 0,
+        "education_debt": 32,
+        "loan_rate": 5.5,
+        "living_expenses": 40,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 1,
+        "salary_growth_to_mid": 3,
+        "salary_growth_to_peak": 2,
+        "post_peak_growth": 1.5,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 23,
+        "starting_salary": 40,
+        "mid_salary": 55,
+        "peak_salary": 72,
+        "typical_peak": 62,
+        "malpractice_per_yr": 0
+      },
+      "stress": {
+        "ai": 8,
+        "pay": 7,
+        "injury": 5,
+        "match": 8
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          23
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 23,
+        "startSalary": 40
+      }
+    },
+    {
+      "name": "Middle School English Teacher",
+      "key": "middle_school_english_te",
+      "profession": "Teaching Cert",
+      "group": "k12_classroom",
+      "color": "#1e7241",
+      "path": "Teaching Cert (BA + Cert)",
+      "raw_data": {
+        "startSalary": 38,
+        "midSalary": 53,
+        "peakSalary": 68,
+        "typicalPeak": 58,
+        "hoursWeek": 46,
+        "burnout": 48,
+        "satisfaction": 66,
+        "chooseAgain": 58,
+        "malpracticeCost": 0,
+        "vacation": 11,
+        "matchComp": 5,
+        "annualSpots": 10000,
+        "oneInX": 18,
+        "callSchedule": 3,
+        "physicalToll": 7,
+        "emotionalToll": 5,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 3,
+        "aiRiskLong": 4,
+        "aiNarrative": "AI writing tools like ChatGPT create significant challenges for ELA teachers \u2014 detecting AI-generated student work and teaching authentic writing are emerging skills. But reading comprehension, literary analysis, classroom discussion facilitation, and developing young writers' voices require human mentorship. The grading burden is heavy but the work is deeply relational."
+      },
+      "scores": {
+        "category_1": 7.75,
+        "category_2": 7.33,
+        "category_3": 7.0,
+        "category_4": 6.67,
+        "category_5": 5.29,
+        "category_6": 4.29,
+        "category_7": 4.2,
+        "category_8": 6.83,
+        "category_9": 6.48,
+        "category_10": 7.8,
+        "category_11": 7.0,
+        "category_12": 5.97,
+        "category_13": 6.5,
+        "category_14": 8.29
+      },
+      "scenario_totals": {
+        "default": 6.48,
+        "equal_weight": 6.55,
+        "max_earnings": 5.75,
+        "best_lifestyle": 6.36,
+        "fastest_to_practice": 6.62,
+        "most_procedural": 6.24
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 20,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 8,
+        "prof_school_years": 1,
+        "trainee_salary": 0,
+        "education_debt": 32,
+        "loan_rate": 5.5,
+        "living_expenses": 40,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 1,
+        "salary_growth_to_mid": 3,
+        "salary_growth_to_peak": 2,
+        "post_peak_growth": 1.5,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 23,
+        "starting_salary": 38,
+        "mid_salary": 53,
+        "peak_salary": 68,
+        "typical_peak": 58,
+        "malpractice_per_yr": 0
+      },
+      "stress": {
+        "ai": 8,
+        "pay": 6,
+        "injury": 5,
+        "match": 8
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          23
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 23,
+        "startSalary": 38
+      }
+    },
+    {
+      "name": "Middle School Science Teacher",
+      "key": "middle_school_science_te",
+      "profession": "Teaching Cert",
+      "group": "k12_classroom",
+      "color": "#3f8769",
+      "path": "Teaching Cert (BA + Cert)",
+      "raw_data": {
+        "startSalary": 40,
+        "midSalary": 55,
+        "peakSalary": 72,
+        "typicalPeak": 62,
+        "hoursWeek": 45,
+        "burnout": 45,
+        "satisfaction": 70,
+        "chooseAgain": 62,
+        "malpracticeCost": 0,
+        "vacation": 11,
+        "matchComp": 5,
+        "annualSpots": 9000,
+        "oneInX": 20,
+        "callSchedule": 2,
+        "physicalToll": 7,
+        "emotionalToll": 5,
+        "aiRiskNow": 1,
+        "aiRiskMedium": 2,
+        "aiRiskLong": 3,
+        "aiNarrative": "Middle school science is heavily lab-based and hands-on \u2014 dissections, chemistry experiments, physics demonstrations. AI can enhance simulations and provide data analysis tools, but supervising 30 students with Bunsen burners and teaching the scientific method through inquiry requires a present, skilled human. Science teachers are in chronic shortage."
+      },
+      "scores": {
+        "category_1": 7.75,
+        "category_2": 7.33,
+        "category_3": 7.0,
+        "category_4": 6.33,
+        "category_5": 5.33,
+        "category_6": 4.29,
+        "category_7": 4.25,
+        "category_8": 6.88,
+        "category_9": 6.62,
+        "category_10": 7.8,
+        "category_11": 6.8,
+        "category_12": 6.4,
+        "category_13": 6.5,
+        "category_14": 8.29
+      },
+      "scenario_totals": {
+        "default": 6.5,
+        "equal_weight": 6.56,
+        "max_earnings": 5.77,
+        "best_lifestyle": 6.41,
+        "fastest_to_practice": 6.61,
+        "most_procedural": 6.3
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 20,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 8,
+        "prof_school_years": 1,
+        "trainee_salary": 0,
+        "education_debt": 32,
+        "loan_rate": 5.5,
+        "living_expenses": 40,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 1,
+        "salary_growth_to_mid": 3,
+        "salary_growth_to_peak": 2,
+        "post_peak_growth": 1.5,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 23,
+        "starting_salary": 40,
+        "mid_salary": 55,
+        "peak_salary": 72,
+        "typical_peak": 62,
+        "malpractice_per_yr": 0
+      },
+      "stress": {
+        "ai": 8,
+        "pay": 6,
+        "injury": 5,
+        "match": 8
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          23
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 23,
+        "startSalary": 40
+      }
+    },
+    {
+      "name": "HS Math Teacher",
+      "key": "hs_math_teacher",
+      "profession": "Teaching Cert",
+      "group": "k12_classroom",
+      "color": "#1B5E20",
+      "path": "Teaching Cert (BA + Cert)",
+      "raw_data": {
+        "startSalary": 42,
+        "midSalary": 60,
+        "peakSalary": 80,
+        "typicalPeak": 68,
+        "hoursWeek": 47,
+        "burnout": 50,
+        "satisfaction": 68,
+        "chooseAgain": 60,
+        "malpracticeCost": 0,
+        "vacation": 11,
+        "matchComp": 6,
+        "annualSpots": 15000,
+        "oneInX": 12,
+        "callSchedule": 3,
+        "physicalToll": 7,
+        "emotionalToll": 5,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 3,
+        "aiRiskLong": 4,
+        "aiNarrative": "AI can solve calculus problems and provide step-by-step solutions, making the 'answer provider' role less valuable. But HS math teachers who focus on conceptual understanding, problem-solving strategies, and building mathematical thinking remain essential. AP Calculus and Statistics teachers are especially hard to replace \u2014 they diagnose individual student misconceptions and adapt instruction in real time."
+      },
+      "scores": {
+        "category_1": 7.75,
+        "category_2": 7.67,
+        "category_3": 7.0,
+        "category_4": 6.67,
+        "category_5": 5.41,
+        "category_6": 4.29,
+        "category_7": 4.33,
+        "category_8": 6.28,
+        "category_9": 6.36,
+        "category_10": 8.0,
+        "category_11": 7.0,
+        "category_12": 6.27,
+        "category_13": 6.5,
+        "category_14": 8.29
+      },
+      "scenario_totals": {
+        "default": 6.51,
+        "equal_weight": 6.58,
+        "max_earnings": 5.81,
+        "best_lifestyle": 6.35,
+        "fastest_to_practice": 6.69,
+        "most_procedural": 6.21
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 20,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 8,
+        "prof_school_years": 1,
+        "trainee_salary": 0,
+        "education_debt": 32,
+        "loan_rate": 5.5,
+        "living_expenses": 40,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 1,
+        "salary_growth_to_mid": 3,
+        "salary_growth_to_peak": 2,
+        "post_peak_growth": 1.5,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 23,
+        "starting_salary": 42,
+        "mid_salary": 60,
+        "peak_salary": 80,
+        "typical_peak": 68,
+        "malpractice_per_yr": 0
+      },
+      "stress": {
+        "ai": 8,
+        "pay": 7,
+        "injury": 6,
+        "match": 8
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          23
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 23,
+        "startSalary": 42
+      }
+    },
+    {
+      "name": "HS English Teacher",
+      "key": "hs_english_teacher",
+      "profession": "Teaching Cert",
+      "group": "k12_classroom",
+      "color": "#2a7262",
+      "path": "Teaching Cert (BA + Cert)",
+      "raw_data": {
+        "startSalary": 40,
+        "midSalary": 56,
+        "peakSalary": 72,
+        "typicalPeak": 62,
+        "hoursWeek": 48,
+        "burnout": 48,
+        "satisfaction": 68,
+        "chooseAgain": 60,
+        "malpracticeCost": 0,
+        "vacation": 11,
+        "matchComp": 5,
+        "annualSpots": 12000,
+        "oneInX": 15,
+        "callSchedule": 3,
+        "physicalToll": 7,
+        "emotionalToll": 5,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 3,
+        "aiRiskLong": 4,
+        "aiNarrative": "ChatGPT and AI writing tools are the biggest disruption facing HS English teachers. Grading essays now requires AI detection awareness, and teaching authentic writing voice is more important than ever. But facilitating Socratic seminars, leading literary analysis discussions, mentoring student writers, and teaching critical thinking through literature are deeply human skills that AI cannot replicate."
+      },
+      "scores": {
+        "category_1": 7.75,
+        "category_2": 7.33,
+        "category_3": 7.0,
+        "category_4": 6.67,
+        "category_5": 5.34,
+        "category_6": 4.29,
+        "category_7": 4.25,
+        "category_8": 6.72,
+        "category_9": 6.4,
+        "category_10": 7.8,
+        "category_11": 7.0,
+        "category_12": 6.27,
+        "category_13": 6.5,
+        "category_14": 8.29
+      },
+      "scenario_totals": {
+        "default": 6.5,
+        "equal_weight": 6.56,
+        "max_earnings": 5.77,
+        "best_lifestyle": 6.37,
+        "fastest_to_practice": 6.64,
+        "most_procedural": 6.27
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 20,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 8,
+        "prof_school_years": 1,
+        "trainee_salary": 0,
+        "education_debt": 32,
+        "loan_rate": 5.5,
+        "living_expenses": 40,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 1,
+        "salary_growth_to_mid": 3,
+        "salary_growth_to_peak": 2,
+        "post_peak_growth": 1.5,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 23,
+        "starting_salary": 40,
+        "mid_salary": 56,
+        "peak_salary": 72,
+        "typical_peak": 62,
+        "malpractice_per_yr": 0
+      },
+      "stress": {
+        "ai": 8,
+        "pay": 6,
+        "injury": 5,
+        "match": 8
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          23
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 23,
+        "startSalary": 40
+      }
+    },
+    {
+      "name": "HS Science Teacher",
+      "key": "hs_science_teacher",
+      "profession": "Teaching Cert",
+      "group": "k12_classroom",
+      "color": "#248782",
+      "path": "Teaching Cert (BA + Cert)",
+      "raw_data": {
+        "startSalary": 42,
+        "midSalary": 60,
+        "peakSalary": 80,
+        "typicalPeak": 68,
+        "hoursWeek": 47,
+        "burnout": 48,
+        "satisfaction": 72,
+        "chooseAgain": 65,
+        "malpracticeCost": 0,
+        "vacation": 11,
+        "matchComp": 6,
+        "annualSpots": 14000,
+        "oneInX": 13,
+        "callSchedule": 2,
+        "physicalToll": 7,
+        "emotionalToll": 6,
+        "aiRiskNow": 1,
+        "aiRiskMedium": 2,
+        "aiRiskLong": 3,
+        "aiNarrative": "HS science involves hands-on labs \u2014 titrations, circuit building, frog dissections, physics experiments \u2014 that require in-person supervision and safety management. AI can enhance virtual simulations and data analysis, but running a real chemistry lab with 30 teenagers is inherently human work. Physics and chemistry teachers are in extreme shortage because anyone with those skills can earn far more in industry."
+      },
+      "scores": {
+        "category_1": 7.75,
+        "category_2": 7.67,
+        "category_3": 7.0,
+        "category_4": 6.33,
+        "category_5": 5.41,
+        "category_6": 4.29,
+        "category_7": 4.33,
+        "category_8": 6.78,
+        "category_9": 6.44,
+        "category_10": 8.0,
+        "category_11": 6.8,
+        "category_12": 6.73,
+        "category_13": 6.5,
+        "category_14": 8.29
+      },
+      "scenario_totals": {
+        "default": 6.55,
+        "equal_weight": 6.61,
+        "max_earnings": 5.84,
+        "best_lifestyle": 6.43,
+        "fastest_to_practice": 6.67,
+        "most_procedural": 6.36
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 20,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 8,
+        "prof_school_years": 1,
+        "trainee_salary": 0,
+        "education_debt": 32,
+        "loan_rate": 5.5,
+        "living_expenses": 40,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 1,
+        "salary_growth_to_mid": 3,
+        "salary_growth_to_peak": 2,
+        "post_peak_growth": 1.5,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 23,
+        "starting_salary": 42,
+        "mid_salary": 60,
+        "peak_salary": 80,
+        "typical_peak": 68,
+        "malpractice_per_yr": 0
+      },
+      "stress": {
+        "ai": 8,
+        "pay": 7,
+        "injury": 5,
+        "match": 8
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          23
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 23,
+        "startSalary": 42
+      }
+    },
+    {
+      "name": "HS History Teacher",
+      "key": "hs_history_teacher",
+      "profession": "Teaching Cert",
+      "group": "k12_classroom",
+      "color": "#356a72",
+      "path": "Teaching Cert (BA + Cert)",
+      "raw_data": {
+        "startSalary": 40,
+        "midSalary": 55,
+        "peakSalary": 72,
+        "typicalPeak": 62,
+        "hoursWeek": 46,
+        "burnout": 42,
+        "satisfaction": 72,
+        "chooseAgain": 65,
+        "malpracticeCost": 0,
+        "vacation": 11,
+        "matchComp": 5,
+        "annualSpots": 8000,
+        "oneInX": 22,
+        "callSchedule": 3,
+        "physicalToll": 8,
+        "emotionalToll": 6,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 3,
+        "aiRiskLong": 3,
+        "aiNarrative": "AI can generate historical summaries and answer factual questions, but teaching students to analyze primary sources, construct historical arguments, evaluate bias in evidence, and develop civic identity requires skilled human mentorship. AP History courses emphasize document-based question analysis that demands Socratic discussion and personalized feedback."
+      },
+      "scores": {
+        "category_1": 7.75,
+        "category_2": 7.33,
+        "category_3": 7.0,
+        "category_4": 6.67,
+        "category_5": 5.33,
+        "category_6": 4.29,
+        "category_7": 4.5,
+        "category_8": 6.58,
+        "category_9": 6.68,
+        "category_10": 7.8,
+        "category_11": 7.0,
+        "category_12": 6.57,
+        "category_13": 6.5,
+        "category_14": 8.57
+      },
+      "scenario_totals": {
+        "default": 6.58,
+        "equal_weight": 6.63,
+        "max_earnings": 5.86,
+        "best_lifestyle": 6.46,
+        "fastest_to_practice": 6.69,
+        "most_procedural": 6.31
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 20,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 8,
+        "prof_school_years": 1,
+        "trainee_salary": 0,
+        "education_debt": 32,
+        "loan_rate": 5.5,
+        "living_expenses": 40,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 1,
+        "salary_growth_to_mid": 3,
+        "salary_growth_to_peak": 2,
+        "post_peak_growth": 1.5,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 23,
+        "starting_salary": 40,
+        "mid_salary": 55,
+        "peak_salary": 72,
+        "typical_peak": 62,
+        "malpractice_per_yr": 0
+      },
+      "stress": {
+        "ai": 8,
+        "pay": 6,
+        "injury": 6,
+        "match": 8
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          23
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 23,
+        "startSalary": 40
+      }
+    },
+    {
+      "name": "Special Education Teacher",
+      "key": "special_education_teache",
+      "profession": "Teaching Cert",
+      "group": "specialized_teaching",
+      "color": "#316c87",
+      "path": "Teaching Cert (BA + Cert)",
+      "raw_data": {
+        "startSalary": 40,
+        "midSalary": 55,
+        "peakSalary": 72,
+        "typicalPeak": 62,
+        "hoursWeek": 48,
+        "burnout": 55,
+        "satisfaction": 65,
+        "chooseAgain": 52,
+        "malpracticeCost": 0,
+        "vacation": 10,
+        "matchComp": 7,
+        "annualSpots": 38000,
+        "oneInX": 5,
+        "callSchedule": 3,
+        "physicalToll": 6,
+        "emotionalToll": 4,
+        "aiRiskNow": 1,
+        "aiRiskMedium": 2,
+        "aiRiskLong": 2,
+        "aiNarrative": "Special education is intensely individualized \u2014 each student has unique learning disabilities, behavioral needs, and IEP goals. AI can help with progress monitoring data and adaptive learning software, but the relationship-building, behavior management, crisis intervention, and IEP paperwork coordination require deeply empathetic human professionals. This is the single highest-demand teaching specialty."
+      },
+      "scores": {
+        "category_1": 7.75,
+        "category_2": 8.0,
+        "category_3": 7.0,
+        "category_4": 6.67,
+        "category_5": 5.33,
+        "category_6": 4.29,
+        "category_7": 4.0,
+        "category_8": 7.22,
+        "category_9": 6.14,
+        "category_10": 8.0,
+        "category_11": 7.0,
+        "category_12": 6.07,
+        "category_13": 6.5,
+        "category_14": 7.57
+      },
+      "scenario_totals": {
+        "default": 6.48,
+        "equal_weight": 6.55,
+        "max_earnings": 5.73,
+        "best_lifestyle": 6.36,
+        "fastest_to_practice": 6.69,
+        "most_procedural": 6.34
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 20,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 8,
+        "prof_school_years": 1,
+        "trainee_salary": 0,
+        "education_debt": 32,
+        "loan_rate": 5.5,
+        "living_expenses": 40,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 1,
+        "salary_growth_to_mid": 3,
+        "salary_growth_to_peak": 2,
+        "post_peak_growth": 1.5,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 23,
+        "starting_salary": 40,
+        "mid_salary": 55,
+        "peak_salary": 72,
+        "typical_peak": 62,
+        "malpractice_per_yr": 0
+      },
+      "stress": {
+        "ai": 9,
+        "pay": 6,
+        "injury": 4,
+        "match": 7
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          23
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 23,
+        "startSalary": 40
+      }
+    },
+    {
+      "name": "ESL Teacher",
+      "key": "esl_teacher",
+      "profession": "Teaching Cert",
+      "group": "specialized_teaching",
+      "color": "#1e4972",
+      "path": "Teaching Cert (BA + Cert)",
+      "raw_data": {
+        "startSalary": 38,
+        "midSalary": 52,
+        "peakSalary": 68,
+        "typicalPeak": 58,
+        "hoursWeek": 45,
+        "burnout": 42,
+        "satisfaction": 72,
+        "chooseAgain": 65,
+        "malpracticeCost": 0,
+        "vacation": 11,
+        "matchComp": 6,
+        "annualSpots": 18000,
+        "oneInX": 10,
+        "callSchedule": 2,
+        "physicalToll": 7,
+        "emotionalToll": 5,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 3,
+        "aiRiskLong": 3,
+        "aiNarrative": "AI translation tools are powerful, but ESL teaching is about far more than translation \u2014 it is building academic language proficiency, cultural integration, and confidence in newcomer students who may also be processing trauma. The interpersonal and culturally responsive aspects of the work make it highly resistant to automation. Growing immigration and refugee populations increase demand."
+      },
+      "scores": {
+        "category_1": 7.75,
+        "category_2": 7.67,
+        "category_3": 7.0,
+        "category_4": 6.33,
+        "category_5": 5.27,
+        "category_6": 4.43,
+        "category_7": 4.2,
+        "category_8": 7.12,
+        "category_9": 6.92,
+        "category_10": 7.6,
+        "category_11": 7.0,
+        "category_12": 6.73,
+        "category_13": 6.5,
+        "category_14": 8.29
+      },
+      "scenario_totals": {
+        "default": 6.6,
+        "equal_weight": 6.64,
+        "max_earnings": 5.8,
+        "best_lifestyle": 6.54,
+        "fastest_to_practice": 6.67,
+        "most_procedural": 6.45
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 20,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 8,
+        "prof_school_years": 1,
+        "trainee_salary": 0,
+        "education_debt": 32,
+        "loan_rate": 5.5,
+        "living_expenses": 40,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 1,
+        "salary_growth_to_mid": 3,
+        "salary_growth_to_peak": 2,
+        "post_peak_growth": 1.5,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 23,
+        "starting_salary": 38,
+        "mid_salary": 52,
+        "peak_salary": 68,
+        "typical_peak": 58,
+        "malpractice_per_yr": 0
+      },
+      "stress": {
+        "ai": 8,
+        "pay": 6,
+        "injury": 5,
+        "match": 8
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          23
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 23,
+        "startSalary": 38
+      }
+    },
+    {
+      "name": "Music Teacher",
+      "key": "music_teacher",
+      "profession": "Teaching Cert",
+      "group": "specialized_teaching",
+      "color": "#3f5687",
+      "path": "Teaching Cert (BA + Cert)",
+      "raw_data": {
+        "startSalary": 38,
+        "midSalary": 52,
+        "peakSalary": 65,
+        "typicalPeak": 56,
+        "hoursWeek": 45,
+        "burnout": 38,
+        "satisfaction": 78,
+        "chooseAgain": 72,
+        "malpracticeCost": 0,
+        "vacation": 10,
+        "matchComp": 5,
+        "annualSpots": 8000,
+        "oneInX": 22,
+        "callSchedule": 3,
+        "physicalToll": 7,
+        "emotionalToll": 6,
+        "aiRiskNow": 1,
+        "aiRiskMedium": 2,
+        "aiRiskLong": 2,
+        "aiNarrative": "AI can compose music and provide practice feedback, but conducting a band, teaching vocal technique, managing 60 students in a marching formation, and building ensemble cohesion are irreplaceable human activities. Music education is performance-based and community-centered \u2014 concerts, competitions, and musicals require a skilled director. Budget cuts are a bigger threat than AI."
+      },
+      "scores": {
+        "category_1": 7.75,
+        "category_2": 7.33,
+        "category_3": 7.0,
+        "category_4": 6.67,
+        "category_5": 5.27,
+        "category_6": 4.43,
+        "category_7": 4.42,
+        "category_8": 6.62,
+        "category_9": 7.08,
+        "category_10": 7.6,
+        "category_11": 7.0,
+        "category_12": 7.17,
+        "category_13": 6.5,
+        "category_14": 8.43
+      },
+      "scenario_totals": {
+        "default": 6.65,
+        "equal_weight": 6.68,
+        "max_earnings": 5.87,
+        "best_lifestyle": 6.59,
+        "fastest_to_practice": 6.72,
+        "most_procedural": 6.43
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 20,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 8,
+        "prof_school_years": 1,
+        "trainee_salary": 0,
+        "education_debt": 32,
+        "loan_rate": 5.5,
+        "living_expenses": 40,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 1,
+        "salary_growth_to_mid": 3,
+        "salary_growth_to_peak": 2,
+        "post_peak_growth": 1.5,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 23,
+        "starting_salary": 38,
+        "mid_salary": 52,
+        "peak_salary": 65,
+        "typical_peak": 56,
+        "malpractice_per_yr": 0
+      },
+      "stress": {
+        "ai": 9,
+        "pay": 7,
+        "injury": 5,
+        "match": 8
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          23
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 23,
+        "startSalary": 38
+      }
+    },
+    {
+      "name": "Art Teacher",
+      "key": "art_teacher",
+      "profession": "Teaching Cert",
+      "group": "specialized_teaching",
+      "color": "#2a3572",
+      "path": "Teaching Cert (BA + Cert)",
+      "raw_data": {
+        "startSalary": 36,
+        "midSalary": 50,
+        "peakSalary": 64,
+        "typicalPeak": 55,
+        "hoursWeek": 43,
+        "burnout": 35,
+        "satisfaction": 76,
+        "chooseAgain": 70,
+        "malpracticeCost": 0,
+        "vacation": 11,
+        "matchComp": 4,
+        "annualSpots": 6000,
+        "oneInX": 30,
+        "callSchedule": 2,
+        "physicalToll": 7,
+        "emotionalToll": 7,
+        "aiRiskNow": 1,
+        "aiRiskMedium": 2,
+        "aiRiskLong": 2,
+        "aiNarrative": "AI image generation is transforming commercial art, but K-12 art education is about developing creativity, fine motor skills, self-expression, and art history appreciation through hands-on studio work. Students need to physically manipulate clay, paint, charcoal, and printmaking tools. AI art tools may become teaching subjects rather than replacements."
+      },
+      "scores": {
+        "category_1": 7.75,
+        "category_2": 7.0,
+        "category_3": 7.0,
+        "category_4": 6.33,
+        "category_5": 5.23,
+        "category_6": 4.43,
+        "category_7": 4.4,
+        "category_8": 6.72,
+        "category_9": 7.26,
+        "category_10": 7.6,
+        "category_11": 7.0,
+        "category_12": 7.03,
+        "category_13": 6.5,
+        "category_14": 8.57
+      },
+      "scenario_totals": {
+        "default": 6.61,
+        "equal_weight": 6.65,
+        "max_earnings": 5.84,
+        "best_lifestyle": 6.58,
+        "fastest_to_practice": 6.63,
+        "most_procedural": 6.41
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 20,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 8,
+        "prof_school_years": 1,
+        "trainee_salary": 0,
+        "education_debt": 32,
+        "loan_rate": 5.5,
+        "living_expenses": 40,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 1,
+        "salary_growth_to_mid": 3,
+        "salary_growth_to_peak": 2,
+        "post_peak_growth": 1.5,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 23,
+        "starting_salary": 36,
+        "mid_salary": 50,
+        "peak_salary": 64,
+        "typical_peak": 55,
+        "malpractice_per_yr": 0
+      },
+      "stress": {
+        "ai": 9,
+        "pay": 6,
+        "injury": 5,
+        "match": 8
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          23
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 23,
+        "startSalary": 36
+      }
+    },
+    {
+      "name": "PE Teacher",
+      "key": "pe_teacher",
+      "profession": "Teaching Cert",
+      "group": "specialized_teaching",
+      "color": "#272487",
+      "path": "Teaching Cert (BA + Cert)",
+      "raw_data": {
+        "startSalary": 38,
+        "midSalary": 52,
+        "peakSalary": 66,
+        "typicalPeak": 56,
+        "hoursWeek": 44,
+        "burnout": 35,
+        "satisfaction": 75,
+        "chooseAgain": 68,
+        "malpracticeCost": 0,
+        "vacation": 11,
+        "matchComp": 5,
+        "annualSpots": 10000,
+        "oneInX": 18,
+        "callSchedule": 3,
+        "physicalToll": 5,
+        "emotionalToll": 7,
+        "aiRiskNow": 1,
+        "aiRiskMedium": 1,
+        "aiRiskLong": 2,
+        "aiNarrative": "Physical education is inherently human \u2014 demonstrating exercises, refereeing games, supervising safety in the gym and on playing fields. Fitness tracking technology supplements instruction, but motivating students to move, teaching sportsmanship, and managing large groups in physical activity settings cannot be automated. PE teachers also often serve as coaches."
+      },
+      "scores": {
+        "category_1": 7.75,
+        "category_2": 7.33,
+        "category_3": 7.0,
+        "category_4": 6.67,
+        "category_5": 5.27,
+        "category_6": 4.29,
+        "category_7": 4.17,
+        "category_8": 6.17,
+        "category_9": 7.02,
+        "category_10": 7.8,
+        "category_11": 7.0,
+        "category_12": 5.93,
+        "category_13": 6.5,
+        "category_14": 7.86
+      },
+      "scenario_totals": {
+        "default": 6.45,
+        "equal_weight": 6.5,
+        "max_earnings": 5.72,
+        "best_lifestyle": 6.37,
+        "fastest_to_practice": 6.61,
+        "most_procedural": 6.12
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 20,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 8,
+        "prof_school_years": 1,
+        "trainee_salary": 0,
+        "education_debt": 32,
+        "loan_rate": 5.5,
+        "living_expenses": 40,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 1,
+        "salary_growth_to_mid": 3,
+        "salary_growth_to_peak": 2,
+        "post_peak_growth": 1.5,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 23,
+        "starting_salary": 38,
+        "mid_salary": 52,
+        "peak_salary": 66,
+        "typical_peak": 56,
+        "malpractice_per_yr": 0
+      },
+      "stress": {
+        "ai": 9,
+        "pay": 7,
+        "injury": 6,
+        "match": 8
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          23
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 23,
+        "startSalary": 38
+      }
+    },
+    {
+      "name": "CTE Teacher",
+      "key": "cte_teacher",
+      "profession": "Teaching Cert",
+      "group": "specialized_teaching",
+      "color": "#423572",
+      "path": "Teaching Cert (BA + Cert)",
+      "raw_data": {
+        "startSalary": 44,
+        "midSalary": 58,
+        "peakSalary": 75,
+        "typicalPeak": 65,
+        "hoursWeek": 45,
+        "burnout": 38,
+        "satisfaction": 76,
+        "chooseAgain": 70,
+        "malpracticeCost": 0,
+        "vacation": 10,
+        "matchComp": 5,
+        "annualSpots": 12000,
+        "oneInX": 15,
+        "callSchedule": 2,
+        "physicalToll": 6,
+        "emotionalToll": 7,
+        "aiRiskNow": 1,
+        "aiRiskMedium": 2,
+        "aiRiskLong": 3,
+        "aiNarrative": "CTE (Career and Technical Education) covers auto shop, welding, culinary arts, health sciences, IT, and more \u2014 all hands-on and project-based. AI may enhance some IT and business curriculum, but the shop-floor supervision, equipment operation, and industry certification preparation require experienced human instructors. Many CTE teachers come from industry with alternative certification."
+      },
+      "scores": {
+        "category_1": 7.75,
+        "category_2": 7.33,
+        "category_3": 7.0,
+        "category_4": 6.33,
+        "category_5": 5.43,
+        "category_6": 4.29,
+        "category_7": 4.28,
+        "category_8": 6.88,
+        "category_9": 6.88,
+        "category_10": 7.6,
+        "category_11": 6.8,
+        "category_12": 7.03,
+        "category_13": 6.5,
+        "category_14": 8.0
+      },
+      "scenario_totals": {
+        "default": 6.56,
+        "equal_weight": 6.59,
+        "max_earnings": 5.82,
+        "best_lifestyle": 6.52,
+        "fastest_to_practice": 6.64,
+        "most_procedural": 6.4
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 20,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 8,
+        "prof_school_years": 1,
+        "trainee_salary": 0,
+        "education_debt": 32,
+        "loan_rate": 5.5,
+        "living_expenses": 40,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 1,
+        "salary_growth_to_mid": 3,
+        "salary_growth_to_peak": 2,
+        "post_peak_growth": 1.5,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 23,
+        "starting_salary": 44,
+        "mid_salary": 58,
+        "peak_salary": 75,
+        "typical_peak": 65,
+        "malpractice_per_yr": 0
+      },
+      "stress": {
+        "ai": 8,
+        "pay": 6,
+        "injury": 5,
+        "match": 8
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          23
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 23,
+        "startSalary": 44
+      }
+    },
+    {
+      "name": "Reading Specialist",
+      "key": "reading_specialist",
+      "profession": "Teaching Cert",
+      "group": "student_support",
+      "color": "#533187",
+      "path": "Teaching Cert (BA + Cert)",
+      "raw_data": {
+        "startSalary": 42,
+        "midSalary": 58,
+        "peakSalary": 75,
+        "typicalPeak": 65,
+        "hoursWeek": 44,
+        "burnout": 38,
+        "satisfaction": 75,
+        "chooseAgain": 68,
+        "malpracticeCost": 0,
+        "vacation": 11,
+        "matchComp": 5,
+        "annualSpots": 8000,
+        "oneInX": 22,
+        "callSchedule": 2,
+        "physicalToll": 8,
+        "emotionalToll": 6,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 3,
+        "aiRiskLong": 3,
+        "aiNarrative": "AI reading programs can provide adaptive practice and fluency tracking, but diagnosing specific reading disabilities, selecting appropriate interventions, and building reading confidence in struggling students requires expert human judgment. Reading specialists use the science of reading to reach students who have not responded to general classroom instruction \u2014 work that demands individualized assessment and relationship."
+      },
+      "scores": {
+        "category_1": 7.75,
+        "category_2": 7.33,
+        "category_3": 7.0,
+        "category_4": 6.33,
+        "category_5": 5.39,
+        "category_6": 4.43,
+        "category_7": 4.53,
+        "category_8": 6.92,
+        "category_9": 7.12,
+        "category_10": 7.8,
+        "category_11": 7.0,
+        "category_12": 6.77,
+        "category_13": 6.5,
+        "category_14": 8.57
+      },
+      "scenario_totals": {
+        "default": 6.66,
+        "equal_weight": 6.69,
+        "max_earnings": 5.92,
+        "best_lifestyle": 6.6,
+        "fastest_to_practice": 6.69,
+        "most_procedural": 6.44
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 20,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 8,
+        "prof_school_years": 1,
+        "trainee_salary": 0,
+        "education_debt": 32,
+        "loan_rate": 5.5,
+        "living_expenses": 40,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 1,
+        "salary_growth_to_mid": 3,
+        "salary_growth_to_peak": 2,
+        "post_peak_growth": 1.5,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 23,
+        "starting_salary": 42,
+        "mid_salary": 58,
+        "peak_salary": 75,
+        "typical_peak": 65,
+        "malpractice_per_yr": 0
+      },
+      "stress": {
+        "ai": 8,
+        "pay": 6,
+        "injury": 6,
+        "match": 8
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          23
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 23,
+        "startSalary": 42
+      }
+    },
+    {
+      "name": "Gifted Specialist",
+      "key": "gifted_specialist",
+      "profession": "Teaching Cert",
+      "group": "student_support",
+      "color": "#4e1e72",
+      "path": "Teaching Cert (BA + Cert)",
+      "raw_data": {
+        "startSalary": 42,
+        "midSalary": 58,
+        "peakSalary": 75,
+        "typicalPeak": 65,
+        "hoursWeek": 44,
+        "burnout": 35,
+        "satisfaction": 78,
+        "chooseAgain": 72,
+        "malpracticeCost": 0,
+        "vacation": 11,
+        "matchComp": 4,
+        "annualSpots": 5000,
+        "oneInX": 36,
+        "callSchedule": 2,
+        "physicalToll": 8,
+        "emotionalToll": 7,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 3,
+        "aiRiskLong": 3,
+        "aiNarrative": "AI tools can accelerate gifted students' learning through personalized pacing, but the social-emotional support gifted learners need \u2014 perfectionism counseling, asynchronous development coaching, and intellectual peer community building \u2014 requires skilled human facilitation. Gifted specialists also identify underrepresented gifted students and design enrichment that challenges without overwhelming."
+      },
+      "scores": {
+        "category_1": 7.75,
+        "category_2": 7.0,
+        "category_3": 7.0,
+        "category_4": 6.33,
+        "category_5": 5.39,
+        "category_6": 4.43,
+        "category_7": 4.53,
+        "category_8": 6.92,
+        "category_9": 7.22,
+        "category_10": 7.6,
+        "category_11": 7.0,
+        "category_12": 7.33,
+        "category_13": 6.5,
+        "category_14": 8.71
+      },
+      "scenario_totals": {
+        "default": 6.69,
+        "equal_weight": 6.71,
+        "max_earnings": 5.93,
+        "best_lifestyle": 6.65,
+        "fastest_to_practice": 6.68,
+        "most_procedural": 6.51
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 20,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 8,
+        "prof_school_years": 1,
+        "trainee_salary": 0,
+        "education_debt": 32,
+        "loan_rate": 5.5,
+        "living_expenses": 40,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 1,
+        "salary_growth_to_mid": 3,
+        "salary_growth_to_peak": 2,
+        "post_peak_growth": 1.5,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 23,
+        "starting_salary": 42,
+        "mid_salary": 58,
+        "peak_salary": 75,
+        "typical_peak": 65,
+        "malpractice_per_yr": 0
+      },
+      "stress": {
+        "ai": 8,
+        "pay": 6,
+        "injury": 5,
+        "match": 8
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          23
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 23,
+        "startSalary": 42
+      }
+    },
+    {
+      "name": "School Librarian",
+      "key": "school_librarian",
+      "profession": "Teaching Cert",
+      "group": "student_support",
+      "color": "#753f87",
+      "path": "Teaching Cert (BA + Cert)",
+      "raw_data": {
+        "startSalary": 40,
+        "midSalary": 55,
+        "peakSalary": 72,
+        "typicalPeak": 62,
+        "hoursWeek": 42,
+        "burnout": 35,
+        "satisfaction": 76,
+        "chooseAgain": 68,
+        "malpracticeCost": 0,
+        "vacation": 11,
+        "matchComp": 4,
+        "annualSpots": 4000,
+        "oneInX": 45,
+        "callSchedule": 2,
+        "physicalToll": 8,
+        "emotionalToll": 7,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 3,
+        "aiRiskLong": 4,
+        "aiNarrative": "AI search tools and digital databases are changing how students research, making information literacy education more important than ever. School librarians who teach students to evaluate sources, detect misinformation, and use AI tools responsibly are increasingly vital. However, budget pressures threaten positions \u2014 some districts have eliminated librarian roles, replacing them with aides or digital platforms."
+      },
+      "scores": {
+        "category_1": 7.75,
+        "category_2": 7.0,
+        "category_3": 7.0,
+        "category_4": 6.33,
+        "category_5": 5.33,
+        "category_6": 4.43,
+        "category_7": 4.5,
+        "category_8": 6.53,
+        "category_9": 7.3,
+        "category_10": 7.6,
+        "category_11": 7.0,
+        "category_12": 6.63,
+        "category_13": 6.5,
+        "category_14": 8.71
+      },
+      "scenario_totals": {
+        "default": 6.6,
+        "equal_weight": 6.63,
+        "max_earnings": 5.86,
+        "best_lifestyle": 6.54,
+        "fastest_to_practice": 6.63,
+        "most_procedural": 6.32
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 20,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 8,
+        "prof_school_years": 1,
+        "trainee_salary": 0,
+        "education_debt": 32,
+        "loan_rate": 5.5,
+        "living_expenses": 40,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 1,
+        "salary_growth_to_mid": 3,
+        "salary_growth_to_peak": 2,
+        "post_peak_growth": 1.5,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 23,
+        "starting_salary": 40,
+        "mid_salary": 55,
+        "peak_salary": 72,
+        "typical_peak": 62,
+        "malpractice_per_yr": 0
+      },
+      "stress": {
+        "ai": 7,
+        "pay": 6,
+        "injury": 6,
+        "match": 8
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          23
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 23,
+        "startSalary": 40
+      }
+    }
+  ],
+  "decision_tree": {
+    "q": "Do you want to work with kids (K-12), or with adults and ideas?",
+    "yes": {
+      "q": "Classroom teaching, or running the school?",
+      "options": [
+        {
+          "label": "\ud83d\udcda Classroom teaching",
+          "q": "What age group?",
+          "options": [
+            {
+              "label": "\ud83d\udc76 Elementary (Pre-K to 5th)",
+              "result": "elementary_teacher"
+            },
+            {
+              "label": "\ud83d\udcca High school (math, science, etc.)",
+              "result": "hs_math_teacher"
+            }
+          ]
+        },
+        {
+          "label": "\ud83c\udfdb\ufe0f Running the school",
+          "result": "principal"
+        }
+      ]
+    },
+    "no": {
+      "q": "Research and teaching at a university, or applied science?",
+      "options": [
+        {
+          "label": "\ud83c\udf93 University professor",
+          "result": "cs_professor"
+        },
+        {
+          "label": "\ud83e\uddea Lab or data science",
+          "result": "epidemiologist"
+        },
+        {
+          "label": "\ud83c\udf0d Fieldwork and nature",
+          "result": "marine_biologist"
+        }
+      ]
+    }
+  },
+  "decision_tree_results": {
+    "elementary_teacher": {
+      "tagline": "Shape young minds every day",
+      "stat": "$38K start \u2022 $52K mid \u2022 summers off + pension"
+    },
+    "hs_math_teacher": {
+      "tagline": "Most in-demand teaching subject",
+      "stat": "$42K start \u2022 $60K mid \u2022 pension + summers"
+    },
+    "principal": {
+      "tagline": "Lead a school community",
+      "stat": "$75K start \u2022 $100K+ mid \u2022 M.Ed required"
+    },
+    "cs_professor": {
+      "tagline": "Research + teach + consult",
+      "stat": "$105K start \u2022 $155K+ mid \u2022 PhD + postdoc"
+    },
+    "epidemiologist": {
+      "tagline": "Fight diseases with data",
+      "stat": "$55K start \u2022 $78K mid \u2022 MS required"
+    },
+    "marine_biologist": {
+      "tagline": "Study the ocean",
+      "stat": "$42K start \u2022 $62K mid \u2022 fieldwork + travel"
+    }
+  },
+  "ranking": [
+    {
+      "rank": 1,
+      "track": "Computer Science Professor",
+      "key": "cs_professor",
+      "note": "Best pay + intellectual satisfaction in academia"
+    },
+    {
+      "rank": 2,
+      "track": "Principal",
+      "key": "principal",
+      "note": "Lead a school, strong job security + pension"
+    },
+    {
+      "rank": 3,
+      "track": "Epidemiologist",
+      "key": "epidemiologist",
+      "note": "High impact public health + growing demand"
+    },
+    {
+      "rank": 4,
+      "track": "HS Math Teacher",
+      "key": "hs_math_teacher",
+      "note": "Best job security in K-12, summers off + pension"
+    },
+    {
+      "rank": 5,
+      "track": "Elementary School Teacher",
+      "key": "elementary_teacher",
+      "note": "Highest satisfaction in teaching"
+    },
+    {
+      "rank": 6,
+      "track": "Marine Biologist",
+      "key": "marine_biologist",
+      "note": "Dream job for nature lovers"
+    }
+  ]
+}

@@ -1,0 +1,548 @@
+# Applied Science specialties — 12 careers across 2 groups
+# BS/MS in science fields (4yr undergrad + optional 1.5yr MS)
+profession: Applied Science
+specialties:
+
+# === LAB / MEDICAL RESEARCH (5) ===
+
+- name: "Lab Technician"
+  group: lab_medical_research
+  residencyYears: 0
+  annualSpots: 20000
+  startSalary: 38
+  midSalary: 50
+  peakSalary: 65
+  typicalPeak: 56
+  partTimeFlex: 5
+  procedureMix: 7
+  callSchedule: 2
+  adminBurden: 3
+  hoursWeek: 40
+  burnout: 22
+  partTimeFeasibility: 5
+  vacation: 4
+  careerLongevity: 7
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 7
+  automationRisk: 6
+  handsOnInsulation: 4
+  satisfaction: 68
+  chooseAgain: 60
+  intellectualStim: 6
+  varietyRepetition: 5
+  patientImpact: 6
+  physicalToll: 7
+  emotionalToll: 8
+  malpracticeLiability: 10
+  injuryCareerRisk: 8
+  aiRiskNow: 2
+  aiRiskMedium: 4
+  aiRiskLong: 5
+  aiNarrative: "Lab automation is real and accelerating — robotic pipetting, automated sample processing, and AI-driven analysis are reducing the number of hands needed for routine assays. But someone still has to troubleshoot equipment, prepare non-standard samples, and handle the weird stuff that breaks protocol."
+  fellowshipOptions: "MS in biology/chemistry for advancement; lab manager track; specialized certifications (ASCP, MLT)"
+  compModel: "Hourly or salaried; university, hospital, or private lab positions"
+  revPerPatientVisit: "N/A — salaried/grant-funded"
+  dailyWorkflow: "Sample preparation, running assays, equipment calibration, data logging, inventory management"
+  patientVolume: "20-50 samples/tests per day"
+  supportStaffModel: "Works under PI or lab manager; alongside other techs and grad students"
+  geographicDemandNotes: "Nationwide — every university, hospital, and pharma company has labs"
+  telehealthPotential: 2
+  genderDistribution: "~65% women"
+
+- name: "Data Scientist (Research)"
+  group: lab_medical_research
+  residencyYears: 0
+  annualSpots: 15000
+  startSalary: 70
+  midSalary: 105
+  peakSalary: 150
+  typicalPeak: 130
+  partTimeFlex: 6
+  procedureMix: 5
+  callSchedule: 1
+  adminBurden: 4
+  hoursWeek: 44
+  burnout: 30
+  partTimeFeasibility: 6
+  vacation: 5
+  careerLongevity: 7
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 8
+  automationRisk: 5
+  handsOnInsulation: 3
+  satisfaction: 78
+  chooseAgain: 72
+  intellectualStim: 9
+  varietyRepetition: 7
+  patientImpact: 7
+  physicalToll: 9
+  emotionalToll: 8
+  malpracticeLiability: 10
+  injuryCareerRisk: 9
+  aiRiskNow: 3
+  aiRiskMedium: 5
+  aiRiskLong: 6
+  aiNarrative: "AI automates some routine analysis — cleaning data, running standard models, generating charts — but paradoxically creates even more work for data scientists who can frame research questions, interpret messy real-world data, and communicate findings to non-technical stakeholders. The job is evolving fast, not disappearing."
+  fellowshipOptions: "MS in data science/statistics strongly preferred; PhD for senior research roles; industry certifications (AWS ML, Google Cloud)"
+  compModel: "Base salary + bonus; tech companies, pharma, biotech, or research institutions"
+  revPerPatientVisit: "N/A — salaried or project-based billing"
+  dailyWorkflow: "Data wrangling, statistical modeling, machine learning pipelines, visualization, stakeholder presentations"
+  patientVolume: "2-5 active research projects/analyses"
+  supportStaffModel: "Works with PIs, domain scientists, engineers, and product teams"
+  geographicDemandNotes: "SF Bay Area, Boston, NYC, Seattle — strong remote market nationwide"
+  telehealthPotential: 7
+  genderDistribution: "~25% women"
+
+- name: "Forensic Scientist"
+  group: lab_medical_research
+  residencyYears: 0
+  annualSpots: 5000
+  startSalary: 48
+  midSalary: 65
+  peakSalary: 85
+  typicalPeak: 75
+  partTimeFlex: 3
+  procedureMix: 7
+  callSchedule: 3
+  adminBurden: 5
+  hoursWeek: 42
+  burnout: 30
+  partTimeFeasibility: 3
+  vacation: 4
+  careerLongevity: 8
+  malpracticeFreq: 9
+  malpracticeCost: 0
+  geographicFlex: 5
+  automationRisk: 3
+  handsOnInsulation: 7
+  satisfaction: 74
+  chooseAgain: 66
+  intellectualStim: 8
+  varietyRepetition: 7
+  patientImpact: 8
+  physicalToll: 7
+  emotionalToll: 7
+  malpracticeLiability: 9
+  injuryCareerRisk: 8
+  aiRiskNow: 1
+  aiRiskMedium: 2
+  aiRiskLong: 3
+  aiNarrative: "Forensic science requires courtroom testimony, chain-of-custody documentation, and expert judgment that carries legal weight. AI can help with DNA matching algorithms and pattern recognition, but a judge and jury need a human expert to explain the evidence. The legal system keeps this role very safe from automation."
+  fellowshipOptions: "MS in forensic science for advancement; AAFS board certification; specialization in DNA, toxicology, or trace evidence"
+  compModel: "Salaried; government crime labs (city, state, federal) or private labs"
+  revPerPatientVisit: "N/A — government salaried"
+  dailyWorkflow: "Evidence analysis, lab testing, report writing, court testimony, crime scene processing"
+  patientVolume: "5-15 active cases"
+  supportStaffModel: "Works with detectives, prosecutors, other forensic specialists, and lab techs"
+  geographicDemandNotes: "Major metro crime labs, state bureaus of investigation, FBI — tied to population centers"
+  telehealthPotential: 2
+  genderDistribution: "~55% women"
+
+- name: "Epidemiologist"
+  group: lab_medical_research
+  residencyYears: 0
+  annualSpots: 8000
+  startSalary: 55
+  midSalary: 78
+  peakSalary: 105
+  typicalPeak: 90
+  partTimeFlex: 5
+  procedureMix: 5
+  callSchedule: 3
+  adminBurden: 5
+  hoursWeek: 42
+  burnout: 28
+  partTimeFeasibility: 5
+  vacation: 4
+  careerLongevity: 8
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 6
+  automationRisk: 4
+  handsOnInsulation: 5
+  satisfaction: 78
+  chooseAgain: 72
+  intellectualStim: 9
+  varietyRepetition: 7
+  patientImpact: 8
+  physicalToll: 8
+  emotionalToll: 7
+  malpracticeLiability: 10
+  injuryCareerRisk: 9
+  aiRiskNow: 2
+  aiRiskMedium: 3
+  aiRiskLong: 4
+  aiNarrative: "COVID proved that epidemiologists are essential — AI can crunch disease data faster, but interpreting outbreak patterns, advising public health policy, and communicating risk to the public require human judgment and trust. The field has more visibility and funding than ever."
+  fellowshipOptions: "MPH/MS in epidemiology strongly preferred; PhD for research leadership; CDC EIS fellowship is the gold standard"
+  compModel: "Salaried; CDC, state/local health departments, WHO, pharma, or academia"
+  revPerPatientVisit: "N/A — grant-funded or government salaried"
+  dailyWorkflow: "Disease surveillance, outbreak investigation, data analysis, policy briefs, fieldwork during outbreaks"
+  patientVolume: "3-8 active studies or outbreak investigations"
+  supportStaffModel: "Works with biostatisticians, lab scientists, public health officers, and community health workers"
+  geographicDemandNotes: "Atlanta (CDC), DC (NIH/WHO), state capitals, major research universities — some remote work possible"
+  telehealthPotential: 5
+  genderDistribution: "~65% women"
+
+- name: "Food Scientist"
+  group: lab_medical_research
+  residencyYears: 0
+  annualSpots: 6000
+  startSalary: 50
+  midSalary: 70
+  peakSalary: 95
+  typicalPeak: 82
+  partTimeFlex: 4
+  procedureMix: 7
+  callSchedule: 2
+  adminBurden: 4
+  hoursWeek: 42
+  burnout: 22
+  partTimeFeasibility: 4
+  vacation: 4
+  careerLongevity: 8
+  malpracticeFreq: 9
+  malpracticeCost: 0
+  geographicFlex: 5
+  automationRisk: 3
+  handsOnInsulation: 7
+  satisfaction: 72
+  chooseAgain: 65
+  intellectualStim: 7
+  varietyRepetition: 6
+  patientImpact: 7
+  physicalToll: 7
+  emotionalToll: 8
+  malpracticeLiability: 9
+  injuryCareerRisk: 8
+  aiRiskNow: 2
+  aiRiskMedium: 3
+  aiRiskLong: 4
+  aiNarrative: "Food science is deeply hands-on — you taste, smell, and texture-test products that AI literally cannot experience. AI helps with formulation optimization and shelf-life prediction, but sensory evaluation, pilot plant work, and food safety inspections need human presence."
+  fellowshipOptions: "MS in food science for R&D roles; IFT certifications; specialization in flavor chemistry, food safety, or product development"
+  compModel: "Salaried; CPG companies (Kraft, General Mills), ingredient suppliers, or government (FDA, USDA)"
+  revPerPatientVisit: "N/A — salaried"
+  dailyWorkflow: "Product development, sensory testing, quality checks, pilot plant trials, regulatory compliance"
+  patientVolume: "3-8 active product development projects"
+  supportStaffModel: "Works with lab techs, sensory panels, quality assurance, marketing, and production teams"
+  geographicDemandNotes: "Midwest (Minneapolis, Chicago — CPG HQs), California, New Jersey — near food manufacturing"
+  telehealthPotential: 2
+  genderDistribution: "~55% women"
+
+# === FIELD / EARTH SCIENCE (7) ===
+
+- name: "Environmental Scientist"
+  group: field_earth_science
+  residencyYears: 0
+  annualSpots: 10000
+  startSalary: 45
+  midSalary: 65
+  peakSalary: 88
+  typicalPeak: 75
+  partTimeFlex: 4
+  procedureMix: 6
+  callSchedule: 2
+  adminBurden: 5
+  hoursWeek: 42
+  burnout: 24
+  partTimeFeasibility: 4
+  vacation: 4
+  careerLongevity: 8
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 6
+  automationRisk: 3
+  handsOnInsulation: 7
+  satisfaction: 76
+  chooseAgain: 68
+  intellectualStim: 7
+  varietyRepetition: 7
+  patientImpact: 7
+  physicalToll: 6
+  emotionalToll: 8
+  malpracticeLiability: 10
+  injuryCareerRisk: 7
+  aiRiskNow: 2
+  aiRiskMedium: 3
+  aiRiskLong: 4
+  aiNarrative: "Environmental science means boots in the mud — collecting water samples, conducting site assessments, and writing environmental impact reports that require site-specific judgment. AI helps with data analysis and modeling, but the fieldwork and regulatory compliance need humans."
+  fellowshipOptions: "MS for advancement; certifications in hazardous waste (40-hour HAZWOPER), wetland delineation; optional PE or PG"
+  compModel: "Salaried; environmental consulting firms, government (EPA, state DEQs), or industry"
+  revPerPatientVisit: "N/A — salaried or project-based billing"
+  dailyWorkflow: "Field sampling, site assessments, environmental impact reports, regulatory permitting, data analysis"
+  patientVolume: "3-8 active assessment or remediation projects"
+  supportStaffModel: "Works with field techs, geologists, engineers, regulators, and project managers"
+  geographicDemandNotes: "Nationwide — tied to industrial sites, construction, and federal cleanup programs"
+  telehealthPotential: 3
+  genderDistribution: "~45% women"
+
+- name: "Wildlife Biologist"
+  group: field_earth_science
+  residencyYears: 0
+  annualSpots: 4000
+  startSalary: 42
+  midSalary: 60
+  peakSalary: 80
+  typicalPeak: 70
+  partTimeFlex: 3
+  procedureMix: 7
+  callSchedule: 2
+  adminBurden: 4
+  hoursWeek: 42
+  burnout: 25
+  partTimeFeasibility: 3
+  vacation: 4
+  careerLongevity: 8
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 4
+  automationRisk: 2
+  handsOnInsulation: 8
+  satisfaction: 80
+  chooseAgain: 72
+  intellectualStim: 8
+  varietyRepetition: 7
+  patientImpact: 7
+  physicalToll: 5
+  emotionalToll: 7
+  malpracticeLiability: 10
+  injuryCareerRisk: 6
+  aiRiskNow: 1
+  aiRiskMedium: 2
+  aiRiskLong: 3
+  aiNarrative: "You spend your days tracking animals through forests, setting up camera traps, and doing population surveys in remote areas. AI helps with camera trap image classification and habitat modeling, but the physical fieldwork in rugged terrain is impossible to automate. This is about as AI-proof as it gets."
+  fellowshipOptions: "MS strongly preferred for federal positions; PhD for research; certifications in GIS, wildlife capture techniques"
+  compModel: "Salaried; government (USFWS, state wildlife agencies, USFS) or consulting"
+  revPerPatientVisit: "N/A — government GS scale or salaried"
+  dailyWorkflow: "Field surveys, population monitoring, habitat assessment, GPS/GIS mapping, management plans"
+  patientVolume: "2-5 active species/habitat studies"
+  supportStaffModel: "Works with field techs, other biologists, GIS specialists, and land managers"
+  geographicDemandNotes: "Rural areas, national parks, wildlife refuges, BLM lands — mostly western and southern states"
+  telehealthPotential: 2
+  genderDistribution: "~45% women"
+
+- name: "Marine Biologist"
+  group: field_earth_science
+  residencyYears: 0
+  annualSpots: 2000
+  startSalary: 42
+  midSalary: 62
+  peakSalary: 82
+  typicalPeak: 72
+  partTimeFlex: 3
+  procedureMix: 7
+  callSchedule: 2
+  adminBurden: 4
+  hoursWeek: 42
+  burnout: 25
+  partTimeFeasibility: 3
+  vacation: 4
+  careerLongevity: 8
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 3
+  automationRisk: 2
+  handsOnInsulation: 8
+  satisfaction: 82
+  chooseAgain: 75
+  intellectualStim: 8
+  varietyRepetition: 7
+  patientImpact: 7
+  physicalToll: 5
+  emotionalToll: 8
+  malpracticeLiability: 10
+  injuryCareerRisk: 6
+  aiRiskNow: 1
+  aiRiskMedium: 2
+  aiRiskLong: 3
+  aiNarrative: "SCUBA diving on coral reefs, tagging sea turtles, and working on research vessels — this is the definition of hands-on work that AI cannot replace. AI helps analyze ocean data and satellite imagery, but the physical fieldwork in marine environments is uniquely human. Jobs are scarce but deeply rewarding."
+  fellowshipOptions: "MS/PhD strongly preferred for research positions; SCUBA certifications; specialization in marine ecology, fisheries, or oceanography"
+  compModel: "Salaried; NOAA, universities, aquariums, marine research institutes, or environmental consulting"
+  revPerPatientVisit: "N/A — grant-funded or government salaried"
+  dailyWorkflow: "Dive surveys, specimen collection, water sampling, data analysis, report writing, vessel-based research"
+  patientVolume: "1-3 active research projects or surveys"
+  supportStaffModel: "Works with dive teams, boat captains, other marine scientists, and lab technicians"
+  geographicDemandNotes: "Coastal areas only — Florida, California, Hawaii, Pacific Northwest, Gulf Coast"
+  telehealthPotential: 2
+  genderDistribution: "~50% women"
+
+- name: "Geologist"
+  group: field_earth_science
+  residencyYears: 0
+  annualSpots: 7000
+  startSalary: 52
+  midSalary: 75
+  peakSalary: 105
+  typicalPeak: 90
+  partTimeFlex: 3
+  procedureMix: 7
+  callSchedule: 2
+  adminBurden: 4
+  hoursWeek: 44
+  burnout: 23
+  partTimeFeasibility: 3
+  vacation: 4
+  careerLongevity: 9
+  malpracticeFreq: 9
+  malpracticeCost: 0
+  geographicFlex: 5
+  automationRisk: 3
+  handsOnInsulation: 7
+  satisfaction: 76
+  chooseAgain: 70
+  intellectualStim: 8
+  varietyRepetition: 7
+  patientImpact: 6
+  physicalToll: 5
+  emotionalToll: 8
+  malpracticeLiability: 9
+  injuryCareerRisk: 7
+  aiRiskNow: 2
+  aiRiskMedium: 3
+  aiRiskLong: 4
+  aiNarrative: "Geology means hiking to outcrops, logging drill cores, and making judgment calls about what's underground based on limited data. AI helps with seismic interpretation and 3D modeling, but every site is geologically unique, and the fieldwork is impossible to automate. Oil/gas geologists earn significantly more than environmental geologists."
+  fellowshipOptions: "MS strongly preferred; PG (Professional Geologist) licensure; specialization in petroleum, environmental, mining, or hydrogeology"
+  compModel: "Salaried; oil/gas companies, mining, environmental consulting, or government (USGS, state surveys)"
+  revPerPatientVisit: "N/A — salaried or project-based billing"
+  dailyWorkflow: "Field mapping, core logging, well-site geology, GIS analysis, report writing, site investigations"
+  patientVolume: "2-6 active field projects or well programs"
+  supportStaffModel: "Works with field techs, drillers, engineers, GIS analysts, and other geoscientists"
+  geographicDemandNotes: "Oil states (TX, CO, OK), mining regions (NV, AZ, WY), environmental consulting nationwide"
+  telehealthPotential: 3
+  genderDistribution: "~35% women"
+
+- name: "Meteorologist"
+  group: field_earth_science
+  residencyYears: 0
+  annualSpots: 3500
+  startSalary: 50
+  midSalary: 72
+  peakSalary: 100
+  typicalPeak: 85
+  partTimeFlex: 3
+  procedureMix: 5
+  callSchedule: 3
+  adminBurden: 3
+  hoursWeek: 40
+  burnout: 22
+  partTimeFeasibility: 3
+  vacation: 4
+  careerLongevity: 9
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 5
+  automationRisk: 4
+  handsOnInsulation: 5
+  satisfaction: 76
+  chooseAgain: 70
+  intellectualStim: 8
+  varietyRepetition: 6
+  patientImpact: 7
+  physicalToll: 8
+  emotionalToll: 8
+  malpracticeLiability: 10
+  injuryCareerRisk: 8
+  aiRiskNow: 2
+  aiRiskMedium: 4
+  aiRiskLong: 5
+  aiNarrative: "AI weather models (like Google DeepMind's GenCast) are getting impressively accurate, which means fewer meteorologists are needed for routine forecasting. But severe weather warnings, broadcast meteorology, and specialized consulting (aviation, energy, agriculture) still need human judgment and communication skills."
+  fellowshipOptions: "MS for research or NWS advancement; AMS Certified Broadcast Meteorologist; specialization in severe weather, climatology, or aviation"
+  compModel: "Salaried; National Weather Service (GS scale), TV stations, private weather companies (DTN, WSI), or military"
+  revPerPatientVisit: "N/A — salaried"
+  dailyWorkflow: "Weather analysis, forecast production, severe weather monitoring, public communication, model interpretation"
+  patientVolume: "Multiple daily forecast cycles; continuous monitoring during severe weather"
+  supportStaffModel: "Works with other forecasters, hydrologists, emergency managers, and broadcast producers"
+  geographicDemandNotes: "NWS offices nationwide (122 forecast offices), TV markets, private weather companies in major metros"
+  telehealthPotential: 4
+  genderDistribution: "~30% women"
+
+- name: "Science Writer"
+  group: field_earth_science
+  residencyYears: 0
+  annualSpots: 5000
+  startSalary: 42
+  midSalary: 62
+  peakSalary: 85
+  typicalPeak: 72
+  partTimeFlex: 6
+  procedureMix: 5
+  callSchedule: 1
+  adminBurden: 3
+  hoursWeek: 40
+  burnout: 20
+  partTimeFeasibility: 6
+  vacation: 5
+  careerLongevity: 9
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 8
+  automationRisk: 6
+  handsOnInsulation: 3
+  satisfaction: 78
+  chooseAgain: 70
+  intellectualStim: 8
+  varietyRepetition: 8
+  patientImpact: 6
+  physicalToll: 9
+  emotionalToll: 8
+  malpracticeLiability: 10
+  injuryCareerRisk: 9
+  aiRiskNow: 3
+  aiRiskMedium: 5
+  aiRiskLong: 6
+  aiNarrative: "AI can generate passable science summaries and press releases, which is putting pressure on entry-level science writing. But truly excellent science journalism — investigative reporting, long-form features, and making complex research accessible — still needs a human who deeply understands both the science and the audience. The bar for entry is rising."
+  fellowshipOptions: "MS in science journalism or science communication; NASW membership; build a portfolio through freelancing"
+  compModel: "Salaried or freelance; media outlets, universities, nonprofits, pharmaceutical companies, or self-employed"
+  revPerPatientVisit: "N/A — salaried or per-article rates ($0.50-$2/word for freelance)"
+  dailyWorkflow: "Researching studies, interviewing scientists, writing articles/reports, editing, pitching stories"
+  patientVolume: "2-6 active articles or projects per month"
+  supportStaffModel: "Works with editors, fact-checkers, graphic designers, and scientists as sources"
+  geographicDemandNotes: "NYC, DC, Boston (media/research hubs) — strong remote/freelance market"
+  telehealthPotential: 7
+  genderDistribution: "~60% women"
+
+- name: "Museum Curator"
+  group: field_earth_science
+  residencyYears: 0
+  annualSpots: 1000
+  startSalary: 40
+  midSalary: 55
+  peakSalary: 75
+  typicalPeak: 65
+  partTimeFlex: 4
+  procedureMix: 6
+  callSchedule: 1
+  adminBurden: 5
+  hoursWeek: 40
+  burnout: 20
+  partTimeFeasibility: 4
+  vacation: 4
+  careerLongevity: 9
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 3
+  automationRisk: 2
+  handsOnInsulation: 8
+  satisfaction: 82
+  chooseAgain: 74
+  intellectualStim: 8
+  varietyRepetition: 7
+  patientImpact: 6
+  physicalToll: 7
+  emotionalToll: 9
+  malpracticeLiability: 10
+  injuryCareerRisk: 8
+  aiRiskNow: 1
+  aiRiskMedium: 2
+  aiRiskLong: 3
+  aiNarrative: "Curation is deeply human — deciding which specimens to acquire, designing exhibits that tell a story, and preserving irreplaceable objects. AI can help with collections databases and digital exhibits, but the curatorial judgment, physical conservation work, and community engagement cannot be automated. Positions are rare and competitive."
+  fellowshipOptions: "MS/PhD in a scientific discipline strongly preferred; museum studies certificate; specialization in a collection area (paleontology, entomology, mineralogy, etc.)"
+  compModel: "Salaried; natural history museums, science museums, university collections, or botanical gardens"
+  revPerPatientVisit: "N/A — salaried/endowment-funded"
+  dailyWorkflow: "Collections management, exhibit development, research, grant writing, public programming, conservation oversight"
+  patientVolume: "1-3 active exhibits plus ongoing collections stewardship"
+  supportStaffModel: "Works with registrars, exhibit designers, conservators, educators, and volunteers"
+  geographicDemandNotes: "Major cities only — DC (Smithsonian), NYC (AMNH), Chicago (Field), LA, San Francisco — very few positions per museum"
+  telehealthPotential: 2
+  genderDistribution: "~55% women"

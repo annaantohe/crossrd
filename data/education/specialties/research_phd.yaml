@@ -1,0 +1,814 @@
+# Research PhD specialties — 18 careers across 2 groups
+# PhD + postdoc pathway (4yr undergrad + 5yr PhD + 2yr postdoc)
+profession: Research PhD
+specialties:
+
+- name: Biology Professor
+  group: stem_professors
+  residencyYears: 2
+  annualSpots: 1200
+  startSalary: 65
+  midSalary: 95
+  peakSalary: 130
+  typicalPeak: 110
+  partTimeFlex: 3
+  procedureMix: 7
+  callSchedule: 3
+  adminBurden: 5
+  hoursWeek: 52
+  burnout: 35
+  partTimeFeasibility: 3
+  vacation: 8
+  careerLongevity: 9
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 4
+  automationRisk: 4
+  handsOnInsulation: 7
+  satisfaction: 76
+  chooseAgain: 68
+  intellectualStim: 9
+  varietyRepetition: 7
+  patientImpact: 7
+  physicalToll: 8
+  emotionalToll: 6
+  malpracticeLiability: 10
+  injuryCareerRisk: 9
+  aiRiskNow: 2
+  aiRiskMedium: 3
+  aiRiskLong: 4
+  aiNarrative: "AI accelerates genomics, bioinformatics, and image analysis but cannot replace the wet-lab experimental design, organism-level thinking, and mentorship that define biology professorships. You still need someone to ask the right questions and interpret surprising results."
+  fellowshipOptions: Postdoc 2-4yr required; sabbatical every 7yr; named chairs; department chair; institute director
+  compModel: 9-month academic salary + summer research funding; NIH/NSF grants cover summer months
+  revPerPatientVisit: "N/A — grant funding $150K-500K/yr typical (NIH R01 ~$250K direct costs)"
+  dailyWorkflow: Lab oversight/mentoring 30%, grant writing 25%, teaching 20%, papers/reviews 15%, service 10%
+  patientVolume: "2-3 courses/yr, 20-30 students each, 4-8 PhD advisees"
+  supportStaffModel: 3-6 grad students, 1-2 postdocs, lab manager, undergraduate researchers
+  geographicDemandNotes: R1 research universities nationwide; medical schools; strong demand at state flagships and private research universities
+  telehealthPotential: 4
+  genderDistribution: "~45% women; one of the more balanced STEM fields"
+
+- name: Chemistry Professor
+  group: stem_professors
+  residencyYears: 2
+  annualSpots: 900
+  startSalary: 70
+  midSalary: 100
+  peakSalary: 140
+  typicalPeak: 120
+  partTimeFlex: 3
+  procedureMix: 7
+  callSchedule: 3
+  adminBurden: 5
+  hoursWeek: 52
+  burnout: 34
+  partTimeFeasibility: 3
+  vacation: 8
+  careerLongevity: 9
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 3
+  automationRisk: 4
+  handsOnInsulation: 8
+  satisfaction: 75
+  chooseAgain: 68
+  intellectualStim: 9
+  varietyRepetition: 7
+  patientImpact: 6
+  physicalToll: 8
+  emotionalToll: 6
+  malpracticeLiability: 10
+  injuryCareerRisk: 9
+  aiRiskNow: 2
+  aiRiskMedium: 3
+  aiRiskLong: 4
+  aiNarrative: "AI helps with molecular modeling and reaction prediction, but synthesis is fundamentally hands-on. You can't computationally create a new molecule — someone has to stand at the fume hood. Chemistry professors who embrace computational tools alongside wet chemistry will thrive."
+  fellowshipOptions: Postdoc 2-3yr required; sabbatical every 7yr; endowed chairs; industry consulting common
+  compModel: 9-month academic salary + summer research funding; NSF/NIH/DOE grants; industry consulting supplements
+  revPerPatientVisit: "N/A — grant funding $100K-400K/yr typical; industry consulting adds $20K-80K"
+  dailyWorkflow: Lab oversight/mentoring 30%, grant writing 25%, teaching 20%, papers/reviews 15%, service 10%
+  patientVolume: "2-3 courses/yr, 20-40 students each, 3-7 PhD advisees"
+  supportStaffModel: 3-5 grad students, 1-2 postdocs, lab manager, instrumentation specialist
+  geographicDemandNotes: R1 universities nationwide; strong at schools with medical centers and materials science programs
+  telehealthPotential: 4
+  genderDistribution: "~38% women; organic and analytical more balanced, physical chem less so"
+
+- name: Physics Professor
+  group: stem_professors
+  residencyYears: 2
+  annualSpots: 700
+  startSalary: 72
+  midSalary: 105
+  peakSalary: 145
+  typicalPeak: 125
+  partTimeFlex: 3
+  procedureMix: 6
+  callSchedule: 3
+  adminBurden: 5
+  hoursWeek: 54
+  burnout: 36
+  partTimeFeasibility: 2
+  vacation: 8
+  careerLongevity: 10
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 3
+  automationRisk: 3
+  handsOnInsulation: 6
+  satisfaction: 78
+  chooseAgain: 70
+  intellectualStim: 10
+  varietyRepetition: 7
+  patientImpact: 7
+  physicalToll: 9
+  emotionalToll: 6
+  malpracticeLiability: 10
+  injuryCareerRisk: 10
+  aiRiskNow: 2
+  aiRiskMedium: 3
+  aiRiskLong: 4
+  aiNarrative: "Physics professors push the boundaries of fundamental knowledge — AI helps with simulation and data analysis (especially in particle physics and astrophysics), but the creative theoretical leaps and experimental design remain deeply human. The field's rigor actually makes it resistant to shallow AI substitution."
+  fellowshipOptions: Postdoc 2-4yr required; sabbatical every 7yr; named chairs; national lab affiliations common
+  compModel: 9-month academic salary + summer research funding; DOE/NSF grants; some national lab joint appointments
+  revPerPatientVisit: "N/A — grant funding $100K-500K/yr typical; large collaborations (CERN, LIGO) run $1M+"
+  dailyWorkflow: Research/theory 35%, mentoring grad students 20%, teaching 20%, grant writing 15%, service 10%
+  patientVolume: "2-3 courses/yr, 15-30 students each, 3-6 PhD advisees"
+  supportStaffModel: 3-5 grad students, 1-2 postdocs, lab tech (experimental), shared computing resources
+  geographicDemandNotes: R1 universities; strong at schools near national labs (Fermilab, Brookhaven, SLAC); very competitive market
+  telehealthPotential: 5
+  genderDistribution: "~20% women; one of the lowest in academia, improving slowly"
+
+- name: Computer Science Professor
+  group: stem_professors
+  residencyYears: 2
+  annualSpots: 2000
+  startSalary: 105
+  midSalary: 155
+  peakSalary: 220
+  typicalPeak: 180
+  partTimeFlex: 4
+  procedureMix: 6
+  callSchedule: 3
+  adminBurden: 5
+  hoursWeek: 53
+  burnout: 38
+  partTimeFeasibility: 3
+  vacation: 7
+  careerLongevity: 9
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 5
+  automationRisk: 4
+  handsOnInsulation: 5
+  satisfaction: 82
+  chooseAgain: 75
+  intellectualStim: 10
+  varietyRepetition: 8
+  patientImpact: 8
+  physicalToll: 9
+  emotionalToll: 5
+  malpracticeLiability: 10
+  injuryCareerRisk: 10
+  aiRiskNow: 3
+  aiRiskMedium: 4
+  aiRiskLong: 5
+  aiNarrative: "CS professors are at the epicenter of the AI revolution — many are building the tools themselves. The field evolves so fast that staying current is exhausting, but it also means constant demand for people who can teach and research the next thing. Industry consulting creates a lucrative safety net."
+  fellowshipOptions: Postdoc 1-2yr (shorter than other fields); sabbatical every 7yr; endowed chairs; industry sabbaticals at FAANG common
+  compModel: 9-month academic salary + summer funding + industry consulting ($50K-200K extra); retention packages to prevent industry poaching
+  revPerPatientVisit: "N/A — grant funding $200K-600K/yr typical; industry consulting/startups add significantly"
+  dailyWorkflow: Research/coding 35%, mentoring students 20%, teaching 20%, grants/papers 15%, service 10%
+  patientVolume: "2-3 courses/yr, 30-80 students each (CS classes are huge), 4-8 PhD advisees"
+  supportStaffModel: 4-8 grad students, 1-3 postdocs, research engineers, shared GPU clusters
+  geographicDemandNotes: Nationwide demand at nearly all universities; strongest at top-25 CS programs; remote collaboration increasingly common
+  telehealthPotential: 6
+  genderDistribution: "~25% women faculty; improving but still heavily male-dominated"
+
+- name: Mathematics Professor
+  group: stem_professors
+  residencyYears: 2
+  annualSpots: 800
+  startSalary: 70
+  midSalary: 100
+  peakSalary: 140
+  typicalPeak: 120
+  partTimeFlex: 3
+  procedureMix: 5
+  callSchedule: 2
+  adminBurden: 4
+  hoursWeek: 50
+  burnout: 32
+  partTimeFeasibility: 3
+  vacation: 9
+  careerLongevity: 10
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 4
+  automationRisk: 3
+  handsOnInsulation: 5
+  satisfaction: 78
+  chooseAgain: 72
+  intellectualStim: 10
+  varietyRepetition: 6
+  patientImpact: 7
+  physicalToll: 9
+  emotionalToll: 6
+  malpracticeLiability: 10
+  injuryCareerRisk: 10
+  aiRiskNow: 2
+  aiRiskMedium: 3
+  aiRiskLong: 5
+  aiNarrative: "AI proof assistants (Lean, Coq) are changing how math is verified, and AI can conjecture patterns, but true mathematical creativity — crafting elegant proofs and identifying deep structural connections — remains deeply human. Teaching mathematical thinking is also hard to automate."
+  fellowshipOptions: Postdoc 2-3yr required; sabbatical every 7yr; named chairs; IAS/MSRI fellowships prestigious
+  compModel: 9-month academic salary + summer research funding; NSF grants; quant finance consulting supplements for applied math
+  revPerPatientVisit: "N/A — grant funding $50K-200K/yr typical; smaller grants than lab sciences"
+  dailyWorkflow: Research/proofs 40%, teaching 25%, mentoring 15%, papers/reviews 10%, service 10%
+  patientVolume: "2-4 courses/yr, 15-40 students each, 2-5 PhD advisees"
+  supportStaffModel: 2-4 grad students, occasional postdoc, shared department admin; minimal lab infrastructure
+  geographicDemandNotes: Every university needs math faculty; pure math positions very competitive, applied math/stats positions more available
+  telehealthPotential: 6
+  genderDistribution: "~30% women; higher in applied math and statistics, lower in pure math"
+
+- name: Neuroscience Professor
+  group: stem_professors
+  residencyYears: 2
+  annualSpots: 600
+  startSalary: 68
+  midSalary: 98
+  peakSalary: 135
+  typicalPeak: 115
+  partTimeFlex: 3
+  procedureMix: 7
+  callSchedule: 3
+  adminBurden: 5
+  hoursWeek: 53
+  burnout: 36
+  partTimeFeasibility: 3
+  vacation: 7
+  careerLongevity: 9
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 3
+  automationRisk: 4
+  handsOnInsulation: 7
+  satisfaction: 77
+  chooseAgain: 69
+  intellectualStim: 10
+  varietyRepetition: 7
+  patientImpact: 8
+  physicalToll: 8
+  emotionalToll: 6
+  malpracticeLiability: 10
+  injuryCareerRisk: 9
+  aiRiskNow: 2
+  aiRiskMedium: 3
+  aiRiskLong: 4
+  aiNarrative: "Neuroscience sits at the frontier of understanding consciousness and brain function — areas where AI is a tool, not a replacement. AI helps analyze neural imaging data and model circuits, but designing experiments to probe the brain's deepest mysteries requires human intuition and creativity."
+  fellowshipOptions: Postdoc 2-4yr required (often 2 postdocs); sabbatical every 7yr; named chairs; brain initiative funding
+  compModel: 9-month academic salary + summer research funding; NIH/NSF grants; BRAIN Initiative boosting funding
+  revPerPatientVisit: "N/A — grant funding $150K-500K/yr typical (NIH R01 + supplements)"
+  dailyWorkflow: Lab oversight/experiments 30%, data analysis 20%, mentoring 20%, grant writing 15%, teaching 15%
+  patientVolume: "1-3 courses/yr, 15-25 students each, 3-6 PhD advisees"
+  supportStaffModel: 3-6 grad students, 1-2 postdocs, lab manager, animal care staff (if applicable)
+  geographicDemandNotes: R1 universities with medical schools; strong at MIT, Stanford, Hopkins, UCSD; limited positions overall
+  telehealthPotential: 4
+  genderDistribution: "~42% women; relatively balanced for STEM"
+
+- name: Environmental Science Professor
+  group: stem_professors
+  residencyYears: 2
+  annualSpots: 500
+  startSalary: 62
+  midSalary: 88
+  peakSalary: 120
+  typicalPeak: 102
+  partTimeFlex: 3
+  procedureMix: 7
+  callSchedule: 3
+  adminBurden: 5
+  hoursWeek: 50
+  burnout: 33
+  partTimeFeasibility: 3
+  vacation: 8
+  careerLongevity: 9
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 4
+  automationRisk: 3
+  handsOnInsulation: 7
+  satisfaction: 79
+  chooseAgain: 72
+  intellectualStim: 9
+  varietyRepetition: 8
+  patientImpact: 8
+  physicalToll: 8
+  emotionalToll: 6
+  malpracticeLiability: 10
+  injuryCareerRisk: 9
+  aiRiskNow: 2
+  aiRiskMedium: 3
+  aiRiskLong: 4
+  aiNarrative: "Environmental science combines field work, lab analysis, and policy — a mix that is hard to automate. AI helps with remote sensing and climate modeling, but someone still needs to collect soil samples, design field studies, and translate science into actionable policy."
+  fellowshipOptions: Postdoc 2-3yr required; sabbatical every 7yr; EPA/NOAA fellowships; field station directorships
+  compModel: 9-month academic salary + summer field research funding; EPA/NSF/NOAA grants
+  revPerPatientVisit: "N/A — grant funding $80K-300K/yr typical; field work grants often smaller"
+  dailyWorkflow: Field work/lab 30%, data analysis/modeling 25%, teaching 20%, grant writing 15%, service 10%
+  patientVolume: "2-3 courses/yr, 15-25 students each, 3-5 PhD advisees"
+  supportStaffModel: 2-4 grad students, 1 postdoc, field technicians, GIS specialist
+  geographicDemandNotes: Universities near ecological research areas; strong at land-grant universities and coastal schools; growing demand with climate focus
+  telehealthPotential: 4
+  genderDistribution: "~45% women; one of the more gender-balanced STEM fields"
+
+- name: Astronomy Professor
+  group: stem_professors
+  residencyYears: 2
+  annualSpots: 200
+  startSalary: 68
+  midSalary: 95
+  peakSalary: 130
+  typicalPeak: 110
+  partTimeFlex: 3
+  procedureMix: 6
+  callSchedule: 3
+  adminBurden: 5
+  hoursWeek: 52
+  burnout: 34
+  partTimeFeasibility: 2
+  vacation: 8
+  careerLongevity: 10
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 3
+  automationRisk: 4
+  handsOnInsulation: 5
+  satisfaction: 80
+  chooseAgain: 72
+  intellectualStim: 10
+  varietyRepetition: 7
+  patientImpact: 6
+  physicalToll: 9
+  emotionalToll: 6
+  malpracticeLiability: 10
+  injuryCareerRisk: 10
+  aiRiskNow: 2
+  aiRiskMedium: 4
+  aiRiskLong: 5
+  aiNarrative: "AI is transforming astronomy — machine learning sifts through vast datasets from telescopes like JWST and Rubin Observatory. But identifying which questions to ask, designing observing programs, and interpreting what the universe is telling us remains deeply human. Extremely competitive with very few tenure-track slots."
+  fellowshipOptions: Postdoc 2-4yr required (often multiple postdocs); sabbatical every 7yr; named chairs; observatory time allocations
+  compModel: 9-month academic salary + summer research funding; NASA/NSF grants; some national observatory appointments
+  revPerPatientVisit: "N/A — grant funding $80K-300K/yr typical; large telescope projects run much higher"
+  dailyWorkflow: Data analysis/modeling 35%, observing/proposals 20%, teaching 20%, mentoring 15%, service 10%
+  patientVolume: "2-3 courses/yr, 15-30 students each, 2-4 PhD advisees"
+  supportStaffModel: 2-4 grad students, 1 postdoc, shared telescope/computing resources, observatory staff
+  geographicDemandNotes: Very limited positions; universities with observatories (Arizona, Hawaii, Caltech); some NASA/STScI positions; ~30-40 tenure-track openings/year nationwide
+  telehealthPotential: 5
+  genderDistribution: "~28% women; improving but pipeline is slow"
+
+- name: Psychology Professor
+  group: humanities_social
+  residencyYears: 2
+  annualSpots: 1000
+  startSalary: 65
+  midSalary: 90
+  peakSalary: 125
+  typicalPeak: 105
+  partTimeFlex: 3
+  procedureMix: 6
+  callSchedule: 3
+  adminBurden: 5
+  hoursWeek: 50
+  burnout: 35
+  partTimeFeasibility: 3
+  vacation: 8
+  careerLongevity: 9
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 4
+  automationRisk: 3
+  handsOnInsulation: 6
+  satisfaction: 76
+  chooseAgain: 68
+  intellectualStim: 9
+  varietyRepetition: 7
+  patientImpact: 8
+  physicalToll: 9
+  emotionalToll: 6
+  malpracticeLiability: 10
+  injuryCareerRisk: 10
+  aiRiskNow: 2
+  aiRiskMedium: 3
+  aiRiskLong: 4
+  aiNarrative: "Psychology research involves understanding human behavior through experiments that require IRB approval, subject interaction, and nuanced interpretation. AI helps with data analysis and literature review, but designing studies about the human mind requires a human mind. The replication crisis has actually increased demand for rigorous researchers."
+  fellowshipOptions: Postdoc 1-3yr required; sabbatical every 7yr; named chairs; APA fellowships; clinical program directorships
+  compModel: 9-month academic salary + summer research funding; NIH/NSF grants; some clinical practice supplements
+  revPerPatientVisit: "N/A — grant funding $100K-350K/yr typical; clinical psych can supplement with practice"
+  dailyWorkflow: Research design/analysis 30%, teaching 25%, mentoring 20%, grant writing 15%, service 10%
+  patientVolume: "2-4 courses/yr, 20-35 students each, 3-6 PhD advisees"
+  supportStaffModel: 3-5 grad students, 1-2 postdocs, lab coordinator, research assistants (often undergrads)
+  geographicDemandNotes: Broad demand at universities nationwide; clinical psych positions more available than experimental; medical school affiliations help
+  telehealthPotential: 5
+  genderDistribution: "~55% women; majority-female field at PhD level"
+
+- name: Economics Professor
+  group: humanities_social
+  residencyYears: 2
+  annualSpots: 800
+  startSalary: 90
+  midSalary: 140
+  peakSalary: 200
+  typicalPeak: 165
+  partTimeFlex: 3
+  procedureMix: 5
+  callSchedule: 2
+  adminBurden: 5
+  hoursWeek: 52
+  burnout: 35
+  partTimeFeasibility: 3
+  vacation: 8
+  careerLongevity: 10
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 4
+  automationRisk: 5
+  handsOnInsulation: 5
+  satisfaction: 78
+  chooseAgain: 72
+  intellectualStim: 9
+  varietyRepetition: 7
+  patientImpact: 7
+  physicalToll: 9
+  emotionalToll: 5
+  malpracticeLiability: 10
+  injuryCareerRisk: 10
+  aiRiskNow: 3
+  aiRiskMedium: 4
+  aiRiskLong: 5
+  aiNarrative: "Economics is data-heavy, and AI can automate much of the econometric grunt work. But identifying causal mechanisms, designing natural experiments, and providing policy insight requires deep institutional knowledge and creative thinking. The highest-paid social science professorship because of finance/consulting outside options."
+  fellowshipOptions: Postdoc 1-2yr (shorter than most fields); sabbatical every 7yr; named chairs; Fed/World Bank/IMF visiting positions
+  compModel: 9-month academic salary + summer funding + extensive consulting ($50K-150K extra); business school appointments pay 30-50% more
+  revPerPatientVisit: "N/A — grant funding $100K-300K/yr typical; consulting and expert witness work add significantly"
+  dailyWorkflow: Research/econometrics 35%, teaching 20%, paper writing 20%, consulting/policy 15%, service 10%
+  patientVolume: "2-3 courses/yr, 20-50 students each, 3-6 PhD advisees"
+  supportStaffModel: 3-5 grad students, 1-2 postdocs (at top programs), research assistants, shared computing
+  geographicDemandNotes: Every university has econ department; business school appointments more lucrative; top-50 programs most competitive
+  telehealthPotential: 6
+  genderDistribution: "~30% women; notoriously male-dominated, slow improvement"
+
+- name: Political Science Professor
+  group: humanities_social
+  residencyYears: 2
+  annualSpots: 600
+  startSalary: 62
+  midSalary: 88
+  peakSalary: 120
+  typicalPeak: 102
+  partTimeFlex: 3
+  procedureMix: 5
+  callSchedule: 2
+  adminBurden: 5
+  hoursWeek: 50
+  burnout: 33
+  partTimeFeasibility: 3
+  vacation: 8
+  careerLongevity: 10
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 3
+  automationRisk: 3
+  handsOnInsulation: 5
+  satisfaction: 74
+  chooseAgain: 66
+  intellectualStim: 9
+  varietyRepetition: 7
+  patientImpact: 7
+  physicalToll: 9
+  emotionalToll: 6
+  malpracticeLiability: 10
+  injuryCareerRisk: 10
+  aiRiskNow: 2
+  aiRiskMedium: 3
+  aiRiskLong: 4
+  aiNarrative: "Political science involves interpreting power, institutions, and human governance — areas where contextual judgment matters enormously. AI helps with text analysis of legislation and polling data, but understanding why nations go to war or how democracies erode requires deep qualitative insight."
+  fellowshipOptions: Postdoc 1-2yr; sabbatical every 7yr; named chairs; think tank fellowships (Brookings, CFR); government advisory roles
+  compModel: 9-month academic salary + summer research funding; NSF/foundation grants; some policy consulting
+  revPerPatientVisit: "N/A — grant funding $50K-200K/yr typical; think tank and media consulting supplements"
+  dailyWorkflow: Research/writing 35%, teaching 25%, mentoring 15%, grant writing 10%, service/public engagement 15%
+  patientVolume: "2-4 courses/yr, 20-35 students each, 3-5 PhD advisees"
+  supportStaffModel: 2-4 grad students, occasional postdoc, research assistants, shared department admin
+  geographicDemandNotes: Universities nationwide; DC-area positions combine academia with policy access; international relations subfield has more positions
+  telehealthPotential: 5
+  genderDistribution: "~35% women; American politics subfield more balanced, IR and theory less so"
+
+- name: Sociology Professor
+  group: humanities_social
+  residencyYears: 2
+  annualSpots: 500
+  startSalary: 60
+  midSalary: 82
+  peakSalary: 110
+  typicalPeak: 95
+  partTimeFlex: 3
+  procedureMix: 5
+  callSchedule: 2
+  adminBurden: 5
+  hoursWeek: 50
+  burnout: 34
+  partTimeFeasibility: 3
+  vacation: 8
+  careerLongevity: 10
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 3
+  automationRisk: 3
+  handsOnInsulation: 5
+  satisfaction: 74
+  chooseAgain: 66
+  intellectualStim: 9
+  varietyRepetition: 7
+  patientImpact: 7
+  physicalToll: 9
+  emotionalToll: 6
+  malpracticeLiability: 10
+  injuryCareerRisk: 10
+  aiRiskNow: 2
+  aiRiskMedium: 3
+  aiRiskLong: 4
+  aiNarrative: "Sociology involves ethnographic fieldwork, interview-based research, and interpreting complex social systems — work that requires empathy and cultural understanding AI cannot replicate. AI helps with survey analysis and text mining, but the questions sociologists ask are inherently about human meaning-making."
+  fellowshipOptions: Postdoc 1-2yr; sabbatical every 7yr; named chairs; Russell Sage Foundation; SSRC fellowships
+  compModel: 9-month academic salary + summer research funding; NSF/foundation grants; smaller grants than STEM
+  revPerPatientVisit: "N/A — grant funding $50K-150K/yr typical; foundation funding important"
+  dailyWorkflow: Research/fieldwork 30%, writing 25%, teaching 25%, mentoring 10%, service 10%
+  patientVolume: "2-4 courses/yr, 20-30 students each, 3-5 PhD advisees"
+  supportStaffModel: 2-4 grad students, research assistants, shared department admin; minimal infrastructure
+  geographicDemandNotes: Universities nationwide but shrinking number of positions; interdisciplinary hires (criminology, public health) growing
+  telehealthPotential: 5
+  genderDistribution: "~52% women; relatively balanced"
+
+- name: History Professor
+  group: humanities_social
+  residencyYears: 2
+  annualSpots: 500
+  startSalary: 58
+  midSalary: 78
+  peakSalary: 105
+  typicalPeak: 90
+  partTimeFlex: 3
+  procedureMix: 5
+  callSchedule: 2
+  adminBurden: 5
+  hoursWeek: 50
+  burnout: 35
+  partTimeFeasibility: 3
+  vacation: 9
+  careerLongevity: 10
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 3
+  automationRisk: 3
+  handsOnInsulation: 5
+  satisfaction: 76
+  chooseAgain: 67
+  intellectualStim: 9
+  varietyRepetition: 7
+  patientImpact: 7
+  physicalToll: 9
+  emotionalToll: 6
+  malpracticeLiability: 10
+  injuryCareerRisk: 10
+  aiRiskNow: 2
+  aiRiskMedium: 3
+  aiRiskLong: 4
+  aiNarrative: "History requires archival research in physical repositories, reading handwritten manuscripts, and constructing nuanced narratives about human experience. AI can help digitize and search archives, but interpreting what happened and why — the historian's core skill — requires judgment, empathy, and storytelling ability."
+  fellowshipOptions: Postdoc 1-2yr; sabbatical every 7yr; named chairs; NEH fellowships; Guggenheim; archival research grants
+  compModel: 9-month academic salary + summer research funding; NEH/ACLS/foundation grants; book advances modest
+  revPerPatientVisit: "N/A — grant funding $30K-100K/yr typical; among lowest-funded academic fields"
+  dailyWorkflow: Archival research/writing 35%, teaching 25%, reading/reviewing 15%, mentoring 15%, service 10%
+  patientVolume: "2-4 courses/yr, 20-30 students each, 2-4 PhD advisees"
+  supportStaffModel: 1-3 grad students, shared department admin; very lean support structure
+  geographicDemandNotes: Severely contracted market; major cities with archives (DC, NYC, London) advantageous for research; every university needs historians but hiring has slowed dramatically
+  telehealthPotential: 5
+  genderDistribution: "~45% women; U.S. and European history more balanced, military history less so"
+
+- name: English Professor
+  group: humanities_social
+  residencyYears: 2
+  annualSpots: 800
+  startSalary: 55
+  midSalary: 75
+  peakSalary: 100
+  typicalPeak: 85
+  partTimeFlex: 4
+  procedureMix: 5
+  callSchedule: 2
+  adminBurden: 5
+  hoursWeek: 48
+  burnout: 36
+  partTimeFeasibility: 4
+  vacation: 9
+  careerLongevity: 10
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 3
+  automationRisk: 4
+  handsOnInsulation: 5
+  satisfaction: 73
+  chooseAgain: 65
+  intellectualStim: 9
+  varietyRepetition: 6
+  patientImpact: 7
+  physicalToll: 9
+  emotionalToll: 6
+  malpracticeLiability: 10
+  injuryCareerRisk: 10
+  aiRiskNow: 3
+  aiRiskMedium: 4
+  aiRiskLong: 5
+  aiNarrative: "AI-generated text is the elephant in the room for English departments. Professors must rethink writing pedagogy, but close reading, literary interpretation, and critical theory require the kind of nuanced human thinking AI struggles with. The irony is that AI makes teaching writing harder while making the skills English professors teach more important."
+  fellowshipOptions: Postdoc 1-2yr; sabbatical every 7yr; named chairs; NEH/Guggenheim fellowships; creative writing MFA crossover
+  compModel: 9-month academic salary + summer writing; NEH/ACLS/foundation grants; book royalties minimal
+  revPerPatientVisit: "N/A — grant funding $20K-80K/yr typical; among lowest-funded fields; book advances $5K-15K"
+  dailyWorkflow: Writing/research 30%, teaching 30%, grading/feedback 15%, mentoring 15%, service 10%
+  patientVolume: "3-4 courses/yr, 15-25 students each (writing-intensive = smaller sections), 2-4 PhD advisees"
+  supportStaffModel: 1-3 grad students, writing center support, shared department admin; very lean
+  geographicDemandNotes: Extremely competitive market; large adjunct workforce; tenure-track lines being cut nationwide; creative writing positions slightly more available
+  telehealthPotential: 6
+  genderDistribution: "~60% women; one of the most gender-balanced humanities fields"
+
+- name: Philosophy Professor
+  group: humanities_social
+  residencyYears: 2
+  annualSpots: 350
+  startSalary: 58
+  midSalary: 80
+  peakSalary: 108
+  typicalPeak: 92
+  partTimeFlex: 3
+  procedureMix: 5
+  callSchedule: 2
+  adminBurden: 4
+  hoursWeek: 48
+  burnout: 32
+  partTimeFeasibility: 3
+  vacation: 9
+  careerLongevity: 10
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 3
+  automationRisk: 3
+  handsOnInsulation: 5
+  satisfaction: 77
+  chooseAgain: 70
+  intellectualStim: 10
+  varietyRepetition: 6
+  patientImpact: 6
+  physicalToll: 9
+  emotionalToll: 5
+  malpracticeLiability: 10
+  injuryCareerRisk: 10
+  aiRiskNow: 2
+  aiRiskMedium: 3
+  aiRiskLong: 4
+  aiNarrative: "Philosophy of mind, ethics, and logic are suddenly hot because of AI — who better to think about machine consciousness, algorithmic bias, and the ethics of autonomous systems? Ironically, the field AI threatens least is the one most needed to think about AI's implications. AI ethics positions are growing."
+  fellowshipOptions: Postdoc 1-2yr; sabbatical every 7yr; named chairs; NEH fellowships; AI ethics institute positions growing
+  compModel: 9-month academic salary + summer research; NEH/foundation grants; AI ethics consulting emerging
+  revPerPatientVisit: "N/A — grant funding $20K-80K/yr typical; AI ethics grants growing ($100K+)"
+  dailyWorkflow: Reading/writing/thinking 40%, teaching 25%, mentoring 15%, reviews/editing 10%, service 10%
+  patientVolume: "2-4 courses/yr, 15-30 students each, 2-4 PhD advisees"
+  supportStaffModel: 1-2 grad students, shared department admin; philosophy is a solo-researcher field
+  geographicDemandNotes: Very competitive market; ethics positions at medical schools and tech companies expanding options; traditional tenure-track philosophy shrinking
+  telehealthPotential: 6
+  genderDistribution: "~28% women; one of the least gender-diverse humanities fields"
+
+- name: Linguistics Professor
+  group: humanities_social
+  residencyYears: 2
+  annualSpots: 300
+  startSalary: 60
+  midSalary: 82
+  peakSalary: 112
+  typicalPeak: 95
+  partTimeFlex: 3
+  procedureMix: 6
+  callSchedule: 2
+  adminBurden: 5
+  hoursWeek: 49
+  burnout: 31
+  partTimeFeasibility: 3
+  vacation: 8
+  careerLongevity: 10
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 4
+  automationRisk: 4
+  handsOnInsulation: 5
+  satisfaction: 76
+  chooseAgain: 69
+  intellectualStim: 9
+  varietyRepetition: 7
+  patientImpact: 7
+  physicalToll: 9
+  emotionalToll: 5
+  malpracticeLiability: 10
+  injuryCareerRisk: 10
+  aiRiskNow: 3
+  aiRiskMedium: 4
+  aiRiskLong: 5
+  aiNarrative: "Large language models have made linguistics suddenly relevant to the tech industry — understanding how language works is crucial for improving AI. Computational linguistics PhDs can command industry salaries, while field linguists documenting endangered languages do work AI cannot replicate. The field is splitting into high-demand computational and niche theoretical tracks."
+  fellowshipOptions: Postdoc 1-2yr; sabbatical every 7yr; named chairs; NSF/NEH fellowships; endangered language documentation grants
+  compModel: 9-month academic salary + summer research funding; NSF/NEH grants; computational linguists have industry consulting options
+  revPerPatientVisit: "N/A — grant funding $50K-200K/yr typical; computational linguistics grants larger"
+  dailyWorkflow: Research/analysis 35%, teaching 25%, fieldwork or computational work 15%, writing 15%, service 10%
+  patientVolume: "2-3 courses/yr, 15-25 students each, 2-4 PhD advisees"
+  supportStaffModel: 2-3 grad students, language consultants (for fieldwork), shared computing resources
+  geographicDemandNotes: Small field with limited positions; CS/linguistics joint appointments growing; universities with strong NLP programs (Stanford, MIT, CMU) offer best opportunities
+  telehealthPotential: 5
+  genderDistribution: "~50% women; one of the most balanced fields in academia"
+
+- name: Education Researcher
+  group: humanities_social
+  residencyYears: 2
+  annualSpots: 900
+  startSalary: 60
+  midSalary: 82
+  peakSalary: 110
+  typicalPeak: 95
+  partTimeFlex: 3
+  procedureMix: 6
+  callSchedule: 3
+  adminBurden: 6
+  hoursWeek: 49
+  burnout: 34
+  partTimeFeasibility: 3
+  vacation: 8
+  careerLongevity: 9
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 4
+  automationRisk: 3
+  handsOnInsulation: 6
+  satisfaction: 75
+  chooseAgain: 67
+  intellectualStim: 8
+  varietyRepetition: 7
+  patientImpact: 8
+  physicalToll: 9
+  emotionalToll: 6
+  malpracticeLiability: 10
+  injuryCareerRisk: 10
+  aiRiskNow: 2
+  aiRiskMedium: 3
+  aiRiskLong: 4
+  aiNarrative: "Education research is about understanding how humans learn — and AI is creating a natural experiment in real time as schools adopt AI tutoring tools. Researchers who can evaluate these interventions are in growing demand. Classroom observation, qualitative research, and working with school districts require human presence and trust."
+  fellowshipOptions: Postdoc 1-2yr; sabbatical every 7yr; named chairs; IES/Spencer Foundation fellowships; school district partnerships
+  compModel: 9-month academic salary + summer research funding; IES/NSF/Spencer grants; ed-tech consulting emerging
+  revPerPatientVisit: "N/A — grant funding $80K-300K/yr typical (IES grants can be substantial)"
+  dailyWorkflow: Research design/analysis 30%, school partnerships/fieldwork 20%, teaching 20%, grant writing 15%, service 15%
+  patientVolume: "2-3 courses/yr, 20-30 students each, 3-5 PhD advisees"
+  supportStaffModel: 2-4 grad students, research coordinators, data analysts, school liaisons
+  geographicDemandNotes: Education schools at most universities; stronger at schools with urban education focus; policy schools also hire education researchers
+  telehealthPotential: 5
+  genderDistribution: "~60% women; education research is majority-female"
+
+- name: Biomedical Researcher
+  group: humanities_social
+  residencyYears: 2
+  annualSpots: 1100
+  startSalary: 60
+  midSalary: 85
+  peakSalary: 115
+  typicalPeak: 100
+  partTimeFlex: 3
+  procedureMix: 8
+  callSchedule: 3
+  adminBurden: 6
+  hoursWeek: 55
+  burnout: 40
+  partTimeFeasibility: 2
+  vacation: 6
+  careerLongevity: 9
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 3
+  automationRisk: 4
+  handsOnInsulation: 8
+  satisfaction: 72
+  chooseAgain: 62
+  intellectualStim: 9
+  varietyRepetition: 7
+  patientImpact: 8
+  physicalToll: 8
+  emotionalToll: 7
+  malpracticeLiability: 10
+  injuryCareerRisk: 9
+  aiRiskNow: 2
+  aiRiskMedium: 3
+  aiRiskLong: 4
+  aiNarrative: "Biomedical research is fundamentally wet-lab work — cell culture, animal models, clinical trials. AI helps with drug target identification and image analysis, but the bench science that validates discoveries cannot be automated. The long postdoc pipeline and grant pressure make this path demanding, but the potential to save lives is real."
+  fellowshipOptions: Postdoc 2-5yr required (notoriously long); sabbatical every 7yr; named chairs; NIH K-awards bridge to independence
+  compModel: 12-month research appointment (not 9-month); NIH/foundation grants; postdoc salaries notoriously low ($55K-65K)
+  revPerPatientVisit: "N/A — grant funding $200K-500K/yr typical once independent (NIH R01); postdoc years are lean"
+  dailyWorkflow: Bench work/experiments 35%, data analysis 20%, grant writing 20%, mentoring 15%, teaching 10%
+  patientVolume: "1-2 courses/yr, 10-20 students each, 3-6 PhD advisees plus postdocs"
+  supportStaffModel: 3-6 grad students, 1-3 postdocs, lab manager, research technicians, core facility staff
+  geographicDemandNotes: R1 universities with medical schools; major biomedical hubs (Boston, Bay Area, NIH/Bethesda, RTP); must go where the lab space is
+  telehealthPotential: 4
+  genderDistribution: "~48% women; approaching parity at entry level but senior positions still skewed"

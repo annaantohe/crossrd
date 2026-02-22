@@ -44,6 +44,11 @@ MATCH_RESILIENCE_BY_PROFESSION = {
     "Trade School": 8,
     "Apprenticeship": 6,
     "Contractor": 4,
+    # education professions
+    "Teaching Cert": 8,
+    "M.Ed": 5,
+    "Research PhD": 3,
+    "Applied Science": 6,
 }
 
 

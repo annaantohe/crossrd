@@ -1,0 +1,506 @@
+# L1 profession-level category scores for education & research
+professions:
+  Teaching Cert:
+    l1_only: {}
+    l1_data_points:
+      1:
+        scores: [7, 8, 7, 9]
+        count: 4
+        average: 7.75
+        labels:
+        - Years of undergrad required (4yr BA/BS + teaching cert)
+        - Test difficulty (Praxis exams, moderate difficulty)
+        - GPA expectations (2.5-3.0 required for most programs)
+        - Physical fitness requirements (none — standing and walking)
+        data_point_ids: [2, 4, 5, 6]
+      2:
+        scores: [8, 9]
+        count: 2
+        average: 8.5
+        labels:
+        - Acceptance rate (education programs are accessible, 60-80% acceptance)
+        - Career changers welcome? (yes, many alternative certification paths)
+        data_point_ids: [10, 13]
+      3:
+        scores: [7, 7, 7]
+        count: 3
+        average: 7.0
+        labels:
+        - Duration of program (4yr BA + 1yr student teaching/cert)
+        - Practical experience timing (student teaching in final year)
+        - Prestige matters? (not much — any accredited program works)
+        data_point_ids: [16, 18, 23]
+      4:
+        scores: [9, 8]
+        count: 2
+        average: 8.5
+        labels:
+        - Post-grad training (none — start teaching immediately after cert)
+        - Total time to earning (5 years from HS to first paycheck)
+        data_point_ids: [24, 32]
+      5:
+        scores: [7, 7, 6, 7, 6]
+        count: 5
+        average: 6.6
+        labels:
+        - Average tuition ($20K/yr state school)
+        - Average debt at graduation ($30-35K)
+        - Debt-to-income ratio (moderate — teacher salaries are modest)
+        - Time to break even (5-7 years)
+        - Opportunity cost (moderate — 5yr total education)
+        data_point_ids: [33, 34, 35, 38, 40]
+      6:
+        scores: [5, 4, 3, 4, 5, 6]
+        count: 6
+        average: 4.5
+        labels:
+        - Professional scope (defined by certification area and state license)
+        - Scope variation (state-by-state licensure differences)
+        - Independent practice (no — employed by school districts)
+        - Authority level (limited — follow district curriculum and policies)
+        - Ability to specialize (moderate — subject area, grade level)
+        - Competition from adjacent fields (moderate — substitute teachers, TAs)
+        data_point_ids: [41, 42, 43, 44, 45, 46]
+      7:
+        scores: [3, 4]
+        count: 2
+        average: 3.5
+        labels:
+        - Business ownership potential (low — tutoring or test prep on the side)
+        - Compensation trends (slow growth tied to salary schedules)
+        data_point_ids: [52, 53]
+      8:
+        scores: [6]
+        count: 1
+        average: 6.0
+        labels:
+        - Profession-level proxy score (interactive classroom work, moderate variety)
+        data_point_ids: [null]
+      9:
+        scores: [7]
+        count: 1
+        average: 7.0
+        labels:
+        - Profession-level proxy score (summers off, school schedule, but grading at night)
+        data_point_ids: [null]
+      10:
+        scores: [8, 7, 7, 9]
+        count: 4
+        average: 7.75
+        labels:
+        - Current job market (strong — national teacher shortage)
+        - Projected demand (growing — retirements + population growth)
+        - Impact of demographic changes (diverse student body needs diverse teachers)
+        - Vulnerability to offshoring (zero — must be in the classroom)
+        data_point_ids: [71, 72, 74, 75]
+      11:
+        scores: [8, 8, 8]
+        count: 3
+        average: 8.0
+        labels:
+        - AI impact on teaching (low — AI tutors supplement but can't replace classroom management)
+        - AI as tool vs replacement (tool only — grading help, lesson planning aids)
+        - Timeline of disruption (very long — human connection is core to education)
+        data_point_ids: [77, 79, 80]
+      12:
+        scores: [6]
+        count: 1
+        average: 6.0
+        labels:
+        - Ease of pivoting (moderate — teaching skills transfer to training, ed tech)
+        data_point_ids: [91]
+      13:
+        scores: [7, 5, 6, 8]
+        count: 4
+        average: 6.5
+        labels:
+        - Pay equity (salary schedules are gender-neutral)
+        - Parental leave norms (varies by district, improving)
+        - Culture (collaborative, mission-driven, supportive)
+        - Welcoming to non-traditional? (yes — alternative cert programs encourage diversity)
+        data_point_ids: [95, 96, 98, 100]
+      14:
+        scores: [7]
+        count: 1
+        average: 7.0
+        labels:
+        - Physical danger and injury risk (low — classroom environment is safe)
+        data_point_ids: [104]
+  M.Ed:
+    l1_only: {}
+    l1_data_points:
+      1:
+        scores: [5, 6, 6, 9]
+        count: 4
+        average: 6.5
+        labels:
+        - Years of undergrad required (4yr BA + 2yr M.Ed + teaching experience)
+        - Test difficulty (GRE/MAT + leadership assessments)
+        - GPA expectations (3.0+ for most M.Ed programs)
+        - Physical fitness requirements (none — office/school work)
+        data_point_ids: [2, 4, 5, 6]
+      2:
+        scores: [6, 7]
+        count: 2
+        average: 6.5
+        labels:
+        - Acceptance rate (moderately competitive — 50-70% for top programs)
+        - Career changers welcome? (yes, especially from teaching backgrounds)
+        data_point_ids: [10, 13]
+      3:
+        scores: [5, 5, 5]
+        count: 3
+        average: 5.0
+        labels:
+        - Duration of program (6yr total — BA + M.Ed, some require teaching first)
+        - Practical experience timing (internships, administrative practicums)
+        - Prestige matters? (somewhat — top ed leadership programs help)
+        data_point_ids: [16, 18, 23]
+      4:
+        scores: [7, 6]
+        count: 2
+        average: 6.5
+        labels:
+        - Post-grad training (usually require 3-5yr teaching before admin roles)
+        - Total years to independent practice (8-10 years from HS)
+        data_point_ids: [24, 32]
+      5:
+        scores: [5, 5, 5, 6, 5]
+        count: 5
+        average: 5.2
+        labels:
+        - Average tuition ($20-25K/yr for M.Ed)
+        - Average debt at graduation ($50-60K)
+        - Debt-to-income ratio (manageable — leadership salaries are decent)
+        - Time to break even (6-8 years)
+        - Opportunity cost (high — 6+ years of education)
+        data_point_ids: [33, 34, 35, 38, 40]
+      6:
+        scores: [7, 6, 6, 7, 6, 6]
+        count: 6
+        average: 6.33
+        labels:
+        - Professional scope (broad — school/district-wide decision making)
+        - Scope variation (varies by role and district size)
+        - Independent practice (moderate — some autonomy in leadership)
+        - Authority level (high for principals/superintendents, moderate for others)
+        - Ability to specialize (curriculum, policy, technology, counseling)
+        - Competition (moderate — limited admin positions per school)
+        data_point_ids: [41, 42, 43, 44, 45, 46]
+      7:
+        scores: [4, 5]
+        count: 2
+        average: 4.5
+        labels:
+        - Business ownership potential (low — consulting or private school leadership)
+        - Compensation trends (steady growth, superintendent salaries rising)
+        data_point_ids: [52, 53]
+      8:
+        scores: [6]
+        count: 1
+        average: 6.0
+        labels:
+        - Profession-level proxy score (mix of meetings, observations, planning)
+        data_point_ids: [null]
+      9:
+        scores: [5]
+        count: 1
+        average: 5.0
+        labels:
+        - Profession-level proxy score (year-round work, long hours during school year)
+        data_point_ids: [null]
+      10:
+        scores: [7, 7, 6, 9]
+        count: 4
+        average: 7.25
+        labels:
+        - Current job market (good — principal shortages in many districts)
+        - Projected demand (growing — school expansion and retirements)
+        - Impact of demographic changes (diverse leadership needed)
+        - Vulnerability to offshoring (zero — must be on-site)
+        data_point_ids: [71, 72, 74, 75]
+      11:
+        scores: [7, 7, 7]
+        count: 3
+        average: 7.0
+        labels:
+        - AI impact on leadership (moderate — data analytics and scheduling tools)
+        - AI as tool vs replacement (tool — decision support, not replacement)
+        - Timeline of disruption (long — human leadership is essential)
+        data_point_ids: [77, 79, 80]
+      12:
+        scores: [6]
+        count: 1
+        average: 6.0
+        labels:
+        - Ease of pivoting (moderate — leadership skills transfer to corporate training)
+        data_point_ids: [91]
+      13:
+        scores: [6, 5, 6, 7]
+        count: 4
+        average: 6.0
+        labels:
+        - Pay equity (improving — more women in superintendent roles)
+        - Parental leave norms (district-dependent, generally better than teaching)
+        - Culture (professional, political, community-focused)
+        - Welcoming to non-traditional? (yes — diverse leadership valued)
+        data_point_ids: [95, 96, 98, 100]
+      14:
+        scores: [8]
+        count: 1
+        average: 8.0
+        labels:
+        - Physical danger and injury risk (very low — office/school environment)
+        data_point_ids: [104]
+  Research PhD:
+    l1_only: {}
+    l1_data_points:
+      1:
+        scores: [3, 4, 3, 9]
+        count: 4
+        average: 4.75
+        labels:
+        - Years of undergrad required (4yr BA/BS + 5yr PhD + 2yr postdoc)
+        - Test difficulty (GRE + qualifying exams + dissertation defense)
+        - GPA expectations (3.5+ for competitive PhD programs)
+        - Physical fitness requirements (none — mostly desk/lab work)
+        data_point_ids: [2, 4, 5, 6]
+      2:
+        scores: [3, 4]
+        count: 2
+        average: 3.5
+        labels:
+        - Acceptance rate (very competitive — 5-15% for top PhD programs)
+        - Career changers welcome? (rare — need strong research background)
+        data_point_ids: [10, 13]
+      3:
+        scores: [3, 4, 4]
+        count: 3
+        average: 3.67
+        labels:
+        - Duration of program (5-7yr PhD + 2-4yr postdoc = 11+ total years)
+        - Practical experience timing (research from year 1 of PhD)
+        - Prestige matters? (very much — program rank drives job placement)
+        data_point_ids: [16, 18, 23]
+      4:
+        scores: [3, 3]
+        count: 2
+        average: 3.0
+        labels:
+        - Post-grad training (2-4yr postdoc required for most tenure-track jobs)
+        - Total years to independent practice (11-13 years from HS)
+        data_point_ids: [24, 32]
+      5:
+        scores: [7, 7, 5, 4, 3]
+        count: 5
+        average: 5.2
+        labels:
+        - Average tuition ($0 — PhD programs funded via stipend/TA)
+        - Average debt at graduation ($25-35K from undergrad only)
+        - Debt-to-income ratio (ok — low debt but delayed high earnings)
+        - Time to break even (10-12 years)
+        - Opportunity cost (very high — 11+ years of education for modest stipend)
+        data_point_ids: [33, 34, 35, 38, 40]
+      6:
+        scores: [7, 6, 7, 7, 7, 5]
+        count: 6
+        average: 6.5
+        labels:
+        - Professional scope (broad — research, teaching, service, consulting)
+        - Scope variation (tenure vs non-tenure track, research vs teaching focus)
+        - Independent practice (high after tenure — full academic freedom)
+        - Authority level (high within specialty — lab direction, curriculum)
+        - Ability to specialize (very high — narrow research focus)
+        - Competition (intense — few tenure-track positions per opening)
+        data_point_ids: [41, 42, 43, 44, 45, 46]
+      7:
+        scores: [5, 5]
+        count: 2
+        average: 5.0
+        labels:
+        - Business ownership potential (moderate — consulting, startups in STEM)
+        - Compensation trends (STEM professor salaries rising, humanities flat)
+        data_point_ids: [52, 53]
+      8:
+        scores: [7]
+        count: 1
+        average: 7.0
+        labels:
+        - Profession-level proxy score (varied — research, teaching, writing, mentoring)
+        data_point_ids: [null]
+      9:
+        scores: [5]
+        count: 1
+        average: 5.0
+        labels:
+        - Profession-level proxy score (flexible schedule but publish-or-perish pressure)
+        data_point_ids: [null]
+      10:
+        scores: [4, 5, 5, 8]
+        count: 4
+        average: 5.5
+        labels:
+        - Current job market (tight — far more PhDs than tenure-track positions)
+        - Projected demand (stable — retirements opening some positions)
+        - Impact of demographic changes (push for diverse faculty)
+        - Vulnerability to offshoring (low — research is global but positions are local)
+        data_point_ids: [71, 72, 74, 75]
+      11:
+        scores: [5, 6, 5]
+        count: 3
+        average: 5.33
+        labels:
+        - AI impact on research (moderate — AI automates data analysis, literature review)
+        - AI as tool vs replacement (mostly tool — enhances research productivity)
+        - Timeline of disruption (moderate — routine research tasks automated sooner)
+        data_point_ids: [77, 79, 80]
+      12:
+        scores: [7]
+        count: 1
+        average: 7.0
+        labels:
+        - Ease of pivoting (moderate — PhD skills transfer to industry, policy, consulting)
+        data_point_ids: [91]
+      13:
+        scores: [5, 5, 5, 6]
+        count: 4
+        average: 5.25
+        labels:
+        - Pay equity (improving but gaps persist, especially in STEM)
+        - Parental leave norms (university-dependent, generally decent)
+        - Culture (collegial but competitive, publish-or-perish)
+        - Welcoming to non-traditional? (improving — diversity initiatives)
+        data_point_ids: [95, 96, 98, 100]
+      14:
+        scores: [8]
+        count: 1
+        average: 8.0
+        labels:
+        - Physical danger and injury risk (very low — office/lab environment)
+        data_point_ids: [104]
+  Applied Science:
+    l1_only: {}
+    l1_data_points:
+      1:
+        scores: [6, 6, 6, 8]
+        count: 4
+        average: 6.5
+        labels:
+        - Years of undergrad required (4yr BS + optional 1.5yr MS)
+        - Test difficulty (GRE for grad school, some professional certifications)
+        - GPA expectations (3.0+ for competitive MS programs)
+        - Physical fitness requirements (varies — lab vs field work)
+        data_point_ids: [2, 4, 5, 6]
+      2:
+        scores: [6, 8]
+        count: 2
+        average: 7.0
+        labels:
+        - Acceptance rate (moderate — MS programs accessible, some positions competitive)
+        - Career changers welcome? (yes, especially with relevant experience)
+        data_point_ids: [10, 13]
+      3:
+        scores: [6, 6, 5]
+        count: 3
+        average: 5.67
+        labels:
+        - Duration of program (4-6yr total — BS + optional MS)
+        - Practical experience timing (internships, co-ops, lab work during school)
+        - Prestige matters? (somewhat — program reputation helps for competitive positions)
+        data_point_ids: [16, 18, 23]
+      4:
+        scores: [8, 7]
+        count: 2
+        average: 7.5
+        labels:
+        - Post-grad training (minimal — some positions need 1-2yr experience)
+        - Total years to earning (4-6 years from HS)
+        data_point_ids: [24, 32]
+      5:
+        scores: [6, 6, 6, 7, 6]
+        count: 5
+        average: 6.2
+        labels:
+        - Average tuition ($22K/yr undergrad + $20K/yr MS)
+        - Average debt at graduation ($35-45K)
+        - Debt-to-income ratio (moderate — applied science salaries are decent)
+        - Time to break even (5-7 years)
+        - Opportunity cost (moderate — 4-6yr education)
+        data_point_ids: [33, 34, 35, 38, 40]
+      6:
+        scores: [5, 5, 4, 5, 6, 6]
+        count: 6
+        average: 5.17
+        labels:
+        - Professional scope (defined by specialization and employer)
+        - Scope variation (government vs private sector vs academic)
+        - Independent practice (limited — most work for organizations)
+        - Authority level (moderate — project-level decisions)
+        - Ability to specialize (good — many sub-fields available)
+        - Competition (moderate — varies by field and location)
+        data_point_ids: [41, 42, 43, 44, 45, 46]
+      7:
+        scores: [3, 5]
+        count: 2
+        average: 4.0
+        labels:
+        - Business ownership potential (low — consulting or freelance possible)
+        - Compensation trends (steady growth, data science booming)
+        data_point_ids: [52, 53]
+      8:
+        scores: [6]
+        count: 1
+        average: 6.0
+        labels:
+        - Profession-level proxy score (mix of lab, field, and data analysis work)
+        data_point_ids: [null]
+      9:
+        scores: [6]
+        count: 1
+        average: 6.0
+        labels:
+        - Profession-level proxy score (regular hours, some fieldwork disruptions)
+        data_point_ids: [null]
+      10:
+        scores: [7, 7, 6, 8]
+        count: 4
+        average: 7.0
+        labels:
+        - Current job market (good — STEM skills in demand)
+        - Projected demand (growing — environmental, data, public health)
+        - Impact of demographic changes (diversity push in STEM fields)
+        - Vulnerability to offshoring (low — lab/field work is location-bound)
+        data_point_ids: [71, 72, 74, 75]
+      11:
+        scores: [6, 6, 6]
+        count: 3
+        average: 6.0
+        labels:
+        - AI impact (moderate — data analysis automating, but field/lab work manual)
+        - AI as tool vs replacement (tool — enhances analysis, doesn't replace fieldwork)
+        - Timeline of disruption (moderate — routine analysis first, field work last)
+        data_point_ids: [77, 79, 80]
+      12:
+        scores: [7]
+        count: 1
+        average: 7.0
+        labels:
+        - Ease of pivoting (good — science skills transfer to many industries)
+        data_point_ids: [91]
+      13:
+        scores: [5, 5, 6, 7]
+        count: 4
+        average: 5.75
+        labels:
+        - Pay equity (improving — STEM diversity initiatives)
+        - Parental leave norms (employer-dependent, government positions better)
+        - Culture (collaborative, mission-driven in environmental/public health)
+        - Welcoming to non-traditional? (yes — diverse backgrounds valued)
+        data_point_ids: [95, 96, 98, 100]
+      14:
+        scores: [6]
+        count: 1
+        average: 6.0
+        labels:
+        - Physical danger (low-moderate — field work has some risks, lab work safe)
+        data_point_ids: [104]

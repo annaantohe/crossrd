@@ -1,0 +1,814 @@
+# Teaching Cert specialties — 18 careers across 3 groups
+# BA/BS + teaching certification (4yr undergrad + 1yr cert)
+profession: Teaching Cert
+specialties:
+
+- name: "Pre-K Teacher"
+  group: k12_classroom
+  residencyYears: 0
+  annualSpots: 22000
+  startSalary: 32
+  midSalary: 42
+  peakSalary: 55
+  typicalPeak: 48
+  partTimeFlex: 5
+  procedureMix: 6
+  callSchedule: 2
+  adminBurden: 6
+  hoursWeek: 42
+  burnout: 42
+  partTimeFeasibility: 5
+  vacation: 10
+  careerLongevity: 8
+  malpracticeFreq: 9
+  malpracticeCost: 0
+  geographicFlex: 8
+  automationRisk: 2
+  handsOnInsulation: 9
+  satisfaction: 72
+  chooseAgain: 62
+  intellectualStim: 5
+  varietyRepetition: 5
+  patientImpact: 9
+  physicalToll: 6
+  emotionalToll: 5
+  malpracticeLiability: 10
+  injuryCareerRisk: 9
+  aiRiskNow: 1
+  aiRiskMedium: 1
+  aiRiskLong: 2
+  aiNarrative: "Pre-K teaching is almost entirely about human connection — building social-emotional skills, managing toddler behavior, and creating safe learning environments. AI tools may assist with developmental assessments and activity planning, but the hands-on nurturing and constant supervision of 3-5 year olds is irreplaceable."
+  fellowshipOptions: "Master's in Early Childhood Education; National Board Certification; Child Development Associate credential; lead teacher and curriculum coordinator roles; preschool director pathway"
+  compModel: "Salary schedule based on district pay scale; step increases for years of experience and education credits; $32K-55K range depending on district and state"
+  revPerPatientVisit: "N/A — salaried $32K-$55K/yr based on district salary schedule"
+  dailyWorkflow: "Circle time, structured play activities, arts and crafts, snack and nap supervision, social-emotional coaching, parent communication, classroom setup and cleanup, developmental observation notes"
+  patientVolume: "15-20 students per classroom"
+  supportStaffModel: "Paraprofessional aide in classroom; special education support as needed; building principal supervises"
+  geographicDemandNotes: "High demand in states with universal pre-K programs (NY, NJ, OK, GA, FL); growing as more states fund early childhood education"
+  telehealthPotential: 2
+  genderDistribution: "~97% women"
+
+- name: "Elementary School Teacher"
+  group: k12_classroom
+  residencyYears: 0
+  annualSpots: 35000
+  startSalary: 38
+  midSalary: 52
+  peakSalary: 68
+  typicalPeak: 58
+  partTimeFlex: 3
+  procedureMix: 7
+  callSchedule: 2
+  adminBurden: 7
+  hoursWeek: 45
+  burnout: 45
+  partTimeFeasibility: 3
+  vacation: 11
+  careerLongevity: 8
+  malpracticeFreq: 9
+  malpracticeCost: 0
+  geographicFlex: 9
+  automationRisk: 2
+  handsOnInsulation: 9
+  satisfaction: 72
+  chooseAgain: 65
+  intellectualStim: 6
+  varietyRepetition: 5
+  patientImpact: 9
+  physicalToll: 6
+  emotionalToll: 5
+  malpracticeLiability: 10
+  injuryCareerRisk: 9
+  aiRiskNow: 1
+  aiRiskMedium: 2
+  aiRiskLong: 3
+  aiNarrative: "Elementary teaching involves managing a whole classroom of developing children across every subject — reading, math, science, social studies, art. AI tutoring tools may supplement instruction, but the classroom management, social-emotional development, and differentiated instruction for 25 unique learners requires a skilled human educator."
+  fellowshipOptions: "Master's in Education or Curriculum & Instruction; National Board Certification; reading specialist endorsement; gifted education endorsement; instructional coach or department lead; assistant principal pathway"
+  compModel: "District salary schedule with step increases for experience and graduate credits; typical range $38K-68K; some districts offer signing bonuses for high-need schools"
+  revPerPatientVisit: "N/A — salaried $38K-$68K/yr based on district salary schedule"
+  dailyWorkflow: "Morning meeting, guided reading groups, math instruction, science/social studies lessons, recess duty, lunch supervision, parent emails, grading, lesson planning, IEP meetings"
+  patientVolume: "20-28 students per classroom"
+  supportStaffModel: "Classroom aide in some schools; reading specialist pull-out; special education co-teacher or push-in support; grade-level team collaboration; principal evaluation"
+  geographicDemandNotes: "Jobs in every community nationwide; highest demand in urban districts, rural areas, and Sun Belt growth markets (TX, FL, AZ, GA)"
+  telehealthPotential: 3
+  genderDistribution: "~89% women"
+
+- name: "Middle School Math Teacher"
+  group: k12_classroom
+  residencyYears: 0
+  annualSpots: 12000
+  startSalary: 40
+  midSalary: 55
+  peakSalary: 72
+  typicalPeak: 62
+  partTimeFlex: 3
+  procedureMix: 6
+  callSchedule: 3
+  adminBurden: 6
+  hoursWeek: 45
+  burnout: 48
+  partTimeFeasibility: 3
+  vacation: 11
+  careerLongevity: 8
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 9
+  automationRisk: 3
+  handsOnInsulation: 8
+  satisfaction: 68
+  chooseAgain: 60
+  intellectualStim: 7
+  varietyRepetition: 5
+  patientImpact: 8
+  physicalToll: 7
+  emotionalToll: 5
+  malpracticeLiability: 10
+  injuryCareerRisk: 9
+  aiRiskNow: 2
+  aiRiskMedium: 3
+  aiRiskLong: 4
+  aiNarrative: "AI tutoring platforms like Khan Academy and IXL already supplement middle school math instruction, and tools like ChatGPT can solve algebra problems. But managing a room of 12-14 year olds, building number sense, diagnosing misconceptions in real time, and motivating reluctant learners is deeply human work. Math teachers remain in critical shortage."
+  fellowshipOptions: "Master's in Math Education; National Board Certification in Early Adolescence Mathematics; math coach or instructional specialist; curriculum coordinator; AP/IB pathway if moving to high school"
+  compModel: "District salary schedule; math teachers sometimes eligible for shortage area bonuses $2K-5K; step increases for experience and credits; $40K-72K range"
+  revPerPatientVisit: "N/A — salaried $40K-$72K/yr based on district salary schedule"
+  dailyWorkflow: "5-6 class periods of pre-algebra through algebra; formative assessments, small group intervention, homework review, data analysis meetings, parent conferences, after-school tutoring, lesson planning and grading"
+  patientVolume: "120-150 students across 5-6 class periods; 25-30 per class"
+  supportStaffModel: "Math department team; instructional coach; special education co-teacher for inclusion classes; department chair coordinates curriculum"
+  geographicDemandNotes: "Severe shortage nationwide — one of the hardest teaching positions to fill; especially acute in urban and rural districts; almost every state lists math as a critical shortage area"
+  telehealthPotential: 4
+  genderDistribution: "~62% women"
+
+- name: "Middle School English Teacher"
+  group: k12_classroom
+  residencyYears: 0
+  annualSpots: 10000
+  startSalary: 38
+  midSalary: 53
+  peakSalary: 68
+  typicalPeak: 58
+  partTimeFlex: 3
+  procedureMix: 6
+  callSchedule: 3
+  adminBurden: 7
+  hoursWeek: 46
+  burnout: 48
+  partTimeFeasibility: 3
+  vacation: 11
+  careerLongevity: 8
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 8
+  automationRisk: 3
+  handsOnInsulation: 8
+  satisfaction: 66
+  chooseAgain: 58
+  intellectualStim: 7
+  varietyRepetition: 5
+  patientImpact: 8
+  physicalToll: 7
+  emotionalToll: 5
+  malpracticeLiability: 10
+  injuryCareerRisk: 9
+  aiRiskNow: 2
+  aiRiskMedium: 3
+  aiRiskLong: 4
+  aiNarrative: "AI writing tools like ChatGPT create significant challenges for ELA teachers — detecting AI-generated student work and teaching authentic writing are emerging skills. But reading comprehension, literary analysis, classroom discussion facilitation, and developing young writers' voices require human mentorship. The grading burden is heavy but the work is deeply relational."
+  fellowshipOptions: "Master's in English Education or Literacy; National Board Certification in Early Adolescence English Language Arts; reading specialist endorsement; writing project fellowships; literacy coach pathway"
+  compModel: "District salary schedule with step increases; $38K-68K range; some districts offer stipends for yearbook, newspaper, or drama club advising"
+  revPerPatientVisit: "N/A — salaried $38K-$68K/yr based on district salary schedule"
+  dailyWorkflow: "5-6 class periods of reading, writing, and grammar instruction; leading class discussions, writing workshop, independent reading time, grading essays (heavy load), lesson planning, parent communication"
+  patientVolume: "120-150 students across 5-6 class periods; 25-30 per class"
+  supportStaffModel: "English department team; literacy coach or reading specialist; special education co-teacher for inclusion; department chair leads curriculum alignment"
+  geographicDemandNotes: "Moderate demand nationwide; easier to fill than math/science but still shortage areas in urban and rural districts"
+  telehealthPotential: 4
+  genderDistribution: "~72% women"
+
+- name: "Middle School Science Teacher"
+  group: k12_classroom
+  residencyYears: 0
+  annualSpots: 9000
+  startSalary: 40
+  midSalary: 55
+  peakSalary: 72
+  typicalPeak: 62
+  partTimeFlex: 3
+  procedureMix: 7
+  callSchedule: 2
+  adminBurden: 6
+  hoursWeek: 45
+  burnout: 45
+  partTimeFeasibility: 3
+  vacation: 11
+  careerLongevity: 8
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 8
+  automationRisk: 2
+  handsOnInsulation: 8
+  satisfaction: 70
+  chooseAgain: 62
+  intellectualStim: 7
+  varietyRepetition: 6
+  patientImpact: 8
+  physicalToll: 7
+  emotionalToll: 5
+  malpracticeLiability: 10
+  injuryCareerRisk: 9
+  aiRiskNow: 1
+  aiRiskMedium: 2
+  aiRiskLong: 3
+  aiNarrative: "Middle school science is heavily lab-based and hands-on — dissections, chemistry experiments, physics demonstrations. AI can enhance simulations and provide data analysis tools, but supervising 30 students with Bunsen burners and teaching the scientific method through inquiry requires a present, skilled human. Science teachers are in chronic shortage."
+  fellowshipOptions: "Master's in Science Education; National Board Certification in Early Adolescence Science; STEM coach or coordinator; science olympiad coaching stipend; environmental education specialist; pathway to HS science"
+  compModel: "District salary schedule; science shortage bonuses available in many districts $2K-5K; step increases for experience and graduate credits; $40K-72K range"
+  revPerPatientVisit: "N/A — salaried $40K-$72K/yr based on district salary schedule"
+  dailyWorkflow: "5-6 class periods covering life science, earth science, or physical science; lab preparation, hands-on experiments, safety supervision, data collection activities, grading lab reports, lesson planning, science fair coordination"
+  patientVolume: "120-150 students across 5-6 class periods; 25-30 per class"
+  supportStaffModel: "Science department team; lab assistant in some schools; special education co-teacher for inclusion classes; department chair coordinates curriculum and lab budgets"
+  geographicDemandNotes: "High demand nationwide — science is a critical shortage area in most states; especially hard to fill in rural and urban districts"
+  telehealthPotential: 3
+  genderDistribution: "~60% women"
+
+- name: "HS Math Teacher"
+  group: k12_classroom
+  residencyYears: 0
+  annualSpots: 15000
+  startSalary: 42
+  midSalary: 60
+  peakSalary: 80
+  typicalPeak: 68
+  partTimeFlex: 3
+  procedureMix: 5
+  callSchedule: 3
+  adminBurden: 6
+  hoursWeek: 47
+  burnout: 50
+  partTimeFeasibility: 3
+  vacation: 11
+  careerLongevity: 8
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 9
+  automationRisk: 3
+  handsOnInsulation: 8
+  satisfaction: 68
+  chooseAgain: 60
+  intellectualStim: 8
+  varietyRepetition: 5
+  patientImpact: 8
+  physicalToll: 7
+  emotionalToll: 5
+  malpracticeLiability: 10
+  injuryCareerRisk: 9
+  aiRiskNow: 2
+  aiRiskMedium: 3
+  aiRiskLong: 4
+  aiNarrative: "AI can solve calculus problems and provide step-by-step solutions, making the 'answer provider' role less valuable. But HS math teachers who focus on conceptual understanding, problem-solving strategies, and building mathematical thinking remain essential. AP Calculus and Statistics teachers are especially hard to replace — they diagnose individual student misconceptions and adapt instruction in real time."
+  fellowshipOptions: "Master's in Mathematics or Math Education; National Board Certification; AP certification for Calculus, Statistics; IB certification; math department chair; instructional coach; pathway to administration or college teaching with further credentials"
+  compModel: "District salary schedule; critical shortage bonuses common $3K-8K in many states; AP/IB stipends; coaching stipends available; $42K-80K range with top districts and high COL areas at the upper end"
+  revPerPatientVisit: "N/A — salaried $42K-$80K/yr based on district salary schedule"
+  dailyWorkflow: "5-6 class periods of Algebra through AP Calculus; lecture and guided practice, formative assessment, grading problem sets, tutoring during office hours, department meetings, lesson planning, AP exam prep"
+  patientVolume: "125-150 students across 5-6 class periods; 25-32 per class"
+  supportStaffModel: "Math department team; instructional coach; special education co-teacher for inclusion; math interventionist for struggling students; department chair leads curriculum"
+  geographicDemandNotes: "Extreme shortage nationwide — the single hardest secondary teaching position to fill in most states; virtually guaranteed employment; especially desperate in rural, urban, and Title I schools"
+  telehealthPotential: 4
+  genderDistribution: "~55% women"
+
+- name: "HS English Teacher"
+  group: k12_classroom
+  residencyYears: 0
+  annualSpots: 12000
+  startSalary: 40
+  midSalary: 56
+  peakSalary: 72
+  typicalPeak: 62
+  partTimeFlex: 3
+  procedureMix: 6
+  callSchedule: 3
+  adminBurden: 7
+  hoursWeek: 48
+  burnout: 48
+  partTimeFeasibility: 3
+  vacation: 11
+  careerLongevity: 8
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 8
+  automationRisk: 3
+  handsOnInsulation: 8
+  satisfaction: 68
+  chooseAgain: 60
+  intellectualStim: 8
+  varietyRepetition: 5
+  patientImpact: 8
+  physicalToll: 7
+  emotionalToll: 5
+  malpracticeLiability: 10
+  injuryCareerRisk: 9
+  aiRiskNow: 2
+  aiRiskMedium: 3
+  aiRiskLong: 4
+  aiNarrative: "ChatGPT and AI writing tools are the biggest disruption facing HS English teachers. Grading essays now requires AI detection awareness, and teaching authentic writing voice is more important than ever. But facilitating Socratic seminars, leading literary analysis discussions, mentoring student writers, and teaching critical thinking through literature are deeply human skills that AI cannot replicate."
+  fellowshipOptions: "Master's in English or English Education; National Board Certification in Adolescence and Young Adulthood English Language Arts; AP Literature or AP Language certification; creative writing MFA; journalism advisor; debate coach; pathway to literacy coordinator or administration"
+  compModel: "District salary schedule with step increases; $40K-72K range; stipends for yearbook, literary magazine, debate, drama advising; National Board bonus in some states"
+  revPerPatientVisit: "N/A — salaried $40K-$72K/yr based on district salary schedule"
+  dailyWorkflow: "5-6 class periods of composition, literature, and rhetoric; Socratic seminars, essay workshops, independent reading, vocabulary instruction, grading essays (heaviest grading load of any subject), lesson planning, college recommendation letters"
+  patientVolume: "125-150 students across 5-6 class periods; 25-32 per class"
+  supportStaffModel: "English department team; writing center tutors in some schools; special education co-teacher for inclusion; department chair coordinates curriculum and novel selections"
+  geographicDemandNotes: "Moderate demand — easier to fill than STEM positions but shortages exist in urban and rural districts; AP English teachers more sought after"
+  telehealthPotential: 4
+  genderDistribution: "~68% women"
+
+- name: "HS Science Teacher"
+  group: k12_classroom
+  residencyYears: 0
+  annualSpots: 14000
+  startSalary: 42
+  midSalary: 60
+  peakSalary: 80
+  typicalPeak: 68
+  partTimeFlex: 3
+  procedureMix: 7
+  callSchedule: 2
+  adminBurden: 6
+  hoursWeek: 47
+  burnout: 48
+  partTimeFeasibility: 3
+  vacation: 11
+  careerLongevity: 8
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 9
+  automationRisk: 2
+  handsOnInsulation: 8
+  satisfaction: 72
+  chooseAgain: 65
+  intellectualStim: 8
+  varietyRepetition: 6
+  patientImpact: 8
+  physicalToll: 7
+  emotionalToll: 6
+  malpracticeLiability: 10
+  injuryCareerRisk: 8
+  aiRiskNow: 1
+  aiRiskMedium: 2
+  aiRiskLong: 3
+  aiNarrative: "HS science involves hands-on labs — titrations, circuit building, frog dissections, physics experiments — that require in-person supervision and safety management. AI can enhance virtual simulations and data analysis, but running a real chemistry lab with 30 teenagers is inherently human work. Physics and chemistry teachers are in extreme shortage because anyone with those skills can earn far more in industry."
+  fellowshipOptions: "Master's in Science Education or subject-specific MS; National Board Certification; AP certification for Biology, Chemistry, Physics, Environmental Science; science department chair; STEM coordinator; pathway to administration or college adjunct"
+  compModel: "District salary schedule; science shortage bonuses $3K-10K common; AP/IB stipends; some districts offer industry-competitive packages to attract STEM talent; $42K-80K range"
+  revPerPatientVisit: "N/A — salaried $42K-$80K/yr based on district salary schedule"
+  dailyWorkflow: "5-6 class periods of Biology, Chemistry, Physics, or AP science; lab preparation and safety checks, hands-on experiments, lecture and demonstration, grading lab reports and exams, science fair advising, lesson planning"
+  patientVolume: "125-150 students across 5-6 class periods; 24-30 per class (lower for lab safety)"
+  supportStaffModel: "Science department team; lab technician in well-funded schools; special education co-teacher for inclusion; department chair manages lab budgets and chemical inventory"
+  geographicDemandNotes: "Critical shortage area in almost every state — physics and chemistry teachers are especially scarce; virtually guaranteed employment anywhere in the country"
+  telehealthPotential: 3
+  genderDistribution: "~55% women"
+
+- name: "HS History Teacher"
+  group: k12_classroom
+  residencyYears: 0
+  annualSpots: 8000
+  startSalary: 40
+  midSalary: 55
+  peakSalary: 72
+  typicalPeak: 62
+  partTimeFlex: 3
+  procedureMix: 6
+  callSchedule: 3
+  adminBurden: 6
+  hoursWeek: 46
+  burnout: 42
+  partTimeFeasibility: 3
+  vacation: 11
+  careerLongevity: 9
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 8
+  automationRisk: 3
+  handsOnInsulation: 8
+  satisfaction: 72
+  chooseAgain: 65
+  intellectualStim: 8
+  varietyRepetition: 5
+  patientImpact: 8
+  physicalToll: 8
+  emotionalToll: 6
+  malpracticeLiability: 10
+  injuryCareerRisk: 9
+  aiRiskNow: 2
+  aiRiskMedium: 3
+  aiRiskLong: 3
+  aiNarrative: "AI can generate historical summaries and answer factual questions, but teaching students to analyze primary sources, construct historical arguments, evaluate bias in evidence, and develop civic identity requires skilled human mentorship. AP History courses emphasize document-based question analysis that demands Socratic discussion and personalized feedback."
+  fellowshipOptions: "Master's in History or Social Studies Education; National Board Certification in Adolescence and Young Adulthood Social Studies/History; AP US History, World History, or Government certification; coaching stipends (history teachers often coach); department chair; pathway to administration"
+  compModel: "District salary schedule with step increases; $40K-72K range; coaching stipends $3K-8K extra; some AP stipends available"
+  revPerPatientVisit: "N/A — salaried $40K-$72K/yr based on district salary schedule"
+  dailyWorkflow: "5-6 class periods of US History, World History, Government, or Economics; Socratic seminars, document analysis, lecture and discussion, DBQ essay grading, project-based learning, lesson planning, coaching duties after school"
+  patientVolume: "125-150 students across 5-6 class periods; 25-32 per class"
+  supportStaffModel: "Social studies department team; special education co-teacher for inclusion classes; department chair coordinates curriculum; coaching staff network"
+  geographicDemandNotes: "Moderate demand — social studies is easier to fill than STEM but shortages exist in growing districts; coaching ability often helps in hiring"
+  telehealthPotential: 3
+  genderDistribution: "~55% women"
+
+- name: "Special Education Teacher"
+  group: specialized_teaching
+  residencyYears: 0
+  annualSpots: 38000
+  startSalary: 40
+  midSalary: 55
+  peakSalary: 72
+  typicalPeak: 62
+  partTimeFlex: 3
+  procedureMix: 7
+  callSchedule: 3
+  adminBurden: 8
+  hoursWeek: 48
+  burnout: 55
+  partTimeFeasibility: 3
+  vacation: 10
+  careerLongevity: 7
+  malpracticeFreq: 9
+  malpracticeCost: 0
+  geographicFlex: 9
+  automationRisk: 2
+  handsOnInsulation: 9
+  satisfaction: 65
+  chooseAgain: 52
+  intellectualStim: 6
+  varietyRepetition: 7
+  patientImpact: 9
+  physicalToll: 6
+  emotionalToll: 4
+  malpracticeLiability: 9
+  injuryCareerRisk: 8
+  aiRiskNow: 1
+  aiRiskMedium: 2
+  aiRiskLong: 2
+  aiNarrative: "Special education is intensely individualized — each student has unique learning disabilities, behavioral needs, and IEP goals. AI can help with progress monitoring data and adaptive learning software, but the relationship-building, behavior management, crisis intervention, and IEP paperwork coordination require deeply empathetic human professionals. This is the single highest-demand teaching specialty."
+  fellowshipOptions: "Master's in Special Education; Board Certified Behavior Analyst (BCBA); National Board Certification in Exceptional Needs; autism spectrum specialist endorsement; transition specialist; special education coordinator or director pathway"
+  compModel: "District salary schedule, often with special education stipend $1K-5K; step increases for experience and graduate credits; $40K-72K range; signing bonuses common due to severe shortage"
+  revPerPatientVisit: "N/A — salaried $40K-$72K/yr based on district salary schedule plus SPED stipend"
+  dailyWorkflow: "Co-teaching in inclusion classrooms, small group pull-out instruction, writing and updating IEPs, progress monitoring, behavioral intervention, parent meetings, team meetings with therapists and psychologists, crisis support, adapting curriculum materials"
+  patientVolume: "12-28 students on caseload depending on setting (self-contained 8-12, resource/inclusion 20-28)"
+  supportStaffModel: "Paraprofessional aides (1-3 per classroom); school psychologist; speech-language pathologist; occupational therapist; behavior specialist; special education director oversees program"
+  geographicDemandNotes: "Extreme shortage in every state — the most in-demand teaching specialty nationwide; virtually guaranteed employment anywhere; federal mandate (IDEA) requires staffing regardless of budget"
+  telehealthPotential: 3
+  genderDistribution: "~85% women"
+
+- name: "ESL Teacher"
+  group: specialized_teaching
+  residencyYears: 0
+  annualSpots: 18000
+  startSalary: 38
+  midSalary: 52
+  peakSalary: 68
+  typicalPeak: 58
+  partTimeFlex: 4
+  procedureMix: 7
+  callSchedule: 2
+  adminBurden: 7
+  hoursWeek: 45
+  burnout: 42
+  partTimeFeasibility: 4
+  vacation: 11
+  careerLongevity: 8
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 7
+  automationRisk: 3
+  handsOnInsulation: 8
+  satisfaction: 72
+  chooseAgain: 65
+  intellectualStim: 7
+  varietyRepetition: 6
+  patientImpact: 9
+  physicalToll: 7
+  emotionalToll: 5
+  malpracticeLiability: 10
+  injuryCareerRisk: 9
+  aiRiskNow: 2
+  aiRiskMedium: 3
+  aiRiskLong: 3
+  aiNarrative: "AI translation tools are powerful, but ESL teaching is about far more than translation — it is building academic language proficiency, cultural integration, and confidence in newcomer students who may also be processing trauma. The interpersonal and culturally responsive aspects of the work make it highly resistant to automation. Growing immigration and refugee populations increase demand."
+  fellowshipOptions: "Master's in TESOL or Applied Linguistics; National Board Certification; bilingual education endorsement; ESL program coordinator; newcomer academy specialist; pathway to district-level ELL director"
+  compModel: "District salary schedule; some districts offer bilingual bonus $2K-5K for fluency in high-need languages; step increases for experience and credits; $38K-68K range"
+  revPerPatientVisit: "N/A — salaried $38K-$68K/yr based on district salary schedule"
+  dailyWorkflow: "Sheltered English instruction, small group language development, vocabulary building activities, reading comprehension support, writing scaffolding, language proficiency testing, coordinating with content-area teachers, parent outreach with interpreters, cultural orientation"
+  patientVolume: "60-100 students on caseload; push-in and pull-out groups of 5-15 students"
+  supportStaffModel: "ESL department team; bilingual aides and interpreters; content-area teacher collaboration; district ELL coordinator; family liaison"
+  geographicDemandNotes: "Highest demand in immigrant gateway cities (NYC, LA, Houston, Chicago, Miami) and increasingly in suburban and rural districts with growing immigrant populations; critical shortage area in most states"
+  telehealthPotential: 4
+  genderDistribution: "~80% women"
+
+- name: "Music Teacher"
+  group: specialized_teaching
+  residencyYears: 0
+  annualSpots: 8000
+  startSalary: 38
+  midSalary: 52
+  peakSalary: 65
+  typicalPeak: 56
+  partTimeFlex: 4
+  procedureMix: 7
+  callSchedule: 3
+  adminBurden: 5
+  hoursWeek: 45
+  burnout: 38
+  partTimeFeasibility: 4
+  vacation: 10
+  careerLongevity: 9
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 7
+  automationRisk: 2
+  handsOnInsulation: 9
+  satisfaction: 78
+  chooseAgain: 72
+  intellectualStim: 8
+  varietyRepetition: 6
+  patientImpact: 8
+  physicalToll: 7
+  emotionalToll: 6
+  malpracticeLiability: 10
+  injuryCareerRisk: 9
+  aiRiskNow: 1
+  aiRiskMedium: 2
+  aiRiskLong: 2
+  aiNarrative: "AI can compose music and provide practice feedback, but conducting a band, teaching vocal technique, managing 60 students in a marching formation, and building ensemble cohesion are irreplaceable human activities. Music education is performance-based and community-centered — concerts, competitions, and musicals require a skilled director. Budget cuts are a bigger threat than AI."
+  fellowshipOptions: "Master's in Music Education; National Board Certification in Music; Orff, Kodaly, or Suzuki certifications; marching band director; musical theatre director; district fine arts coordinator; pathway to college music education faculty"
+  compModel: "District salary schedule; stipends for marching band, jazz band, musical theatre $2K-6K; private lesson income on the side common; $38K-65K range"
+  revPerPatientVisit: "N/A — salaried $38K-$65K/yr based on district salary schedule plus performance stipends"
+  dailyWorkflow: "Teaching band, choir, orchestra, or general music classes; rehearsal direction, individual sectional coaching, concert preparation, instrument repair coordination, music selection, marching band choreography, competition travel, budget management for instruments and uniforms"
+  patientVolume: "200-400 students across ensembles and classes; class sizes 25-60 for performing groups"
+  supportStaffModel: "Often solo music teacher in a building; larger programs have band, choir, and orchestra directors; parent booster organization assists; district fine arts supervisor"
+  geographicDemandNotes: "Moderate demand — positions available nationwide but fine arts positions are first cut in budget crunches; strongest programs in suburban districts and states that mandate arts education"
+  telehealthPotential: 3
+  genderDistribution: "~55% women"
+
+- name: "Art Teacher"
+  group: specialized_teaching
+  residencyYears: 0
+  annualSpots: 6000
+  startSalary: 36
+  midSalary: 50
+  peakSalary: 64
+  typicalPeak: 55
+  partTimeFlex: 4
+  procedureMix: 7
+  callSchedule: 2
+  adminBurden: 5
+  hoursWeek: 43
+  burnout: 35
+  partTimeFeasibility: 4
+  vacation: 11
+  careerLongevity: 9
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 7
+  automationRisk: 2
+  handsOnInsulation: 9
+  satisfaction: 76
+  chooseAgain: 70
+  intellectualStim: 8
+  varietyRepetition: 7
+  patientImpact: 7
+  physicalToll: 7
+  emotionalToll: 7
+  malpracticeLiability: 10
+  injuryCareerRisk: 9
+  aiRiskNow: 1
+  aiRiskMedium: 2
+  aiRiskLong: 2
+  aiNarrative: "AI image generation is transforming commercial art, but K-12 art education is about developing creativity, fine motor skills, self-expression, and art history appreciation through hands-on studio work. Students need to physically manipulate clay, paint, charcoal, and printmaking tools. AI art tools may become teaching subjects rather than replacements."
+  fellowshipOptions: "Master's in Art Education; National Board Certification in Art; museum education specialist; AP Studio Art certification; National Art Education Association leadership; district fine arts coordinator; pathway to college art education faculty"
+  compModel: "District salary schedule; small stipends for art shows and after-school clubs; $36K-64K range; some teachers supplement with freelance art sales"
+  revPerPatientVisit: "N/A — salaried $36K-$64K/yr based on district salary schedule"
+  dailyWorkflow: "Teaching drawing, painting, ceramics, sculpture, digital art, and art history; studio setup and cleanup, kiln management, supply ordering, student portfolio development, art show curation, bulletin board displays"
+  patientVolume: "150-300 students across 5-7 class periods; 25-30 per class"
+  supportStaffModel: "Usually solo art teacher in building; some schools have art aide for kiln and supply management; district fine arts supervisor evaluates"
+  geographicDemandNotes: "Moderate demand — art positions are competitive in suburban districts but available in urban and rural areas; vulnerable to budget cuts; states with arts mandates have more positions"
+  telehealthPotential: 3
+  genderDistribution: "~75% women"
+
+- name: "PE Teacher"
+  group: specialized_teaching
+  residencyYears: 0
+  annualSpots: 10000
+  startSalary: 38
+  midSalary: 52
+  peakSalary: 66
+  typicalPeak: 56
+  partTimeFlex: 3
+  procedureMix: 5
+  callSchedule: 3
+  adminBurden: 5
+  hoursWeek: 44
+  burnout: 35
+  partTimeFeasibility: 3
+  vacation: 11
+  careerLongevity: 8
+  malpracticeFreq: 9
+  malpracticeCost: 0
+  geographicFlex: 8
+  automationRisk: 2
+  handsOnInsulation: 9
+  satisfaction: 75
+  chooseAgain: 68
+  intellectualStim: 5
+  varietyRepetition: 4
+  patientImpact: 7
+  physicalToll: 5
+  emotionalToll: 7
+  malpracticeLiability: 9
+  injuryCareerRisk: 8
+  aiRiskNow: 1
+  aiRiskMedium: 1
+  aiRiskLong: 2
+  aiNarrative: "Physical education is inherently human — demonstrating exercises, refereeing games, supervising safety in the gym and on playing fields. Fitness tracking technology supplements instruction, but motivating students to move, teaching sportsmanship, and managing large groups in physical activity settings cannot be automated. PE teachers also often serve as coaches."
+  fellowshipOptions: "Master's in Kinesiology or Physical Education; National Board Certification in Physical Education; adapted PE specialist endorsement; health education endorsement; athletic director pathway; coaching certifications (NFHS); pathway to administration"
+  compModel: "District salary schedule; coaching stipends are a major income supplement $3K-10K per sport per season; AD stipend $5K-15K; $38K-66K base range"
+  revPerPatientVisit: "N/A — salaried $38K-$66K/yr based on district salary schedule plus coaching stipends"
+  dailyWorkflow: "Teaching fitness units, team sports, individual activities, and health education; equipment setup, safety supervision, fitness testing, managing locker room logistics, after-school coaching duties, game day management"
+  patientVolume: "200-400 students across 6-8 class periods; 30-40 per class (larger than academic classes)"
+  supportStaffModel: "PE department team of 2-3 at larger schools; share gymnasium and fields; athletic trainer collaboration; athletic director oversees sports program"
+  geographicDemandNotes: "Steady demand nationwide — every school needs PE teachers; hiring often linked to coaching needs; states with daily PE mandates have more positions"
+  telehealthPotential: 2
+  genderDistribution: "~55% women"
+
+- name: "CTE Teacher"
+  group: specialized_teaching
+  residencyYears: 0
+  annualSpots: 12000
+  startSalary: 44
+  midSalary: 58
+  peakSalary: 75
+  typicalPeak: 65
+  partTimeFlex: 3
+  procedureMix: 7
+  callSchedule: 2
+  adminBurden: 6
+  hoursWeek: 45
+  burnout: 38
+  partTimeFeasibility: 3
+  vacation: 10
+  careerLongevity: 8
+  malpracticeFreq: 9
+  malpracticeCost: 0
+  geographicFlex: 7
+  automationRisk: 2
+  handsOnInsulation: 8
+  satisfaction: 76
+  chooseAgain: 70
+  intellectualStim: 7
+  varietyRepetition: 7
+  patientImpact: 8
+  physicalToll: 6
+  emotionalToll: 7
+  malpracticeLiability: 9
+  injuryCareerRisk: 8
+  aiRiskNow: 1
+  aiRiskMedium: 2
+  aiRiskLong: 3
+  aiNarrative: "CTE (Career and Technical Education) covers auto shop, welding, culinary arts, health sciences, IT, and more — all hands-on and project-based. AI may enhance some IT and business curriculum, but the shop-floor supervision, equipment operation, and industry certification preparation require experienced human instructors. Many CTE teachers come from industry with alternative certification."
+  fellowshipOptions: "Master's in CTE or Workforce Development; National Board Certification; industry certifications in specialty area (ASE, AWS, ServSafe, CompTIA); CTE department chair; career center director; pathway to CTE district coordinator"
+  compModel: "District salary schedule, often with CTE supplement $2K-5K for industry experience; higher starting salary due to industry background requirement; $44K-75K range; some districts match partial industry salary"
+  revPerPatientVisit: "N/A — salaried $44K-$75K/yr based on district salary schedule plus CTE supplement"
+  dailyWorkflow: "Teaching hands-on skills in shop, kitchen, computer lab, or health science lab; equipment maintenance, safety supervision, industry certification prep, employer partnership coordination, student project management, career fair organization, work-based learning placement"
+  patientVolume: "100-150 students across 5-6 class periods; 15-25 per class (smaller for safety in shop settings)"
+  supportStaffModel: "CTE department team; industry advisory board; work-based learning coordinator; shop aide in some programs; Perkins grant coordinator manages federal CTE funding"
+  geographicDemandNotes: "High demand nationwide — CTE is expanding rapidly as states invest in career pathways; alternative certification from industry makes entry accessible; strongest in states with robust career academy models (TN, TX, FL, CA)"
+  telehealthPotential: 2
+  genderDistribution: "~52% women"
+
+- name: "Reading Specialist"
+  group: student_support
+  residencyYears: 0
+  annualSpots: 8000
+  startSalary: 42
+  midSalary: 58
+  peakSalary: 75
+  typicalPeak: 65
+  partTimeFlex: 4
+  procedureMix: 6
+  callSchedule: 2
+  adminBurden: 7
+  hoursWeek: 44
+  burnout: 38
+  partTimeFeasibility: 4
+  vacation: 11
+  careerLongevity: 9
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 8
+  automationRisk: 3
+  handsOnInsulation: 8
+  satisfaction: 75
+  chooseAgain: 68
+  intellectualStim: 7
+  varietyRepetition: 5
+  patientImpact: 9
+  physicalToll: 8
+  emotionalToll: 6
+  malpracticeLiability: 10
+  injuryCareerRisk: 9
+  aiRiskNow: 2
+  aiRiskMedium: 3
+  aiRiskLong: 3
+  aiNarrative: "AI reading programs can provide adaptive practice and fluency tracking, but diagnosing specific reading disabilities, selecting appropriate interventions, and building reading confidence in struggling students requires expert human judgment. Reading specialists use the science of reading to reach students who have not responded to general classroom instruction — work that demands individualized assessment and relationship."
+  fellowshipOptions: "Master's in Reading/Literacy (often required for the role); Reading Specialist certification; International Literacy Association credentials; Orton-Gillingham or Wilson Reading certification; literacy coach; district reading coordinator; pathway to curriculum director"
+  compModel: "District salary schedule, typically on teacher scale but master's degree bumps to higher lane; $42K-75K range; some districts classify as instructional coach with slightly higher pay"
+  revPerPatientVisit: "N/A — salaried $42K-$75K/yr based on district salary schedule with master's lane"
+  dailyWorkflow: "Diagnostic reading assessments, small group intervention sessions (3-5 students), one-on-one tutoring for severe cases, progress monitoring, consulting with classroom teachers, modeling literacy strategies, analyzing reading data, attending RTI/MTSS team meetings"
+  patientVolume: "30-60 students on intervention caseload; small groups of 3-5 students"
+  supportStaffModel: "Works alongside classroom teachers; coordinates with special education team; reports to building principal or literacy coordinator; paraprofessional aide may assist with lower-tier interventions"
+  geographicDemandNotes: "Strong demand especially in Title I schools and districts focused on reading proficiency; science of reading legislation creating new positions nationwide; highest need in elementary schools"
+  telehealthPotential: 4
+  genderDistribution: "~90% women"
+
+- name: "Gifted Specialist"
+  group: student_support
+  residencyYears: 0
+  annualSpots: 5000
+  startSalary: 42
+  midSalary: 58
+  peakSalary: 75
+  typicalPeak: 65
+  partTimeFlex: 4
+  procedureMix: 7
+  callSchedule: 2
+  adminBurden: 6
+  hoursWeek: 44
+  burnout: 35
+  partTimeFeasibility: 4
+  vacation: 11
+  careerLongevity: 9
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 7
+  automationRisk: 3
+  handsOnInsulation: 8
+  satisfaction: 78
+  chooseAgain: 72
+  intellectualStim: 8
+  varietyRepetition: 7
+  patientImpact: 8
+  physicalToll: 8
+  emotionalToll: 7
+  malpracticeLiability: 10
+  injuryCareerRisk: 9
+  aiRiskNow: 2
+  aiRiskMedium: 3
+  aiRiskLong: 3
+  aiNarrative: "AI tools can accelerate gifted students' learning through personalized pacing, but the social-emotional support gifted learners need — perfectionism counseling, asynchronous development coaching, and intellectual peer community building — requires skilled human facilitation. Gifted specialists also identify underrepresented gifted students and design enrichment that challenges without overwhelming."
+  fellowshipOptions: "Master's in Gifted Education; gifted endorsement or certification (state-specific); National Association for Gifted Children credentials; curriculum design specialist; STEM enrichment coordinator; gifted program coordinator; pathway to district gifted director"
+  compModel: "District salary schedule with master's lane; $42K-75K range; some districts classify as instructional coach; summer enrichment program stipends available"
+  revPerPatientVisit: "N/A — salaried $42K-$75K/yr based on district salary schedule with master's lane"
+  dailyWorkflow: "Pull-out enrichment lessons for identified gifted students, differentiation coaching for classroom teachers, gifted identification testing, curriculum compacting design, independent study mentoring, competition coaching (Science Olympiad, Math League, Odyssey of the Mind), parent meetings about gifted needs"
+  patientVolume: "60-120 gifted-identified students across multiple schools (often itinerant); small groups of 8-15"
+  supportStaffModel: "Often serves multiple schools as itinerant specialist; coordinates with classroom teachers; reports to gifted program coordinator or curriculum director; school psychologist assists with identification"
+  geographicDemandNotes: "Demand varies by state — states with gifted mandates (TX, GA, VA, OH, IN) have more positions; suburban districts with active parent advocacy tend to fund gifted programs; some states have minimal gifted services"
+  telehealthPotential: 4
+  genderDistribution: "~82% women"
+
+- name: "School Librarian"
+  group: student_support
+  residencyYears: 0
+  annualSpots: 4000
+  startSalary: 40
+  midSalary: 55
+  peakSalary: 72
+  typicalPeak: 62
+  partTimeFlex: 4
+  procedureMix: 6
+  callSchedule: 2
+  adminBurden: 5
+  hoursWeek: 42
+  burnout: 35
+  partTimeFeasibility: 4
+  vacation: 11
+  careerLongevity: 9
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 7
+  automationRisk: 4
+  handsOnInsulation: 7
+  satisfaction: 76
+  chooseAgain: 68
+  intellectualStim: 7
+  varietyRepetition: 6
+  patientImpact: 7
+  physicalToll: 8
+  emotionalToll: 7
+  malpracticeLiability: 10
+  injuryCareerRisk: 9
+  aiRiskNow: 2
+  aiRiskMedium: 3
+  aiRiskLong: 4
+  aiNarrative: "AI search tools and digital databases are changing how students research, making information literacy education more important than ever. School librarians who teach students to evaluate sources, detect misinformation, and use AI tools responsibly are increasingly vital. However, budget pressures threaten positions — some districts have eliminated librarian roles, replacing them with aides or digital platforms."
+  fellowshipOptions: "Master's in Library Science (MLIS) — often required; school library media specialist certification; National Board Certification in Library Media; technology integration specialist; district library coordinator; pathway to public library director or academic librarianship"
+  compModel: "District salary schedule, typically on teacher scale with master's degree lane; $40K-72K range; some districts classify as support staff rather than certified teacher (lower pay)"
+  revPerPatientVisit: "N/A — salaried $40K-$72K/yr based on district salary schedule with master's lane"
+  dailyWorkflow: "Teaching research and information literacy classes, curating book collections, reader advisory for students, managing library database systems, collaborating with teachers on research projects, running book clubs, organizing author visits and reading events, maintaining technology resources, overseeing study space"
+  patientVolume: "Serves entire school population (300-1500 students); scheduled classes of 25-30 plus drop-in students"
+  supportStaffModel: "Usually solo librarian per building; library aide or volunteer assists with checkout and shelving; collaborates with technology coordinator; reports to building principal"
+  geographicDemandNotes: "Demand declining in some states as districts cut positions; strongest in states that mandate certified librarians (TX, NY, NC); suburban and well-funded districts more likely to maintain positions; advocacy efforts ongoing to preserve roles"
+  telehealthPotential: 4
+  genderDistribution: "~85% women"
