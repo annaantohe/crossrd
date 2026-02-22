@@ -287,6 +287,55 @@ PROFESSION_DEFAULTS = {
         "post_peak_growth": 1.5,
         "npv_discount_rate": 5,
     },
+    # --- trades professions ---
+    "Trade School": {
+        "undergrad_cost_per_yr": 0,
+        "undergrad_years": 0,
+        "prof_school_cost_per_yr": 15,
+        "prof_school_years": 0.75,
+        "trainee_salary": 15,
+        "education_debt": 8,
+        "loan_rate": 5,
+        "living_expenses": 35,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 2,
+        "salary_growth_to_mid": 3.5,
+        "salary_growth_to_peak": 2.5,
+        "post_peak_growth": 1.5,
+        "npv_discount_rate": 5,
+    },
+    "Apprenticeship": {
+        "undergrad_cost_per_yr": 0,
+        "undergrad_years": 0,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 0,
+        "trainee_salary": 20,
+        "education_debt": 5,
+        "loan_rate": 5,
+        "living_expenses": 38,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 3,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1.5,
+        "npv_discount_rate": 5,
+    },
+    "Contractor": {
+        "undergrad_cost_per_yr": 22,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 0,
+        "trainee_salary": 0,
+        "education_debt": 40,
+        "loan_rate": 5.5,
+        "living_expenses": 48,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 5,
+        "salary_growth_to_peak": 4,
+        "post_peak_growth": 1.5,
+        "npv_discount_rate": 5,
+    },
 }
 
 
@@ -356,7 +405,7 @@ def derive_timeline(spec, profession):
         if m:
             fellowship_years = int(m.group(1))
 
-    college_end = 22
+    college_end = 18 + defaults["undergrad_years"]
     school_end = college_end + defaults["prof_school_years"]
     residency_end = school_end + res_yrs
     earn_age = residency_end + fellowship_years

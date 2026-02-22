@@ -1,0 +1,6785 @@
+{
+  "meta": {
+    "profession_family": "trades",
+    "family_name": "Trades & Skilled Labor",
+    "headline": "Which Trade Should You Pursue?",
+    "subtitle": "A Data-Driven Guide",
+    "icon": "\ud83d\udd27",
+    "last_updated": "2026-02-22",
+    "total_tracks": 60,
+    "data_points": 107,
+    "source_file": "yaml"
+  },
+  "professions": {
+    "Trade School": {
+      "label": "Trade School Graduate",
+      "color": "#F57F17",
+      "track_count": 20
+    },
+    "Apprenticeship": {
+      "label": "Journeyman",
+      "color": "#2E7D32",
+      "track_count": 28
+    },
+    "Contractor": {
+      "label": "Contractor / BS",
+      "color": "#1565C0",
+      "track_count": 12
+    }
+  },
+  "groups": {
+    "electrical": {
+      "label": "Electrical & Power",
+      "icon": "\u26a1",
+      "tagline": "you want to power the world",
+      "description": "Electricians, linemen, solar installers, wind turbine techs, fire alarm systems",
+      "count": 8,
+      "salary_range": [
+        68,
+        175
+      ]
+    },
+    "plumbing_hvac": {
+      "label": "Plumbing & HVAC",
+      "icon": "\ud83d\udebf",
+      "tagline": "you want to keep buildings comfortable",
+      "description": "Plumbers, pipefitters, HVAC technicians, fire sprinkler fitters, refrigeration",
+      "count": 7,
+      "salary_range": [
+        58,
+        165
+      ]
+    },
+    "construction": {
+      "label": "Building & Construction",
+      "icon": "\ud83c\udfd7\ufe0f",
+      "tagline": "you want to build from the ground up",
+      "description": "Carpenters, masons, roofers, painters, drywall, concrete, flooring, tile, glaziers",
+      "count": 14,
+      "salary_range": [
+        64,
+        180
+      ]
+    },
+    "welding_fabrication": {
+      "label": "Welding & Fabrication",
+      "icon": "\ud83d\udd25",
+      "tagline": "you want to shape metal",
+      "description": "Welders, sheet metal workers, boilermakers, CNC machinists, tool & die makers",
+      "count": 7,
+      "salary_range": [
+        85,
+        145
+      ]
+    },
+    "automotive_diesel": {
+      "label": "Automotive & Diesel",
+      "icon": "\ud83d\ude97",
+      "tagline": "you want to keep machines running",
+      "description": "Auto mechanics, diesel technicians, aircraft mechanics, auto body repair",
+      "count": 5,
+      "salary_range": [
+        60,
+        120
+      ]
+    },
+    "heavy_equipment": {
+      "label": "Heavy Equipment",
+      "icon": "\ud83c\udfd7\ufe0f",
+      "tagline": "you want to operate big machines",
+      "description": "Crane operators, heavy equipment operators and mechanics, paving",
+      "count": 4,
+      "salary_range": [
+        72,
+        110
+      ]
+    },
+    "specialty_trades": {
+      "label": "Specialty Trades",
+      "icon": "\ud83d\udd11",
+      "tagline": "you want a unique niche",
+      "description": "Elevator constructors, millwrights, water treatment, locksmithing, landscaping",
+      "count": 8,
+      "salary_range": [
+        52,
+        200
+      ]
+    },
+    "management_inspection": {
+      "label": "Management & Inspection",
+      "icon": "\ud83d\udccb",
+      "tagline": "you want to run the project",
+      "description": "Construction managers, building inspectors, safety managers, cost estimators",
+      "count": 7,
+      "salary_range": [
+        80,
+        175
+      ]
+    }
+  },
+  "careers": [
+    {
+      "key": "electrician",
+      "name": "Electrician",
+      "color": "#F9A825",
+      "path": "Journeyman",
+      "group": "electrical"
+    },
+    {
+      "key": "lineman",
+      "name": "Power Line Installer (Lineman)",
+      "color": "#E65100",
+      "path": "Journeyman",
+      "group": "electrical"
+    },
+    {
+      "key": "fire_alarm_technician",
+      "name": "Fire Alarm Technician",
+      "color": "#357238",
+      "path": "Journeyman",
+      "group": "electrical"
+    },
+    {
+      "key": "wind_turbine_technician",
+      "name": "Wind Turbine Technician",
+      "color": "#318745",
+      "path": "Journeyman",
+      "group": "electrical"
+    },
+    {
+      "key": "plumber",
+      "name": "Plumber",
+      "color": "#1e7241",
+      "path": "Journeyman",
+      "group": "plumbing_hvac"
+    },
+    {
+      "key": "pipefitter_steamfitter",
+      "name": "Pipefitter/Steamfitter",
+      "color": "#3f8769",
+      "path": "Journeyman",
+      "group": "plumbing_hvac"
+    },
+    {
+      "key": "hvac_technician",
+      "name": "HVAC Technician",
+      "color": "#2a7262",
+      "path": "Journeyman",
+      "group": "plumbing_hvac"
+    },
+    {
+      "key": "fire_sprinkler_fitter",
+      "name": "Fire Sprinkler Fitter",
+      "color": "#248782",
+      "path": "Journeyman",
+      "group": "plumbing_hvac"
+    },
+    {
+      "key": "refrigeration_technician",
+      "name": "Refrigeration Technician",
+      "color": "#356a72",
+      "path": "Journeyman",
+      "group": "plumbing_hvac"
+    },
+    {
+      "key": "carpenter",
+      "name": "Carpenter",
+      "color": "#316c87",
+      "path": "Journeyman",
+      "group": "construction"
+    },
+    {
+      "key": "mason_bricklayer",
+      "name": "Mason/Bricklayer",
+      "color": "#1e4972",
+      "path": "Journeyman",
+      "group": "construction"
+    },
+    {
+      "key": "ironworker",
+      "name": "Ironworker",
+      "color": "#3f5687",
+      "path": "Journeyman",
+      "group": "construction"
+    },
+    {
+      "key": "welder",
+      "name": "Welder",
+      "color": "#B71C1C",
+      "path": "Journeyman",
+      "group": "welding_fabrication"
+    },
+    {
+      "key": "sheet_metal_worker",
+      "name": "Sheet Metal Worker",
+      "color": "#2a3572",
+      "path": "Journeyman",
+      "group": "welding_fabrication"
+    },
+    {
+      "key": "boilermaker",
+      "name": "Boilermaker",
+      "color": "#272487",
+      "path": "Journeyman",
+      "group": "welding_fabrication"
+    },
+    {
+      "key": "cnc_machinist",
+      "name": "CNC Machinist",
+      "color": "#423572",
+      "path": "Journeyman",
+      "group": "welding_fabrication"
+    },
+    {
+      "key": "tool_die_maker",
+      "name": "Tool & Die Maker",
+      "color": "#533187",
+      "path": "Journeyman",
+      "group": "welding_fabrication"
+    },
+    {
+      "key": "ndt_technician",
+      "name": "NDT Technician",
+      "color": "#4e1e72",
+      "path": "Journeyman",
+      "group": "welding_fabrication"
+    },
+    {
+      "key": "auto_mechanic",
+      "name": "Auto Mechanic",
+      "color": "#753f87",
+      "path": "Journeyman",
+      "group": "automotive_diesel"
+    },
+    {
+      "key": "diesel_technician",
+      "name": "Diesel Technician",
+      "color": "#6d2a72",
+      "path": "Journeyman",
+      "group": "automotive_diesel"
+    },
+    {
+      "key": "aircraft_mechanic",
+      "name": "Aircraft Mechanic (A&P)",
+      "color": "#0D47A1",
+      "path": "Journeyman",
+      "group": "automotive_diesel"
+    },
+    {
+      "key": "heavy_equipment_operator",
+      "name": "Heavy Equipment Operator",
+      "color": "#87247c",
+      "path": "Journeyman",
+      "group": "heavy_equipment"
+    },
+    {
+      "key": "crane_operator",
+      "name": "Crane Operator",
+      "color": "#723561",
+      "path": "Journeyman",
+      "group": "heavy_equipment"
+    },
+    {
+      "key": "heavy_equipment_mechanic",
+      "name": "Heavy Equipment Mechanic",
+      "color": "#87315e",
+      "path": "Journeyman",
+      "group": "heavy_equipment"
+    },
+    {
+      "key": "elevator_constructor",
+      "name": "Elevator Constructor",
+      "color": "#4A148C",
+      "path": "Journeyman",
+      "group": "specialty_trades"
+    },
+    {
+      "key": "industrial_mechanic_mill",
+      "name": "Industrial Mechanic/Millwright",
+      "color": "#721e3c",
+      "path": "Journeyman",
+      "group": "specialty_trades"
+    },
+    {
+      "key": "water_wastewater_treatme",
+      "name": "Water/Wastewater Treatment Operator",
+      "color": "#873f4b",
+      "path": "Journeyman",
+      "group": "specialty_trades"
+    },
+    {
+      "key": "surveying_cad_technician",
+      "name": "Surveying/CAD Technician",
+      "color": "#722b2a",
+      "path": "Journeyman",
+      "group": "management_inspection"
+    },
+    {
+      "key": "electrical_contractor",
+      "name": "Electrical Contractor",
+      "color": "#2669b5",
+      "path": "Contractor / BS",
+      "group": "electrical"
+    },
+    {
+      "key": "plumbing_hvac_contractor",
+      "name": "Plumbing/HVAC Contractor",
+      "color": "#1e4fca",
+      "path": "Contractor / BS",
+      "group": "plumbing_hvac"
+    },
+    {
+      "key": "general_contractor",
+      "name": "General Contractor",
+      "color": "#1b2bb5",
+      "path": "Contractor / BS",
+      "group": "construction"
+    },
+    {
+      "key": "construction_superintend",
+      "name": "Construction Superintendent",
+      "color": "#352aca",
+      "path": "Contractor / BS",
+      "group": "construction"
+    },
+    {
+      "key": "construction_manager",
+      "name": "Construction Manager",
+      "color": "#1565C0",
+      "path": "Contractor / BS",
+      "group": "management_inspection"
+    },
+    {
+      "key": "building_inspector",
+      "name": "Building Inspector",
+      "color": "#421bb5",
+      "path": "Contractor / BS",
+      "group": "management_inspection"
+    },
+    {
+      "key": "cost_estimator",
+      "name": "Cost Estimator",
+      "color": "#681eca",
+      "path": "Contractor / BS",
+      "group": "management_inspection"
+    },
+    {
+      "key": "safety_manager_osha",
+      "name": "Safety Manager (OSHA)",
+      "color": "#7e26b5",
+      "path": "Contractor / BS",
+      "group": "management_inspection"
+    },
+    {
+      "key": "project_engineer_constru",
+      "name": "Project Engineer (Construction)",
+      "color": "#a61eca",
+      "path": "Contractor / BS",
+      "group": "management_inspection"
+    },
+    {
+      "key": "facilities_manager",
+      "name": "Facilities Manager",
+      "color": "#b11bb5",
+      "path": "Contractor / BS",
+      "group": "management_inspection"
+    },
+    {
+      "key": "quality_control_manager",
+      "name": "Quality Control Manager",
+      "color": "#ca2ab1",
+      "path": "Contractor / BS",
+      "group": "welding_fabrication"
+    },
+    {
+      "key": "environmental_compliance",
+      "name": "Environmental Compliance Inspector",
+      "color": "#b51b82",
+      "path": "Contractor / BS",
+      "group": "specialty_trades"
+    },
+    {
+      "key": "solar_panel_installer",
+      "name": "Solar Panel Installer",
+      "color": "#d87b2a",
+      "path": "Trade School Graduate",
+      "group": "electrical"
+    },
+    {
+      "key": "cable_telecom_installer",
+      "name": "Cable/Telecom Installer",
+      "color": "#d89720",
+      "path": "Trade School Graduate",
+      "group": "electrical"
+    },
+    {
+      "key": "low_voltage_technician",
+      "name": "Low-Voltage Technician",
+      "color": "#d8b920",
+      "path": "Trade School Graduate",
+      "group": "electrical"
+    },
+    {
+      "key": "weatherization_technicia",
+      "name": "Weatherization Technician",
+      "color": "#d7d82a",
+      "path": "Trade School Graduate",
+      "group": "plumbing_hvac"
+    },
+    {
+      "key": "painter",
+      "name": "Painter",
+      "color": "#b6d820",
+      "path": "Trade School Graduate",
+      "group": "construction"
+    },
+    {
+      "key": "drywall_installer",
+      "name": "Drywall Installer",
+      "color": "#94d820",
+      "path": "Trade School Graduate",
+      "group": "construction"
+    },
+    {
+      "key": "roofer",
+      "name": "Roofer",
+      "color": "#78d82a",
+      "path": "Trade School Graduate",
+      "group": "construction"
+    },
+    {
+      "key": "concrete_finisher",
+      "name": "Concrete Finisher",
+      "color": "#52d820",
+      "path": "Trade School Graduate",
+      "group": "construction"
+    },
+    {
+      "key": "insulation_worker",
+      "name": "Insulation Worker",
+      "color": "#31d820",
+      "path": "Trade School Graduate",
+      "group": "construction"
+    },
+    {
+      "key": "flooring_installer",
+      "name": "Flooring Installer",
+      "color": "#2ad839",
+      "path": "Trade School Graduate",
+      "group": "construction"
+    },
+    {
+      "key": "tile_setter",
+      "name": "Tile Setter",
+      "color": "#20d851",
+      "path": "Trade School Graduate",
+      "group": "construction"
+    },
+    {
+      "key": "glazier",
+      "name": "Glazier",
+      "color": "#20d873",
+      "path": "Trade School Graduate",
+      "group": "construction"
+    },
+    {
+      "key": "fence_deck_builder",
+      "name": "Fence/Deck Builder",
+      "color": "#2ad897",
+      "path": "Trade School Graduate",
+      "group": "construction"
+    },
+    {
+      "key": "auto_body_technician",
+      "name": "Auto Body Technician",
+      "color": "#20d8b5",
+      "path": "Trade School Graduate",
+      "group": "automotive_diesel"
+    },
+    {
+      "key": "small_engine_mechanic",
+      "name": "Small Engine Mechanic",
+      "color": "#20d8d6",
+      "path": "Trade School Graduate",
+      "group": "automotive_diesel"
+    },
+    {
+      "key": "paving_equipment_operato",
+      "name": "Paving Equipment Operator",
+      "color": "#2abbd8",
+      "path": "Trade School Graduate",
+      "group": "heavy_equipment"
+    },
+    {
+      "key": "landscape_technician",
+      "name": "Landscape Technician",
+      "color": "#2098d8",
+      "path": "Trade School Graduate",
+      "group": "specialty_trades"
+    },
+    {
+      "key": "pest_control_technician",
+      "name": "Pest Control Technician",
+      "color": "#2077d8",
+      "path": "Trade School Graduate",
+      "group": "specialty_trades"
+    },
+    {
+      "key": "locksmith",
+      "name": "Locksmith",
+      "color": "#2a5cd8",
+      "path": "Trade School Graduate",
+      "group": "specialty_trades"
+    },
+    {
+      "key": "general_maintenance_tech",
+      "name": "General Maintenance Technician",
+      "color": "#2035d8",
+      "path": "Trade School Graduate",
+      "group": "specialty_trades"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Pre-Professional Phase",
+      "weight_default": 7,
+      "description": "How hard is it to start?"
+    },
+    {
+      "id": 2,
+      "name": "Admissions Competitiveness",
+      "weight_default": 7,
+      "description": "Can you realistically get in?"
+    },
+    {
+      "id": 3,
+      "name": "Professional School",
+      "weight_default": 5,
+      "description": "What's the school experience like?"
+    },
+    {
+      "id": 4,
+      "name": "Post-Graduate Training",
+      "weight_default": 8,
+      "description": "How long/hard is the road after school?"
+    },
+    {
+      "id": 5,
+      "name": "Financial Picture",
+      "weight_default": 10,
+      "description": "Cost, debt, time to financial freedom"
+    },
+    {
+      "id": 6,
+      "name": "Scope of Practice & Autonomy",
+      "weight_default": 8,
+      "description": "What can you do independently?"
+    },
+    {
+      "id": 7,
+      "name": "Career Economics",
+      "weight_default": 12,
+      "description": "How much do you earn over a career?"
+    },
+    {
+      "id": 8,
+      "name": "Daily Life & Practice Reality",
+      "weight_default": 8,
+      "description": "What does the work feel like?"
+    },
+    {
+      "id": 9,
+      "name": "Lifestyle & Work-Life Balance",
+      "weight_default": 10,
+      "description": "Can you have a life outside work?"
+    },
+    {
+      "id": 10,
+      "name": "Job Market & Demand",
+      "weight_default": 5,
+      "description": "Will you find work?"
+    },
+    {
+      "id": 11,
+      "name": "AI Revolution Impact",
+      "weight_default": 7,
+      "description": "How future-proof is this career?"
+    },
+    {
+      "id": 12,
+      "name": "Professional Satisfaction",
+      "weight_default": 8,
+      "description": "Will you enjoy this long-term?"
+    },
+    {
+      "id": 13,
+      "name": "Demographics & Culture",
+      "weight_default": 3,
+      "description": "Culture fit?"
+    },
+    {
+      "id": 14,
+      "name": "Risk Factors & Downsides",
+      "weight_default": 5,
+      "description": "Hidden costs and dangers"
+    }
+  ],
+  "scenario_profiles": {
+    "default": {
+      "1": 7,
+      "2": 7,
+      "3": 5,
+      "4": 8,
+      "5": 10,
+      "6": 8,
+      "7": 12,
+      "8": 8,
+      "9": 10,
+      "10": 5,
+      "11": 7,
+      "12": 8,
+      "13": 3,
+      "14": 5
+    },
+    "equal_weight": {
+      "1": 7,
+      "2": 7,
+      "3": 7,
+      "4": 7,
+      "5": 7,
+      "6": 7,
+      "7": 7,
+      "8": 7,
+      "9": 7,
+      "10": 7,
+      "11": 7,
+      "12": 7,
+      "13": 8,
+      "14": 8
+    },
+    "max_earnings": {
+      "1": 3,
+      "2": 3,
+      "3": 3,
+      "4": 5,
+      "5": 20,
+      "6": 8,
+      "7": 25,
+      "8": 5,
+      "9": 5,
+      "10": 8,
+      "11": 5,
+      "12": 5,
+      "13": 3,
+      "14": 2
+    },
+    "best_lifestyle": {
+      "1": 5,
+      "2": 5,
+      "3": 5,
+      "4": 8,
+      "5": 8,
+      "6": 5,
+      "7": 8,
+      "8": 12,
+      "9": 20,
+      "10": 5,
+      "11": 5,
+      "12": 10,
+      "13": 2,
+      "14": 2
+    },
+    "fastest_to_practice": {
+      "1": 12,
+      "2": 12,
+      "3": 12,
+      "4": 15,
+      "5": 12,
+      "6": 3,
+      "7": 5,
+      "8": 3,
+      "9": 5,
+      "10": 5,
+      "11": 3,
+      "12": 5,
+      "13": 5,
+      "14": 3
+    },
+    "most_procedural": {
+      "1": 5,
+      "2": 5,
+      "3": 5,
+      "4": 5,
+      "5": 5,
+      "6": 15,
+      "7": 5,
+      "8": 20,
+      "9": 5,
+      "10": 5,
+      "11": 5,
+      "12": 15,
+      "13": 3,
+      "14": 2
+    }
+  },
+  "tracks": [
+    {
+      "name": "Electrician",
+      "key": "electrician",
+      "profession": "Apprenticeship",
+      "group": "electrical",
+      "color": "#F9A825",
+      "path": "Journeyman",
+      "raw_data": {
+        "startSalary": 40,
+        "midSalary": 62,
+        "peakSalary": 105,
+        "typicalPeak": 90,
+        "hoursWeek": 42,
+        "burnout": 28,
+        "satisfaction": 72,
+        "chooseAgain": 70,
+        "malpracticeCost": 1,
+        "vacation": 3,
+        "matchComp": 10,
+        "annualSpots": 81000,
+        "oneInX": 1,
+        "callSchedule": 5,
+        "physicalToll": 5,
+        "emotionalToll": 8,
+        "aiRiskNow": 1,
+        "aiRiskMedium": 1,
+        "aiRiskLong": 2,
+        "aiNarrative": "Electrical work demands hands-on problem solving in unique environments. AI and robotics can assist with design and load calculations, but pulling wire through walls and troubleshooting live circuits stays fully human."
+      },
+      "scores": {
+        "category_1": 7.5,
+        "category_2": 8.0,
+        "category_3": 7.33,
+        "category_4": 5.33,
+        "category_5": 7.09,
+        "category_6": 5.43,
+        "category_7": 6.38,
+        "category_8": 6.28,
+        "category_9": 6.08,
+        "category_10": 8.8,
+        "category_11": 7.6,
+        "category_12": 6.57,
+        "category_13": 3.75,
+        "category_14": 6.87
+      },
+      "scenario_totals": {
+        "default": 6.85,
+        "equal_weight": 6.62,
+        "max_earnings": 6.68,
+        "best_lifestyle": 6.58,
+        "fastest_to_practice": 6.75,
+        "most_procedural": 6.51
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 0,
+        "undergrad_years": 0,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 0,
+        "trainee_salary": 20,
+        "education_debt": 5,
+        "loan_rate": 5,
+        "living_expenses": 38,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 3,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1.5,
+        "npv_discount_rate": 5,
+        "residency_years": 5,
+        "fellowship_years": 0,
+        "age_independent": 23,
+        "starting_salary": 40,
+        "mid_salary": 62,
+        "peak_salary": 105,
+        "typical_peak": 90,
+        "malpractice_per_yr": 1
+      },
+      "stress": {
+        "ai": 9,
+        "pay": 7,
+        "injury": 5,
+        "match": 4
+      },
+      "timeline": {
+        "college": [
+          18,
+          18
+        ],
+        "school": [
+          18,
+          18
+        ],
+        "residency": [
+          18,
+          23
+        ],
+        "fellowship": null,
+        "earnAge": 23,
+        "startSalary": 40
+      }
+    },
+    {
+      "name": "Power Line Installer (Lineman)",
+      "key": "lineman",
+      "profession": "Apprenticeship",
+      "group": "electrical",
+      "color": "#E65100",
+      "path": "Journeyman",
+      "raw_data": {
+        "startSalary": 50,
+        "midSalary": 93,
+        "peakSalary": 140,
+        "typicalPeak": 120,
+        "hoursWeek": 50,
+        "burnout": 35,
+        "satisfaction": 75,
+        "chooseAgain": 72,
+        "malpracticeCost": 0,
+        "vacation": 3,
+        "matchComp": 7,
+        "annualSpots": 22000,
+        "oneInX": 5,
+        "callSchedule": 2,
+        "physicalToll": 2,
+        "emotionalToll": 4,
+        "aiRiskNow": 1,
+        "aiRiskMedium": 1,
+        "aiRiskLong": 1,
+        "aiNarrative": "Climbing poles and stringing high-voltage lines in all weather is impossible to automate. Drones assist with inspections but the actual line work remains one of the most human-dependent trades."
+      },
+      "scores": {
+        "category_1": 7.5,
+        "category_2": 7.0,
+        "category_3": 7.33,
+        "category_4": 4.33,
+        "category_5": 7.71,
+        "category_6": 5.14,
+        "category_7": 6.12,
+        "category_8": 5.85,
+        "category_9": 4.68,
+        "category_10": 8.4,
+        "category_11": 7.6,
+        "category_12": 6.73,
+        "category_13": 3.75,
+        "category_14": 6.0
+      },
+      "scenario_totals": {
+        "default": 6.48,
+        "equal_weight": 6.27,
+        "max_earnings": 6.5,
+        "best_lifestyle": 6.11,
+        "fastest_to_practice": 6.42,
+        "most_procedural": 6.22
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 0,
+        "undergrad_years": 0,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 0,
+        "trainee_salary": 20,
+        "education_debt": 5,
+        "loan_rate": 5,
+        "living_expenses": 38,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 3,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1.5,
+        "npv_discount_rate": 5,
+        "residency_years": 4,
+        "fellowship_years": 0,
+        "age_independent": 22,
+        "starting_salary": 50,
+        "mid_salary": 93,
+        "peak_salary": 140,
+        "typical_peak": 120,
+        "malpractice_per_yr": 0
+      },
+      "stress": {
+        "ai": 10,
+        "pay": 7,
+        "injury": 3,
+        "match": 5
+      },
+      "timeline": {
+        "college": [
+          18,
+          18
+        ],
+        "school": [
+          18,
+          18
+        ],
+        "residency": [
+          18,
+          22
+        ],
+        "fellowship": null,
+        "earnAge": 22,
+        "startSalary": 50
+      }
+    },
+    {
+      "name": "Fire Alarm Technician",
+      "key": "fire_alarm_technician",
+      "profession": "Apprenticeship",
+      "group": "electrical",
+      "color": "#357238",
+      "path": "Journeyman",
+      "raw_data": {
+        "startSalary": 38,
+        "midSalary": 57,
+        "peakSalary": 85,
+        "typicalPeak": 72,
+        "hoursWeek": 42,
+        "burnout": 22,
+        "satisfaction": 68,
+        "chooseAgain": 65,
+        "malpracticeCost": 1,
+        "vacation": 4,
+        "matchComp": 6,
+        "annualSpots": 12000,
+        "oneInX": 9,
+        "callSchedule": 4,
+        "physicalToll": 6,
+        "emotionalToll": 8,
+        "aiRiskNow": 1,
+        "aiRiskMedium": 2,
+        "aiRiskLong": 3,
+        "aiNarrative": "Fire alarm systems are getting smarter with addressable panels and networked monitoring, but installation, testing, and troubleshooting in buildings requires a human on-site. Growing code requirements keep demand steady."
+      },
+      "scores": {
+        "category_1": 7.5,
+        "category_2": 6.67,
+        "category_3": 7.33,
+        "category_4": 5.0,
+        "category_5": 6.97,
+        "category_6": 5.43,
+        "category_7": 6.08,
+        "category_8": 6.28,
+        "category_9": 6.34,
+        "category_10": 8.6,
+        "category_11": 7.6,
+        "category_12": 5.93,
+        "category_13": 3.75,
+        "category_14": 7.16
+      },
+      "scenario_totals": {
+        "default": 6.66,
+        "equal_weight": 6.45,
+        "max_earnings": 6.49,
+        "best_lifestyle": 6.43,
+        "fastest_to_practice": 6.5,
+        "most_procedural": 6.32
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 0,
+        "undergrad_years": 0,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 0,
+        "trainee_salary": 20,
+        "education_debt": 5,
+        "loan_rate": 5,
+        "living_expenses": 38,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 3,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1.5,
+        "npv_discount_rate": 5,
+        "residency_years": 3,
+        "fellowship_years": 0,
+        "age_independent": 21,
+        "starting_salary": 38,
+        "mid_salary": 57,
+        "peak_salary": 85,
+        "typical_peak": 72,
+        "malpractice_per_yr": 1
+      },
+      "stress": {
+        "ai": 8,
+        "pay": 6,
+        "injury": 5,
+        "match": 6
+      },
+      "timeline": {
+        "college": [
+          18,
+          18
+        ],
+        "school": [
+          18,
+          18
+        ],
+        "residency": [
+          18,
+          21
+        ],
+        "fellowship": null,
+        "earnAge": 21,
+        "startSalary": 38
+      }
+    },
+    {
+      "name": "Wind Turbine Technician",
+      "key": "wind_turbine_technician",
+      "profession": "Apprenticeship",
+      "group": "electrical",
+      "color": "#318745",
+      "path": "Journeyman",
+      "raw_data": {
+        "startSalary": 44,
+        "midSalary": 63,
+        "peakSalary": 95,
+        "typicalPeak": 82,
+        "hoursWeek": 45,
+        "burnout": 30,
+        "satisfaction": 74,
+        "chooseAgain": 70,
+        "malpracticeCost": 0,
+        "vacation": 3,
+        "matchComp": 5,
+        "annualSpots": 7000,
+        "oneInX": 16,
+        "callSchedule": 3,
+        "physicalToll": 3,
+        "emotionalToll": 6,
+        "aiRiskNow": 1,
+        "aiRiskMedium": 1,
+        "aiRiskLong": 2,
+        "aiNarrative": "SCADA systems and predictive analytics help schedule maintenance, but climbing 300-foot towers and replacing gearboxes or blades is irreplaceably physical. Fastest-growing trade in America by percentage."
+      },
+      "scores": {
+        "category_1": 7.5,
+        "category_2": 6.33,
+        "category_3": 7.33,
+        "category_4": 4.67,
+        "category_5": 7.19,
+        "category_6": 5.14,
+        "category_7": 5.97,
+        "category_8": 6.12,
+        "category_9": 5.08,
+        "category_10": 7.8,
+        "category_11": 7.6,
+        "category_12": 6.47,
+        "category_13": 3.75,
+        "category_14": 6.57
+      },
+      "scenario_totals": {
+        "default": 6.43,
+        "equal_weight": 6.23,
+        "max_earnings": 6.34,
+        "best_lifestyle": 6.12,
+        "fastest_to_practice": 6.32,
+        "most_procedural": 6.18
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 0,
+        "undergrad_years": 0,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 0,
+        "trainee_salary": 20,
+        "education_debt": 5,
+        "loan_rate": 5,
+        "living_expenses": 38,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 3,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1.5,
+        "npv_discount_rate": 5,
+        "residency_years": 2,
+        "fellowship_years": 0,
+        "age_independent": 20,
+        "starting_salary": 44,
+        "mid_salary": 63,
+        "peak_salary": 95,
+        "typical_peak": 82,
+        "malpractice_per_yr": 0
+      },
+      "stress": {
+        "ai": 9,
+        "pay": 6,
+        "injury": 4,
+        "match": 6
+      },
+      "timeline": {
+        "college": [
+          18,
+          18
+        ],
+        "school": [
+          18,
+          18
+        ],
+        "residency": [
+          18,
+          20
+        ],
+        "fellowship": null,
+        "earnAge": 20,
+        "startSalary": 44
+      }
+    },
+    {
+      "name": "Plumber",
+      "key": "plumber",
+      "profession": "Apprenticeship",
+      "group": "plumbing_hvac",
+      "color": "#1e7241",
+      "path": "Journeyman",
+      "raw_data": {
+        "startSalary": 38,
+        "midSalary": 63,
+        "peakSalary": 110,
+        "typicalPeak": 90,
+        "hoursWeek": 43,
+        "burnout": 25,
+        "satisfaction": 70,
+        "chooseAgain": 68,
+        "malpracticeCost": 1,
+        "vacation": 3,
+        "matchComp": 9,
+        "annualSpots": 48000,
+        "oneInX": 2,
+        "callSchedule": 4,
+        "physicalToll": 4,
+        "emotionalToll": 7,
+        "aiRiskNow": 1,
+        "aiRiskMedium": 1,
+        "aiRiskLong": 2,
+        "aiNarrative": "Every building needs plumbing and every plumbing system is different. Robots cannot crawl through walls, dig under foundations, or diagnose leaks by feel. AI can help with estimating and scheduling but the wrench stays in human hands."
+      },
+      "scores": {
+        "category_1": 7.5,
+        "category_2": 7.67,
+        "category_3": 7.33,
+        "category_4": 5.0,
+        "category_5": 7.06,
+        "category_6": 5.57,
+        "category_7": 6.2,
+        "category_8": 6.22,
+        "category_9": 6.14,
+        "category_10": 8.8,
+        "category_11": 7.6,
+        "category_12": 6.43,
+        "category_13": 3.75,
+        "category_14": 6.73
+      },
+      "scenario_totals": {
+        "default": 6.77,
+        "equal_weight": 6.54,
+        "max_earnings": 6.6,
+        "best_lifestyle": 6.51,
+        "fastest_to_practice": 6.65,
+        "most_procedural": 6.46
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 0,
+        "undergrad_years": 0,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 0,
+        "trainee_salary": 20,
+        "education_debt": 5,
+        "loan_rate": 5,
+        "living_expenses": 38,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 3,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1.5,
+        "npv_discount_rate": 5,
+        "residency_years": 4,
+        "fellowship_years": 0,
+        "age_independent": 22,
+        "starting_salary": 38,
+        "mid_salary": 63,
+        "peak_salary": 110,
+        "typical_peak": 90,
+        "malpractice_per_yr": 1
+      },
+      "stress": {
+        "ai": 9,
+        "pay": 7,
+        "injury": 5,
+        "match": 5
+      },
+      "timeline": {
+        "college": [
+          18,
+          18
+        ],
+        "school": [
+          18,
+          18
+        ],
+        "residency": [
+          18,
+          22
+        ],
+        "fellowship": null,
+        "earnAge": 22,
+        "startSalary": 38
+      }
+    },
+    {
+      "name": "Pipefitter/Steamfitter",
+      "key": "pipefitter_steamfitter",
+      "profession": "Apprenticeship",
+      "group": "plumbing_hvac",
+      "color": "#3f8769",
+      "path": "Journeyman",
+      "raw_data": {
+        "startSalary": 42,
+        "midSalary": 68,
+        "peakSalary": 120,
+        "typicalPeak": 100,
+        "hoursWeek": 45,
+        "burnout": 30,
+        "satisfaction": 72,
+        "chooseAgain": 69,
+        "malpracticeCost": 1,
+        "vacation": 3,
+        "matchComp": 7,
+        "annualSpots": 18000,
+        "oneInX": 6,
+        "callSchedule": 3,
+        "physicalToll": 3,
+        "emotionalToll": 7,
+        "aiRiskNow": 1,
+        "aiRiskMedium": 1,
+        "aiRiskLong": 2,
+        "aiNarrative": "High-pressure piping systems in power plants, refineries, and industrial facilities demand precision fitting and welding that robots cannot replicate in the field. 3D modeling assists design but installation is fully manual."
+      },
+      "scores": {
+        "category_1": 7.5,
+        "category_2": 7.0,
+        "category_3": 7.33,
+        "category_4": 4.67,
+        "category_5": 7.2,
+        "category_6": 5.29,
+        "category_7": 6.35,
+        "category_8": 6.38,
+        "category_9": 5.28,
+        "category_10": 8.2,
+        "category_11": 7.6,
+        "category_12": 6.37,
+        "category_13": 3.75,
+        "category_14": 6.44
+      },
+      "scenario_totals": {
+        "default": 6.58,
+        "equal_weight": 6.36,
+        "max_earnings": 6.52,
+        "best_lifestyle": 6.27,
+        "fastest_to_practice": 6.45,
+        "most_procedural": 6.32
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 0,
+        "undergrad_years": 0,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 0,
+        "trainee_salary": 20,
+        "education_debt": 5,
+        "loan_rate": 5,
+        "living_expenses": 38,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 3,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1.5,
+        "npv_discount_rate": 5,
+        "residency_years": 5,
+        "fellowship_years": 0,
+        "age_independent": 23,
+        "starting_salary": 42,
+        "mid_salary": 68,
+        "peak_salary": 120,
+        "typical_peak": 100,
+        "malpractice_per_yr": 1
+      },
+      "stress": {
+        "ai": 9,
+        "pay": 6,
+        "injury": 4,
+        "match": 5
+      },
+      "timeline": {
+        "college": [
+          18,
+          18
+        ],
+        "school": [
+          18,
+          18
+        ],
+        "residency": [
+          18,
+          23
+        ],
+        "fellowship": null,
+        "earnAge": 23,
+        "startSalary": 42
+      }
+    },
+    {
+      "name": "HVAC Technician",
+      "key": "hvac_technician",
+      "profession": "Apprenticeship",
+      "group": "plumbing_hvac",
+      "color": "#2a7262",
+      "path": "Journeyman",
+      "raw_data": {
+        "startSalary": 36,
+        "midSalary": 57,
+        "peakSalary": 95,
+        "typicalPeak": 80,
+        "hoursWeek": 43,
+        "burnout": 27,
+        "satisfaction": 68,
+        "chooseAgain": 66,
+        "malpracticeCost": 1,
+        "vacation": 3,
+        "matchComp": 8,
+        "annualSpots": 38000,
+        "oneInX": 3,
+        "callSchedule": 4,
+        "physicalToll": 4,
+        "emotionalToll": 7,
+        "aiRiskNow": 1,
+        "aiRiskMedium": 2,
+        "aiRiskLong": 2,
+        "aiNarrative": "Smart thermostats and building automation help monitor systems, but diagnosing refrigerant leaks, replacing compressors, and running ductwork through attics in July requires a human. Heat pump transition is creating massive demand."
+      },
+      "scores": {
+        "category_1": 7.5,
+        "category_2": 7.33,
+        "category_3": 7.33,
+        "category_4": 5.0,
+        "category_5": 6.93,
+        "category_6": 5.43,
+        "category_7": 5.97,
+        "category_8": 6.47,
+        "category_9": 5.86,
+        "category_10": 8.8,
+        "category_11": 7.6,
+        "category_12": 6.3,
+        "category_13": 3.75,
+        "category_14": 6.73
+      },
+      "scenario_totals": {
+        "default": 6.68,
+        "equal_weight": 6.47,
+        "max_earnings": 6.49,
+        "best_lifestyle": 6.42,
+        "fastest_to_practice": 6.56,
+        "most_procedural": 6.42
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 0,
+        "undergrad_years": 0,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 0,
+        "trainee_salary": 20,
+        "education_debt": 5,
+        "loan_rate": 5,
+        "living_expenses": 38,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 3,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1.5,
+        "npv_discount_rate": 5,
+        "residency_years": 4,
+        "fellowship_years": 0,
+        "age_independent": 22,
+        "starting_salary": 36,
+        "mid_salary": 57,
+        "peak_salary": 95,
+        "typical_peak": 80,
+        "malpractice_per_yr": 1
+      },
+      "stress": {
+        "ai": 9,
+        "pay": 7,
+        "injury": 4,
+        "match": 5
+      },
+      "timeline": {
+        "college": [
+          18,
+          18
+        ],
+        "school": [
+          18,
+          18
+        ],
+        "residency": [
+          18,
+          22
+        ],
+        "fellowship": null,
+        "earnAge": 22,
+        "startSalary": 36
+      }
+    },
+    {
+      "name": "Fire Sprinkler Fitter",
+      "key": "fire_sprinkler_fitter",
+      "profession": "Apprenticeship",
+      "group": "plumbing_hvac",
+      "color": "#248782",
+      "path": "Journeyman",
+      "raw_data": {
+        "startSalary": 40,
+        "midSalary": 60,
+        "peakSalary": 95,
+        "typicalPeak": 80,
+        "hoursWeek": 42,
+        "burnout": 22,
+        "satisfaction": 70,
+        "chooseAgain": 67,
+        "malpracticeCost": 1,
+        "vacation": 4,
+        "matchComp": 6,
+        "annualSpots": 8000,
+        "oneInX": 14,
+        "callSchedule": 4,
+        "physicalToll": 4,
+        "emotionalToll": 8,
+        "aiRiskNow": 1,
+        "aiRiskMedium": 1,
+        "aiRiskLong": 2,
+        "aiNarrative": "Fire suppression codes keep expanding, requiring more sprinkler installations in new and existing buildings. Every building layout is unique, making this hands-on trade highly resistant to automation."
+      },
+      "scores": {
+        "category_1": 7.5,
+        "category_2": 6.67,
+        "category_3": 7.33,
+        "category_4": 5.0,
+        "category_5": 7.06,
+        "category_6": 5.29,
+        "category_7": 6.22,
+        "category_8": 6.28,
+        "category_9": 6.14,
+        "category_10": 8.4,
+        "category_11": 7.6,
+        "category_12": 6.23,
+        "category_13": 3.75,
+        "category_14": 6.73
+      },
+      "scenario_totals": {
+        "default": 6.65,
+        "equal_weight": 6.42,
+        "max_earnings": 6.52,
+        "best_lifestyle": 6.42,
+        "fastest_to_practice": 6.49,
+        "most_procedural": 6.33
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 0,
+        "undergrad_years": 0,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 0,
+        "trainee_salary": 20,
+        "education_debt": 5,
+        "loan_rate": 5,
+        "living_expenses": 38,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 3,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1.5,
+        "npv_discount_rate": 5,
+        "residency_years": 4,
+        "fellowship_years": 0,
+        "age_independent": 22,
+        "starting_salary": 40,
+        "mid_salary": 60,
+        "peak_salary": 95,
+        "typical_peak": 80,
+        "malpractice_per_yr": 1
+      },
+      "stress": {
+        "ai": 9,
+        "pay": 6,
+        "injury": 4,
+        "match": 6
+      },
+      "timeline": {
+        "college": [
+          18,
+          18
+        ],
+        "school": [
+          18,
+          18
+        ],
+        "residency": [
+          18,
+          22
+        ],
+        "fellowship": null,
+        "earnAge": 22,
+        "startSalary": 40
+      }
+    },
+    {
+      "name": "Refrigeration Technician",
+      "key": "refrigeration_technician",
+      "profession": "Apprenticeship",
+      "group": "plumbing_hvac",
+      "color": "#356a72",
+      "path": "Journeyman",
+      "raw_data": {
+        "startSalary": 38,
+        "midSalary": 60,
+        "peakSalary": 100,
+        "typicalPeak": 85,
+        "hoursWeek": 44,
+        "burnout": 28,
+        "satisfaction": 69,
+        "chooseAgain": 67,
+        "malpracticeCost": 1,
+        "vacation": 3,
+        "matchComp": 6,
+        "annualSpots": 14000,
+        "oneInX": 8,
+        "callSchedule": 3,
+        "physicalToll": 5,
+        "emotionalToll": 6,
+        "aiRiskNow": 1,
+        "aiRiskMedium": 2,
+        "aiRiskLong": 2,
+        "aiNarrative": "Commercial refrigeration systems in grocery stores, cold storage, and food processing are critical infrastructure. Leak detection tech improves but brazing copper, replacing compressors, and charging systems requires skilled hands."
+      },
+      "scores": {
+        "category_1": 7.5,
+        "category_2": 6.67,
+        "category_3": 7.33,
+        "category_4": 4.67,
+        "category_5": 7.01,
+        "category_6": 5.29,
+        "category_7": 6.05,
+        "category_8": 6.42,
+        "category_9": 5.6,
+        "category_10": 8.6,
+        "category_11": 7.6,
+        "category_12": 6.03,
+        "category_13": 3.75,
+        "category_14": 6.73
+      },
+      "scenario_totals": {
+        "default": 6.55,
+        "equal_weight": 6.35,
+        "max_earnings": 6.43,
+        "best_lifestyle": 6.27,
+        "fastest_to_practice": 6.4,
+        "most_procedural": 6.28
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 0,
+        "undergrad_years": 0,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 0,
+        "trainee_salary": 20,
+        "education_debt": 5,
+        "loan_rate": 5,
+        "living_expenses": 38,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 3,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1.5,
+        "npv_discount_rate": 5,
+        "residency_years": 4,
+        "fellowship_years": 0,
+        "age_independent": 22,
+        "starting_salary": 38,
+        "mid_salary": 60,
+        "peak_salary": 100,
+        "typical_peak": 85,
+        "malpractice_per_yr": 1
+      },
+      "stress": {
+        "ai": 9,
+        "pay": 7,
+        "injury": 4,
+        "match": 6
+      },
+      "timeline": {
+        "college": [
+          18,
+          18
+        ],
+        "school": [
+          18,
+          18
+        ],
+        "residency": [
+          18,
+          22
+        ],
+        "fellowship": null,
+        "earnAge": 22,
+        "startSalary": 38
+      }
+    },
+    {
+      "name": "Carpenter",
+      "key": "carpenter",
+      "profession": "Apprenticeship",
+      "group": "construction",
+      "color": "#316c87",
+      "path": "Journeyman",
+      "raw_data": {
+        "startSalary": 35,
+        "midSalary": 59,
+        "peakSalary": 95,
+        "typicalPeak": 80,
+        "hoursWeek": 42,
+        "burnout": 25,
+        "satisfaction": 70,
+        "chooseAgain": 66,
+        "malpracticeCost": 1,
+        "vacation": 3,
+        "matchComp": 10,
+        "annualSpots": 90000,
+        "oneInX": 1,
+        "callSchedule": 7,
+        "physicalToll": 3,
+        "emotionalToll": 8,
+        "aiRiskNow": 1,
+        "aiRiskMedium": 1,
+        "aiRiskLong": 2,
+        "aiNarrative": "Carpentry is one of the most varied and physically adaptive trades. Prefab and modular construction automate some framing, but finish carpentry, remodeling, and custom work remain fully human. Every jobsite is different."
+      },
+      "scores": {
+        "category_1": 7.5,
+        "category_2": 8.0,
+        "category_3": 7.33,
+        "category_4": 6.0,
+        "category_5": 6.93,
+        "category_6": 5.57,
+        "category_7": 5.72,
+        "category_8": 6.28,
+        "category_9": 6.18,
+        "category_10": 8.8,
+        "category_11": 7.6,
+        "category_12": 6.03,
+        "category_13": 3.75,
+        "category_14": 6.73
+      },
+      "scenario_totals": {
+        "default": 6.78,
+        "equal_weight": 6.57,
+        "max_earnings": 6.5,
+        "best_lifestyle": 6.53,
+        "fastest_to_practice": 6.78,
+        "most_procedural": 6.45
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 0,
+        "undergrad_years": 0,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 0,
+        "trainee_salary": 20,
+        "education_debt": 5,
+        "loan_rate": 5,
+        "living_expenses": 38,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 3,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1.5,
+        "npv_discount_rate": 5,
+        "residency_years": 4,
+        "fellowship_years": 0,
+        "age_independent": 22,
+        "starting_salary": 35,
+        "mid_salary": 59,
+        "peak_salary": 95,
+        "typical_peak": 80,
+        "malpractice_per_yr": 1
+      },
+      "stress": {
+        "ai": 9,
+        "pay": 8,
+        "injury": 4,
+        "match": 4
+      },
+      "timeline": {
+        "college": [
+          18,
+          18
+        ],
+        "school": [
+          18,
+          18
+        ],
+        "residency": [
+          18,
+          22
+        ],
+        "fellowship": null,
+        "earnAge": 22,
+        "startSalary": 35
+      }
+    },
+    {
+      "name": "Mason/Bricklayer",
+      "key": "mason_bricklayer",
+      "profession": "Apprenticeship",
+      "group": "construction",
+      "color": "#1e4972",
+      "path": "Journeyman",
+      "raw_data": {
+        "startSalary": 36,
+        "midSalary": 57,
+        "peakSalary": 90,
+        "typicalPeak": 75,
+        "hoursWeek": 42,
+        "burnout": 28,
+        "satisfaction": 68,
+        "chooseAgain": 63,
+        "malpracticeCost": 0,
+        "vacation": 3,
+        "matchComp": 8,
+        "annualSpots": 25000,
+        "oneInX": 4,
+        "callSchedule": 8,
+        "physicalToll": 2,
+        "emotionalToll": 8,
+        "aiRiskNow": 1,
+        "aiRiskMedium": 2,
+        "aiRiskLong": 3,
+        "aiNarrative": "Bricklaying robots like SAM exist but handle only simple straight walls on flat ground. Real masonry involves curves, arches, repairs, and working in tight spaces. The physical toll limits careers more than automation does."
+      },
+      "scores": {
+        "category_1": 7.5,
+        "category_2": 7.33,
+        "category_3": 7.33,
+        "category_4": 6.33,
+        "category_5": 6.93,
+        "category_6": 5.43,
+        "category_7": 5.4,
+        "category_8": 6.28,
+        "category_9": 5.88,
+        "category_10": 8.4,
+        "category_11": 7.6,
+        "category_12": 5.2,
+        "category_13": 3.75,
+        "category_14": 6.71
+      },
+      "scenario_totals": {
+        "default": 6.59,
+        "equal_weight": 6.41,
+        "max_earnings": 6.32,
+        "best_lifestyle": 6.33,
+        "fastest_to_practice": 6.65,
+        "most_procedural": 6.23
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 0,
+        "undergrad_years": 0,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 0,
+        "trainee_salary": 20,
+        "education_debt": 5,
+        "loan_rate": 5,
+        "living_expenses": 38,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 3,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1.5,
+        "npv_discount_rate": 5,
+        "residency_years": 4,
+        "fellowship_years": 0,
+        "age_independent": 22,
+        "starting_salary": 36,
+        "mid_salary": 57,
+        "peak_salary": 90,
+        "typical_peak": 75,
+        "malpractice_per_yr": 0
+      },
+      "stress": {
+        "ai": 8,
+        "pay": 7,
+        "injury": 4,
+        "match": 5
+      },
+      "timeline": {
+        "college": [
+          18,
+          18
+        ],
+        "school": [
+          18,
+          18
+        ],
+        "residency": [
+          18,
+          22
+        ],
+        "fellowship": null,
+        "earnAge": 22,
+        "startSalary": 36
+      }
+    },
+    {
+      "name": "Ironworker",
+      "key": "ironworker",
+      "profession": "Apprenticeship",
+      "group": "construction",
+      "color": "#3f5687",
+      "path": "Journeyman",
+      "raw_data": {
+        "startSalary": 42,
+        "midSalary": 60,
+        "peakSalary": 105,
+        "typicalPeak": 88,
+        "hoursWeek": 45,
+        "burnout": 32,
+        "satisfaction": 71,
+        "chooseAgain": 65,
+        "malpracticeCost": 0,
+        "vacation": 3,
+        "matchComp": 7,
+        "annualSpots": 15000,
+        "oneInX": 7,
+        "callSchedule": 6,
+        "physicalToll": 2,
+        "emotionalToll": 5,
+        "aiRiskNow": 1,
+        "aiRiskMedium": 1,
+        "aiRiskLong": 1,
+        "aiNarrative": "Walking steel beams hundreds of feet in the air, connecting structural steel, and tying rebar is among the most dangerous and least automatable work. Cranes lift the steel but humans bolt and weld it in place."
+      },
+      "scores": {
+        "category_1": 7.5,
+        "category_2": 7.0,
+        "category_3": 7.33,
+        "category_4": 5.67,
+        "category_5": 7.1,
+        "category_6": 5.14,
+        "category_7": 5.62,
+        "category_8": 6.12,
+        "category_9": 5.2,
+        "category_10": 8.4,
+        "category_11": 7.6,
+        "category_12": 5.7,
+        "category_13": 3.75,
+        "category_14": 6.14
+      },
+      "scenario_totals": {
+        "default": 6.47,
+        "equal_weight": 6.28,
+        "max_earnings": 6.31,
+        "best_lifestyle": 6.16,
+        "fastest_to_practice": 6.51,
+        "most_procedural": 6.16
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 0,
+        "undergrad_years": 0,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 0,
+        "trainee_salary": 20,
+        "education_debt": 5,
+        "loan_rate": 5,
+        "living_expenses": 38,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 3,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1.5,
+        "npv_discount_rate": 5,
+        "residency_years": 3,
+        "fellowship_years": 0,
+        "age_independent": 21,
+        "starting_salary": 42,
+        "mid_salary": 60,
+        "peak_salary": 105,
+        "typical_peak": 88,
+        "malpractice_per_yr": 0
+      },
+      "stress": {
+        "ai": 9,
+        "pay": 7,
+        "injury": 3,
+        "match": 5
+      },
+      "timeline": {
+        "college": [
+          18,
+          18
+        ],
+        "school": [
+          18,
+          18
+        ],
+        "residency": [
+          18,
+          21
+        ],
+        "fellowship": null,
+        "earnAge": 21,
+        "startSalary": 42
+      }
+    },
+    {
+      "name": "Welder",
+      "key": "welder",
+      "profession": "Apprenticeship",
+      "group": "welding_fabrication",
+      "color": "#B71C1C",
+      "path": "Journeyman",
+      "raw_data": {
+        "startSalary": 36,
+        "midSalary": 51,
+        "peakSalary": 90,
+        "typicalPeak": 75,
+        "hoursWeek": 44,
+        "burnout": 28,
+        "satisfaction": 68,
+        "chooseAgain": 64,
+        "malpracticeCost": 1,
+        "vacation": 3,
+        "matchComp": 9,
+        "annualSpots": 47000,
+        "oneInX": 2,
+        "callSchedule": 6,
+        "physicalToll": 3,
+        "emotionalToll": 7,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 3,
+        "aiRiskLong": 4,
+        "aiNarrative": "Robotic welding dominates repetitive factory production lines, but field welding on pipelines, structures, and repair work requires human adaptability. Specialty welding (underwater, nuclear, aerospace) remains highly human-dependent."
+      },
+      "scores": {
+        "category_1": 7.5,
+        "category_2": 7.67,
+        "category_3": 7.33,
+        "category_4": 5.67,
+        "category_5": 6.84,
+        "category_6": 5.43,
+        "category_7": 5.65,
+        "category_8": 6.42,
+        "category_9": 5.8,
+        "category_10": 8.6,
+        "category_11": 7.8,
+        "category_12": 5.57,
+        "category_13": 3.75,
+        "category_14": 6.44
+      },
+      "scenario_totals": {
+        "default": 6.63,
+        "equal_weight": 6.43,
+        "max_earnings": 6.38,
+        "best_lifestyle": 6.36,
+        "fastest_to_practice": 6.62,
+        "most_procedural": 6.32
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 0,
+        "undergrad_years": 0,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 0,
+        "trainee_salary": 20,
+        "education_debt": 5,
+        "loan_rate": 5,
+        "living_expenses": 38,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 3,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1.5,
+        "npv_discount_rate": 5,
+        "residency_years": 3,
+        "fellowship_years": 0,
+        "age_independent": 21,
+        "starting_salary": 36,
+        "mid_salary": 51,
+        "peak_salary": 90,
+        "typical_peak": 75,
+        "malpractice_per_yr": 1
+      },
+      "stress": {
+        "ai": 8,
+        "pay": 7,
+        "injury": 3,
+        "match": 5
+      },
+      "timeline": {
+        "college": [
+          18,
+          18
+        ],
+        "school": [
+          18,
+          18
+        ],
+        "residency": [
+          18,
+          21
+        ],
+        "fellowship": null,
+        "earnAge": 21,
+        "startSalary": 36
+      }
+    },
+    {
+      "name": "Sheet Metal Worker",
+      "key": "sheet_metal_worker",
+      "profession": "Apprenticeship",
+      "group": "welding_fabrication",
+      "color": "#2a3572",
+      "path": "Journeyman",
+      "raw_data": {
+        "startSalary": 38,
+        "midSalary": 57,
+        "peakSalary": 95,
+        "typicalPeak": 80,
+        "hoursWeek": 42,
+        "burnout": 24,
+        "satisfaction": 69,
+        "chooseAgain": 66,
+        "malpracticeCost": 0,
+        "vacation": 3,
+        "matchComp": 7,
+        "annualSpots": 16000,
+        "oneInX": 7,
+        "callSchedule": 6,
+        "physicalToll": 4,
+        "emotionalToll": 8,
+        "aiRiskNow": 1,
+        "aiRiskMedium": 2,
+        "aiRiskLong": 3,
+        "aiNarrative": "CNC plasma cutters and automated bending machines handle production in the shop, but installing ductwork in buildings, fabricating custom pieces on-site, and making everything fit in tight spaces stays manual. HVAC growth drives demand."
+      },
+      "scores": {
+        "category_1": 7.5,
+        "category_2": 7.0,
+        "category_3": 7.33,
+        "category_4": 5.67,
+        "category_5": 6.97,
+        "category_6": 5.43,
+        "category_7": 5.97,
+        "category_8": 6.28,
+        "category_9": 5.82,
+        "category_10": 8.6,
+        "category_11": 7.6,
+        "category_12": 5.83,
+        "category_13": 3.75,
+        "category_14": 7.29
+      },
+      "scenario_totals": {
+        "default": 6.67,
+        "equal_weight": 6.48,
+        "max_earnings": 6.48,
+        "best_lifestyle": 6.38,
+        "fastest_to_practice": 6.6,
+        "most_procedural": 6.33
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 0,
+        "undergrad_years": 0,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 0,
+        "trainee_salary": 20,
+        "education_debt": 5,
+        "loan_rate": 5,
+        "living_expenses": 38,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 3,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1.5,
+        "npv_discount_rate": 5,
+        "residency_years": 4,
+        "fellowship_years": 0,
+        "age_independent": 22,
+        "starting_salary": 38,
+        "mid_salary": 57,
+        "peak_salary": 95,
+        "typical_peak": 80,
+        "malpractice_per_yr": 0
+      },
+      "stress": {
+        "ai": 8,
+        "pay": 7,
+        "injury": 4,
+        "match": 5
+      },
+      "timeline": {
+        "college": [
+          18,
+          18
+        ],
+        "school": [
+          18,
+          18
+        ],
+        "residency": [
+          18,
+          22
+        ],
+        "fellowship": null,
+        "earnAge": 22,
+        "startSalary": 38
+      }
+    },
+    {
+      "name": "Boilermaker",
+      "key": "boilermaker",
+      "profession": "Apprenticeship",
+      "group": "welding_fabrication",
+      "color": "#272487",
+      "path": "Journeyman",
+      "raw_data": {
+        "startSalary": 45,
+        "midSalary": 68,
+        "peakSalary": 110,
+        "typicalPeak": 95,
+        "hoursWeek": 50,
+        "burnout": 35,
+        "satisfaction": 70,
+        "chooseAgain": 64,
+        "malpracticeCost": 0,
+        "vacation": 3,
+        "matchComp": 5,
+        "annualSpots": 5000,
+        "oneInX": 22,
+        "callSchedule": 3,
+        "physicalToll": 2,
+        "emotionalToll": 5,
+        "aiRiskNow": 1,
+        "aiRiskMedium": 1,
+        "aiRiskLong": 2,
+        "aiNarrative": "Working inside boilers, pressure vessels, and storage tanks in extreme heat requires humans who can weld in confined spaces. Outage and turnaround work is intense but well-compensated and impossible to automate."
+      },
+      "scores": {
+        "category_1": 7.5,
+        "category_2": 6.33,
+        "category_3": 7.33,
+        "category_4": 4.67,
+        "category_5": 7.27,
+        "category_6": 5.14,
+        "category_7": 5.7,
+        "category_8": 6.1,
+        "category_9": 4.68,
+        "category_10": 8.2,
+        "category_11": 7.6,
+        "category_12": 5.8,
+        "category_13": 3.75,
+        "category_14": 6.29
+      },
+      "scenario_totals": {
+        "default": 6.32,
+        "equal_weight": 6.15,
+        "max_earnings": 6.26,
+        "best_lifestyle": 5.96,
+        "fastest_to_practice": 6.27,
+        "most_procedural": 6.06
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 0,
+        "undergrad_years": 0,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 0,
+        "trainee_salary": 20,
+        "education_debt": 5,
+        "loan_rate": 5,
+        "living_expenses": 38,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 3,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1.5,
+        "npv_discount_rate": 5,
+        "residency_years": 4,
+        "fellowship_years": 0,
+        "age_independent": 22,
+        "starting_salary": 45,
+        "mid_salary": 68,
+        "peak_salary": 110,
+        "typical_peak": 95,
+        "malpractice_per_yr": 0
+      },
+      "stress": {
+        "ai": 9,
+        "pay": 6,
+        "injury": 2,
+        "match": 6
+      },
+      "timeline": {
+        "college": [
+          18,
+          18
+        ],
+        "school": [
+          18,
+          18
+        ],
+        "residency": [
+          18,
+          22
+        ],
+        "fellowship": null,
+        "earnAge": 22,
+        "startSalary": 45
+      }
+    },
+    {
+      "name": "CNC Machinist",
+      "key": "cnc_machinist",
+      "profession": "Apprenticeship",
+      "group": "welding_fabrication",
+      "color": "#423572",
+      "path": "Journeyman",
+      "raw_data": {
+        "startSalary": 36,
+        "midSalary": 56,
+        "peakSalary": 85,
+        "typicalPeak": 72,
+        "hoursWeek": 42,
+        "burnout": 22,
+        "satisfaction": 70,
+        "chooseAgain": 67,
+        "malpracticeCost": 0,
+        "vacation": 4,
+        "matchComp": 8,
+        "annualSpots": 34000,
+        "oneInX": 3,
+        "callSchedule": 7,
+        "physicalToll": 6,
+        "emotionalToll": 8,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 3,
+        "aiRiskLong": 5,
+        "aiNarrative": "CNC programming is increasingly assisted by CAM software and AI-driven tool path optimization. However, setup, fixturing, troubleshooting chatter, and reading materials still require human expertise. Lights-out machining is growing but not universal."
+      },
+      "scores": {
+        "category_1": 7.5,
+        "category_2": 7.33,
+        "category_3": 7.33,
+        "category_4": 6.0,
+        "category_5": 6.91,
+        "category_6": 5.43,
+        "category_7": 6.08,
+        "category_8": 6.53,
+        "category_9": 6.34,
+        "category_10": 8.4,
+        "category_11": 7.6,
+        "category_12": 5.73,
+        "category_13": 3.75,
+        "category_14": 7.71
+      },
+      "scenario_totals": {
+        "default": 6.8,
+        "equal_weight": 6.6,
+        "max_earnings": 6.55,
+        "best_lifestyle": 6.55,
+        "fastest_to_practice": 6.72,
+        "most_procedural": 6.42
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 0,
+        "undergrad_years": 0,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 0,
+        "trainee_salary": 20,
+        "education_debt": 5,
+        "loan_rate": 5,
+        "living_expenses": 38,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 3,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1.5,
+        "npv_discount_rate": 5,
+        "residency_years": 4,
+        "fellowship_years": 0,
+        "age_independent": 22,
+        "starting_salary": 36,
+        "mid_salary": 56,
+        "peak_salary": 85,
+        "typical_peak": 72,
+        "malpractice_per_yr": 0
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 6,
+        "injury": 4,
+        "match": 5
+      },
+      "timeline": {
+        "college": [
+          18,
+          18
+        ],
+        "school": [
+          18,
+          18
+        ],
+        "residency": [
+          18,
+          22
+        ],
+        "fellowship": null,
+        "earnAge": 22,
+        "startSalary": 36
+      }
+    },
+    {
+      "name": "Tool & Die Maker",
+      "key": "tool_die_maker",
+      "profession": "Apprenticeship",
+      "group": "welding_fabrication",
+      "color": "#533187",
+      "path": "Journeyman",
+      "raw_data": {
+        "startSalary": 40,
+        "midSalary": 63,
+        "peakSalary": 95,
+        "typicalPeak": 82,
+        "hoursWeek": 44,
+        "burnout": 25,
+        "satisfaction": 73,
+        "chooseAgain": 70,
+        "malpracticeCost": 0,
+        "vacation": 4,
+        "matchComp": 6,
+        "annualSpots": 8000,
+        "oneInX": 14,
+        "callSchedule": 5,
+        "physicalToll": 6,
+        "emotionalToll": 7,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 3,
+        "aiRiskLong": 4,
+        "aiNarrative": "Tool and die making is the most intellectually demanding machining trade. CAD/CAM and wire EDM are tools of the trade, not replacements. Building a stamping die that produces millions of parts correctly requires deep material science knowledge and hand-fitting skill."
+      },
+      "scores": {
+        "category_1": 7.5,
+        "category_2": 6.67,
+        "category_3": 7.33,
+        "category_4": 5.33,
+        "category_5": 7.1,
+        "category_6": 5.43,
+        "category_7": 6.22,
+        "category_8": 6.67,
+        "category_9": 5.96,
+        "category_10": 8.2,
+        "category_11": 7.6,
+        "category_12": 6.43,
+        "category_13": 3.75,
+        "category_14": 7.57
+      },
+      "scenario_totals": {
+        "default": 6.75,
+        "equal_weight": 6.54,
+        "max_earnings": 6.57,
+        "best_lifestyle": 6.49,
+        "fastest_to_practice": 6.58,
+        "most_procedural": 6.47
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 0,
+        "undergrad_years": 0,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 0,
+        "trainee_salary": 20,
+        "education_debt": 5,
+        "loan_rate": 5,
+        "living_expenses": 38,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 3,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1.5,
+        "npv_discount_rate": 5,
+        "residency_years": 4,
+        "fellowship_years": 0,
+        "age_independent": 22,
+        "starting_salary": 40,
+        "mid_salary": 63,
+        "peak_salary": 95,
+        "typical_peak": 82,
+        "malpractice_per_yr": 0
+      },
+      "stress": {
+        "ai": 7,
+        "pay": 6,
+        "injury": 4,
+        "match": 6
+      },
+      "timeline": {
+        "college": [
+          18,
+          18
+        ],
+        "school": [
+          18,
+          18
+        ],
+        "residency": [
+          18,
+          22
+        ],
+        "fellowship": null,
+        "earnAge": 22,
+        "startSalary": 40
+      }
+    },
+    {
+      "name": "NDT Technician",
+      "key": "ndt_technician",
+      "profession": "Apprenticeship",
+      "group": "welding_fabrication",
+      "color": "#4e1e72",
+      "path": "Journeyman",
+      "raw_data": {
+        "startSalary": 42,
+        "midSalary": 77,
+        "peakSalary": 120,
+        "typicalPeak": 100,
+        "hoursWeek": 44,
+        "burnout": 25,
+        "satisfaction": 72,
+        "chooseAgain": 69,
+        "malpracticeCost": 2,
+        "vacation": 4,
+        "matchComp": 6,
+        "annualSpots": 10000,
+        "oneInX": 11,
+        "callSchedule": 4,
+        "physicalToll": 5,
+        "emotionalToll": 6,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 3,
+        "aiRiskLong": 5,
+        "aiNarrative": "AI is improving automated defect recognition in radiographic and ultrasonic testing, but positioning sensors, interpreting complex geometries, and making accept/reject calls on critical welds still requires certified human technicians. Radiation safety adds another human-required layer."
+      },
+      "scores": {
+        "category_1": 7.5,
+        "category_2": 6.67,
+        "category_3": 7.33,
+        "category_4": 5.0,
+        "category_5": 7.33,
+        "category_6": 5.43,
+        "category_7": 6.6,
+        "category_8": 7.17,
+        "category_9": 5.96,
+        "category_10": 8.4,
+        "category_11": 7.6,
+        "category_12": 6.7,
+        "category_13": 3.75,
+        "category_14": 6.17
+      },
+      "scenario_totals": {
+        "default": 6.8,
+        "equal_weight": 6.51,
+        "max_earnings": 6.72,
+        "best_lifestyle": 6.58,
+        "fastest_to_practice": 6.57,
+        "most_procedural": 6.61
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 0,
+        "undergrad_years": 0,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 0,
+        "trainee_salary": 20,
+        "education_debt": 5,
+        "loan_rate": 5,
+        "living_expenses": 38,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 3,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1.5,
+        "npv_discount_rate": 5,
+        "residency_years": 2,
+        "fellowship_years": 0,
+        "age_independent": 20,
+        "starting_salary": 42,
+        "mid_salary": 77,
+        "peak_salary": 120,
+        "typical_peak": 100,
+        "malpractice_per_yr": 2
+      },
+      "stress": {
+        "ai": 7,
+        "pay": 6,
+        "injury": 4,
+        "match": 6
+      },
+      "timeline": {
+        "college": [
+          18,
+          18
+        ],
+        "school": [
+          18,
+          18
+        ],
+        "residency": [
+          18,
+          20
+        ],
+        "fellowship": null,
+        "earnAge": 20,
+        "startSalary": 42
+      }
+    },
+    {
+      "name": "Auto Mechanic",
+      "key": "auto_mechanic",
+      "profession": "Apprenticeship",
+      "group": "automotive_diesel",
+      "color": "#753f87",
+      "path": "Journeyman",
+      "raw_data": {
+        "startSalary": 35,
+        "midSalary": 50,
+        "peakSalary": 80,
+        "typicalPeak": 68,
+        "hoursWeek": 42,
+        "burnout": 30,
+        "satisfaction": 62,
+        "chooseAgain": 55,
+        "malpracticeCost": 1,
+        "vacation": 3,
+        "matchComp": 9,
+        "annualSpots": 69000,
+        "oneInX": 2,
+        "callSchedule": 7,
+        "physicalToll": 4,
+        "emotionalToll": 6,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 3,
+        "aiRiskLong": 4,
+        "aiNarrative": "OBD diagnostics and AI-assisted fault finding help identify problems faster, but physically replacing parts, dealing with rust and corrosion, and the sheer variety of vehicle makes and models keeps this trade human. EV transition changes the work but does not eliminate it."
+      },
+      "scores": {
+        "category_1": 7.5,
+        "category_2": 7.67,
+        "category_3": 7.33,
+        "category_4": 6.0,
+        "category_5": 6.8,
+        "category_6": 5.57,
+        "category_7": 5.75,
+        "category_8": 6.78,
+        "category_9": 6.0,
+        "category_10": 8.8,
+        "category_11": 7.6,
+        "category_12": 5.07,
+        "category_13": 3.75,
+        "category_14": 6.59
+      },
+      "scenario_totals": {
+        "default": 6.69,
+        "equal_weight": 6.49,
+        "max_earnings": 6.44,
+        "best_lifestyle": 6.43,
+        "fastest_to_practice": 6.68,
+        "most_procedural": 6.37
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 0,
+        "undergrad_years": 0,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 0,
+        "trainee_salary": 20,
+        "education_debt": 5,
+        "loan_rate": 5,
+        "living_expenses": 38,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 3,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1.5,
+        "npv_discount_rate": 5,
+        "residency_years": 3,
+        "fellowship_years": 0,
+        "age_independent": 21,
+        "starting_salary": 35,
+        "mid_salary": 50,
+        "peak_salary": 80,
+        "typical_peak": 68,
+        "malpractice_per_yr": 1
+      },
+      "stress": {
+        "ai": 8,
+        "pay": 6,
+        "injury": 4,
+        "match": 5
+      },
+      "timeline": {
+        "college": [
+          18,
+          18
+        ],
+        "school": [
+          18,
+          18
+        ],
+        "residency": [
+          18,
+          21
+        ],
+        "fellowship": null,
+        "earnAge": 21,
+        "startSalary": 35
+      }
+    },
+    {
+      "name": "Diesel Technician",
+      "key": "diesel_technician",
+      "profession": "Apprenticeship",
+      "group": "automotive_diesel",
+      "color": "#6d2a72",
+      "path": "Journeyman",
+      "raw_data": {
+        "startSalary": 40,
+        "midSalary": 61,
+        "peakSalary": 95,
+        "typicalPeak": 80,
+        "hoursWeek": 44,
+        "burnout": 28,
+        "satisfaction": 66,
+        "chooseAgain": 62,
+        "malpracticeCost": 1,
+        "vacation": 3,
+        "matchComp": 8,
+        "annualSpots": 30000,
+        "oneInX": 4,
+        "callSchedule": 4,
+        "physicalToll": 3,
+        "emotionalToll": 7,
+        "aiRiskNow": 1,
+        "aiRiskMedium": 2,
+        "aiRiskLong": 3,
+        "aiNarrative": "Diesel engines in trucks, buses, and heavy equipment are mechanically complex and physically large. Telematics and OBD help with diagnostics, but pulling an engine or rebuilding a turbo demands human skill. These engines run the economy."
+      },
+      "scores": {
+        "category_1": 7.5,
+        "category_2": 7.33,
+        "category_3": 7.33,
+        "category_4": 5.0,
+        "category_5": 7.07,
+        "category_6": 5.43,
+        "category_7": 5.97,
+        "category_8": 6.42,
+        "category_9": 5.6,
+        "category_10": 8.6,
+        "category_11": 7.6,
+        "category_12": 5.77,
+        "category_13": 3.75,
+        "category_14": 6.44
+      },
+      "scenario_totals": {
+        "default": 6.59,
+        "equal_weight": 6.39,
+        "max_earnings": 6.45,
+        "best_lifestyle": 6.3,
+        "fastest_to_practice": 6.52,
+        "most_procedural": 6.31
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 0,
+        "undergrad_years": 0,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 0,
+        "trainee_salary": 20,
+        "education_debt": 5,
+        "loan_rate": 5,
+        "living_expenses": 38,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 3,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1.5,
+        "npv_discount_rate": 5,
+        "residency_years": 3,
+        "fellowship_years": 0,
+        "age_independent": 21,
+        "starting_salary": 40,
+        "mid_salary": 61,
+        "peak_salary": 95,
+        "typical_peak": 80,
+        "malpractice_per_yr": 1
+      },
+      "stress": {
+        "ai": 9,
+        "pay": 6,
+        "injury": 4,
+        "match": 5
+      },
+      "timeline": {
+        "college": [
+          18,
+          18
+        ],
+        "school": [
+          18,
+          18
+        ],
+        "residency": [
+          18,
+          21
+        ],
+        "fellowship": null,
+        "earnAge": 21,
+        "startSalary": 40
+      }
+    },
+    {
+      "name": "Aircraft Mechanic (A&P)",
+      "key": "aircraft_mechanic",
+      "profession": "Apprenticeship",
+      "group": "automotive_diesel",
+      "color": "#0D47A1",
+      "path": "Journeyman",
+      "raw_data": {
+        "startSalary": 48,
+        "midSalary": 79,
+        "peakSalary": 120,
+        "typicalPeak": 105,
+        "hoursWeek": 44,
+        "burnout": 30,
+        "satisfaction": 75,
+        "chooseAgain": 72,
+        "malpracticeCost": 2,
+        "vacation": 3,
+        "matchComp": 7,
+        "annualSpots": 16000,
+        "oneInX": 7,
+        "callSchedule": 4,
+        "physicalToll": 4,
+        "emotionalToll": 5,
+        "aiRiskNow": 1,
+        "aiRiskMedium": 2,
+        "aiRiskLong": 3,
+        "aiNarrative": "Aviation maintenance is the most safety-critical mechanical trade. FAA regulation requires human sign-off on every repair. AI helps with predictive maintenance scheduling, but inspection and repair of aircraft remains hands-on and heavily documented."
+      },
+      "scores": {
+        "category_1": 7.5,
+        "category_2": 7.0,
+        "category_3": 7.33,
+        "category_4": 5.0,
+        "category_5": 7.49,
+        "category_6": 5.29,
+        "category_7": 6.6,
+        "category_8": 7.42,
+        "category_9": 5.32,
+        "category_10": 8.4,
+        "category_11": 7.6,
+        "category_12": 7.23,
+        "category_13": 3.75,
+        "category_14": 5.74
+      },
+      "scenario_totals": {
+        "default": 6.8,
+        "equal_weight": 6.51,
+        "max_earnings": 6.75,
+        "best_lifestyle": 6.55,
+        "fastest_to_practice": 6.61,
+        "most_procedural": 6.7
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 0,
+        "undergrad_years": 0,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 0,
+        "trainee_salary": 20,
+        "education_debt": 5,
+        "loan_rate": 5,
+        "living_expenses": 38,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 3,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1.5,
+        "npv_discount_rate": 5,
+        "residency_years": 2,
+        "fellowship_years": 0,
+        "age_independent": 20,
+        "starting_salary": 48,
+        "mid_salary": 79,
+        "peak_salary": 120,
+        "typical_peak": 105,
+        "malpractice_per_yr": 2
+      },
+      "stress": {
+        "ai": 9,
+        "pay": 6,
+        "injury": 4,
+        "match": 5
+      },
+      "timeline": {
+        "college": [
+          18,
+          18
+        ],
+        "school": [
+          18,
+          18
+        ],
+        "residency": [
+          18,
+          20
+        ],
+        "fellowship": null,
+        "earnAge": 20,
+        "startSalary": 48
+      }
+    },
+    {
+      "name": "Heavy Equipment Operator",
+      "key": "heavy_equipment_operator",
+      "profession": "Apprenticeship",
+      "group": "heavy_equipment",
+      "color": "#87247c",
+      "path": "Journeyman",
+      "raw_data": {
+        "startSalary": 38,
+        "midSalary": 58,
+        "peakSalary": 90,
+        "typicalPeak": 78,
+        "hoursWeek": 44,
+        "burnout": 25,
+        "satisfaction": 70,
+        "chooseAgain": 67,
+        "malpracticeCost": 0,
+        "vacation": 3,
+        "matchComp": 9,
+        "annualSpots": 60000,
+        "oneInX": 2,
+        "callSchedule": 6,
+        "physicalToll": 5,
+        "emotionalToll": 7,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 3,
+        "aiRiskLong": 5,
+        "aiNarrative": "GPS-guided grading and autonomous haul trucks are advancing in mining, but construction sites with variable conditions, underground utilities, and mixed traffic still need human operators. Full autonomy is decades away for complex jobsites."
+      },
+      "scores": {
+        "category_1": 7.5,
+        "category_2": 7.67,
+        "category_3": 7.33,
+        "category_4": 5.67,
+        "category_5": 6.99,
+        "category_6": 5.29,
+        "category_7": 5.65,
+        "category_8": 5.92,
+        "category_9": 5.7,
+        "category_10": 8.6,
+        "category_11": 7.6,
+        "category_12": 5.57,
+        "category_13": 3.75,
+        "category_14": 7.14
+      },
+      "scenario_totals": {
+        "default": 6.6,
+        "equal_weight": 6.44,
+        "max_earnings": 6.38,
+        "best_lifestyle": 6.29,
+        "fastest_to_practice": 6.63,
+        "most_procedural": 6.2
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 0,
+        "undergrad_years": 0,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 0,
+        "trainee_salary": 20,
+        "education_debt": 5,
+        "loan_rate": 5,
+        "living_expenses": 38,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 3,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1.5,
+        "npv_discount_rate": 5,
+        "residency_years": 3,
+        "fellowship_years": 0,
+        "age_independent": 21,
+        "starting_salary": 38,
+        "mid_salary": 58,
+        "peak_salary": 90,
+        "typical_peak": 78,
+        "malpractice_per_yr": 0
+      },
+      "stress": {
+        "ai": 7,
+        "pay": 7,
+        "injury": 4,
+        "match": 5
+      },
+      "timeline": {
+        "college": [
+          18,
+          18
+        ],
+        "school": [
+          18,
+          18
+        ],
+        "residency": [
+          18,
+          21
+        ],
+        "fellowship": null,
+        "earnAge": 21,
+        "startSalary": 38
+      }
+    },
+    {
+      "name": "Crane Operator",
+      "key": "crane_operator",
+      "profession": "Apprenticeship",
+      "group": "heavy_equipment",
+      "color": "#723561",
+      "path": "Journeyman",
+      "raw_data": {
+        "startSalary": 42,
+        "midSalary": 65,
+        "peakSalary": 110,
+        "typicalPeak": 95,
+        "hoursWeek": 45,
+        "burnout": 30,
+        "satisfaction": 73,
+        "chooseAgain": 70,
+        "malpracticeCost": 0,
+        "vacation": 3,
+        "matchComp": 6,
+        "annualSpots": 10000,
+        "oneInX": 11,
+        "callSchedule": 5,
+        "physicalToll": 5,
+        "emotionalToll": 4,
+        "aiRiskNow": 1,
+        "aiRiskMedium": 2,
+        "aiRiskLong": 3,
+        "aiNarrative": "Crane operation requires real-time judgment about wind, load dynamics, ground conditions, and proximity to power lines. Assisted lift planning software helps, but the actual operation of placing multi-ton loads precisely is a high-skill human task."
+      },
+      "scores": {
+        "category_1": 7.5,
+        "category_2": 6.67,
+        "category_3": 7.33,
+        "category_4": 5.33,
+        "category_5": 7.16,
+        "category_6": 5.14,
+        "category_7": 5.95,
+        "category_8": 6.38,
+        "category_9": 5.08,
+        "category_10": 8.4,
+        "category_11": 7.6,
+        "category_12": 6.1,
+        "category_13": 3.75,
+        "category_14": 6.57
+      },
+      "scenario_totals": {
+        "default": 6.53,
+        "equal_weight": 6.33,
+        "max_earnings": 6.42,
+        "best_lifestyle": 6.21,
+        "fastest_to_practice": 6.47,
+        "most_procedural": 6.26
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 0,
+        "undergrad_years": 0,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 0,
+        "trainee_salary": 20,
+        "education_debt": 5,
+        "loan_rate": 5,
+        "living_expenses": 38,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 3,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1.5,
+        "npv_discount_rate": 5,
+        "residency_years": 3,
+        "fellowship_years": 0,
+        "age_independent": 21,
+        "starting_salary": 42,
+        "mid_salary": 65,
+        "peak_salary": 110,
+        "typical_peak": 95,
+        "malpractice_per_yr": 0
+      },
+      "stress": {
+        "ai": 8,
+        "pay": 7,
+        "injury": 3,
+        "match": 6
+      },
+      "timeline": {
+        "college": [
+          18,
+          18
+        ],
+        "school": [
+          18,
+          18
+        ],
+        "residency": [
+          18,
+          21
+        ],
+        "fellowship": null,
+        "earnAge": 21,
+        "startSalary": 42
+      }
+    },
+    {
+      "name": "Heavy Equipment Mechanic",
+      "key": "heavy_equipment_mechanic",
+      "profession": "Apprenticeship",
+      "group": "heavy_equipment",
+      "color": "#87315e",
+      "path": "Journeyman",
+      "raw_data": {
+        "startSalary": 40,
+        "midSalary": 60,
+        "peakSalary": 95,
+        "typicalPeak": 82,
+        "hoursWeek": 44,
+        "burnout": 27,
+        "satisfaction": 68,
+        "chooseAgain": 65,
+        "malpracticeCost": 0,
+        "vacation": 3,
+        "matchComp": 7,
+        "annualSpots": 20000,
+        "oneInX": 6,
+        "callSchedule": 4,
+        "physicalToll": 3,
+        "emotionalToll": 7,
+        "aiRiskNow": 1,
+        "aiRiskMedium": 2,
+        "aiRiskLong": 3,
+        "aiNarrative": "Cat, Deere, and Komatsu telematics predict some failures before they happen, but actually replacing a hydraulic cylinder, rebuilding a transmission, or welding a cracked frame on a 50-ton excavator is purely human work."
+      },
+      "scores": {
+        "category_1": 7.5,
+        "category_2": 7.0,
+        "category_3": 7.33,
+        "category_4": 5.0,
+        "category_5": 7.06,
+        "category_6": 5.43,
+        "category_7": 5.97,
+        "category_8": 6.42,
+        "category_9": 5.62,
+        "category_10": 8.6,
+        "category_11": 7.6,
+        "category_12": 6.1,
+        "category_13": 3.75,
+        "category_14": 6.86
+      },
+      "scenario_totals": {
+        "default": 6.62,
+        "equal_weight": 6.42,
+        "max_earnings": 6.47,
+        "best_lifestyle": 6.33,
+        "fastest_to_practice": 6.51,
+        "most_procedural": 6.35
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 0,
+        "undergrad_years": 0,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 0,
+        "trainee_salary": 20,
+        "education_debt": 5,
+        "loan_rate": 5,
+        "living_expenses": 38,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 3,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1.5,
+        "npv_discount_rate": 5,
+        "residency_years": 3,
+        "fellowship_years": 0,
+        "age_independent": 21,
+        "starting_salary": 40,
+        "mid_salary": 60,
+        "peak_salary": 95,
+        "typical_peak": 82,
+        "malpractice_per_yr": 0
+      },
+      "stress": {
+        "ai": 9,
+        "pay": 7,
+        "injury": 4,
+        "match": 5
+      },
+      "timeline": {
+        "college": [
+          18,
+          18
+        ],
+        "school": [
+          18,
+          18
+        ],
+        "residency": [
+          18,
+          21
+        ],
+        "fellowship": null,
+        "earnAge": 21,
+        "startSalary": 40
+      }
+    },
+    {
+      "name": "Elevator Constructor",
+      "key": "elevator_constructor",
+      "profession": "Apprenticeship",
+      "group": "specialty_trades",
+      "color": "#4A148C",
+      "path": "Journeyman",
+      "raw_data": {
+        "startSalary": 55,
+        "midSalary": 107,
+        "peakSalary": 200,
+        "typicalPeak": 160,
+        "hoursWeek": 45,
+        "burnout": 32,
+        "satisfaction": 78,
+        "chooseAgain": 76,
+        "malpracticeCost": 1,
+        "vacation": 4,
+        "matchComp": 3,
+        "annualSpots": 2000,
+        "oneInX": 56,
+        "callSchedule": 2,
+        "physicalToll": 3,
+        "emotionalToll": 5,
+        "aiRiskNow": 1,
+        "aiRiskMedium": 1,
+        "aiRiskLong": 2,
+        "aiNarrative": "Elevator installation and maintenance combines electrical, mechanical, and computer skills in confined vertical shafts. Each building is unique. The small labor pool and strict licensing keep this the highest-paid trade in America."
+      },
+      "scores": {
+        "category_1": 7.5,
+        "category_2": 5.67,
+        "category_3": 7.33,
+        "category_4": 4.33,
+        "category_5": 8.0,
+        "category_6": 5.14,
+        "category_7": 7.5,
+        "category_8": 6.88,
+        "category_9": 5.26,
+        "category_10": 8.0,
+        "category_11": 7.6,
+        "category_12": 7.3,
+        "category_13": 3.75,
+        "category_14": 5.73
+      },
+      "scenario_totals": {
+        "default": 6.74,
+        "equal_weight": 6.39,
+        "max_earnings": 6.94,
+        "best_lifestyle": 6.45,
+        "fastest_to_practice": 6.42,
+        "most_procedural": 6.53
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 0,
+        "undergrad_years": 0,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 0,
+        "trainee_salary": 20,
+        "education_debt": 5,
+        "loan_rate": 5,
+        "living_expenses": 38,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 3,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1.5,
+        "npv_discount_rate": 5,
+        "residency_years": 4,
+        "fellowship_years": 0,
+        "age_independent": 22,
+        "starting_salary": 55,
+        "mid_salary": 107,
+        "peak_salary": 200,
+        "typical_peak": 160,
+        "malpractice_per_yr": 1
+      },
+      "stress": {
+        "ai": 9,
+        "pay": 6,
+        "injury": 3,
+        "match": 7
+      },
+      "timeline": {
+        "college": [
+          18,
+          18
+        ],
+        "school": [
+          18,
+          18
+        ],
+        "residency": [
+          18,
+          22
+        ],
+        "fellowship": null,
+        "earnAge": 22,
+        "startSalary": 55
+      }
+    },
+    {
+      "name": "Industrial Mechanic/Millwright",
+      "key": "industrial_mechanic_mill",
+      "profession": "Apprenticeship",
+      "group": "specialty_trades",
+      "color": "#721e3c",
+      "path": "Journeyman",
+      "raw_data": {
+        "startSalary": 42,
+        "midSalary": 64,
+        "peakSalary": 100,
+        "typicalPeak": 85,
+        "hoursWeek": 44,
+        "burnout": 27,
+        "satisfaction": 72,
+        "chooseAgain": 68,
+        "malpracticeCost": 0,
+        "vacation": 3,
+        "matchComp": 9,
+        "annualSpots": 48000,
+        "oneInX": 2,
+        "callSchedule": 3,
+        "physicalToll": 3,
+        "emotionalToll": 7,
+        "aiRiskNow": 1,
+        "aiRiskMedium": 2,
+        "aiRiskLong": 2,
+        "aiNarrative": "Millwrights install, align, and maintain the machines that make everything. Vibration analysis and predictive maintenance tools are great aids, but precision alignment, rigging, and mechanical troubleshooting remain deeply human skills."
+      },
+      "scores": {
+        "category_1": 7.5,
+        "category_2": 7.67,
+        "category_3": 7.33,
+        "category_4": 4.67,
+        "category_5": 7.14,
+        "category_6": 5.29,
+        "category_7": 6.05,
+        "category_8": 6.67,
+        "category_9": 5.42,
+        "category_10": 8.4,
+        "category_11": 7.6,
+        "category_12": 6.67,
+        "category_13": 3.75,
+        "category_14": 6.86
+      },
+      "scenario_totals": {
+        "default": 6.68,
+        "equal_weight": 6.48,
+        "max_earnings": 6.51,
+        "best_lifestyle": 6.38,
+        "fastest_to_practice": 6.56,
+        "most_procedural": 6.47
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 0,
+        "undergrad_years": 0,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 0,
+        "trainee_salary": 20,
+        "education_debt": 5,
+        "loan_rate": 5,
+        "living_expenses": 38,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 3,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1.5,
+        "npv_discount_rate": 5,
+        "residency_years": 4,
+        "fellowship_years": 0,
+        "age_independent": 22,
+        "starting_salary": 42,
+        "mid_salary": 64,
+        "peak_salary": 100,
+        "typical_peak": 85,
+        "malpractice_per_yr": 0
+      },
+      "stress": {
+        "ai": 9,
+        "pay": 6,
+        "injury": 3,
+        "match": 5
+      },
+      "timeline": {
+        "college": [
+          18,
+          18
+        ],
+        "school": [
+          18,
+          18
+        ],
+        "residency": [
+          18,
+          22
+        ],
+        "fellowship": null,
+        "earnAge": 22,
+        "startSalary": 42
+      }
+    },
+    {
+      "name": "Water/Wastewater Treatment Operator",
+      "key": "water_wastewater_treatme",
+      "profession": "Apprenticeship",
+      "group": "specialty_trades",
+      "color": "#873f4b",
+      "path": "Journeyman",
+      "raw_data": {
+        "startSalary": 38,
+        "midSalary": 58,
+        "peakSalary": 85,
+        "typicalPeak": 72,
+        "hoursWeek": 42,
+        "burnout": 22,
+        "satisfaction": 68,
+        "chooseAgain": 65,
+        "malpracticeCost": 1,
+        "vacation": 5,
+        "matchComp": 7,
+        "annualSpots": 15000,
+        "oneInX": 7,
+        "callSchedule": 3,
+        "physicalToll": 6,
+        "emotionalToll": 7,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 3,
+        "aiRiskLong": 4,
+        "aiNarrative": "SCADA automation handles routine process control, but operators must respond to upsets, maintain equipment, handle chemical dosing, and ensure regulatory compliance. Clean water is non-negotiable infrastructure that always needs humans on-site."
+      },
+      "scores": {
+        "category_1": 7.5,
+        "category_2": 7.0,
+        "category_3": 7.33,
+        "category_4": 4.67,
+        "category_5": 6.99,
+        "category_6": 5.29,
+        "category_7": 6.33,
+        "category_8": 6.53,
+        "category_9": 6.18,
+        "category_10": 8.6,
+        "category_11": 7.4,
+        "category_12": 5.93,
+        "category_13": 3.75,
+        "category_14": 7.01
+      },
+      "scenario_totals": {
+        "default": 6.66,
+        "equal_weight": 6.44,
+        "max_earnings": 6.53,
+        "best_lifestyle": 6.42,
+        "fastest_to_practice": 6.49,
+        "most_procedural": 6.34
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 0,
+        "undergrad_years": 0,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 0,
+        "trainee_salary": 20,
+        "education_debt": 5,
+        "loan_rate": 5,
+        "living_expenses": 38,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 3,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1.5,
+        "npv_discount_rate": 5,
+        "residency_years": 2,
+        "fellowship_years": 0,
+        "age_independent": 20,
+        "starting_salary": 38,
+        "mid_salary": 58,
+        "peak_salary": 85,
+        "typical_peak": 72,
+        "malpractice_per_yr": 1
+      },
+      "stress": {
+        "ai": 8,
+        "pay": 6,
+        "injury": 5,
+        "match": 5
+      },
+      "timeline": {
+        "college": [
+          18,
+          18
+        ],
+        "school": [
+          18,
+          18
+        ],
+        "residency": [
+          18,
+          20
+        ],
+        "fellowship": null,
+        "earnAge": 20,
+        "startSalary": 38
+      }
+    },
+    {
+      "name": "Surveying/CAD Technician",
+      "key": "surveying_cad_technician",
+      "profession": "Apprenticeship",
+      "group": "management_inspection",
+      "color": "#722b2a",
+      "path": "Journeyman",
+      "raw_data": {
+        "startSalary": 36,
+        "midSalary": 52,
+        "peakSalary": 80,
+        "typicalPeak": 68,
+        "hoursWeek": 40,
+        "burnout": 20,
+        "satisfaction": 67,
+        "chooseAgain": 63,
+        "malpracticeCost": 1,
+        "vacation": 5,
+        "matchComp": 6,
+        "annualSpots": 12000,
+        "oneInX": 9,
+        "callSchedule": 8,
+        "physicalToll": 6,
+        "emotionalToll": 9,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 4,
+        "aiRiskLong": 6,
+        "aiNarrative": "GPS, drone photogrammetry, and LiDAR are transforming surveying. AI can process point clouds and generate CAD drawings. But fieldwork\u2014setting control points, navigating terrain, interpreting boundary evidence\u2014still needs boots on the ground. The CAD side faces more automation pressure."
+      },
+      "scores": {
+        "category_1": 7.5,
+        "category_2": 6.67,
+        "category_3": 7.33,
+        "category_4": 6.33,
+        "category_5": 6.86,
+        "category_6": 5.57,
+        "category_7": 6.25,
+        "category_8": 6.65,
+        "category_9": 6.96,
+        "category_10": 8.6,
+        "category_11": 7.4,
+        "category_12": 5.5,
+        "category_13": 3.75,
+        "category_14": 7.44
+      },
+      "scenario_totals": {
+        "default": 6.85,
+        "equal_weight": 6.61,
+        "max_earnings": 6.62,
+        "best_lifestyle": 6.67,
+        "fastest_to_practice": 6.72,
+        "most_procedural": 6.45
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 0,
+        "undergrad_years": 0,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 0,
+        "trainee_salary": 20,
+        "education_debt": 5,
+        "loan_rate": 5,
+        "living_expenses": 38,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 3,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1.5,
+        "npv_discount_rate": 5,
+        "residency_years": 2,
+        "fellowship_years": 0,
+        "age_independent": 20,
+        "starting_salary": 36,
+        "mid_salary": 52,
+        "peak_salary": 80,
+        "typical_peak": 68,
+        "malpractice_per_yr": 1
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 6,
+        "injury": 6,
+        "match": 6
+      },
+      "timeline": {
+        "college": [
+          18,
+          18
+        ],
+        "school": [
+          18,
+          18
+        ],
+        "residency": [
+          18,
+          20
+        ],
+        "fellowship": null,
+        "earnAge": 20,
+        "startSalary": 36
+      }
+    },
+    {
+      "name": "Electrical Contractor",
+      "key": "electrical_contractor",
+      "profession": "Contractor",
+      "group": "electrical",
+      "color": "#2669b5",
+      "path": "Contractor / BS",
+      "raw_data": {
+        "startSalary": 65,
+        "midSalary": 105,
+        "peakSalary": 175,
+        "typicalPeak": 148,
+        "hoursWeek": 50,
+        "burnout": 38,
+        "satisfaction": 72,
+        "chooseAgain": 68,
+        "malpracticeCost": 5,
+        "vacation": 3,
+        "matchComp": 8,
+        "annualSpots": 18000,
+        "oneInX": 3,
+        "callSchedule": 4,
+        "physicalToll": 5,
+        "emotionalToll": 6,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 3,
+        "aiRiskLong": 4,
+        "aiNarrative": "Electrical contracting is fundamentally hands-on site work \u2014 pulling wire, bending conduit, troubleshooting panels. BIM and estimating software help with takeoffs, but the physical installation and code compliance inspection keeps this firmly in human territory. Demand is surging with EV charger and solar panel installations."
+      },
+      "scores": {
+        "category_1": 6.0,
+        "category_2": 6.67,
+        "category_3": 5.67,
+        "category_4": 6.33,
+        "category_5": 6.77,
+        "category_6": 6.0,
+        "category_7": 7.88,
+        "category_8": 7.35,
+        "category_9": 5.18,
+        "category_10": 7.6,
+        "category_11": 6.0,
+        "category_12": 6.5,
+        "category_13": 5.0,
+        "category_14": 5.93
+      },
+      "scenario_totals": {
+        "default": 6.65,
+        "equal_weight": 6.33,
+        "max_earnings": 6.8,
+        "best_lifestyle": 6.36,
+        "fastest_to_practice": 6.33,
+        "most_procedural": 6.52
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 22,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 0,
+        "trainee_salary": 0,
+        "education_debt": 40,
+        "loan_rate": 5.5,
+        "living_expenses": 48,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 5,
+        "salary_growth_to_peak": 4,
+        "post_peak_growth": 1.5,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 22,
+        "starting_salary": 65,
+        "mid_salary": 105,
+        "peak_salary": 175,
+        "typical_peak": 148,
+        "malpractice_per_yr": 5
+      },
+      "stress": {
+        "ai": 8,
+        "pay": 5,
+        "injury": 4,
+        "match": 3
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          22
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 22,
+        "startSalary": 65
+      }
+    },
+    {
+      "name": "Plumbing/HVAC Contractor",
+      "key": "plumbing_hvac_contractor",
+      "profession": "Contractor",
+      "group": "plumbing_hvac",
+      "color": "#1e4fca",
+      "path": "Contractor / BS",
+      "raw_data": {
+        "startSalary": 60,
+        "midSalary": 100,
+        "peakSalary": 165,
+        "typicalPeak": 140,
+        "hoursWeek": 50,
+        "burnout": 40,
+        "satisfaction": 68,
+        "chooseAgain": 62,
+        "malpracticeCost": 5,
+        "vacation": 3,
+        "matchComp": 8,
+        "annualSpots": 15000,
+        "oneInX": 3,
+        "callSchedule": 3,
+        "physicalToll": 5,
+        "emotionalToll": 6,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 2,
+        "aiRiskLong": 3,
+        "aiNarrative": "Plumbing and HVAC contracting involves diagnosing unique building systems, crawling through attics, and working with gas lines and refrigerant \u2014 none of which AI can touch. Load calculation software helps with sizing, but the physical installation and emergency service calls are completely automation-proof. Heat pump adoption is driving new demand."
+      },
+      "scores": {
+        "category_1": 6.0,
+        "category_2": 6.67,
+        "category_3": 5.67,
+        "category_4": 6.0,
+        "category_5": 6.6,
+        "category_6": 6.0,
+        "category_7": 7.5,
+        "category_8": 7.35,
+        "category_9": 5.1,
+        "category_10": 7.6,
+        "category_11": 6.0,
+        "category_12": 6.0,
+        "category_13": 5.0,
+        "category_14": 5.93
+      },
+      "scenario_totals": {
+        "default": 6.51,
+        "equal_weight": 6.23,
+        "max_earnings": 6.62,
+        "best_lifestyle": 6.23,
+        "fastest_to_practice": 6.21,
+        "most_procedural": 6.4
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 22,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 0,
+        "trainee_salary": 0,
+        "education_debt": 40,
+        "loan_rate": 5.5,
+        "living_expenses": 48,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 5,
+        "salary_growth_to_peak": 4,
+        "post_peak_growth": 1.5,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 22,
+        "starting_salary": 60,
+        "mid_salary": 100,
+        "peak_salary": 165,
+        "typical_peak": 140,
+        "malpractice_per_yr": 5
+      },
+      "stress": {
+        "ai": 8,
+        "pay": 5,
+        "injury": 4,
+        "match": 3
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          22
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 22,
+        "startSalary": 60
+      }
+    },
+    {
+      "name": "General Contractor",
+      "key": "general_contractor",
+      "profession": "Contractor",
+      "group": "construction",
+      "color": "#1b2bb5",
+      "path": "Contractor / BS",
+      "raw_data": {
+        "startSalary": 60,
+        "midSalary": 95,
+        "peakSalary": 180,
+        "typicalPeak": 150,
+        "hoursWeek": 52,
+        "burnout": 45,
+        "satisfaction": 68,
+        "chooseAgain": 62,
+        "malpracticeCost": 7,
+        "vacation": 3,
+        "matchComp": 9,
+        "annualSpots": 22000,
+        "oneInX": 2,
+        "callSchedule": 3,
+        "physicalToll": 5,
+        "emotionalToll": 5,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 3,
+        "aiRiskLong": 3,
+        "aiNarrative": "General contracting is the ultimate coordination job \u2014 managing 15 different subcontractors, dealing with weather delays, supply chain problems, and inspectors who show up unannounced. AI helps with scheduling and estimating, but walking the job site and managing chaos is purely human. Liability exposure is the bigger career risk than technology."
+      },
+      "scores": {
+        "category_1": 6.0,
+        "category_2": 7.0,
+        "category_3": 5.67,
+        "category_4": 6.0,
+        "category_5": 6.53,
+        "category_6": 5.86,
+        "category_7": 7.7,
+        "category_8": 7.5,
+        "category_9": 4.64,
+        "category_10": 7.4,
+        "category_11": 5.8,
+        "category_12": 6.5,
+        "category_13": 5.0,
+        "category_14": 5.39
+      },
+      "scenario_totals": {
+        "default": 6.5,
+        "equal_weight": 6.19,
+        "max_earnings": 6.63,
+        "best_lifestyle": 6.19,
+        "fastest_to_practice": 6.22,
+        "most_procedural": 6.45
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 22,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 0,
+        "trainee_salary": 0,
+        "education_debt": 40,
+        "loan_rate": 5.5,
+        "living_expenses": 48,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 5,
+        "salary_growth_to_peak": 4,
+        "post_peak_growth": 1.5,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 22,
+        "starting_salary": 60,
+        "mid_salary": 95,
+        "peak_salary": 180,
+        "typical_peak": 150,
+        "malpractice_per_yr": 7
+      },
+      "stress": {
+        "ai": 7,
+        "pay": 4,
+        "injury": 4,
+        "match": 3
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          22
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 22,
+        "startSalary": 60
+      }
+    },
+    {
+      "name": "Construction Superintendent",
+      "key": "construction_superintend",
+      "profession": "Contractor",
+      "group": "construction",
+      "color": "#352aca",
+      "path": "Contractor / BS",
+      "raw_data": {
+        "startSalary": 65,
+        "midSalary": 95,
+        "peakSalary": 140,
+        "typicalPeak": 120,
+        "hoursWeek": 52,
+        "burnout": 48,
+        "satisfaction": 65,
+        "chooseAgain": 58,
+        "malpracticeCost": 4,
+        "vacation": 2,
+        "matchComp": 10,
+        "annualSpots": 35000,
+        "oneInX": 1,
+        "callSchedule": 3,
+        "physicalToll": 4,
+        "emotionalToll": 5,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 2,
+        "aiRiskLong": 3,
+        "aiNarrative": "Superintendents are on the job site every day managing crews, solving problems in real time, and keeping work on schedule. This is one of the most AI-proof roles in the economy \u2014 you cannot remotely supervise concrete pours, crane lifts, or safety compliance from a computer. The physical presence requirement is absolute."
+      },
+      "scores": {
+        "category_1": 6.0,
+        "category_2": 7.33,
+        "category_3": 5.67,
+        "category_4": 6.0,
+        "category_5": 6.64,
+        "category_6": 5.86,
+        "category_7": 7.12,
+        "category_8": 7.25,
+        "category_9": 4.28,
+        "category_10": 7.4,
+        "category_11": 6.0,
+        "category_12": 5.77,
+        "category_13": 5.0,
+        "category_14": 5.77
+      },
+      "scenario_totals": {
+        "default": 6.38,
+        "equal_weight": 6.13,
+        "max_earnings": 6.47,
+        "best_lifestyle": 6.01,
+        "fastest_to_practice": 6.2,
+        "most_procedural": 6.28
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 22,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 0,
+        "trainee_salary": 0,
+        "education_debt": 40,
+        "loan_rate": 5.5,
+        "living_expenses": 48,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 5,
+        "salary_growth_to_peak": 4,
+        "post_peak_growth": 1.5,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 22,
+        "starting_salary": 65,
+        "mid_salary": 95,
+        "peak_salary": 140,
+        "typical_peak": 120,
+        "malpractice_per_yr": 4
+      },
+      "stress": {
+        "ai": 8,
+        "pay": 5,
+        "injury": 3,
+        "match": 2
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          22
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 22,
+        "startSalary": 65
+      }
+    },
+    {
+      "name": "Construction Manager",
+      "key": "construction_manager",
+      "profession": "Contractor",
+      "group": "management_inspection",
+      "color": "#1565C0",
+      "path": "Contractor / BS",
+      "raw_data": {
+        "startSalary": 72,
+        "midSalary": 107,
+        "peakSalary": 170,
+        "typicalPeak": 145,
+        "hoursWeek": 48,
+        "burnout": 42,
+        "satisfaction": 70,
+        "chooseAgain": 64,
+        "malpracticeCost": 6,
+        "vacation": 3,
+        "matchComp": 10,
+        "annualSpots": 46800,
+        "oneInX": 1,
+        "callSchedule": 4,
+        "physicalToll": 6,
+        "emotionalToll": 5,
+        "aiRiskNow": 3,
+        "aiRiskMedium": 4,
+        "aiRiskLong": 5,
+        "aiNarrative": "AI-powered scheduling, BIM clash detection, and cost tracking tools are changing how construction managers work, but the core job is people management and on-site decision-making. When a crane delivery is late and three trades are waiting, no algorithm can negotiate the solution. BLS projects 9% growth through 2034."
+      },
+      "scores": {
+        "category_1": 6.0,
+        "category_2": 7.33,
+        "category_3": 5.67,
+        "category_4": 6.33,
+        "category_5": 6.94,
+        "category_6": 6.0,
+        "category_7": 7.83,
+        "category_8": 7.22,
+        "category_9": 5.12,
+        "category_10": 7.4,
+        "category_11": 5.8,
+        "category_12": 6.3,
+        "category_13": 5.0,
+        "category_14": 6.09
+      },
+      "scenario_totals": {
+        "default": 6.66,
+        "equal_weight": 6.34,
+        "max_earnings": 6.8,
+        "best_lifestyle": 6.34,
+        "fastest_to_practice": 6.4,
+        "most_procedural": 6.48
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 22,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 0,
+        "trainee_salary": 0,
+        "education_debt": 40,
+        "loan_rate": 5.5,
+        "living_expenses": 48,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 5,
+        "salary_growth_to_peak": 4,
+        "post_peak_growth": 1.5,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 22,
+        "starting_salary": 72,
+        "mid_salary": 107,
+        "peak_salary": 170,
+        "typical_peak": 145,
+        "malpractice_per_yr": 6
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 4,
+        "injury": 5,
+        "match": 2
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          22
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 22,
+        "startSalary": 72
+      }
+    },
+    {
+      "name": "Building Inspector",
+      "key": "building_inspector",
+      "profession": "Contractor",
+      "group": "management_inspection",
+      "color": "#421bb5",
+      "path": "Contractor / BS",
+      "raw_data": {
+        "startSalary": 55,
+        "midSalary": 72,
+        "peakSalary": 105,
+        "typicalPeak": 88,
+        "hoursWeek": 42,
+        "burnout": 22,
+        "satisfaction": 68,
+        "chooseAgain": 60,
+        "malpracticeCost": 4,
+        "vacation": 5,
+        "matchComp": 8,
+        "annualSpots": 14800,
+        "oneInX": 3,
+        "callSchedule": 8,
+        "physicalToll": 5,
+        "emotionalToll": 7,
+        "aiRiskNow": 3,
+        "aiRiskMedium": 4,
+        "aiRiskLong": 5,
+        "aiNarrative": "Remote video inspections are growing, which is why BLS projects a small decline in this field. But physical site visits to check structural connections, fire stopping, and code compliance still require human eyes and judgment. The role is shifting toward more complex inspections while simple ones get digitized."
+      },
+      "scores": {
+        "category_1": 6.0,
+        "category_2": 6.67,
+        "category_3": 5.67,
+        "category_4": 7.67,
+        "category_5": 6.1,
+        "category_6": 6.14,
+        "category_7": 7.12,
+        "category_8": 7.78,
+        "category_9": 6.78,
+        "category_10": 7.6,
+        "category_11": 6.2,
+        "category_12": 5.77,
+        "category_13": 5.0,
+        "category_14": 6.63
+      },
+      "scenario_totals": {
+        "default": 6.8,
+        "equal_weight": 6.5,
+        "max_earnings": 6.64,
+        "best_lifestyle": 6.68,
+        "fastest_to_practice": 6.5,
+        "most_procedural": 6.62
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 22,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 0,
+        "trainee_salary": 0,
+        "education_debt": 40,
+        "loan_rate": 5.5,
+        "living_expenses": 48,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 5,
+        "salary_growth_to_peak": 4,
+        "post_peak_growth": 1.5,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 22,
+        "starting_salary": 55,
+        "mid_salary": 72,
+        "peak_salary": 105,
+        "typical_peak": 88,
+        "malpractice_per_yr": 4
+      },
+      "stress": {
+        "ai": 7,
+        "pay": 5,
+        "injury": 4,
+        "match": 3
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          22
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 22,
+        "startSalary": 55
+      }
+    },
+    {
+      "name": "Cost Estimator",
+      "key": "cost_estimator",
+      "profession": "Contractor",
+      "group": "management_inspection",
+      "color": "#681eca",
+      "path": "Contractor / BS",
+      "raw_data": {
+        "startSalary": 55,
+        "midSalary": 77,
+        "peakSalary": 130,
+        "typicalPeak": 108,
+        "hoursWeek": 43,
+        "burnout": 28,
+        "satisfaction": 65,
+        "chooseAgain": 58,
+        "malpracticeCost": 3,
+        "vacation": 4,
+        "matchComp": 8,
+        "annualSpots": 16900,
+        "oneInX": 3,
+        "callSchedule": 8,
+        "physicalToll": 8,
+        "emotionalToll": 7,
+        "aiRiskNow": 4,
+        "aiRiskMedium": 5,
+        "aiRiskLong": 6,
+        "aiNarrative": "AI-powered takeoff software and BIM-based quantity extraction are automating the tedious parts of estimating \u2014 counting doors, measuring drywall, calculating concrete volumes. BLS projects a 4% decline. But complex bids still need human judgment about site conditions, subcontractor reliability, and risk pricing. Senior estimators who understand the 'art' of bidding stay valuable."
+      },
+      "scores": {
+        "category_1": 6.0,
+        "category_2": 6.67,
+        "category_3": 5.67,
+        "category_4": 7.67,
+        "category_5": 6.17,
+        "category_6": 6.29,
+        "category_7": 7.22,
+        "category_8": 6.47,
+        "category_9": 6.5,
+        "category_10": 7.6,
+        "category_11": 6.0,
+        "category_12": 5.27,
+        "category_13": 5.0,
+        "category_14": 7.61
+      },
+      "scenario_totals": {
+        "default": 6.69,
+        "equal_weight": 6.44,
+        "max_earnings": 6.6,
+        "best_lifestyle": 6.45,
+        "fastest_to_practice": 6.46,
+        "most_procedural": 6.31
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 22,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 0,
+        "trainee_salary": 0,
+        "education_debt": 40,
+        "loan_rate": 5.5,
+        "living_expenses": 48,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 5,
+        "salary_growth_to_peak": 4,
+        "post_peak_growth": 1.5,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 22,
+        "starting_salary": 55,
+        "mid_salary": 77,
+        "peak_salary": 130,
+        "typical_peak": 108,
+        "malpractice_per_yr": 3
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 5,
+        "injury": 7,
+        "match": 3
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          22
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 22,
+        "startSalary": 55
+      }
+    },
+    {
+      "name": "Safety Manager (OSHA)",
+      "key": "safety_manager_osha",
+      "profession": "Contractor",
+      "group": "management_inspection",
+      "color": "#7e26b5",
+      "path": "Contractor / BS",
+      "raw_data": {
+        "startSalary": 58,
+        "midSalary": 84,
+        "peakSalary": 135,
+        "typicalPeak": 112,
+        "hoursWeek": 45,
+        "burnout": 32,
+        "satisfaction": 72,
+        "chooseAgain": 65,
+        "malpracticeCost": 5,
+        "vacation": 4,
+        "matchComp": 8,
+        "annualSpots": 18300,
+        "oneInX": 3,
+        "callSchedule": 5,
+        "physicalToll": 6,
+        "emotionalToll": 5,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 3,
+        "aiRiskLong": 4,
+        "aiNarrative": "AI can help with hazard identification from photos and incident data analysis, but safety management requires walking job sites, observing human behavior, and enforcing compliance in person. The regulatory and human behavior aspects make this very resistant to automation. BLS projects 12% growth for safety specialists."
+      },
+      "scores": {
+        "category_1": 6.0,
+        "category_2": 6.67,
+        "category_3": 5.67,
+        "category_4": 6.67,
+        "category_5": 6.33,
+        "category_6": 6.0,
+        "category_7": 7.55,
+        "category_8": 7.38,
+        "category_9": 5.86,
+        "category_10": 7.6,
+        "category_11": 5.8,
+        "category_12": 6.57,
+        "category_13": 5.0,
+        "category_14": 6.21
+      },
+      "scenario_totals": {
+        "default": 6.67,
+        "equal_weight": 6.36,
+        "max_earnings": 6.68,
+        "best_lifestyle": 6.47,
+        "fastest_to_practice": 6.35,
+        "most_procedural": 6.54
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 22,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 0,
+        "trainee_salary": 0,
+        "education_debt": 40,
+        "loan_rate": 5.5,
+        "living_expenses": 48,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 5,
+        "salary_growth_to_peak": 4,
+        "post_peak_growth": 1.5,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 22,
+        "starting_salary": 58,
+        "mid_salary": 84,
+        "peak_salary": 135,
+        "typical_peak": 112,
+        "malpractice_per_yr": 5
+      },
+      "stress": {
+        "ai": 7,
+        "pay": 5,
+        "injury": 5,
+        "match": 3
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          22
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 22,
+        "startSalary": 58
+      }
+    },
+    {
+      "name": "Project Engineer (Construction)",
+      "key": "project_engineer_constru",
+      "profession": "Contractor",
+      "group": "management_inspection",
+      "color": "#a61eca",
+      "path": "Contractor / BS",
+      "raw_data": {
+        "startSalary": 62,
+        "midSalary": 86,
+        "peakSalary": 130,
+        "typicalPeak": 110,
+        "hoursWeek": 48,
+        "burnout": 35,
+        "satisfaction": 66,
+        "chooseAgain": 60,
+        "malpracticeCost": 4,
+        "vacation": 3,
+        "matchComp": 9,
+        "annualSpots": 23600,
+        "oneInX": 2,
+        "callSchedule": 5,
+        "physicalToll": 6,
+        "emotionalToll": 6,
+        "aiRiskNow": 3,
+        "aiRiskMedium": 4,
+        "aiRiskLong": 5,
+        "aiNarrative": "AI tools are streamlining RFI tracking, submittal processing, and schedule updates \u2014 all core project engineer tasks. But the role is really about coordination between field and office, and that human bridge function stays essential. This is typically the entry point to project manager and superintendent tracks."
+      },
+      "scores": {
+        "category_1": 6.0,
+        "category_2": 7.0,
+        "category_3": 5.67,
+        "category_4": 6.67,
+        "category_5": 6.44,
+        "category_6": 6.0,
+        "category_7": 6.97,
+        "category_8": 6.97,
+        "category_9": 5.38,
+        "category_10": 7.4,
+        "category_11": 5.8,
+        "category_12": 5.7,
+        "category_13": 5.0,
+        "category_14": 6.77
+      },
+      "scenario_totals": {
+        "default": 6.5,
+        "equal_weight": 6.26,
+        "max_earnings": 6.47,
+        "best_lifestyle": 6.22,
+        "fastest_to_practice": 6.3,
+        "most_procedural": 6.3
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 22,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 0,
+        "trainee_salary": 0,
+        "education_debt": 40,
+        "loan_rate": 5.5,
+        "living_expenses": 48,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 5,
+        "salary_growth_to_peak": 4,
+        "post_peak_growth": 1.5,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 22,
+        "starting_salary": 62,
+        "mid_salary": 86,
+        "peak_salary": 130,
+        "typical_peak": 110,
+        "malpractice_per_yr": 4
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 4,
+        "injury": 6,
+        "match": 3
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          22
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 22,
+        "startSalary": 62
+      }
+    },
+    {
+      "name": "Facilities Manager",
+      "key": "facilities_manager",
+      "profession": "Contractor",
+      "group": "management_inspection",
+      "color": "#b11bb5",
+      "path": "Contractor / BS",
+      "raw_data": {
+        "startSalary": 62,
+        "midSalary": 105,
+        "peakSalary": 175,
+        "typicalPeak": 145,
+        "hoursWeek": 46,
+        "burnout": 30,
+        "satisfaction": 68,
+        "chooseAgain": 62,
+        "malpracticeCost": 4,
+        "vacation": 4,
+        "matchComp": 9,
+        "annualSpots": 30000,
+        "oneInX": 2,
+        "callSchedule": 4,
+        "physicalToll": 7,
+        "emotionalToll": 6,
+        "aiRiskNow": 3,
+        "aiRiskMedium": 4,
+        "aiRiskLong": 5,
+        "aiNarrative": "Smart building systems and IoT sensors are changing facilities management, but someone still needs to manage vendor contracts, respond to emergencies, and make capital planning decisions. AI helps with predictive maintenance and energy optimization, but the coordination of physical building operations stays human."
+      },
+      "scores": {
+        "category_1": 6.0,
+        "category_2": 7.0,
+        "category_3": 5.67,
+        "category_4": 6.33,
+        "category_5": 6.7,
+        "category_6": 6.0,
+        "category_7": 8.12,
+        "category_8": 7.33,
+        "category_9": 5.9,
+        "category_10": 7.4,
+        "category_11": 5.8,
+        "category_12": 6.0,
+        "category_13": 5.0,
+        "category_14": 6.91
+      },
+      "scenario_totals": {
+        "default": 6.75,
+        "equal_weight": 6.43,
+        "max_earnings": 6.86,
+        "best_lifestyle": 6.48,
+        "fastest_to_practice": 6.4,
+        "most_procedural": 6.5
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 22,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 0,
+        "trainee_salary": 0,
+        "education_debt": 40,
+        "loan_rate": 5.5,
+        "living_expenses": 48,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 5,
+        "salary_growth_to_peak": 4,
+        "post_peak_growth": 1.5,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 22,
+        "starting_salary": 62,
+        "mid_salary": 105,
+        "peak_salary": 175,
+        "typical_peak": 145,
+        "malpractice_per_yr": 4
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 4,
+        "injury": 6,
+        "match": 3
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          22
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 22,
+        "startSalary": 62
+      }
+    },
+    {
+      "name": "Quality Control Manager",
+      "key": "quality_control_manager",
+      "profession": "Contractor",
+      "group": "welding_fabrication",
+      "color": "#ca2ab1",
+      "path": "Contractor / BS",
+      "raw_data": {
+        "startSalary": 65,
+        "midSalary": 95,
+        "peakSalary": 145,
+        "typicalPeak": 122,
+        "hoursWeek": 46,
+        "burnout": 30,
+        "satisfaction": 68,
+        "chooseAgain": 62,
+        "malpracticeCost": 5,
+        "vacation": 4,
+        "matchComp": 8,
+        "annualSpots": 12000,
+        "oneInX": 4,
+        "callSchedule": 6,
+        "physicalToll": 7,
+        "emotionalToll": 6,
+        "aiRiskNow": 3,
+        "aiRiskMedium": 4,
+        "aiRiskLong": 5,
+        "aiNarrative": "AI-powered visual inspection and weld quality analysis are advancing quickly, which will reduce some manual inspection tasks. But QC management involves interpreting specs, managing certification programs, and making pass/fail decisions that carry real liability. The judgment and accountability parts stay human."
+      },
+      "scores": {
+        "category_1": 6.0,
+        "category_2": 6.67,
+        "category_3": 5.67,
+        "category_4": 7.0,
+        "category_5": 6.64,
+        "category_6": 6.0,
+        "category_7": 7.7,
+        "category_8": 7.58,
+        "category_9": 5.9,
+        "category_10": 7.4,
+        "category_11": 6.0,
+        "category_12": 5.83,
+        "category_13": 5.0,
+        "category_14": 6.5
+      },
+      "scenario_totals": {
+        "default": 6.73,
+        "equal_weight": 6.41,
+        "max_earnings": 6.77,
+        "best_lifestyle": 6.5,
+        "fastest_to_practice": 6.42,
+        "most_procedural": 6.52
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 22,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 0,
+        "trainee_salary": 0,
+        "education_debt": 40,
+        "loan_rate": 5.5,
+        "living_expenses": 48,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 5,
+        "salary_growth_to_peak": 4,
+        "post_peak_growth": 1.5,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 22,
+        "starting_salary": 65,
+        "mid_salary": 95,
+        "peak_salary": 145,
+        "typical_peak": 122,
+        "malpractice_per_yr": 5
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 4,
+        "injury": 5,
+        "match": 3
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          22
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 22,
+        "startSalary": 65
+      }
+    },
+    {
+      "name": "Environmental Compliance Inspector",
+      "key": "environmental_compliance",
+      "profession": "Contractor",
+      "group": "specialty_trades",
+      "color": "#b51b82",
+      "path": "Contractor / BS",
+      "raw_data": {
+        "startSalary": 55,
+        "midSalary": 75,
+        "peakSalary": 115,
+        "typicalPeak": 96,
+        "hoursWeek": 42,
+        "burnout": 25,
+        "satisfaction": 70,
+        "chooseAgain": 62,
+        "malpracticeCost": 4,
+        "vacation": 5,
+        "matchComp": 7,
+        "annualSpots": 10000,
+        "oneInX": 5,
+        "callSchedule": 7,
+        "physicalToll": 6,
+        "emotionalToll": 6,
+        "aiRiskNow": 3,
+        "aiRiskMedium": 4,
+        "aiRiskLong": 5,
+        "aiNarrative": "AI can help analyze emissions data and flag permit violations from sensor feeds, but environmental compliance requires physical site inspections, soil and water sampling, and navigating complex overlapping federal/state/local regulations. The fieldwork and regulatory interpretation keep this role safe from automation."
+      },
+      "scores": {
+        "category_1": 6.0,
+        "category_2": 6.33,
+        "category_3": 5.67,
+        "category_4": 7.33,
+        "category_5": 6.14,
+        "category_6": 6.14,
+        "category_7": 7.28,
+        "category_8": 7.53,
+        "category_9": 6.68,
+        "category_10": 7.4,
+        "category_11": 6.0,
+        "category_12": 6.23,
+        "category_13": 5.0,
+        "category_14": 6.77
+      },
+      "scenario_totals": {
+        "default": 6.76,
+        "equal_weight": 6.45,
+        "max_earnings": 6.65,
+        "best_lifestyle": 6.63,
+        "fastest_to_practice": 6.42,
+        "most_procedural": 6.59
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 22,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 0,
+        "trainee_salary": 0,
+        "education_debt": 40,
+        "loan_rate": 5.5,
+        "living_expenses": 48,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 5,
+        "salary_growth_to_peak": 4,
+        "post_peak_growth": 1.5,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 22,
+        "starting_salary": 55,
+        "mid_salary": 75,
+        "peak_salary": 115,
+        "typical_peak": 96,
+        "malpractice_per_yr": 4
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 4,
+        "injury": 6,
+        "match": 3
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          22
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 22,
+        "startSalary": 55
+      }
+    },
+    {
+      "name": "Solar Panel Installer",
+      "key": "solar_panel_installer",
+      "profession": "Trade School",
+      "group": "electrical",
+      "color": "#d87b2a",
+      "path": "Trade School Graduate",
+      "raw_data": {
+        "startSalary": 32,
+        "midSalary": 49,
+        "peakSalary": 68,
+        "typicalPeak": 58,
+        "hoursWeek": 40,
+        "burnout": 28,
+        "satisfaction": 72,
+        "chooseAgain": 68,
+        "malpracticeCost": 1,
+        "vacation": 4,
+        "matchComp": 3,
+        "annualSpots": 4100,
+        "oneInX": 73,
+        "callSchedule": 2,
+        "physicalToll": 3,
+        "emotionalToll": 8,
+        "aiRiskNow": 1,
+        "aiRiskMedium": 1,
+        "aiRiskLong": 2,
+        "aiNarrative": "Solar installation is overwhelmingly hands-on rooftop work. AI may optimize panel placement and system design, but physical installation on varied roof structures requires human skill and judgment. Booming demand makes this one of the most automation-proof trades."
+      },
+      "scores": {
+        "category_1": 9.25,
+        "category_2": 7.0,
+        "category_3": 9.0,
+        "category_4": 6.67,
+        "category_5": 7.44,
+        "category_6": 4.14,
+        "category_7": 4.58,
+        "category_8": 4.9,
+        "category_9": 5.84,
+        "category_10": 7.6,
+        "category_11": 7.6,
+        "category_12": 5.5,
+        "category_13": 3.75,
+        "category_14": 6.44
+      },
+      "scenario_totals": {
+        "default": 6.51,
+        "equal_weight": 6.38,
+        "max_earnings": 6.1,
+        "best_lifestyle": 6.23,
+        "fastest_to_practice": 6.98,
+        "most_procedural": 5.92
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 0,
+        "undergrad_years": 0,
+        "prof_school_cost_per_yr": 15,
+        "prof_school_years": 0.75,
+        "trainee_salary": 15,
+        "education_debt": 8,
+        "loan_rate": 5,
+        "living_expenses": 35,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 2,
+        "salary_growth_to_mid": 3.5,
+        "salary_growth_to_peak": 2.5,
+        "post_peak_growth": 1.5,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 18.75,
+        "starting_salary": 32,
+        "mid_salary": 49,
+        "peak_salary": 68,
+        "typical_peak": 58,
+        "malpractice_per_yr": 1
+      },
+      "stress": {
+        "ai": 9,
+        "pay": 6,
+        "injury": 6,
+        "match": 9
+      },
+      "timeline": {
+        "college": [
+          18,
+          18
+        ],
+        "school": [
+          18,
+          18.75
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 18.75,
+        "startSalary": 32
+      }
+    },
+    {
+      "name": "Cable/Telecom Installer",
+      "key": "cable_telecom_installer",
+      "profession": "Trade School",
+      "group": "electrical",
+      "color": "#d89720",
+      "path": "Trade School Graduate",
+      "raw_data": {
+        "startSalary": 35,
+        "midSalary": 62,
+        "peakSalary": 78,
+        "typicalPeak": 68,
+        "hoursWeek": 42,
+        "burnout": 25,
+        "satisfaction": 65,
+        "chooseAgain": 58,
+        "malpracticeCost": 1,
+        "vacation": 5,
+        "matchComp": 6,
+        "annualSpots": 24600,
+        "oneInX": 12,
+        "callSchedule": 4,
+        "physicalToll": 4,
+        "emotionalToll": 7,
+        "aiRiskNow": 1,
+        "aiRiskMedium": 2,
+        "aiRiskLong": 3,
+        "aiNarrative": "Physical cable routing and equipment installation are hard to automate. AI handles network diagnostics and scheduling, but the crawl-through-attics, climb-poles reality keeps humans essential. Fiber optic expansion is creating steady demand even as legacy cable declines."
+      },
+      "scores": {
+        "category_1": 9.25,
+        "category_2": 8.0,
+        "category_3": 9.0,
+        "category_4": 7.33,
+        "category_5": 7.69,
+        "category_6": 4.14,
+        "category_7": 4.97,
+        "category_8": 5.53,
+        "category_9": 6.08,
+        "category_10": 7.8,
+        "category_11": 7.4,
+        "category_12": 4.77,
+        "category_13": 3.75,
+        "category_14": 6.59
+      },
+      "scenario_totals": {
+        "default": 6.72,
+        "equal_weight": 6.56,
+        "max_earnings": 6.32,
+        "best_lifestyle": 6.44,
+        "fastest_to_practice": 7.25,
+        "most_procedural": 6.06
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 0,
+        "undergrad_years": 0,
+        "prof_school_cost_per_yr": 15,
+        "prof_school_years": 0.75,
+        "trainee_salary": 15,
+        "education_debt": 8,
+        "loan_rate": 5,
+        "living_expenses": 35,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 2,
+        "salary_growth_to_mid": 3.5,
+        "salary_growth_to_peak": 2.5,
+        "post_peak_growth": 1.5,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 18.75,
+        "starting_salary": 35,
+        "mid_salary": 62,
+        "peak_salary": 78,
+        "typical_peak": 68,
+        "malpractice_per_yr": 1
+      },
+      "stress": {
+        "ai": 8,
+        "pay": 6,
+        "injury": 6,
+        "match": 8
+      },
+      "timeline": {
+        "college": [
+          18,
+          18
+        ],
+        "school": [
+          18,
+          18.75
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 18.75,
+        "startSalary": 35
+      }
+    },
+    {
+      "name": "Low-Voltage Technician",
+      "key": "low_voltage_technician",
+      "profession": "Trade School",
+      "group": "electrical",
+      "color": "#d8b920",
+      "path": "Trade School Graduate",
+      "raw_data": {
+        "startSalary": 33,
+        "midSalary": 55,
+        "peakSalary": 72,
+        "typicalPeak": 62,
+        "hoursWeek": 40,
+        "burnout": 22,
+        "satisfaction": 68,
+        "chooseAgain": 62,
+        "malpracticeCost": 1,
+        "vacation": 5,
+        "matchComp": 5,
+        "annualSpots": 12000,
+        "oneInX": 25,
+        "callSchedule": 4,
+        "physicalToll": 5,
+        "emotionalToll": 8,
+        "aiRiskNow": 1,
+        "aiRiskMedium": 2,
+        "aiRiskLong": 3,
+        "aiNarrative": "Low-voltage work covers security systems, fire alarms, AV setups, and structured cabling \u2014 all require site-specific physical installation. AI assists with system programming and diagnostics but cannot replace the hands-on wiring and troubleshooting. Smart building growth boosts demand."
+      },
+      "scores": {
+        "category_1": 9.25,
+        "category_2": 7.67,
+        "category_3": 9.0,
+        "category_4": 7.33,
+        "category_5": 7.56,
+        "category_6": 4.29,
+        "category_7": 4.9,
+        "category_8": 5.65,
+        "category_9": 6.48,
+        "category_10": 7.8,
+        "category_11": 7.6,
+        "category_12": 5.5,
+        "category_13": 3.75,
+        "category_14": 7.01
+      },
+      "scenario_totals": {
+        "default": 6.83,
+        "equal_weight": 6.67,
+        "max_earnings": 6.36,
+        "best_lifestyle": 6.6,
+        "fastest_to_practice": 7.28,
+        "most_procedural": 6.23
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 0,
+        "undergrad_years": 0,
+        "prof_school_cost_per_yr": 15,
+        "prof_school_years": 0.75,
+        "trainee_salary": 15,
+        "education_debt": 8,
+        "loan_rate": 5,
+        "living_expenses": 35,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 2,
+        "salary_growth_to_mid": 3.5,
+        "salary_growth_to_peak": 2.5,
+        "post_peak_growth": 1.5,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 18.75,
+        "starting_salary": 33,
+        "mid_salary": 55,
+        "peak_salary": 72,
+        "typical_peak": 62,
+        "malpractice_per_yr": 1
+      },
+      "stress": {
+        "ai": 9,
+        "pay": 6,
+        "injury": 6,
+        "match": 8
+      },
+      "timeline": {
+        "college": [
+          18,
+          18
+        ],
+        "school": [
+          18,
+          18.75
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 18.75,
+        "startSalary": 33
+      }
+    },
+    {
+      "name": "Weatherization Technician",
+      "key": "weatherization_technicia",
+      "profession": "Trade School",
+      "group": "plumbing_hvac",
+      "color": "#d7d82a",
+      "path": "Trade School Graduate",
+      "raw_data": {
+        "startSalary": 28,
+        "midSalary": 42,
+        "peakSalary": 58,
+        "typicalPeak": 48,
+        "hoursWeek": 40,
+        "burnout": 20,
+        "satisfaction": 68,
+        "chooseAgain": 60,
+        "malpracticeCost": 0,
+        "vacation": 5,
+        "matchComp": 3,
+        "annualSpots": 6500,
+        "oneInX": 46,
+        "callSchedule": 2,
+        "physicalToll": 4,
+        "emotionalToll": 8,
+        "aiRiskNow": 1,
+        "aiRiskMedium": 1,
+        "aiRiskLong": 2,
+        "aiNarrative": "Weatherization is entirely hands-on \u2014 sealing air leaks, adding insulation, testing blower doors. AI can help with energy auditing software, but the crawl-space and attic work is immune to automation. Federal energy efficiency programs keep demand stable."
+      },
+      "scores": {
+        "category_1": 9.25,
+        "category_2": 7.0,
+        "category_3": 9.0,
+        "category_4": 6.67,
+        "category_5": 7.27,
+        "category_6": 4.29,
+        "category_7": 4.7,
+        "category_8": 5.4,
+        "category_9": 6.56,
+        "category_10": 7.6,
+        "category_11": 7.4,
+        "category_12": 5.27,
+        "category_13": 3.75,
+        "category_14": 7.29
+      },
+      "scenario_totals": {
+        "default": 6.64,
+        "equal_weight": 6.51,
+        "max_earnings": 6.16,
+        "best_lifestyle": 6.43,
+        "fastest_to_practice": 7.03,
+        "most_procedural": 6.04
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 0,
+        "undergrad_years": 0,
+        "prof_school_cost_per_yr": 15,
+        "prof_school_years": 0.75,
+        "trainee_salary": 15,
+        "education_debt": 8,
+        "loan_rate": 5,
+        "living_expenses": 35,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 2,
+        "salary_growth_to_mid": 3.5,
+        "salary_growth_to_peak": 2.5,
+        "post_peak_growth": 1.5,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 18.75,
+        "starting_salary": 28,
+        "mid_salary": 42,
+        "peak_salary": 58,
+        "typical_peak": 48,
+        "malpractice_per_yr": 0
+      },
+      "stress": {
+        "ai": 10,
+        "pay": 6,
+        "injury": 7,
+        "match": 9
+      },
+      "timeline": {
+        "college": [
+          18,
+          18
+        ],
+        "school": [
+          18,
+          18.75
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 18.75,
+        "startSalary": 28
+      }
+    },
+    {
+      "name": "Painter",
+      "key": "painter",
+      "profession": "Trade School",
+      "group": "construction",
+      "color": "#b6d820",
+      "path": "Trade School Graduate",
+      "raw_data": {
+        "startSalary": 30,
+        "midSalary": 48,
+        "peakSalary": 65,
+        "typicalPeak": 55,
+        "hoursWeek": 38,
+        "burnout": 22,
+        "satisfaction": 65,
+        "chooseAgain": 58,
+        "malpracticeCost": 0,
+        "vacation": 4,
+        "matchComp": 6,
+        "annualSpots": 28100,
+        "oneInX": 11,
+        "callSchedule": 1,
+        "physicalToll": 4,
+        "emotionalToll": 8,
+        "aiRiskNow": 1,
+        "aiRiskMedium": 1,
+        "aiRiskLong": 1,
+        "aiNarrative": "Painting requires navigating ladders, scaffolding, and irregular surfaces in unique buildings \u2014 nearly impossible to automate. Spray technology has evolved but still needs a skilled operator. Self-employment is very common, making this highly insulated from disruption."
+      },
+      "scores": {
+        "category_1": 9.25,
+        "category_2": 8.0,
+        "category_3": 9.0,
+        "category_4": 6.33,
+        "category_5": 7.39,
+        "category_6": 4.57,
+        "category_7": 4.55,
+        "category_8": 4.75,
+        "category_9": 6.92,
+        "category_10": 8.0,
+        "category_11": 7.4,
+        "category_12": 4.27,
+        "category_13": 3.75,
+        "category_14": 7.14
+      },
+      "scenario_totals": {
+        "default": 6.62,
+        "equal_weight": 6.5,
+        "max_earnings": 6.15,
+        "best_lifestyle": 6.37,
+        "fastest_to_practice": 7.08,
+        "most_procedural": 5.87
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 0,
+        "undergrad_years": 0,
+        "prof_school_cost_per_yr": 15,
+        "prof_school_years": 0.75,
+        "trainee_salary": 15,
+        "education_debt": 8,
+        "loan_rate": 5,
+        "living_expenses": 35,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 2,
+        "salary_growth_to_mid": 3.5,
+        "salary_growth_to_peak": 2.5,
+        "post_peak_growth": 1.5,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 18.75,
+        "starting_salary": 30,
+        "mid_salary": 48,
+        "peak_salary": 65,
+        "typical_peak": 55,
+        "malpractice_per_yr": 0
+      },
+      "stress": {
+        "ai": 10,
+        "pay": 7,
+        "injury": 8,
+        "match": 8
+      },
+      "timeline": {
+        "college": [
+          18,
+          18
+        ],
+        "school": [
+          18,
+          18.75
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 18.75,
+        "startSalary": 30
+      }
+    },
+    {
+      "name": "Drywall Installer",
+      "key": "drywall_installer",
+      "profession": "Trade School",
+      "group": "construction",
+      "color": "#94d820",
+      "path": "Trade School Graduate",
+      "raw_data": {
+        "startSalary": 32,
+        "midSalary": 56,
+        "peakSalary": 72,
+        "typicalPeak": 62,
+        "hoursWeek": 40,
+        "burnout": 30,
+        "satisfaction": 60,
+        "chooseAgain": 52,
+        "malpracticeCost": 0,
+        "vacation": 3,
+        "matchComp": 4,
+        "annualSpots": 8800,
+        "oneInX": 34,
+        "callSchedule": 1,
+        "physicalToll": 2,
+        "emotionalToll": 7,
+        "aiRiskNow": 1,
+        "aiRiskMedium": 1,
+        "aiRiskLong": 2,
+        "aiNarrative": "Hanging and finishing drywall is intensely physical and requires adapting to unique framing layouts in every building. Robotic drywall tools exist in prototypes but are nowhere near replacing human workers on real job sites. The taping and mudding finish work is especially skill-dependent."
+      },
+      "scores": {
+        "category_1": 9.25,
+        "category_2": 7.33,
+        "category_3": 9.0,
+        "category_4": 6.33,
+        "category_5": 7.54,
+        "category_6": 4.14,
+        "category_7": 4.4,
+        "category_8": 4.4,
+        "category_9": 5.5,
+        "category_10": 7.8,
+        "category_11": 7.4,
+        "category_12": 3.73,
+        "category_13": 3.75,
+        "category_14": 6.57
+      },
+      "scenario_totals": {
+        "default": 6.28,
+        "equal_weight": 6.2,
+        "max_earnings": 5.94,
+        "best_lifestyle": 5.92,
+        "fastest_to_practice": 6.86,
+        "most_procedural": 5.53
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 0,
+        "undergrad_years": 0,
+        "prof_school_cost_per_yr": 15,
+        "prof_school_years": 0.75,
+        "trainee_salary": 15,
+        "education_debt": 8,
+        "loan_rate": 5,
+        "living_expenses": 35,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 2,
+        "salary_growth_to_mid": 3.5,
+        "salary_growth_to_peak": 2.5,
+        "post_peak_growth": 1.5,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 18.75,
+        "starting_salary": 32,
+        "mid_salary": 56,
+        "peak_salary": 72,
+        "typical_peak": 62,
+        "malpractice_per_yr": 0
+      },
+      "stress": {
+        "ai": 10,
+        "pay": 6,
+        "injury": 6,
+        "match": 8
+      },
+      "timeline": {
+        "college": [
+          18,
+          18
+        ],
+        "school": [
+          18,
+          18.75
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 18.75,
+        "startSalary": 32
+      }
+    },
+    {
+      "name": "Roofer",
+      "key": "roofer",
+      "profession": "Trade School",
+      "group": "construction",
+      "color": "#78d82a",
+      "path": "Trade School Graduate",
+      "raw_data": {
+        "startSalary": 30,
+        "midSalary": 51,
+        "peakSalary": 68,
+        "typicalPeak": 58,
+        "hoursWeek": 40,
+        "burnout": 35,
+        "satisfaction": 58,
+        "chooseAgain": 48,
+        "malpracticeCost": 1,
+        "vacation": 3,
+        "matchComp": 5,
+        "annualSpots": 12700,
+        "oneInX": 24,
+        "callSchedule": 2,
+        "physicalToll": 2,
+        "emotionalToll": 7,
+        "aiRiskNow": 1,
+        "aiRiskMedium": 1,
+        "aiRiskLong": 1,
+        "aiNarrative": "Roofing is among the most physically demanding and dangerous trades \u2014 exactly the kind of work that robots cannot handle. Steep pitches, varied materials, weather conditions, and constant repositioning make automation essentially impossible for the foreseeable future."
+      },
+      "scores": {
+        "category_1": 9.25,
+        "category_2": 7.67,
+        "category_3": 9.0,
+        "category_4": 6.67,
+        "category_5": 7.43,
+        "category_6": 4.14,
+        "category_7": 4.08,
+        "category_8": 4.65,
+        "category_9": 5.32,
+        "category_10": 8.0,
+        "category_11": 7.6,
+        "category_12": 3.7,
+        "category_13": 3.75,
+        "category_14": 6.01
+      },
+      "scenario_totals": {
+        "default": 6.28,
+        "equal_weight": 6.21,
+        "max_earnings": 5.88,
+        "best_lifestyle": 5.92,
+        "fastest_to_practice": 6.92,
+        "most_procedural": 5.59
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 0,
+        "undergrad_years": 0,
+        "prof_school_cost_per_yr": 15,
+        "prof_school_years": 0.75,
+        "trainee_salary": 15,
+        "education_debt": 8,
+        "loan_rate": 5,
+        "living_expenses": 35,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 2,
+        "salary_growth_to_mid": 3.5,
+        "salary_growth_to_peak": 2.5,
+        "post_peak_growth": 1.5,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 18.75,
+        "starting_salary": 30,
+        "mid_salary": 51,
+        "peak_salary": 68,
+        "typical_peak": 58,
+        "malpractice_per_yr": 1
+      },
+      "stress": {
+        "ai": 10,
+        "pay": 7,
+        "injury": 6,
+        "match": 8
+      },
+      "timeline": {
+        "college": [
+          18,
+          18
+        ],
+        "school": [
+          18,
+          18.75
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 18.75,
+        "startSalary": 30
+      }
+    },
+    {
+      "name": "Concrete Finisher",
+      "key": "concrete_finisher",
+      "profession": "Trade School",
+      "group": "construction",
+      "color": "#52d820",
+      "path": "Trade School Graduate",
+      "raw_data": {
+        "startSalary": 30,
+        "midSalary": 50,
+        "peakSalary": 68,
+        "typicalPeak": 58,
+        "hoursWeek": 42,
+        "burnout": 32,
+        "satisfaction": 60,
+        "chooseAgain": 52,
+        "malpracticeCost": 0,
+        "vacation": 3,
+        "matchComp": 4,
+        "annualSpots": 7200,
+        "oneInX": 42,
+        "callSchedule": 2,
+        "physicalToll": 2,
+        "emotionalToll": 7,
+        "aiRiskNow": 1,
+        "aiRiskMedium": 1,
+        "aiRiskLong": 1,
+        "aiNarrative": "Concrete finishing is one of the most hands-on trades \u2014 you are literally on your knees troweling wet concrete against a setting clock. The material is unforgiving and every pour is unique. Decorative concrete and stamping work add artistic skill that machines cannot replicate."
+      },
+      "scores": {
+        "category_1": 9.25,
+        "category_2": 7.33,
+        "category_3": 9.0,
+        "category_4": 6.67,
+        "category_5": 7.41,
+        "category_6": 4.0,
+        "category_7": 4.08,
+        "category_8": 4.53,
+        "category_9": 5.12,
+        "category_10": 7.8,
+        "category_11": 7.6,
+        "category_12": 3.73,
+        "category_13": 3.75,
+        "category_14": 6.43
+      },
+      "scenario_totals": {
+        "default": 6.22,
+        "equal_weight": 6.17,
+        "max_earnings": 5.84,
+        "best_lifestyle": 5.85,
+        "fastest_to_practice": 6.86,
+        "most_procedural": 5.52
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 0,
+        "undergrad_years": 0,
+        "prof_school_cost_per_yr": 15,
+        "prof_school_years": 0.75,
+        "trainee_salary": 15,
+        "education_debt": 8,
+        "loan_rate": 5,
+        "living_expenses": 35,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 2,
+        "salary_growth_to_mid": 3.5,
+        "salary_growth_to_peak": 2.5,
+        "post_peak_growth": 1.5,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 18.75,
+        "starting_salary": 30,
+        "mid_salary": 50,
+        "peak_salary": 68,
+        "typical_peak": 58,
+        "malpractice_per_yr": 0
+      },
+      "stress": {
+        "ai": 10,
+        "pay": 6,
+        "injury": 6,
+        "match": 8
+      },
+      "timeline": {
+        "college": [
+          18,
+          18
+        ],
+        "school": [
+          18,
+          18.75
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 18.75,
+        "startSalary": 30
+      }
+    },
+    {
+      "name": "Insulation Worker",
+      "key": "insulation_worker",
+      "profession": "Trade School",
+      "group": "construction",
+      "color": "#31d820",
+      "path": "Trade School Graduate",
+      "raw_data": {
+        "startSalary": 28,
+        "midSalary": 49,
+        "peakSalary": 64,
+        "typicalPeak": 54,
+        "hoursWeek": 40,
+        "burnout": 25,
+        "satisfaction": 58,
+        "chooseAgain": 50,
+        "malpracticeCost": 0,
+        "vacation": 4,
+        "matchComp": 3,
+        "annualSpots": 5800,
+        "oneInX": 52,
+        "callSchedule": 1,
+        "physicalToll": 3,
+        "emotionalToll": 8,
+        "aiRiskNow": 1,
+        "aiRiskMedium": 1,
+        "aiRiskLong": 1,
+        "aiNarrative": "Insulation work happens in attics, crawl spaces, walls, and around mechanical systems \u2014 tight, awkward spaces that defy robotic access. Spray foam, batt, and blown-in insulation all require human judgment to install correctly. Energy efficiency mandates keep demand steady."
+      },
+      "scores": {
+        "category_1": 9.25,
+        "category_2": 7.0,
+        "category_3": 9.0,
+        "category_4": 6.33,
+        "category_5": 7.36,
+        "category_6": 4.14,
+        "category_7": 4.28,
+        "category_8": 4.4,
+        "category_9": 5.94,
+        "category_10": 7.8,
+        "category_11": 7.4,
+        "category_12": 3.6,
+        "category_13": 3.75,
+        "category_14": 7.0
+      },
+      "scenario_totals": {
+        "default": 6.28,
+        "equal_weight": 6.21,
+        "max_earnings": 5.89,
+        "best_lifestyle": 5.96,
+        "fastest_to_practice": 6.82,
+        "most_procedural": 5.51
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 0,
+        "undergrad_years": 0,
+        "prof_school_cost_per_yr": 15,
+        "prof_school_years": 0.75,
+        "trainee_salary": 15,
+        "education_debt": 8,
+        "loan_rate": 5,
+        "living_expenses": 35,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 2,
+        "salary_growth_to_mid": 3.5,
+        "salary_growth_to_peak": 2.5,
+        "post_peak_growth": 1.5,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 18.75,
+        "starting_salary": 28,
+        "mid_salary": 49,
+        "peak_salary": 64,
+        "typical_peak": 54,
+        "malpractice_per_yr": 0
+      },
+      "stress": {
+        "ai": 10,
+        "pay": 6,
+        "injury": 6,
+        "match": 9
+      },
+      "timeline": {
+        "college": [
+          18,
+          18
+        ],
+        "school": [
+          18,
+          18.75
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 18.75,
+        "startSalary": 28
+      }
+    },
+    {
+      "name": "Flooring Installer",
+      "key": "flooring_installer",
+      "profession": "Trade School",
+      "group": "construction",
+      "color": "#2ad839",
+      "path": "Trade School Graduate",
+      "raw_data": {
+        "startSalary": 28,
+        "midSalary": 50,
+        "peakSalary": 68,
+        "typicalPeak": 58,
+        "hoursWeek": 40,
+        "burnout": 25,
+        "satisfaction": 63,
+        "chooseAgain": 55,
+        "malpracticeCost": 0,
+        "vacation": 4,
+        "matchComp": 4,
+        "annualSpots": 11200,
+        "oneInX": 27,
+        "callSchedule": 1,
+        "physicalToll": 2,
+        "emotionalToll": 8,
+        "aiRiskNow": 1,
+        "aiRiskMedium": 1,
+        "aiRiskLong": 1,
+        "aiNarrative": "Flooring installation means kneeling for hours, cutting around obstacles, and matching patterns in unique room layouts. Every job is different \u2014 subfloor conditions, transitions, custom cuts around cabinets. Robotic floor layers are not feasible for real-world residential or commercial spaces."
+      },
+      "scores": {
+        "category_1": 9.25,
+        "category_2": 7.33,
+        "category_3": 9.0,
+        "category_4": 6.33,
+        "category_5": 7.37,
+        "category_6": 4.43,
+        "category_7": 4.33,
+        "category_8": 4.9,
+        "category_9": 6.34,
+        "category_10": 8.0,
+        "category_11": 7.4,
+        "category_12": 4.43,
+        "category_13": 3.75,
+        "category_14": 6.71
+      },
+      "scenario_totals": {
+        "default": 6.47,
+        "equal_weight": 6.37,
+        "max_earnings": 6.03,
+        "best_lifestyle": 6.22,
+        "fastest_to_practice": 6.95,
+        "most_procedural": 5.82
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 0,
+        "undergrad_years": 0,
+        "prof_school_cost_per_yr": 15,
+        "prof_school_years": 0.75,
+        "trainee_salary": 15,
+        "education_debt": 8,
+        "loan_rate": 5,
+        "living_expenses": 35,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 2,
+        "salary_growth_to_mid": 3.5,
+        "salary_growth_to_peak": 2.5,
+        "post_peak_growth": 1.5,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 18.75,
+        "starting_salary": 28,
+        "mid_salary": 50,
+        "peak_salary": 68,
+        "typical_peak": 58,
+        "malpractice_per_yr": 0
+      },
+      "stress": {
+        "ai": 10,
+        "pay": 7,
+        "injury": 6,
+        "match": 8
+      },
+      "timeline": {
+        "college": [
+          18,
+          18
+        ],
+        "school": [
+          18,
+          18.75
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 18.75,
+        "startSalary": 28
+      }
+    },
+    {
+      "name": "Tile Setter",
+      "key": "tile_setter",
+      "profession": "Trade School",
+      "group": "construction",
+      "color": "#20d851",
+      "path": "Trade School Graduate",
+      "raw_data": {
+        "startSalary": 29,
+        "midSalary": 50,
+        "peakSalary": 70,
+        "typicalPeak": 60,
+        "hoursWeek": 40,
+        "burnout": 24,
+        "satisfaction": 66,
+        "chooseAgain": 58,
+        "malpracticeCost": 0,
+        "vacation": 4,
+        "matchComp": 3,
+        "annualSpots": 6500,
+        "oneInX": 46,
+        "callSchedule": 1,
+        "physicalToll": 2,
+        "emotionalToll": 8,
+        "aiRiskNow": 1,
+        "aiRiskMedium": 1,
+        "aiRiskLong": 1,
+        "aiNarrative": "Tile setting is precision craftsmanship \u2014 layouts, cuts around plumbing, waterproofing showers, mosaic patterns. Every bathroom and kitchen is different. The artistic and spatial judgment required makes this extremely difficult to automate. Custom work commands the best pay."
+      },
+      "scores": {
+        "category_1": 9.25,
+        "category_2": 7.0,
+        "category_3": 9.0,
+        "category_4": 6.33,
+        "category_5": 7.39,
+        "category_6": 4.43,
+        "category_7": 4.38,
+        "category_8": 5.15,
+        "category_9": 6.38,
+        "category_10": 8.0,
+        "category_11": 7.6,
+        "category_12": 4.97,
+        "category_13": 3.75,
+        "category_14": 6.71
+      },
+      "scenario_totals": {
+        "default": 6.54,
+        "equal_weight": 6.43,
+        "max_earnings": 6.09,
+        "best_lifestyle": 6.31,
+        "fastest_to_practice": 6.96,
+        "most_procedural": 5.95
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 0,
+        "undergrad_years": 0,
+        "prof_school_cost_per_yr": 15,
+        "prof_school_years": 0.75,
+        "trainee_salary": 15,
+        "education_debt": 8,
+        "loan_rate": 5,
+        "living_expenses": 35,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 2,
+        "salary_growth_to_mid": 3.5,
+        "salary_growth_to_peak": 2.5,
+        "post_peak_growth": 1.5,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 18.75,
+        "starting_salary": 29,
+        "mid_salary": 50,
+        "peak_salary": 70,
+        "typical_peak": 60,
+        "malpractice_per_yr": 0
+      },
+      "stress": {
+        "ai": 10,
+        "pay": 7,
+        "injury": 6,
+        "match": 9
+      },
+      "timeline": {
+        "college": [
+          18,
+          18
+        ],
+        "school": [
+          18,
+          18.75
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 18.75,
+        "startSalary": 29
+      }
+    },
+    {
+      "name": "Glazier",
+      "key": "glazier",
+      "profession": "Trade School",
+      "group": "construction",
+      "color": "#20d873",
+      "path": "Trade School Graduate",
+      "raw_data": {
+        "startSalary": 30,
+        "midSalary": 55,
+        "peakSalary": 75,
+        "typicalPeak": 65,
+        "hoursWeek": 40,
+        "burnout": 23,
+        "satisfaction": 65,
+        "chooseAgain": 58,
+        "malpracticeCost": 1,
+        "vacation": 5,
+        "matchComp": 3,
+        "annualSpots": 5100,
+        "oneInX": 59,
+        "callSchedule": 2,
+        "physicalToll": 3,
+        "emotionalToll": 7,
+        "aiRiskNow": 1,
+        "aiRiskMedium": 1,
+        "aiRiskLong": 2,
+        "aiNarrative": "Glaziers install glass in buildings \u2014 curtain walls, storefronts, windows, mirrors. The fragile material, heavy weight, and need for precise fitting in unique openings make automation impractical. Commercial high-rise work involves heights and rigging that require human judgment."
+      },
+      "scores": {
+        "category_1": 9.25,
+        "category_2": 7.0,
+        "category_3": 9.0,
+        "category_4": 6.67,
+        "category_5": 7.49,
+        "category_6": 4.14,
+        "category_7": 4.67,
+        "category_8": 5.15,
+        "category_9": 6.26,
+        "category_10": 7.6,
+        "category_11": 7.4,
+        "category_12": 4.77,
+        "category_13": 3.75,
+        "category_14": 6.3
+      },
+      "scenario_totals": {
+        "default": 6.51,
+        "equal_weight": 6.36,
+        "max_earnings": 6.11,
+        "best_lifestyle": 6.27,
+        "fastest_to_practice": 6.97,
+        "most_procedural": 5.87
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 0,
+        "undergrad_years": 0,
+        "prof_school_cost_per_yr": 15,
+        "prof_school_years": 0.75,
+        "trainee_salary": 15,
+        "education_debt": 8,
+        "loan_rate": 5,
+        "living_expenses": 35,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 2,
+        "salary_growth_to_mid": 3.5,
+        "salary_growth_to_peak": 2.5,
+        "post_peak_growth": 1.5,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 18.75,
+        "starting_salary": 30,
+        "mid_salary": 55,
+        "peak_salary": 75,
+        "typical_peak": 65,
+        "malpractice_per_yr": 1
+      },
+      "stress": {
+        "ai": 10,
+        "pay": 6,
+        "injury": 6,
+        "match": 9
+      },
+      "timeline": {
+        "college": [
+          18,
+          18
+        ],
+        "school": [
+          18,
+          18.75
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 18.75,
+        "startSalary": 30
+      }
+    },
+    {
+      "name": "Fence/Deck Builder",
+      "key": "fence_deck_builder",
+      "profession": "Trade School",
+      "group": "construction",
+      "color": "#2ad897",
+      "path": "Trade School Graduate",
+      "raw_data": {
+        "startSalary": 28,
+        "midSalary": 45,
+        "peakSalary": 65,
+        "typicalPeak": 55,
+        "hoursWeek": 40,
+        "burnout": 22,
+        "satisfaction": 67,
+        "chooseAgain": 60,
+        "malpracticeCost": 0,
+        "vacation": 4,
+        "matchComp": 4,
+        "annualSpots": 9500,
+        "oneInX": 32,
+        "callSchedule": 1,
+        "physicalToll": 3,
+        "emotionalToll": 8,
+        "aiRiskNow": 1,
+        "aiRiskMedium": 1,
+        "aiRiskLong": 1,
+        "aiNarrative": "Building fences and decks means working outdoors on uneven terrain, digging post holes, cutting lumber to fit unique yard layouts. Every property is different. Self-employment is very accessible in this trade, and homeowner demand stays strong through all economic cycles."
+      },
+      "scores": {
+        "category_1": 9.25,
+        "category_2": 7.33,
+        "category_3": 9.0,
+        "category_4": 6.33,
+        "category_5": 7.3,
+        "category_6": 4.43,
+        "category_7": 4.55,
+        "category_8": 4.9,
+        "category_9": 6.44,
+        "category_10": 8.0,
+        "category_11": 7.4,
+        "category_12": 4.73,
+        "category_13": 3.75,
+        "category_14": 7.0
+      },
+      "scenario_totals": {
+        "default": 6.54,
+        "equal_weight": 6.44,
+        "max_earnings": 6.1,
+        "best_lifestyle": 6.29,
+        "fastest_to_practice": 6.98,
+        "most_procedural": 5.89
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 0,
+        "undergrad_years": 0,
+        "prof_school_cost_per_yr": 15,
+        "prof_school_years": 0.75,
+        "trainee_salary": 15,
+        "education_debt": 8,
+        "loan_rate": 5,
+        "living_expenses": 35,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 2,
+        "salary_growth_to_mid": 3.5,
+        "salary_growth_to_peak": 2.5,
+        "post_peak_growth": 1.5,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 18.75,
+        "starting_salary": 28,
+        "mid_salary": 45,
+        "peak_salary": 65,
+        "typical_peak": 55,
+        "malpractice_per_yr": 0
+      },
+      "stress": {
+        "ai": 10,
+        "pay": 7,
+        "injury": 7,
+        "match": 8
+      },
+      "timeline": {
+        "college": [
+          18,
+          18
+        ],
+        "school": [
+          18,
+          18.75
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 18.75,
+        "startSalary": 28
+      }
+    },
+    {
+      "name": "Auto Body Technician",
+      "key": "auto_body_technician",
+      "profession": "Trade School",
+      "group": "automotive_diesel",
+      "color": "#20d8b5",
+      "path": "Trade School Graduate",
+      "raw_data": {
+        "startSalary": 30,
+        "midSalary": 50,
+        "peakSalary": 70,
+        "typicalPeak": 60,
+        "hoursWeek": 42,
+        "burnout": 28,
+        "satisfaction": 63,
+        "chooseAgain": 55,
+        "malpracticeCost": 1,
+        "vacation": 4,
+        "matchComp": 5,
+        "annualSpots": 14500,
+        "oneInX": 21,
+        "callSchedule": 1,
+        "physicalToll": 4,
+        "emotionalToll": 7,
+        "aiRiskNow": 1,
+        "aiRiskMedium": 2,
+        "aiRiskLong": 3,
+        "aiNarrative": "Auto body repair involves assessing unique collision damage, pulling dents, welding panels, matching paint colors, and blending finishes \u2014 highly variable work that resists automation. AI helps with damage estimation and color matching, but the physical repair work stays human. ADAS recalibration is a growing skill requirement."
+      },
+      "scores": {
+        "category_1": 9.25,
+        "category_2": 7.67,
+        "category_3": 9.0,
+        "category_4": 6.33,
+        "category_5": 7.41,
+        "category_6": 4.29,
+        "category_7": 4.62,
+        "category_8": 6.03,
+        "category_9": 5.94,
+        "category_10": 8.0,
+        "category_11": 7.4,
+        "category_12": 4.6,
+        "category_13": 3.75,
+        "category_14": 6.59
+      },
+      "scenario_totals": {
+        "default": 6.58,
+        "equal_weight": 6.46,
+        "max_earnings": 6.16,
+        "best_lifestyle": 6.33,
+        "fastest_to_practice": 7.02,
+        "most_procedural": 6.06
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 0,
+        "undergrad_years": 0,
+        "prof_school_cost_per_yr": 15,
+        "prof_school_years": 0.75,
+        "trainee_salary": 15,
+        "education_debt": 8,
+        "loan_rate": 5,
+        "living_expenses": 35,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 2,
+        "salary_growth_to_mid": 3.5,
+        "salary_growth_to_peak": 2.5,
+        "post_peak_growth": 1.5,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 18.75,
+        "starting_salary": 30,
+        "mid_salary": 50,
+        "peak_salary": 70,
+        "typical_peak": 60,
+        "malpractice_per_yr": 1
+      },
+      "stress": {
+        "ai": 8,
+        "pay": 6,
+        "injury": 5,
+        "match": 8
+      },
+      "timeline": {
+        "college": [
+          18,
+          18
+        ],
+        "school": [
+          18,
+          18.75
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 18.75,
+        "startSalary": 30
+      }
+    },
+    {
+      "name": "Small Engine Mechanic",
+      "key": "small_engine_mechanic",
+      "profession": "Trade School",
+      "group": "automotive_diesel",
+      "color": "#20d8d6",
+      "path": "Trade School Graduate",
+      "raw_data": {
+        "startSalary": 27,
+        "midSalary": 43,
+        "peakSalary": 60,
+        "typicalPeak": 50,
+        "hoursWeek": 40,
+        "burnout": 20,
+        "satisfaction": 70,
+        "chooseAgain": 62,
+        "malpracticeCost": 0,
+        "vacation": 4,
+        "matchComp": 4,
+        "annualSpots": 7800,
+        "oneInX": 38,
+        "callSchedule": 1,
+        "physicalToll": 5,
+        "emotionalToll": 9,
+        "aiRiskNow": 1,
+        "aiRiskMedium": 2,
+        "aiRiskLong": 3,
+        "aiNarrative": "Small engine work covers lawn mowers, chainsaws, ATVs, snowmobiles, outboard motors \u2014 each with unique problems. Diagnostic tools are getting smarter, but the physical teardown, parts replacement, and reassembly are fully manual. The shift toward battery-powered equipment could reduce some demand long-term."
+      },
+      "scores": {
+        "category_1": 9.25,
+        "category_2": 7.33,
+        "category_3": 9.0,
+        "category_4": 6.33,
+        "category_5": 7.26,
+        "category_6": 4.57,
+        "category_7": 4.72,
+        "category_8": 5.65,
+        "category_9": 6.72,
+        "category_10": 7.8,
+        "category_11": 7.4,
+        "category_12": 5.07,
+        "category_13": 3.75,
+        "category_14": 7.71
+      },
+      "scenario_totals": {
+        "default": 6.71,
+        "equal_weight": 6.59,
+        "max_earnings": 6.21,
+        "best_lifestyle": 6.49,
+        "fastest_to_practice": 7.05,
+        "most_procedural": 6.13
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 0,
+        "undergrad_years": 0,
+        "prof_school_cost_per_yr": 15,
+        "prof_school_years": 0.75,
+        "trainee_salary": 15,
+        "education_debt": 8,
+        "loan_rate": 5,
+        "living_expenses": 35,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 2,
+        "salary_growth_to_mid": 3.5,
+        "salary_growth_to_peak": 2.5,
+        "post_peak_growth": 1.5,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 18.75,
+        "starting_salary": 27,
+        "mid_salary": 43,
+        "peak_salary": 60,
+        "typical_peak": 50,
+        "malpractice_per_yr": 0
+      },
+      "stress": {
+        "ai": 8,
+        "pay": 6,
+        "injury": 6,
+        "match": 8
+      },
+      "timeline": {
+        "college": [
+          18,
+          18
+        ],
+        "school": [
+          18,
+          18.75
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 18.75,
+        "startSalary": 27
+      }
+    },
+    {
+      "name": "Paving Equipment Operator",
+      "key": "paving_equipment_operato",
+      "profession": "Trade School",
+      "group": "heavy_equipment",
+      "color": "#2abbd8",
+      "path": "Trade School Graduate",
+      "raw_data": {
+        "startSalary": 32,
+        "midSalary": 52,
+        "peakSalary": 72,
+        "typicalPeak": 62,
+        "hoursWeek": 45,
+        "burnout": 30,
+        "satisfaction": 62,
+        "chooseAgain": 55,
+        "malpracticeCost": 0,
+        "vacation": 3,
+        "matchComp": 3,
+        "annualSpots": 4500,
+        "oneInX": 67,
+        "callSchedule": 2,
+        "physicalToll": 4,
+        "emotionalToll": 7,
+        "aiRiskNow": 1,
+        "aiRiskMedium": 2,
+        "aiRiskLong": 4,
+        "aiNarrative": "GPS-guided paving machines are already improving precision, and autonomous equipment is in development. However, real-world paving involves unpredictable site conditions, traffic management, and material variability that keep operators essential. Government infrastructure spending sustains strong demand."
+      },
+      "scores": {
+        "category_1": 9.25,
+        "category_2": 7.0,
+        "category_3": 9.0,
+        "category_4": 6.67,
+        "category_5": 7.49,
+        "category_6": 4.0,
+        "category_7": 4.65,
+        "category_8": 4.38,
+        "category_9": 5.08,
+        "category_10": 7.6,
+        "category_11": 7.4,
+        "category_12": 4.23,
+        "category_13": 3.75,
+        "category_14": 7.0
+      },
+      "scenario_totals": {
+        "default": 6.31,
+        "equal_weight": 6.23,
+        "max_earnings": 5.99,
+        "best_lifestyle": 5.9,
+        "fastest_to_practice": 6.88,
+        "most_procedural": 5.57
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 0,
+        "undergrad_years": 0,
+        "prof_school_cost_per_yr": 15,
+        "prof_school_years": 0.75,
+        "trainee_salary": 15,
+        "education_debt": 8,
+        "loan_rate": 5,
+        "living_expenses": 35,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 2,
+        "salary_growth_to_mid": 3.5,
+        "salary_growth_to_peak": 2.5,
+        "post_peak_growth": 1.5,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 18.75,
+        "starting_salary": 32,
+        "mid_salary": 52,
+        "peak_salary": 72,
+        "typical_peak": 62,
+        "malpractice_per_yr": 0
+      },
+      "stress": {
+        "ai": 8,
+        "pay": 6,
+        "injury": 6,
+        "match": 9
+      },
+      "timeline": {
+        "college": [
+          18,
+          18
+        ],
+        "school": [
+          18,
+          18.75
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 18.75,
+        "startSalary": 32
+      }
+    },
+    {
+      "name": "Landscape Technician",
+      "key": "landscape_technician",
+      "profession": "Trade School",
+      "group": "specialty_trades",
+      "color": "#2098d8",
+      "path": "Trade School Graduate",
+      "raw_data": {
+        "startSalary": 26,
+        "midSalary": 38,
+        "peakSalary": 52,
+        "typicalPeak": 45,
+        "hoursWeek": 42,
+        "burnout": 28,
+        "satisfaction": 62,
+        "chooseAgain": 52,
+        "malpracticeCost": 0,
+        "vacation": 3,
+        "matchComp": 7,
+        "annualSpots": 42000,
+        "oneInX": 7,
+        "callSchedule": 1,
+        "physicalToll": 2,
+        "emotionalToll": 8,
+        "aiRiskNow": 1,
+        "aiRiskMedium": 2,
+        "aiRiskLong": 3,
+        "aiNarrative": "Robotic mowers handle flat lawns, but real landscaping \u2014 grading, planting, hardscaping, irrigation repair, tree work \u2014 requires human skill on unique terrain. Design software uses AI but installation stays manual. Self-employment is highly accessible."
+      },
+      "scores": {
+        "category_1": 9.25,
+        "category_2": 8.33,
+        "category_3": 9.0,
+        "category_4": 6.33,
+        "category_5": 7.17,
+        "category_6": 4.57,
+        "category_7": 4.1,
+        "category_8": 4.53,
+        "category_9": 6.08,
+        "category_10": 8.0,
+        "category_11": 7.4,
+        "category_12": 4.13,
+        "category_13": 3.75,
+        "category_14": 6.71
+      },
+      "scenario_totals": {
+        "default": 6.43,
+        "equal_weight": 6.36,
+        "max_earnings": 5.93,
+        "best_lifestyle": 6.12,
+        "fastest_to_practice": 7.0,
+        "most_procedural": 5.74
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 0,
+        "undergrad_years": 0,
+        "prof_school_cost_per_yr": 15,
+        "prof_school_years": 0.75,
+        "trainee_salary": 15,
+        "education_debt": 8,
+        "loan_rate": 5,
+        "living_expenses": 35,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 2,
+        "salary_growth_to_mid": 3.5,
+        "salary_growth_to_peak": 2.5,
+        "post_peak_growth": 1.5,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 18.75,
+        "starting_salary": 26,
+        "mid_salary": 38,
+        "peak_salary": 52,
+        "typical_peak": 45,
+        "malpractice_per_yr": 0
+      },
+      "stress": {
+        "ai": 8,
+        "pay": 7,
+        "injury": 7,
+        "match": 7
+      },
+      "timeline": {
+        "college": [
+          18,
+          18
+        ],
+        "school": [
+          18,
+          18.75
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 18.75,
+        "startSalary": 26
+      }
+    },
+    {
+      "name": "Pest Control Technician",
+      "key": "pest_control_technician",
+      "profession": "Trade School",
+      "group": "specialty_trades",
+      "color": "#2077d8",
+      "path": "Trade School Graduate",
+      "raw_data": {
+        "startSalary": 28,
+        "midSalary": 45,
+        "peakSalary": 60,
+        "typicalPeak": 52,
+        "hoursWeek": 42,
+        "burnout": 22,
+        "satisfaction": 65,
+        "chooseAgain": 58,
+        "malpracticeCost": 2,
+        "vacation": 4,
+        "matchComp": 5,
+        "annualSpots": 13400,
+        "oneInX": 22,
+        "callSchedule": 3,
+        "physicalToll": 5,
+        "emotionalToll": 7,
+        "aiRiskNow": 1,
+        "aiRiskMedium": 1,
+        "aiRiskLong": 2,
+        "aiNarrative": "Pest control requires inspecting unique structures, identifying pest species, and applying treatments in crawl spaces, attics, and wall voids. Every home is different. AI can optimize routing and scheduling, but the inspection and treatment work is irreplaceably human. Recurring service contracts provide income stability."
+      },
+      "scores": {
+        "category_1": 9.25,
+        "category_2": 7.67,
+        "category_3": 9.0,
+        "category_4": 7.0,
+        "category_5": 7.3,
+        "category_6": 4.29,
+        "category_7": 4.72,
+        "category_8": 5.53,
+        "category_9": 6.14,
+        "category_10": 8.0,
+        "category_11": 7.4,
+        "category_12": 4.93,
+        "category_13": 3.75,
+        "category_14": 6.46
+      },
+      "scenario_totals": {
+        "default": 6.64,
+        "equal_weight": 6.5,
+        "max_earnings": 6.19,
+        "best_lifestyle": 6.39,
+        "fastest_to_practice": 7.12,
+        "most_procedural": 6.05
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 0,
+        "undergrad_years": 0,
+        "prof_school_cost_per_yr": 15,
+        "prof_school_years": 0.75,
+        "trainee_salary": 15,
+        "education_debt": 8,
+        "loan_rate": 5,
+        "living_expenses": 35,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 2,
+        "salary_growth_to_mid": 3.5,
+        "salary_growth_to_peak": 2.5,
+        "post_peak_growth": 1.5,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 18.75,
+        "starting_salary": 28,
+        "mid_salary": 45,
+        "peak_salary": 60,
+        "typical_peak": 52,
+        "malpractice_per_yr": 2
+      },
+      "stress": {
+        "ai": 10,
+        "pay": 6,
+        "injury": 6,
+        "match": 8
+      },
+      "timeline": {
+        "college": [
+          18,
+          18
+        ],
+        "school": [
+          18,
+          18.75
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 18.75,
+        "startSalary": 28
+      }
+    },
+    {
+      "name": "Locksmith",
+      "key": "locksmith",
+      "profession": "Trade School",
+      "group": "specialty_trades",
+      "color": "#2a5cd8",
+      "path": "Trade School Graduate",
+      "raw_data": {
+        "startSalary": 28,
+        "midSalary": 48,
+        "peakSalary": 68,
+        "typicalPeak": 58,
+        "hoursWeek": 42,
+        "burnout": 20,
+        "satisfaction": 72,
+        "chooseAgain": 65,
+        "malpracticeCost": 1,
+        "vacation": 4,
+        "matchComp": 2,
+        "annualSpots": 3200,
+        "oneInX": 94,
+        "callSchedule": 5,
+        "physicalToll": 6,
+        "emotionalToll": 7,
+        "aiRiskNow": 1,
+        "aiRiskMedium": 2,
+        "aiRiskLong": 4,
+        "aiNarrative": "Traditional lock picking and rekeying are automation-proof, but the shift toward electronic and smart locks means locksmiths must adapt. Those who learn electronic access control, key fob programming, and smart lock installation will thrive. Emergency lockout calls keep mobile locksmiths in steady demand."
+      },
+      "scores": {
+        "category_1": 9.25,
+        "category_2": 6.67,
+        "category_3": 9.0,
+        "category_4": 7.67,
+        "category_5": 7.34,
+        "category_6": 4.57,
+        "category_7": 5.08,
+        "category_8": 5.78,
+        "category_9": 6.62,
+        "category_10": 8.0,
+        "category_11": 7.4,
+        "category_12": 5.9,
+        "category_13": 3.75,
+        "category_14": 7.16
+      },
+      "scenario_totals": {
+        "default": 6.87,
+        "equal_weight": 6.7,
+        "max_earnings": 6.42,
+        "best_lifestyle": 6.68,
+        "fastest_to_practice": 7.24,
+        "most_procedural": 6.33
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 0,
+        "undergrad_years": 0,
+        "prof_school_cost_per_yr": 15,
+        "prof_school_years": 0.75,
+        "trainee_salary": 15,
+        "education_debt": 8,
+        "loan_rate": 5,
+        "living_expenses": 35,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 2,
+        "salary_growth_to_mid": 3.5,
+        "salary_growth_to_peak": 2.5,
+        "post_peak_growth": 1.5,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 18.75,
+        "starting_salary": 28,
+        "mid_salary": 48,
+        "peak_salary": 68,
+        "typical_peak": 58,
+        "malpractice_per_yr": 1
+      },
+      "stress": {
+        "ai": 8,
+        "pay": 7,
+        "injury": 6,
+        "match": 9
+      },
+      "timeline": {
+        "college": [
+          18,
+          18
+        ],
+        "school": [
+          18,
+          18.75
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 18.75,
+        "startSalary": 28
+      }
+    },
+    {
+      "name": "General Maintenance Technician",
+      "key": "general_maintenance_tech",
+      "profession": "Trade School",
+      "group": "specialty_trades",
+      "color": "#2035d8",
+      "path": "Trade School Graduate",
+      "raw_data": {
+        "startSalary": 28,
+        "midSalary": 49,
+        "peakSalary": 65,
+        "typicalPeak": 55,
+        "hoursWeek": 40,
+        "burnout": 22,
+        "satisfaction": 68,
+        "chooseAgain": 60,
+        "malpracticeCost": 1,
+        "vacation": 5,
+        "matchComp": 9,
+        "annualSpots": 154000,
+        "oneInX": 2,
+        "callSchedule": 4,
+        "physicalToll": 4,
+        "emotionalToll": 7,
+        "aiRiskNow": 1,
+        "aiRiskMedium": 1,
+        "aiRiskLong": 2,
+        "aiNarrative": "Maintenance techs fix everything \u2014 plumbing, electrical, drywall, painting, appliances, HVAC basics. The extreme variety of tasks and unpredictable environments make this one of the hardest jobs to automate. Smart building sensors may help with diagnostics, but the repair work is entirely manual."
+      },
+      "scores": {
+        "category_1": 9.25,
+        "category_2": 9.0,
+        "category_3": 9.0,
+        "category_4": 7.33,
+        "category_5": 7.36,
+        "category_6": 4.43,
+        "category_7": 4.8,
+        "category_8": 6.4,
+        "category_9": 6.68,
+        "category_10": 8.2,
+        "category_11": 7.4,
+        "category_12": 5.43,
+        "category_13": 3.75,
+        "category_14": 6.73
+      },
+      "scenario_totals": {
+        "default": 6.97,
+        "equal_weight": 6.81,
+        "max_earnings": 6.41,
+        "best_lifestyle": 6.78,
+        "fastest_to_practice": 7.44,
+        "most_procedural": 6.46
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 0,
+        "undergrad_years": 0,
+        "prof_school_cost_per_yr": 15,
+        "prof_school_years": 0.75,
+        "trainee_salary": 15,
+        "education_debt": 8,
+        "loan_rate": 5,
+        "living_expenses": 35,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 2,
+        "salary_growth_to_mid": 3.5,
+        "salary_growth_to_peak": 2.5,
+        "post_peak_growth": 1.5,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 18.75,
+        "starting_salary": 28,
+        "mid_salary": 49,
+        "peak_salary": 65,
+        "typical_peak": 55,
+        "malpractice_per_yr": 1
+      },
+      "stress": {
+        "ai": 10,
+        "pay": 7,
+        "injury": 5,
+        "match": 7
+      },
+      "timeline": {
+        "college": [
+          18,
+          18
+        ],
+        "school": [
+          18,
+          18.75
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 18.75,
+        "startSalary": 28
+      }
+    }
+  ],
+  "decision_tree": {
+    "q": "Do you want to work with your hands every day, or eventually manage projects?",
+    "yes": {
+      "q": "What interests you most?",
+      "options": [
+        {
+          "label": "\u26a1 Electricity and power systems",
+          "result": "electrician"
+        },
+        {
+          "label": "\ud83d\udd27 Vehicles and engines",
+          "result": "aircraft_mechanic"
+        },
+        {
+          "label": "\ud83d\udd25 Metal and fabrication",
+          "result": "welder"
+        },
+        {
+          "label": "\ud83c\udfd7\ufe0f Building things at heights",
+          "q": "Indoors or outdoors?",
+          "procedural": "elevator_constructor",
+          "variety": "lineman"
+        }
+      ]
+    },
+    "no": {
+      "result": "construction_manager"
+    }
+  },
+  "decision_tree_results": {
+    "electrician": {
+      "tagline": "Power everything",
+      "stat": "$40K start \u2022 $90K+ journeyman \u2022 4-5yr apprenticeship"
+    },
+    "elevator_constructor": {
+      "tagline": "The highest-paid trade in America",
+      "stat": "$55K start \u2022 $107K+ journeyman \u2022 4yr apprenticeship"
+    },
+    "lineman": {
+      "tagline": "Keep the lights on",
+      "stat": "$50K start \u2022 $93K+ journeyman \u2022 storm pay + OT"
+    },
+    "construction_manager": {
+      "tagline": "Run the whole project",
+      "stat": "$65K start \u2022 $107K+ senior \u2022 BS in construction mgmt"
+    },
+    "welder": {
+      "tagline": "Build anything from metal",
+      "stat": "$35K start \u2022 $75K+ certified \u2022 travel jobs pay more"
+    },
+    "aircraft_mechanic": {
+      "tagline": "Keep aircraft flying",
+      "stat": "$45K start \u2022 $79K+ A&P certified \u2022 FAA licensed"
+    }
+  },
+  "ranking": [
+    {
+      "rank": 1,
+      "track": "Electrician",
+      "key": "electrician",
+      "note": "Best all-around trade \u2014 high demand, great pay, low AI risk"
+    },
+    {
+      "rank": 2,
+      "track": "Elevator Constructor",
+      "key": "elevator_constructor",
+      "note": "Highest-paid trade in America"
+    },
+    {
+      "rank": 3,
+      "track": "Power Line Installer (Lineman)",
+      "key": "lineman",
+      "note": "High pay, essential infrastructure, outdoor adventure"
+    },
+    {
+      "rank": 4,
+      "track": "Construction Manager",
+      "key": "construction_manager",
+      "note": "Lead entire projects, six-figure salary"
+    },
+    {
+      "rank": 5,
+      "track": "Welder",
+      "key": "welder",
+      "note": "Versatile skill, work anywhere in the world"
+    },
+    {
+      "rank": 6,
+      "track": "Aircraft Mechanic (A&P)",
+      "key": "aircraft_mechanic",
+      "note": "Aviation career without a pilot's license"
+    }
+  ]
+}

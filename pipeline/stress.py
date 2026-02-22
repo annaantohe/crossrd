@@ -40,6 +40,10 @@ MATCH_RESILIENCE_BY_PROFESSION = {
     "Academy": 8,
     "BA": 5,
     "MA+": 4,
+    # trades professions
+    "Trade School": 8,
+    "Apprenticeship": 6,
+    "Contractor": 4,
 }
 
 

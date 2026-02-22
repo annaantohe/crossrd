@@ -1,0 +1,41 @@
+# stress test resilience scores for trades finalists
+scenarios:
+- id: ai
+  name: Automation & Robotics in Construction
+- id: pay
+  name: Housing Market Crash / Recession
+- id: injury
+  name: Career-Ending Injury at 35
+- id: match
+  name: Can't Get Into Apprenticeship Program
+scores:
+  electrician:
+    ai: 9
+    pay: 6
+    injury: 5
+    match: 7
+  elevator_constructor:
+    ai: 9
+    pay: 5
+    injury: 4
+    match: 3
+  lineman:
+    ai: 9
+    pay: 8
+    injury: 3
+    match: 6
+  construction_manager:
+    ai: 6
+    pay: 4
+    injury: 8
+    match: 5
+  welder:
+    ai: 7
+    pay: 5
+    injury: 4
+    match: 8
+  aircraft_mechanic:
+    ai: 8
+    pay: 7
+    injury: 6
+    match: 5

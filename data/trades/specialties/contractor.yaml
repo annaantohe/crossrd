@@ -1,0 +1,556 @@
+# Contractor / BS specialties — 12 careers across 5 groups
+# Bachelor's degree or master license + extensive experience
+profession: Contractor
+specialties:
+
+# === ELECTRICAL (1) ===
+
+- name: "Electrical Contractor"
+  group: electrical
+  residencyYears: 0
+  annualSpots: 18000
+  startSalary: 65
+  midSalary: 105
+  peakSalary: 175
+  typicalPeak: 148
+  partTimeFlex: 3
+  procedureMix: 8
+  callSchedule: 4
+  adminBurden: 7
+  hoursWeek: 50
+  burnout: 38
+  partTimeFeasibility: 3
+  vacation: 3
+  careerLongevity: 8
+  malpracticeFreq: 6
+  malpracticeCost: 5
+  geographicFlex: 6
+  automationRisk: 3
+  handsOnInsulation: 7
+  satisfaction: 72
+  chooseAgain: 68
+  intellectualStim: 6
+  varietyRepetition: 7
+  patientImpact: 6
+  physicalToll: 5
+  emotionalToll: 6
+  malpracticeLiability: 6
+  injuryCareerRisk: 6
+  aiRiskNow: 2
+  aiRiskMedium: 3
+  aiRiskLong: 4
+  aiNarrative: "Electrical contracting is fundamentally hands-on site work — pulling wire, bending conduit, troubleshooting panels. BIM and estimating software help with takeoffs, but the physical installation and code compliance inspection keeps this firmly in human territory. Demand is surging with EV charger and solar panel installations."
+  fellowshipOptions: "Master electrician license; electrical administrator license; optional LEED or NABCEP solar certification for specialty work"
+  compModel: "Owner draw from net profit; project-based billing at $85-150/hr; some T&M (time and materials) contracts"
+  revPerPatientVisit: "$85-150/hr billed per electrician deployed"
+  dailyWorkflow: "Job bidding, crew scheduling, permit pulls, site supervision, code compliance, client meetings"
+  patientVolume: "3-10 active job sites simultaneously"
+  supportStaffModel: "Journeyman electricians, apprentices, office manager, estimator"
+  geographicDemandNotes: "Nationwide — high demand in Sun Belt growth markets (TX, FL, AZ) and anywhere with new construction or EV infrastructure buildout"
+  telehealthPotential: 2
+  genderDistribution: "~3% women"
+
+# === PLUMBING / HVAC (1) ===
+
+- name: "Plumbing/HVAC Contractor"
+  group: plumbing_hvac
+  residencyYears: 0
+  annualSpots: 15000
+  startSalary: 60
+  midSalary: 100
+  peakSalary: 165
+  typicalPeak: 140
+  partTimeFlex: 3
+  procedureMix: 8
+  callSchedule: 3
+  adminBurden: 7
+  hoursWeek: 50
+  burnout: 40
+  partTimeFeasibility: 3
+  vacation: 3
+  careerLongevity: 7
+  malpracticeFreq: 6
+  malpracticeCost: 5
+  geographicFlex: 6
+  automationRisk: 3
+  handsOnInsulation: 7
+  satisfaction: 68
+  chooseAgain: 62
+  intellectualStim: 5
+  varietyRepetition: 6
+  patientImpact: 7
+  physicalToll: 5
+  emotionalToll: 6
+  malpracticeLiability: 6
+  injuryCareerRisk: 6
+  aiRiskNow: 2
+  aiRiskMedium: 2
+  aiRiskLong: 3
+  aiNarrative: "Plumbing and HVAC contracting involves diagnosing unique building systems, crawling through attics, and working with gas lines and refrigerant — none of which AI can touch. Load calculation software helps with sizing, but the physical installation and emergency service calls are completely automation-proof. Heat pump adoption is driving new demand."
+  fellowshipOptions: "Master plumber license; HVAC contractor license; EPA Section 608 certification; optional NATE certification for advanced HVAC specialization"
+  compModel: "Owner draw from net profit; service calls billed at $95-175/hr; new construction bid on project basis"
+  revPerPatientVisit: "$95-175/hr billed per technician deployed"
+  dailyWorkflow: "Emergency dispatch, new install estimating, crew routing, permit management, equipment ordering, client billing"
+  patientVolume: "5-15 active service calls or job sites per day across crew"
+  supportStaffModel: "Licensed plumbers, HVAC technicians, apprentices, dispatcher, office admin"
+  geographicDemandNotes: "Nationwide — extreme climates (hot South, cold North) drive HVAC demand; aging housing stock drives plumbing replacement everywhere"
+  telehealthPotential: 2
+  genderDistribution: "~2% women"
+
+# === CONSTRUCTION (2) ===
+
+- name: "General Contractor"
+  group: construction
+  residencyYears: 0
+  annualSpots: 22000
+  startSalary: 60
+  midSalary: 95
+  peakSalary: 180
+  typicalPeak: 150
+  partTimeFlex: 2
+  procedureMix: 8
+  callSchedule: 3
+  adminBurden: 8
+  hoursWeek: 52
+  burnout: 45
+  partTimeFeasibility: 2
+  vacation: 3
+  careerLongevity: 7
+  malpracticeFreq: 6
+  malpracticeCost: 7
+  geographicFlex: 5
+  automationRisk: 3
+  handsOnInsulation: 6
+  satisfaction: 68
+  chooseAgain: 62
+  intellectualStim: 6
+  varietyRepetition: 8
+  patientImpact: 7
+  physicalToll: 5
+  emotionalToll: 5
+  malpracticeLiability: 5
+  injuryCareerRisk: 6
+  aiRiskNow: 2
+  aiRiskMedium: 3
+  aiRiskLong: 3
+  aiNarrative: "General contracting is the ultimate coordination job — managing 15 different subcontractors, dealing with weather delays, supply chain problems, and inspectors who show up unannounced. AI helps with scheduling and estimating, but walking the job site and managing chaos is purely human. Liability exposure is the bigger career risk than technology."
+  fellowshipOptions: "General contractor license (state-specific); optional OSHA 30 certification; CCM (Certified Construction Manager) for larger commercial work"
+  compModel: "Owner draw from project profits; typical 8-15% gross margin on projects; income swings with project pipeline"
+  revPerPatientVisit: "$0 (revenue from project markup, not hourly billing)"
+  dailyWorkflow: "Job site walks, subcontractor scheduling, material ordering, owner meetings, change order negotiation, inspections"
+  patientVolume: "2-6 active construction projects"
+  supportStaffModel: "Subcontractors (electrical, plumbing, framing, etc.), project coordinator, bookkeeper, estimator"
+  geographicDemandNotes: "Nationwide — especially strong in Sun Belt growth markets (TX, FL, NC, AZ) and metro areas with housing shortages"
+  telehealthPotential: 2
+  genderDistribution: "~7% women"
+
+- name: "Construction Superintendent"
+  group: construction
+  residencyYears: 0
+  annualSpots: 35000
+  startSalary: 65
+  midSalary: 95
+  peakSalary: 140
+  typicalPeak: 120
+  partTimeFlex: 2
+  procedureMix: 9
+  callSchedule: 3
+  adminBurden: 6
+  hoursWeek: 52
+  burnout: 48
+  partTimeFeasibility: 2
+  vacation: 2
+  careerLongevity: 7
+  malpracticeFreq: 7
+  malpracticeCost: 4
+  geographicFlex: 5
+  automationRisk: 3
+  handsOnInsulation: 7
+  satisfaction: 65
+  chooseAgain: 58
+  intellectualStim: 5
+  varietyRepetition: 7
+  patientImpact: 6
+  physicalToll: 4
+  emotionalToll: 5
+  malpracticeLiability: 6
+  injuryCareerRisk: 5
+  aiRiskNow: 2
+  aiRiskMedium: 2
+  aiRiskLong: 3
+  aiNarrative: "Superintendents are on the job site every day managing crews, solving problems in real time, and keeping work on schedule. This is one of the most AI-proof roles in the economy — you cannot remotely supervise concrete pours, crane lifts, or safety compliance from a computer. The physical presence requirement is absolute."
+  fellowshipOptions: "OSHA 30 certification; CHST (Construction Health and Safety Technician); optional CCM credential for advancement to project executive"
+  compModel: "Base salary + project completion bonus (5-15% of base); company truck and phone typically provided"
+  revPerPatientVisit: "$0 (salaried position within GC firm)"
+  dailyWorkflow: "Daily site walks, crew coordination, safety toolbox talks, schedule updates, subcontractor management, quality inspections"
+  patientVolume: "1-3 active job sites (usually dedicated to one large project)"
+  supportStaffModel: "Foremen, laborers, subcontractor crews, project engineer, safety officer"
+  geographicDemandNotes: "Nationwide — critical shortage of experienced superintendents everywhere; willing to travel or relocate opens up premium positions"
+  telehealthPotential: 1
+  genderDistribution: "~5% women"
+
+# === MANAGEMENT / INSPECTION (6) ===
+
+- name: "Construction Manager"
+  group: management_inspection
+  residencyYears: 0
+  annualSpots: 46800
+  startSalary: 72
+  midSalary: 107
+  peakSalary: 170
+  typicalPeak: 145
+  partTimeFlex: 3
+  procedureMix: 6
+  callSchedule: 4
+  adminBurden: 8
+  hoursWeek: 48
+  burnout: 42
+  partTimeFeasibility: 3
+  vacation: 3
+  careerLongevity: 8
+  malpracticeFreq: 7
+  malpracticeCost: 6
+  geographicFlex: 5
+  automationRisk: 4
+  handsOnInsulation: 5
+  satisfaction: 70
+  chooseAgain: 64
+  intellectualStim: 6
+  varietyRepetition: 7
+  patientImpact: 6
+  physicalToll: 6
+  emotionalToll: 5
+  malpracticeLiability: 6
+  injuryCareerRisk: 7
+  aiRiskNow: 3
+  aiRiskMedium: 4
+  aiRiskLong: 5
+  aiNarrative: "AI-powered scheduling, BIM clash detection, and cost tracking tools are changing how construction managers work, but the core job is people management and on-site decision-making. When a crane delivery is late and three trades are waiting, no algorithm can negotiate the solution. BLS projects 9% growth through 2034."
+  fellowshipOptions: "PMP certification; CCM (Certified Construction Manager); LEED AP for green building projects; advancement to VP of operations or company ownership"
+  compModel: "Base salary + annual bonus (10-20%); larger firms offer profit sharing; median $107K per BLS May 2024"
+  revPerPatientVisit: "$0 (salaried or project fee-based)"
+  dailyWorkflow: "Budget tracking, schedule review, owner/architect meetings, RFI processing, change order management, site visits"
+  patientVolume: "2-5 active projects depending on size ($1M-$50M+)"
+  supportStaffModel: "Superintendents, project engineers, estimators, schedulers, accounting"
+  geographicDemandNotes: "Nationwide — strongest in high-growth metros (Austin, Nashville, Phoenix, Charlotte); federal infrastructure spending boosting demand"
+  telehealthPotential: 3
+  genderDistribution: "~12% women"
+
+- name: "Building Inspector"
+  group: management_inspection
+  residencyYears: 0
+  annualSpots: 14800
+  startSalary: 55
+  midSalary: 72
+  peakSalary: 105
+  typicalPeak: 88
+  partTimeFlex: 4
+  procedureMix: 9
+  callSchedule: 8
+  adminBurden: 6
+  hoursWeek: 42
+  burnout: 22
+  partTimeFeasibility: 4
+  vacation: 5
+  careerLongevity: 9
+  malpracticeFreq: 7
+  malpracticeCost: 4
+  geographicFlex: 6
+  automationRisk: 4
+  handsOnInsulation: 7
+  satisfaction: 68
+  chooseAgain: 60
+  intellectualStim: 5
+  varietyRepetition: 4
+  patientImpact: 8
+  physicalToll: 5
+  emotionalToll: 7
+  malpracticeLiability: 7
+  injuryCareerRisk: 7
+  aiRiskNow: 3
+  aiRiskMedium: 4
+  aiRiskLong: 5
+  aiNarrative: "Remote video inspections are growing, which is why BLS projects a small decline in this field. But physical site visits to check structural connections, fire stopping, and code compliance still require human eyes and judgment. The role is shifting toward more complex inspections while simple ones get digitized."
+  fellowshipOptions: "ICC certifications (residential, commercial, electrical, plumbing, mechanical); Plans Examiner certification; CBO (Certified Building Official) for department leadership"
+  compModel: "Government salary with benefits and pension; some private third-party inspection firms pay more but without pension; median $72K per BLS May 2024"
+  revPerPatientVisit: "$75-150/inspection (private); government inspectors are salaried"
+  dailyWorkflow: "Scheduled inspections (foundation, framing, electrical, plumbing, final), report writing, code interpretation, contractor conversations"
+  patientVolume: "8-15 inspections per day"
+  supportStaffModel: "Plans examiners, permit technicians, administrative staff, chief building official"
+  geographicDemandNotes: "Nationwide — government positions in every jurisdiction; private inspection growing in states that allow third-party inspections"
+  telehealthPotential: 3
+  genderDistribution: "~10% women"
+
+- name: "Cost Estimator"
+  group: management_inspection
+  residencyYears: 0
+  annualSpots: 16900
+  startSalary: 55
+  midSalary: 77
+  peakSalary: 130
+  typicalPeak: 108
+  partTimeFlex: 5
+  procedureMix: 3
+  callSchedule: 8
+  adminBurden: 7
+  hoursWeek: 43
+  burnout: 28
+  partTimeFeasibility: 5
+  vacation: 4
+  careerLongevity: 8
+  malpracticeFreq: 8
+  malpracticeCost: 3
+  geographicFlex: 6
+  automationRisk: 5
+  handsOnInsulation: 5
+  satisfaction: 65
+  chooseAgain: 58
+  intellectualStim: 6
+  varietyRepetition: 4
+  patientImpact: 5
+  physicalToll: 8
+  emotionalToll: 7
+  malpracticeLiability: 7
+  injuryCareerRisk: 9
+  aiRiskNow: 4
+  aiRiskMedium: 5
+  aiRiskLong: 6
+  aiNarrative: "AI-powered takeoff software and BIM-based quantity extraction are automating the tedious parts of estimating — counting doors, measuring drywall, calculating concrete volumes. BLS projects a 4% decline. But complex bids still need human judgment about site conditions, subcontractor reliability, and risk pricing. Senior estimators who understand the 'art' of bidding stay valuable."
+  fellowshipOptions: "AACE Certified Cost Professional (CCP); ASPE Certified Professional Estimator (CPE); advancement to chief estimator or preconstruction director"
+  compModel: "Base salary + bid-win bonus at some firms; median $77K per BLS May 2024; senior estimators at large GCs earn $100-130K"
+  revPerPatientVisit: "$0 (salaried; value measured by bid accuracy and win rate)"
+  dailyWorkflow: "Plan review, quantity takeoffs, subcontractor bid solicitation, cost databases, proposal writing, bid day coordination"
+  patientVolume: "3-8 active bids at various stages"
+  supportStaffModel: "Assistant estimators, BIM coordinators, project managers, procurement"
+  geographicDemandNotes: "Nationwide — concentrated at GC headquarters and regional offices; some remote work possible for plan review phases"
+  telehealthPotential: 4
+  genderDistribution: "~18% women"
+
+- name: "Safety Manager (OSHA)"
+  group: management_inspection
+  residencyYears: 0
+  annualSpots: 18300
+  startSalary: 58
+  midSalary: 84
+  peakSalary: 135
+  typicalPeak: 112
+  partTimeFlex: 3
+  procedureMix: 7
+  callSchedule: 5
+  adminBurden: 7
+  hoursWeek: 45
+  burnout: 32
+  partTimeFeasibility: 3
+  vacation: 4
+  careerLongevity: 9
+  malpracticeFreq: 7
+  malpracticeCost: 5
+  geographicFlex: 6
+  automationRisk: 3
+  handsOnInsulation: 6
+  satisfaction: 72
+  chooseAgain: 65
+  intellectualStim: 6
+  varietyRepetition: 5
+  patientImpact: 9
+  physicalToll: 6
+  emotionalToll: 5
+  malpracticeLiability: 6
+  injuryCareerRisk: 7
+  aiRiskNow: 2
+  aiRiskMedium: 3
+  aiRiskLong: 4
+  aiNarrative: "AI can help with hazard identification from photos and incident data analysis, but safety management requires walking job sites, observing human behavior, and enforcing compliance in person. The regulatory and human behavior aspects make this very resistant to automation. BLS projects 12% growth for safety specialists."
+  fellowshipOptions: "CSP (Certified Safety Professional); CHST (Construction Health and Safety Technician); ASP (Associate Safety Professional); advancement to corporate EHS director"
+  compModel: "Base salary + benefits; government OSHA positions on GS scale; private sector median ~$84K; corporate EHS directors earn $120-150K"
+  revPerPatientVisit: "$0 (salaried; some consulting safety firms bill $80-150/hr)"
+  dailyWorkflow: "Site safety audits, toolbox talks, incident investigation, OSHA recordkeeping, training sessions, PPE compliance"
+  patientVolume: "1-5 active construction sites under safety oversight"
+  supportStaffModel: "Site safety officers, first aid/EMT staff, project managers, HR"
+  geographicDemandNotes: "Nationwide — every large construction project requires dedicated safety staff; OSHA enforcement increasing demand"
+  telehealthPotential: 2
+  genderDistribution: "~25% women"
+
+- name: "Project Engineer (Construction)"
+  group: management_inspection
+  residencyYears: 0
+  annualSpots: 23600
+  startSalary: 62
+  midSalary: 86
+  peakSalary: 130
+  typicalPeak: 110
+  partTimeFlex: 3
+  procedureMix: 5
+  callSchedule: 5
+  adminBurden: 8
+  hoursWeek: 48
+  burnout: 35
+  partTimeFeasibility: 3
+  vacation: 3
+  careerLongevity: 7
+  malpracticeFreq: 7
+  malpracticeCost: 4
+  geographicFlex: 5
+  automationRisk: 4
+  handsOnInsulation: 5
+  satisfaction: 66
+  chooseAgain: 60
+  intellectualStim: 6
+  varietyRepetition: 6
+  patientImpact: 5
+  physicalToll: 6
+  emotionalToll: 6
+  malpracticeLiability: 7
+  injuryCareerRisk: 8
+  aiRiskNow: 3
+  aiRiskMedium: 4
+  aiRiskLong: 5
+  aiNarrative: "AI tools are streamlining RFI tracking, submittal processing, and schedule updates — all core project engineer tasks. But the role is really about coordination between field and office, and that human bridge function stays essential. This is typically the entry point to project manager and superintendent tracks."
+  fellowshipOptions: "PE license optional; PMP certification; LEED AP; advancement to project manager, senior PM, or superintendent track"
+  compModel: "Base salary + annual bonus (5-10%); median ~$86K; large GC firms (Turner, Skanska) pay $75-100K for early career"
+  revPerPatientVisit: "$0 (salaried position within GC or engineering firm)"
+  dailyWorkflow: "RFI processing, submittal tracking, schedule updates, meeting minutes, cost coding, field coordination, drawing management"
+  patientVolume: "1-2 active projects (junior) or 2-4 projects (senior)"
+  supportStaffModel: "Project manager, superintendent, field engineers, document control, subcontractor PMs"
+  geographicDemandNotes: "Nationwide — entry-level positions concentrated at large GC firms; often requires relocation to active project sites"
+  telehealthPotential: 3
+  genderDistribution: "~15% women"
+
+- name: "Facilities Manager"
+  group: management_inspection
+  residencyYears: 0
+  annualSpots: 30000
+  startSalary: 62
+  midSalary: 105
+  peakSalary: 175
+  typicalPeak: 145
+  partTimeFlex: 3
+  procedureMix: 6
+  callSchedule: 4
+  adminBurden: 8
+  hoursWeek: 46
+  burnout: 30
+  partTimeFeasibility: 3
+  vacation: 4
+  careerLongevity: 9
+  malpracticeFreq: 7
+  malpracticeCost: 4
+  geographicFlex: 5
+  automationRisk: 4
+  handsOnInsulation: 5
+  satisfaction: 68
+  chooseAgain: 62
+  intellectualStim: 5
+  varietyRepetition: 7
+  patientImpact: 6
+  physicalToll: 7
+  emotionalToll: 6
+  malpracticeLiability: 7
+  injuryCareerRisk: 8
+  aiRiskNow: 3
+  aiRiskMedium: 4
+  aiRiskLong: 5
+  aiNarrative: "Smart building systems and IoT sensors are changing facilities management, but someone still needs to manage vendor contracts, respond to emergencies, and make capital planning decisions. AI helps with predictive maintenance and energy optimization, but the coordination of physical building operations stays human."
+  fellowshipOptions: "CFM (Certified Facility Manager); FMP (Facility Management Professional); SFP (Sustainability Facility Professional); advancement to VP of real estate or corporate facilities director"
+  compModel: "Base salary + bonus; median $105K per BLS May 2024; corporate campus managers at large companies earn $130-175K"
+  revPerPatientVisit: "$0 (salaried; value measured by building uptime and cost per square foot)"
+  dailyWorkflow: "Work order management, vendor coordination, capital project oversight, space planning, energy management, emergency response"
+  patientVolume: "1-5 buildings or campus portfolio (500K-5M sq ft)"
+  supportStaffModel: "Maintenance technicians, janitorial staff, security, vendors (HVAC, electrical, plumbing), space planners"
+  geographicDemandNotes: "Nationwide — every major employer, hospital, university, and government building needs facilities management; concentrated in metros with large commercial real estate"
+  telehealthPotential: 3
+  genderDistribution: "~28% women"
+
+# === WELDING / FABRICATION (1) ===
+
+- name: "Quality Control Manager"
+  group: welding_fabrication
+  residencyYears: 0
+  annualSpots: 12000
+  startSalary: 65
+  midSalary: 95
+  peakSalary: 145
+  typicalPeak: 122
+  partTimeFlex: 3
+  procedureMix: 7
+  callSchedule: 6
+  adminBurden: 8
+  hoursWeek: 46
+  burnout: 30
+  partTimeFeasibility: 3
+  vacation: 4
+  careerLongevity: 9
+  malpracticeFreq: 7
+  malpracticeCost: 5
+  geographicFlex: 5
+  automationRisk: 4
+  handsOnInsulation: 6
+  satisfaction: 68
+  chooseAgain: 62
+  intellectualStim: 6
+  varietyRepetition: 4
+  patientImpact: 7
+  physicalToll: 7
+  emotionalToll: 6
+  malpracticeLiability: 6
+  injuryCareerRisk: 7
+  aiRiskNow: 3
+  aiRiskMedium: 4
+  aiRiskLong: 5
+  aiNarrative: "AI-powered visual inspection and weld quality analysis are advancing quickly, which will reduce some manual inspection tasks. But QC management involves interpreting specs, managing certification programs, and making pass/fail decisions that carry real liability. The judgment and accountability parts stay human."
+  fellowshipOptions: "CWI (Certified Welding Inspector); CQM (Certified Quality Manager via ASQ); ASNT NDT certifications; advancement to QA/QC director or VP of quality"
+  compModel: "Base salary + bonus; median ~$95K; pipeline and heavy industrial QC managers earn $110-145K with per diem"
+  revPerPatientVisit: "$0 (salaried; some independent QC firms bill $75-125/hr)"
+  dailyWorkflow: "Weld inspection, NDE review, documentation audit, WPS/PQR management, corrective action tracking, code compliance verification"
+  patientVolume: "1-3 active fabrication shops or construction sites"
+  supportStaffModel: "QC inspectors, NDE technicians, welders, fabrication supervisors, document control"
+  geographicDemandNotes: "Gulf Coast (petrochemical), Midwest (steel fabrication), pipeline corridors, anywhere with structural steel or pressure vessel fabrication"
+  telehealthPotential: 2
+  genderDistribution: "~8% women"
+
+# === SPECIALTY TRADES (1) ===
+
+- name: "Environmental Compliance Inspector"
+  group: specialty_trades
+  residencyYears: 0
+  annualSpots: 10000
+  startSalary: 55
+  midSalary: 75
+  peakSalary: 115
+  typicalPeak: 96
+  partTimeFlex: 4
+  procedureMix: 6
+  callSchedule: 7
+  adminBurden: 8
+  hoursWeek: 42
+  burnout: 25
+  partTimeFeasibility: 4
+  vacation: 5
+  careerLongevity: 9
+  malpracticeFreq: 7
+  malpracticeCost: 4
+  geographicFlex: 5
+  automationRisk: 4
+  handsOnInsulation: 6
+  satisfaction: 70
+  chooseAgain: 62
+  intellectualStim: 6
+  varietyRepetition: 5
+  patientImpact: 8
+  physicalToll: 6
+  emotionalToll: 6
+  malpracticeLiability: 7
+  injuryCareerRisk: 8
+  aiRiskNow: 3
+  aiRiskMedium: 4
+  aiRiskLong: 5
+  aiNarrative: "AI can help analyze emissions data and flag permit violations from sensor feeds, but environmental compliance requires physical site inspections, soil and water sampling, and navigating complex overlapping federal/state/local regulations. The fieldwork and regulatory interpretation keep this role safe from automation."
+  fellowshipOptions: "CHMM (Certified Hazardous Materials Manager); QEP (Qualified Environmental Professional); CPESC (Certified Professional in Erosion and Sediment Control); advancement to environmental program manager or compliance director"
+  compModel: "Government salary on GS scale with benefits and pension; private consulting firms pay $70-100K; median ~$75K for compliance inspectors"
+  revPerPatientVisit: "$0 (government salaried) or $80-140/hr (private environmental consulting)"
+  dailyWorkflow: "Site inspections, stormwater permit compliance, air quality monitoring, sampling, report writing, enforcement documentation, permit review"
+  patientVolume: "3-8 active compliance inspections or monitoring sites per week"
+  supportStaffModel: "Environmental technicians, lab analysts, regulatory attorneys, permit writers, GIS analysts"
+  geographicDemandNotes: "Nationwide — EPA regional offices, state DEQ agencies, and private consulting firms near industrial areas, refineries, and construction corridors"
+  telehealthPotential: 3
+  genderDistribution: "~35% women"

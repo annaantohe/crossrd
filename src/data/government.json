@@ -5,7 +5,7 @@
     "headline": "Which Government Career Should You Pursue?",
     "subtitle": "A Data-Driven Guide",
     "icon": "\ud83c\udfdb\ufe0f",
-    "last_updated": "2026-02-21",
+    "last_updated": "2026-02-22",
     "total_tracks": 60,
     "data_points": 107,
     "source_file": "yaml"
@@ -821,15 +821,15 @@
       "timeline": {
         "college": [
           18,
-          22
+          18
         ],
         "school": [
-          22,
-          22.5
+          18,
+          18.5
         ],
         "residency": null,
         "fellowship": null,
-        "earnAge": 22.5,
+        "earnAge": 18.5,
         "startSalary": 25
       }
     },
@@ -919,15 +919,15 @@
       "timeline": {
         "college": [
           18,
-          22
+          18
         ],
         "school": [
-          22,
-          22.5
+          18,
+          18.5
         ],
         "residency": null,
         "fellowship": null,
-        "earnAge": 22.5,
+        "earnAge": 18.5,
         "startSalary": 35
       }
     },
@@ -1017,15 +1017,15 @@
       "timeline": {
         "college": [
           18,
-          22
+          18
         ],
         "school": [
-          22,
-          22.5
+          18,
+          18.5
         ],
         "residency": null,
         "fellowship": null,
-        "earnAge": 22.5,
+        "earnAge": 18.5,
         "startSalary": 25
       }
     },
@@ -1115,15 +1115,15 @@
       "timeline": {
         "college": [
           18,
-          22
+          18
         ],
         "school": [
-          22,
-          22.5
+          18,
+          18.5
         ],
         "residency": null,
         "fellowship": null,
-        "earnAge": 22.5,
+        "earnAge": 18.5,
         "startSalary": 28
       }
     },
@@ -1213,15 +1213,15 @@
       "timeline": {
         "college": [
           18,
-          22
+          18
         ],
         "school": [
-          22,
-          22.5
+          18,
+          18.5
         ],
         "residency": null,
         "fellowship": null,
-        "earnAge": 22.5,
+        "earnAge": 18.5,
         "startSalary": 27
       }
     },
@@ -1311,15 +1311,15 @@
       "timeline": {
         "college": [
           18,
-          22
+          18
         ],
         "school": [
-          22,
-          22.5
+          18,
+          18.5
         ],
         "residency": null,
         "fellowship": null,
-        "earnAge": 22.5,
+        "earnAge": 18.5,
         "startSalary": 26
       }
     },
@@ -1409,15 +1409,15 @@
       "timeline": {
         "college": [
           18,
-          22
+          18
         ],
         "school": [
-          22,
-          22.5
+          18,
+          18.5
         ],
         "residency": null,
         "fellowship": null,
-        "earnAge": 22.5,
+        "earnAge": 18.5,
         "startSalary": 26
       }
     },
@@ -1507,15 +1507,15 @@
       "timeline": {
         "college": [
           18,
-          22
+          18
         ],
         "school": [
-          22,
-          22.5
+          18,
+          18.5
         ],
         "residency": null,
         "fellowship": null,
-        "earnAge": 22.5,
+        "earnAge": 18.5,
         "startSalary": 25
       }
     },
@@ -1605,15 +1605,15 @@
       "timeline": {
         "college": [
           18,
-          22
+          18
         ],
         "school": [
-          22,
-          22.5
+          18,
+          18.5
         ],
         "residency": null,
         "fellowship": null,
-        "earnAge": 22.5,
+        "earnAge": 18.5,
         "startSalary": 45
       }
     },
@@ -1703,15 +1703,15 @@
       "timeline": {
         "college": [
           18,
-          22
+          18
         ],
         "school": [
-          22,
-          22.5
+          18,
+          18.5
         ],
         "residency": null,
         "fellowship": null,
-        "earnAge": 22.5,
+        "earnAge": 18.5,
         "startSalary": 40
       }
     },
@@ -1801,15 +1801,15 @@
       "timeline": {
         "college": [
           18,
-          22
+          18
         ],
         "school": [
-          22,
-          22.5
+          18,
+          18.5
         ],
         "residency": null,
         "fellowship": null,
-        "earnAge": 22.5,
+        "earnAge": 18.5,
         "startSalary": 50
       }
     },
@@ -1899,15 +1899,15 @@
       "timeline": {
         "college": [
           18,
-          22
+          18
         ],
         "school": [
-          22,
-          22.5
+          18,
+          18.5
         ],
         "residency": null,
         "fellowship": null,
-        "earnAge": 22.5,
+        "earnAge": 18.5,
         "startSalary": 40
       }
     },
@@ -1997,15 +1997,15 @@
       "timeline": {
         "college": [
           18,
-          22
+          18
         ],
         "school": [
-          22,
-          22.5
+          18,
+          18.5
         ],
         "residency": null,
         "fellowship": null,
-        "earnAge": 22.5,
+        "earnAge": 18.5,
         "startSalary": 32
       }
     },
@@ -2095,15 +2095,15 @@
       "timeline": {
         "college": [
           18,
-          22
+          18
         ],
         "school": [
-          22,
-          22.5
+          18,
+          18.5
         ],
         "residency": null,
         "fellowship": null,
-        "earnAge": 22.5,
+        "earnAge": 18.5,
         "startSalary": 38
       }
     },
@@ -2193,15 +2193,15 @@
       "timeline": {
         "college": [
           18,
-          22
+          18
         ],
         "school": [
-          22,
-          22.5
+          18,
+          18.5
         ],
         "residency": null,
         "fellowship": null,
-        "earnAge": 22.5,
+        "earnAge": 18.5,
         "startSalary": 30
       }
     },
@@ -2291,15 +2291,15 @@
       "timeline": {
         "college": [
           18,
-          22
+          18
         ],
         "school": [
-          22,
-          22.5
+          18,
+          18.5
         ],
         "residency": null,
         "fellowship": null,
-        "earnAge": 22.5,
+        "earnAge": 18.5,
         "startSalary": 32
       }
     },
@@ -2389,15 +2389,15 @@
       "timeline": {
         "college": [
           18,
-          22
+          18
         ],
         "school": [
-          22,
-          22.5
+          18,
+          18.5
         ],
         "residency": null,
         "fellowship": null,
-        "earnAge": 22.5,
+        "earnAge": 18.5,
         "startSalary": 35
       }
     },
@@ -2487,15 +2487,15 @@
       "timeline": {
         "college": [
           18,
-          22
+          18
         ],
         "school": [
-          22,
-          22.5
+          18,
+          18.5
         ],
         "residency": null,
         "fellowship": null,
-        "earnAge": 22.5,
+        "earnAge": 18.5,
         "startSalary": 33
       }
     },
@@ -2585,15 +2585,15 @@
       "timeline": {
         "college": [
           18,
-          22
+          18
         ],
         "school": [
-          22,
-          22.5
+          18,
+          18.5
         ],
         "residency": null,
         "fellowship": null,
-        "earnAge": 22.5,
+        "earnAge": 18.5,
         "startSalary": 35
       }
     },
@@ -2683,15 +2683,15 @@
       "timeline": {
         "college": [
           18,
-          22
+          18
         ],
         "school": [
-          22,
-          22.5
+          18,
+          18.5
         ],
         "residency": null,
         "fellowship": null,
-        "earnAge": 22.5,
+        "earnAge": 18.5,
         "startSalary": 45
       }
     },

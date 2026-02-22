@@ -1,0 +1,904 @@
+# Trade School specialties — 20 careers across 6 groups
+# HS diploma + certificate program (3-12 months)
+profession: Trade School
+specialties:
+
+- name: "Solar Panel Installer"
+  group: electrical
+  residencyYears: 0
+  annualSpots: 4100
+  startSalary: 32
+  midSalary: 49
+  peakSalary: 68
+  typicalPeak: 58
+  partTimeFlex: 2
+  procedureMix: 3
+  callSchedule: 2
+  adminBurden: 3
+  hoursWeek: 40
+  burnout: 28
+  partTimeFeasibility: 2
+  vacation: 4
+  careerLongevity: 7
+  malpracticeFreq: 9
+  malpracticeCost: 1
+  geographicFlex: 6
+  automationRisk: 2
+  handsOnInsulation: 9
+  satisfaction: 72
+  chooseAgain: 68
+  intellectualStim: 5
+  varietyRepetition: 4
+  patientImpact: 6
+  physicalToll: 3
+  emotionalToll: 8
+  malpracticeLiability: 9
+  injuryCareerRisk: 4
+  aiRiskNow: 1
+  aiRiskMedium: 1
+  aiRiskLong: 2
+  aiNarrative: "Solar installation is overwhelmingly hands-on rooftop work. AI may optimize panel placement and system design, but physical installation on varied roof structures requires human skill and judgment. Booming demand makes this one of the most automation-proof trades."
+  fellowshipOptions: "NABCEP certification; electrical apprenticeship pathway; solar sales and design roles; crew lead and project manager advancement"
+  compModel: "Hourly wage $16-33/hr; some companies offer per-project bonuses"
+  revPerPatientVisit: "N/A — revenue per residential install $15K-30K for company"
+  dailyWorkflow: "Rooftop panel mounting, wiring inverters, conduit runs, system testing, safety checks"
+  patientVolume: "1-2 residential installs per week or ongoing commercial projects"
+  supportStaffModel: "Crew of 3-5 installers per job; lead tech supervises"
+  geographicDemandNotes: "Sunbelt states dominate — CA, TX, FL, AZ, NV — but demand growing nationally with federal tax credits"
+  telehealthPotential: 1
+  genderDistribution: "~95% men"
+
+- name: "Cable/Telecom Installer"
+  group: electrical
+  residencyYears: 0
+  annualSpots: 24600
+  startSalary: 35
+  midSalary: 62
+  peakSalary: 78
+  typicalPeak: 68
+  partTimeFlex: 2
+  procedureMix: 4
+  callSchedule: 4
+  adminBurden: 5
+  hoursWeek: 42
+  burnout: 25
+  partTimeFeasibility: 2
+  vacation: 5
+  careerLongevity: 8
+  malpracticeFreq: 9
+  malpracticeCost: 1
+  geographicFlex: 7
+  automationRisk: 2
+  handsOnInsulation: 8
+  satisfaction: 65
+  chooseAgain: 58
+  intellectualStim: 5
+  varietyRepetition: 4
+  patientImpact: 5
+  physicalToll: 4
+  emotionalToll: 7
+  malpracticeLiability: 9
+  injuryCareerRisk: 5
+  aiRiskNow: 1
+  aiRiskMedium: 2
+  aiRiskLong: 3
+  aiNarrative: "Physical cable routing and equipment installation are hard to automate. AI handles network diagnostics and scheduling, but the crawl-through-attics, climb-poles reality keeps humans essential. Fiber optic expansion is creating steady demand even as legacy cable declines."
+  fellowshipOptions: "Fiber optic specialist certification; network technician pathway; crew supervisor; transition to data center cabling"
+  compModel: "Hourly $17-38/hr; many positions offer overtime and on-call pay"
+  revPerPatientVisit: "N/A — service call billed $75-200 to customer"
+  dailyWorkflow: "Driving to customer sites, running cable through walls and attics, mounting equipment, testing signal quality, customer walkthroughs"
+  patientVolume: "4-8 service calls per day"
+  supportStaffModel: "Usually solo or two-person teams dispatched from central office"
+  geographicDemandNotes: "Nationwide demand; rural broadband expansion creating new opportunities in underserved areas"
+  telehealthPotential: 1
+  genderDistribution: "~92% men"
+
+- name: "Low-Voltage Technician"
+  group: electrical
+  residencyYears: 0
+  annualSpots: 12000
+  startSalary: 33
+  midSalary: 55
+  peakSalary: 72
+  typicalPeak: 62
+  partTimeFlex: 3
+  procedureMix: 5
+  callSchedule: 4
+  adminBurden: 4
+  hoursWeek: 40
+  burnout: 22
+  partTimeFeasibility: 3
+  vacation: 5
+  careerLongevity: 8
+  malpracticeFreq: 9
+  malpracticeCost: 1
+  geographicFlex: 7
+  automationRisk: 2
+  handsOnInsulation: 9
+  satisfaction: 68
+  chooseAgain: 62
+  intellectualStim: 6
+  varietyRepetition: 6
+  patientImpact: 5
+  physicalToll: 5
+  emotionalToll: 8
+  malpracticeLiability: 9
+  injuryCareerRisk: 6
+  aiRiskNow: 1
+  aiRiskMedium: 2
+  aiRiskLong: 3
+  aiNarrative: "Low-voltage work covers security systems, fire alarms, AV setups, and structured cabling — all require site-specific physical installation. AI assists with system programming and diagnostics but cannot replace the hands-on wiring and troubleshooting. Smart building growth boosts demand."
+  fellowshipOptions: "NICET fire alarm certification; ESA electronic security certification; pathway to systems integrator or project manager; electrician apprenticeship bridge"
+  compModel: "Hourly $16-35/hr; salaried positions at larger security and AV firms"
+  revPerPatientVisit: "N/A — project bids $2K-50K depending on scope"
+  dailyWorkflow: "Running low-voltage cable, terminating connections, mounting cameras and sensors, programming control panels, system testing"
+  patientVolume: "1-3 job sites per day for service; multi-day for new installs"
+  supportStaffModel: "Solo or two-person crews; larger projects have dedicated project managers"
+  geographicDemandNotes: "Everywhere — commercial construction, residential smart homes, data centers all drive demand"
+  telehealthPotential: 1
+  genderDistribution: "~90% men"
+
+- name: "Weatherization Technician"
+  group: plumbing_hvac
+  residencyYears: 0
+  annualSpots: 6500
+  startSalary: 28
+  midSalary: 42
+  peakSalary: 58
+  typicalPeak: 48
+  partTimeFlex: 3
+  procedureMix: 3
+  callSchedule: 2
+  adminBurden: 5
+  hoursWeek: 40
+  burnout: 20
+  partTimeFeasibility: 3
+  vacation: 5
+  careerLongevity: 8
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 6
+  automationRisk: 1
+  handsOnInsulation: 9
+  satisfaction: 68
+  chooseAgain: 60
+  intellectualStim: 5
+  varietyRepetition: 4
+  patientImpact: 7
+  physicalToll: 4
+  emotionalToll: 8
+  malpracticeLiability: 10
+  injuryCareerRisk: 6
+  aiRiskNow: 1
+  aiRiskMedium: 1
+  aiRiskLong: 2
+  aiNarrative: "Weatherization is entirely hands-on — sealing air leaks, adding insulation, testing blower doors. AI can help with energy auditing software, but the crawl-space and attic work is immune to automation. Federal energy efficiency programs keep demand stable."
+  fellowshipOptions: "BPI Building Analyst certification; HVAC technician pathway; energy auditor credential; crew lead and program manager roles"
+  compModel: "Hourly $14-28/hr; many positions through government-funded nonprofit programs"
+  revPerPatientVisit: "N/A — average home weatherization costs $5K-8K, often grant-funded"
+  dailyWorkflow: "Blower door testing, sealing air leaks, installing insulation, caulking, weather-stripping, duct sealing, post-work verification"
+  patientVolume: "1-2 homes per day for assessments; multi-day for full weatherization"
+  supportStaffModel: "Two to three person crews; energy auditor does initial assessment"
+  geographicDemandNotes: "Cold-weather states have highest demand — northeast, midwest, mountain west; federal WAP program funds work nationwide"
+  telehealthPotential: 1
+  genderDistribution: "~85% men"
+
+- name: "Painter"
+  group: construction
+  residencyYears: 0
+  annualSpots: 28100
+  startSalary: 30
+  midSalary: 48
+  peakSalary: 65
+  typicalPeak: 55
+  partTimeFlex: 5
+  procedureMix: 2
+  callSchedule: 1
+  adminBurden: 3
+  hoursWeek: 38
+  burnout: 22
+  partTimeFeasibility: 6
+  vacation: 4
+  careerLongevity: 7
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 8
+  automationRisk: 1
+  handsOnInsulation: 9
+  satisfaction: 65
+  chooseAgain: 58
+  intellectualStim: 3
+  varietyRepetition: 3
+  patientImpact: 5
+  physicalToll: 4
+  emotionalToll: 8
+  malpracticeLiability: 10
+  injuryCareerRisk: 5
+  aiRiskNow: 1
+  aiRiskMedium: 1
+  aiRiskLong: 1
+  aiNarrative: "Painting requires navigating ladders, scaffolding, and irregular surfaces in unique buildings — nearly impossible to automate. Spray technology has evolved but still needs a skilled operator. Self-employment is very common, making this highly insulated from disruption."
+  fellowshipOptions: "Lead paint abatement certification; industrial painting credentials; wallpaper and faux finish specialization; path to painting contractor with own crew"
+  compModel: "Hourly $15-32/hr; self-employed painters charge $25-75/hr; per-room or per-project pricing common"
+  revPerPatientVisit: "N/A — residential repaint $2K-6K; commercial projects much larger"
+  dailyWorkflow: "Surface prep, taping, priming, cutting in edges, rolling walls and ceilings, cleanup, customer walkthrough"
+  patientVolume: "1 residential job every 2-5 days; commercial projects span weeks"
+  supportStaffModel: "Solo or 2-4 person crews; larger firms have estimators and project managers"
+  geographicDemandNotes: "Universal demand everywhere — residential, commercial, industrial painting needed in every market"
+  telehealthPotential: 1
+  genderDistribution: "~90% men"
+
+- name: "Drywall Installer"
+  group: construction
+  residencyYears: 0
+  annualSpots: 8800
+  startSalary: 32
+  midSalary: 56
+  peakSalary: 72
+  typicalPeak: 62
+  partTimeFlex: 2
+  procedureMix: 2
+  callSchedule: 1
+  adminBurden: 2
+  hoursWeek: 40
+  burnout: 30
+  partTimeFeasibility: 2
+  vacation: 3
+  careerLongevity: 6
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 7
+  automationRisk: 1
+  handsOnInsulation: 9
+  satisfaction: 60
+  chooseAgain: 52
+  intellectualStim: 3
+  varietyRepetition: 3
+  patientImpact: 4
+  physicalToll: 2
+  emotionalToll: 7
+  malpracticeLiability: 10
+  injuryCareerRisk: 4
+  aiRiskNow: 1
+  aiRiskMedium: 1
+  aiRiskLong: 2
+  aiNarrative: "Hanging and finishing drywall is intensely physical and requires adapting to unique framing layouts in every building. Robotic drywall tools exist in prototypes but are nowhere near replacing human workers on real job sites. The taping and mudding finish work is especially skill-dependent."
+  fellowshipOptions: "Taping and finishing specialist; acoustic ceiling certification; crew foreman; drywall subcontractor with own business"
+  compModel: "Piece rate common — paid per sheet hung or per square foot finished; hourly $16-35/hr"
+  revPerPatientVisit: "N/A — typical home drywall job $8K-15K for subcontractor"
+  dailyWorkflow: "Measuring and cutting sheets, hanging on studs, screwing, taping joints, applying mud coats, sanding, texture application"
+  patientVolume: "25-35 sheets hung per day for experienced installer"
+  supportStaffModel: "Two-person hanging crews; finishers often work solo; GC coordinates scheduling"
+  geographicDemandNotes: "Tracks new construction — Sun Belt growth markets (TX, FL, AZ, GA) have strongest demand"
+  telehealthPotential: 1
+  genderDistribution: "~95% men"
+
+- name: "Roofer"
+  group: construction
+  residencyYears: 0
+  annualSpots: 12700
+  startSalary: 30
+  midSalary: 51
+  peakSalary: 68
+  typicalPeak: 58
+  partTimeFlex: 2
+  procedureMix: 3
+  callSchedule: 2
+  adminBurden: 2
+  hoursWeek: 40
+  burnout: 35
+  partTimeFeasibility: 2
+  vacation: 3
+  careerLongevity: 5
+  malpracticeFreq: 9
+  malpracticeCost: 1
+  geographicFlex: 8
+  automationRisk: 1
+  handsOnInsulation: 10
+  satisfaction: 58
+  chooseAgain: 48
+  intellectualStim: 3
+  varietyRepetition: 3
+  patientImpact: 5
+  physicalToll: 2
+  emotionalToll: 7
+  malpracticeLiability: 9
+  injuryCareerRisk: 3
+  aiRiskNow: 1
+  aiRiskMedium: 1
+  aiRiskLong: 1
+  aiNarrative: "Roofing is among the most physically demanding and dangerous trades — exactly the kind of work that robots cannot handle. Steep pitches, varied materials, weather conditions, and constant repositioning make automation essentially impossible for the foreseeable future."
+  fellowshipOptions: "Certified roofing torch applicator; single-ply membrane specialist; roofing estimator and inspector certifications; path to roofing contractor"
+  compModel: "Hourly $15-33/hr; piece rate per square (100 sq ft) common; storm chasers earn more during disaster season"
+  revPerPatientVisit: "N/A — average residential re-roof $8K-15K for company"
+  dailyWorkflow: "Tear-off old roofing, inspect decking, install underlayment, lay shingles or membrane, flash penetrations, clean up debris"
+  patientVolume: "1 residential roof every 1-3 days with full crew"
+  supportStaffModel: "Crews of 4-8; crew lead directs work; company handles sales and scheduling"
+  geographicDemandNotes: "Storm-prone areas (TX, FL, OK, CO hail belt) generate huge seasonal demand; steady everywhere else"
+  telehealthPotential: 1
+  genderDistribution: "~97% men"
+
+- name: "Concrete Finisher"
+  group: construction
+  residencyYears: 0
+  annualSpots: 7200
+  startSalary: 30
+  midSalary: 50
+  peakSalary: 68
+  typicalPeak: 58
+  partTimeFlex: 1
+  procedureMix: 3
+  callSchedule: 2
+  adminBurden: 2
+  hoursWeek: 42
+  burnout: 32
+  partTimeFeasibility: 1
+  vacation: 3
+  careerLongevity: 5
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 7
+  automationRisk: 1
+  handsOnInsulation: 10
+  satisfaction: 60
+  chooseAgain: 52
+  intellectualStim: 3
+  varietyRepetition: 3
+  patientImpact: 4
+  physicalToll: 2
+  emotionalToll: 7
+  malpracticeLiability: 10
+  injuryCareerRisk: 3
+  aiRiskNow: 1
+  aiRiskMedium: 1
+  aiRiskLong: 1
+  aiNarrative: "Concrete finishing is one of the most hands-on trades — you are literally on your knees troweling wet concrete against a setting clock. The material is unforgiving and every pour is unique. Decorative concrete and stamping work add artistic skill that machines cannot replicate."
+  fellowshipOptions: "ACI Flatwork Finisher certification; decorative concrete specialist; concrete pump operator license; path to concrete subcontractor"
+  compModel: "Hourly $15-33/hr; flatwork often priced per square foot; overtime common during busy season"
+  revPerPatientVisit: "N/A — residential driveway pour $3K-8K for company"
+  dailyWorkflow: "Setting forms, placing rebar, pouring and spreading concrete, screeding, bull floating, finishing with trowels, cutting control joints, curing"
+  patientVolume: "1 pour per day typically; large commercial pours span multiple days"
+  supportStaffModel: "Crews of 4-8 for pours; finishers are the skilled positions, laborers assist with prep"
+  geographicDemandNotes: "Strong everywhere — especially growth markets and areas with heavy infrastructure investment"
+  telehealthPotential: 1
+  genderDistribution: "~97% men"
+
+- name: "Insulation Worker"
+  group: construction
+  residencyYears: 0
+  annualSpots: 5800
+  startSalary: 28
+  midSalary: 49
+  peakSalary: 64
+  typicalPeak: 54
+  partTimeFlex: 2
+  procedureMix: 2
+  callSchedule: 1
+  adminBurden: 2
+  hoursWeek: 40
+  burnout: 25
+  partTimeFeasibility: 2
+  vacation: 4
+  careerLongevity: 6
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 7
+  automationRisk: 1
+  handsOnInsulation: 9
+  satisfaction: 58
+  chooseAgain: 50
+  intellectualStim: 3
+  varietyRepetition: 2
+  patientImpact: 5
+  physicalToll: 3
+  emotionalToll: 8
+  malpracticeLiability: 10
+  injuryCareerRisk: 5
+  aiRiskNow: 1
+  aiRiskMedium: 1
+  aiRiskLong: 1
+  aiNarrative: "Insulation work happens in attics, crawl spaces, walls, and around mechanical systems — tight, awkward spaces that defy robotic access. Spray foam, batt, and blown-in insulation all require human judgment to install correctly. Energy efficiency mandates keep demand steady."
+  fellowshipOptions: "Spray foam certification; firestopping credential; energy auditor pathway; insulation contractor license"
+  compModel: "Hourly $14-32/hr; spray foam techs earn premium; piece rate per square foot also common"
+  revPerPatientVisit: "N/A — whole-home insulation job $2K-5K for company"
+  dailyWorkflow: "Loading materials, accessing attics and crawl spaces, cutting and fitting batts, operating blow-in machines, spray foam application, cleanup"
+  patientVolume: "1-3 homes per day for retrofit; new construction tracks builder schedule"
+  supportStaffModel: "Two-person crews typical; spray foam requires dedicated equipment and helper"
+  geographicDemandNotes: "Cold climates have highest demand; energy code updates driving work in all regions"
+  telehealthPotential: 1
+  genderDistribution: "~93% men"
+
+- name: "Flooring Installer"
+  group: construction
+  residencyYears: 0
+  annualSpots: 11200
+  startSalary: 28
+  midSalary: 50
+  peakSalary: 68
+  typicalPeak: 58
+  partTimeFlex: 4
+  procedureMix: 3
+  callSchedule: 1
+  adminBurden: 3
+  hoursWeek: 40
+  burnout: 25
+  partTimeFeasibility: 4
+  vacation: 4
+  careerLongevity: 6
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 8
+  automationRisk: 1
+  handsOnInsulation: 9
+  satisfaction: 63
+  chooseAgain: 55
+  intellectualStim: 4
+  varietyRepetition: 4
+  patientImpact: 5
+  physicalToll: 2
+  emotionalToll: 8
+  malpracticeLiability: 10
+  injuryCareerRisk: 4
+  aiRiskNow: 1
+  aiRiskMedium: 1
+  aiRiskLong: 1
+  aiNarrative: "Flooring installation means kneeling for hours, cutting around obstacles, and matching patterns in unique room layouts. Every job is different — subfloor conditions, transitions, custom cuts around cabinets. Robotic floor layers are not feasible for real-world residential or commercial spaces."
+  fellowshipOptions: "CFI Certified Flooring Installer credential; hardwood floor sanding and refinishing specialty; commercial flooring certifications; path to flooring contractor"
+  compModel: "Piece rate per square foot most common; hourly $14-33/hr; hardwood refinishing commands premium rates"
+  revPerPatientVisit: "N/A — average home flooring job $3K-8K for installer"
+  dailyWorkflow: "Subfloor prep, measuring and layout, cutting material, adhesive or nail-down installation, seaming, trimming transitions, cleanup"
+  patientVolume: "200-400 sq ft installed per day depending on material"
+  supportStaffModel: "Solo or two-person crews; larger commercial jobs have multi-person teams"
+  geographicDemandNotes: "Universal demand — every home and commercial space needs flooring; renovation market especially strong"
+  telehealthPotential: 1
+  genderDistribution: "~92% men"
+
+- name: "Tile Setter"
+  group: construction
+  residencyYears: 0
+  annualSpots: 6500
+  startSalary: 29
+  midSalary: 50
+  peakSalary: 70
+  typicalPeak: 60
+  partTimeFlex: 4
+  procedureMix: 4
+  callSchedule: 1
+  adminBurden: 3
+  hoursWeek: 40
+  burnout: 24
+  partTimeFeasibility: 4
+  vacation: 4
+  careerLongevity: 6
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 8
+  automationRisk: 1
+  handsOnInsulation: 10
+  satisfaction: 66
+  chooseAgain: 58
+  intellectualStim: 5
+  varietyRepetition: 5
+  patientImpact: 5
+  physicalToll: 2
+  emotionalToll: 8
+  malpracticeLiability: 10
+  injuryCareerRisk: 4
+  aiRiskNow: 1
+  aiRiskMedium: 1
+  aiRiskLong: 1
+  aiNarrative: "Tile setting is precision craftsmanship — layouts, cuts around plumbing, waterproofing showers, mosaic patterns. Every bathroom and kitchen is different. The artistic and spatial judgment required makes this extremely difficult to automate. Custom work commands the best pay."
+  fellowshipOptions: "Certified Tile Installer (CTI) through CTEF; Advanced Certifications for Tile Installers (ACT); shower waterproofing specialist; path to tile subcontractor"
+  compModel: "Piece rate per square foot common; hourly $14-34/hr; custom mosaic and natural stone work pays premium"
+  revPerPatientVisit: "N/A — bathroom tile job $3K-10K for installer"
+  dailyWorkflow: "Surface prep, waterproofing membranes, layout planning, mortar mixing, setting tile, cutting with wet saw, grouting, caulking, sealing"
+  patientVolume: "50-150 sq ft per day depending on complexity"
+  supportStaffModel: "Often solo; larger jobs have helper for mixing and cleanup"
+  geographicDemandNotes: "Strong in renovation-heavy markets; luxury home construction drives premium tile work"
+  telehealthPotential: 1
+  genderDistribution: "~93% men"
+
+- name: "Glazier"
+  group: construction
+  residencyYears: 0
+  annualSpots: 5100
+  startSalary: 30
+  midSalary: 55
+  peakSalary: 75
+  typicalPeak: 65
+  partTimeFlex: 2
+  procedureMix: 4
+  callSchedule: 2
+  adminBurden: 3
+  hoursWeek: 40
+  burnout: 23
+  partTimeFeasibility: 2
+  vacation: 5
+  careerLongevity: 7
+  malpracticeFreq: 9
+  malpracticeCost: 1
+  geographicFlex: 6
+  automationRisk: 1
+  handsOnInsulation: 9
+  satisfaction: 65
+  chooseAgain: 58
+  intellectualStim: 5
+  varietyRepetition: 5
+  patientImpact: 4
+  physicalToll: 3
+  emotionalToll: 7
+  malpracticeLiability: 9
+  injuryCareerRisk: 4
+  aiRiskNow: 1
+  aiRiskMedium: 1
+  aiRiskLong: 2
+  aiNarrative: "Glaziers install glass in buildings — curtain walls, storefronts, windows, mirrors. The fragile material, heavy weight, and need for precise fitting in unique openings make automation impractical. Commercial high-rise work involves heights and rigging that require human judgment."
+  fellowshipOptions: "Journeyman glazier progression; curtain wall specialist; auto glass technician certification; shower enclosure specialist; glazing contractor license"
+  compModel: "Hourly $15-36/hr; union shops pay higher with benefits; commercial glazing pays more than residential"
+  revPerPatientVisit: "N/A — storefront glass project $5K-50K; residential window install $300-800 per window"
+  dailyWorkflow: "Measuring openings, cutting glass, setting frames, installing glass panels, sealing with caulk, hardware installation, safety checks"
+  patientVolume: "Variable — 2-6 residential windows or multi-week commercial curtain wall projects"
+  supportStaffModel: "Two-person teams standard due to glass weight; larger crews on commercial projects with crane operators"
+  geographicDemandNotes: "Urban markets with commercial construction; high-rise cities (NYC, Chicago, LA, Miami) have strongest demand"
+  telehealthPotential: 1
+  genderDistribution: "~95% men"
+
+- name: "Fence/Deck Builder"
+  group: construction
+  residencyYears: 0
+  annualSpots: 9500
+  startSalary: 28
+  midSalary: 45
+  peakSalary: 65
+  typicalPeak: 55
+  partTimeFlex: 4
+  procedureMix: 3
+  callSchedule: 1
+  adminBurden: 3
+  hoursWeek: 40
+  burnout: 22
+  partTimeFeasibility: 4
+  vacation: 4
+  careerLongevity: 7
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 8
+  automationRisk: 1
+  handsOnInsulation: 9
+  satisfaction: 67
+  chooseAgain: 60
+  intellectualStim: 4
+  varietyRepetition: 4
+  patientImpact: 5
+  physicalToll: 3
+  emotionalToll: 8
+  malpracticeLiability: 10
+  injuryCareerRisk: 5
+  aiRiskNow: 1
+  aiRiskMedium: 1
+  aiRiskLong: 1
+  aiNarrative: "Building fences and decks means working outdoors on uneven terrain, digging post holes, cutting lumber to fit unique yard layouts. Every property is different. Self-employment is very accessible in this trade, and homeowner demand stays strong through all economic cycles."
+  fellowshipOptions: "Deck design and engineering certification; composite decking manufacturer training; general contractor license; path to running own fence/deck company"
+  compModel: "Hourly $14-32/hr; piece rate per linear foot of fence common; project-based pricing for decks"
+  revPerPatientVisit: "N/A — average fence install $3K-6K; deck build $8K-20K for company"
+  dailyWorkflow: "Layout and marking, post hole digging or augering, setting posts in concrete, cutting and attaching rails and pickets, deck framing, decking installation"
+  patientVolume: "1 fence per day or multi-day deck projects"
+  supportStaffModel: "Two to three person crews; company owner often works on jobs while managing business"
+  geographicDemandNotes: "Suburban residential areas everywhere; strongest in housing growth markets and areas with HOA requirements"
+  telehealthPotential: 1
+  genderDistribution: "~95% men"
+
+- name: "Auto Body Technician"
+  group: automotive_diesel
+  residencyYears: 0
+  annualSpots: 14500
+  startSalary: 30
+  midSalary: 50
+  peakSalary: 70
+  typicalPeak: 60
+  partTimeFlex: 3
+  procedureMix: 6
+  callSchedule: 1
+  adminBurden: 5
+  hoursWeek: 42
+  burnout: 28
+  partTimeFeasibility: 3
+  vacation: 4
+  careerLongevity: 7
+  malpracticeFreq: 9
+  malpracticeCost: 1
+  geographicFlex: 8
+  automationRisk: 2
+  handsOnInsulation: 8
+  satisfaction: 63
+  chooseAgain: 55
+  intellectualStim: 5
+  varietyRepetition: 5
+  patientImpact: 4
+  physicalToll: 4
+  emotionalToll: 7
+  malpracticeLiability: 9
+  injuryCareerRisk: 5
+  aiRiskNow: 1
+  aiRiskMedium: 2
+  aiRiskLong: 3
+  aiNarrative: "Auto body repair involves assessing unique collision damage, pulling dents, welding panels, matching paint colors, and blending finishes — highly variable work that resists automation. AI helps with damage estimation and color matching, but the physical repair work stays human. ADAS recalibration is a growing skill requirement."
+  fellowshipOptions: "ASE collision repair certifications; I-CAR training levels (Gold, Platinum); paint and refinish specialist; estimator and shop manager pathway"
+  compModel: "Flat rate per job based on insurance labor times; hourly $15-34/hr; experienced techs can flag 50+ hours in a 40-hour week"
+  revPerPatientVisit: "N/A — average collision repair $3K-8K billed to insurance"
+  dailyWorkflow: "Damage assessment, disassembly, structural pulling, panel replacement, body filler and sanding, priming, painting, reassembly, quality checks"
+  patientVolume: "2-4 vehicles in progress simultaneously"
+  supportStaffModel: "Body tech, painter, detailer, parts coordinator; shop manager handles estimates and insurance"
+  geographicDemandNotes: "Every metro area — collision shops are everywhere; hail-prone regions generate seasonal surges"
+  telehealthPotential: 1
+  genderDistribution: "~95% men"
+
+- name: "Small Engine Mechanic"
+  group: automotive_diesel
+  residencyYears: 0
+  annualSpots: 7800
+  startSalary: 27
+  midSalary: 43
+  peakSalary: 60
+  typicalPeak: 50
+  partTimeFlex: 5
+  procedureMix: 5
+  callSchedule: 1
+  adminBurden: 4
+  hoursWeek: 40
+  burnout: 20
+  partTimeFeasibility: 5
+  vacation: 4
+  careerLongevity: 8
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 7
+  automationRisk: 2
+  handsOnInsulation: 8
+  satisfaction: 70
+  chooseAgain: 62
+  intellectualStim: 5
+  varietyRepetition: 5
+  patientImpact: 4
+  physicalToll: 5
+  emotionalToll: 9
+  malpracticeLiability: 10
+  injuryCareerRisk: 7
+  aiRiskNow: 1
+  aiRiskMedium: 2
+  aiRiskLong: 3
+  aiNarrative: "Small engine work covers lawn mowers, chainsaws, ATVs, snowmobiles, outboard motors — each with unique problems. Diagnostic tools are getting smarter, but the physical teardown, parts replacement, and reassembly are fully manual. The shift toward battery-powered equipment could reduce some demand long-term."
+  fellowshipOptions: "EETC small engine certification; marine technician (Mercury, Yamaha) credentials; power equipment dealer specialist; path to owning repair shop"
+  compModel: "Hourly $13-29/hr; flat rate per repair common; seasonal peaks in spring and fall"
+  revPerPatientVisit: "N/A — typical repair $100-500 per piece of equipment"
+  dailyWorkflow: "Diagnosing engine issues, carburetor rebuilds, ignition repair, blade sharpening, oil changes, tune-ups, parts ordering, customer pickup"
+  patientVolume: "4-8 pieces of equipment per day"
+  supportStaffModel: "Often solo operation or small shop with two to three techs and front counter person"
+  geographicDemandNotes: "Suburban and rural areas — anywhere with lawns, boats, or recreational vehicles; seasonal demand spikes"
+  telehealthPotential: 1
+  genderDistribution: "~95% men"
+
+- name: "Paving Equipment Operator"
+  group: heavy_equipment
+  residencyYears: 0
+  annualSpots: 4500
+  startSalary: 32
+  midSalary: 52
+  peakSalary: 72
+  typicalPeak: 62
+  partTimeFlex: 1
+  procedureMix: 3
+  callSchedule: 2
+  adminBurden: 2
+  hoursWeek: 45
+  burnout: 30
+  partTimeFeasibility: 1
+  vacation: 3
+  careerLongevity: 7
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 6
+  automationRisk: 3
+  handsOnInsulation: 7
+  satisfaction: 62
+  chooseAgain: 55
+  intellectualStim: 4
+  varietyRepetition: 3
+  patientImpact: 5
+  physicalToll: 4
+  emotionalToll: 7
+  malpracticeLiability: 10
+  injuryCareerRisk: 5
+  aiRiskNow: 1
+  aiRiskMedium: 2
+  aiRiskLong: 4
+  aiNarrative: "GPS-guided paving machines are already improving precision, and autonomous equipment is in development. However, real-world paving involves unpredictable site conditions, traffic management, and material variability that keep operators essential. Government infrastructure spending sustains strong demand."
+  fellowshipOptions: "NCCER heavy equipment operator certification; CDL-A license for transport; roller and compactor specialist; foreman and superintendent pathway"
+  compModel: "Hourly $16-35/hr; prevailing wage on government projects significantly higher; overtime common during paving season"
+  revPerPatientVisit: "N/A — paving contracts $50K-500K+ per project for company"
+  dailyWorkflow: "Pre-operation equipment inspection, loading asphalt, operating paver or roller, monitoring material temperature, maintaining grade, end-of-day cleanup"
+  patientVolume: "Continuous operation on active paving project for full shift"
+  supportStaffModel: "Paving crew of 6-12 — operator, screedman, rakers, roller operators, dump truck drivers, flagger"
+  geographicDemandNotes: "Seasonal in northern states (spring through fall); year-round in south; infrastructure bill funding creating nationwide demand"
+  telehealthPotential: 1
+  genderDistribution: "~97% men"
+
+- name: "Landscape Technician"
+  group: specialty_trades
+  residencyYears: 0
+  annualSpots: 42000
+  startSalary: 26
+  midSalary: 38
+  peakSalary: 52
+  typicalPeak: 45
+  partTimeFlex: 5
+  procedureMix: 3
+  callSchedule: 1
+  adminBurden: 2
+  hoursWeek: 42
+  burnout: 28
+  partTimeFeasibility: 5
+  vacation: 3
+  careerLongevity: 6
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 8
+  automationRisk: 2
+  handsOnInsulation: 8
+  satisfaction: 62
+  chooseAgain: 52
+  intellectualStim: 4
+  varietyRepetition: 3
+  patientImpact: 5
+  physicalToll: 2
+  emotionalToll: 8
+  malpracticeLiability: 10
+  injuryCareerRisk: 4
+  aiRiskNow: 1
+  aiRiskMedium: 2
+  aiRiskLong: 3
+  aiNarrative: "Robotic mowers handle flat lawns, but real landscaping — grading, planting, hardscaping, irrigation repair, tree work — requires human skill on unique terrain. Design software uses AI but installation stays manual. Self-employment is highly accessible."
+  fellowshipOptions: "Landscape industry certified technician; irrigation specialist certification; pesticide applicator license; hardscape installer certification; path to landscape business owner"
+  compModel: "Hourly $13-25/hr for crew; self-employed charge $40-65/hr; seasonal income with winter slowdown in northern states"
+  revPerPatientVisit: "N/A — weekly mowing route $30-60 per yard; landscape install projects $2K-20K"
+  dailyWorkflow: "Mowing, edging, trimming, mulching, planting, irrigation system work, hardscape installation, leaf and debris removal"
+  patientVolume: "8-15 maintenance stops per day or 1 install project"
+  supportStaffModel: "Crews of 2-4 with crew lead; company owner manages scheduling and sales"
+  geographicDemandNotes: "Everywhere with yards — seasonal in northern states, year-round in south; fastest growing in Sun Belt suburbs"
+  telehealthPotential: 1
+  genderDistribution: "~90% men"
+
+- name: "Pest Control Technician"
+  group: specialty_trades
+  residencyYears: 0
+  annualSpots: 13400
+  startSalary: 28
+  midSalary: 45
+  peakSalary: 60
+  typicalPeak: 52
+  partTimeFlex: 3
+  procedureMix: 4
+  callSchedule: 3
+  adminBurden: 5
+  hoursWeek: 42
+  burnout: 22
+  partTimeFeasibility: 3
+  vacation: 4
+  careerLongevity: 8
+  malpracticeFreq: 8
+  malpracticeCost: 2
+  geographicFlex: 8
+  automationRisk: 1
+  handsOnInsulation: 9
+  satisfaction: 65
+  chooseAgain: 58
+  intellectualStim: 5
+  varietyRepetition: 4
+  patientImpact: 6
+  physicalToll: 5
+  emotionalToll: 7
+  malpracticeLiability: 8
+  injuryCareerRisk: 6
+  aiRiskNow: 1
+  aiRiskMedium: 1
+  aiRiskLong: 2
+  aiNarrative: "Pest control requires inspecting unique structures, identifying pest species, and applying treatments in crawl spaces, attics, and wall voids. Every home is different. AI can optimize routing and scheduling, but the inspection and treatment work is irreplaceably human. Recurring service contracts provide income stability."
+  fellowshipOptions: "State pesticide applicator license (required); QualityPro certification; termite specialist; fumigation license; branch manager and franchise owner pathway"
+  compModel: "Hourly $14-29/hr; commission on new sales common; recurring service route model provides steady income"
+  revPerPatientVisit: "N/A — quarterly residential service $100-200 per visit; termite treatments $1K-3K"
+  dailyWorkflow: "Driving service route, inspecting properties, identifying pest activity, applying treatments, setting bait stations, customer education, documentation"
+  patientVolume: "8-14 service stops per day"
+  supportStaffModel: "Solo technicians on routes; branch office handles scheduling, sales, billing"
+  geographicDemandNotes: "Warm humid climates have year-round demand (FL, TX, SE states); seasonal spikes everywhere in spring/summer"
+  telehealthPotential: 1
+  genderDistribution: "~88% men"
+
+- name: "Locksmith"
+  group: specialty_trades
+  residencyYears: 0
+  annualSpots: 3200
+  startSalary: 28
+  midSalary: 48
+  peakSalary: 68
+  typicalPeak: 58
+  partTimeFlex: 5
+  procedureMix: 6
+  callSchedule: 5
+  adminBurden: 4
+  hoursWeek: 42
+  burnout: 20
+  partTimeFeasibility: 5
+  vacation: 4
+  careerLongevity: 9
+  malpracticeFreq: 9
+  malpracticeCost: 1
+  geographicFlex: 8
+  automationRisk: 3
+  handsOnInsulation: 7
+  satisfaction: 72
+  chooseAgain: 65
+  intellectualStim: 6
+  varietyRepetition: 6
+  patientImpact: 6
+  physicalToll: 6
+  emotionalToll: 7
+  malpracticeLiability: 9
+  injuryCareerRisk: 7
+  aiRiskNow: 1
+  aiRiskMedium: 2
+  aiRiskLong: 4
+  aiNarrative: "Traditional lock picking and rekeying are automation-proof, but the shift toward electronic and smart locks means locksmiths must adapt. Those who learn electronic access control, key fob programming, and smart lock installation will thrive. Emergency lockout calls keep mobile locksmiths in steady demand."
+  fellowshipOptions: "ALOA certified registered locksmith; certified master locksmith; electronic access control certification; safe technician credential; path to mobile locksmith business owner"
+  compModel: "Hourly $14-33/hr; emergency lockout calls $75-250 each; self-employed locksmiths earn more per call"
+  revPerPatientVisit: "N/A — lockout service $75-250; rekey $15-25 per lock; commercial access control installs $2K-10K"
+  dailyWorkflow: "Emergency lockout calls, rekeying locks, installing deadbolts, key cutting, commercial lock maintenance, electronic access control programming, safe work"
+  patientVolume: "5-10 service calls per day"
+  supportStaffModel: "Mostly solo mobile operation from service van; larger shops have storefront with two to four techs"
+  geographicDemandNotes: "Every city and town needs locksmiths; urban areas have more volume; commercial and institutional work in metros"
+  telehealthPotential: 1
+  genderDistribution: "~90% men"
+
+- name: "General Maintenance Technician"
+  group: specialty_trades
+  residencyYears: 0
+  annualSpots: 154000
+  startSalary: 28
+  midSalary: 49
+  peakSalary: 65
+  typicalPeak: 55
+  partTimeFlex: 4
+  procedureMix: 7
+  callSchedule: 4
+  adminBurden: 5
+  hoursWeek: 40
+  burnout: 22
+  partTimeFeasibility: 4
+  vacation: 5
+  careerLongevity: 8
+  malpracticeFreq: 9
+  malpracticeCost: 1
+  geographicFlex: 9
+  automationRisk: 1
+  handsOnInsulation: 9
+  satisfaction: 68
+  chooseAgain: 60
+  intellectualStim: 5
+  varietyRepetition: 7
+  patientImpact: 5
+  physicalToll: 4
+  emotionalToll: 7
+  malpracticeLiability: 9
+  injuryCareerRisk: 6
+  aiRiskNow: 1
+  aiRiskMedium: 1
+  aiRiskLong: 2
+  aiNarrative: "Maintenance techs fix everything — plumbing, electrical, drywall, painting, appliances, HVAC basics. The extreme variety of tasks and unpredictable environments make this one of the hardest jobs to automate. Smart building sensors may help with diagnostics, but the repair work is entirely manual."
+  fellowshipOptions: "BOMA building systems maintenance certification; EPA 608 refrigerant handling; CPO pool operator; building engineer pathway; facilities manager advancement"
+  compModel: "Hourly $14-37/hr; salaried positions at larger properties $35K-65K; on-call stipends common"
+  revPerPatientVisit: "N/A — staff position; handyman services charge $50-100/hr"
+  dailyWorkflow: "Work order queue — fixing leaks, patching walls, replacing fixtures, unclogging drains, light electrical, painting touch-ups, appliance repair, preventive maintenance rounds"
+  patientVolume: "5-15 work orders per day depending on facility size"
+  supportStaffModel: "Solo at small properties; team of specialists at large facilities or campuses with maintenance supervisor"
+  geographicDemandNotes: "Literally everywhere — apartments, offices, schools, hospitals, hotels, retail all need maintenance staff; 1.6 million jobs nationwide"
+  telehealthPotential: 1
+  genderDistribution: "~92% men"

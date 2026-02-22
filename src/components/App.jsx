@@ -8,6 +8,7 @@ import lawData from "../data/law.json";
 import engineeringData from "../data/engineering.json";
 import businessData from "../data/business.json";
 import governmentData from "../data/government.json";
+import tradesData from "../data/trades.json";
 import {
   buildNetWorthFromTracks,
   buildRadarFromTracks,
@@ -31,6 +32,7 @@ const FAMILIES = {
   engineering: engineeringData,
   business: businessData,
   government: governmentData,
+  trades: tradesData,
 };
 
 const MAX_PICKS = 6;

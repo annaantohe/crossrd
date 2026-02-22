@@ -1,0 +1,380 @@
+# L1 profession-level category scores for trades
+professions:
+  Trade School:
+    l1_only: {}
+    l1_data_points:
+      1:
+        scores: [10, 9, 10, 8]
+        count: 4
+        average: 9.25
+        labels:
+        - Years of undergrad required (none — HS diploma only)
+        - Test difficulty (none or basic aptitude test)
+        - GPA expectations (none — open enrollment trade schools)
+        - Physical fitness requirements (moderate — must handle tools/materials)
+        data_point_ids: [2, 4, 5, 6]
+      2:
+        scores: [9, 9]
+        count: 2
+        average: 9.0
+        labels:
+        - Acceptance rate (open enrollment — anyone can start)
+        - Career changers welcome? (absolutely, all ages and backgrounds)
+        data_point_ids: [10, 13]
+      3:
+        scores: [9, 9, 9]
+        count: 3
+        average: 9.0
+        labels:
+        - Duration of training (3-12 months certificate program)
+        - Practical experience timing (immediate hands-on from day one)
+        - Prestige matters? (no — skills and hustle matter most)
+        data_point_ids: [16, 18, 23]
+      4:
+        scores: [9, 9]
+        count: 2
+        average: 9.0
+        labels:
+        - Post-grad training (none — start working immediately)
+        - Total time to earning (under 1 year from enrollment to paycheck)
+        data_point_ids: [24, 32]
+      5:
+        scores: [9, 9, 9, 10, 10]
+        count: 5
+        average: 9.4
+        labels:
+        - Average tuition ($5-15K total for certificate)
+        - Average debt at graduation ($5-10K, very manageable)
+        - Debt-to-income ratio (excellent — low debt, immediate income)
+        - Time to break even (under 1 year)
+        - Opportunity cost (minimal — earning at 18-19)
+        data_point_ids: [33, 34, 35, 38, 40]
+      6:
+        scores: [4, 4, 5, 4, 4, 6]
+        count: 6
+        average: 4.5
+        labels:
+        - Professional scope (narrow — specific trade skills)
+        - Scope variation (varies by employer and state licensing)
+        - Independent practice (possible but need experience first)
+        - Authority level (limited — supervised by journeymen)
+        - Ability to specialize (moderate — within trade niche)
+        - Competition from adjacent fields (moderate — unlicensed competition)
+        data_point_ids: [41, 42, 43, 44, 45, 46]
+      7:
+        scores: [5, 4]
+        count: 2
+        average: 4.5
+        labels:
+        - Business ownership potential (moderate — can start small)
+        - Compensation trends (steady growth with construction demand)
+        data_point_ids: [52, 53]
+      8:
+        scores: [4]
+        count: 1
+        average: 4.0
+        labels:
+        - Profession-level proxy score (physically demanding, repetitive tasks)
+        data_point_ids: [null]
+      9:
+        scores: [5]
+        count: 1
+        average: 5.0
+        labels:
+        - Profession-level proxy score (decent hours, outdoor work, seasonal variation)
+        data_point_ids: [null]
+      10:
+        scores: [8, 8, 7, 9]
+        count: 4
+        average: 8.0
+        labels:
+        - Current job market (strong — skilled labor shortage)
+        - Projected demand 10-20 years (growing — infrastructure investment)
+        - Impact of demographic changes (aging workforce = more openings)
+        - Vulnerability to offshoring (zero — must be on-site)
+        data_point_ids: [71, 72, 74, 75]
+      11:
+        scores: [9, 9, 9]
+        count: 3
+        average: 9.0
+        labels:
+        - AI impact on hands-on work (very low — robots can't navigate job sites)
+        - AI as tool vs replacement (tool only — enhances diagnostics)
+        - Timeline of disruption (very long — physical trades are last to automate)
+        data_point_ids: [77, 79, 80]
+      12:
+        scores: [5]
+        count: 1
+        average: 5.0
+        labels:
+        - Ease of pivoting (moderate — skills transfer within construction)
+        data_point_ids: [91]
+      13:
+        scores: [4, 3, 3, 5]
+        count: 4
+        average: 3.75
+        labels:
+        - Pay equity (hourly rate is equal, but fewer women in trades)
+        - Parental leave norms (limited — depends on employer)
+        - Culture (male-dominated, slowly changing)
+        - Welcoming to non-traditional? (improving, but still challenging)
+        data_point_ids: [95, 96, 98, 100]
+      14:
+        scores: [3]
+        count: 1
+        average: 3.0
+        labels:
+        - Physical danger and injury risk (high for roofing, concrete, outdoor trades)
+        data_point_ids: [104]
+  Apprenticeship:
+    l1_only: {}
+    l1_data_points:
+      1:
+        scores: [8, 7, 8, 7]
+        count: 4
+        average: 7.5
+        labels:
+        - Years of undergrad required (none — HS diploma, some require AAS)
+        - Test difficulty (aptitude tests, IBEW NJATC, union entrance exams)
+        - GPA expectations (minimal — 2.0+ typically, algebra competency)
+        - Physical fitness requirements (high — demanding physical work)
+        data_point_ids: [2, 4, 5, 6]
+      2:
+        scores: [6, 8]
+        count: 2
+        average: 7.0
+        labels:
+        - Acceptance rate (competitive for top unions — IBEW, elevator, ironworkers)
+        - Career changers welcome? (yes, many enter from other careers)
+        data_point_ids: [10, 13]
+      3:
+        scores: [6, 8, 8]
+        count: 3
+        average: 7.33
+        labels:
+        - Duration of training (3-5 year apprenticeship, earn while learning)
+        - Practical experience timing (hands-on from day one of apprenticeship)
+        - Prestige matters? (union affiliation matters more than school)
+        data_point_ids: [16, 18, 23]
+      4:
+        scores: [5, 6]
+        count: 2
+        average: 5.5
+        labels:
+        - Post-grad training (3-5yr apprenticeship is the training)
+        - Total years to journeyman (4-5 years average)
+        data_point_ids: [24, 32]
+      5:
+        scores: [9, 9, 8, 8, 8]
+        count: 5
+        average: 8.4
+        labels:
+        - Average tuition ($0 — apprenticeship training is free/paid)
+        - Average debt at graduation ($0-5K — tools and union dues only)
+        - Debt-to-income ratio (excellent — earning $20K+ during training)
+        - Time to break even (immediate — paid from day one)
+        - Opportunity cost (low — earning while peers are in college)
+        data_point_ids: [33, 34, 35, 38, 40]
+      6:
+        scores: [6, 5, 5, 6, 6, 7]
+        count: 6
+        average: 5.83
+        labels:
+        - Professional scope (defined by trade and license type)
+        - Scope variation (state licensing varies significantly)
+        - Independent practice (possible after journeyman certification)
+        - Authority level (full journeyman authority within trade)
+        - Ability to specialize (commercial, industrial, residential niches)
+        - Competition (low — licensing barriers protect skilled trades)
+        data_point_ids: [41, 42, 43, 44, 45, 46]
+      7:
+        scores: [7, 6]
+        count: 2
+        average: 6.5
+        labels:
+        - Business ownership potential (high — many start own companies)
+        - Compensation trends (strong growth with skilled labor shortage)
+        data_point_ids: [52, 53]
+      8:
+        scores: [5]
+        count: 1
+        average: 5.0
+        labels:
+        - Profession-level proxy score (hands-on work, varied job sites)
+        data_point_ids: [null]
+      9:
+        scores: [5]
+        count: 1
+        average: 5.0
+        labels:
+        - Profession-level proxy score (40-50hr weeks, union protections, seasonal)
+        data_point_ids: [null]
+      10:
+        scores: [9, 9, 8, 9]
+        count: 4
+        average: 8.75
+        labels:
+        - Current job market (excellent — massive skilled labor shortage)
+        - Projected demand (very strong — infrastructure bill, retirements)
+        - Impact of demographic changes (aging trades workforce = huge demand)
+        - Vulnerability to offshoring (zero — must be physically present)
+        data_point_ids: [71, 72, 74, 75]
+      11:
+        scores: [9, 9, 9]
+        count: 3
+        average: 9.0
+        labels:
+        - AI impact (very low — unpredictable environments, custom work)
+        - AI as tool vs replacement (tool only — diagnostic aids, not replacement)
+        - Timeline of disruption (decades away — physical trades are robot-proof)
+        data_point_ids: [77, 79, 80]
+      12:
+        scores: [6]
+        count: 1
+        average: 6.0
+        labels:
+        - Ease of pivoting (good — licensed trades transfer across employers)
+        data_point_ids: [91]
+      13:
+        scores: [4, 3, 3, 5]
+        count: 4
+        average: 3.75
+        labels:
+        - Pay equity (union scale is equal, non-union can vary)
+        - Parental leave norms (union contracts vary, often limited)
+        - Culture (heavily male-dominated, brotherhood culture)
+        - Welcoming to non-traditional? (improving with programs like NAWIC)
+        data_point_ids: [95, 96, 98, 100]
+      14:
+        scores: [4]
+        count: 1
+        average: 4.0
+        labels:
+        - Physical danger (moderate-high — electrical, heights, heavy lifting)
+        data_point_ids: [104]
+  Contractor:
+    l1_only: {}
+    l1_data_points:
+      1:
+        scores: [5, 5, 6, 8]
+        count: 4
+        average: 6.0
+        labels:
+        - Years of undergrad required (4yr BS in construction management or related)
+        - Test difficulty (college admissions, PE/certification exams)
+        - GPA expectations (3.0+ for competitive programs)
+        - Physical fitness requirements (low — office/site supervision)
+        data_point_ids: [2, 4, 5, 6]
+      2:
+        scores: [5, 7]
+        count: 2
+        average: 6.0
+        labels:
+        - Acceptance rate (moderate — BS programs accessible, management competitive)
+        - Career changers welcome? (yes, experienced tradespeople can advance)
+        data_point_ids: [10, 13]
+      3:
+        scores: [6, 6, 5]
+        count: 3
+        average: 5.67
+        labels:
+        - Duration of program (4yr bachelor's degree)
+        - Practical experience timing (internships, co-ops during school)
+        - Prestige matters? (program reputation helps, experience matters more)
+        data_point_ids: [16, 18, 23]
+      4:
+        scores: [8, 7]
+        count: 2
+        average: 7.5
+        labels:
+        - Post-grad training (none — direct to management after BS)
+        - Total years to independent practice (4-5 years)
+        data_point_ids: [24, 32]
+      5:
+        scores: [6, 6, 7, 7, 6]
+        count: 5
+        average: 6.4
+        labels:
+        - Average tuition ($22K/yr state school)
+        - Average debt at graduation ($40K avg)
+        - Debt-to-income ratio (good — management salaries pay it off fast)
+        - Time to break even (3-4 years)
+        - Opportunity cost (moderate — 4yr undergrad)
+        data_point_ids: [33, 34, 35, 38, 40]
+      6:
+        scores: [7, 6, 7, 7, 7, 5]
+        count: 6
+        average: 6.5
+        labels:
+        - Professional scope (broad — manage entire projects and teams)
+        - Scope variation (varies by company size and project type)
+        - Independent practice (high — can start own contracting firm)
+        - Authority level (significant — budget, schedule, safety decisions)
+        - Ability to specialize (residential, commercial, industrial, highway)
+        - Competition (moderate — experience and reputation matter most)
+        data_point_ids: [41, 42, 43, 44, 45, 46]
+      7:
+        scores: [8, 7]
+        count: 2
+        average: 7.5
+        labels:
+        - Business ownership potential (very high — general contracting)
+        - Compensation trends (strong — construction boom, management premium)
+        data_point_ids: [52, 53]
+      8:
+        scores: [7]
+        count: 1
+        average: 7.0
+        labels:
+        - Profession-level proxy score (mix of site visits and office/planning work)
+        data_point_ids: [null]
+      9:
+        scores: [6]
+        count: 1
+        average: 6.0
+        labels:
+        - Profession-level proxy score (long hours during projects but good benefits)
+        data_point_ids: [null]
+      10:
+        scores: [8, 8, 7, 9]
+        count: 4
+        average: 8.0
+        labels:
+        - Current job market (strong — construction management in high demand)
+        - Projected demand (growing — infrastructure investment, urbanization)
+        - Impact of demographic changes (aging management workforce = openings)
+        - Vulnerability to offshoring (zero — must be on-site)
+        data_point_ids: [71, 72, 74, 75]
+      11:
+        scores: [6, 7, 7]
+        count: 3
+        average: 6.67
+        labels:
+        - AI impact (moderate — BIM, estimating software, but judgment essential)
+        - AI as tool vs replacement (tool — enhances project management)
+        - Timeline of disruption (moderate — analytical tasks first, supervision last)
+        data_point_ids: [77, 79, 80]
+      12:
+        scores: [7]
+        count: 1
+        average: 7.0
+        labels:
+        - Ease of pivoting (high — management skills transfer to many industries)
+        data_point_ids: [91]
+      13:
+        scores: [5, 5, 4, 6]
+        count: 4
+        average: 5.0
+        labels:
+        - Pay equity (salaried positions have less gap than hourly)
+        - Parental leave norms (company-dependent, improving)
+        - Culture (more inclusive than field trades, still male-dominated)
+        - Welcoming to non-traditional? (yes — diversity valued in management)
+        data_point_ids: [95, 96, 98, 100]
+      14:
+        scores: [7]
+        count: 1
+        average: 7.0
+        labels:
+        - Physical danger (low — office/supervision work, some site risk)
+        data_point_ids: [104]

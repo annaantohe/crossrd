@@ -1,0 +1,147 @@
+# config.yaml — trades & skilled labor profession family
+
+name: "Trades & Skilled Labor"
+slug: trades
+icon: "\U0001F527"
+headline: "Which Trade Should You Pursue?"
+subtitle: "A Data-Driven Guide"
+
+groups:
+  electrical:
+    label: "Electrical & Power"
+    icon: "\u26A1"
+    tagline: "you want to power the world"
+    description: "Electricians, linemen, solar installers, wind turbine techs, fire alarm systems"
+  plumbing_hvac:
+    label: "Plumbing & HVAC"
+    icon: "\U0001F6BF"
+    tagline: "you want to keep buildings comfortable"
+    description: "Plumbers, pipefitters, HVAC technicians, fire sprinkler fitters, refrigeration"
+  construction:
+    label: "Building & Construction"
+    icon: "\U0001F3D7\uFE0F"
+    tagline: "you want to build from the ground up"
+    description: "Carpenters, masons, roofers, painters, drywall, concrete, flooring, tile, glaziers"
+  welding_fabrication:
+    label: "Welding & Fabrication"
+    icon: "\U0001F525"
+    tagline: "you want to shape metal"
+    description: "Welders, sheet metal workers, boilermakers, CNC machinists, tool & die makers"
+  automotive_diesel:
+    label: "Automotive & Diesel"
+    icon: "\U0001F697"
+    tagline: "you want to keep machines running"
+    description: "Auto mechanics, diesel technicians, aircraft mechanics, auto body repair"
+  heavy_equipment:
+    label: "Heavy Equipment"
+    icon: "\U0001F3D7\uFE0F"
+    tagline: "you want to operate big machines"
+    description: "Crane operators, heavy equipment operators and mechanics, paving"
+  specialty_trades:
+    label: "Specialty Trades"
+    icon: "\U0001F511"
+    tagline: "you want a unique niche"
+    description: "Elevator constructors, millwrights, water treatment, locksmithing, landscaping"
+  management_inspection:
+    label: "Management & Inspection"
+    icon: "\U0001F4CB"
+    tagline: "you want to run the project"
+    description: "Construction managers, building inspectors, safety managers, cost estimators"
+
+professions:
+  Trade School:
+    label: Trade School Graduate
+    color: "#F57F17"
+    annualGraduates: 300000
+  Apprenticeship:
+    label: Journeyman
+    color: "#2E7D32"
+    annualGraduates: 112000
+  Contractor:
+    label: "Contractor / BS"
+    color: "#1565C0"
+    annualGraduates: 50000
+
+key_overrides:
+  "Electrician":
+    key: electrician
+    color: "#F9A825"
+  "Elevator Constructor":
+    key: elevator_constructor
+    color: "#4A148C"
+  "Power Line Installer (Lineman)":
+    key: lineman
+    color: "#E65100"
+  "Construction Manager":
+    key: construction_manager
+    color: "#1565C0"
+  "Welder":
+    key: welder
+    color: "#B71C1C"
+  "Aircraft Mechanic (A&P)":
+    key: aircraft_mechanic
+    color: "#0D47A1"
+
+final_ranking:
+  - rank: 1
+    track: Electrician
+    key: electrician
+    note: Best all-around trade — high demand, great pay, low AI risk
+  - rank: 2
+    track: Elevator Constructor
+    key: elevator_constructor
+    note: Highest-paid trade in America
+  - rank: 3
+    track: Power Line Installer (Lineman)
+    key: lineman
+    note: High pay, essential infrastructure, outdoor adventure
+  - rank: 4
+    track: Construction Manager
+    key: construction_manager
+    note: Lead entire projects, six-figure salary
+  - rank: 5
+    track: Welder
+    key: welder
+    note: Versatile skill, work anywhere in the world
+  - rank: 6
+    track: Aircraft Mechanic (A&P)
+    key: aircraft_mechanic
+    note: Aviation career without a pilot's license
+
+decision_tree:
+  q: "Do you want to work with your hands every day, or eventually manage projects?"
+  "yes":
+    q: "What interests you most?"
+    options:
+      - label: "\u26A1 Electricity and power systems"
+        result: electrician
+      - label: "\U0001F527 Vehicles and engines"
+        result: aircraft_mechanic
+      - label: "\U0001F525 Metal and fabrication"
+        result: welder
+      - label: "\U0001F3D7\uFE0F Building things at heights"
+        q: "Indoors or outdoors?"
+        procedural: elevator_constructor
+        variety: lineman
+  "no":
+    result: construction_manager
+
+decision_tree_results:
+  electrician:
+    tagline: "Power everything"
+    stat: "$40K start \u2022 $90K+ journeyman \u2022 4-5yr apprenticeship"
+  elevator_constructor:
+    tagline: "The highest-paid trade in America"
+    stat: "$55K start \u2022 $107K+ journeyman \u2022 4yr apprenticeship"
+  lineman:
+    tagline: "Keep the lights on"
+    stat: "$50K start \u2022 $93K+ journeyman \u2022 storm pay + OT"
+  construction_manager:
+    tagline: "Run the whole project"
+    stat: "$65K start \u2022 $107K+ senior \u2022 BS in construction mgmt"
+  welder:
+    tagline: "Build anything from metal"
+    stat: "$35K start \u2022 $75K+ certified \u2022 travel jobs pay more"
+  aircraft_mechanic:
+    tagline: "Keep aircraft flying"
+    stat: "$45K start \u2022 $79K+ A&P certified \u2022 FAA licensed"

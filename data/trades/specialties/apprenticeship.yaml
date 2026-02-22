@@ -1,0 +1,1264 @@
+# Apprenticeship specialties — 28 careers across 7 groups
+# Formal 3-5yr registered apprenticeship or AAS degree
+profession: Apprenticeship
+specialties:
+
+- name: Electrician
+  group: electrical
+  residencyYears: 5
+  annualSpots: 81000
+  startSalary: 40
+  midSalary: 62
+  peakSalary: 105
+  typicalPeak: 90
+  partTimeFlex: 3
+  procedureMix: 7
+  callSchedule: 5
+  adminBurden: 4
+  hoursWeek: 42
+  burnout: 28
+  partTimeFeasibility: 5
+  vacation: 3
+  careerLongevity: 8
+  malpracticeFreq: 9
+  malpracticeCost: 1
+  geographicFlex: 9
+  automationRisk: 2
+  handsOnInsulation: 9
+  satisfaction: 72
+  chooseAgain: 70
+  intellectualStim: 7
+  varietyRepetition: 7
+  patientImpact: 6
+  physicalToll: 5
+  emotionalToll: 8
+  malpracticeLiability: 8
+  injuryCareerRisk: 5
+  aiRiskNow: 1
+  aiRiskMedium: 1
+  aiRiskLong: 2
+  aiNarrative: "Electrical work demands hands-on problem solving in unique environments. AI and robotics can assist with design and load calculations, but pulling wire through walls and troubleshooting live circuits stays fully human."
+  fellowshipOptions: Master electrician license, electrical contractor license, controls and automation specialist, estimator, electrical inspector
+  compModel: Union scale hourly + benefits; or non-union shop hourly; self-employed contractors bill per job
+  revPerPatientVisit: "$75-150/hr billed to customer per electrician"
+  dailyWorkflow: Arrive at jobsite 6-7am, read blueprints, rough-in or finish wiring, inspections, troubleshoot service calls
+  patientVolume: "3-6 service calls or 1 large project per day"
+  supportStaffModel: Apprentice helper, journeyman crews of 2-4 on commercial jobs
+  geographicDemandNotes: Strong demand everywhere; especially high in Sun Belt growth markets and areas with aging housing stock
+  telehealthPotential: 1
+  genderDistribution: "~3% women; slowly increasing"
+
+- name: "Power Line Installer (Lineman)"
+  group: electrical
+  residencyYears: 4
+  annualSpots: 22000
+  startSalary: 50
+  midSalary: 93
+  peakSalary: 140
+  typicalPeak: 120
+  partTimeFlex: 1
+  procedureMix: 8
+  callSchedule: 2
+  adminBurden: 3
+  hoursWeek: 50
+  burnout: 35
+  partTimeFeasibility: 1
+  vacation: 3
+  careerLongevity: 5
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 7
+  automationRisk: 1
+  handsOnInsulation: 10
+  satisfaction: 75
+  chooseAgain: 72
+  intellectualStim: 6
+  varietyRepetition: 6
+  patientImpact: 8
+  physicalToll: 2
+  emotionalToll: 4
+  malpracticeLiability: 9
+  injuryCareerRisk: 3
+  aiRiskNow: 1
+  aiRiskMedium: 1
+  aiRiskLong: 1
+  aiNarrative: "Climbing poles and stringing high-voltage lines in all weather is impossible to automate. Drones assist with inspections but the actual line work remains one of the most human-dependent trades."
+  fellowshipOptions: Journeyman lineman, lead lineman, line crew foreman, transmission specialist, storm restoration coordinator, utility supervisor
+  compModel: Union hourly scale + overtime + storm pay; utility company salary; per diem for travel crews
+  revPerPatientVisit: "Utility rate-based; storm work billed at premium overtime rates"
+  dailyWorkflow: Pre-dawn crew meeting, drive to line location, set poles or string wire, de-energize and re-energize circuits, storm response on call
+  patientVolume: "1-3 pole sets or spans per day; variable during storm season"
+  supportStaffModel: Line crew of 3-5 (foreman, journeymen, apprentices, groundman), bucket trucks and digger derricks
+  geographicDemandNotes: Extreme demand in rural electrification, storm-prone regions (Southeast, Gulf Coast), and areas expanding renewable grid connections
+  telehealthPotential: 1
+  genderDistribution: "~2% women"
+
+- name: Fire Alarm Technician
+  group: electrical
+  residencyYears: 3
+  annualSpots: 12000
+  startSalary: 38
+  midSalary: 57
+  peakSalary: 85
+  typicalPeak: 72
+  partTimeFlex: 3
+  procedureMix: 6
+  callSchedule: 4
+  adminBurden: 5
+  hoursWeek: 42
+  burnout: 22
+  partTimeFeasibility: 4
+  vacation: 4
+  careerLongevity: 8
+  malpracticeFreq: 9
+  malpracticeCost: 1
+  geographicFlex: 8
+  automationRisk: 3
+  handsOnInsulation: 8
+  satisfaction: 68
+  chooseAgain: 65
+  intellectualStim: 6
+  varietyRepetition: 5
+  patientImpact: 7
+  physicalToll: 6
+  emotionalToll: 8
+  malpracticeLiability: 7
+  injuryCareerRisk: 7
+  aiRiskNow: 1
+  aiRiskMedium: 2
+  aiRiskLong: 3
+  aiNarrative: "Fire alarm systems are getting smarter with addressable panels and networked monitoring, but installation, testing, and troubleshooting in buildings requires a human on-site. Growing code requirements keep demand steady."
+  fellowshipOptions: NICET certification levels I-IV, fire alarm designer, low-voltage contractor license, fire protection engineer collaboration, inspection authority
+  compModel: Hourly wage at alarm company or electrical contractor; some municipal positions are salaried with benefits
+  revPerPatientVisit: "$65-120/hr billed per technician for service and inspection"
+  dailyWorkflow: Drive to building, install or inspect fire alarm devices, program panels, pull low-voltage wire, file inspection reports with AHJ
+  patientVolume: "2-4 buildings inspected or 1 large install per day"
+  supportStaffModel: Solo or two-person crew; office dispatcher for scheduling service calls
+  geographicDemandNotes: Demand tracks new construction and code enforcement; strong in growing metro areas and jurisdictions with strict fire codes
+  telehealthPotential: 1
+  genderDistribution: "~5% women"
+
+- name: Wind Turbine Technician
+  group: electrical
+  residencyYears: 2
+  annualSpots: 7000
+  startSalary: 44
+  midSalary: 63
+  peakSalary: 95
+  typicalPeak: 82
+  partTimeFlex: 1
+  procedureMix: 7
+  callSchedule: 3
+  adminBurden: 4
+  hoursWeek: 45
+  burnout: 30
+  partTimeFeasibility: 1
+  vacation: 3
+  careerLongevity: 7
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 4
+  automationRisk: 2
+  handsOnInsulation: 9
+  satisfaction: 74
+  chooseAgain: 70
+  intellectualStim: 7
+  varietyRepetition: 5
+  patientImpact: 7
+  physicalToll: 3
+  emotionalToll: 6
+  malpracticeLiability: 9
+  injuryCareerRisk: 4
+  aiRiskNow: 1
+  aiRiskMedium: 1
+  aiRiskLong: 2
+  aiNarrative: "SCADA systems and predictive analytics help schedule maintenance, but climbing 300-foot towers and replacing gearboxes or blades is irreplaceably physical. Fastest-growing trade in America by percentage."
+  fellowshipOptions: Lead technician, site supervisor, turbine commissioning specialist, blade repair specialist, offshore wind transition, wind farm operations manager
+  compModel: Hourly or salaried at wind energy company; per diem for travel; overtime during peak installation seasons
+  revPerPatientVisit: "Service contracts valued at $40K-60K per turbine/yr; tech handles portion of that"
+  dailyWorkflow: Safety briefing, climb turbine nacelle, perform scheduled maintenance or repair, SCADA data review, descend, drive to next turbine
+  patientVolume: "1-3 turbines serviced per day depending on scope"
+  supportStaffModel: Two-person teams for safety; site has 3-8 techs per wind farm; centralized SCADA monitoring
+  geographicDemandNotes: Concentrated in Great Plains (Texas, Iowa, Oklahoma, Kansas), expanding to offshore East Coast; limited urban opportunities
+  telehealthPotential: 1
+  genderDistribution: "~5% women; growing with industry expansion"
+
+- name: Plumber
+  group: plumbing_hvac
+  residencyYears: 4
+  annualSpots: 48000
+  startSalary: 38
+  midSalary: 63
+  peakSalary: 110
+  typicalPeak: 90
+  partTimeFlex: 4
+  procedureMix: 7
+  callSchedule: 4
+  adminBurden: 4
+  hoursWeek: 43
+  burnout: 25
+  partTimeFeasibility: 5
+  vacation: 3
+  careerLongevity: 7
+  malpracticeFreq: 9
+  malpracticeCost: 1
+  geographicFlex: 9
+  automationRisk: 2
+  handsOnInsulation: 9
+  satisfaction: 70
+  chooseAgain: 68
+  intellectualStim: 6
+  varietyRepetition: 7
+  patientImpact: 7
+  physicalToll: 4
+  emotionalToll: 7
+  malpracticeLiability: 8
+  injuryCareerRisk: 6
+  aiRiskNow: 1
+  aiRiskMedium: 1
+  aiRiskLong: 2
+  aiNarrative: "Every building needs plumbing and every plumbing system is different. Robots cannot crawl through walls, dig under foundations, or diagnose leaks by feel. AI can help with estimating and scheduling but the wrench stays in human hands."
+  fellowshipOptions: Master plumber license, plumbing contractor, plumbing inspector, backflow prevention specialist, medical gas installer certification
+  compModel: Union hourly + benefits; non-union shop rate; self-employed service plumbers charge per job or hourly
+  revPerPatientVisit: "$85-175/hr billed to customer; emergency calls at premium"
+  dailyWorkflow: Load van with materials, drive to jobsite, rough-in or finish plumbing, service calls for repairs and drain clearing, code inspections
+  patientVolume: "3-6 service calls or 1 large rough-in per day"
+  supportStaffModel: Apprentice helper; commercial crews of 2-4; office handles dispatch and billing for service companies
+  geographicDemandNotes: Universal demand; especially strong in Sun Belt growth markets, remodeling-heavy areas, and regions with aging infrastructure
+  telehealthPotential: 1
+  genderDistribution: "~2% women; among lowest in trades"
+
+- name: Pipefitter/Steamfitter
+  group: plumbing_hvac
+  residencyYears: 5
+  annualSpots: 18000
+  startSalary: 42
+  midSalary: 68
+  peakSalary: 120
+  typicalPeak: 100
+  partTimeFlex: 2
+  procedureMix: 8
+  callSchedule: 3
+  adminBurden: 4
+  hoursWeek: 45
+  burnout: 30
+  partTimeFeasibility: 2
+  vacation: 3
+  careerLongevity: 7
+  malpracticeFreq: 9
+  malpracticeCost: 1
+  geographicFlex: 6
+  automationRisk: 2
+  handsOnInsulation: 9
+  satisfaction: 72
+  chooseAgain: 69
+  intellectualStim: 7
+  varietyRepetition: 6
+  patientImpact: 6
+  physicalToll: 3
+  emotionalToll: 7
+  malpracticeLiability: 8
+  injuryCareerRisk: 5
+  aiRiskNow: 1
+  aiRiskMedium: 1
+  aiRiskLong: 2
+  aiNarrative: "High-pressure piping systems in power plants, refineries, and industrial facilities demand precision fitting and welding that robots cannot replicate in the field. 3D modeling assists design but installation is fully manual."
+  fellowshipOptions: Master pipefitter, welding certifications (ASME, API), piping foreman, project superintendent, estimator, piping inspector
+  compModel: Union hourly scale + benefits; industrial contractor hourly; shutdown/turnaround work at premium rates with per diem
+  revPerPatientVisit: "$90-160/hr billed per fitter; industrial projects on lump-sum contracts"
+  dailyWorkflow: Read isometric drawings, measure and cut pipe, thread or weld joints, hang and support piping, pressure test systems, coordinate with other trades
+  patientVolume: "Measured in pipe footage installed: 50-200 ft/day depending on size and complexity"
+  supportStaffModel: Crews of 2-6 (fitters, welders, helpers); foreman per crew; field engineer for layout
+  geographicDemandNotes: Strongest near refineries (Gulf Coast), power plants, semiconductor fabs, pharmaceutical plants; willing to travel gets more work
+  telehealthPotential: 1
+  genderDistribution: "~3% women"
+
+- name: HVAC Technician
+  group: plumbing_hvac
+  residencyYears: 4
+  annualSpots: 38000
+  startSalary: 36
+  midSalary: 57
+  peakSalary: 95
+  typicalPeak: 80
+  partTimeFlex: 3
+  procedureMix: 7
+  callSchedule: 4
+  adminBurden: 5
+  hoursWeek: 43
+  burnout: 27
+  partTimeFeasibility: 4
+  vacation: 3
+  careerLongevity: 7
+  malpracticeFreq: 9
+  malpracticeCost: 1
+  geographicFlex: 9
+  automationRisk: 2
+  handsOnInsulation: 9
+  satisfaction: 68
+  chooseAgain: 66
+  intellectualStim: 7
+  varietyRepetition: 7
+  patientImpact: 6
+  physicalToll: 4
+  emotionalToll: 7
+  malpracticeLiability: 8
+  injuryCareerRisk: 6
+  aiRiskNow: 1
+  aiRiskMedium: 2
+  aiRiskLong: 2
+  aiNarrative: "Smart thermostats and building automation help monitor systems, but diagnosing refrigerant leaks, replacing compressors, and running ductwork through attics in July requires a human. Heat pump transition is creating massive demand."
+  fellowshipOptions: EPA 608 universal certification, NATE certification, controls specialist, commercial refrigeration, building automation systems, HVAC contractor license
+  compModel: Hourly at HVAC company + spiffs on equipment sales; union scale; self-employed contractors bill per job
+  revPerPatientVisit: "$85-150/hr service rate; equipment installs $3K-15K per job"
+  dailyWorkflow: Morning dispatch, drive to service calls, diagnose and repair heating/cooling systems, install new equipment, pull permits for new installs
+  patientVolume: "3-5 service calls or 1 equipment installation per day"
+  supportStaffModel: Solo for service; two-person crew for installs; dispatcher and parts warehouse support
+  geographicDemandNotes: Extreme demand in hot climates (South, Southwest); cold climates need heating techs; heat pump mandates driving growth everywhere
+  telehealthPotential: 1
+  genderDistribution: "~2% women"
+
+- name: Fire Sprinkler Fitter
+  group: plumbing_hvac
+  residencyYears: 4
+  annualSpots: 8000
+  startSalary: 40
+  midSalary: 60
+  peakSalary: 95
+  typicalPeak: 80
+  partTimeFlex: 2
+  procedureMix: 7
+  callSchedule: 4
+  adminBurden: 4
+  hoursWeek: 42
+  burnout: 22
+  partTimeFeasibility: 3
+  vacation: 4
+  careerLongevity: 8
+  malpracticeFreq: 9
+  malpracticeCost: 1
+  geographicFlex: 7
+  automationRisk: 2
+  handsOnInsulation: 9
+  satisfaction: 70
+  chooseAgain: 67
+  intellectualStim: 6
+  varietyRepetition: 5
+  patientImpact: 8
+  physicalToll: 4
+  emotionalToll: 8
+  malpracticeLiability: 7
+  injuryCareerRisk: 6
+  aiRiskNow: 1
+  aiRiskMedium: 1
+  aiRiskLong: 2
+  aiNarrative: "Fire suppression codes keep expanding, requiring more sprinkler installations in new and existing buildings. Every building layout is unique, making this hands-on trade highly resistant to automation."
+  fellowshipOptions: NICET certification levels I-IV, fire sprinkler contractor license, fire protection designer, inspection and testing specialist, foreman
+  compModel: Union hourly + benefits (UA Sprinkler Fitters); non-union hourly at fire protection companies
+  revPerPatientVisit: "$75-130/hr billed per fitter; projects bid as lump sum"
+  dailyWorkflow: Read fire protection drawings, cut and thread pipe, hang sprinkler mains and branch lines, install heads, hydrostatic test, coordinate with GC
+  patientVolume: "1 building project per day; measured in heads installed (15-40/day)"
+  supportStaffModel: Two-person crews typical; foreman oversees multiple crews on large jobs
+  geographicDemandNotes: Tied to new construction; code changes requiring retrofit sprinklers in older buildings creating steady demand in cities
+  telehealthPotential: 1
+  genderDistribution: "~3% women"
+
+- name: Refrigeration Technician
+  group: plumbing_hvac
+  residencyYears: 4
+  annualSpots: 14000
+  startSalary: 38
+  midSalary: 60
+  peakSalary: 100
+  typicalPeak: 85
+  partTimeFlex: 2
+  procedureMix: 8
+  callSchedule: 3
+  adminBurden: 4
+  hoursWeek: 44
+  burnout: 28
+  partTimeFeasibility: 3
+  vacation: 3
+  careerLongevity: 7
+  malpracticeFreq: 9
+  malpracticeCost: 1
+  geographicFlex: 8
+  automationRisk: 2
+  handsOnInsulation: 9
+  satisfaction: 69
+  chooseAgain: 67
+  intellectualStim: 7
+  varietyRepetition: 6
+  patientImpact: 5
+  physicalToll: 5
+  emotionalToll: 6
+  malpracticeLiability: 8
+  injuryCareerRisk: 6
+  aiRiskNow: 1
+  aiRiskMedium: 2
+  aiRiskLong: 2
+  aiNarrative: "Commercial refrigeration systems in grocery stores, cold storage, and food processing are critical infrastructure. Leak detection tech improves but brazing copper, replacing compressors, and charging systems requires skilled hands."
+  fellowshipOptions: EPA 608 universal, RETA certification, ammonia refrigeration specialist, supermarket rack systems, industrial refrigeration engineer collaboration
+  compModel: Hourly at refrigeration company; higher rates for ammonia-qualified techs; on-call premiums for emergency service
+  revPerPatientVisit: "$90-160/hr service rate; ammonia work commands premium billing"
+  dailyWorkflow: Check dispatch for service calls, diagnose refrigeration faults, repair or replace components, charge refrigerant, log EPA-required records
+  patientVolume: "2-4 service calls per day; emergency calls can take full day"
+  supportStaffModel: Usually solo for service; two-person teams for large installs; parts warehouse and dispatch support
+  geographicDemandNotes: Everywhere food is stored or sold; especially strong near distribution centers, food processing regions, and warm climates
+  telehealthPotential: 1
+  genderDistribution: "~2% women"
+
+- name: Carpenter
+  group: construction
+  residencyYears: 4
+  annualSpots: 90000
+  startSalary: 35
+  midSalary: 59
+  peakSalary: 95
+  typicalPeak: 80
+  partTimeFlex: 4
+  procedureMix: 8
+  callSchedule: 7
+  adminBurden: 3
+  hoursWeek: 42
+  burnout: 25
+  partTimeFeasibility: 5
+  vacation: 3
+  careerLongevity: 6
+  malpracticeFreq: 9
+  malpracticeCost: 1
+  geographicFlex: 9
+  automationRisk: 2
+  handsOnInsulation: 9
+  satisfaction: 70
+  chooseAgain: 66
+  intellectualStim: 6
+  varietyRepetition: 7
+  patientImpact: 5
+  physicalToll: 3
+  emotionalToll: 8
+  malpracticeLiability: 9
+  injuryCareerRisk: 5
+  aiRiskNow: 1
+  aiRiskMedium: 1
+  aiRiskLong: 2
+  aiNarrative: "Carpentry is one of the most varied and physically adaptive trades. Prefab and modular construction automate some framing, but finish carpentry, remodeling, and custom work remain fully human. Every jobsite is different."
+  fellowshipOptions: Master carpenter, finish carpentry specialist, cabinet maker, concrete formwork specialist, framing contractor, construction superintendent
+  compModel: Union hourly + benefits; non-union hourly; self-employed carpenters bid jobs; piece-rate framing
+  revPerPatientVisit: "$65-120/hr billed; custom finish work and cabinetry at premium rates"
+  dailyWorkflow: Arrive at jobsite, measure and cut lumber, frame walls/install trim/hang doors, read blueprints, coordinate with other trades
+  patientVolume: "1 project site per day; residential remodel or commercial build-out"
+  supportStaffModel: Apprentice helper; framing crews of 3-6; finish carpenters often solo or pairs
+  geographicDemandNotes: Universal demand; highest in Sun Belt growth markets and areas with strong remodeling activity
+  telehealthPotential: 1
+  genderDistribution: "~3% women"
+
+- name: Mason/Bricklayer
+  group: construction
+  residencyYears: 4
+  annualSpots: 25000
+  startSalary: 36
+  midSalary: 57
+  peakSalary: 90
+  typicalPeak: 75
+  partTimeFlex: 3
+  procedureMix: 8
+  callSchedule: 8
+  adminBurden: 3
+  hoursWeek: 42
+  burnout: 28
+  partTimeFeasibility: 4
+  vacation: 3
+  careerLongevity: 5
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 7
+  automationRisk: 3
+  handsOnInsulation: 8
+  satisfaction: 68
+  chooseAgain: 63
+  intellectualStim: 5
+  varietyRepetition: 4
+  patientImpact: 5
+  physicalToll: 2
+  emotionalToll: 8
+  malpracticeLiability: 9
+  injuryCareerRisk: 4
+  aiRiskNow: 1
+  aiRiskMedium: 2
+  aiRiskLong: 3
+  aiNarrative: "Bricklaying robots like SAM exist but handle only simple straight walls on flat ground. Real masonry involves curves, arches, repairs, and working in tight spaces. The physical toll limits careers more than automation does."
+  fellowshipOptions: Master mason, stone mason specialist, restoration and historical masonry, masonry contractor, estimator, masonry inspector
+  compModel: Union hourly + benefits; non-union piece rate or hourly; self-employed masons bid jobs
+  revPerPatientVisit: "$70-130/hr billed per mason; restoration work at premium rates"
+  dailyWorkflow: Set up scaffolding, mix mortar, lay brick/block/stone to line and level, clean joints, strike and tool mortar, break down at end of day
+  patientVolume: "300-500 bricks per day for experienced mason; varies by material"
+  supportStaffModel: Mason tender (laborer) per 1-2 masons to mix mortar and carry materials; foreman on larger crews
+  geographicDemandNotes: Stronger in Northeast and Midwest where brick construction is traditional; restoration work in historic cities; seasonal in cold climates
+  telehealthPotential: 1
+  genderDistribution: "~1% women; one of the lowest in all trades"
+
+- name: Ironworker
+  group: construction
+  residencyYears: 3
+  annualSpots: 15000
+  startSalary: 42
+  midSalary: 60
+  peakSalary: 105
+  typicalPeak: 88
+  partTimeFlex: 1
+  procedureMix: 8
+  callSchedule: 6
+  adminBurden: 3
+  hoursWeek: 45
+  burnout: 32
+  partTimeFeasibility: 2
+  vacation: 3
+  careerLongevity: 5
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 7
+  automationRisk: 2
+  handsOnInsulation: 9
+  satisfaction: 71
+  chooseAgain: 65
+  intellectualStim: 5
+  varietyRepetition: 5
+  patientImpact: 6
+  physicalToll: 2
+  emotionalToll: 5
+  malpracticeLiability: 9
+  injuryCareerRisk: 3
+  aiRiskNow: 1
+  aiRiskMedium: 1
+  aiRiskLong: 1
+  aiNarrative: "Walking steel beams hundreds of feet in the air, connecting structural steel, and tying rebar is among the most dangerous and least automatable work. Cranes lift the steel but humans bolt and weld it in place."
+  fellowshipOptions: Structural ironworker, ornamental ironworker, reinforcing ironworker (rodman), rigging specialist, welding certifications, foreman, superintendent
+  compModel: Union hourly scale + benefits; premium pay for height work; per diem for travel; overtime common on large projects
+  revPerPatientVisit: "$85-150/hr billed per ironworker; structural steel contracts bid per ton"
+  dailyWorkflow: Safety briefing, climb to working height, signal crane to place steel, bolt up connections, plumb and align columns, weld as needed
+  patientVolume: "Measured in tons of steel erected: 2-5 tons per crew per day"
+  supportStaffModel: Raising gang of 4-6 (connector, bolter-up, plumber-up, signalman); ground crew for rigging
+  geographicDemandNotes: Tracks commercial construction and infrastructure spending; bridge work provides steady demand; must travel to where projects are
+  telehealthPotential: 1
+  genderDistribution: "~3% women"
+
+- name: Welder
+  group: welding_fabrication
+  residencyYears: 3
+  annualSpots: 47000
+  startSalary: 36
+  midSalary: 51
+  peakSalary: 90
+  typicalPeak: 75
+  partTimeFlex: 3
+  procedureMix: 9
+  callSchedule: 6
+  adminBurden: 3
+  hoursWeek: 44
+  burnout: 28
+  partTimeFeasibility: 4
+  vacation: 3
+  careerLongevity: 6
+  malpracticeFreq: 9
+  malpracticeCost: 1
+  geographicFlex: 8
+  automationRisk: 4
+  handsOnInsulation: 8
+  satisfaction: 68
+  chooseAgain: 64
+  intellectualStim: 6
+  varietyRepetition: 5
+  patientImpact: 5
+  physicalToll: 3
+  emotionalToll: 7
+  malpracticeLiability: 8
+  injuryCareerRisk: 5
+  aiRiskNow: 2
+  aiRiskMedium: 3
+  aiRiskLong: 4
+  aiNarrative: "Robotic welding dominates repetitive factory production lines, but field welding on pipelines, structures, and repair work requires human adaptability. Specialty welding (underwater, nuclear, aerospace) remains highly human-dependent."
+  fellowshipOptions: AWS certifications (CWI, CWE), pipe welding specialist, underwater welding, TIG specialist, welding inspector, welding instructor, fabrication shop owner
+  compModel: Hourly at fabrication shop; per diem + hourly for pipeline/field work; piece rate in some shops; specialty welding commands premium
+  revPerPatientVisit: "$60-120/hr shop rate; pipeline welders billed at $150-300/hr to client"
+  dailyWorkflow: Review weld procedures, set up machine and materials, tack and weld joints, grind and clean welds, visual and gauge inspection
+  patientVolume: "Measured in inches of weld per day; varies hugely by process and position"
+  supportStaffModel: Solo or with fitter who preps joints; shop has multiple welding stations; field crews pair welder with helper
+  geographicDemandNotes: Manufacturing centers (Midwest, Southeast), pipeline corridors (Gulf Coast, Permian), shipyards (coastal), nuclear plant maintenance nationwide
+  telehealthPotential: 1
+  genderDistribution: "~5% women; increasing faster than most trades"
+
+- name: Sheet Metal Worker
+  group: welding_fabrication
+  residencyYears: 4
+  annualSpots: 16000
+  startSalary: 38
+  midSalary: 57
+  peakSalary: 95
+  typicalPeak: 80
+  partTimeFlex: 3
+  procedureMix: 7
+  callSchedule: 6
+  adminBurden: 4
+  hoursWeek: 42
+  burnout: 24
+  partTimeFeasibility: 3
+  vacation: 3
+  careerLongevity: 7
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 8
+  automationRisk: 3
+  handsOnInsulation: 8
+  satisfaction: 69
+  chooseAgain: 66
+  intellectualStim: 6
+  varietyRepetition: 6
+  patientImpact: 5
+  physicalToll: 4
+  emotionalToll: 8
+  malpracticeLiability: 9
+  injuryCareerRisk: 6
+  aiRiskNow: 1
+  aiRiskMedium: 2
+  aiRiskLong: 3
+  aiNarrative: "CNC plasma cutters and automated bending machines handle production in the shop, but installing ductwork in buildings, fabricating custom pieces on-site, and making everything fit in tight spaces stays manual. HVAC growth drives demand."
+  fellowshipOptions: HVAC duct specialist, architectural sheet metal, testing and balancing (TAB), sheet metal contractor, detailer/CAD, foreman
+  compModel: Union hourly + benefits (SMART union); non-union shop hourly; architectural sheet metal at premium
+  revPerPatientVisit: "$75-130/hr billed per mechanic; shop fabrication bid as part of project"
+  dailyWorkflow: Fabricate ductwork in shop from blueprints, transport to jobsite, hang and connect duct, seal joints, install diffusers and registers, balance airflow
+  patientVolume: "Measured in pounds of duct installed per day; 1 building area per day"
+  supportStaffModel: Shop fabricators and field installers often separate crews; apprentice helpers on field crews
+  geographicDemandNotes: Everywhere buildings have HVAC; commercial construction in growing metros; industrial ventilation in manufacturing areas
+  telehealthPotential: 1
+  genderDistribution: "~4% women"
+
+- name: Boilermaker
+  group: welding_fabrication
+  residencyYears: 4
+  annualSpots: 5000
+  startSalary: 45
+  midSalary: 68
+  peakSalary: 110
+  typicalPeak: 95
+  partTimeFlex: 1
+  procedureMix: 9
+  callSchedule: 3
+  adminBurden: 3
+  hoursWeek: 50
+  burnout: 35
+  partTimeFeasibility: 1
+  vacation: 3
+  careerLongevity: 5
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 6
+  automationRisk: 2
+  handsOnInsulation: 9
+  satisfaction: 70
+  chooseAgain: 64
+  intellectualStim: 6
+  varietyRepetition: 5
+  patientImpact: 6
+  physicalToll: 2
+  emotionalToll: 5
+  malpracticeLiability: 9
+  injuryCareerRisk: 4
+  aiRiskNow: 1
+  aiRiskMedium: 1
+  aiRiskLong: 2
+  aiNarrative: "Working inside boilers, pressure vessels, and storage tanks in extreme heat requires humans who can weld in confined spaces. Outage and turnaround work is intense but well-compensated and impossible to automate."
+  fellowshipOptions: Pressure vessel welder certifications (ASME), nuclear qualified boilermaker, rigging specialist, field foreman, outage coordinator, inspector
+  compModel: Union hourly scale + overtime + per diem for travel; shutdown/turnaround work at premium rates; long stretches away from home
+  revPerPatientVisit: "$100-180/hr billed per boilermaker; outage work at premium overtime rates"
+  dailyWorkflow: Enter confined space (boiler/vessel), chip and grind old welds, fit new tube or plate, weld in position, hydrostatic test, repeat
+  patientVolume: "Measured in welds completed per shift; turnaround work is 10-12hr days, 7 days/week for weeks"
+  supportStaffModel: Crews of 4-8 per boiler; riggers for heavy lifts; safety watch for confined space entry
+  geographicDemandNotes: Power plants, refineries, chemical plants; heaviest in Gulf Coast, Ohio Valley, and areas with older industrial infrastructure; heavy travel required
+  telehealthPotential: 1
+  genderDistribution: "~2% women"
+
+- name: CNC Machinist
+  group: welding_fabrication
+  residencyYears: 4
+  annualSpots: 34000
+  startSalary: 36
+  midSalary: 56
+  peakSalary: 85
+  typicalPeak: 72
+  partTimeFlex: 3
+  procedureMix: 8
+  callSchedule: 7
+  adminBurden: 4
+  hoursWeek: 42
+  burnout: 22
+  partTimeFeasibility: 4
+  vacation: 4
+  careerLongevity: 8
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 7
+  automationRisk: 5
+  handsOnInsulation: 6
+  satisfaction: 70
+  chooseAgain: 67
+  intellectualStim: 7
+  varietyRepetition: 5
+  patientImpact: 4
+  physicalToll: 6
+  emotionalToll: 8
+  malpracticeLiability: 9
+  injuryCareerRisk: 7
+  aiRiskNow: 2
+  aiRiskMedium: 3
+  aiRiskLong: 5
+  aiNarrative: "CNC programming is increasingly assisted by CAM software and AI-driven tool path optimization. However, setup, fixturing, troubleshooting chatter, and reading materials still require human expertise. Lights-out machining is growing but not universal."
+  fellowshipOptions: CNC programmer, multi-axis machining specialist, Swiss-type lathe specialist, CAM programmer, shop foreman, quality inspector (CMM), shop owner
+  compModel: Hourly at machine shop; shift differential for nights; prototype shops pay premium for versatile machinists
+  revPerPatientVisit: "$75-200/hr machine time billed to customer depending on equipment"
+  dailyWorkflow: Review part drawings, write or load CNC program, set up tooling and fixtures, run first article, inspect with micrometers/CMM, run production
+  patientVolume: "5-50 parts per day depending on complexity; setup-heavy days produce fewer parts"
+  supportStaffModel: One machinist per 1-3 machines; deburring helpers; quality department for inspection; programmer may be separate role
+  geographicDemandNotes: Manufacturing corridors (Midwest, Southeast, Pacific Northwest); aerospace clusters; medical device hubs; reshoring trend increasing domestic demand
+  telehealthPotential: 1
+  genderDistribution: "~6% women; slightly higher than field trades"
+
+- name: Tool & Die Maker
+  group: welding_fabrication
+  residencyYears: 4
+  annualSpots: 8000
+  startSalary: 40
+  midSalary: 63
+  peakSalary: 95
+  typicalPeak: 82
+  partTimeFlex: 3
+  procedureMix: 9
+  callSchedule: 5
+  adminBurden: 4
+  hoursWeek: 44
+  burnout: 25
+  partTimeFeasibility: 3
+  vacation: 4
+  careerLongevity: 8
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 6
+  automationRisk: 4
+  handsOnInsulation: 7
+  satisfaction: 73
+  chooseAgain: 70
+  intellectualStim: 8
+  varietyRepetition: 7
+  patientImpact: 4
+  physicalToll: 6
+  emotionalToll: 7
+  malpracticeLiability: 9
+  injuryCareerRisk: 7
+  aiRiskNow: 2
+  aiRiskMedium: 3
+  aiRiskLong: 4
+  aiNarrative: "Tool and die making is the most intellectually demanding machining trade. CAD/CAM and wire EDM are tools of the trade, not replacements. Building a stamping die that produces millions of parts correctly requires deep material science knowledge and hand-fitting skill."
+  fellowshipOptions: Master tool and die maker, mold maker, wire EDM specialist, die designer, tool room foreman, technical instructor, process engineer collaboration
+  compModel: Hourly at manufacturing plant or job shop; premium for experienced die makers; overtime during production launches
+  revPerPatientVisit: "$100-250/hr billed for tool room work; dies quoted as complete projects ($10K-500K)"
+  dailyWorkflow: Study part prints and die designs, machine die components on mills/grinders/EDM, hand-fit and assemble die, test in press, adjust and troubleshoot
+  patientVolume: "1-2 die builds in progress at a time; weeks to months per project"
+  supportStaffModel: Solo craftsman or small team of 2-3 per die; CNC programmers and heat treat support; die designer provides prints
+  geographicDemandNotes: Automotive corridor (Michigan, Ohio, Indiana), appliance manufacturing, any area with stamping or plastic injection molding; aging workforce creating shortage
+  telehealthPotential: 1
+  genderDistribution: "~4% women"
+
+- name: NDT Technician
+  group: welding_fabrication
+  residencyYears: 2
+  annualSpots: 10000
+  startSalary: 42
+  midSalary: 77
+  peakSalary: 120
+  typicalPeak: 100
+  partTimeFlex: 3
+  procedureMix: 9
+  callSchedule: 4
+  adminBurden: 6
+  hoursWeek: 44
+  burnout: 25
+  partTimeFeasibility: 3
+  vacation: 4
+  careerLongevity: 8
+  malpracticeFreq: 8
+  malpracticeCost: 2
+  geographicFlex: 7
+  automationRisk: 4
+  handsOnInsulation: 7
+  satisfaction: 72
+  chooseAgain: 69
+  intellectualStim: 8
+  varietyRepetition: 6
+  patientImpact: 7
+  physicalToll: 5
+  emotionalToll: 6
+  malpracticeLiability: 6
+  injuryCareerRisk: 6
+  aiRiskNow: 2
+  aiRiskMedium: 3
+  aiRiskLong: 5
+  aiNarrative: "AI is improving automated defect recognition in radiographic and ultrasonic testing, but positioning sensors, interpreting complex geometries, and making accept/reject calls on critical welds still requires certified human technicians. Radiation safety adds another human-required layer."
+  fellowshipOptions: ASNT Level III certification, radiographic testing specialist, ultrasonic testing specialist, phased array specialist, rope access NDT, nuclear NDE, inspection company owner
+  compModel: Hourly or salaried at inspection company; per diem for travel; radiation pay premium; overtime on turnarounds
+  revPerPatientVisit: "$100-200/hr billed per technician; radiography at premium rates"
+  dailyWorkflow: Review weld maps and inspection requirements, set up equipment (UT, RT, MT, PT), scan welds, interpret results, write reports, mark defects for repair
+  patientVolume: "10-30 welds inspected per day depending on method and access"
+  supportStaffModel: Solo or pairs (RT requires two for radiation safety); report to quality manager or lead inspector
+  geographicDemandNotes: Refineries, pipelines, power plants, aerospace, structural steel; Gulf Coast and industrial corridors; nuclear plants pay highest premiums
+  telehealthPotential: 1
+  genderDistribution: "~8% women; higher than most trades due to less physical demand"
+
+- name: Auto Mechanic
+  group: automotive_diesel
+  residencyYears: 3
+  annualSpots: 69000
+  startSalary: 35
+  midSalary: 50
+  peakSalary: 80
+  typicalPeak: 68
+  partTimeFlex: 4
+  procedureMix: 8
+  callSchedule: 7
+  adminBurden: 5
+  hoursWeek: 42
+  burnout: 30
+  partTimeFeasibility: 5
+  vacation: 3
+  careerLongevity: 7
+  malpracticeFreq: 9
+  malpracticeCost: 1
+  geographicFlex: 9
+  automationRisk: 3
+  handsOnInsulation: 8
+  satisfaction: 62
+  chooseAgain: 55
+  intellectualStim: 6
+  varietyRepetition: 6
+  patientImpact: 4
+  physicalToll: 4
+  emotionalToll: 6
+  malpracticeLiability: 8
+  injuryCareerRisk: 6
+  aiRiskNow: 2
+  aiRiskMedium: 3
+  aiRiskLong: 4
+  aiNarrative: "OBD diagnostics and AI-assisted fault finding help identify problems faster, but physically replacing parts, dealing with rust and corrosion, and the sheer variety of vehicle makes and models keeps this trade human. EV transition changes the work but does not eliminate it."
+  fellowshipOptions: ASE master technician certification, EV/hybrid specialist, transmission specialist, advanced diagnostics, service writer, shop foreman, independent shop owner
+  compModel: Flat-rate (paid per job by book hours) at dealerships; hourly at independent shops; shop owners earn from labor markup
+  revPerPatientVisit: "$100-150/hr labor rate billed to customer; flat-rate tech may earn $25-40/hr flagged"
+  dailyWorkflow: Check work orders, diagnose via scan tool and visual inspection, repair or replace components, test drive, document repairs, upsell maintenance
+  patientVolume: "4-8 vehicles per day depending on job complexity"
+  supportStaffModel: Service advisor writes tickets; lube techs handle oil changes; parts department sources components; shop foreman assists with difficult diag
+  geographicDemandNotes: Universal demand everywhere cars exist; dealerships in suburbs; independent shops in every town; EV-certified techs increasingly in demand
+  telehealthPotential: 1
+  genderDistribution: "~3% women; slowly increasing"
+
+- name: Diesel Technician
+  group: automotive_diesel
+  residencyYears: 3
+  annualSpots: 30000
+  startSalary: 40
+  midSalary: 61
+  peakSalary: 95
+  typicalPeak: 80
+  partTimeFlex: 3
+  procedureMix: 8
+  callSchedule: 4
+  adminBurden: 4
+  hoursWeek: 44
+  burnout: 28
+  partTimeFeasibility: 3
+  vacation: 3
+  careerLongevity: 7
+  malpracticeFreq: 9
+  malpracticeCost: 1
+  geographicFlex: 8
+  automationRisk: 2
+  handsOnInsulation: 9
+  satisfaction: 66
+  chooseAgain: 62
+  intellectualStim: 7
+  varietyRepetition: 6
+  patientImpact: 5
+  physicalToll: 3
+  emotionalToll: 7
+  malpracticeLiability: 8
+  injuryCareerRisk: 5
+  aiRiskNow: 1
+  aiRiskMedium: 2
+  aiRiskLong: 3
+  aiNarrative: "Diesel engines in trucks, buses, and heavy equipment are mechanically complex and physically large. Telematics and OBD help with diagnostics, but pulling an engine or rebuilding a turbo demands human skill. These engines run the economy."
+  fellowshipOptions: ASE master medium/heavy truck certification, Cummins/Caterpillar/Detroit factory training, emissions specialist, fleet manager, service manager, shop owner
+  compModel: Hourly at truck dealership or fleet shop; flat-rate at some independent shops; mobile diesel mechanics bill premium rates
+  revPerPatientVisit: "$120-180/hr labor rate; fleet contracts provide steady volume"
+  dailyWorkflow: Check work orders, diagnose with laptop and scan tools, repair engines/transmissions/brakes/electrical, DOT inspection, road call service
+  patientVolume: "2-5 trucks per day depending on repair scope"
+  supportStaffModel: Service writer dispatches jobs; parts department; lube techs for PMs; road service truck for breakdowns
+  geographicDemandNotes: Along trucking corridors and distribution hubs; ports; agricultural areas; everywhere trucks operate; shortage is severe nationwide
+  telehealthPotential: 1
+  genderDistribution: "~2% women"
+
+- name: "Aircraft Mechanic (A&P)"
+  group: automotive_diesel
+  residencyYears: 2
+  annualSpots: 16000
+  startSalary: 48
+  midSalary: 79
+  peakSalary: 120
+  typicalPeak: 105
+  partTimeFlex: 2
+  procedureMix: 9
+  callSchedule: 4
+  adminBurden: 7
+  hoursWeek: 44
+  burnout: 30
+  partTimeFeasibility: 2
+  vacation: 3
+  careerLongevity: 8
+  malpracticeFreq: 8
+  malpracticeCost: 2
+  geographicFlex: 7
+  automationRisk: 2
+  handsOnInsulation: 9
+  satisfaction: 75
+  chooseAgain: 72
+  intellectualStim: 8
+  varietyRepetition: 7
+  patientImpact: 8
+  physicalToll: 4
+  emotionalToll: 5
+  malpracticeLiability: 5
+  injuryCareerRisk: 6
+  aiRiskNow: 1
+  aiRiskMedium: 2
+  aiRiskLong: 3
+  aiNarrative: "Aviation maintenance is the most safety-critical mechanical trade. FAA regulation requires human sign-off on every repair. AI helps with predictive maintenance scheduling, but inspection and repair of aircraft remains hands-on and heavily documented."
+  fellowshipOptions: Inspection Authorization (IA), avionics specialist, powerplant specialist, composite repair, designated airworthiness representative, maintenance director, MRO shop owner
+  compModel: Hourly at airline or MRO; shift differential for nights/weekends; per diem for contract A&Ps; airlines provide flight benefits
+  revPerPatientVisit: "$85-150/hr labor rate; heavy checks billed in hundreds of thousands"
+  dailyWorkflow: Review maintenance task cards, inspect airframe/engine/systems, replace components per AMM, perform operational checks, sign off logbook entries
+  patientVolume: "Multiple task cards per shift; one heavy check can take weeks with large crew"
+  supportStaffModel: Crew chief leads team of 4-8 mechanics; inspectors check work; avionics techs handle electronics; parts department critical for AOG
+  geographicDemandNotes: Airline hubs (Atlanta, Dallas, Denver, Chicago), MRO centers, military bases, GA airports; severe shortage driving up wages; willing to relocate helps
+  telehealthPotential: 1
+  genderDistribution: "~5% women; growing due to outreach programs"
+
+- name: Heavy Equipment Operator
+  group: heavy_equipment
+  residencyYears: 3
+  annualSpots: 60000
+  startSalary: 38
+  midSalary: 58
+  peakSalary: 90
+  typicalPeak: 78
+  partTimeFlex: 2
+  procedureMix: 7
+  callSchedule: 6
+  adminBurden: 3
+  hoursWeek: 44
+  burnout: 25
+  partTimeFeasibility: 3
+  vacation: 3
+  careerLongevity: 6
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 8
+  automationRisk: 4
+  handsOnInsulation: 7
+  satisfaction: 70
+  chooseAgain: 67
+  intellectualStim: 5
+  varietyRepetition: 5
+  patientImpact: 5
+  physicalToll: 5
+  emotionalToll: 7
+  malpracticeLiability: 9
+  injuryCareerRisk: 5
+  aiRiskNow: 2
+  aiRiskMedium: 3
+  aiRiskLong: 5
+  aiNarrative: "GPS-guided grading and autonomous haul trucks are advancing in mining, but construction sites with variable conditions, underground utilities, and mixed traffic still need human operators. Full autonomy is decades away for complex jobsites."
+  fellowshipOptions: Multiple equipment certifications (excavator, dozer, grader, loader), grade checking, GPS machine control specialist, heavy equipment trainer, site superintendent
+  compModel: Union hourly (IUOE); non-union hourly at contractor; pipeline operators earn premium with per diem
+  revPerPatientVisit: "Equipment billed at $150-400/hr including operator; operator earns portion"
+  dailyWorkflow: Pre-trip inspection of machine, operate excavator/dozer/loader per grade stakes, work with grade checker, fuel and grease at end of day
+  patientVolume: "Measured in cubic yards moved: 500-2000+ cu yd per day depending on machine"
+  supportStaffModel: Grade checker/laborer works with operator; foreman directs multiple machines; mechanic on-site for large jobs
+  geographicDemandNotes: Everywhere things are being built; infrastructure bill funding highway and bridge work; pipeline and wind farm construction in rural areas
+  telehealthPotential: 1
+  genderDistribution: "~4% women; increasing with outreach"
+
+- name: Crane Operator
+  group: heavy_equipment
+  residencyYears: 3
+  annualSpots: 10000
+  startSalary: 42
+  midSalary: 65
+  peakSalary: 110
+  typicalPeak: 95
+  partTimeFlex: 1
+  procedureMix: 8
+  callSchedule: 5
+  adminBurden: 4
+  hoursWeek: 45
+  burnout: 30
+  partTimeFeasibility: 1
+  vacation: 3
+  careerLongevity: 6
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 7
+  automationRisk: 3
+  handsOnInsulation: 8
+  satisfaction: 73
+  chooseAgain: 70
+  intellectualStim: 6
+  varietyRepetition: 5
+  patientImpact: 6
+  physicalToll: 5
+  emotionalToll: 4
+  malpracticeLiability: 8
+  injuryCareerRisk: 5
+  aiRiskNow: 1
+  aiRiskMedium: 2
+  aiRiskLong: 3
+  aiNarrative: "Crane operation requires real-time judgment about wind, load dynamics, ground conditions, and proximity to power lines. Assisted lift planning software helps, but the actual operation of placing multi-ton loads precisely is a high-skill human task."
+  fellowshipOptions: NCCCO certifications (multiple crane types), tower crane operator, heavy lift specialist, rigging engineer, crane inspector, lift director, equipment manager
+  compModel: Union hourly (IUOE) + benefits; rental crane companies pay hourly or daily; tower crane operators at premium daily rate
+  revPerPatientVisit: "Crane + operator billed at $200-500+/hr; tower cranes $2K-5K/day"
+  dailyWorkflow: Morning inspection of crane, review lift plan, rig loads per signal person direction, make picks all day, monitor wind and load charts, secure crane at end
+  patientVolume: "20-50 picks per day depending on project; tower crane makes continuous picks"
+  supportStaffModel: Rigger/signal person on ground (mandatory); oiler on larger cranes; lift supervisor on critical picks
+  geographicDemandNotes: Urban construction (tower cranes), industrial plants, wind farm erection, bridge building; willing to travel gets premium work
+  telehealthPotential: 1
+  genderDistribution: "~2% women"
+
+- name: Heavy Equipment Mechanic
+  group: heavy_equipment
+  residencyYears: 3
+  annualSpots: 20000
+  startSalary: 40
+  midSalary: 60
+  peakSalary: 95
+  typicalPeak: 82
+  partTimeFlex: 3
+  procedureMix: 8
+  callSchedule: 4
+  adminBurden: 4
+  hoursWeek: 44
+  burnout: 27
+  partTimeFeasibility: 3
+  vacation: 3
+  careerLongevity: 7
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 8
+  automationRisk: 2
+  handsOnInsulation: 9
+  satisfaction: 68
+  chooseAgain: 65
+  intellectualStim: 7
+  varietyRepetition: 7
+  patientImpact: 5
+  physicalToll: 3
+  emotionalToll: 7
+  malpracticeLiability: 9
+  injuryCareerRisk: 5
+  aiRiskNow: 1
+  aiRiskMedium: 2
+  aiRiskLong: 3
+  aiNarrative: "Cat, Deere, and Komatsu telematics predict some failures before they happen, but actually replacing a hydraulic cylinder, rebuilding a transmission, or welding a cracked frame on a 50-ton excavator is purely human work."
+  fellowshipOptions: Caterpillar/John Deere/Komatsu factory certifications, hydraulic specialist, field service technician, shop foreman, service manager, equipment dealer principal
+  compModel: Hourly at equipment dealer or contractor; field service techs earn premium; Cat/Deere dealer techs have structured pay plans
+  revPerPatientVisit: "$120-200/hr labor rate at dealer; field service at premium"
+  dailyWorkflow: Check work orders, diagnose via laptop and visual inspection, remove and replace major components, service hydraulic systems, test and adjust, field calls
+  patientVolume: "1-3 machines per day; major repairs (engine/transmission) take multiple days"
+  supportStaffModel: Service writer dispatches; parts department critical; field service truck fully equipped; shop has overhead crane and wash bay
+  geographicDemandNotes: Construction-heavy areas, mining regions, agricultural belt; equipment dealers in every metro area; severe shortage of qualified techs
+  telehealthPotential: 1
+  genderDistribution: "~3% women"
+
+- name: Elevator Constructor
+  group: specialty_trades
+  residencyYears: 4
+  annualSpots: 2000
+  startSalary: 55
+  midSalary: 107
+  peakSalary: 200
+  typicalPeak: 160
+  partTimeFlex: 1
+  procedureMix: 9
+  callSchedule: 2
+  adminBurden: 5
+  hoursWeek: 45
+  burnout: 32
+  partTimeFeasibility: 1
+  vacation: 4
+  careerLongevity: 7
+  malpracticeFreq: 9
+  malpracticeCost: 1
+  geographicFlex: 5
+  automationRisk: 2
+  handsOnInsulation: 9
+  satisfaction: 78
+  chooseAgain: 76
+  intellectualStim: 8
+  varietyRepetition: 7
+  patientImpact: 7
+  physicalToll: 3
+  emotionalToll: 5
+  malpracticeLiability: 6
+  injuryCareerRisk: 4
+  aiRiskNow: 1
+  aiRiskMedium: 1
+  aiRiskLong: 2
+  aiNarrative: "Elevator installation and maintenance combines electrical, mechanical, and computer skills in confined vertical shafts. Each building is unique. The small labor pool and strict licensing keep this the highest-paid trade in America."
+  fellowshipOptions: Certified Elevator Technician (CET), adjuster (advanced troubleshooting), modernization specialist, escalator specialist, inspector, superintendent, IUEC business agent
+  compModel: Union hourly (IUEC) + benefits; among highest union scales in all trades; overtime and callback pay; maintenance techs on salary at property management
+  revPerPatientVisit: "Elevator service contracts $3K-15K/unit/yr; new install $50K-500K per elevator"
+  dailyWorkflow: Travel to building, perform scheduled maintenance or respond to entrapment call, test safety devices, adjust controllers, modernize older units
+  patientVolume: "Maintenance route of 10-15 units per week; new install crew on 1 building for months"
+  supportStaffModel: Maintenance mechanic works solo route; new install crews of 2-4; helper/apprentice on major work
+  geographicDemandNotes: Urban areas with tall buildings; extremely limited openings; must get into IUEC union apprenticeship which is highly competitive; NYC, Chicago, SF pay highest
+  telehealthPotential: 1
+  genderDistribution: "~1% women; among lowest of all trades"
+
+- name: Industrial Mechanic/Millwright
+  group: specialty_trades
+  residencyYears: 4
+  annualSpots: 48000
+  startSalary: 42
+  midSalary: 64
+  peakSalary: 100
+  typicalPeak: 85
+  partTimeFlex: 2
+  procedureMix: 9
+  callSchedule: 3
+  adminBurden: 4
+  hoursWeek: 44
+  burnout: 27
+  partTimeFeasibility: 2
+  vacation: 3
+  careerLongevity: 7
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 7
+  automationRisk: 2
+  handsOnInsulation: 9
+  satisfaction: 72
+  chooseAgain: 68
+  intellectualStim: 8
+  varietyRepetition: 8
+  patientImpact: 5
+  physicalToll: 3
+  emotionalToll: 7
+  malpracticeLiability: 9
+  injuryCareerRisk: 5
+  aiRiskNow: 1
+  aiRiskMedium: 2
+  aiRiskLong: 2
+  aiNarrative: "Millwrights install, align, and maintain the machines that make everything. Vibration analysis and predictive maintenance tools are great aids, but precision alignment, rigging, and mechanical troubleshooting remain deeply human skills."
+  fellowshipOptions: Precision alignment specialist, vibration analyst certification, PLC/controls troubleshooting, rigging specialist, maintenance planner, plant maintenance manager
+  compModel: Hourly at manufacturing plant or industrial contractor; union (UBC millwrights) or non-union; shutdown/turnaround premium rates
+  revPerPatientVisit: "$90-160/hr billed per millwright; precision alignment jobs at premium"
+  dailyWorkflow: Read work orders, diagnose machinery problems, align shafts with laser tools, replace bearings and seals, rig and set heavy equipment, preventive maintenance
+  patientVolume: "2-5 maintenance jobs per day; major installs take days to weeks"
+  supportStaffModel: Solo or pairs for most maintenance; larger crews for equipment installation; crane operator for heavy lifts; electrician for disconnect/reconnect
+  geographicDemandNotes: Every factory, mill, and plant; food processing, paper mills, auto plants, refineries; strong wherever manufacturing exists; aging workforce creating severe shortage
+  telehealthPotential: 1
+  genderDistribution: "~4% women"
+
+- name: Water/Wastewater Treatment Operator
+  group: specialty_trades
+  residencyYears: 2
+  annualSpots: 15000
+  startSalary: 38
+  midSalary: 58
+  peakSalary: 85
+  typicalPeak: 72
+  partTimeFlex: 2
+  procedureMix: 6
+  callSchedule: 3
+  adminBurden: 6
+  hoursWeek: 42
+  burnout: 22
+  partTimeFeasibility: 2
+  vacation: 5
+  careerLongevity: 9
+  malpracticeFreq: 9
+  malpracticeCost: 1
+  geographicFlex: 8
+  automationRisk: 3
+  handsOnInsulation: 7
+  satisfaction: 68
+  chooseAgain: 65
+  intellectualStim: 6
+  varietyRepetition: 4
+  patientImpact: 8
+  physicalToll: 6
+  emotionalToll: 7
+  malpracticeLiability: 7
+  injuryCareerRisk: 7
+  aiRiskNow: 2
+  aiRiskMedium: 3
+  aiRiskLong: 4
+  aiNarrative: "SCADA automation handles routine process control, but operators must respond to upsets, maintain equipment, handle chemical dosing, and ensure regulatory compliance. Clean water is non-negotiable infrastructure that always needs humans on-site."
+  fellowshipOptions: State operator licenses (levels I-IV), distribution system operator, lab analyst, plant superintendent, utility director, environmental compliance specialist
+  compModel: Municipal salary with full benefits and pension; some private utility companies; overtime for on-call shifts; government pay scales
+  revPerPatientVisit: "Public utility funded by rate-payers; not billed per visit"
+  dailyWorkflow: Walk plant rounds, check chemical levels and flows, adjust process controls, collect samples for lab testing, maintain pumps and equipment, log data, respond to alarms
+  patientVolume: "One plant facility; monitoring millions of gallons per day"
+  supportStaffModel: Shift crew of 2-4 operators; maintenance mechanics for repairs; lab technicians for testing; plant superintendent oversees
+  geographicDemandNotes: Every municipality needs operators; rural areas struggle to attract qualified staff; aging workforce creating wave of retirements; EPA compliance driving demand
+  telehealthPotential: 1
+  genderDistribution: "~15% women; higher than most trades due to indoor/technical nature"
+
+- name: Surveying/CAD Technician
+  group: management_inspection
+  residencyYears: 2
+  annualSpots: 12000
+  startSalary: 36
+  midSalary: 52
+  peakSalary: 80
+  typicalPeak: 68
+  partTimeFlex: 4
+  procedureMix: 6
+  callSchedule: 8
+  adminBurden: 6
+  hoursWeek: 40
+  burnout: 20
+  partTimeFeasibility: 5
+  vacation: 5
+  careerLongevity: 9
+  malpracticeFreq: 9
+  malpracticeCost: 1
+  geographicFlex: 8
+  automationRisk: 5
+  handsOnInsulation: 5
+  satisfaction: 67
+  chooseAgain: 63
+  intellectualStim: 7
+  varietyRepetition: 5
+  patientImpact: 4
+  physicalToll: 6
+  emotionalToll: 9
+  malpracticeLiability: 7
+  injuryCareerRisk: 8
+  aiRiskNow: 2
+  aiRiskMedium: 4
+  aiRiskLong: 6
+  aiNarrative: "GPS, drone photogrammetry, and LiDAR are transforming surveying. AI can process point clouds and generate CAD drawings. But fieldwork—setting control points, navigating terrain, interpreting boundary evidence—still needs boots on the ground. The CAD side faces more automation pressure."
+  fellowshipOptions: Licensed land surveyor (requires additional education), GIS specialist, drone pilot certification, 3D scanning specialist, construction layout specialist, survey party chief
+  compModel: Hourly at surveying firm or engineering company; government positions salaried with benefits; licensed surveyors earn significantly more
+  revPerPatientVisit: "$80-150/hr billed per survey crew; boundary surveys quoted per job"
+  dailyWorkflow: Field days—set up total station or GPS, shoot points, mark boundaries, drive stakes for construction layout; office days—process data, draft in CAD, prepare plats
+  patientVolume: "1-2 survey jobs per field day; CAD work measured in drawings completed"
+  supportStaffModel: Two-person field crew (instrument person and rod person); CAD drafters in office; party chief leads crew; licensed surveyor reviews and stamps
+  geographicDemandNotes: Tracks construction and land development; every subdivision, highway, and commercial project needs survey; rural areas need boundary work; drone surveying expanding into new markets
+  telehealthPotential: 1
+  genderDistribution: "~12% women; higher than field trades due to CAD/office component"

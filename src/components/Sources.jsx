@@ -706,6 +706,144 @@ const GOVERNMENT_SOURCES = [
   },
 ];
 
+const TRADES_SOURCES = [
+  {
+    title: "Compensation Data",
+    emoji: "\uD83D\uDCB0",
+    sources: [
+      {
+        name: "Occupational Employment and Wage Statistics (OEWS)",
+        org: "U.S. Bureau of Labor Statistics",
+        url: "https://www.bls.gov/oes/",
+        desc: "Primary wage source — median/mean annual salaries for 800+ occupations. Used for startSalary, midSalary, and peakSalary across all trades.",
+        updated: "Annual (May release)",
+      },
+      {
+        name: "Occupational Outlook Handbook — Construction & Extraction",
+        org: "U.S. Bureau of Labor Statistics",
+        url: "https://www.bls.gov/ooh/construction-and-extraction/home.htm",
+        desc: "Career profiles including pay, entry requirements, job outlook, and what workers do. Covers electricians, plumbers, carpenters, roofers, and more.",
+        updated: "Annual",
+      },
+      {
+        name: "Occupational Outlook Handbook — Installation, Maintenance & Repair",
+        org: "U.S. Bureau of Labor Statistics",
+        url: "https://www.bls.gov/ooh/installation-maintenance-and-repair/home.htm",
+        desc: "Profiles for HVAC, auto mechanics, diesel techs, aircraft mechanics, elevator installers, industrial machinery mechanics, and line installers.",
+        updated: "Annual",
+      },
+    ],
+  },
+  {
+    title: "Apprenticeship & Training",
+    emoji: "\uD83C\uDF93",
+    sources: [
+      {
+        name: "Apprenticeship.gov — Data & Statistics",
+        org: "U.S. Department of Labor",
+        url: "https://www.apprenticeship.gov/data-and-statistics",
+        desc: "National apprenticeship data — active programs, completion rates, participant demographics. Used for annualSpots and matchComp calibration.",
+        updated: "Quarterly",
+      },
+      {
+        name: "NCCER — National Center for Construction Education & Research",
+        org: "NCCER",
+        url: "https://www.nccer.org/",
+        desc: "Standardized construction education curricula and credentials. NCCER certifications are industry-recognized across all construction trades.",
+        updated: "Continuous",
+      },
+      {
+        name: "IBEW/NECA Joint Apprenticeship (NJATC)",
+        org: "International Brotherhood of Electrical Workers",
+        url: "https://www.njatc.org/",
+        desc: "Electrical apprenticeship standards — duration, wages, classroom hours. Used for electrician residencyYears and trainee salary calibration.",
+        updated: "Continuous",
+      },
+    ],
+  },
+  {
+    title: "Job Market & Demand",
+    emoji: "\uD83D\uDCC8",
+    sources: [
+      {
+        name: "Employment Projections 2024-2034",
+        org: "U.S. Bureau of Labor Statistics",
+        url: "https://www.bls.gov/emp/",
+        desc: "10-year job growth projections by occupation. Trades like electricians (9%), HVAC (8%), and linemen (7%) show much-faster-than-average growth.",
+        updated: "Biennial",
+      },
+      {
+        name: "State Contractor Licensing Requirements",
+        org: "Various State Licensing Boards",
+        url: "https://www.bls.gov/ooh/construction-and-extraction/electricians.htm#tab-4",
+        desc: "Licensing requirements vary by state for electricians, plumbers, HVAC technicians, and contractors. Affects geographic flexibility scores.",
+        updated: "Varies by state",
+      },
+    ],
+  },
+  {
+    title: "Safety & Injury Data",
+    emoji: "\u26A0\uFE0F",
+    sources: [
+      {
+        name: "Census of Fatal Occupational Injuries (CFOI)",
+        org: "U.S. Bureau of Labor Statistics",
+        url: "https://www.bls.gov/iif/oshcfoi1.htm",
+        desc: "Fatal injury rates by occupation. Construction has highest fatality count of any industry. Roofers: 48.7 per 100K, linemen: ~57 per 100K.",
+        updated: "Annual",
+      },
+      {
+        name: "OSHA Construction Industry Statistics",
+        org: "Occupational Safety and Health Administration",
+        url: "https://www.osha.gov/construction",
+        desc: "Focus Four hazards (falls, struck-by, electrocution, caught-in). Used for physicalToll and injuryCareerRisk scoring.",
+        updated: "Continuous",
+      },
+      {
+        name: "CPWR — Center for Construction Research & Training",
+        org: "CPWR",
+        url: "https://www.cpwr.com/research/data-center/",
+        desc: "Construction industry injury charts, fatality data bulletins, and safety training resources. Independent research on trades workplace safety.",
+        updated: "Quarterly",
+      },
+    ],
+  },
+  {
+    title: "Financial Modeling",
+    emoji: "\uD83D\uDCCA",
+    sources: [
+      {
+        name: "Frey & Osborne — Automation Probability Scores",
+        org: "Oxford Martin School",
+        url: "https://www.oxfordmartin.ox.ac.uk/publications/the-future-of-employment",
+        desc: "Automation risk scores per occupation. Electricians 0.15, plumbers 0.35, masons 0.82, roofers 0.90. Used for automationRisk field.",
+        updated: "2013 (landmark study)",
+      },
+      {
+        name: "AWS — American Welding Society Certifications",
+        org: "American Welding Society",
+        url: "https://www.aws.org/certification",
+        desc: "Welding certification standards (CWI, CWSR). Certification level directly affects earning potential and job access.",
+        updated: "Continuous",
+      },
+      {
+        name: "ASE — Automotive Service Excellence",
+        org: "National Institute for Automotive Service Excellence",
+        url: "https://www.ase.com/",
+        desc: "Industry-standard certifications for auto and diesel mechanics. ASE Master Technician certification commands 10-20% pay premium.",
+        updated: "Continuous",
+      },
+      {
+        name: "EPA Section 608 Certification",
+        org: "U.S. Environmental Protection Agency",
+        url: "https://www.epa.gov/section608",
+        desc: "Mandatory federal certification for HVAC technicians handling refrigerants. Required for all HVAC/R careers.",
+        updated: "Continuous",
+      },
+    ],
+  },
+];
+
 const SHARED_SOURCES = [
   {
     title: "Stress Test & Scenario Modeling",
@@ -742,7 +880,8 @@ function getSourcesForFamily(familySlug) {
   if (familySlug === "engineering") return [...ENGINEERING_SOURCES, ...SHARED_SOURCES];
   if (familySlug === "business") return [...BUSINESS_SOURCES, ...SHARED_SOURCES];
   if (familySlug === "government") return [...GOVERNMENT_SOURCES, ...SHARED_SOURCES];
-  return [...HEALTHCARE_SOURCES, ...LAW_SOURCES, ...ENGINEERING_SOURCES, ...BUSINESS_SOURCES, ...GOVERNMENT_SOURCES, ...SHARED_SOURCES];
+  if (familySlug === "trades") return [...TRADES_SOURCES, ...SHARED_SOURCES];
+  return [...HEALTHCARE_SOURCES, ...LAW_SOURCES, ...ENGINEERING_SOURCES, ...BUSINESS_SOURCES, ...GOVERNMENT_SOURCES, ...TRADES_SOURCES, ...SHARED_SOURCES];
 }
 
 export default function Sources({ familySlug }) {
