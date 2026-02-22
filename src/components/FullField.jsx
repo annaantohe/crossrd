@@ -287,10 +287,10 @@ export default function FullField({ allTracks, profColors, profLabels }) {
             }}
           >
             <colgroup>
-              <col style={{ width: "19%" }} />
-              <col style={{ width: "7%" }} />
+              <col style={{ width: "18%" }} />
+              <col style={{ width: "9%" }} />
               {COLUMNS.map((col) => (
-                <col key={col.key} style={{ width: col.key === "aiRiskAvg" ? "6%" : `${68 / (COLUMNS.length - 1)}%` }} />
+                <col key={col.key} style={{ width: col.key === "aiRiskAvg" ? "6%" : `${67 / (COLUMNS.length - 1)}%` }} />
               ))}
             </colgroup>
             <thead>
@@ -364,20 +364,24 @@ export default function FullField({ allTracks, profColors, profLabels }) {
                     </td>
 
                     {/* profession badge */}
-                    <td style={{ padding: "4px", textAlign: "center" }}>
-                      <span
+                    <td style={{ padding: "4px", overflow: "hidden" }}>
+                      <div
+                        title={t.profession}
                         style={{
                           fontSize: 9,
-                          padding: "2px 6px",
+                          padding: "2px 4px",
                           borderRadius: 8,
                           background: `${profColors[t.profession]}18`,
                           color: profColors[t.profession],
                           fontWeight: 600,
                           whiteSpace: "nowrap",
+                          overflow: "hidden",
+                          textOverflow: "ellipsis",
+                          textAlign: "center",
                         }}
                       >
                         {t.profession}
-                      </span>
+                      </div>
                     </td>
 
                     {/* data columns with color-coding */}
