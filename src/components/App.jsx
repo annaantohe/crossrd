@@ -21,7 +21,6 @@ import FamilyPicker from "./FamilyPicker";
 import TabNav from "./TabNav";
 import Explore from "./Explore";
 import Compare from "./Compare";
-import DecisionTree from "./DecisionTree";
 import Sources from "./Sources";
 import Methodology from "./Methodology";
 import PicksBar from "./PicksBar";
@@ -300,8 +299,8 @@ export default function App() {
   const timelineData =
     picks.length >= 2 ? buildTimelineFromTracks(data.tracks, picks) : [];
 
-  // show picks bar on explore and quiz tabs
-  const showPicksBar = tab === "explore" || tab === "quiz";
+  // show picks bar on explore tab
+  const showPicksBar = tab === "explore";
 
   return (
     <div
@@ -373,16 +372,6 @@ export default function App() {
             timelineData={mergedTimeline}
             selectedCareers={mergedSelected}
             tracks={mergedTracks}
-          />
-        )}
-        {tab === "quiz" && (
-          <DecisionTree
-            decisionTree={data.decision_tree}
-            decisionTreeResults={data.decision_tree_results}
-            ranking={data.ranking}
-            allCareers={allCareers}
-            picks={picks}
-            onTogglePick={togglePick}
           />
         )}
         {tab === "sources" && <Sources familySlug={family} />}

@@ -5,7 +5,6 @@
 export const TABS = [
   { id: "explore", label: "🔍 Explore" },
   { id: "compare", label: "📊 Compare" },
-  { id: "quiz", label: "🧭 Quiz" },
   { id: "sources", label: "📖 Sources" },
   { id: "method", label: "📐 Method" },
 ];

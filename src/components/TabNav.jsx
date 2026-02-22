@@ -8,6 +8,7 @@ export default function TabNav({ activeTab, onTabChange }) {
     <nav
       style={{
         display: "flex",
+        justifyContent: "center",
         overflowX: "auto",
         gap: 2,
         padding: "8px 4px 0",
