@@ -10,6 +10,7 @@ import businessData from "../data/business.json";
 import governmentData from "../data/government.json";
 import tradesData from "../data/trades.json";
 import educationData from "../data/education.json";
+import futureData from "../data/future.json";
 import {
   buildNetWorthFromTracks,
   buildRadarFromTracks,
@@ -35,6 +36,7 @@ const FAMILIES = {
   government: governmentData,
   trades: tradesData,
   education: educationData,
+  future: futureData,
 };
 
 const MAX_PICKS = 6;

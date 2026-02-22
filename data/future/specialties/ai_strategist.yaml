@@ -1,0 +1,643 @@
+# AI Strategist specialties — 14 careers across 4 groups
+# Domain degree (business, law, medicine, etc.) + AI certification/skills
+# The bridge between AI capability and domain expertise
+profession: AI Strategist
+specialties:
+
+# ── ai_products_ops ──────────────────────────────────────────────────
+
+- name: "AI Product Manager"
+  group: ai_products_ops
+  residencyYears: 0
+  annualSpots: 40000
+  startSalary: 110
+  midSalary: 165
+  peakSalary: 250
+  typicalPeak: 230
+  partTimeFlex: 3
+  procedureMix: 5
+  callSchedule: 7
+  adminBurden: 6
+  hoursWeek: 50
+  burnout: 45
+  partTimeFeasibility: 3
+  vacation: 3
+  careerLongevity: 7
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 8
+  automationRisk: 5
+  handsOnInsulation: 6
+  satisfaction: 78
+  chooseAgain: 72
+  intellectualStim: 8
+  varietyRepetition: 8
+  patientImpact: 6
+  physicalToll: 9
+  emotionalToll: 5
+  malpracticeLiability: 10
+  injuryCareerRisk: 9
+  aiRiskNow: 3
+  aiRiskMedium: 5
+  aiRiskLong: 6
+  aiNarrative: "AI Product Managers are one of the hottest roles in tech — they decide what gets built, for whom, and why. The irony is that as AI tools get smarter, the 'translation' layer between technical teams and business goals gets thinner. Strong PMs will survive, but the bar keeps rising and the role itself may be partially automated by AI copilots that handle roadmapping, user research synthesis, and prioritization."
+  fellowshipOptions: "Google PM certification; Stanford AI product management certificate; Reforge product strategy program; transition from engineering, data science, or MBA backgrounds"
+  compModel: "Base $110K-180K + equity/RSUs at tech companies; total comp at FAANG $200K-400K at senior levels; startups offer more equity, less base"
+  revPerPatientVisit: "N/A — revenue attribution varies; PMs own product P&L at senior levels, often managing $10M-100M+ revenue products"
+  dailyWorkflow: "Sprint planning, stakeholder alignment, reviewing model performance metrics, writing PRDs for AI features, running user research sessions, triaging bugs vs. feature requests, cross-functional syncs with engineering, design, and data science"
+  patientVolume: "Manages 1-3 AI product areas simultaneously; 8-12 meetings per day at large companies"
+  supportStaffModel: "Works with engineering team of 5-15, data scientists, UX designers, and program managers; reports to Director or VP of Product"
+  geographicDemandNotes: "SF Bay Area, Seattle, NYC, and Austin dominate; remote-friendly at many companies; London and Toronto growing internationally"
+  telehealthPotential: 8
+  genderDistribution: "~60% men, ~40% women"
+
+# ── ai_safety_governance ─────────────────────────────────────────────
+
+- name: "AI Ethics Officer"
+  group: ai_safety_governance
+  residencyYears: 1
+  annualSpots: 5000
+  startSalary: 90
+  midSalary: 140
+  peakSalary: 210
+  typicalPeak: 190
+  partTimeFlex: 4
+  procedureMix: 4
+  callSchedule: 8
+  adminBurden: 6
+  hoursWeek: 45
+  burnout: 35
+  partTimeFeasibility: 5
+  vacation: 4
+  careerLongevity: 8
+  malpracticeFreq: 8
+  malpracticeCost: 1.5
+  geographicFlex: 7
+  automationRisk: 4
+  handsOnInsulation: 7
+  satisfaction: 75
+  chooseAgain: 70
+  intellectualStim: 8
+  varietyRepetition: 7
+  patientImpact: 8
+  physicalToll: 10
+  emotionalToll: 5
+  malpracticeLiability: 8
+  injuryCareerRisk: 9
+  aiRiskNow: 2
+  aiRiskMedium: 3
+  aiRiskLong: 5
+  aiNarrative: "AI Ethics Officers are the conscience of the industry — they evaluate bias in models, write responsible-use policies, and push back when speed-to-ship overrides safety. Demand is surging as governments pass AI regulation, but the role faces an existential question: will companies treat ethics as a core function or a checkbox? Those embedded in product development will thrive; those siloed in compliance may find the role hollowed out by automated auditing tools."
+  fellowshipOptions: "CIPP/US or CIPP/E privacy certification; IEEE AI ethics certification; law degree or philosophy background common; transition from policy, legal, or research roles"
+  compModel: "Base $90K-160K; senior roles at big tech $180K-250K total comp; consulting rates $200-400/hr for independent advisors"
+  revPerPatientVisit: "N/A — cost center role; justifies value through risk avoidance, regulatory compliance, and brand protection"
+  dailyWorkflow: "Reviewing AI model deployments for bias and fairness, drafting AI governance policies, conducting ethical impact assessments, advising product teams on responsible design, presenting to C-suite on regulatory landscape, running cross-functional ethics review boards"
+  patientVolume: "Reviews 3-8 AI deployment proposals per week; ongoing monitoring of 10-20 live systems"
+  supportStaffModel: "Small ethics team of 2-5 reporting to Chief Ethics Officer or General Counsel; works closely with legal, policy, and engineering teams"
+  geographicDemandNotes: "DC, Brussels, SF, and NYC lead due to proximity to regulators and tech HQs; EU AI Act creating massive demand in Europe"
+  telehealthPotential: 7
+  genderDistribution: "~50% men, ~50% women"
+
+- name: "AI Auditor"
+  group: ai_safety_governance
+  residencyYears: 1
+  annualSpots: 10000
+  startSalary: 85
+  midSalary: 130
+  peakSalary: 195
+  typicalPeak: 175
+  partTimeFlex: 5
+  procedureMix: 5
+  callSchedule: 8
+  adminBurden: 6
+  hoursWeek: 45
+  burnout: 33
+  partTimeFeasibility: 6
+  vacation: 4
+  careerLongevity: 8
+  malpracticeFreq: 7
+  malpracticeCost: 2.5
+  geographicFlex: 8
+  automationRisk: 5
+  handsOnInsulation: 6
+  satisfaction: 72
+  chooseAgain: 65
+  intellectualStim: 7
+  varietyRepetition: 6
+  patientImpact: 7
+  physicalToll: 10
+  emotionalToll: 6
+  malpracticeLiability: 7
+  injuryCareerRisk: 9
+  aiRiskNow: 2
+  aiRiskMedium: 4
+  aiRiskLong: 6
+  aiNarrative: "AI Auditors test whether AI systems do what they claim — checking for bias, accuracy, security vulnerabilities, and regulatory compliance. Think financial auditor but for algorithms. The EU AI Act and similar regulations worldwide are making this mandatory for high-risk AI systems. The vulnerability is that auditing tools themselves will become AI-powered, potentially automating much of the testing work and leaving auditors in a supervisory role."
+  fellowshipOptions: "CISA certification (adapted for AI systems); ISO/IEC 42001 AI management systems auditor; Big Four accounting firms building AI audit practices; CPA or internal audit background with AI upskill"
+  compModel: "Base $85K-150K; Big Four consulting $120K-200K+ at manager level; boutique AI audit firms charge $300-500/hr; independent auditors $250-400/hr"
+  revPerPatientVisit: "N/A — audit engagements billed at $50K-500K per system assessment depending on complexity"
+  dailyWorkflow: "Scoping AI system audits, running bias and fairness testing suites, reviewing training data provenance, documenting model performance against claimed metrics, writing audit reports, presenting findings to boards and regulators, tracking remediation"
+  patientVolume: "2-4 active audit engagements simultaneously; each engagement spans 4-12 weeks"
+  supportStaffModel: "Audit teams of 2-6 with senior auditor leading; supported by data scientists for technical testing; administrative staff for documentation"
+  geographicDemandNotes: "Fully remote-friendly for most engagements; Big Four offices in major cities; EU-based companies need local auditors for AI Act compliance"
+  telehealthPotential: 9
+  genderDistribution: "~55% men, ~45% women"
+
+- name: "AI Policy Advisor"
+  group: ai_safety_governance
+  residencyYears: 1
+  annualSpots: 6000
+  startSalary: 75
+  midSalary: 120
+  peakSalary: 185
+  typicalPeak: 165
+  partTimeFlex: 5
+  procedureMix: 4
+  callSchedule: 8
+  adminBurden: 5
+  hoursWeek: 44
+  burnout: 30
+  partTimeFeasibility: 6
+  vacation: 4
+  careerLongevity: 8
+  malpracticeFreq: 9
+  malpracticeCost: 0.5
+  geographicFlex: 6
+  automationRisk: 4
+  handsOnInsulation: 7
+  satisfaction: 74
+  chooseAgain: 68
+  intellectualStim: 8
+  varietyRepetition: 7
+  patientImpact: 8
+  physicalToll: 10
+  emotionalToll: 6
+  malpracticeLiability: 9
+  injuryCareerRisk: 9
+  aiRiskNow: 2
+  aiRiskMedium: 3
+  aiRiskLong: 5
+  aiNarrative: "AI Policy Advisors shape the rules that govern how AI is built and deployed — working in government, think tanks, or corporate policy teams. They translate technical capabilities into language lawmakers can understand and vice versa. As AI regulation becomes the defining policy issue of the decade, demand is exploding. The risk is that AI itself becomes good enough at policy analysis to reduce the need for human advisors, but the political judgment and relationship-building aspects stay deeply human."
+  fellowshipOptions: "Public policy degree (MPP/MPA) with tech focus; law degree with technology specialization; fellowships at Brookings, RAND, or AI Now Institute; government service in OSTP, NIST, or FTC"
+  compModel: "Government $75K-140K (GS-13 to SES); think tanks $80K-160K; corporate policy roles at tech companies $120K-200K+ total comp; consulting $200-350/hr"
+  revPerPatientVisit: "N/A — policy impact measured in regulatory outcomes, not revenue; corporate roles justify value through regulatory risk mitigation"
+  dailyWorkflow: "Analyzing proposed AI legislation, drafting policy briefs and white papers, testifying before committees or attending regulatory hearings, meeting with stakeholders across industry and government, tracking global AI regulatory developments, advising executives on compliance strategy"
+  patientVolume: "Tracks 5-10 active policy initiatives simultaneously; produces 2-4 major policy documents per quarter"
+  supportStaffModel: "Policy teams of 3-8 at think tanks; 1-3 person teams at companies; supported by researchers and legislative analysts"
+  geographicDemandNotes: "Washington DC is the epicenter for US policy; Brussels for EU AI Act work; Sacramento, Austin also growing; many think tanks now allow partial remote"
+  telehealthPotential: 7
+  genderDistribution: "~50% men, ~50% women"
+
+# ── ai_health_bio ────────────────────────────────────────────────────
+
+- name: "AI Diagnostic Specialist"
+  group: ai_health_bio
+  residencyYears: 2
+  annualSpots: 10000
+  startSalary: 95
+  midSalary: 150
+  peakSalary: 230
+  typicalPeak: 210
+  partTimeFlex: 4
+  procedureMix: 6
+  callSchedule: 6
+  adminBurden: 5
+  hoursWeek: 48
+  burnout: 38
+  partTimeFeasibility: 4
+  vacation: 3
+  careerLongevity: 8
+  malpracticeFreq: 5
+  malpracticeCost: 3.0
+  geographicFlex: 5
+  automationRisk: 5
+  handsOnInsulation: 7
+  satisfaction: 78
+  chooseAgain: 72
+  intellectualStim: 8
+  varietyRepetition: 7
+  patientImpact: 10
+  physicalToll: 9
+  emotionalToll: 5
+  malpracticeLiability: 5
+  injuryCareerRisk: 9
+  aiRiskNow: 3
+  aiRiskMedium: 5
+  aiRiskLong: 7
+  aiNarrative: "AI Diagnostic Specialists work alongside radiologists and pathologists to deploy and validate AI-powered diagnostic tools — they're not reading the scan, they're making sure the AI reads it correctly. This role requires deep medical knowledge plus AI fluency. The catch: as diagnostic AI becomes more reliable, hospitals may trust the AI directly and need fewer human validators. The specialists who survive will be the ones handling edge cases and novel pathologies where AI confidence is low."
+  fellowshipOptions: "Clinical informatics fellowship; health AI certification from Stanford or MIT; radiology or pathology background strongly preferred; FDA regulatory affairs training for AI/ML medical devices"
+  compModel: "Hospital-employed $95K-180K; medical device companies $120K-230K total comp; consulting for health systems $200-400/hr; academic medical centers on lower end"
+  revPerPatientVisit: "N/A — AI diagnostic tools generate $50-200 per scan analyzed; specialists manage portfolios of tools covering thousands of scans per week"
+  dailyWorkflow: "Validating AI diagnostic outputs against clinical findings, calibrating sensitivity and specificity thresholds, training clinical staff on AI tool workflows, reviewing false positive and false negative cases, meeting with IT and radiology departments, reporting to FDA on post-market surveillance"
+  patientVolume: "Oversees AI systems processing 500-2000 diagnostic images per day; directly reviews 20-50 flagged cases"
+  supportStaffModel: "Works within clinical informatics team of 3-8; collaborates with radiologists, pathologists, IT engineers, and hospital administration"
+  geographicDemandNotes: "Major academic medical centers — Boston, Houston, Cleveland, SF, NYC; growing at large health systems nationwide; must be on-site for most clinical work"
+  telehealthPotential: 5
+  genderDistribution: "~55% men, ~45% women"
+
+- name: "AI Mental Health Counselor"
+  group: ai_health_bio
+  residencyYears: 2
+  annualSpots: 12000
+  startSalary: 60
+  midSalary: 95
+  peakSalary: 145
+  typicalPeak: 130
+  partTimeFlex: 6
+  procedureMix: 7
+  callSchedule: 7
+  adminBurden: 5
+  hoursWeek: 42
+  burnout: 40
+  partTimeFeasibility: 6
+  vacation: 3
+  careerLongevity: 7
+  malpracticeFreq: 6
+  malpracticeCost: 2.0
+  geographicFlex: 8
+  automationRisk: 4
+  handsOnInsulation: 8
+  satisfaction: 76
+  chooseAgain: 70
+  intellectualStim: 7
+  varietyRepetition: 7
+  patientImpact: 10
+  physicalToll: 10
+  emotionalToll: 3
+  malpracticeLiability: 6
+  injuryCareerRisk: 9
+  aiRiskNow: 2
+  aiRiskMedium: 4
+  aiRiskLong: 5
+  aiNarrative: "AI Mental Health Counselors use AI-powered therapy tools — sentiment analysis, mood tracking, crisis detection, chatbot-assisted CBT — while providing the deeply human connection that therapy demands. They're not being replaced by AI therapists; they're becoming superhuman therapists with AI as their copilot. The emotional toll is real, but so is the impact. The risk comes from AI therapy bots becoming 'good enough' for mild cases, shrinking the market for human counselors in routine care."
+  fellowshipOptions: "Licensed counselor (LPC/LMHC) + AI health certification; psychology degree with digital therapeutics specialization; Woebot or Wysa clinical partnerships; telehealth counseling certification"
+  compModel: "Salary $60K-110K at clinics and health systems; private practice with AI tools $100-200/session; digital therapeutics companies $80K-145K; teletherapy platforms pay per session"
+  revPerPatientVisit: "Per session $100-250; AI-assisted platforms may see higher throughput at $80-150/session with AI doing intake and between-session monitoring"
+  dailyWorkflow: "Reviewing AI-generated patient mood reports and crisis alerts, conducting therapy sessions enhanced by AI insights, calibrating AI chatbot therapeutic protocols, training on new digital therapeutic tools, case documentation, consulting with psychiatrists on medication patients"
+  patientVolume: "6-8 patients per day in-session; AI tools monitor 30-50 patients between sessions for crisis indicators"
+  supportStaffModel: "Solo practice or small group of 3-8 counselors; front desk and billing staff; psychiatrist on referral for medication management"
+  geographicDemandNotes: "Fully telehealth-capable — works from anywhere with licensure; highest demand in underserved rural and urban areas; California, New York, Texas lead in digital therapeutics adoption"
+  telehealthPotential: 9
+  genderDistribution: "~35% men, ~65% women"
+
+- name: "Surgical Robotics Engineer"
+  group: ai_health_bio
+  residencyYears: 1
+  annualSpots: 4000
+  startSalary: 100
+  midSalary: 155
+  peakSalary: 240
+  typicalPeak: 220
+  partTimeFlex: 3
+  procedureMix: 7
+  callSchedule: 5
+  adminBurden: 4
+  hoursWeek: 48
+  burnout: 35
+  partTimeFeasibility: 3
+  vacation: 3
+  careerLongevity: 7
+  malpracticeFreq: 5
+  malpracticeCost: 3.0
+  geographicFlex: 4
+  automationRisk: 4
+  handsOnInsulation: 8
+  satisfaction: 80
+  chooseAgain: 75
+  intellectualStim: 9
+  varietyRepetition: 7
+  patientImpact: 9
+  physicalToll: 8
+  emotionalToll: 5
+  malpracticeLiability: 5
+  injuryCareerRisk: 8
+  aiRiskNow: 2
+  aiRiskMedium: 3
+  aiRiskLong: 4
+  aiNarrative: "Surgical Robotics Engineers make robots like da Vinci smarter — they're not surgeons, they're the people teaching surgical robots to see, plan, and assist with superhuman precision. This requires biomedical engineering, computer vision, and an intimate understanding of surgical workflows. The role is well-insulated from automation because someone needs to build and improve the automation itself. The main risk is consolidation — a few dominant platforms (Intuitive, Medtronic, J&J) may limit the number of engineering roles needed as platforms mature."
+  fellowshipOptions: "Biomedical engineering MS/PhD with robotics focus; Intuitive Surgical or Medtronic engineering programs; clinical engineering certification; surgical workflow analyst pathway; FDA 510(k) regulatory experience"
+  compModel: "Base $100K-180K at med device companies; total comp with equity $140K-280K at Intuitive Surgical or startups; academic research positions $80K-130K; hospital-based clinical engineers $90K-150K"
+  revPerPatientVisit: "N/A — surgical robots cost $1-2.5M per unit; consumables generate $1K-3K per procedure for manufacturer; engineers support fleets of 50-200 installed systems"
+  dailyWorkflow: "Developing computer vision algorithms for surgical navigation, testing robotic arm control software, observing surgeries to understand workflow needs, running simulation environments, collaborating with surgeons on interface design, writing safety documentation for FDA submissions"
+  patientVolume: "Supports robotic systems performing 50-200 procedures per month across multiple hospital sites"
+  supportStaffModel: "Engineering teams of 8-20 at device companies; works with surgeons, clinical specialists, QA engineers, and regulatory affairs; field service engineers handle on-site support"
+  geographicDemandNotes: "Silicon Valley (Intuitive HQ), Minneapolis (Medtronic), Boston, Research Triangle; must be near manufacturing or major hospital partners; limited remote work due to hardware and clinical access needs"
+  telehealthPotential: 3
+  genderDistribution: "~70% men, ~30% women"
+
+- name: "Genomic Data Analyst"
+  group: ai_health_bio
+  residencyYears: 1
+  annualSpots: 10000
+  startSalary: 70
+  midSalary: 110
+  peakSalary: 170
+  typicalPeak: 155
+  partTimeFlex: 5
+  procedureMix: 5
+  callSchedule: 9
+  adminBurden: 4
+  hoursWeek: 43
+  burnout: 30
+  partTimeFeasibility: 5
+  vacation: 4
+  careerLongevity: 7
+  malpracticeFreq: 8
+  malpracticeCost: 1.0
+  geographicFlex: 8
+  automationRisk: 6
+  handsOnInsulation: 5
+  satisfaction: 75
+  chooseAgain: 68
+  intellectualStim: 8
+  varietyRepetition: 6
+  patientImpact: 8
+  physicalToll: 10
+  emotionalToll: 7
+  malpracticeLiability: 8
+  injuryCareerRisk: 9
+  aiRiskNow: 3
+  aiRiskMedium: 5
+  aiRiskLong: 7
+  aiNarrative: "Genomic Data Analysts interpret the massive datasets produced by DNA sequencing — finding disease-linked variants, drug response markers, and ancestry patterns using AI tools. The field is booming as sequencing costs plummet and precision medicine goes mainstream. The vulnerability is significant: AI is getting remarkably good at variant classification and genome interpretation, and much of the routine analysis work is already semi-automated. Analysts who move toward clinical interpretation and patient-facing genomic counseling will have more staying power than those doing pure data crunching."
+  fellowshipOptions: "Bioinformatics MS or certificate; American Board of Clinical Molecular Genetics certification; genomics data science specializations through Coursera or edX; transition from biology, genetics, or data science backgrounds"
+  compModel: "Base $70K-130K at biotech and pharma; genomics companies (Illumina, 23andMe) $90K-170K total comp; academic research $60K-100K; clinical lab positions $75K-120K"
+  revPerPatientVisit: "N/A — whole genome sequencing costs $200-600 per sample; clinical interpretation billed at $500-2000 per case; analysts process 50-200 samples per week"
+  dailyWorkflow: "Running bioinformatics pipelines on sequencing data, variant calling and annotation, interpreting clinically significant variants, writing genomic reports for physicians, quality control on sequencing runs, updating variant databases, collaborating with genetic counselors and oncologists"
+  patientVolume: "Processes 10-40 genomic samples per day through pipeline; manually reviews 5-15 complex cases per day"
+  supportStaffModel: "Lab team of 5-15 with sequencing techs, bioinformaticians, lab director; clinical side includes genetic counselors and ordering physicians"
+  geographicDemandNotes: "Boston-Cambridge biotech hub, SF Bay Area, San Diego, Research Triangle, and Philadelphia lead; remote work increasingly common for computational roles; clinical positions need lab proximity"
+  telehealthPotential: 8
+  genderDistribution: "~50% men, ~50% women"
+
+# ── ai_business_society ──────────────────────────────────────────────
+
+- name: "AI Financial Strategist"
+  group: ai_business_society
+  residencyYears: 1
+  annualSpots: 12000
+  startSalary: 95
+  midSalary: 150
+  peakSalary: 235
+  typicalPeak: 215
+  partTimeFlex: 3
+  procedureMix: 5
+  callSchedule: 7
+  adminBurden: 5
+  hoursWeek: 50
+  burnout: 42
+  partTimeFeasibility: 4
+  vacation: 3
+  careerLongevity: 7
+  malpracticeFreq: 7
+  malpracticeCost: 2.0
+  geographicFlex: 7
+  automationRisk: 5
+  handsOnInsulation: 6
+  satisfaction: 74
+  chooseAgain: 68
+  intellectualStim: 8
+  varietyRepetition: 7
+  patientImpact: 6
+  physicalToll: 9
+  emotionalToll: 5
+  malpracticeLiability: 7
+  injuryCareerRisk: 9
+  aiRiskNow: 3
+  aiRiskMedium: 5
+  aiRiskLong: 7
+  aiNarrative: "AI Financial Strategists deploy machine learning for portfolio optimization, fraud detection, credit scoring, and algorithmic trading — bridging Wall Street and Silicon Valley. The pay is excellent because the stakes are enormous: a better model means millions in alpha. But this is also one of the most vulnerable strategist roles, because finance has the cleanest data and the strongest incentive to automate. As AI trading and risk models become self-improving, the human strategist's role narrows to oversight, novel strategy design, and client relationships."
+  fellowshipOptions: "CFA charter + AI/ML certification; financial engineering MS (CMU, Princeton, Columbia); FinTech bootcamps; transition from quant finance, investment banking, or data science"
+  compModel: "Base $95K-170K; total comp with bonus at banks and hedge funds $150K-400K+; FinTech companies $120K-250K total comp; performance bonuses tied to fund returns can be massive"
+  revPerPatientVisit: "N/A — AI-driven strategies manage $10M-1B+ in assets; alpha generation of even 0.5% on $100M portfolio = $500K in revenue attribution"
+  dailyWorkflow: "Building and backtesting AI trading models, monitoring model performance and drift, analyzing market data for new signal discovery, meeting with portfolio managers to translate AI insights, regulatory reporting on algorithmic trading, evaluating new AI vendor tools and datasets"
+  patientVolume: "Manages 3-8 active AI models in production; evaluates 5-10 new model ideas per month"
+  supportStaffModel: "Quant team of 5-15 with data engineers, ML engineers, and quant researchers; supported by risk management, compliance, and trading desk"
+  geographicDemandNotes: "NYC dominates (Wall Street + FinTech); Chicago (CME, Citadel); SF Bay Area; London globally; remote increasingly accepted for research roles but trading floors still want presence"
+  telehealthPotential: 7
+  genderDistribution: "~70% men, ~30% women"
+
+- name: "Human-AI Team Manager"
+  group: ai_business_society
+  residencyYears: 0
+  annualSpots: 20000
+  startSalary: 85
+  midSalary: 140
+  peakSalary: 220
+  typicalPeak: 200
+  partTimeFlex: 3
+  procedureMix: 5
+  callSchedule: 7
+  adminBurden: 6
+  hoursWeek: 48
+  burnout: 38
+  partTimeFeasibility: 4
+  vacation: 3
+  careerLongevity: 6
+  malpracticeFreq: 9
+  malpracticeCost: 0.5
+  geographicFlex: 7
+  automationRisk: 5
+  handsOnInsulation: 6
+  satisfaction: 76
+  chooseAgain: 72
+  intellectualStim: 8
+  varietyRepetition: 8
+  patientImpact: 7
+  physicalToll: 9
+  emotionalToll: 5
+  malpracticeLiability: 9
+  injuryCareerRisk: 9
+  aiRiskNow: 2
+  aiRiskMedium: 5
+  aiRiskLong: 7
+  aiNarrative: "Human-AI Team Managers are the most future-forward role on this list — they manage teams where some 'employees' are AI agents. This means deciding which tasks go to humans vs. AI, mediating when AI output needs human review, and maintaining team morale when people worry about being replaced. Every company will need this role by 2030. The existential risk is obvious: if AI agents become self-managing, the manager becomes redundant. But the human judgment in navigating organizational politics, team dynamics, and ethical gray areas is hard to automate."
+  fellowshipOptions: "MBA with AI/technology management focus; Google or Microsoft AI leadership certification; project management (PMP) + AI upskill; organizational psychology with technology specialization; transition from traditional management, HR, or tech lead roles"
+  compModel: "Base $85K-160K; total comp at tech companies $130K-250K; consulting firms $120K-200K; early-stage startups offer equity-heavy packages; executive coaching rates $200-400/hr for independent practice"
+  revPerPatientVisit: "N/A — manages teams that generate $1M-20M+ in annual output; ROI measured by team productivity, AI adoption rates, and employee retention"
+  dailyWorkflow: "Reviewing AI agent output quality, reassigning tasks between human and AI team members, 1-on-1s with human reports about AI collaboration concerns, setting AI tool adoption targets, escalation handling when AI makes errors, designing human-AI workflow processes, reporting team metrics to leadership"
+  patientVolume: "Manages teams of 8-25 people + 3-10 AI agents or tools; 6-10 meetings per day"
+  supportStaffModel: "Direct reports include human employees and AI tool administrators; supported by HR, IT, and change management; dotted-line to AI/ML engineering for tool development"
+  geographicDemandNotes: "Every major metro — this role exists wherever companies deploy AI at scale; SF, NYC, Seattle, Austin lead; remote-friendly but in-person preferred for team culture management"
+  telehealthPotential: 7
+  genderDistribution: "~55% men, ~45% women"
+
+- name: "AI Supply Chain Optimizer"
+  group: ai_business_society
+  residencyYears: 0
+  annualSpots: 10000
+  startSalary: 80
+  midSalary: 125
+  peakSalary: 190
+  typicalPeak: 175
+  partTimeFlex: 3
+  procedureMix: 5
+  callSchedule: 6
+  adminBurden: 5
+  hoursWeek: 46
+  burnout: 35
+  partTimeFeasibility: 4
+  vacation: 3
+  careerLongevity: 7
+  malpracticeFreq: 9
+  malpracticeCost: 0.5
+  geographicFlex: 6
+  automationRisk: 6
+  handsOnInsulation: 5
+  satisfaction: 70
+  chooseAgain: 63
+  intellectualStim: 7
+  varietyRepetition: 6
+  patientImpact: 6
+  physicalToll: 9
+  emotionalToll: 6
+  malpracticeLiability: 9
+  injuryCareerRisk: 9
+  aiRiskNow: 3
+  aiRiskMedium: 5
+  aiRiskLong: 7
+  aiNarrative: "AI Supply Chain Optimizers use machine learning to predict demand, optimize inventory, route shipments, and manage supplier risk — turning the chaos of global logistics into data-driven decisions. COVID proved that supply chains need to be smarter, and AI is the answer. The vulnerability is that supply chain AI platforms (like Blue Yonder, Kinaxis) are becoming increasingly autonomous, requiring fewer human strategists to configure and interpret them. The survivors will be the ones who handle disruptions, geopolitical risk, and the judgment calls that algorithms struggle with."
+  fellowshipOptions: "Supply chain management certification (APICS/ASCM); operations research MS; MIT or Georgia Tech supply chain analytics programs; Six Sigma + AI upskill; transition from logistics, procurement, or industrial engineering"
+  compModel: "Base $80K-140K; total comp at major retailers and manufacturers $110K-200K; consulting firms $100K-180K; Amazon and Walmart logistics roles $120K-200K total comp"
+  revPerPatientVisit: "N/A — supply chain optimization saves companies $5M-50M+ annually; a single demand forecasting improvement can be worth millions in reduced waste"
+  dailyWorkflow: "Reviewing AI demand forecasting models, adjusting inventory algorithms for seasonal patterns, analyzing supplier risk scores, running disruption scenario simulations, coordinating with procurement and logistics teams, presenting optimization recommendations to operations leadership"
+  patientVolume: "Manages AI models covering 1000-50000 SKUs; monitors 10-50 supplier relationships; weekly reviews of 3-5 critical supply chain nodes"
+  supportStaffModel: "Supply chain analytics team of 3-10; works with procurement, warehouse operations, transportation, and IT; supported by data engineers maintaining pipeline infrastructure"
+  geographicDemandNotes: "Distribution hub cities — Atlanta, Dallas, Chicago, Memphis, Louisville; retailer HQs (Bentonville for Walmart, Seattle for Amazon); manufacturing corridors; some remote analytical work possible"
+  telehealthPotential: 6
+  genderDistribution: "~60% men, ~40% women"
+
+- name: "AI Legal Analyst"
+  group: ai_business_society
+  residencyYears: 1
+  annualSpots: 8000
+  startSalary: 70
+  midSalary: 115
+  peakSalary: 180
+  typicalPeak: 165
+  partTimeFlex: 5
+  procedureMix: 5
+  callSchedule: 8
+  adminBurden: 5
+  hoursWeek: 45
+  burnout: 35
+  partTimeFeasibility: 5
+  vacation: 3
+  careerLongevity: 7
+  malpracticeFreq: 7
+  malpracticeCost: 2.0
+  geographicFlex: 8
+  automationRisk: 6
+  handsOnInsulation: 5
+  satisfaction: 72
+  chooseAgain: 65
+  intellectualStim: 7
+  varietyRepetition: 6
+  patientImpact: 6
+  physicalToll: 10
+  emotionalToll: 6
+  malpracticeLiability: 7
+  injuryCareerRisk: 9
+  aiRiskNow: 4
+  aiRiskMedium: 6
+  aiRiskLong: 7
+  aiNarrative: "AI Legal Analysts use NLP-powered tools to revolutionize contract analysis, case law research, regulatory compliance, and e-discovery — doing in minutes what used to take paralegals weeks. Law firms that adopt AI are seeing 3-5x productivity gains on document review. The brutal irony: this role is one of the most vulnerable on this list because legal AI tools are getting shockingly good. GPT-level models already pass the bar exam. Analysts who provide strategic legal judgment beyond document processing will last; pure research roles are in the crosshairs."
+  fellowshipOptions: "JD or paralegal certificate + legal tech certification; legal operations specialist credential; contract management (IACCM) certification; transition from practicing attorney, paralegal, or legal ops; LegalTech vendor certifications (Relativity, Kira, Harvey)"
+  compModel: "Base $70K-130K at law firms; legal tech companies $90K-180K total comp; Big Law innovation teams $120K-200K; independent consultants $150-300/hr; in-house legal ops $85K-160K"
+  revPerPatientVisit: "N/A — AI-assisted document review billed at $50-150/hr vs. traditional $250-500/hr associate rates; firms pass savings to clients while maintaining margins"
+  dailyWorkflow: "Running AI contract analysis on deal documents, reviewing AI-flagged risk clauses for accuracy, training legal AI models on firm-specific precedent, managing e-discovery workflows with AI prioritization, presenting AI-generated research summaries to partners, evaluating new legal AI tools for firm adoption"
+  patientVolume: "Processes 500-5000 documents per week through AI review; manually validates 50-200 AI-flagged items; supports 5-15 active matters"
+  supportStaffModel: "Legal innovation team of 2-6 at large firms; works with attorneys, paralegals, IT, and knowledge management; at legal tech companies, part of customer success or product team"
+  geographicDemandNotes: "NYC, DC, Chicago, LA — wherever Big Law and corporate legal departments concentrate; London globally; remote-friendly for many legal tech roles; e-discovery work can be fully remote"
+  telehealthPotential: 8
+  genderDistribution: "~45% men, ~55% women"
+
+- name: "AI Talent Strategist"
+  group: ai_business_society
+  residencyYears: 0
+  annualSpots: 10000
+  startSalary: 75
+  midSalary: 120
+  peakSalary: 185
+  typicalPeak: 170
+  partTimeFlex: 5
+  procedureMix: 5
+  callSchedule: 8
+  adminBurden: 5
+  hoursWeek: 44
+  burnout: 32
+  partTimeFeasibility: 5
+  vacation: 4
+  careerLongevity: 6
+  malpracticeFreq: 9
+  malpracticeCost: 0.5
+  geographicFlex: 8
+  automationRisk: 6
+  handsOnInsulation: 5
+  satisfaction: 70
+  chooseAgain: 63
+  intellectualStim: 7
+  varietyRepetition: 7
+  patientImpact: 7
+  physicalToll: 10
+  emotionalToll: 6
+  malpracticeLiability: 9
+  injuryCareerRisk: 9
+  aiRiskNow: 3
+  aiRiskMedium: 5
+  aiRiskLong: 7
+  aiNarrative: "AI Talent Strategists redesign how companies hire, develop, and retain people in the age of AI — using AI tools for skills assessment, workforce planning, and predicting which roles will be automated next. They help organizations figure out which humans to upskill and which tasks to hand to AI. The role is deeply needed right now but faces a paradox: if you're really good at your job, you might automate yourself. AI-powered HR platforms are already handling resume screening, candidate matching, and basic workforce analytics with minimal human input."
+  fellowshipOptions: "SHRM or HRCI certification + AI/people analytics specialization; organizational psychology degree with data science skills; workforce planning certifications; transition from HR business partner, recruiting, or management consulting"
+  compModel: "Base $75K-140K; total comp at tech companies $110K-200K; consulting firms (McKinsey, Deloitte) $100K-185K; independent consultants $175-300/hr; CHRO-track at AI-forward companies"
+  revPerPatientVisit: "N/A — workforce transformation projects billed at $100K-1M+ at consulting firms; in-house roles measured by retention improvements, time-to-hire, and AI adoption metrics"
+  dailyWorkflow: "Analyzing workforce skills gaps using AI assessment tools, designing AI-augmented job architectures, consulting with business units on headcount vs. AI tool trade-offs, running AI-powered candidate screening programs, building internal AI upskilling curricula, presenting workforce transformation roadmaps to C-suite"
+  patientVolume: "Covers workforce of 500-10000+ employees; manages 3-5 transformation projects simultaneously; reviews AI hiring tool outputs weekly"
+  supportStaffModel: "HR analytics team of 2-6; works with HRIS, recruiting, L&D, and business unit leaders; at consulting firms, part of people and organization practice"
+  geographicDemandNotes: "Major corporate centers — NYC, SF, Chicago, Dallas, Atlanta; consulting firm offices worldwide; highly remote-friendly for analytical and strategic work"
+  telehealthPotential: 8
+  genderDistribution: "~40% men, ~60% women"
+
+- name: "Autonomous Commerce Architect"
+  group: ai_business_society
+  residencyYears: 0
+  annualSpots: 5000
+  startSalary: 90
+  midSalary: 145
+  peakSalary: 225
+  typicalPeak: 205
+  partTimeFlex: 3
+  procedureMix: 6
+  callSchedule: 7
+  adminBurden: 4
+  hoursWeek: 48
+  burnout: 38
+  partTimeFeasibility: 3
+  vacation: 3
+  careerLongevity: 7
+  malpracticeFreq: 9
+  malpracticeCost: 0.5
+  geographicFlex: 7
+  automationRisk: 5
+  handsOnInsulation: 7
+  satisfaction: 78
+  chooseAgain: 72
+  intellectualStim: 8
+  varietyRepetition: 7
+  patientImpact: 6
+  physicalToll: 9
+  emotionalToll: 6
+  malpracticeLiability: 9
+  injuryCareerRisk: 9
+  aiRiskNow: 2
+  aiRiskMedium: 4
+  aiRiskLong: 5
+  aiNarrative: "Autonomous Commerce Architects design the AI systems behind cashierless stores, dynamic pricing engines, automated inventory management, and personalized shopping experiences — think Amazon Go on steroids. They sit at the intersection of retail strategy, computer vision, IoT, and customer experience. The role is well-insulated because building autonomous commerce systems requires deep understanding of physical retail, consumer behavior, and edge-case handling that pure AI cannot design for itself. The risk is market consolidation: if a few dominant platforms (Amazon, Grabango) own the stack, fewer architects are needed."
+  fellowshipOptions: "Retail technology or e-commerce product management background; computer vision or IoT engineering certifications; MBA with retail/technology dual focus; AWS or Azure IoT architecture certifications; transition from retail operations, store design, or product engineering"
+  compModel: "Base $90K-165K; total comp at Amazon or retail tech companies $140K-260K; consulting for retailers $120K-200K; startup equity can be significant in this fast-growing space"
+  revPerPatientVisit: "N/A — autonomous store technology saves $500K-2M per store in labor annually; dynamic pricing optimization generates 2-5% revenue lift worth millions for large retailers"
+  dailyWorkflow: "Designing autonomous checkout system architecture, testing computer vision models for product recognition, analyzing customer flow data, coordinating IoT sensor deployments, working with retail operations on rollout plans, evaluating vendor solutions, presenting ROI analyses to retail executives"
+  patientVolume: "Manages technology stack for 5-50 store locations; oversees 2-4 major system deployments per year; continuous optimization across live sites"
+  supportStaffModel: "Cross-functional team of 8-20 including CV engineers, IoT specialists, retail ops, UX designers, and data scientists; reports to VP of technology or innovation"
+  geographicDemandNotes: "Seattle (Amazon), SF Bay Area (retail tech startups), NYC and Chicago (major retailer HQs); international expansion in London, Tokyo, Shanghai; site visits required but strategic work can be remote"
+  telehealthPotential: 6
+  genderDistribution: "~65% men, ~35% women"

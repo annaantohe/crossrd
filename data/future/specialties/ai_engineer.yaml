@@ -1,0 +1,820 @@
+# AI Engineer specialties — 18 careers across 3 groups
+# BS/MS in CS/AI who build, deploy, and secure AI systems
+profession: AI Engineer
+specialties:
+
+# === AI ENGINEERING (8) ===
+
+- name: "Machine Learning Engineer"
+  group: ai_engineering
+  residencyYears: 0
+  annualSpots: 85000
+  startSalary: 120
+  midSalary: 180
+  peakSalary: 280
+  typicalPeak: 240
+  partTimeFlex: 4
+  procedureMix: 5
+  callSchedule: 6
+  adminBurden: 4
+  hoursWeek: 50
+  burnout: 42
+  partTimeFeasibility: 4
+  vacation: 4
+  careerLongevity: 6
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 9
+  automationRisk: 5
+  handsOnInsulation: 5
+  satisfaction: 78
+  chooseAgain: 74
+  intellectualStim: 9
+  varietyRepetition: 7
+  patientImpact: 7
+  physicalToll: 9
+  emotionalToll: 6
+  malpracticeLiability: 10
+  injuryCareerRisk: 8
+  aiRiskNow: 4
+  aiRiskMedium: 5
+  aiRiskLong: 7
+  aiNarrative: "The defining irony of the ML engineer: you build the thing that might replace you. AutoML platforms and foundation model fine-tuning are already eating into the bread-and-butter work of training custom models from scratch. But the engineers who can architect novel systems, debug training instabilities, and push the state of the art remain irreplaceable — for now."
+  fellowshipOptions: "MS in CS/AI common; PhD for research-heavy roles; AWS/GCP ML certifications; progression to staff/principal engineer or research scientist"
+  compModel: "Base $120-200K + RSU/equity $50-200K + signing bonus; total comp at FAANG $250-500K+ for senior; startup equity can be worth millions or zero"
+  revPerPatientVisit: "N/A — salaried; consulting rate $200-400/hr for independent ML consultants"
+  dailyWorkflow: "Data pipeline debugging, model training and evaluation, feature engineering, experiment tracking, code reviews, reading papers, deploying models to production, on-call for model performance regressions"
+  patientVolume: "2-4 active model development projects; production models requiring ongoing monitoring"
+  supportStaffModel: "Data engineers, platform/infra team, product managers, research scientists, ML ops engineers"
+  geographicDemandNotes: "SF Bay Area dominates; Seattle, NYC, Boston, Austin, London, Toronto — remote increasingly available at top companies"
+  telehealthPotential: 9
+  genderDistribution: "~78% men, ~22% women"
+
+- name: "AI Infrastructure Engineer"
+  group: ai_engineering
+  residencyYears: 0
+  annualSpots: 35000
+  startSalary: 115
+  midSalary: 170
+  peakSalary: 260
+  typicalPeak: 220
+  partTimeFlex: 3
+  procedureMix: 4
+  callSchedule: 5
+  adminBurden: 4
+  hoursWeek: 50
+  burnout: 40
+  partTimeFeasibility: 3
+  vacation: 4
+  careerLongevity: 6
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 8
+  automationRisk: 4
+  handsOnInsulation: 5
+  satisfaction: 76
+  chooseAgain: 72
+  intellectualStim: 8
+  varietyRepetition: 6
+  patientImpact: 6
+  physicalToll: 9
+  emotionalToll: 6
+  malpracticeLiability: 10
+  injuryCareerRisk: 8
+  aiRiskNow: 3
+  aiRiskMedium: 4
+  aiRiskLong: 6
+  aiNarrative: "AI infra engineers build the highways that AI models drive on — GPU clusters, distributed training frameworks, serving infrastructure. The irony is that as AI gets more capable, the infrastructure becomes more complex, not less. Someone has to keep the million-dollar training runs from crashing, and AI itself cannot debug its own distributed systems at scale."
+  fellowshipOptions: "MS in CS/distributed systems; Kubernetes and cloud certifications (CKA, AWS Solutions Architect); progression to staff engineer or infra architect"
+  compModel: "Base $115-190K + RSU/equity $40-180K + bonus; GPU cluster expertise commands premium; total comp $200-450K+ at top companies"
+  revPerPatientVisit: "N/A — salaried; infrastructure consulting rate $180-350/hr"
+  dailyWorkflow: "Optimizing GPU utilization, debugging distributed training failures, building model serving pipelines, capacity planning, cost optimization, on-call rotation for training cluster outages"
+  patientVolume: "3-6 active infrastructure projects; dozens of production services to maintain"
+  supportStaffModel: "ML engineers (consumers), SRE team, cloud vendor support, hardware team for on-prem clusters"
+  geographicDemandNotes: "SF Bay Area, Seattle — concentrated where large-scale AI labs are; some remote but on-call requirements limit flexibility"
+  telehealthPotential: 8
+  genderDistribution: "~82% men, ~18% women"
+
+- name: "Computer Vision Engineer"
+  group: ai_engineering
+  residencyYears: 0
+  annualSpots: 20000
+  startSalary: 110
+  midSalary: 165
+  peakSalary: 250
+  typicalPeak: 210
+  partTimeFlex: 4
+  procedureMix: 5
+  callSchedule: 7
+  adminBurden: 3
+  hoursWeek: 48
+  burnout: 38
+  partTimeFeasibility: 4
+  vacation: 4
+  careerLongevity: 6
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 8
+  automationRisk: 5
+  handsOnInsulation: 5
+  satisfaction: 80
+  chooseAgain: 76
+  intellectualStim: 9
+  varietyRepetition: 7
+  patientImpact: 7
+  physicalToll: 9
+  emotionalToll: 7
+  malpracticeLiability: 10
+  injuryCareerRisk: 8
+  aiRiskNow: 4
+  aiRiskMedium: 5
+  aiRiskLong: 6
+  aiNarrative: "Foundation models like CLIP and SAM have made basic vision tasks almost trivially easy to solve, which threatens CV engineers who only knew how to train classifiers. But the real-world deployment problems — dealing with weird lighting, edge cases in autonomous driving, medical imaging artifacts — still require deep domain expertise. The engineers who combine vision knowledge with physical-world understanding will survive."
+  fellowshipOptions: "MS/PhD in computer vision or robotics; OpenCV and TensorFlow certifications; progression to principal engineer, research scientist, or technical lead"
+  compModel: "Base $110-180K + RSU/equity $40-150K; autonomous vehicle companies and medical imaging pay premium; total comp $200-400K+"
+  revPerPatientVisit: "N/A — salaried; specialized CV consulting $200-400/hr"
+  dailyWorkflow: "Dataset curation and annotation review, model architecture experiments, edge case analysis, deployment optimization for latency, integrating with camera hardware, performance benchmarking"
+  patientVolume: "1-3 active vision model projects; continuous improvement on deployed systems"
+  supportStaffModel: "Data annotators (often large teams), ML engineers, embedded/edge engineers, product managers, domain experts (medical, automotive)"
+  geographicDemandNotes: "SF Bay Area, Pittsburgh (CMU/robotics), Detroit (autonomous vehicles), Boston — remote available for non-hardware roles"
+  telehealthPotential: 8
+  genderDistribution: "~80% men, ~20% women"
+
+- name: "NLP Engineer"
+  group: ai_engineering
+  residencyYears: 0
+  annualSpots: 25000
+  startSalary: 115
+  midSalary: 175
+  peakSalary: 270
+  typicalPeak: 230
+  partTimeFlex: 5
+  procedureMix: 4
+  callSchedule: 7
+  adminBurden: 3
+  hoursWeek: 48
+  burnout: 40
+  partTimeFeasibility: 5
+  vacation: 4
+  careerLongevity: 5
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 9
+  automationRisk: 6
+  handsOnInsulation: 4
+  satisfaction: 78
+  chooseAgain: 72
+  intellectualStim: 9
+  varietyRepetition: 7
+  patientImpact: 7
+  physicalToll: 10
+  emotionalToll: 6
+  malpracticeLiability: 10
+  injuryCareerRisk: 8
+  aiRiskNow: 5
+  aiRiskMedium: 6
+  aiRiskLong: 7
+  aiNarrative: "NLP engineers face the most direct existential threat of any AI career. LLMs have made traditional NLP pipelines — NER, sentiment analysis, text classification — almost obsolete overnight. Why build a custom model when GPT can do it in a prompt? The survivors are those who shift to LLM fine-tuning, retrieval-augmented generation, and building the systems that harness these models for production use cases."
+  fellowshipOptions: "MS/PhD in NLP or computational linguistics; Hugging Face and LLM-specific certifications emerging; progression to research scientist or LLM product architect"
+  compModel: "Base $115-195K + RSU/equity $50-200K; LLM expertise currently commands 15-25% premium; total comp $200-450K+"
+  revPerPatientVisit: "N/A — salaried; LLM consulting rate $250-500/hr during the current boom"
+  dailyWorkflow: "Fine-tuning language models, building RAG pipelines, evaluating model outputs for hallucinations, prompt engineering for production systems, data quality review, A/B testing deployment strategies"
+  patientVolume: "2-4 active NLP/LLM projects; production systems requiring evaluation and monitoring"
+  supportStaffModel: "Data engineers, product managers, content/domain experts for evaluation, trust & safety team for content moderation"
+  geographicDemandNotes: "SF Bay Area, NYC, Seattle, London — highly remote-friendly; LLM boom creating demand everywhere"
+  telehealthPotential: 9
+  genderDistribution: "~75% men, ~25% women"
+
+- name: "Robotics AI Engineer"
+  group: ai_engineering
+  residencyYears: 0
+  annualSpots: 12000
+  startSalary: 105
+  midSalary: 160
+  peakSalary: 240
+  typicalPeak: 200
+  partTimeFlex: 3
+  procedureMix: 7
+  callSchedule: 7
+  adminBurden: 3
+  hoursWeek: 48
+  burnout: 35
+  partTimeFeasibility: 3
+  vacation: 4
+  careerLongevity: 7
+  malpracticeFreq: 9
+  malpracticeCost: 1
+  geographicFlex: 5
+  automationRisk: 3
+  handsOnInsulation: 7
+  satisfaction: 82
+  chooseAgain: 78
+  intellectualStim: 9
+  varietyRepetition: 8
+  patientImpact: 7
+  physicalToll: 8
+  emotionalToll: 7
+  malpracticeLiability: 9
+  injuryCareerRisk: 8
+  aiRiskNow: 2
+  aiRiskMedium: 3
+  aiRiskLong: 5
+  aiNarrative: "Robotics AI is one of the more protected AI careers because it bridges the digital and physical worlds. You cannot debug a robot arm collision in a simulation alone — you have to be there when the gripper crushes the part or the drone drifts into a wall. The sim-to-real gap keeps robotics engineers essential, and the expanding use of robots in warehouses, surgery, and agriculture is driving massive demand."
+  fellowshipOptions: "MS/PhD in robotics (CMU, MIT, Stanford); ROS certifications; progression to robotics architect, CTO at robotics startup, or principal engineer"
+  compModel: "Base $105-175K + RSU/equity $30-120K; robotics startups offer more equity, less base; total comp $180-350K+"
+  revPerPatientVisit: "N/A — salaried; robotics consulting $180-300/hr"
+  dailyWorkflow: "Sim-to-real transfer experiments, motion planning algorithm development, sensor integration testing, physical robot debugging in lab, safety system validation, field deployment support"
+  patientVolume: "1-2 active robot platform projects; ongoing field deployment support"
+  supportStaffModel: "Mechanical engineers, electrical engineers, perception/vision team, field application engineers, safety engineers"
+  geographicDemandNotes: "Pittsburgh (CMU ecosystem), Boston, SF Bay Area, Ann Arbor — must be near physical robot labs; limited remote"
+  telehealthPotential: 5
+  genderDistribution: "~82% men, ~18% women"
+
+- name: "AI Chip Designer"
+  group: ai_engineering
+  residencyYears: 0
+  annualSpots: 5000
+  startSalary: 130
+  midSalary: 195
+  peakSalary: 300
+  typicalPeak: 260
+  partTimeFlex: 3
+  procedureMix: 4
+  callSchedule: 8
+  adminBurden: 4
+  hoursWeek: 50
+  burnout: 35
+  partTimeFeasibility: 3
+  vacation: 4
+  careerLongevity: 7
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 4
+  automationRisk: 3
+  handsOnInsulation: 6
+  satisfaction: 80
+  chooseAgain: 76
+  intellectualStim: 10
+  varietyRepetition: 6
+  patientImpact: 8
+  physicalToll: 9
+  emotionalToll: 6
+  malpracticeLiability: 10
+  injuryCareerRisk: 9
+  aiRiskNow: 3
+  aiRiskMedium: 4
+  aiRiskLong: 5
+  aiNarrative: "AI chip design sits at the interesting intersection where AI helps design the chips that run AI. EDA tools already use ML for placement and routing, and that trend will accelerate. But designing novel architectures — the next TPU, the next neuromorphic processor — requires deep hardware intuition and years of silicon experience that AI cannot replicate. The tiny talent pool and massive demand from the AI boom make this one of the most secure AI-adjacent careers."
+  fellowshipOptions: "MS/PhD in EE or computer architecture; Synopsys/Cadence EDA tool expertise; progression to chip architect, VP of hardware, or technical fellow"
+  compModel: "Base $130-210K + RSU/equity $60-250K; NVIDIA, Google, Apple, AMD pay top of market; total comp $250-550K+ for senior"
+  revPerPatientVisit: "N/A — salaried; no meaningful freelance market due to IP constraints"
+  dailyWorkflow: "RTL design and verification, architecture exploration, power/performance/area tradeoff analysis, timing closure, synthesis runs, working with foundry process design kits"
+  patientVolume: "1 active chip tape-out cycle (12-24 month cadence); multiple architecture studies in parallel"
+  supportStaffModel: "Verification engineers (large team), physical design team, packaging engineers, fab liaison, software team for chip bring-up"
+  geographicDemandNotes: "Santa Clara/San Jose (NVIDIA, AMD, Intel), Austin (Samsung, Apple), Bangalore, Hsinchu Taiwan — very concentrated near fabs and chip companies; limited remote"
+  telehealthPotential: 5
+  genderDistribution: "~85% men, ~15% women"
+
+- name: "Foundation Model Developer"
+  group: ai_engineering
+  residencyYears: 0
+  annualSpots: 3000
+  startSalary: 150
+  midSalary: 230
+  peakSalary: 380
+  typicalPeak: 320
+  partTimeFlex: 2
+  procedureMix: 4
+  callSchedule: 5
+  adminBurden: 3
+  hoursWeek: 55
+  burnout: 48
+  partTimeFeasibility: 2
+  vacation: 3
+  careerLongevity: 5
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 6
+  automationRisk: 3
+  handsOnInsulation: 7
+  satisfaction: 82
+  chooseAgain: 75
+  intellectualStim: 10
+  varietyRepetition: 6
+  patientImpact: 9
+  physicalToll: 9
+  emotionalToll: 5
+  malpracticeLiability: 10
+  injuryCareerRisk: 8
+  aiRiskNow: 2
+  aiRiskMedium: 3
+  aiRiskLong: 5
+  aiNarrative: "This is the career most responsible for building the AI that threatens every other career on this list — and it is paradoxically the hardest to automate. Training a frontier model requires managing billion-dollar compute budgets, inventing new architectures, debugging training instabilities at massive scale, and making judgment calls about data and alignment that have no textbook answers. The talent pool is tiny and the stakes are existential."
+  fellowshipOptions: "PhD in ML/AI nearly required; top-tier research publications essential; progression to research director, chief scientist, or founder of an AI lab"
+  compModel: "Base $150-250K + RSU/equity $100-500K+ + signing bonuses up to $1M; total comp $400K-1M+ at frontier labs; bidding wars for top researchers are real"
+  revPerPatientVisit: "N/A — salaried; some researchers earn additional income from consulting, advisory roles, or book deals"
+  dailyWorkflow: "Designing training runs, analyzing loss curves, data mixture experiments, scaling law analysis, alignment and safety evaluation, publishing papers, reviewing others' research, multi-week training run monitoring"
+  patientVolume: "1-2 active foundation model training efforts; typically on 6-12 month research cycles"
+  supportStaffModel: "Large infrastructure team, data team, safety/alignment researchers, policy team, compute allocation managers"
+  geographicDemandNotes: "SF Bay Area (OpenAI, Anthropic, Meta), NYC, London (DeepMind), Paris (Mistral) — concentrated at a handful of frontier labs"
+  telehealthPotential: 7
+  genderDistribution: "~80% men, ~20% women"
+
+- name: "Edge AI Engineer"
+  group: ai_engineering
+  residencyYears: 0
+  annualSpots: 18000
+  startSalary: 100
+  midSalary: 155
+  peakSalary: 240
+  typicalPeak: 200
+  partTimeFlex: 4
+  procedureMix: 6
+  callSchedule: 7
+  adminBurden: 3
+  hoursWeek: 46
+  burnout: 33
+  partTimeFeasibility: 4
+  vacation: 4
+  careerLongevity: 7
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 7
+  automationRisk: 4
+  handsOnInsulation: 6
+  satisfaction: 76
+  chooseAgain: 72
+  intellectualStim: 8
+  varietyRepetition: 7
+  patientImpact: 6
+  physicalToll: 9
+  emotionalToll: 7
+  malpracticeLiability: 10
+  injuryCareerRisk: 9
+  aiRiskNow: 3
+  aiRiskMedium: 4
+  aiRiskLong: 5
+  aiNarrative: "Edge AI engineers compress and optimize models to run on tiny devices — phones, drones, cameras, cars. This work requires understanding both ML and hardware constraints, a rare combination that is hard to automate. As AI moves from the cloud to every device, edge engineers become more important, not less. The physical device integration provides real insulation."
+  fellowshipOptions: "MS in embedded systems or ML; TensorFlow Lite, ONNX, and hardware vendor certifications; progression to edge platform architect or hardware-software co-design lead"
+  compModel: "Base $100-170K + RSU/equity $30-100K; IoT and automotive companies pay well; total comp $180-320K+"
+  revPerPatientVisit: "N/A — salaried; edge ML consulting $150-280/hr"
+  dailyWorkflow: "Model quantization and pruning, profiling inference latency on target hardware, optimizing memory footprint, integrating with embedded SDKs, testing on physical devices, power consumption analysis"
+  patientVolume: "2-4 active edge deployment projects; ongoing optimization of shipped products"
+  supportStaffModel: "ML engineers (provide base models), embedded firmware team, hardware engineers, QA/test team"
+  geographicDemandNotes: "SF Bay Area, San Diego (Qualcomm), Austin, Seattle — need proximity to hardware teams; some remote for pure optimization work"
+  telehealthPotential: 7
+  genderDistribution: "~83% men, ~17% women"
+
+# === AI PRODUCTS & OPS (7) ===
+
+- name: "Prompt Engineer"
+  group: ai_products_ops
+  residencyYears: 0
+  annualSpots: 50000
+  startSalary: 75
+  midSalary: 110
+  peakSalary: 160
+  typicalPeak: 135
+  partTimeFlex: 7
+  procedureMix: 3
+  callSchedule: 9
+  adminBurden: 4
+  hoursWeek: 42
+  burnout: 30
+  partTimeFeasibility: 7
+  vacation: 4
+  careerLongevity: 3
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 10
+  automationRisk: 7
+  handsOnInsulation: 3
+  satisfaction: 72
+  chooseAgain: 58
+  intellectualStim: 7
+  varietyRepetition: 5
+  patientImpact: 5
+  physicalToll: 10
+  emotionalToll: 7
+  malpracticeLiability: 10
+  injuryCareerRisk: 9
+  aiRiskNow: 6
+  aiRiskMedium: 7
+  aiRiskLong: 8
+  aiNarrative: "The ultimate irony: prompt engineering may be the first AI job automated by AI. As models become better at understanding intent and self-correcting, the need for carefully crafted prompts diminishes. Each new model generation makes the previous generation's prompt tricks obsolete. The survivors will be those who evolve into AI interaction designers or AI product managers — the craft of talking to machines will merge into broader product skills."
+  fellowshipOptions: "No established certification path yet; domain expertise matters most; progression to AI product manager, AI UX designer, or LLM application architect"
+  compModel: "Base $75-130K + bonus; freelance prompt engineers charge $50-200/hr; market is volatile and cooling rapidly as the novelty wears off"
+  revPerPatientVisit: "N/A — salaried or per-project freelance; prompt optimization contracts $5K-50K"
+  dailyWorkflow: "Crafting and testing system prompts, few-shot example curation, evaluating model outputs for quality, A/B testing prompt variations, documenting prompt libraries, building evaluation datasets"
+  patientVolume: "3-8 active prompt optimization projects; continuous refinement of production prompts"
+  supportStaffModel: "ML engineers, product managers, content/domain experts, QA team for output evaluation"
+  geographicDemandNotes: "Fully remote — one of the most location-independent AI roles; demand everywhere but concentrated at AI-forward companies"
+  telehealthPotential: 10
+  genderDistribution: "~65% men, ~35% women"
+
+- name: "MLOps Engineer"
+  group: ai_products_ops
+  residencyYears: 0
+  annualSpots: 30000
+  startSalary: 105
+  midSalary: 160
+  peakSalary: 240
+  typicalPeak: 205
+  partTimeFlex: 4
+  procedureMix: 4
+  callSchedule: 5
+  adminBurden: 5
+  hoursWeek: 48
+  burnout: 38
+  partTimeFeasibility: 4
+  vacation: 4
+  careerLongevity: 6
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 8
+  automationRisk: 5
+  handsOnInsulation: 4
+  satisfaction: 74
+  chooseAgain: 68
+  intellectualStim: 7
+  varietyRepetition: 6
+  patientImpact: 5
+  physicalToll: 9
+  emotionalToll: 6
+  malpracticeLiability: 10
+  injuryCareerRisk: 9
+  aiRiskNow: 4
+  aiRiskMedium: 5
+  aiRiskLong: 7
+  aiNarrative: "MLOps is the DevOps of AI — someone has to make sure the models actually work in production, retrain on schedule, and not silently degrade. AI tools are already automating pipeline creation and monitoring, which means fewer MLOps engineers are needed per model. But the growing number of models deployed everywhere partially offsets this. The real risk is that platforms like Vertex AI and SageMaker abstract away the job entirely."
+  fellowshipOptions: "AWS/GCP/Azure ML certifications; Kubeflow and MLflow expertise; progression to ML platform architect or head of AI infrastructure"
+  compModel: "Base $105-175K + RSU/equity $35-120K; platform engineering expertise commands premium; total comp $180-350K+"
+  revPerPatientVisit: "N/A — salaried; MLOps consulting $150-280/hr"
+  dailyWorkflow: "Building and maintaining ML pipelines, monitoring model drift, managing feature stores, automating retraining workflows, debugging production model failures, capacity planning for inference"
+  patientVolume: "5-20 production models to maintain; 2-3 active pipeline development projects"
+  supportStaffModel: "ML engineers (model producers), data engineers, SRE/platform team, product managers"
+  geographicDemandNotes: "SF Bay Area, Seattle, NYC — strong remote market; demand wherever companies deploy ML at scale"
+  telehealthPotential: 9
+  genderDistribution: "~80% men, ~20% women"
+
+- name: "AI Solutions Architect"
+  group: ai_products_ops
+  residencyYears: 0
+  annualSpots: 15000
+  startSalary: 120
+  midSalary: 180
+  peakSalary: 270
+  typicalPeak: 230
+  partTimeFlex: 4
+  procedureMix: 3
+  callSchedule: 7
+  adminBurden: 6
+  hoursWeek: 48
+  burnout: 35
+  partTimeFeasibility: 4
+  vacation: 4
+  careerLongevity: 7
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 7
+  automationRisk: 4
+  handsOnInsulation: 5
+  satisfaction: 76
+  chooseAgain: 72
+  intellectualStim: 8
+  varietyRepetition: 8
+  patientImpact: 6
+  physicalToll: 9
+  emotionalToll: 6
+  malpracticeLiability: 10
+  injuryCareerRisk: 9
+  aiRiskNow: 3
+  aiRiskMedium: 4
+  aiRiskLong: 5
+  aiNarrative: "AI solutions architects sit at the intersection of business and technology, designing how AI fits into real enterprise systems. This is a relationship-driven, consultative role that requires understanding a client's messy reality — legacy systems, data silos, organizational politics. AI can help draft architecture diagrams, but it cannot navigate a room full of skeptical executives or diagnose why a company's data infrastructure is not ready for ML."
+  fellowshipOptions: "AWS/GCP/Azure AI specialty certifications; enterprise architecture frameworks (TOGAF); progression to VP of AI, CTO, or independent AI consultancy"
+  compModel: "Base $120-195K + RSU/equity $40-120K + sales incentives at vendors; total comp $200-380K+; independent consultants charge $250-500/hr"
+  revPerPatientVisit: "N/A — salaried at tech vendors or consulting firms; independent architects bill $250-500/hr"
+  dailyWorkflow: "Customer discovery workshops, system architecture design, proof-of-concept development, technical presentations, integration planning, vendor evaluation, ROI analysis for AI initiatives"
+  patientVolume: "3-6 active client engagements; mix of pre-sales and post-sales implementation"
+  supportStaffModel: "Sales team, ML engineers for PoCs, customer success managers, product team, professional services engineers"
+  geographicDemandNotes: "Major metros nationwide; 30-50% travel for client-facing roles; cloud vendor roles (AWS, Google, Microsoft) in tech hubs"
+  telehealthPotential: 8
+  genderDistribution: "~75% men, ~25% women"
+
+- name: "AI Data Curator"
+  group: ai_products_ops
+  residencyYears: 0
+  annualSpots: 45000
+  startSalary: 60
+  midSalary: 90
+  peakSalary: 130
+  typicalPeak: 110
+  partTimeFlex: 6
+  procedureMix: 5
+  callSchedule: 9
+  adminBurden: 5
+  hoursWeek: 42
+  burnout: 32
+  partTimeFeasibility: 6
+  vacation: 4
+  careerLongevity: 5
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 9
+  automationRisk: 6
+  handsOnInsulation: 4
+  satisfaction: 65
+  chooseAgain: 55
+  intellectualStim: 6
+  varietyRepetition: 5
+  patientImpact: 5
+  physicalToll: 10
+  emotionalToll: 6
+  malpracticeLiability: 10
+  injuryCareerRisk: 9
+  aiRiskNow: 5
+  aiRiskMedium: 6
+  aiRiskLong: 7
+  aiNarrative: "Data curation is the unglamorous backbone of AI — cleaning, labeling, deduplicating, and structuring training data. AI is already automating large chunks of this work through synthetic data generation and auto-labeling. The curators who survive will be those who specialize in high-stakes domains (medical imaging, legal documents) where labeling errors have real consequences, or who move into data strategy and governance roles."
+  fellowshipOptions: "Data management certifications (DAMA-CDMP); domain-specific annotation expertise; progression to data strategy lead, head of data quality, or AI data operations manager"
+  compModel: "Base $60-110K + bonus; annotation team leads earn more; contract and freelance work common at $30-60/hr"
+  revPerPatientVisit: "N/A — salaried or contract; annotation projects billed $5K-100K depending on scope"
+  dailyWorkflow: "Defining annotation guidelines, quality-checking labeled data, managing annotation teams, building data pipelines, deduplication and filtering, coordinating with ML engineers on data needs"
+  patientVolume: "2-5 active dataset projects; thousands to millions of data points in pipeline"
+  supportStaffModel: "Annotation teams (often outsourced), data engineers, ML engineers, domain experts for quality review"
+  geographicDemandNotes: "Fully remote in most cases — annotation management can be done from anywhere; annotation workers distributed globally"
+  telehealthPotential: 9
+  genderDistribution: "~60% men, ~40% women"
+
+- name: "AI QA Engineer"
+  group: ai_products_ops
+  residencyYears: 0
+  annualSpots: 20000
+  startSalary: 80
+  midSalary: 120
+  peakSalary: 175
+  typicalPeak: 150
+  partTimeFlex: 5
+  procedureMix: 4
+  callSchedule: 7
+  adminBurden: 5
+  hoursWeek: 44
+  burnout: 33
+  partTimeFeasibility: 5
+  vacation: 4
+  careerLongevity: 6
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 8
+  automationRisk: 5
+  handsOnInsulation: 5
+  satisfaction: 70
+  chooseAgain: 62
+  intellectualStim: 7
+  varietyRepetition: 6
+  patientImpact: 6
+  physicalToll: 10
+  emotionalToll: 6
+  malpracticeLiability: 10
+  injuryCareerRisk: 9
+  aiRiskNow: 4
+  aiRiskMedium: 5
+  aiRiskLong: 6
+  aiNarrative: "Testing AI systems is fundamentally harder than testing traditional software — outputs are probabilistic, edge cases are infinite, and you cannot write a simple assert statement for whether a chatbot response is 'good enough.' AI QA engineers who develop expertise in adversarial testing, fairness auditing, and systematic evaluation of generative models are in growing demand. The irony is that AI helps generate test cases, but someone still has to decide what 'correct' means."
+  fellowshipOptions: "ISTQB AI testing certifications emerging; ML evaluation framework expertise; progression to AI quality lead, AI trust & safety manager, or test automation architect"
+  compModel: "Base $80-140K + RSU/equity $20-60K + bonus; total comp $120-220K+; specialized AI testing consulting $120-200/hr"
+  revPerPatientVisit: "N/A — salaried; AI testing audits billed $10K-100K per engagement"
+  dailyWorkflow: "Designing evaluation benchmarks, adversarial prompt testing, fairness and bias audits, regression testing after model updates, building automated evaluation pipelines, documenting failure modes"
+  patientVolume: "3-6 active AI products under evaluation; continuous monitoring of deployed systems"
+  supportStaffModel: "ML engineers, product managers, trust & safety team, domain experts for evaluation criteria, legal/compliance for regulated industries"
+  geographicDemandNotes: "SF Bay Area, Seattle, NYC — wherever AI products ship; growing remote availability; EU AI Act creating demand in Europe"
+  telehealthPotential: 9
+  genderDistribution: "~72% men, ~28% women"
+
+- name: "Autonomous Systems Operator"
+  group: ai_products_ops
+  residencyYears: 0
+  annualSpots: 8000
+  startSalary: 65
+  midSalary: 100
+  peakSalary: 155
+  typicalPeak: 130
+  partTimeFlex: 2
+  procedureMix: 7
+  callSchedule: 4
+  adminBurden: 4
+  hoursWeek: 46
+  burnout: 38
+  partTimeFeasibility: 2
+  vacation: 3
+  careerLongevity: 6
+  malpracticeFreq: 9
+  malpracticeCost: 2
+  geographicFlex: 4
+  automationRisk: 5
+  handsOnInsulation: 7
+  satisfaction: 72
+  chooseAgain: 65
+  intellectualStim: 7
+  varietyRepetition: 6
+  patientImpact: 6
+  physicalToll: 7
+  emotionalToll: 5
+  malpracticeLiability: 8
+  injuryCareerRisk: 7
+  aiRiskNow: 3
+  aiRiskMedium: 5
+  aiRiskLong: 7
+  aiNarrative: "Autonomous systems operators are the humans in the loop — monitoring self-driving vehicle fleets, drone swarms, and warehouse robots, ready to intervene when AI fails. The bitter irony is that this job exists precisely because AI is not good enough to work alone, and the better AI gets, the less this job is needed. Operators who transition into fleet management, safety analysis, or system design will fare better than those who remain button-watchers."
+  fellowshipOptions: "FAA Part 107 drone pilot certification; autonomous vehicle safety operator certification; fleet management credentials; progression to operations manager or safety analyst"
+  compModel: "Base $65-115K + shift differential for nights/weekends; hourly $30-55/hr; overtime common for 24/7 operations"
+  revPerPatientVisit: "N/A — salaried; drone services billed $150-500/hr to clients"
+  dailyWorkflow: "Monitoring autonomous vehicle/drone/robot operations in real-time, intervening during edge cases, filing incident reports, participating in safety reviews, performing pre-operation system checks, coordinating with engineering on failures"
+  patientVolume: "Monitoring 5-50 autonomous units simultaneously depending on system maturity"
+  supportStaffModel: "Remote operations center team, field maintenance technicians, AI engineers for escalation, safety team, fleet dispatch"
+  geographicDemandNotes: "San Francisco, Phoenix, Austin (AV testing cities); warehouse hubs near major metros; drone operations in agricultural and industrial areas"
+  telehealthPotential: 4
+  genderDistribution: "~75% men, ~25% women"
+
+- name: "AI Technical Writer"
+  group: ai_products_ops
+  residencyYears: 0
+  annualSpots: 15000
+  startSalary: 55
+  midSalary: 85
+  peakSalary: 125
+  typicalPeak: 105
+  partTimeFlex: 7
+  procedureMix: 2
+  callSchedule: 9
+  adminBurden: 5
+  hoursWeek: 40
+  burnout: 25
+  partTimeFeasibility: 7
+  vacation: 4
+  careerLongevity: 6
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 9
+  automationRisk: 6
+  handsOnInsulation: 3
+  satisfaction: 70
+  chooseAgain: 60
+  intellectualStim: 7
+  varietyRepetition: 5
+  patientImpact: 5
+  physicalToll: 10
+  emotionalToll: 8
+  malpracticeLiability: 10
+  injuryCareerRisk: 9
+  aiRiskNow: 5
+  aiRiskMedium: 6
+  aiRiskLong: 7
+  aiNarrative: "AI technical writers face a double irony: they document AI systems using AI writing tools. LLMs can already generate decent API documentation and tutorials, which directly threatens the routine parts of this role. But explaining complex AI concepts to non-technical audiences, creating developer experience strategies, and translating research papers into accessible content still require human judgment. Writers who become AI-literate content strategists will survive; those who only produce boilerplate docs will not."
+  fellowshipOptions: "Technical writing certifications (STC); developer documentation specialization; progression to developer advocacy, AI content strategy lead, or head of documentation"
+  compModel: "Base $55-105K + bonus; freelance AI tech writers charge $60-150/hr; content agencies bill $100-200/hr for specialized AI writing"
+  revPerPatientVisit: "N/A — salaried or freelance; documentation projects billed $5K-30K"
+  dailyWorkflow: "Interviewing engineers to understand new features, writing API docs and tutorials, creating quickstart guides, maintaining documentation sites, reviewing AI-generated draft content, user feedback analysis"
+  patientVolume: "3-8 active documentation projects; ongoing maintenance of docs for shipped products"
+  supportStaffModel: "Engineers (subject matter experts), product managers, developer advocates, design team, community managers"
+  geographicDemandNotes: "Fully remote in most cases — tech writers are among the most location-flexible roles in AI; SF, Seattle, NYC for in-office positions"
+  telehealthPotential: 9
+  genderDistribution: "~55% men, ~45% women"
+
+# === AI SAFETY & GOVERNANCE (3) ===
+
+- name: "AI Safety Engineer"
+  group: ai_safety_governance
+  residencyYears: 0
+  annualSpots: 8000
+  startSalary: 130
+  midSalary: 195
+  peakSalary: 300
+  typicalPeak: 260
+  partTimeFlex: 3
+  procedureMix: 4
+  callSchedule: 6
+  adminBurden: 4
+  hoursWeek: 50
+  burnout: 42
+  partTimeFeasibility: 3
+  vacation: 4
+  careerLongevity: 7
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 7
+  automationRisk: 3
+  handsOnInsulation: 7
+  satisfaction: 80
+  chooseAgain: 76
+  intellectualStim: 10
+  varietyRepetition: 7
+  patientImpact: 9
+  physicalToll: 10
+  emotionalToll: 5
+  malpracticeLiability: 9
+  injuryCareerRisk: 9
+  aiRiskNow: 2
+  aiRiskMedium: 3
+  aiRiskLong: 4
+  aiNarrative: "AI safety engineers have the most philosophically fascinating automation risk profile of any career: if they succeed at their job, they help create AI that is safe and aligned, which theoretically could do their job. But if they fail, the consequences are so severe that we cannot afford to not have humans doing this work. For now, alignment research and safety engineering require the kind of adversarial creativity and ethical reasoning that AI lacks. The demand is exploding as governments and companies wake up to AI risk."
+  fellowshipOptions: "PhD in ML/AI safety preferred; alignment research publications; MATS (ML Alignment Theory Scholars) program; progression to head of AI safety, chief alignment officer, or founding safety researcher at a frontier lab"
+  compModel: "Base $130-220K + RSU/equity $60-300K; frontier labs pay top of market; total comp $250-550K+; some safety researchers take below-market pay at nonprofits (MIRI, ARC) for mission alignment"
+  revPerPatientVisit: "N/A — salaried; AI safety consulting emerging at $200-400/hr for regulatory compliance"
+  dailyWorkflow: "Red-teaming model outputs, developing safety evaluations and benchmarks, researching adversarial attacks, building guardrails and content filters, writing safety documentation, coordinating with policy team on responsible deployment"
+  patientVolume: "1-3 active safety research projects; continuous evaluation of production models"
+  supportStaffModel: "ML engineers, alignment researchers, policy and legal team, trust & safety analysts, external red team contractors"
+  geographicDemandNotes: "SF Bay Area (OpenAI, Anthropic), London (DeepMind), DC (policy-adjacent safety work) — growing remote availability"
+  telehealthPotential: 8
+  genderDistribution: "~72% men, ~28% women"
+
+- name: "AI Red Team Specialist"
+  group: ai_safety_governance
+  residencyYears: 0
+  annualSpots: 4000
+  startSalary: 120
+  midSalary: 180
+  peakSalary: 270
+  typicalPeak: 230
+  partTimeFlex: 4
+  procedureMix: 5
+  callSchedule: 7
+  adminBurden: 4
+  hoursWeek: 46
+  burnout: 38
+  partTimeFeasibility: 4
+  vacation: 4
+  careerLongevity: 7
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 8
+  automationRisk: 4
+  handsOnInsulation: 7
+  satisfaction: 82
+  chooseAgain: 78
+  intellectualStim: 9
+  varietyRepetition: 8
+  patientImpact: 8
+  physicalToll: 10
+  emotionalToll: 5
+  malpracticeLiability: 10
+  injuryCareerRisk: 9
+  aiRiskNow: 3
+  aiRiskMedium: 4
+  aiRiskLong: 5
+  aiNarrative: "AI red teamers are the professional hackers of the AI world — finding jailbreaks, prompt injections, and failure modes before the bad actors do. Like cybersecurity, this is fundamentally an adversarial game, and the attackers (humans) will always find creative new angles that automated defenses miss. AI helps generate attack variations, but the creative insight to find novel vulnerabilities remains deeply human. The EU AI Act and emerging regulations are creating massive demand."
+  fellowshipOptions: "Background in cybersecurity or ML; GIAC/OSCP certifications transfer well; AI-specific red team training programs emerging; progression to head of AI red team, AI security director, or independent AI auditor"
+  compModel: "Base $120-200K + RSU/equity $40-150K + bug bounty bonuses; total comp $200-400K+; independent AI auditors charge $250-450/hr"
+  revPerPatientVisit: "N/A — salaried or per-engagement auditing; AI red team assessments billed $30K-200K per engagement"
+  dailyWorkflow: "Crafting adversarial prompts and inputs, systematic vulnerability scanning, documenting exploits and failure modes, writing red team reports, developing automated attack pipelines, collaborating with safety engineers on mitigations"
+  patientVolume: "2-4 active red team engagements; continuous probing of production systems"
+  supportStaffModel: "AI safety engineers, ML engineers for model access, legal team for responsible disclosure, external bug bounty participants"
+  geographicDemandNotes: "SF Bay Area, DC (government AI audit demand), London, NYC — remote-friendly; EU AI Act creating European demand"
+  telehealthPotential: 9
+  genderDistribution: "~70% men, ~30% women"
+
+- name: "AI Forensics Investigator"
+  group: ai_safety_governance
+  residencyYears: 0
+  annualSpots: 5000
+  startSalary: 70
+  midSalary: 110
+  peakSalary: 170
+  typicalPeak: 145
+  partTimeFlex: 4
+  procedureMix: 4
+  callSchedule: 6
+  adminBurden: 6
+  hoursWeek: 44
+  burnout: 35
+  partTimeFeasibility: 4
+  vacation: 4
+  careerLongevity: 7
+  malpracticeFreq: 9
+  malpracticeCost: 1
+  geographicFlex: 7
+  automationRisk: 4
+  handsOnInsulation: 6
+  satisfaction: 74
+  chooseAgain: 68
+  intellectualStim: 8
+  varietyRepetition: 7
+  patientImpact: 7
+  physicalToll: 10
+  emotionalToll: 5
+  malpracticeLiability: 8
+  injuryCareerRisk: 9
+  aiRiskNow: 3
+  aiRiskMedium: 4
+  aiRiskLong: 5
+  aiNarrative: "AI forensics investigators are the detectives of the AI era — tracing deepfakes, identifying AI-generated content, auditing algorithmic decisions, and providing expert testimony when AI systems cause harm. This is a field that barely existed five years ago and is growing explosively as AI-generated fraud, misinformation, and liability disputes multiply. The investigative judgment, legal expertise, and courtroom credibility required make this relatively safe from automation."
+  fellowshipOptions: "Digital forensics certifications (EnCE, GCFE) transfer well; AI auditing frameworks emerging; law degree helps for expert witness work; progression to AI forensics director, expert witness practice, or AI compliance consulting firm"
+  compModel: "Base $70-130K + bonus in corporate or government roles; expert witness work bills $300-600/hr; AI audit consulting $150-300/hr"
+  revPerPatientVisit: "N/A — salaried or per-case forensics; expert witness engagements $10K-100K+ per case"
+  dailyWorkflow: "Analyzing AI system outputs for bias or errors, tracing provenance of AI-generated content, building forensic audit trails, writing expert reports, testifying in legal proceedings, developing detection tools for deepfakes and synthetic media"
+  patientVolume: "3-8 active investigations or audit engagements; expert witness cases on varying timelines"
+  supportStaffModel: "Digital forensics analysts, legal team, data scientists, regulatory compliance officers, external expert networks"
+  geographicDemandNotes: "DC (government/regulatory), NYC (financial forensics), SF Bay Area (tech company internal audit), London — growing rapidly as AI litigation increases"
+  telehealthPotential: 8
+  genderDistribution: "~68% men, ~32% women"

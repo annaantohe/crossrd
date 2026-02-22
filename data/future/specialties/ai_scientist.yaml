@@ -1,0 +1,733 @@
+# AI Scientist (PhD) specialty raw data — full 42 columns
+# these are the people pushing the frontier of knowledge, armed with a PhD and a GPU
+profession: AI Scientist
+
+specialties:
+
+# ── ai_safety_governance ─────────────────────────────────────────────
+
+- name: "AI Alignment Researcher"
+  group: ai_safety_governance
+  residencyYears: 2
+  annualSpots: 2000
+  startSalary: 150
+  midSalary: 220
+  peakSalary: 350
+  typicalPeak: 290
+  partTimeFlex: 4
+  procedureMix: 5
+  callSchedule: 8
+  adminBurden: 4
+  hoursWeek: 50
+  burnout: 38
+  partTimeFeasibility: 4
+  vacation: 4
+  careerLongevity: 7
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 8
+  automationRisk: 3
+  handsOnInsulation: 8
+  satisfaction: 84
+  chooseAgain: 78
+  intellectualStim: 10
+  varietyRepetition: 8
+  patientImpact: 10
+  physicalToll: 10
+  emotionalToll: 5
+  malpracticeLiability: 10
+  injuryCareerRisk: 8
+  aiRiskNow: 2
+  aiRiskMedium: 3
+  aiRiskLong: 4
+  aiNarrative: "You are trying to solve the control problem before the thing you're controlling gets smarter than you. AI accelerates alignment research — better interpretability tools, automated red-teaming, scalable oversight experiments — but the core philosophical and technical questions require deeply creative human thought. The paradox: if you succeed perfectly, your job disappears because AI is safe. If you fail, everyone's job disappears."
+  fellowshipOptions: "Postdoc 1-3yr at MIRI, Anthropic, DeepMind, ARC; OpenPhil fellowships; Redwood Research residency; academic postdoc in AI safety"
+  compModel: "Base salary $150-220K + equity at safety-focused labs; academic track $100-160K + grants; some funded by EA orgs"
+  revPerPatientVisit: "N/A — revenue via research grants, lab funding, philanthropic support"
+  dailyWorkflow: "Theoretical research 35%, coding experiments 30%, reading papers 15%, writing/publishing 15%, red-teaming exercises 5%"
+  patientVolume: "N/A"
+  supportStaffModel: "Small research teams (2-6); PhD students, research engineers; heavy collaboration with policy teams"
+  geographicDemandNotes: "San Francisco (Anthropic, OpenAI), London (DeepMind), remote-friendly for theory work; a handful of academic labs worldwide (MIT, Berkeley, Oxford, CMU)"
+  telehealthPotential: 8
+  genderDistribution: "~22% women; EA/safety community actively working on diversity but still skews heavily male"
+
+- name: "Algorithmic Fairness Researcher"
+  group: ai_safety_governance
+  residencyYears: 2
+  annualSpots: 3000
+  startSalary: 100
+  midSalary: 155
+  peakSalary: 240
+  typicalPeak: 200
+  partTimeFlex: 5
+  procedureMix: 5
+  callSchedule: 9
+  adminBurden: 5
+  hoursWeek: 46
+  burnout: 32
+  partTimeFeasibility: 5
+  vacation: 5
+  careerLongevity: 8
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 7
+  automationRisk: 3
+  handsOnInsulation: 7
+  satisfaction: 78
+  chooseAgain: 72
+  intellectualStim: 9
+  varietyRepetition: 8
+  patientImpact: 9
+  physicalToll: 10
+  emotionalToll: 6
+  malpracticeLiability: 10
+  injuryCareerRisk: 8
+  aiRiskNow: 2
+  aiRiskMedium: 3
+  aiRiskLong: 4
+  aiNarrative: "Every new AI system deployed at scale creates new fairness questions — hiring algorithms, loan decisions, criminal justice, healthcare triage. The demand for fairness researchers grows with every AI deployment, not despite it. AI tools help audit other AI, but deciding what 'fair' even means is irreducibly human. The EU AI Act and similar regulation are turning this from academic niche to compliance necessity."
+  fellowshipOptions: "Postdoc 1-2yr at FATE (Microsoft), Google AI Ethics, academic fairness labs; NSF FAI grants; partnership on AI fellowships"
+  compModel: "Industry research $120-200K + RSU; academic $85-140K + grants; think tank/nonprofit $90-130K"
+  revPerPatientVisit: "N/A — revenue via grants, consulting for compliance, expert witness fees"
+  dailyWorkflow: "Bias auditing and analysis 30%, mathematical modeling 25%, writing papers/policy briefs 20%, stakeholder engagement 15%, dataset curation 10%"
+  patientVolume: "N/A"
+  supportStaffModel: "Research teams of 3-8; data annotators, social scientists, legal collaborators; often interdisciplinary"
+  geographicDemandNotes: "NYC, DC (policy proximity), Bay Area, Boston; EU demand surging post-AI Act; fully remote common for academic roles"
+  telehealthPotential: 8
+  genderDistribution: "~40% women; one of the more gender-balanced AI subfields due to social science crossover"
+
+# ── ai_health_bio ────────────────────────────────────────────────────
+
+- name: "AI Drug Discovery Scientist"
+  group: ai_health_bio
+  residencyYears: 2
+  annualSpots: 5000
+  startSalary: 110
+  midSalary: 170
+  peakSalary: 260
+  typicalPeak: 220
+  partTimeFlex: 3
+  procedureMix: 6
+  callSchedule: 8
+  adminBurden: 4
+  hoursWeek: 48
+  burnout: 34
+  partTimeFeasibility: 3
+  vacation: 4
+  careerLongevity: 8
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 5
+  automationRisk: 3
+  handsOnInsulation: 7
+  satisfaction: 80
+  chooseAgain: 74
+  intellectualStim: 9
+  varietyRepetition: 7
+  patientImpact: 9
+  physicalToll: 9
+  emotionalToll: 6
+  malpracticeLiability: 10
+  injuryCareerRisk: 8
+  aiRiskNow: 3
+  aiRiskMedium: 4
+  aiRiskLong: 5
+  aiNarrative: "AlphaFold changed everything — protein structure prediction went from PhD thesis to API call overnight. AI drug discovery scientists now use generative models to design novel molecules, predict ADMET properties, and identify targets. But biology is messy: wet lab validation, clinical intuition, and understanding why a model is wrong still require deep human expertise. The field is exploding — every pharma company is hiring, but the bar for 'AI-native' scientists keeps rising."
+  fellowshipOptions: "Postdoc 1-3yr at Recursion, Isomorphic Labs, Relay Therapeutics; academic postdoc in computational chemistry/biology; NIH K99 pathway"
+  compModel: "Biotech/pharma $130-220K + equity; startup equity heavy; academic $80-120K + NIH grants"
+  revPerPatientVisit: "N/A — revenue via drug pipeline IP, licensing deals, milestone payments"
+  dailyWorkflow: "ML model development 30%, molecular simulation 25%, wet lab coordination 15%, literature review 15%, team meetings/writing 15%"
+  patientVolume: "N/A"
+  supportStaffModel: "Medicinal chemists, biologists, data engineers, clinical pharmacologists; teams of 5-15 at biotech"
+  geographicDemandNotes: "Boston/Cambridge (biotech hub), Bay Area, San Diego, Basel, London; must be near wet labs for most roles"
+  telehealthPotential: 5
+  genderDistribution: "~35% women; higher than pure CS but lower than biology overall"
+
+- name: "Computational Biologist"
+  group: ai_health_bio
+  residencyYears: 2
+  annualSpots: 8000
+  startSalary: 80
+  midSalary: 130
+  peakSalary: 200
+  typicalPeak: 170
+  partTimeFlex: 4
+  procedureMix: 5
+  callSchedule: 9
+  adminBurden: 4
+  hoursWeek: 47
+  burnout: 30
+  partTimeFeasibility: 4
+  vacation: 5
+  careerLongevity: 8
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 6
+  automationRisk: 4
+  handsOnInsulation: 6
+  satisfaction: 77
+  chooseAgain: 70
+  intellectualStim: 9
+  varietyRepetition: 7
+  patientImpact: 7
+  physicalToll: 10
+  emotionalToll: 6
+  malpracticeLiability: 10
+  injuryCareerRisk: 8
+  aiRiskNow: 3
+  aiRiskMedium: 4
+  aiRiskLong: 5
+  aiNarrative: "Computational biology was AI-adjacent before AI was cool — hidden Markov models for gene finding, phylogenetic trees, sequence alignment. Now foundation models for genomics are making some traditional bioinformatics pipelines obsolete. But the domain knowledge — understanding what a gene does, why a pathway matters, how to design a meaningful experiment — that stays human. The scientists who combine deep biology intuition with ML fluency are worth their weight in gold."
+  fellowshipOptions: "Postdoc 1-3yr in genomics, systems biology, or bioinformatics; NIH F32/K99; EMBL fellowships; Broad Institute postdoc"
+  compModel: "Industry $100-170K + RSU; academic $70-110K + grants; pharma $110-160K"
+  revPerPatientVisit: "N/A — revenue via grants, genomics service contracts, biotech licensing"
+  dailyWorkflow: "Data analysis and pipeline development 35%, statistical modeling 25%, collaboration with biologists 20%, writing papers/grants 15%, code review 5%"
+  patientVolume: "N/A"
+  supportStaffModel: "Bioinformatics analysts, wet lab collaborators, data engineers, grad students (3-6 in academic lab)"
+  geographicDemandNotes: "Boston, Bay Area, Research Triangle, Seattle (Allen Institute); UK (Sanger, EMBL-EBI); remote increasingly common"
+  telehealthPotential: 7
+  genderDistribution: "~38% women; bioinformatics is more balanced than pure CS"
+
+- name: "AI Epidemiologist"
+  group: ai_health_bio
+  residencyYears: 2
+  annualSpots: 6000
+  startSalary: 75
+  midSalary: 120
+  peakSalary: 185
+  typicalPeak: 155
+  partTimeFlex: 4
+  procedureMix: 5
+  callSchedule: 7
+  adminBurden: 5
+  hoursWeek: 47
+  burnout: 35
+  partTimeFeasibility: 4
+  vacation: 4
+  careerLongevity: 8
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 7
+  automationRisk: 3
+  handsOnInsulation: 7
+  satisfaction: 79
+  chooseAgain: 73
+  intellectualStim: 9
+  varietyRepetition: 8
+  patientImpact: 10
+  physicalToll: 10
+  emotionalToll: 7
+  malpracticeLiability: 10
+  injuryCareerRisk: 8
+  aiRiskNow: 2
+  aiRiskMedium: 3
+  aiRiskLong: 4
+  aiNarrative: "COVID proved that epidemiological modeling matters more than almost anyone realized. AI epidemiologists use machine learning on mobility data, genomic surveillance, wastewater signals, and social media to predict outbreaks before they happen. AI makes the models faster and more granular, but interpreting messy real-world health data — and communicating uncertainty to policymakers — is a deeply human skill. The next pandemic will be fought with AI, and these are the people building the weapons."
+  fellowshipOptions: "Postdoc 1-2yr at CDC, WHO, academic schools of public health; EIS (Epidemic Intelligence Service) fellowship; NIH/Fogarty global health fellowships"
+  compModel: "Government/CDC $75-130K (GS scale); academic $80-120K + grants; industry pharma $100-160K; WHO/NGO $70-110K"
+  revPerPatientVisit: "N/A — revenue via federal/state grants, WHO contracts, pharma surveillance deals"
+  dailyWorkflow: "Disease modeling and forecasting 30%, data pipeline management 20%, stakeholder briefings 15%, literature synthesis 15%, fieldwork coordination 10%, grant writing 10%"
+  patientVolume: "N/A"
+  supportStaffModel: "Data analysts, field epidemiologists, biostatisticians, public health nurses; government teams can be large (10-30)"
+  geographicDemandNotes: "DC/Atlanta (CDC), Geneva (WHO), Boston, Seattle, London; state health departments everywhere; crisis surges reshape demand overnight"
+  telehealthPotential: 7
+  genderDistribution: "~55% women; epidemiology is one of the most gender-balanced health sciences"
+
+# ── ai_science_climate ───────────────────────────────────────────────
+
+- name: "AI Climate Modeler"
+  group: ai_science_climate
+  residencyYears: 2
+  annualSpots: 5000
+  startSalary: 80
+  midSalary: 130
+  peakSalary: 200
+  typicalPeak: 170
+  partTimeFlex: 4
+  procedureMix: 5
+  callSchedule: 8
+  adminBurden: 5
+  hoursWeek: 47
+  burnout: 32
+  partTimeFeasibility: 4
+  vacation: 5
+  careerLongevity: 8
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 6
+  automationRisk: 3
+  handsOnInsulation: 7
+  satisfaction: 82
+  chooseAgain: 76
+  intellectualStim: 9
+  varietyRepetition: 8
+  patientImpact: 9
+  physicalToll: 10
+  emotionalToll: 7
+  malpracticeLiability: 10
+  injuryCareerRisk: 8
+  aiRiskNow: 2
+  aiRiskMedium: 3
+  aiRiskLong: 4
+  aiNarrative: "Traditional climate models take weeks to run on supercomputers. AI emulators can approximate them in seconds, which means you can explore 10,000 scenarios instead of 10. AI climate modelers aren't replacing climate science — they're making it fast enough to actually be useful for policy. The risk isn't automation; it's climate doom fatigue. If you can stomach reading IPCC reports for a living and still believe your work matters, this career offers profound meaning."
+  fellowshipOptions: "Postdoc 1-3yr at NCAR, GFDL, LBNL, or climate-focused AI labs; NSF postdoc in climate informatics; Schmidt Futures fellowship; NASA postdoc"
+  compModel: "National lab $90-150K; academic $75-120K + grants; tech climate teams (Google, Microsoft) $130-200K + RSU"
+  revPerPatientVisit: "N/A — revenue via DOE/NSF/NASA grants, corporate climate risk contracts"
+  dailyWorkflow: "Model development and training 30%, climate data processing 25%, running simulations 20%, writing papers/policy briefs 15%, collaboration with physical scientists 10%"
+  patientVolume: "N/A"
+  supportStaffModel: "Climate scientists, data engineers, HPC specialists, grad students; national lab teams of 5-20"
+  geographicDemandNotes: "Boulder CO (NCAR), Princeton (GFDL), Bay Area, DC (policy), UK Met Office, MPI Hamburg; remote growing for pure modeling roles"
+  telehealthPotential: 7
+  genderDistribution: "~30% women; climate science is more balanced than CS but AI side skews male"
+
+- name: "AI Materials Scientist"
+  group: ai_science_climate
+  residencyYears: 2
+  annualSpots: 4000
+  startSalary: 85
+  midSalary: 135
+  peakSalary: 210
+  typicalPeak: 175
+  partTimeFlex: 3
+  procedureMix: 6
+  callSchedule: 8
+  adminBurden: 4
+  hoursWeek: 47
+  burnout: 30
+  partTimeFeasibility: 3
+  vacation: 4
+  careerLongevity: 8
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 4
+  automationRisk: 3
+  handsOnInsulation: 8
+  satisfaction: 78
+  chooseAgain: 72
+  intellectualStim: 9
+  varietyRepetition: 7
+  patientImpact: 7
+  physicalToll: 9
+  emotionalToll: 5
+  malpracticeLiability: 10
+  injuryCareerRisk: 9
+  aiRiskNow: 2
+  aiRiskMedium: 3
+  aiRiskLong: 4
+  aiNarrative: "AI is revolutionizing materials discovery — what used to take 20 years of trial and error can now be narrowed to months through generative models and high-throughput screening. Google DeepMind's GNoME found 2.2 million new crystal structures in one shot. But someone still has to synthesize the candidates in a lab, characterize them, and figure out if they actually work in the real world. The AI proposes; the materials scientist validates. This symbiosis makes the career more exciting, not more threatened."
+  fellowshipOptions: "Postdoc 1-3yr in ML for materials, computational materials science; DOE CSGF; national lab fellowships (ORNL, Argonne, Sandia)"
+  compModel: "National lab $95-150K; industry R&D (battery companies, semiconductor) $110-180K; academic $80-120K + grants"
+  revPerPatientVisit: "N/A — revenue via patents, DOE/ARPA-E grants, industry partnerships"
+  dailyWorkflow: "ML model training and property prediction 30%, lab synthesis and characterization 25%, literature and database curation 20%, writing papers 15%, collaboration 10%"
+  patientVolume: "N/A"
+  supportStaffModel: "Lab technicians, characterization specialists, computational postdocs, grad students; teams of 4-10"
+  geographicDemandNotes: "National labs (Argonne, ORNL, Sandia, LBNL), MIT, Stanford, Carnegie Mellon; battery belt (MI, OH) growing; must be near lab equipment"
+  telehealthPotential: 3
+  genderDistribution: "~28% women; materials science is mid-range for STEM"
+
+- name: "Quantum AI Researcher"
+  group: ai_science_climate
+  residencyYears: 3
+  annualSpots: 2000
+  startSalary: 110
+  midSalary: 175
+  peakSalary: 280
+  typicalPeak: 235
+  partTimeFlex: 3
+  procedureMix: 5
+  callSchedule: 8
+  adminBurden: 4
+  hoursWeek: 50
+  burnout: 35
+  partTimeFeasibility: 3
+  vacation: 4
+  careerLongevity: 7
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 5
+  automationRisk: 2
+  handsOnInsulation: 8
+  satisfaction: 82
+  chooseAgain: 75
+  intellectualStim: 10
+  varietyRepetition: 8
+  patientImpact: 6
+  physicalToll: 10
+  emotionalToll: 6
+  malpracticeLiability: 10
+  injuryCareerRisk: 8
+  aiRiskNow: 1
+  aiRiskMedium: 2
+  aiRiskLong: 3
+  aiNarrative: "Quantum AI sits at the intersection of two technologies that each individually promise to reshape civilization. Quantum machine learning algorithms could solve optimization problems that classical AI never will — or they could turn out to be a dead end. The field is young enough that a single researcher can still make a foundational contribution. Classical AI can't automate quantum intuition because we barely understand quantum computing ourselves. The biggest risk isn't AI replacing you; it's quantum advantage never materializing."
+  fellowshipOptions: "Postdoc 2-3yr at IBM Quantum, Google Quantum AI, AWS Center for Quantum Computing; academic postdoc in quantum information; DOE quantum computing fellowships"
+  compModel: "Industry $130-230K + RSU (Google, IBM, Amazon); national lab $100-160K; academic $85-130K + grants"
+  revPerPatientVisit: "N/A — revenue via grants, corporate quantum R&D budgets, government quantum initiatives"
+  dailyWorkflow: "Quantum algorithm development 30%, simulation on classical hardware 25%, mathematical proofs 20%, paper writing 15%, hardware team coordination 10%"
+  patientVolume: "N/A"
+  supportStaffModel: "Quantum hardware engineers, classical ML engineers, theoretical physicists; small teams of 3-8"
+  geographicDemandNotes: "Bay Area (Google), Yorktown Heights NY (IBM), Seattle (AWS/Microsoft), Waterloo Canada, Zurich, Boulder CO; very few global hubs"
+  telehealthPotential: 6
+  genderDistribution: "~18% women; physics pipeline still very male, improving slowly"
+
+- name: "AI Energy Grid Optimizer"
+  group: ai_science_climate
+  residencyYears: 1
+  annualSpots: 6000
+  startSalary: 80
+  midSalary: 125
+  peakSalary: 195
+  typicalPeak: 165
+  partTimeFlex: 3
+  procedureMix: 6
+  callSchedule: 6
+  adminBurden: 5
+  hoursWeek: 47
+  burnout: 33
+  partTimeFeasibility: 3
+  vacation: 4
+  careerLongevity: 8
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 5
+  automationRisk: 4
+  handsOnInsulation: 6
+  satisfaction: 76
+  chooseAgain: 70
+  intellectualStim: 8
+  varietyRepetition: 7
+  patientImpact: 8
+  physicalToll: 9
+  emotionalToll: 6
+  malpracticeLiability: 10
+  injuryCareerRisk: 8
+  aiRiskNow: 3
+  aiRiskMedium: 4
+  aiRiskLong: 5
+  aiNarrative: "The electrical grid is the most complex machine ever built and it's being completely remade — intermittent renewables, distributed storage, EV charging, demand response. AI is essential for balancing supply and demand in real time across millions of nodes. The irony is that AI data centers are now one of the biggest new loads on the grid. You're optimizing the grid to handle the energy demand of the AI that's optimizing the grid. This recursive dependency makes the career self-reinforcing but also means you'll always be slightly behind the curve."
+  fellowshipOptions: "Postdoc 1-2yr at NREL, PNNL, or utility research labs; DOE grid modernization fellowships; ARPA-E funded positions"
+  compModel: "Utility/ISO $90-140K; national lab $85-140K; tech company energy teams $110-175K; startup equity-heavy"
+  revPerPatientVisit: "N/A — revenue via utility contracts, DOE grants, grid software licensing"
+  dailyWorkflow: "Optimization model development 30%, real-time data analysis 25%, grid simulation 20%, stakeholder coordination 15%, regulatory compliance 10%"
+  patientVolume: "N/A"
+  supportStaffModel: "Power systems engineers, data scientists, SCADA technicians, regulatory analysts; utility teams can be 10-30"
+  geographicDemandNotes: "Wherever grids are stressed — CA, TX, PJM territory (mid-Atlantic), ERCOT; national labs (NREL in Golden CO); remote possible for modeling roles"
+  telehealthPotential: 6
+  genderDistribution: "~25% women; power systems engineering is historically very male"
+
+- name: "AI Space Mission Planner"
+  group: ai_science_climate
+  residencyYears: 2
+  annualSpots: 1500
+  startSalary: 90
+  midSalary: 145
+  peakSalary: 225
+  typicalPeak: 190
+  partTimeFlex: 3
+  procedureMix: 5
+  callSchedule: 6
+  adminBurden: 5
+  hoursWeek: 48
+  burnout: 32
+  partTimeFeasibility: 3
+  vacation: 4
+  careerLongevity: 8
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 3
+  automationRisk: 3
+  handsOnInsulation: 7
+  satisfaction: 83
+  chooseAgain: 77
+  intellectualStim: 10
+  varietyRepetition: 8
+  patientImpact: 6
+  physicalToll: 9
+  emotionalToll: 6
+  malpracticeLiability: 10
+  injuryCareerRisk: 8
+  aiRiskNow: 2
+  aiRiskMedium: 3
+  aiRiskLong: 4
+  aiNarrative: "Planning a Mars mission involves optimizing trajectories across billions of possible paths, managing autonomous spacecraft decisions with 20-minute communication delays, and processing terabytes of sensor data from instruments millions of miles away. AI doesn't replace the mission planner — it gives them superpowers. The stakes are too high and the edge cases too novel for full automation. Every mission is unique, and the AI is the co-pilot, not the captain. If the idea of your code running on another planet doesn't excite you, nothing will."
+  fellowshipOptions: "Postdoc 1-3yr at NASA JPL, Goddard, or Ames; ESA research fellowships; SpaceX/Blue Origin internal research; NSTRF/FINESST fellowships"
+  compModel: "NASA/JPL $95-160K (GS/JPL scale); defense contractor $100-170K; SpaceX/commercial $120-200K + equity"
+  revPerPatientVisit: "N/A — revenue via NASA/DOD contracts, commercial launch contracts, SBIR grants"
+  dailyWorkflow: "Trajectory optimization and mission design 30%, autonomous systems development 25%, simulation and testing 20%, mission review meetings 15%, documentation 10%"
+  patientVolume: "N/A"
+  supportStaffModel: "Systems engineers, GNC specialists, mission operations team, grad students; mission teams range from 5 to 100+"
+  geographicDemandNotes: "Pasadena (JPL), Houston (JSC), Greenbelt MD (Goddard), Hawthorne CA (SpaceX), Cape Canaveral; security clearance often needed; very few remote options"
+  telehealthPotential: 3
+  genderDistribution: "~24% women; aerospace AI is slowly diversifying"
+
+- name: "Synthetic Biology Engineer"
+  group: ai_science_climate
+  residencyYears: 2
+  annualSpots: 3000
+  startSalary: 85
+  midSalary: 140
+  peakSalary: 220
+  typicalPeak: 185
+  partTimeFlex: 3
+  procedureMix: 7
+  callSchedule: 8
+  adminBurden: 4
+  hoursWeek: 48
+  burnout: 33
+  partTimeFeasibility: 3
+  vacation: 4
+  careerLongevity: 7
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 4
+  automationRisk: 3
+  handsOnInsulation: 8
+  satisfaction: 80
+  chooseAgain: 74
+  intellectualStim: 9
+  varietyRepetition: 8
+  patientImpact: 8
+  physicalToll: 8
+  emotionalToll: 6
+  malpracticeLiability: 10
+  injuryCareerRisk: 8
+  aiRiskNow: 2
+  aiRiskMedium: 3
+  aiRiskLong: 4
+  aiNarrative: "Synthetic biology is what happens when you treat DNA like code — design-build-test-learn, but with living organisms. AI dramatically accelerates the 'design' step: generative models can now propose gene circuits, predict protein function, and optimize metabolic pathways. But biology is the ultimate adversarial environment. Cells mutate, pathways crosstalk, and evolution has a mind of its own. The wet lab work — cloning, transforming, characterizing — remains stubbornly manual. AI makes you faster at asking questions; biology makes sure the answers are always surprising."
+  fellowshipOptions: "Postdoc 1-3yr in synbio at MIT, Stanford, or Ginkgo Bioworks; iGEM community; DARPA funded positions; Wyss Institute fellowships"
+  compModel: "Biotech/startup $100-180K + equity; academic $75-110K + grants; biofoundry $90-150K"
+  revPerPatientVisit: "N/A — revenue via organism licensing, bioprocess IP, grants, DARPA contracts"
+  dailyWorkflow: "Genetic circuit design (AI-assisted) 25%, wet lab cloning and testing 30%, data analysis 20%, literature review 15%, team coordination 10%"
+  patientVolume: "N/A"
+  supportStaffModel: "Lab technicians, bioinformaticians, fermentation engineers, grad students; biotech teams of 5-15"
+  geographicDemandNotes: "Boston (Ginkgo, MIT), Bay Area (Berkeley, Stanford, startup ecosystem), San Diego, Research Triangle; must be near a lab"
+  telehealthPotential: 3
+  genderDistribution: "~40% women; biology-rooted field with better gender balance than pure engineering"
+
+- name: "AI Archaeologist"
+  group: ai_science_climate
+  residencyYears: 2
+  annualSpots: 1000
+  startSalary: 55
+  midSalary: 85
+  peakSalary: 130
+  typicalPeak: 110
+  partTimeFlex: 5
+  procedureMix: 6
+  callSchedule: 9
+  adminBurden: 5
+  hoursWeek: 44
+  burnout: 28
+  partTimeFeasibility: 5
+  vacation: 6
+  careerLongevity: 9
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 5
+  automationRisk: 3
+  handsOnInsulation: 8
+  satisfaction: 82
+  chooseAgain: 72
+  intellectualStim: 9
+  varietyRepetition: 9
+  patientImpact: 5
+  physicalToll: 6
+  emotionalToll: 7
+  malpracticeLiability: 10
+  injuryCareerRisk: 7
+  aiRiskNow: 2
+  aiRiskMedium: 2
+  aiRiskLong: 3
+  aiNarrative: "AI is uncovering hidden civilizations. Satellite imagery + computer vision finds buried structures invisible to the naked eye. NLP models are deciphering ancient languages that stumped scholars for centuries. LiDAR processing reveals Mayan cities under jungle canopy. But archaeology is fundamentally about context — you have to understand why a potsherd matters, what a burial pattern means, how a trade route shaped a culture. AI finds the needle; the archaeologist explains the haystack. The pay is terrible, the fieldwork is uncomfortable, and the discoveries are priceless."
+  fellowshipOptions: "Postdoc 1-3yr in computational archaeology or digital humanities; NEH digital humanities fellowships; Getty Foundation grants; ERC-funded European positions"
+  compModel: "Academic $55-95K; museum/CRM firm $50-80K; rare tech crossover roles $80-120K; grant-dependent career"
+  revPerPatientVisit: "N/A — revenue via NSF/NEH grants, cultural resource management contracts, museum funding"
+  dailyWorkflow: "Remote sensing and image analysis 25%, fieldwork and excavation 20%, data processing and ML modeling 25%, writing and publishing 20%, teaching 10%"
+  patientVolume: "N/A"
+  supportStaffModel: "Field technicians, GIS specialists, grad students, local collaborators; field teams of 5-20 during excavation season"
+  geographicDemandNotes: "University towns with archaeology departments; field sites worldwide (Peru, Egypt, Turkey, Central America, Southeast Asia); travel-intensive; few permanent positions"
+  telehealthPotential: 5
+  genderDistribution: "~48% women; archaeology is one of the most gender-balanced STEM-adjacent fields"
+
+# ── the_frontier ─────────────────────────────────────────────────────
+
+- name: "AGI Systems Architect"
+  group: the_frontier
+  residencyYears: 3
+  annualSpots: 500
+  startSalary: 180
+  midSalary: 300
+  peakSalary: 500
+  typicalPeak: 420
+  partTimeFlex: 2
+  procedureMix: 5
+  callSchedule: 7
+  adminBurden: 4
+  hoursWeek: 55
+  burnout: 45
+  partTimeFeasibility: 2
+  vacation: 3
+  careerLongevity: 6
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 5
+  automationRisk: 4
+  handsOnInsulation: 9
+  satisfaction: 85
+  chooseAgain: 80
+  intellectualStim: 10
+  varietyRepetition: 9
+  patientImpact: 10
+  physicalToll: 10
+  emotionalToll: 4
+  malpracticeLiability: 10
+  injuryCareerRisk: 7
+  aiRiskNow: 3
+  aiRiskMedium: 5
+  aiRiskLong: 8
+  aiNarrative: "This is the ultimate recursive career: you are trying to build something that could, by definition, do your job better than you. If you succeed, you've built the last invention humanity ever needs to make — and you've automated yourself out of existence. If you fail, you've spent your career on the hardest unsolved problem in science. The ~500 people worldwide working on AGI architecture are either the most important researchers in human history or the most hubristic. The pay reflects the stakes. The emotional toll reflects the weight. Every frontier lab wants you, and there are approximately zero qualified candidates."
+  fellowshipOptions: "Postdoc 2-4yr at Anthropic, OpenAI, DeepMind, or Meta FAIR; no traditional fellowship path — this role is defined by the frontier labs; some academic positions at Mila, Berkeley, Stanford"
+  compModel: "Frontier lab $200-400K base + massive equity/RSU (total comp can exceed $1M); academic track nearly nonexistent at this level; the equity upside if AGI works is... incalculable"
+  revPerPatientVisit: "N/A — revenue via compute infrastructure, API licensing, enterprise contracts, and the implicit promise of building god"
+  dailyWorkflow: "Architecture research and design 30%, large-scale experiments 25%, reading/synthesizing literature 15%, team leadership and mentoring 15%, safety review 10%, existential contemplation 5%"
+  patientVolume: "N/A"
+  supportStaffModel: "Research engineers (5-20), ML infrastructure team, safety researchers, compute cluster managers; frontier labs spend $100M+ per training run"
+  geographicDemandNotes: "San Francisco (Anthropic, OpenAI), London (DeepMind), Menlo Park (Meta), Montreal (Mila), and essentially nowhere else; the global talent pool fits in a single conference room"
+  telehealthPotential: 6
+  genderDistribution: "~15% women; the most male-dominated corner of an already male-dominated field"
+
+- name: "Digital Consciousness Ethicist"
+  group: the_frontier
+  residencyYears: 2
+  annualSpots: 300
+  startSalary: 80
+  midSalary: 135
+  peakSalary: 210
+  typicalPeak: 175
+  partTimeFlex: 5
+  procedureMix: 4
+  callSchedule: 9
+  adminBurden: 5
+  hoursWeek: 44
+  burnout: 30
+  partTimeFeasibility: 5
+  vacation: 5
+  careerLongevity: 7
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 8
+  automationRisk: 2
+  handsOnInsulation: 9
+  satisfaction: 80
+  chooseAgain: 72
+  intellectualStim: 10
+  varietyRepetition: 9
+  patientImpact: 8
+  physicalToll: 10
+  emotionalToll: 5
+  malpracticeLiability: 10
+  injuryCareerRisk: 8
+  aiRiskNow: 1
+  aiRiskMedium: 2
+  aiRiskLong: 3
+  aiNarrative: "Does a large language model suffer? Can a digital mind have rights? When an AI system reports distress, is that performance or experience? These questions sound like philosophy seminar fodder, but they're becoming engineering requirements. As AI systems grow more sophisticated, companies and governments need people who can think rigorously about moral status, digital welfare, and the boundaries of personhood. This job barely exists today — maybe 300 people worldwide think about this full-time. But if AI consciousness turns out to be real (or even plausibly real), this becomes the most important ethics job in history. The ultimate hedge career."
+  fellowshipOptions: "Postdoc 1-3yr in philosophy of mind, AI ethics, or cognitive science; FHI (Oxford) fellowships; Berggruen Institute; academic positions in digital ethics; GovAI"
+  compModel: "Academic philosophy $70-120K; think tank $80-140K; tech company ethics advisory $120-200K (rare); foundation-funded research $90-150K"
+  revPerPatientVisit: "N/A — revenue via grants, think tank funding, consulting fees, book advances, keynote speaking"
+  dailyWorkflow: "Philosophical research and writing 35%, reading neuroscience and AI literature 20%, policy consultation 15%, public communication 15%, interdisciplinary collaboration 10%, staring into the void 5%"
+  patientVolume: "N/A"
+  supportStaffModel: "Research assistants, philosophy grad students, neuroscience collaborators; often solo researchers or tiny teams of 2-4"
+  geographicDemandNotes: "Oxford, Bay Area, NYC, Boston, DC think tanks; fully remote is common because the work is mostly thinking and writing; global conference circuit"
+  telehealthPotential: 9
+  genderDistribution: "~35% women; philosophy of mind skews male but ethics work is more balanced"
+
+- name: "Post-Scarcity Economist"
+  group: the_frontier
+  residencyYears: 2
+  annualSpots: 400
+  startSalary: 70
+  midSalary: 115
+  peakSalary: 185
+  typicalPeak: 155
+  partTimeFlex: 5
+  procedureMix: 4
+  callSchedule: 9
+  adminBurden: 5
+  hoursWeek: 45
+  burnout: 30
+  partTimeFeasibility: 5
+  vacation: 5
+  careerLongevity: 7
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 8
+  automationRisk: 3
+  handsOnInsulation: 8
+  satisfaction: 78
+  chooseAgain: 70
+  intellectualStim: 10
+  varietyRepetition: 9
+  patientImpact: 8
+  physicalToll: 10
+  emotionalToll: 6
+  malpracticeLiability: 10
+  injuryCareerRisk: 8
+  aiRiskNow: 2
+  aiRiskMedium: 3
+  aiRiskLong: 5
+  aiNarrative: "What happens to economics when AI can produce everything for nearly zero marginal cost? What happens to labor markets when most cognitive work is automated? What does 'value' mean when creation is free? Post-scarcity economists are the people trying to answer these questions before we stumble into them unprepared. The field draws from economics, philosophy, policy, and AI research. About 400 people worldwide think about this seriously — at think tanks, in economics departments, at AI labs, and in government. If AI progress stalls, this career looks silly. If AI progress accelerates, this becomes the most practically important branch of economics ever conceived. The irony: AI could automate the economic modeling but not the political wisdom needed to implement the answers."
+  fellowshipOptions: "Postdoc 1-3yr in economics of AI, labor economics, or political economy; Brookings, NBER, or OpenAI economic policy fellowships; academic econ departments (MIT, Stanford, Chicago)"
+  compModel: "Academic economics $80-130K; think tank $75-120K; tech company policy $110-170K; government advisory $90-140K (GS scale); consulting $100-160K"
+  revPerPatientVisit: "N/A — revenue via grants, policy consulting, book deals, government advisory contracts"
+  dailyWorkflow: "Economic modeling and simulation 25%, policy analysis and writing 25%, reading AI research 15%, stakeholder consultation 15%, public communication 10%, scenario planning 10%"
+  patientVolume: "N/A"
+  supportStaffModel: "Research assistants, data analysts, policy fellows; often solo or small team (2-5) at think tanks"
+  geographicDemandNotes: "DC (Brookings, policy shops), Boston/Cambridge (MIT, NBER), Bay Area (AI lab adjacency), London (DeepMind policy), Geneva (WEF); fully remote common"
+  telehealthPotential: 9
+  genderDistribution: "~30% women; economics skews male, especially in macro/theory"
+
+- name: "Longevity Data Scientist"
+  group: the_frontier
+  residencyYears: 2
+  annualSpots: 2000
+  startSalary: 90
+  midSalary: 150
+  peakSalary: 240
+  typicalPeak: 200
+  partTimeFlex: 4
+  procedureMix: 5
+  callSchedule: 8
+  adminBurden: 4
+  hoursWeek: 48
+  burnout: 33
+  partTimeFeasibility: 4
+  vacation: 4
+  careerLongevity: 8
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 6
+  automationRisk: 3
+  handsOnInsulation: 7
+  satisfaction: 81
+  chooseAgain: 75
+  intellectualStim: 9
+  varietyRepetition: 8
+  patientImpact: 9
+  physicalToll: 10
+  emotionalToll: 5
+  malpracticeLiability: 10
+  injuryCareerRisk: 8
+  aiRiskNow: 3
+  aiRiskMedium: 4
+  aiRiskLong: 5
+  aiNarrative: "The longevity field is where Silicon Valley ambition meets biological reality. AI is identifying aging biomarkers, predicting drug-aging interactions, and finding senolytic candidates from massive omics datasets. Longevity data scientists sit at the intersection of geroscience, ML, and clinical trials — building the computational infrastructure for the $600B anti-aging industry. AI accelerates the research enormously, but aging is so complex and multifactorial that human insight into experimental design and biological plausibility remains essential. If the field delivers on even 10% of its promises, the career ROI is extraordinary. And if you help people live longer, you'll have more time to enjoy it."
+  fellowshipOptions: "Postdoc 1-3yr at Buck Institute, Calico (Alphabet), Unity Biotechnology, or academic aging labs; NIA-funded postdoc; Longevity Science Foundation grants"
+  compModel: "Biotech $110-190K + equity; Calico/Altos Labs $130-220K + equity; academic $80-120K + NIH grants; startup equity can be significant"
+  revPerPatientVisit: "N/A — revenue via biotech IP, clinical trial data licensing, longevity supplement/therapeutic revenue"
+  dailyWorkflow: "Omics data analysis and modeling 30%, biomarker discovery 20%, clinical trial data management 15%, ML pipeline development 15%, literature synthesis 10%, collaboration with biologists 10%"
+  patientVolume: "N/A"
+  supportStaffModel: "Bioinformaticians, clinical researchers, wet lab biologists, data engineers; biotech teams of 5-15"
+  geographicDemandNotes: "Bay Area (Calico, Altos Labs), Boston (Broad Institute, biotech), San Diego, Buck Institute (Novato CA); longevity hubs growing in UK and Singapore"
+  telehealthPotential: 6
+  genderDistribution: "~33% women; biotech-adjacent but still tech-heavy demographics"

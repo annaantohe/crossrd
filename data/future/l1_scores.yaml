@@ -1,0 +1,509 @@
+# L1 profession-level category scores for AI & Future
+professions:
+  AI Engineer:
+    l1_only: {}
+    l1_data_points:
+      1:
+        scores: [6, 5, 6, 9]
+        count: 4
+        average: 6.5
+        labels:
+        - Years of undergrad required (4yr CS/AI degree)
+        - Test difficulty (GRE for grad school, coding interviews for jobs)
+        - GPA expectations (3.3+ for top MS programs)
+        - Physical fitness requirements (none — desk work)
+        data_point_ids: [2, 4, 5, 6]
+      2:
+        scores: [5, 6]
+        count: 2
+        average: 5.5
+        labels:
+        - Acceptance rate (competitive MS programs, but many options)
+        - Career changers welcome? (yes with bootcamp + portfolio, harder without CS)
+        data_point_ids: [10, 13]
+      3:
+        scores: [5, 7, 6]
+        count: 3
+        average: 6.0
+        labels:
+        - Duration of program (2yr MS or direct BS-to-industry)
+        - Practical experience timing (internships during MS, Kaggle, open source)
+        - Prestige matters? (top school helps but portfolio matters more)
+        data_point_ids: [16, 18, 23]
+      4:
+        scores: [8, 8]
+        count: 2
+        average: 8.0
+        labels:
+        - Post-grad training (none — start building immediately)
+        - Total time to earning (6yr with MS, 4yr with BS for strong candidates)
+        data_point_ids: [24, 32]
+      5:
+        scores: [5, 5, 6, 7, 6]
+        count: 5
+        average: 5.8
+        labels:
+        - Average tuition ($25K/yr undergrad + $30K/yr MS)
+        - Average debt at graduation ($70K)
+        - Debt-to-income ratio (excellent — $120K+ starting salary pays it fast)
+        - Time to break even (2-3 years)
+        - Opportunity cost (moderate — 6yr school but huge payoff)
+        data_point_ids: [33, 34, 35, 38, 40]
+      6:
+        scores: [6, 6, 5, 6, 7, 6]
+        count: 6
+        average: 6.0
+        labels:
+        - Professional scope (broad within AI/ML engineering)
+        - Scope variation (varies by company size and domain)
+        - Independent practice (possible as consultant, typical to work in teams)
+        - Authority level (high technical authority, less business authority)
+        - Ability to specialize (huge — CV, NLP, robotics, infra, chips)
+        - Competition from adjacent fields (moderate — SWE can pivot into ML)
+        data_point_ids: [41, 42, 43, 44, 45, 46]
+      7:
+        scores: [8, 9]
+        count: 2
+        average: 8.5
+        labels:
+        - Business ownership potential (high — AI startups, consulting)
+        - Compensation trends (explosive growth, AI talent war)
+        data_point_ids: [52, 53]
+      8:
+        scores: [7]
+        count: 1
+        average: 7.0
+        labels:
+        - Profession-level proxy score (intellectually stimulating desk work, some crunch)
+        data_point_ids: [null]
+      9:
+        scores: [5]
+        count: 1
+        average: 5.0
+        labels:
+        - Profession-level proxy score (tech culture means long hours, but flexible schedule)
+        data_point_ids: [null]
+      10:
+        scores: [9, 9, 7, 9]
+        count: 4
+        average: 8.5
+        labels:
+        - Current job market (massive demand — every company wants AI)
+        - Projected demand 10yr (still growing, AI adoption accelerating)
+        - Impact of demographic changes (global talent pool, immigration helps)
+        - Vulnerability to offshoring (moderate — remote-friendly but top talent stays local)
+        data_point_ids: [71, 72, 74, 75]
+      11:
+        scores: [5, 4, 5]
+        count: 3
+        average: 4.67
+        labels:
+        - AI impact on AI engineers (ironic — AI coding tools may automate junior work)
+        - AI as tool vs replacement (tool now, but frontier models write code)
+        - Timeline of disruption (near — vibe coding is already reducing junior demand)
+        data_point_ids: [77, 79, 80]
+      12:
+        scores: [7]
+        count: 1
+        average: 7.0
+        labels:
+        - Ease of pivoting (excellent — AI skills transfer to any industry)
+        data_point_ids: [91]
+      13:
+        scores: [3, 4, 3, 5]
+        count: 4
+        average: 3.75
+        labels:
+        - Pay equity (pay is high for all, but gender gap exists in tech)
+        - Parental leave norms (good at big tech, varies at startups)
+        - Culture (male-dominated, bro culture at some companies)
+        - Welcoming to non-traditional? (improving, but CS degree strongly preferred)
+        data_point_ids: [95, 96, 98, 100]
+      14:
+        scores: [9]
+        count: 1
+        average: 9.0
+        labels:
+        - Physical danger (none — desk work, ergonomic risks only)
+        data_point_ids: [104]
+
+  AI Scientist:
+    l1_only: {}
+    l1_data_points:
+      1:
+        scores: [5, 4, 4, 9]
+        count: 4
+        average: 5.5
+        labels:
+        - Years of undergrad required (4yr BS + 5yr PhD)
+        - Test difficulty (GRE + research portfolio + publications)
+        - GPA expectations (3.5+ for top PhD programs)
+        - Physical fitness requirements (none)
+        data_point_ids: [2, 4, 5, 6]
+      2:
+        scores: [3, 5]
+        count: 2
+        average: 4.0
+        labels:
+        - Acceptance rate (very competitive PhD programs — top labs take 5-10%)
+        - Career changers welcome? (possible but need strong research background)
+        data_point_ids: [10, 13]
+      3:
+        scores: [3, 6, 5]
+        count: 3
+        average: 4.67
+        labels:
+        - Duration of program (5yr PhD, often 6-7 in practice)
+        - Practical experience timing (research from year 1, but publishing takes time)
+        - Prestige matters? (enormously — lab pedigree determines career trajectory)
+        data_point_ids: [16, 18, 23]
+      4:
+        scores: [4, 3]
+        count: 2
+        average: 3.5
+        labels:
+        - Post-grad training (1-3yr postdoc often expected for academia)
+        - Total years to independence (9-12yr from college start to faculty/senior researcher)
+        data_point_ids: [24, 32]
+      5:
+        scores: [7, 7, 7, 5, 4]
+        count: 5
+        average: 6.0
+        labels:
+        - Average tuition ($0 — PhD is funded with stipend)
+        - Average debt at graduation ($40K from undergrad only)
+        - Debt-to-income ratio (good — $150K+ industry starting, lower in academia)
+        - Time to break even (4-5 years counting opportunity cost)
+        - Opportunity cost (high — 9yr of education while peers earn $120K+)
+        data_point_ids: [33, 34, 35, 38, 40]
+      6:
+        scores: [8, 6, 7, 7, 8, 5]
+        count: 6
+        average: 6.83
+        labels:
+        - Professional scope (very broad — define your own research agenda)
+        - Scope variation (varies — industry vs academia, lab vs applied)
+        - Independent practice (high — PIs run their own labs/research programs)
+        - Authority level (high — intellectual authority, grant funding decisions)
+        - Ability to specialize (unlimited — you literally create new subfields)
+        - Competition (high — few positions at top labs, intense publish-or-perish)
+        data_point_ids: [41, 42, 43, 44, 45, 46]
+      7:
+        scores: [7, 8]
+        count: 2
+        average: 7.5
+        labels:
+        - Business ownership potential (moderate — can found AI startups, consult)
+        - Compensation trends (exceptional in industry — $200K+ base, $500K+ total comp)
+        data_point_ids: [52, 53]
+      8:
+        scores: [8]
+        count: 1
+        average: 8.0
+        labels:
+        - Profession-level proxy score (intellectually rich, varied between research/writing/coding)
+        data_point_ids: [null]
+      9:
+        scores: [6]
+        count: 1
+        average: 6.0
+        labels:
+        - Profession-level proxy score (flexible hours but publish-or-perish pressure)
+        data_point_ids: [null]
+      10:
+        scores: [8, 9, 6, 7]
+        count: 4
+        average: 7.5
+        labels:
+        - Current job market (hot — AI labs competing for research talent)
+        - Projected demand (very strong — AI research is expanding rapidly)
+        - Impact of demographic changes (global competition, many international PhDs)
+        - Vulnerability to offshoring (moderate — top labs want local talent but remote growing)
+        data_point_ids: [71, 72, 74, 75]
+      11:
+        scores: [6, 7, 6]
+        count: 3
+        average: 6.33
+        labels:
+        - AI impact on researchers (meta — AI accelerates research but may automate some)
+        - AI as tool vs replacement (tool — AI-assisted research is the future)
+        - Timeline of disruption (moderate — frontier research is hardest to automate)
+        data_point_ids: [77, 79, 80]
+      12:
+        scores: [8]
+        count: 1
+        average: 8.0
+        labels:
+        - Ease of pivoting (excellent — research skills transfer broadly to industry)
+        data_point_ids: [91]
+      13:
+        scores: [3, 4, 3, 4]
+        count: 4
+        average: 3.5
+        labels:
+        - Pay equity (high salaries for all, but leadership gap persists)
+        - Parental leave norms (decent in industry, poor in academia)
+        - Culture (male-dominated research labs, improving slowly)
+        - Welcoming to non-traditional? (difficult without traditional academic path)
+        data_point_ids: [95, 96, 98, 100]
+      14:
+        scores: [9]
+        count: 1
+        average: 9.0
+        labels:
+        - Physical danger (none — computational work)
+        data_point_ids: [104]
+
+  AI Creative:
+    l1_only: {}
+    l1_data_points:
+      1:
+        scores: [7, 7, 7, 9]
+        count: 4
+        average: 7.5
+        labels:
+        - Years of undergrad required (4yr design/arts degree)
+        - Test difficulty (portfolio-based admission, no standardized tests)
+        - GPA expectations (low — portfolio and creativity matter most)
+        - Physical fitness requirements (none)
+        data_point_ids: [2, 4, 5, 6]
+      2:
+        scores: [6, 8]
+        count: 2
+        average: 7.0
+        labels:
+        - Acceptance rate (moderate — art/design schools accessible, top programs competitive)
+        - Career changers welcome? (very welcome — diverse backgrounds valued)
+        data_point_ids: [10, 13]
+      3:
+        scores: [7, 8, 5]
+        count: 3
+        average: 6.67
+        labels:
+        - Duration of program (4yr + 6mo AI tools mastery)
+        - Practical experience timing (projects from year 1, AI tools self-taught)
+        - Prestige matters? (portfolio matters infinitely more than school name)
+        data_point_ids: [16, 18, 23]
+      4:
+        scores: [8, 8]
+        count: 2
+        average: 8.0
+        labels:
+        - Post-grad training (none — learn AI tools on the job)
+        - Total time to practice (4-5yr from start to employable)
+        data_point_ids: [24, 32]
+      5:
+        scores: [4, 5, 5, 6, 6]
+        count: 5
+        average: 5.2
+        labels:
+        - Average tuition ($28K/yr art/design school)
+        - Average debt at graduation ($55K)
+        - Debt-to-income ratio (okay — creative salaries start lower)
+        - Time to break even (4-5 years)
+        - Opportunity cost (moderate — 4yr + portfolio building)
+        data_point_ids: [33, 34, 35, 38, 40]
+      6:
+        scores: [7, 6, 7, 6, 7, 5]
+        count: 6
+        average: 6.33
+        labels:
+        - Professional scope (broad — visual, audio, interactive, experiential)
+        - Scope variation (project-based, varies enormously)
+        - Independent practice (high — freelance and consulting common)
+        - Authority level (moderate — creative director roles have influence)
+        - Ability to specialize (huge — film, music, games, worlds, UX)
+        - Competition (high — many creatives, but AI skills are rare)
+        data_point_ids: [41, 42, 43, 44, 45, 46]
+      7:
+        scores: [6, 7]
+        count: 2
+        average: 6.5
+        labels:
+        - Business ownership potential (good — creative studios, indie projects)
+        - Compensation trends (growing as AI creative tools explode)
+        data_point_ids: [52, 53]
+      8:
+        scores: [8]
+        count: 1
+        average: 8.0
+        labels:
+        - Profession-level proxy score (creative, varied, project-based, intellectually rich)
+        data_point_ids: [null]
+      9:
+        scores: [6]
+        count: 1
+        average: 6.0
+        labels:
+        - Profession-level proxy score (project deadlines but flexible hours, remote-friendly)
+        data_point_ids: [null]
+      10:
+        scores: [7, 8, 6, 8]
+        count: 4
+        average: 7.25
+        labels:
+        - Current job market (growing — demand for AI-native creatives increasing)
+        - Projected demand (very strong — every studio will need AI creators)
+        - Impact of demographic changes (global talent pool, diverse entry)
+        - Vulnerability to offshoring (moderate — creative work can be done anywhere)
+        data_point_ids: [71, 72, 74, 75]
+      11:
+        scores: [5, 5, 5]
+        count: 3
+        average: 5.0
+        labels:
+        - AI impact (double-edged — AI enables but also threatens creative work)
+        - AI as tool vs replacement (both — AI generates content, humans curate)
+        - Timeline of disruption (now — generative AI is already reshaping creative industries)
+        data_point_ids: [77, 79, 80]
+      12:
+        scores: [8]
+        count: 1
+        average: 8.0
+        labels:
+        - Ease of pivoting (good — creative + AI skills transfer across industries)
+        data_point_ids: [91]
+      13:
+        scores: [5, 5, 5, 7]
+        count: 4
+        average: 5.5
+        labels:
+        - Pay equity (creative industries have smaller gaps)
+        - Parental leave norms (varies — better at large studios)
+        - Culture (more diverse than engineering, still challenges)
+        - Welcoming to non-traditional? (very — diverse backgrounds celebrated)
+        data_point_ids: [95, 96, 98, 100]
+      14:
+        scores: [9]
+        count: 1
+        average: 9.0
+        labels:
+        - Physical danger (none — creative desk work)
+        data_point_ids: [104]
+
+  AI Strategist:
+    l1_only: {}
+    l1_data_points:
+      1:
+        scores: [7, 6, 6, 9]
+        count: 4
+        average: 7.0
+        labels:
+        - Years of undergrad required (4yr domain degree + 1yr AI certification)
+        - Test difficulty (domain-specific, AI certification exams)
+        - GPA expectations (3.0+ for domain programs, AI certs are skills-based)
+        - Physical fitness requirements (none)
+        data_point_ids: [2, 4, 5, 6]
+      2:
+        scores: [6, 8]
+        count: 2
+        average: 7.0
+        labels:
+        - Acceptance rate (accessible — domain programs vary, AI certs open)
+        - Career changers welcome? (this IS the career changer path — domain expert adds AI)
+        data_point_ids: [10, 13]
+      3:
+        scores: [7, 7, 5]
+        count: 3
+        average: 6.33
+        labels:
+        - Duration of program (4yr + 1yr cert or bootcamp)
+        - Practical experience timing (domain experience first, AI skills layered on)
+        - Prestige matters? (domain credentials matter, AI certs less so)
+        data_point_ids: [16, 18, 23]
+      4:
+        scores: [7, 7]
+        count: 2
+        average: 7.0
+        labels:
+        - Post-grad training (domain-specific — some need clinical/legal experience)
+        - Total time to practice (5-6yr from start to AI-augmented domain role)
+        data_point_ids: [24, 32]
+      5:
+        scores: [5, 5, 6, 6, 6]
+        count: 5
+        average: 5.6
+        labels:
+        - Average tuition ($22K/yr undergrad + $15K AI cert)
+        - Average debt at graduation ($50K)
+        - Debt-to-income ratio (good — domain + AI commands salary premium)
+        - Time to break even (3-4 years)
+        - Opportunity cost (moderate — 5yr training but strong market demand)
+        data_point_ids: [33, 34, 35, 38, 40]
+      6:
+        scores: [6, 6, 6, 6, 7, 5]
+        count: 6
+        average: 6.0
+        labels:
+        - Professional scope (defined by domain + AI capability overlap)
+        - Scope variation (huge — depends on which domain)
+        - Independent practice (moderate — consulting is growing)
+        - Authority level (moderate — bridge between tech and domain teams)
+        - Ability to specialize (high — AI applied to any industry)
+        - Competition (moderate — few people have both domain AND AI expertise)
+        data_point_ids: [41, 42, 43, 44, 45, 46]
+      7:
+        scores: [7, 7]
+        count: 2
+        average: 7.0
+        labels:
+        - Business ownership potential (good — AI consulting, domain-specific AI startups)
+        - Compensation trends (strong growth as every industry adopts AI)
+        data_point_ids: [52, 53]
+      8:
+        scores: [7]
+        count: 1
+        average: 7.0
+        labels:
+        - Profession-level proxy score (varied — mix of domain work and AI implementation)
+        data_point_ids: [null]
+      9:
+        scores: [6]
+        count: 1
+        average: 6.0
+        labels:
+        - Profession-level proxy score (standard corporate hours, some project crunch)
+        data_point_ids: [null]
+      10:
+        scores: [8, 8, 7, 7]
+        count: 4
+        average: 7.5
+        labels:
+        - Current job market (strong — domain + AI is the hottest hybrid skill)
+        - Projected demand (very strong — AI adoption is accelerating across all industries)
+        - Impact of demographic changes (growing as older workers reskill)
+        - Vulnerability to offshoring (low — domain expertise is often local/regulated)
+        data_point_ids: [71, 72, 74, 75]
+      11:
+        scores: [6, 7, 6]
+        count: 3
+        average: 6.33
+        labels:
+        - AI impact (positive — AI creates these roles, but better AI may simplify them)
+        - AI as tool vs replacement (tool — domain judgment remains essential)
+        - Timeline of disruption (moderate — as AI gets easier, less need for translators)
+        data_point_ids: [77, 79, 80]
+      12:
+        scores: [7]
+        count: 1
+        average: 7.0
+        labels:
+        - Ease of pivoting (excellent — domain + AI skills are universally valuable)
+        data_point_ids: [91]
+      13:
+        scores: [5, 5, 5, 6]
+        count: 4
+        average: 5.25
+        labels:
+        - Pay equity (slightly better than pure tech — more diverse domains)
+        - Parental leave norms (depends on industry — tech good, others vary)
+        - Culture (more diverse than pure engineering)
+        - Welcoming to non-traditional? (very — the whole point is domain diversity)
+        data_point_ids: [95, 96, 98, 100]
+      14:
+        scores: [8]
+        count: 1
+        average: 8.0
+        labels:
+        - Physical danger (minimal — domain-dependent but mostly desk/office)
+        data_point_ids: [104]

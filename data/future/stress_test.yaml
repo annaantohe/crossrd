@@ -1,0 +1,42 @@
+# stress test resilience scores for AI & Future finalists
+# these scenarios are AI-specific — the irony is that AI careers are vulnerable to better AI
+scenarios:
+- id: ai_winter
+  name: "AI Winter 2.0: Investment Crashes 70%"
+- id: regulation
+  name: Global AI Regulation Bans Autonomous Systems
+- id: opensource
+  name: Open-Source Commoditizes Your Specialty
+- id: agi
+  name: "AGI Arrives: Half of AI Jobs Become Obsolete"
+scores:
+  ml_engineer:
+    ai_winter: 5
+    regulation: 6
+    opensource: 4
+    agi: 3
+  ai_alignment_researcher:
+    ai_winter: 4
+    regulation: 8
+    opensource: 7
+    agi: 8
+  ai_film_director:
+    ai_winter: 6
+    regulation: 8
+    opensource: 3
+    agi: 5
+  human_ai_team_manager:
+    ai_winter: 5
+    regulation: 5
+    opensource: 7
+    agi: 4
+  ai_climate_modeler:
+    ai_winter: 7
+    regulation: 7
+    opensource: 5
+    agi: 6
+  agi_systems_architect:
+    ai_winter: 3
+    regulation: 4
+    opensource: 6
+    agi: 2

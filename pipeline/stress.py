@@ -49,6 +49,11 @@ MATCH_RESILIENCE_BY_PROFESSION = {
     "M.Ed": 5,
     "Research PhD": 3,
     "Applied Science": 6,
+    # AI & future professions
+    "AI Engineer": 7,
+    "AI Scientist": 4,
+    "AI Creative": 5,
+    "AI Strategist": 6,
 }
 
 

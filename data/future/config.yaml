@@ -1,0 +1,162 @@
+# config.yaml — AI & Future profession family
+# every other family asks "what job should i get?" — this one asks "what job should i invent?"
+
+name: "AI & Future"
+slug: future
+icon: "\U0001F916"
+headline: "What AI Career Will You Create?"
+subtitle: "A Data-Driven Guide to Jobs That Didn't Exist Yesterday"
+
+groups:
+  ai_engineering:
+    label: "AI Engineering"
+    icon: "\U0001F527"
+    tagline: "the people building the machines"
+    description: "ML engineers, computer vision, NLP, robotics, chip designers, foundation model developers"
+  ai_products_ops:
+    label: "AI Products & Ops"
+    icon: "\U0001F680"
+    tagline: "ship it, scale it, don't break it"
+    description: "Product managers, prompt engineers, MLOps, solutions architects, QA, autonomous systems"
+  ai_safety_governance:
+    label: "AI Safety & Governance"
+    icon: "\U0001F6E1\uFE0F"
+    tagline: "someone has to keep the robots honest"
+    description: "Safety engineers, alignment researchers, ethics officers, auditors, policy advisors, red teamers"
+  ai_creative_studio:
+    label: "AI Creative Studio"
+    icon: "\U0001F3A8"
+    tagline: "when art meets algorithm"
+    description: "AI film directors, synthetic media, music producers, generative art, virtual worlds, game design"
+  ai_health_bio:
+    label: "AI \u00D7 Health & Bio"
+    icon: "\U0001F9EC"
+    tagline: "healing with data, one genome at a time"
+    description: "AI diagnostics, drug discovery, computational biology, mental health, surgical robotics, genomics"
+  ai_business_society:
+    label: "AI \u00D7 Business & Society"
+    icon: "\U0001F4CA"
+    tagline: "the corner office has a copilot now"
+    description: "AI finance, human-AI team managers, supply chain, legal analysis, talent strategy, commerce"
+  ai_science_climate:
+    label: "AI \u00D7 Science & Climate"
+    icon: "\U0001F30D"
+    tagline: "saving the planet, one model at a time"
+    description: "Climate modeling, materials science, quantum AI, energy grids, space missions, synthetic biology"
+  the_frontier:
+    label: "The Frontier"
+    icon: "\U0001F52E"
+    tagline: "jobs that don't exist yet (but might change everything)"
+    description: "AGI architects, consciousness ethicists, human augmentation, reality architects, memory engineers"
+
+professions:
+  AI Engineer:
+    label: "AI Engineer (BS/MS)"
+    color: "#00BCD4"
+    annualGraduates: 120000
+  AI Scientist:
+    label: "AI Scientist (PhD)"
+    color: "#9C27B0"
+    annualGraduates: 25000
+  AI Creative:
+    label: "AI Creative (Design + AI)"
+    color: "#FF6F00"
+    annualGraduates: 40000
+  AI Strategist:
+    label: "AI Strategist (Domain + AI)"
+    color: "#2E7D32"
+    annualGraduates: 80000
+
+key_overrides:
+  "Machine Learning Engineer":
+    key: ml_engineer
+    color: "#00BCD4"
+  "AI Alignment Researcher":
+    key: ai_alignment_researcher
+    color: "#7B1FA2"
+  "AI Film Director":
+    key: ai_film_director
+    color: "#FF6F00"
+  "Human-AI Team Manager":
+    key: human_ai_team_manager
+    color: "#2E7D32"
+  "AI Climate Modeler":
+    key: ai_climate_modeler
+    color: "#1565C0"
+  "AGI Systems Architect":
+    key: agi_systems_architect
+    color: "#880E4F"
+
+final_ranking:
+  - rank: 1
+    track: Machine Learning Engineer
+    key: ml_engineer
+    note: The defining AI career of our era — massive demand, incredible pay
+  - rank: 2
+    track: AI Alignment Researcher
+    key: ai_alignment_researcher
+    note: Possibly the most important job in human history
+  - rank: 3
+    track: AI Film Director
+    key: ai_film_director
+    note: The next Spielberg won't use cameras
+  - rank: 4
+    track: Human-AI Team Manager
+    key: human_ai_team_manager
+    note: Every company will need one by 2030
+  - rank: 5
+    track: AI Climate Modeler
+    key: ai_climate_modeler
+    note: Using AI to literally save the planet
+  - rank: 6
+    track: AGI Systems Architect
+    key: agi_systems_architect
+    note: The wildest, most speculative career on crossrd
+
+decision_tree:
+  q: "Do you want to BUILD the AI or USE the AI?"
+  options:
+    - label: "\U0001F527 Build it"
+      q: "Research papers or shipping products?"
+      options:
+        - label: "\U0001F4DC Research papers"
+          result: ai_alignment_researcher
+        - label: "\U0001F680 Shipping products"
+          result: ml_engineer
+    - label: "\u2728 Use it"
+      q: "Are you more creative or analytical?"
+      options:
+        - label: "\U0001F3A8 Creative"
+          q: "Big screen or mind expansion?"
+          options:
+            - label: "\U0001F3AC Big screen"
+              result: ai_film_director
+            - label: "\U0001F9E0 Mind expansion"
+              result: agi_systems_architect
+        - label: "\U0001F4CA Analytical"
+          q: "Save the planet or manage the future?"
+          options:
+            - label: "\U0001F30D Save the planet"
+              result: ai_climate_modeler
+            - label: "\U0001F91D Manage the future"
+              result: human_ai_team_manager
+
+decision_tree_results:
+  ml_engineer:
+    tagline: "the engine room of the AI revolution"
+    stat: "$120K start \u2022 $180K mid \u2022 BS/MS in CS/AI"
+  ai_alignment_researcher:
+    tagline: "you might save humanity. no pressure."
+    stat: "$150K start \u2022 $220K mid \u2022 PhD + years of research"
+  ai_film_director:
+    tagline: "the next blockbuster won't need actors"
+    stat: "$55K start \u2022 $110K mid \u2022 design degree + AI mastery"
+  human_ai_team_manager:
+    tagline: "half your team will be AI. lead them."
+    stat: "$85K start \u2022 $140K mid \u2022 domain expertise + AI cert"
+  ai_climate_modeler:
+    tagline: "1 model = 1000 scientists"
+    stat: "$80K start \u2022 $130K mid \u2022 PhD in climate/AI"
+  agi_systems_architect:
+    tagline: "you want to build a mind. literally."
+    stat: "$180K start \u2022 $300K mid \u2022 PhD + frontier research"

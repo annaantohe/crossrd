@@ -1,0 +1,544 @@
+# AI Creative specialties — 12 careers across 3 groups
+# arts/design degree + AI tool mastery — making things no human or machine could make alone
+profession: AI Creative
+specialties:
+
+- name: "AI Film Director"
+  group: ai_creative_studio
+  residencyYears: 0
+  annualSpots: 3000
+  startSalary: 55
+  midSalary: 110
+  peakSalary: 200
+  typicalPeak: 175
+  partTimeFlex: 5
+  procedureMix: 6
+  callSchedule: 8
+  adminBurden: 5
+  hoursWeek: 50
+  burnout: 40
+  partTimeFeasibility: 5
+  vacation: 3
+  careerLongevity: 6
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 7
+  automationRisk: 5
+  handsOnInsulation: 7
+  satisfaction: 80
+  chooseAgain: 75
+  intellectualStim: 9
+  varietyRepetition: 9
+  patientImpact: 6
+  physicalToll: 9
+  emotionalToll: 5
+  malpracticeLiability: 10
+  injuryCareerRisk: 9
+  aiRiskNow: 4
+  aiRiskMedium: 6
+  aiRiskLong: 7
+  aiNarrative: "AI Film Directors use generative models to produce entire scenes — actors, sets, lighting — from text prompts and mood boards. The paradox is brutal: the same tools that let one person make a feature film could eventually make the director unnecessary. For now, human storytelling instinct and editorial vision are the moat, but that moat is shrinking every year as models learn narrative structure."
+  fellowshipOptions: "Film school MFA with AI concentration; studio residency programs; Sundance AI Film Lab; virtual production certifications (Unreal Engine, AI cinematography); transition to traditional directing or showrunning"
+  compModel: "Project-based fees $20K-500K per film; studio salary $80K-200K; revenue share on streaming deals; independent work earns less but retains IP"
+  revPerPatientVisit: "N/A — revenue per project ranges from $50K indie shorts to $10M+ AI-generated features"
+  dailyWorkflow: "Writing prompts and scene descriptions, iterating with AI generation tools, reviewing and curating outputs, editing sequences, directing voice actors, color grading, sound design oversight"
+  patientVolume: "1-3 major projects per year; shorter AI-generated content pieces weekly"
+  supportStaffModel: "Small team of 3-8 — prompt engineers, sound designers, editors; replaces traditional crew of 50-200"
+  geographicDemandNotes: "LA and NYC still dominate film, but AI filmmaking is remote-first — emerging hubs in Austin, London, Seoul, and anywhere with fast internet"
+  telehealthPotential: 8
+  genderDistribution: "~60% men, ~40% women — more gender-balanced than traditional film directing"
+
+- name: "Synthetic Media Producer"
+  group: ai_creative_studio
+  residencyYears: 0
+  annualSpots: 12000
+  startSalary: 60
+  midSalary: 100
+  peakSalary: 165
+  typicalPeak: 145
+  partTimeFlex: 6
+  procedureMix: 7
+  callSchedule: 8
+  adminBurden: 4
+  hoursWeek: 45
+  burnout: 35
+  partTimeFeasibility: 6
+  vacation: 4
+  careerLongevity: 5
+  malpracticeFreq: 9
+  malpracticeCost: 0
+  geographicFlex: 9
+  automationRisk: 6
+  handsOnInsulation: 6
+  satisfaction: 74
+  chooseAgain: 68
+  intellectualStim: 8
+  varietyRepetition: 8
+  patientImpact: 5
+  physicalToll: 10
+  emotionalToll: 6
+  malpracticeLiability: 9
+  injuryCareerRisk: 9
+  aiRiskNow: 5
+  aiRiskMedium: 7
+  aiRiskLong: 8
+  aiNarrative: "Synthetic media producers create AI-generated video, audio, and imagery for ads, corporate content, and social media at scale. This is the most commoditized AI creative role — clients already treat it like a production line. The tools are getting so good that the producer's value is shifting from craft to speed and brand judgment. In five years, many clients may skip the producer entirely and prompt the AI themselves."
+  fellowshipOptions: "Digital media certifications; brand agency AI residencies; deepfake ethics and detection training; content strategy specialization; path to creative director or agency founder"
+  compModel: "Salaried $60K-140K at agencies; freelance day rates $500-2000; retainer contracts with brands $5K-20K/month"
+  revPerPatientVisit: "N/A — ad campaign deliverables billed $10K-100K per project"
+  dailyWorkflow: "Client briefs, prompt engineering for video and image generation, reviewing AI outputs, editing and compositing, brand compliance checks, delivery and revision cycles"
+  patientVolume: "5-15 deliverables per week across multiple clients"
+  supportStaffModel: "Solo freelancers or small agency teams of 2-5; some embedded in larger marketing departments"
+  geographicDemandNotes: "Fully remote — demand from every industry; NYC, SF, London, and Singapore agency hubs but location barely matters"
+  telehealthPotential: 9
+  genderDistribution: "~50% men, ~50% women"
+
+- name: "AI Music Producer"
+  group: ai_creative_studio
+  residencyYears: 0
+  annualSpots: 5000
+  startSalary: 45
+  midSalary: 80
+  peakSalary: 140
+  typicalPeak: 120
+  partTimeFlex: 7
+  procedureMix: 8
+  callSchedule: 9
+  adminBurden: 3
+  hoursWeek: 40
+  burnout: 30
+  partTimeFeasibility: 7
+  vacation: 4
+  careerLongevity: 5
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 9
+  automationRisk: 7
+  handsOnInsulation: 5
+  satisfaction: 78
+  chooseAgain: 72
+  intellectualStim: 8
+  varietyRepetition: 7
+  patientImpact: 5
+  physicalToll: 10
+  emotionalToll: 6
+  malpracticeLiability: 10
+  injuryCareerRisk: 9
+  aiRiskNow: 6
+  aiRiskMedium: 7
+  aiRiskLong: 9
+  aiNarrative: "AI music production is already heavily commoditized — tools like Suno and Udio let anyone generate radio-quality tracks in seconds. The AI Music Producer's edge is taste, curation, and the ability to blend AI-generated elements with human performance. But that edge is thinner than in film or visual art. Background music, jingles, and stock audio are rapidly becoming fully automated. Survival means moving toward live performance integration, artist collaboration, or sonic branding where human relationships still matter."
+  fellowshipOptions: "Music production programs (Berklee AI Music); sound design certifications; sonic branding specialization; sync licensing expertise; path to artist manager or label A&R using AI tools"
+  compModel: "Per-track licensing $500-10K; production fees $2K-50K per album; sync licensing royalties; streaming revenue shares; brand sonic identity retainers $3K-15K/month"
+  revPerPatientVisit: "N/A — single track licensing $500-5K; full album production $10K-50K"
+  dailyWorkflow: "Generating musical ideas with AI tools, layering human performances, mixing and mastering, client revisions, exploring new AI music models, managing sample libraries and training datasets"
+  patientVolume: "2-5 tracks per week for commercial work; album projects span months"
+  supportStaffModel: "Mostly solo — occasionally collaborates with session musicians, vocalists, and mixing engineers"
+  geographicDemandNotes: "LA, Nashville, London, and Berlin are music hubs but AI music production is location-independent; growing demand from gaming, streaming, and podcast industries worldwide"
+  telehealthPotential: 9
+  genderDistribution: "~70% men, ~30% women — slowly improving from traditional music production's ~95% male skew"
+
+- name: "Generative Art Director"
+  group: ai_creative_studio
+  residencyYears: 0
+  annualSpots: 4000
+  startSalary: 55
+  midSalary: 95
+  peakSalary: 160
+  typicalPeak: 140
+  partTimeFlex: 6
+  procedureMix: 7
+  callSchedule: 9
+  adminBurden: 4
+  hoursWeek: 42
+  burnout: 32
+  partTimeFeasibility: 6
+  vacation: 4
+  careerLongevity: 6
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 8
+  automationRisk: 5
+  handsOnInsulation: 7
+  satisfaction: 76
+  chooseAgain: 70
+  intellectualStim: 9
+  varietyRepetition: 8
+  patientImpact: 5
+  physicalToll: 10
+  emotionalToll: 6
+  malpracticeLiability: 10
+  injuryCareerRisk: 9
+  aiRiskNow: 5
+  aiRiskMedium: 6
+  aiRiskLong: 7
+  aiNarrative: "Generative Art Directors define the visual language of brands and projects, using AI image generators as their primary medium. The role sits at the intersection of traditional art direction and prompt engineering — you need to know composition, color theory, and typography AND how to coax specific aesthetics out of diffusion models. The risk is that AI visual generation becomes so intuitive that clients bypass the art director entirely, but for now, maintaining a coherent visual identity across hundreds of AI outputs requires a trained eye."
+  fellowshipOptions: "Graphic design or fine arts degree with AI tools emphasis; brand identity certifications; gallery exhibition track for fine art AI work; creative director pathway at agencies; independent artist with NFT/print sales"
+  compModel: "Salaried $55K-130K at agencies or in-house; freelance project fees $5K-50K; fine art sales and commissions; brand retainers $4K-15K/month"
+  revPerPatientVisit: "N/A — brand identity project $15K-80K; individual art pieces $500-50K"
+  dailyWorkflow: "Developing visual concepts, prompting and iterating with image generators, curating and refining outputs, creating style guides, presenting to clients, managing brand consistency across AI-generated assets"
+  patientVolume: "2-4 active brand projects simultaneously; dozens of individual asset variations per day"
+  supportStaffModel: "Solo or small creative team of 2-4; works alongside copywriters, strategists, and developers"
+  geographicDemandNotes: "Remote-friendly — every brand needs visual identity; agency hubs in NYC, LA, London, but freelance market is global"
+  telehealthPotential: 9
+  genderDistribution: "~55% women, ~45% men — art direction has historically been more gender-balanced than engineering"
+
+- name: "Virtual World Designer"
+  group: ai_creative_studio
+  residencyYears: 0
+  annualSpots: 8000
+  startSalary: 70
+  midSalary: 115
+  peakSalary: 185
+  typicalPeak: 160
+  partTimeFlex: 5
+  procedureMix: 7
+  callSchedule: 8
+  adminBurden: 4
+  hoursWeek: 48
+  burnout: 38
+  partTimeFeasibility: 5
+  vacation: 3
+  careerLongevity: 6
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 8
+  automationRisk: 5
+  handsOnInsulation: 7
+  satisfaction: 78
+  chooseAgain: 72
+  intellectualStim: 9
+  varietyRepetition: 8
+  patientImpact: 6
+  physicalToll: 9
+  emotionalToll: 5
+  malpracticeLiability: 10
+  injuryCareerRisk: 9
+  aiRiskNow: 4
+  aiRiskMedium: 5
+  aiRiskLong: 7
+  aiNarrative: "Virtual World Designers build immersive 3D environments using AI-assisted generation — procedural landscapes, NPC behaviors, interactive architecture. The creative vision required to make worlds feel coherent and emotionally resonant is hard to automate, but AI is rapidly improving at generating convincing 3D assets and environments. The designer's role is shifting from building to curating and directing AI world-generation systems, which is both empowering and existentially uncertain."
+  fellowshipOptions: "3D design and game art programs; Unreal Engine and Unity certifications; spatial computing courses (Apple Vision Pro, Meta Quest); environmental storytelling specialization; path to creative lead at metaverse companies or indie studio founder"
+  compModel: "Salaried $70K-160K at tech and gaming companies; contract work $80-200/hr; indie world sales on platforms; consulting for corporate VR/AR experiences $10K-100K per project"
+  revPerPatientVisit: "N/A — corporate VR experience $50K-500K; game environments priced per project milestone"
+  dailyWorkflow: "Concept sketching, AI-assisted 3D asset generation, environment layout and lighting, scripting NPC behaviors, playtesting and iteration, optimizing for VR/AR hardware, collaborating with engineers and narrative designers"
+  patientVolume: "1-2 major world projects at a time; each spanning 3-12 months"
+  supportStaffModel: "Cross-functional team of 5-15 — 3D artists, engineers, narrative designers, QA; designer leads the creative vision"
+  geographicDemandNotes: "Tech hubs lead — SF, Seattle, LA, Austin, London, Tokyo — but remote work increasing; gaming and enterprise VR both growing"
+  telehealthPotential: 8
+  genderDistribution: "~65% men, ~35% women — improving from gaming industry's historical skew"
+
+- name: "AI Game Designer"
+  group: ai_creative_studio
+  residencyYears: 0
+  annualSpots: 6000
+  startSalary: 65
+  midSalary: 105
+  peakSalary: 170
+  typicalPeak: 150
+  partTimeFlex: 5
+  procedureMix: 7
+  callSchedule: 8
+  adminBurden: 4
+  hoursWeek: 48
+  burnout: 42
+  partTimeFeasibility: 5
+  vacation: 3
+  careerLongevity: 6
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 7
+  automationRisk: 5
+  handsOnInsulation: 7
+  satisfaction: 76
+  chooseAgain: 70
+  intellectualStim: 9
+  varietyRepetition: 8
+  patientImpact: 5
+  physicalToll: 9
+  emotionalToll: 5
+  malpracticeLiability: 10
+  injuryCareerRisk: 9
+  aiRiskNow: 4
+  aiRiskMedium: 6
+  aiRiskLong: 7
+  aiNarrative: "AI Game Designers create games where AI drives core mechanics — procedurally generated narratives, adaptive difficulty, AI-powered NPCs that genuinely respond to player behavior. The irony is sharp: they design systems where AI creates the experience, but increasingly AI can also design the systems themselves. The human edge is understanding what makes games fun, which is deeply psychological and hard to formalize. Crunch culture remains a risk, but AI tools are dramatically reducing asset production timelines."
+  fellowshipOptions: "Game design programs (USC, NYU, DigiPen) with AI focus; Unity and Unreal certifications; procedural generation specialization; game AI research roles; path to lead designer, creative director, or indie studio founder"
+  compModel: "Salaried $65K-150K at studios; indie revenue share; consulting for gamification $100-250/hr; AAA studios pay more but expect long hours"
+  revPerPatientVisit: "N/A — game revenue measured in units sold and live-service spending; designer's impact is indirect"
+  dailyWorkflow: "Designing game mechanics and AI behavior systems, writing design docs, prototyping with AI generation tools, playtesting, balancing difficulty curves, collaborating with artists and engineers, reviewing player analytics"
+  patientVolume: "1 major title at a time spanning 1-3 years; smaller AI-generated game experiments ongoing"
+  supportStaffModel: "Team of 10-100+ at AAA studios; 2-5 at indie studios; game designer works with artists, programmers, QA, and producers"
+  geographicDemandNotes: "LA, SF, Seattle, Montreal, Tokyo, Stockholm are gaming hubs; remote indie development growing; mobile gaming studios worldwide"
+  telehealthPotential: 7
+  genderDistribution: "~70% men, ~30% women — gaming industry slowly diversifying"
+
+- name: "AI UX Designer"
+  group: ai_creative_studio
+  residencyYears: 0
+  annualSpots: 15000
+  startSalary: 75
+  midSalary: 120
+  peakSalary: 180
+  typicalPeak: 160
+  partTimeFlex: 6
+  procedureMix: 6
+  callSchedule: 9
+  adminBurden: 4
+  hoursWeek: 42
+  burnout: 30
+  partTimeFeasibility: 6
+  vacation: 4
+  careerLongevity: 7
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 9
+  automationRisk: 5
+  handsOnInsulation: 7
+  satisfaction: 76
+  chooseAgain: 72
+  intellectualStim: 8
+  varietyRepetition: 7
+  patientImpact: 7
+  physicalToll: 10
+  emotionalToll: 6
+  malpracticeLiability: 10
+  injuryCareerRisk: 9
+  aiRiskNow: 5
+  aiRiskMedium: 6
+  aiRiskLong: 7
+  aiNarrative: "AI UX Designers specialize in making AI products feel intuitive, trustworthy, and human. Every chatbot, recommendation engine, and autonomous system needs a UX layer that humans can actually understand. This is one of the more defensible AI creative roles because the need grows with AI adoption — more AI products means more interfaces to design. The threat is that AI itself starts generating good UX, but understanding human psychology and translating machine behavior into human-friendly interactions still requires a human touch."
+  fellowshipOptions: "UX design bootcamps and degrees with AI/ML focus; Google and IDEO certifications; conversational design specialization; AI ethics and responsible design training; path to head of design at AI companies or UX consultancy founder"
+  compModel: "Salaried $75K-170K at tech companies; freelance $80-200/hr; contract work at AI startups; design agency retainers $8K-25K/month"
+  revPerPatientVisit: "N/A — UX project fees $20K-150K; ongoing product design retainers"
+  dailyWorkflow: "User research and interviews, designing AI interaction flows, prototyping conversational interfaces, usability testing with AI features, collaborating with ML engineers on model behavior, creating design systems for AI products"
+  patientVolume: "2-4 product features or design sprints simultaneously"
+  supportStaffModel: "Embedded in product teams of 5-20; works with PMs, engineers, and researchers; may lead small design team of 2-4"
+  geographicDemandNotes: "SF, NYC, Seattle, Austin, London, Berlin — every AI company needs UX; remote roles increasingly common; demand growing fastest at AI startups"
+  telehealthPotential: 9
+  genderDistribution: "~55% women, ~45% men — UX design is one of the more gender-balanced tech roles"
+
+- name: "AI Education Designer"
+  group: ai_business_society
+  residencyYears: 0
+  annualSpots: 15000
+  startSalary: 60
+  midSalary: 100
+  peakSalary: 160
+  typicalPeak: 140
+  partTimeFlex: 7
+  procedureMix: 6
+  callSchedule: 9
+  adminBurden: 4
+  hoursWeek: 42
+  burnout: 28
+  partTimeFeasibility: 7
+  vacation: 5
+  careerLongevity: 7
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 8
+  automationRisk: 4
+  handsOnInsulation: 7
+  satisfaction: 80
+  chooseAgain: 75
+  intellectualStim: 8
+  varietyRepetition: 7
+  patientImpact: 7
+  physicalToll: 10
+  emotionalToll: 6
+  malpracticeLiability: 10
+  injuryCareerRisk: 9
+  aiRiskNow: 3
+  aiRiskMedium: 5
+  aiRiskLong: 6
+  aiNarrative: "AI Education Designers build learning experiences powered by AI — adaptive tutoring systems, AI teaching assistants, personalized curriculum engines. This role has a meaningful moat: understanding how humans learn is deeply nuanced and culturally specific, and getting AI-powered education wrong has real consequences for students. But the tools are improving fast, and the risk is that school districts and edtech companies increasingly rely on off-the-shelf AI tutors rather than custom-designed experiences."
+  fellowshipOptions: "Instructional design degrees with AI focus; learning science certifications; edtech product management; curriculum design specialization; path to VP of Learning at edtech companies or independent learning design consultancy"
+  compModel: "Salaried $60K-140K at edtech companies; consulting $75-175/hr; school district contracts $30K-200K per project; course design retainers"
+  revPerPatientVisit: "N/A — per-student licensing models $5-50/student/year for AI learning platforms"
+  dailyWorkflow: "Analyzing learning data, designing adaptive curriculum paths, configuring AI tutor behaviors, user testing with students and teachers, collaborating with ML engineers, creating assessment frameworks, reviewing learning outcomes"
+  patientVolume: "2-3 major curriculum or product design projects simultaneously"
+  supportStaffModel: "Cross-functional team of 4-10 — learning scientists, engineers, content writers, assessment experts; designer leads pedagogical vision"
+  geographicDemandNotes: "Distributed across edtech hubs — SF, Boston, NYC, London, Bangalore — plus school districts and universities everywhere; strong remote work culture"
+  telehealthPotential: 8
+  genderDistribution: "~60% women, ~40% men — education design skews female, tech side skews male"
+
+- name: "Human Augmentation Designer"
+  group: the_frontier
+  residencyYears: 0
+  annualSpots: 1000
+  startSalary: 75
+  midSalary: 125
+  peakSalary: 200
+  typicalPeak: 175
+  partTimeFlex: 5
+  procedureMix: 7
+  callSchedule: 8
+  adminBurden: 4
+  hoursWeek: 50
+  burnout: 38
+  partTimeFeasibility: 5
+  vacation: 3
+  careerLongevity: 7
+  malpracticeFreq: 8
+  malpracticeCost: 5
+  geographicFlex: 6
+  automationRisk: 4
+  handsOnInsulation: 8
+  satisfaction: 82
+  chooseAgain: 78
+  intellectualStim: 9
+  varietyRepetition: 9
+  patientImpact: 7
+  physicalToll: 9
+  emotionalToll: 5
+  malpracticeLiability: 8
+  injuryCareerRisk: 8
+  aiRiskNow: 3
+  aiRiskMedium: 4
+  aiRiskLong: 5
+  aiNarrative: "Human Augmentation Designers create the interfaces between human bodies and digital systems — brain-computer interfaces, AR overlays for daily life, cognitive enhancement UX. Think Neuralink meets Apple Vision Pro, but designed for your grandmother. This is one of the most defensible AI creative roles because the design challenge is inherently human: how do you overlay digital information on a human life without destroying the experience of being human? AI can generate interface options, but deciding what augmentation should feel like requires deep empathy and embodied understanding that machines lack."
+  fellowshipOptions: "Neurotechnology design programs; biomedical engineering with UX focus; AR/VR interaction design certifications; accessibility design specialization; research positions at Neuralink, Meta Reality Labs, Apple Vision; path to chief design officer at augmentation startups"
+  compModel: "Salaried $75K-180K at neurotech and AR companies; research grants $50K-500K; consulting $150-300/hr; equity compensation significant at startups"
+  revPerPatientVisit: "N/A — device and platform design; consumer products priced $500-5000 per unit"
+  dailyWorkflow: "Prototyping AR/BCI interfaces, user testing with augmentation hardware, analyzing neural signal data with engineers, designing adaptive UX that responds to cognitive state, ethical review of augmentation features, iterating on comfort and usability"
+  patientVolume: "1-2 major augmentation product cycles per year; continuous prototype iteration"
+  supportStaffModel: "Interdisciplinary team of 8-20 — neuroscientists, hardware engineers, UX researchers, ethicists, clinical advisors; designer bridges human needs and technical constraints"
+  geographicDemandNotes: "Extremely concentrated — SF Bay Area, Austin, Boston, Zurich, Shenzhen; requires proximity to hardware labs and clinical testing facilities; fewer than 20 companies hiring globally"
+  telehealthPotential: 5
+  genderDistribution: "~60% men, ~40% women — neurotech is more diverse than traditional hardware engineering"
+
+- name: "Reality Architect"
+  group: the_frontier
+  residencyYears: 0
+  annualSpots: 2000
+  startSalary: 70
+  midSalary: 120
+  peakSalary: 195
+  typicalPeak: 170
+  partTimeFlex: 5
+  procedureMix: 7
+  callSchedule: 8
+  adminBurden: 4
+  hoursWeek: 48
+  burnout: 40
+  partTimeFeasibility: 5
+  vacation: 3
+  careerLongevity: 6
+  malpracticeFreq: 9
+  malpracticeCost: 2
+  geographicFlex: 7
+  automationRisk: 5
+  handsOnInsulation: 7
+  satisfaction: 80
+  chooseAgain: 74
+  intellectualStim: 9
+  varietyRepetition: 9
+  patientImpact: 7
+  physicalToll: 9
+  emotionalToll: 5
+  malpracticeLiability: 9
+  injuryCareerRisk: 8
+  aiRiskNow: 3
+  aiRiskMedium: 5
+  aiRiskLong: 6
+  aiNarrative: "Reality Architects build persistent, AI-driven mixed-reality worlds — not just VR games, but entire alternate realities for work, therapy, education, and social connection. The role combines world-building, systems design, and deep understanding of human perception. AI procedural generation creates the raw material, but the architect decides what reality should feel like, which is a fundamentally human design problem. The long-term risk is that AI learns to generate compelling realities autonomously, but we are a long way from machines understanding what humans need from an alternate reality."
+  fellowshipOptions: "Spatial computing programs; architecture or urban planning degree with XR focus; world-building certifications; perceptual psychology training; positions at Apple, Meta, Magic Leap, or XR startups; path to chief reality officer at metaverse companies"
+  compModel: "Salaried $70K-170K at tech and XR companies; consulting $100-250/hr; project fees $50K-500K for custom reality builds; equity at startups can be significant"
+  revPerPatientVisit: "N/A — platform licensing, subscription models $10-100/user/month for persistent realities"
+  dailyWorkflow: "Designing reality rules and physics systems, scripting AI-driven environment behaviors, user testing in XR hardware, collaborating with perception scientists, iterating on sensory fidelity, reviewing therapeutic and educational reality applications, managing procedural generation pipelines"
+  patientVolume: "1 major reality project at a time spanning 6-18 months; smaller experimental realities ongoing"
+  supportStaffModel: "Team of 10-30 — 3D artists, AI engineers, perception researchers, narrative designers, QA testers; architect is the creative lead and systems thinker"
+  geographicDemandNotes: "Hyper-concentrated in SF, Seattle, LA, and London; a handful of companies in Tokyo, Stockholm, and Tel Aviv; most require some on-site lab work"
+  telehealthPotential: 6
+  genderDistribution: "~65% men, ~35% women — XR industry is working on diversity but still skews male"
+
+- name: "Memory Engineer"
+  group: the_frontier
+  residencyYears: 0
+  annualSpots: 500
+  startSalary: 65
+  midSalary: 110
+  peakSalary: 180
+  typicalPeak: 155
+  partTimeFlex: 5
+  procedureMix: 7
+  callSchedule: 8
+  adminBurden: 3
+  hoursWeek: 45
+  burnout: 35
+  partTimeFeasibility: 5
+  vacation: 4
+  careerLongevity: 7
+  malpracticeFreq: 7
+  malpracticeCost: 10
+  geographicFlex: 6
+  automationRisk: 4
+  handsOnInsulation: 8
+  satisfaction: 78
+  chooseAgain: 72
+  intellectualStim: 9
+  varietyRepetition: 8
+  patientImpact: 7
+  physicalToll: 10
+  emotionalToll: 4
+  malpracticeLiability: 7
+  injuryCareerRisk: 8
+  aiRiskNow: 3
+  aiRiskMedium: 4
+  aiRiskLong: 5
+  aiNarrative: "Memory Engineers curate, edit, and design digital memory experiences — when we can record, replay, and even therapeutically modify memories, someone needs to design what that feels like. This is the most emotionally complex AI creative role: you are literally shaping how people experience their past. AI handles the neural signal processing and memory reconstruction, but the design of the experience — what to enhance, what to soften, how to make a replayed memory feel authentic — requires profound human empathy and ethical judgment. The role barely exists today but could become critical as neurotechnology matures."
+  fellowshipOptions: "Neuroscience or psychology degree with design focus; memory science research positions; therapeutic technology certifications; narrative therapy training; positions at neurotechnology research labs; path to founding memory experience design practices"
+  compModel: "Research positions $65K-130K; clinical memory design $100-250/hr; consulting for therapeutic applications $80K-180K; this role is so new that compensation models are still forming"
+  revPerPatientVisit: "N/A — therapeutic sessions may bill $200-500; platform licensing for memory tools TBD"
+  dailyWorkflow: "Reviewing neural recordings, designing memory replay sequences, collaborating with neuroscientists and therapists, ethical review of memory modification requests, prototyping memory enhancement interfaces, documenting design decisions for clinical accountability"
+  patientVolume: "5-15 memory design cases per week in clinical settings; research projects span months"
+  supportStaffModel: "Embedded in clinical or research teams of 5-12 — neuroscientists, therapists, ethicists, engineers; memory engineer is the design-clinical bridge"
+  geographicDemandNotes: "Barely exists geographically — a handful of research labs at MIT, Stanford, UCL, ETH Zurich, and neurotechnology startups in SF and Boston; will expand as the field matures"
+  telehealthPotential: 5
+  genderDistribution: "~50% men, ~50% women — neuroscience and psychology backgrounds bring more gender balance"
+
+- name: "AI Whisperer"
+  group: the_frontier
+  residencyYears: 0
+  annualSpots: 200
+  startSalary: 60
+  midSalary: 105
+  peakSalary: 175
+  typicalPeak: 150
+  partTimeFlex: 6
+  procedureMix: 5
+  callSchedule: 7
+  adminBurden: 4
+  hoursWeek: 45
+  burnout: 42
+  partTimeFeasibility: 5
+  vacation: 3
+  careerLongevity: 8
+  malpracticeFreq: 8
+  malpracticeCost: 8
+  geographicFlex: 7
+  automationRisk: 4
+  handsOnInsulation: 8
+  satisfaction: 75
+  chooseAgain: 68
+  intellectualStim: 9
+  varietyRepetition: 9
+  patientImpact: 7
+  physicalToll: 10
+  emotionalToll: 4
+  malpracticeLiability: 8
+  injuryCareerRisk: 7
+  aiRiskNow: 3
+  aiRiskMedium: 4
+  aiRiskLong: 5
+  aiNarrative: "The AI Whisperer is the ultimate human-AI interface — part therapist, part diplomat, part designer. When AI systems become sophisticated enough to have emergent behaviors that even their creators do not fully understand, someone needs to translate between human needs and machine capabilities. This is the most speculative career on crossrd. It might never exist as a formal role, or it might become the most important job of the century. The paradox is existential: if AI becomes truly superintelligent, it might not need a human translator at all. But in the messy middle — where AI is powerful but not omniscient — the Whisperer could be indispensable."
+  fellowshipOptions: "No formal pathway exists yet — closest equivalents are AI safety research, clinical psychology with technology focus, diplomatic and mediation training, and prompt engineering at frontier AI labs; early practitioners come from philosophy, linguistics, and cognitive science; path to chief AI relations officer at major organizations"
+  compModel: "Consulting $100-300/hr at organizations deploying advanced AI; salaried $60K-150K at AI labs and think tanks; government advisory roles $80K-160K; compensation will vary wildly as the role takes shape"
+  revPerPatientVisit: "N/A — organizational consulting billed per engagement $20K-200K; government advisory on retainer"
+  dailyWorkflow: "Interpreting AI system behaviors for non-technical stakeholders, designing communication protocols between humans and advanced AI, mediating disputes about AI decisions, testing AI systems for emergent behaviors, advising leadership on AI relationship management, documenting human-AI interaction patterns"
+  patientVolume: "3-8 AI mediation cases or advisory sessions per week; major AI incidents require intensive multi-day engagement"
+  supportStaffModel: "Typically solo or in pairs — works across departments as an internal consultant; may coordinate with AI safety teams, legal, and executive leadership"
+  geographicDemandNotes: "Today: only at frontier AI labs in SF, London, and a handful of research universities. By 2030: potentially every major organization deploying advanced AI will need one. If AGI arrives, demand could be enormous and global overnight."
+  telehealthPotential: 7
+  genderDistribution: "~50% men, ~50% women — the interdisciplinary nature draws from balanced fields like psychology and linguistics"
