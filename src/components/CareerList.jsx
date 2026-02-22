@@ -4,12 +4,20 @@
 import { useState } from "react";
 import { formatDollars } from "../styles/theme";
 
+// AI risk dot color: 1-3 green, 4-6 amber, 7-10 red
+function aiDotColor(score) {
+  if (score <= 3) return "#2e7d32";
+  if (score <= 6) return "#f57f17";
+  return "#c62828";
+}
+
 const SORT_OPTIONS = [
   { key: "typicalPeak", label: "Peak Pay", dir: "desc", fallback: "peakSalary" },
   { key: "satisfaction", label: "Happiness", dir: "desc" },
   { key: "hoursWeek", label: "Hours/Wk", dir: "asc" },
   { key: "oneInX", label: "Ease of Entry", dir: "asc" },
   { key: "burnout", label: "Low Burnout", dir: "asc" },
+  { key: "aiRiskAvg", label: "AI Safe", dir: "asc" },
 ];
 
 export default function CareerList({
@@ -194,6 +202,23 @@ export default function CareerList({
                 <span>😊 {t.satisfaction}%</span>
                 <span>🎯 1 in {t.oneInX} entry</span>
                 <span>🔥 {t.burnout}% burnout</span>
+                <span title={`AI risk: Now ${t.aiRiskNow || 5} · 5yr ${t.aiRiskMedium || 5} · 10yr ${t.aiRiskLong || 5}`}>
+                  ⚡{" "}
+                  {[t.aiRiskNow || 5, t.aiRiskMedium || 5, t.aiRiskLong || 5].map((s, i) => (
+                    <span
+                      key={i}
+                      style={{
+                        display: "inline-block",
+                        width: 7,
+                        height: 7,
+                        borderRadius: "50%",
+                        background: aiDotColor(s),
+                        margin: "0 1px",
+                        verticalAlign: "middle",
+                      }}
+                    />
+                  ))}
+                </span>
               </div>
             </div>
           );

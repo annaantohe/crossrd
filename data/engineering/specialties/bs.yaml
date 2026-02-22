@@ -35,6 +35,10 @@ specialties:
   emotionalToll: 7
   malpracticeLiability: 10
   injuryCareerRisk: 10
+  aiRiskNow: 5
+  aiRiskMedium: 7
+  aiRiskLong: 8
+  aiNarrative: "AI writes code today, but someone still needs to tell it what to build, review its work, and handle the weird edge cases. Junior coding jobs shrink, but architects who orchestrate AI systems are in huge demand."
   fellowshipOptions: "None required; optional MS in CS, MBA"
   compModel: "Base + RSU/equity + bonus; senior IC track or management track"
   revPerPatientVisit: "$150-300/hr (contractor) or salaried"
@@ -76,6 +80,10 @@ specialties:
   emotionalToll: 8
   malpracticeLiability: 10
   injuryCareerRisk: 10
+  aiRiskNow: 5
+  aiRiskMedium: 7
+  aiRiskLong: 8
+  aiNarrative: "AI can generate UI components and write CSS, but design thinking, user empathy, and creative problem-solving stay human. Expect to work alongside AI copilots rather than be replaced by them."
   fellowshipOptions: "None required; bootcamp or self-taught paths common"
   compModel: "Base + RSU/equity; freelance/contract common"
   revPerPatientVisit: "$100-250/hr (contractor) or salaried"
@@ -117,6 +125,10 @@ specialties:
   emotionalToll: 7
   malpracticeLiability: 10
   injuryCareerRisk: 10
+  aiRiskNow: 5
+  aiRiskMedium: 7
+  aiRiskLong: 8
+  aiNarrative: "AI helps write boilerplate code and debug faster, but designing systems that handle millions of users requires deep judgment. Senior infrastructure architects stay essential even as junior tasks get automated."
   fellowshipOptions: "None required; optional MS in distributed systems"
   compModel: "Base + RSU/equity + bonus; FAANG-tier comp at senior levels"
   revPerPatientVisit: "$150-350/hr (contractor) or salaried"
@@ -158,6 +170,10 @@ specialties:
   emotionalToll: 6
   malpracticeLiability: 10
   injuryCareerRisk: 10
+  aiRiskNow: 4
+  aiRiskMedium: 6
+  aiRiskLong: 7
+  aiNarrative: "AI automates monitoring, deployment pipelines, and incident triage, meaning fewer people are needed for routine ops. But someone still has to design the infrastructure and handle the chaos when things go wrong at 3 AM."
   fellowshipOptions: "None required; cloud certifications (AWS, GCP, Azure)"
   compModel: "Base + RSU/equity + on-call bonus; high demand market"
   revPerPatientVisit: "$150-300/hr (contractor) or salaried"
@@ -199,6 +215,10 @@ specialties:
   emotionalToll: 6
   malpracticeLiability: 9
   injuryCareerRisk: 10
+  aiRiskNow: 3
+  aiRiskMedium: 3
+  aiRiskLong: 4
+  aiNarrative: "AI helps both hackers and defenders, so demand for cybersecurity actually grows as AI spreads. Human judgment is critical for threat assessment, and attackers always find creative new angles that AI alone can't anticipate."
   fellowshipOptions: "CISSP, CEH, OSCP certifications"
   compModel: "Base + bonus; government/defense often includes clearance premium"
   revPerPatientVisit: "$150-350/hr (consulting) or salaried"
@@ -242,6 +262,10 @@ specialties:
   emotionalToll: 8
   malpracticeLiability: 8
   injuryCareerRisk: 9
+  aiRiskNow: 3
+  aiRiskMedium: 4
+  aiRiskLong: 5
+  aiNarrative: "Generative design AI is getting better at creating optimized shapes, but someone still needs to prototype, test, and physically validate designs. The hands-on prototyping and real-world judgment keep this role safer than pure software jobs."
   fellowshipOptions: "PE license optional; optional MS in ME"
   compModel: "Base salary + annual bonus; seniority-based raises"
   revPerPatientVisit: "$100-180/hr (consulting) or salaried"
@@ -283,6 +307,10 @@ specialties:
   emotionalToll: 8
   malpracticeLiability: 8
   injuryCareerRisk: 7
+  aiRiskNow: 2
+  aiRiskMedium: 3
+  aiRiskLong: 4
+  aiNarrative: "Manufacturing happens on physical factory floors with unpredictable problems — a robot arm jams, a weld looks wrong, a line backs up. AI helps with analytics and scheduling, but the hands-on troubleshooting keeps this role very safe."
   fellowshipOptions: "Six Sigma, Lean certifications; PE optional"
   compModel: "Base salary + shift differential + bonus"
   revPerPatientVisit: "$90-150/hr (consulting) or salaried"
@@ -324,6 +352,10 @@ specialties:
   emotionalToll: 7
   malpracticeLiability: 7
   injuryCareerRisk: 8
+  aiRiskNow: 3
+  aiRiskMedium: 4
+  aiRiskLong: 5
+  aiNarrative: "AI speeds up simulation and testing, but cars are physical products with safety-critical requirements. The shift to EVs and autonomous vehicles actually creates new engineering demand, and you still need humans to crash-test prototypes."
   fellowshipOptions: "SAE certifications; optional MS in automotive engineering"
   compModel: "Base salary + OEM profit sharing + bonus"
   revPerPatientVisit: "$110-180/hr (consulting) or salaried"
@@ -365,6 +397,10 @@ specialties:
   emotionalToll: 8
   malpracticeLiability: 7
   injuryCareerRisk: 8
+  aiRiskNow: 2
+  aiRiskMedium: 3
+  aiRiskLong: 4
+  aiNarrative: "AI helps with load calculations and energy modeling, but HVAC work requires site visits, understanding building quirks, and coordinating with contractors. This is one of the most AI-resistant engineering roles because every building is different."
   fellowshipOptions: "PE license recommended; LEED certification"
   compModel: "Base salary + bonus; consulting firms or MEP contractors"
   revPerPatientVisit: "$90-160/hr (consulting) or salaried"
@@ -406,6 +442,10 @@ specialties:
   emotionalToll: 8
   malpracticeLiability: 7
   injuryCareerRisk: 9
+  aiRiskNow: 4
+  aiRiskMedium: 5
+  aiRiskLong: 6
+  aiNarrative: "AI is getting good at automated inspection and predictive quality analytics, which means fewer people needed for routine testing. But failure analysis and root cause investigation still need human judgment and physical examination."
   fellowshipOptions: "CQE, Six Sigma Black Belt certifications"
   compModel: "Base salary + bonus; stable corporate positions"
   revPerPatientVisit: "$90-150/hr (consulting) or salaried"
@@ -447,6 +487,10 @@ specialties:
   emotionalToll: 8
   malpracticeLiability: 8
   injuryCareerRisk: 8
+  aiRiskNow: 3
+  aiRiskMedium: 4
+  aiRiskLong: 5
+  aiNarrative: "You literally build and program the physical automation systems — robots, PLCs, sensors. AI adds smarter controls, but someone still needs to wire things up, commission systems on-site, and debug hardware. The physical layer keeps you safe."
   fellowshipOptions: "Optional MS in robotics or controls; PLC certifications"
   compModel: "Base salary + bonus; automation integrators or OEMs"
   revPerPatientVisit: "$110-200/hr (consulting) or salaried"
@@ -490,6 +534,10 @@ specialties:
   emotionalToll: 7
   malpracticeLiability: 6
   injuryCareerRisk: 8
+  aiRiskNow: 2
+  aiRiskMedium: 3
+  aiRiskLong: 4
+  aiNarrative: "AI can help with calculations and simulations, but someone still needs to visit the site, stamp the drawings, and make sure the bridge doesn't fall down. PE licensure and legal liability make this one of the safest engineering careers from AI."
   fellowshipOptions: "PE/SE license required; optional MS in structural"
   compModel: "Base salary + bonus; partnership track at consulting firms"
   revPerPatientVisit: "$120-220/hr (consulting) or salaried"
@@ -531,6 +579,10 @@ specialties:
   emotionalToll: 8
   malpracticeLiability: 7
   injuryCareerRisk: 8
+  aiRiskNow: 2
+  aiRiskMedium: 3
+  aiRiskLong: 4
+  aiNarrative: "AI helps with traffic simulation and signal optimization, but road design involves public meetings, site-specific constraints, and government approvals that need human judgment. It's a very stable career because infrastructure always needs building."
   fellowshipOptions: "PE license; PTOE certification"
   compModel: "Base salary; government or consulting firm positions"
   revPerPatientVisit: "$100-180/hr (consulting) or government GS scale"
@@ -572,6 +624,10 @@ specialties:
   emotionalToll: 8
   malpracticeLiability: 6
   injuryCareerRisk: 7
+  aiRiskNow: 2
+  aiRiskMedium: 2
+  aiRiskLong: 3
+  aiNarrative: "You literally dig holes, test soil, and figure out what's underground — AI can't do fieldwork. Every site is unique, and the judgment calls about foundations and slope stability carry real liability. One of the most AI-proof engineering roles."
   fellowshipOptions: "PE license required; MS in geotech strongly preferred"
   compModel: "Base salary + bonus; consulting firm or government"
   revPerPatientVisit: "$110-200/hr (consulting) or salaried"
@@ -613,6 +669,10 @@ specialties:
   emotionalToll: 8
   malpracticeLiability: 7
   injuryCareerRisk: 8
+  aiRiskNow: 2
+  aiRiskMedium: 3
+  aiRiskLong: 4
+  aiNarrative: "AI improves flood modeling and hydrology simulations, but water resources work involves field sampling, permitting, and site-specific conditions that need human expertise. Climate change is increasing demand for this work, not decreasing it."
   fellowshipOptions: "PE license; CFM certification; optional MS"
   compModel: "Base salary; government (USACE, FEMA) or consulting"
   revPerPatientVisit: "$100-180/hr (consulting) or government GS scale"
@@ -654,6 +714,10 @@ specialties:
   emotionalToll: 6
   malpracticeLiability: 6
   injuryCareerRisk: 6
+  aiRiskNow: 2
+  aiRiskMedium: 2
+  aiRiskLong: 3
+  aiNarrative: "Construction sites are messy, unpredictable, and physical — AI can't supervise subcontractors or walk a muddy job site. AI helps with scheduling and cost estimation, but the on-site leadership and human coordination make this extremely AI-proof."
   fellowshipOptions: "PE or PMP certification; CCM credential"
   compModel: "Base salary + project bonus; GC firms or owner's rep"
   revPerPatientVisit: "$120-250/hr (consulting) or salaried"
@@ -695,6 +759,10 @@ specialties:
   emotionalToll: 9
   malpracticeLiability: 7
   injuryCareerRisk: 7
+  aiRiskNow: 2
+  aiRiskMedium: 3
+  aiRiskLong: 4
+  aiNarrative: "Drones and lidar are changing how surveys get done, but someone still has to go to the site, set up equipment, and make legal boundary determinations. AI speeds up data processing, but the fieldwork and licensed stamp keep this role safe."
   fellowshipOptions: "PLS license required; GIS certifications"
   compModel: "Base salary; surveying firms or self-employment"
   revPerPatientVisit: "$80-150/hr (consulting) or salaried"
@@ -738,6 +806,10 @@ specialties:
   emotionalToll: 8
   malpracticeLiability: 8
   injuryCareerRisk: 8
+  aiRiskNow: 3
+  aiRiskMedium: 4
+  aiRiskLong: 5
+  aiNarrative: "AI helps with circuit simulation and PCB layout optimization, but electrical design involves physical prototyping, debugging with oscilloscopes, and understanding real-world signal behavior. The hardware interface keeps this safer than pure software roles."
   fellowshipOptions: "PE license optional; optional MS in EE"
   compModel: "Base salary + bonus; OEMs, consulting firms, utilities"
   revPerPatientVisit: "$100-180/hr (consulting) or salaried"
@@ -779,6 +851,10 @@ specialties:
   emotionalToll: 8
   malpracticeLiability: 9
   injuryCareerRisk: 9
+  aiRiskNow: 3
+  aiRiskMedium: 4
+  aiRiskLong: 5
+  aiNarrative: "Embedded work sits at the intersection of hardware and software — AI can help write firmware, but debugging timing issues on real hardware with a logic analyzer is hard to automate. The physical device interface keeps this role more protected."
   fellowshipOptions: "None required; optional MS in embedded systems or CS"
   compModel: "Base salary + RSU/equity at tech companies + bonus"
   revPerPatientVisit: "$120-220/hr (consulting) or salaried"
@@ -820,6 +896,10 @@ specialties:
   emotionalToll: 8
   malpracticeLiability: 9
   injuryCareerRisk: 9
+  aiRiskNow: 2
+  aiRiskMedium: 3
+  aiRiskLong: 4
+  aiNarrative: "RF engineering requires deep physics intuition plus hands-on antenna testing and field measurements. AI helps with simulation, but electromagnetic behavior in the real world is notoriously hard to predict — you need experienced humans."
   fellowshipOptions: "MS strongly preferred; optional PhD for research"
   compModel: "Base salary + bonus; telecom, defense, or semiconductor companies"
   revPerPatientVisit: "$120-220/hr (consulting) or salaried"
@@ -861,6 +941,10 @@ specialties:
   emotionalToll: 7
   malpracticeLiability: 7
   injuryCareerRisk: 7
+  aiRiskNow: 2
+  aiRiskMedium: 3
+  aiRiskLong: 4
+  aiNarrative: "The power grid is a massive physical system with safety-critical operations and heavy regulation. AI helps with grid optimization, but substations need hands-on work and the energy transition is creating more demand for power engineers, not less."
   fellowshipOptions: "PE license important; optional MS in power systems"
   compModel: "Base salary + utility benefits; stable regulated-industry pay"
   revPerPatientVisit: "$100-180/hr (consulting) or utility salary"
@@ -902,6 +986,10 @@ specialties:
   emotionalToll: 8
   malpracticeLiability: 8
   injuryCareerRisk: 7
+  aiRiskNow: 2
+  aiRiskMedium: 3
+  aiRiskLong: 4
+  aiNarrative: "Controls engineers work in physical plants — refineries, factories, power plants — commissioning real equipment and tuning real processes. AI helps with predictive maintenance, but the hands-on commissioning and field troubleshooting stay very human."
   fellowshipOptions: "ISA certifications (CAP, CCST); PE optional"
   compModel: "Base salary + overtime; process industries or system integrators"
   revPerPatientVisit: "$100-180/hr (consulting) or salaried"
@@ -945,6 +1033,10 @@ specialties:
   emotionalToll: 7
   malpracticeLiability: 8
   injuryCareerRisk: 9
+  aiRiskNow: 2
+  aiRiskMedium: 3
+  aiRiskLong: 4
+  aiNarrative: "Aerospace is safety-critical and heavily regulated — AI helps with FEA and stress analysis, but the physical testing, certification requirements, and life-or-death stakes mean humans stay deeply in the loop. This is one of the safer engineering fields from AI."
   fellowshipOptions: "MS preferred for advancement; optional PhD for research"
   compModel: "Base salary + annual merit; defense primes or NASA"
   revPerPatientVisit: "$110-200/hr (consulting) or salaried"
@@ -986,6 +1078,10 @@ specialties:
   emotionalToll: 7
   malpracticeLiability: 8
   injuryCareerRisk: 9
+  aiRiskNow: 2
+  aiRiskMedium: 3
+  aiRiskLong: 4
+  aiNarrative: "Flight systems are life-critical with strict DO-178C certification requirements. AI can't just generate avionics code — every line needs rigorous verification. The combination of hardware integration and safety certification makes this very AI-resistant."
   fellowshipOptions: "MS in avionics or controls; DO-178C/DO-254 expertise valued"
   compModel: "Base salary + annual merit; clearance premium possible"
   revPerPatientVisit: "$120-220/hr (consulting) or salaried"
@@ -1027,6 +1123,10 @@ specialties:
   emotionalToll: 7
   malpracticeLiability: 9
   injuryCareerRisk: 10
+  aiRiskNow: 3
+  aiRiskMedium: 4
+  aiRiskLong: 5
+  aiNarrative: "AI can help with requirements tracing and documentation, but systems engineering is fundamentally about human coordination across complex programs. Managing trade studies and interface control between dozens of teams stays a human skill."
   fellowshipOptions: "INCOSE certification (CSEP/ESEP); optional MS in systems engineering"
   compModel: "Base salary + clearance premium; defense primes (Lockheed, Raytheon, etc.)"
   revPerPatientVisit: "$110-200/hr (consulting) or salaried"
@@ -1068,6 +1168,10 @@ specialties:
   emotionalToll: 6
   malpracticeLiability: 8
   injuryCareerRisk: 6
+  aiRiskNow: 1
+  aiRiskMedium: 2
+  aiRiskLong: 3
+  aiNarrative: "You physically fly in test aircraft, set up instrumentation on real hardware, and analyze data in real-time. AI can help process flight data faster, but the hands-on, high-stakes, in-the-aircraft nature of this work makes it nearly impossible to automate."
   fellowshipOptions: "USAF TPS or equivalent flight test school; MS common"
   compModel: "Base salary + flight pay; military or defense OEM positions"
   revPerPatientVisit: "$120-200/hr (consulting) or salaried"
@@ -1109,6 +1213,10 @@ specialties:
   emotionalToll: 6
   malpracticeLiability: 9
   injuryCareerRisk: 9
+  aiRiskNow: 2
+  aiRiskMedium: 3
+  aiRiskLong: 4
+  aiNarrative: "Defense work requires security clearances, physical testing, and safety-critical decisions that AI can't handle alone. The classified nature of the work and heavy regulation create strong barriers to AI replacement. Demand is steady and growing."
   fellowshipOptions: "Security clearance required; MS common for advancement"
   compModel: "Base salary + clearance premium + annual bonus; defense primes"
   revPerPatientVisit: "$120-220/hr (consulting) or salaried"
@@ -1152,6 +1260,10 @@ specialties:
   emotionalToll: 7
   malpracticeLiability: 7
   injuryCareerRisk: 7
+  aiRiskNow: 2
+  aiRiskMedium: 3
+  aiRiskLong: 4
+  aiNarrative: "Chemical plants are complex physical systems where a wrong decision can cause explosions or toxic releases. AI helps with process optimization and monitoring, but the HAZOP reviews, field troubleshooting, and safety-critical judgment keep humans essential."
   fellowshipOptions: "PE license; Six Sigma certifications"
   compModel: "Base salary + plant bonus; major chemical companies or EPCs"
   revPerPatientVisit: "$100-180/hr (consulting) or salaried"
@@ -1193,6 +1305,10 @@ specialties:
   emotionalToll: 7
   malpracticeLiability: 7
   injuryCareerRisk: 8
+  aiRiskNow: 2
+  aiRiskMedium: 3
+  aiRiskLong: 4
+  aiNarrative: "Pharma manufacturing is heavily regulated with GMP requirements — every batch needs human oversight and documentation. AI helps with process analytics, but the FDA compliance, sterile manufacturing, and hands-on scale-up work stay very human."
   fellowshipOptions: "Optional MS in bioprocess; PMP or Six Sigma"
   compModel: "Base salary + bonus; pharma/biotech companies"
   revPerPatientVisit: "$110-200/hr (consulting) or salaried"
@@ -1234,6 +1350,10 @@ specialties:
   emotionalToll: 8
   malpracticeLiability: 7
   injuryCareerRisk: 8
+  aiRiskNow: 2
+  aiRiskMedium: 3
+  aiRiskLong: 3
+  aiNarrative: "Food processing involves physical production lines, sanitation requirements, and HACCP compliance that need hands-on human presence. AI helps with quality monitoring and line optimization, but you can't automate walking the factory floor."
   fellowshipOptions: "Food safety certifications (SQF, PCQI); optional MS in food science"
   compModel: "Base salary + bonus; CPG companies or food manufacturers"
   revPerPatientVisit: "$80-140/hr (consulting) or salaried"
@@ -1275,6 +1395,10 @@ specialties:
   emotionalToll: 7
   malpracticeLiability: 7
   injuryCareerRisk: 7
+  aiRiskNow: 3
+  aiRiskMedium: 4
+  aiRiskLong: 5
+  aiNarrative: "AI improves reservoir simulation and production forecasting, but well planning involves unique geology and field conditions every time. The bigger risk to this career is the energy transition away from fossil fuels, not AI specifically."
   fellowshipOptions: "PE license; optional MS in petroleum engineering"
   compModel: "Base salary + field bonus + profit sharing; oil majors or service companies"
   revPerPatientVisit: "$150-300/hr (consulting) or salaried"
@@ -1316,6 +1440,10 @@ specialties:
   emotionalToll: 8
   malpracticeLiability: 8
   injuryCareerRisk: 8
+  aiRiskNow: 2
+  aiRiskMedium: 3
+  aiRiskLong: 4
+  aiNarrative: "Working with physical materials — mold design, processing optimization, failure analysis — requires hands-on lab and factory work. AI helps with material selection databases, but the physical testing and manufacturing floor presence keep this role safe."
   fellowshipOptions: "Optional MS in materials/polymer science; SPE certifications"
   compModel: "Base salary + bonus; automotive suppliers, aerospace, consumer goods"
   revPerPatientVisit: "$90-160/hr (consulting) or salaried"
@@ -1359,6 +1487,10 @@ specialties:
   emotionalToll: 7
   malpracticeLiability: 6
   injuryCareerRisk: 9
+  aiRiskNow: 3
+  aiRiskMedium: 4
+  aiRiskLong: 5
+  aiNarrative: "Medical devices go inside human bodies — the FDA isn't going to let AI design and approve an implant by itself. AI helps with simulation and data analysis, but the biocompatibility testing, design controls, and regulatory judgment stay very human."
   fellowshipOptions: "Optional MS in BME; Six Sigma, FDA regulatory knowledge"
   compModel: "Base salary + bonus; medical device companies (Medtronic, J&J, etc.)"
   revPerPatientVisit: "$100-200/hr (consulting) or salaried"
@@ -1400,6 +1532,10 @@ specialties:
   emotionalToll: 7
   malpracticeLiability: 6
   injuryCareerRisk: 10
+  aiRiskNow: 4
+  aiRiskMedium: 5
+  aiRiskLong: 6
+  aiNarrative: "AI can draft regulatory documents and help with submissions, but FDA compliance requires nuanced human judgment about risk, clinical evidence, and regulatory strategy. The regulatory framework itself is built around human accountability."
   fellowshipOptions: "RAC certification; optional MS in regulatory science"
   compModel: "Base salary + bonus; device/pharma companies or consulting"
   revPerPatientVisit: "$100-180/hr (consulting) or salaried"
@@ -1443,6 +1579,10 @@ specialties:
   emotionalToll: 7
   malpracticeLiability: 7
   injuryCareerRisk: 7
+  aiRiskNow: 2
+  aiRiskMedium: 3
+  aiRiskLong: 4
+  aiNarrative: "Environmental remediation involves physical site assessments, soil sampling, and cleanup operations in unique contaminated locations. AI helps with modeling and data analysis, but the fieldwork and regulatory compliance keep this career very safe from AI."
   fellowshipOptions: "PE license; optional MS in environmental engineering"
   compModel: "Base salary; consulting firms, government (EPA), or industry"
   revPerPatientVisit: "$90-160/hr (consulting) or government GS scale"
@@ -1484,6 +1624,10 @@ specialties:
   emotionalToll: 8
   malpracticeLiability: 7
   injuryCareerRisk: 7
+  aiRiskNow: 2
+  aiRiskMedium: 3
+  aiRiskLong: 4
+  aiNarrative: "Solar engineering involves physical site assessment, interconnection with real grids, and working with installers and electricians. AI helps with energy yield modeling and system design, but the industry is growing so fast that demand outpaces any AI displacement."
   fellowshipOptions: "NABCEP certification; PE license; optional MS in renewable energy"
   compModel: "Base salary + bonus; solar developers, EPCs, or utilities"
   revPerPatientVisit: "$100-180/hr (consulting) or salaried"
@@ -1525,6 +1669,10 @@ specialties:
   emotionalToll: 8
   malpracticeLiability: 7
   injuryCareerRisk: 7
+  aiRiskNow: 2
+  aiRiskMedium: 3
+  aiRiskLong: 4
+  aiNarrative: "Wind farms are massive physical infrastructure projects in remote locations. AI helps with wind resource assessment and predictive maintenance, but the structural engineering, site development, and O&M coordination need humans on the ground."
   fellowshipOptions: "Optional MS in wind/energy engineering; GWO safety certifications"
   compModel: "Base salary + bonus; wind developers, OEMs (Vestas, GE), or utilities"
   revPerPatientVisit: "$100-180/hr (consulting) or salaried"
@@ -1566,6 +1714,10 @@ specialties:
   emotionalToll: 6
   malpracticeLiability: 6
   injuryCareerRisk: 7
+  aiRiskNow: 2
+  aiRiskMedium: 2
+  aiRiskLong: 3
+  aiNarrative: "Nuclear engineering is the most safety-critical and heavily regulated field in engineering. The NRC isn't letting AI make decisions about reactor operations. Small modular reactors are actually creating new demand, and the consequences of errors keep humans firmly in charge."
   fellowshipOptions: "NRC reactor operator license; PE; optional MS in nuclear engineering"
   compModel: "Base salary + nuclear premium; utilities, DOE, or Navy"
   revPerPatientVisit: "$120-220/hr (consulting) or salaried"
@@ -1607,6 +1759,10 @@ specialties:
   emotionalToll: 7
   malpracticeLiability: 9
   injuryCareerRisk: 10
+  aiRiskNow: 5
+  aiRiskMedium: 6
+  aiRiskLong: 7
+  aiNarrative: "AI is already good at carbon accounting, ESG data analysis, and generating sustainability reports. The strategic consulting and client relationship parts stay human, but a lot of the analytical grunt work is getting automated quickly."
   fellowshipOptions: "LEED AP, WELL AP, GHG certifications; optional MBA"
   compModel: "Base salary + bonus; consulting firms, corporations, or NGOs"
   revPerPatientVisit: "$80-160/hr (consulting) or salaried"
@@ -1648,6 +1804,10 @@ specialties:
   emotionalToll: 8
   malpracticeLiability: 7
   injuryCareerRisk: 7
+  aiRiskNow: 2
+  aiRiskMedium: 2
+  aiRiskLong: 3
+  aiNarrative: "Every city needs clean water and wastewater treatment — these are physical plants that need hands-on design, optimization, and field sampling. AI helps with process modeling, but the infrastructure is aging nationwide and needs human engineers to upgrade it."
   fellowshipOptions: "PE license required; WEF/AWWA certifications"
   compModel: "Base salary; municipalities, consulting firms, or utilities"
   revPerPatientVisit: "$90-160/hr (consulting) or government salary"
@@ -1691,6 +1851,10 @@ specialties:
   emotionalToll: 5
   malpracticeLiability: 10
   injuryCareerRisk: 10
+  aiRiskNow: 3
+  aiRiskMedium: 4
+  aiRiskLong: 5
+  aiNarrative: "AI can help with project tracking and status reports, but the real value of a TPM is cross-team coordination, navigating organizational politics, and making judgment calls under uncertainty. Human leadership skills stay essential."
   fellowshipOptions: "PMP certification; optional MBA; Agile/Scrum certifications"
   compModel: "Base + RSU/equity + bonus; tech companies or defense primes"
   revPerPatientVisit: "$150-300/hr (consulting) or salaried"
@@ -1732,6 +1896,10 @@ specialties:
   emotionalToll: 7
   malpracticeLiability: 7
   injuryCareerRisk: 10
+  aiRiskNow: 4
+  aiRiskMedium: 6
+  aiRiskLong: 7
+  aiNarrative: "AI is getting surprisingly good at drafting patent claims and doing prior art searches. The strategic parts — inventor interviews, prosecution arguments, portfolio strategy — stay human, but routine patent drafting work is shrinking."
   fellowshipOptions: "Patent bar exam required; optional JD for patent attorney path"
   compModel: "Base salary + billing bonus; IP law firms or corporate in-house"
   revPerPatientVisit: "$200-450/hr billing rate"
@@ -1773,6 +1941,10 @@ specialties:
   emotionalToll: 6
   malpracticeLiability: 10
   injuryCareerRisk: 10
+  aiRiskNow: 3
+  aiRiskMedium: 4
+  aiRiskLong: 5
+  aiNarrative: "Sales is fundamentally about human relationships, trust, and understanding customer pain points. AI helps with lead generation and proposal drafting, but closing deals and building client relationships require emotional intelligence that AI lacks."
   fellowshipOptions: "None required; industry certifications help (AWS, Salesforce, etc.)"
   compModel: "Base salary + commission (50-100% variable); uncapped at top firms"
   revPerPatientVisit: "$0 (revenue from closed deals, not hourly billing)"
@@ -1814,6 +1986,10 @@ specialties:
   emotionalToll: 5
   malpracticeLiability: 10
   injuryCareerRisk: 10
+  aiRiskNow: 3
+  aiRiskMedium: 4
+  aiRiskLong: 5
+  aiNarrative: "AI helps with user research synthesis, data analysis, and even writing PRDs, but product management is about customer empathy, stakeholder alignment, and strategic vision. The coordination and judgment parts are deeply human."
   fellowshipOptions: "None required; MBA common; CSPO/product certifications"
   compModel: "Base + RSU/equity + bonus; FAANG-tier comp at senior levels"
   revPerPatientVisit: "$0 (drives product revenue, not hourly billing)"

@@ -33,6 +33,10 @@ specialties:
   emotionalToll: 6
   malpracticeLiability: 7
   injuryCareerRisk: 2
+  aiRiskNow: 1
+  aiRiskMedium: 2
+  aiRiskLong: 2
+  aiNarrative: "Judges hold constitutional authority to decide cases, sentence people, and interpret the law. AI might help with research and docket management, but human judgment is the entire point of being a judge."
   fellowshipOptions: "Judicial clerkship (1-2yr); magistrate → district → circuit path"
   compModel: "Government salary (GS/judicial pay scale); pension after 15yr; no bonuses"
   revPerPatientVisit: "N/A — publicly funded"

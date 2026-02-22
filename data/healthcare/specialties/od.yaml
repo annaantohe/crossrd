@@ -32,6 +32,10 @@ specialties:
   emotionalToll: 7
   malpracticeLiability: 7
   injuryCareerRisk: 9
+  aiRiskNow: 3
+  aiRiskMedium: 4
+  aiRiskLong: 5
+  aiNarrative: "AI retinal screening is improving fast and can already detect diabetic eye disease. The role shifts toward managing AI-flagged findings and complex disease cases."
   fellowshipOptions: Optional 1yr residency (ocular disease)
   compModel: Employed (ophthalmology group, VA, hospital) or private
   revPerPatientVisit: Low-moderate ($100-300 per visit)
@@ -73,6 +77,10 @@ specialties:
   emotionalToll: 8
   malpracticeLiability: 8
   injuryCareerRisk: 9
+  aiRiskNow: 3
+  aiRiskMedium: 4
+  aiRiskLong: 5
+  aiNarrative: "Pre- and post-op eye exams follow protocols that AI could assist with. But the hands-on specialty fitting and patient relationships keep the role human."
   fellowshipOptions: Optional 1yr residency (contact lens, low vision, pediatric)
   compModel: Employed in ophthalmology/refractive surgery practice
   revPerPatientVisit: Low ($80-200 per visit); volume-based
@@ -114,6 +122,10 @@ specialties:
   emotionalToll: 8
   malpracticeLiability: 8
   injuryCareerRisk: 9
+  aiRiskNow: 3
+  aiRiskMedium: 5
+  aiRiskLong: 6
+  aiNarrative: "AI-powered refraction machines and retinal screening are advancing. Routine eye exams face the most disruption, but complex cases and optical dispensing stay human."
   fellowshipOptions: Optional 1yr residency (broadly recommended but not required)
   compModel: Private practice, corporate (Luxottica/VSP), employed
   revPerPatientVisit: Low ($100-250 per exam); optical sales supplement

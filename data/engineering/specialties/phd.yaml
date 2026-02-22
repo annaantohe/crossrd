@@ -33,6 +33,10 @@ specialties:
   emotionalToll: 6
   malpracticeLiability: 10
   injuryCareerRisk: 10
+  aiRiskNow: 2
+  aiRiskMedium: 2
+  aiRiskLong: 3
+  aiNarrative: "You ARE the cutting edge — AI creates demand for you, not the other way around. The risk isn't displacement, it's the intense pace of change and the pressure to keep publishing breakthroughs. This field grows as AI grows."
   fellowshipOptions: Postdoc 1-3yr (NLP, CV, RL, generative models)
   compModel: Base salary + RSU/equity; big tech or startup
   revPerPatientVisit: N/A — revenue via IP, products, licensing
@@ -74,6 +78,10 @@ specialties:
   emotionalToll: 5
   malpracticeLiability: 10
   injuryCareerRisk: 9
+  aiRiskNow: 2
+  aiRiskMedium: 3
+  aiRiskLong: 4
+  aiNarrative: "Materials science is fundamentally hands-on — synthesis, characterization, and lab work can't be done by AI. AI accelerates material discovery through simulation, but someone still needs to actually make and test the stuff in a lab."
   fellowshipOptions: Postdoc 1-2yr (polymer chemistry, nanomaterials, composites)
   compModel: Salaried R&D; industry or national lab
   revPerPatientVisit: N/A — revenue via patents, product development
@@ -115,6 +123,10 @@ specialties:
   emotionalToll: 6
   malpracticeLiability: 10
   injuryCareerRisk: 9
+  aiRiskNow: 2
+  aiRiskMedium: 2
+  aiRiskLong: 3
+  aiNarrative: "Growing tissues and engineering biological systems requires wet lab work that AI simply cannot do. AI helps with image analysis and experimental design, but the hands-on cell culture and fabrication work is deeply physical and human."
   fellowshipOptions: Postdoc 2-3yr (tissue eng, regenerative med, biomaterials)
   compModel: Academic salary + grants; industry R&D salaried
   revPerPatientVisit: N/A — revenue via grants, IP licensing
@@ -156,6 +168,10 @@ specialties:
   emotionalToll: 6
   malpracticeLiability: 10
   injuryCareerRisk: 9
+  aiRiskNow: 2
+  aiRiskMedium: 2
+  aiRiskLong: 3
+  aiNarrative: "Brain-computer interfaces sit at the frontier of neuroscience and hardware engineering. AI is actually a key tool in this field, not a threat — you use AI to decode brain signals. The physical device design and clinical work keep humans central."
   fellowshipOptions: Postdoc 2-3yr (neural eng, neurotech, computational neuro)
   compModel: Academic salary + grants; startup equity; Neuralink-type industry
   revPerPatientVisit: N/A — revenue via grants, device licensing, startup equity
@@ -197,6 +213,10 @@ specialties:
   emotionalToll: 5
   malpracticeLiability: 10
   injuryCareerRisk: 10
+  aiRiskNow: 3
+  aiRiskMedium: 4
+  aiRiskLong: 5
+  aiNarrative: "AI is actually merging with HPC — physics-informed neural networks and AI-accelerated simulation are hot research areas. The computational scientists who adapt to use AI as a tool will thrive, but purely traditional numerical methods roles will shrink."
   fellowshipOptions: Postdoc 1-2yr (scientific computing, numerical methods, CFD)
   compModel: Salaried; national lab or industry R&D (often DOE funded)
   revPerPatientVisit: N/A — revenue via grants, compute contracts, consulting
@@ -238,6 +258,10 @@ specialties:
   emotionalToll: 5
   malpracticeLiability: 10
   injuryCareerRisk: 9
+  aiRiskNow: 2
+  aiRiskMedium: 3
+  aiRiskLong: 4
+  aiNarrative: "Semiconductor research requires cleanroom fabrication, physical characterization, and deep physics knowledge. AI helps with design exploration, but the hands-on fab work and fundamental physics research stay firmly human. CHIPS Act is boosting demand."
   fellowshipOptions: Postdoc 1-2yr (device physics, VLSI, photonics)
   compModel: Industry salary + RSU (Intel, TSMC, Applied Materials); national lab
   revPerPatientVisit: N/A — revenue via chip IP, process patents
@@ -279,6 +303,10 @@ specialties:
   emotionalToll: 5
   malpracticeLiability: 10
   injuryCareerRisk: 10
+  aiRiskNow: 2
+  aiRiskMedium: 3
+  aiRiskLong: 4
+  aiNarrative: "Aerospace research involves wind tunnel testing, physical experiments, and safety-critical systems where getting it wrong means people die. AI assists with simulation, but the novel research questions and physical validation keep PhD-level researchers essential."
   fellowshipOptions: Postdoc 1-2yr (propulsion, hypersonics, orbital mechanics, structures)
   compModel: Salaried; defense contractor, NASA, national lab
   revPerPatientVisit: N/A — revenue via gov contracts, SBIR grants
@@ -320,6 +348,10 @@ specialties:
   emotionalToll: 7
   malpracticeLiability: 10
   injuryCareerRisk: 10
+  aiRiskNow: 2
+  aiRiskMedium: 3
+  aiRiskLong: 4
+  aiNarrative: "Climate and energy research combines modeling, policy, and physical systems understanding. AI helps with large-scale simulation, but the novel research questions and interdisciplinary thinking stay human. The urgency of climate change keeps demand growing."
   fellowshipOptions: Postdoc 1-3yr (climate modeling, grid optimization, renewable systems)
   compModel: Academic salary + grants; national lab; clean energy industry
   revPerPatientVisit: N/A — revenue via DOE/NSF grants, consulting
@@ -361,6 +393,10 @@ specialties:
   emotionalToll: 7
   malpracticeLiability: 10
   injuryCareerRisk: 10
+  aiRiskNow: 2
+  aiRiskMedium: 3
+  aiRiskLong: 4
+  aiNarrative: "Teaching evolves with AI — professors will need to adapt how they teach and assess students. But mentorship, research advising, and inspiring the next generation of engineers are deeply human. AI changes the job but doesn't replace it."
   fellowshipOptions: Postdoc 1-3yr required; sabbatical every 7yr
   compModel: 9-month salary + summer grants + consulting; endowed chair bonuses
   revPerPatientVisit: N/A — revenue via grants (overhead), tuition, consulting

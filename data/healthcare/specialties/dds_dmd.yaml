@@ -32,6 +32,10 @@ specialties:
   emotionalToll: 4
   malpracticeLiability: 3
   injuryCareerRisk: 3
+  aiRiskNow: 1
+  aiRiskMedium: 2
+  aiRiskLong: 2
+  aiNarrative: "Jaw surgery and facial reconstruction are intensely hands-on and complex. AI has almost no path to replacing the surgeon — it's physical, creative work."
   fellowshipOptions: Optional 1yr (head & neck onc, cosmetic)
   compModel: Private practice dominant; fee-for-service
   revPerPatientVisit: High ($1K-20K/case)
@@ -73,6 +77,10 @@ specialties:
   emotionalToll: 7
   malpracticeLiability: 5
   injuryCareerRisk: 3
+  aiRiskNow: 2
+  aiRiskMedium: 3
+  aiRiskLong: 3
+  aiNarrative: "Root canals are precise, hands-on procedures done under a microscope. AI might help with imaging and treatment planning, but the actual procedure stays fully human."
   fellowshipOptions: 2-3yr endo residency (post-DDS, not a match)
   compModel: Private practice dominant; fee-for-service; referral-based
   revPerPatientVisit: High per case ($800-2K per root canal)
@@ -113,6 +121,10 @@ specialties:
   emotionalToll: 7
   malpracticeLiability: 6
   injuryCareerRisk: 3
+  aiRiskNow: 2
+  aiRiskMedium: 3
+  aiRiskLong: 3
+  aiNarrative: "Gum surgery and implant placement are hands-on procedures. AI can help with treatment planning and imaging, but the surgical skills stay human."
   fellowshipOptions: 3yr perio residency
   compModel: Private practice; fee-for-service; implant revenue growing
   revPerPatientVisit: Moderate-high ($300-5K; implants top end)
@@ -153,6 +165,10 @@ specialties:
   emotionalToll: 8
   malpracticeLiability: 7
   injuryCareerRisk: 3
+  aiRiskNow: 3
+  aiRiskMedium: 4
+  aiRiskLong: 5
+  aiNarrative: "Digital dentistry and CAD/CAM are changing how crowns and prosthetics are designed. AI speeds up the design process, but fitting and adjusting still needs a skilled dentist."
   fellowshipOptions: 3yr prostho residency
   compModel: Private practice; implant-supported prosthetics growing
   revPerPatientVisit: High per case ($2K-10K for full mouth rehab)
@@ -194,6 +210,10 @@ specialties:
   emotionalToll: 8
   malpracticeLiability: 8
   injuryCareerRisk: 5
+  aiRiskNow: 4
+  aiRiskMedium: 5
+  aiRiskLong: 6
+  aiNarrative: "AI-powered clear aligners (like Invisalign) are already reducing the need for some in-person adjustments. Direct-to-consumer options are a real competitive threat."
   fellowshipOptions: 2-3yr ortho residency (very competitive dental specialty)
   compModel: Private practice dominant; fee-for-service; DTC competition
   revPerPatientVisit: Moderate per visit but high per case ($3K-8K total)
@@ -235,6 +255,10 @@ specialties:
   emotionalToll: 5
   malpracticeLiability: 6
   injuryCareerRisk: 5
+  aiRiskNow: 2
+  aiRiskMedium: 2
+  aiRiskLong: 3
+  aiNarrative: "Working with kids requires patience, behavior management, and hands-on skill that AI can't replicate. The dentist-child relationship is central to this work."
   fellowshipOptions: 2yr pedo residency
   compModel: Private practice or group; Medicaid-heavy in some markets
   revPerPatientVisit: Lower per visit ($100-500); volume-dependent
@@ -276,6 +300,10 @@ specialties:
   emotionalToll: 6
   malpracticeLiability: 7
   injuryCareerRisk: 4
+  aiRiskNow: 2
+  aiRiskMedium: 3
+  aiRiskLong: 3
+  aiNarrative: "Fillings, crowns, and extractions are hands-on work. AI helps with X-ray reads and treatment planning, but someone still needs to do the actual dentistry."
   fellowshipOptions: Optional 1yr GPR/AEGD (not required)
   compModel: Private practice ownership; corporate employed; associate
   revPerPatientVisit: Moderate ($150-2K depending on procedure)

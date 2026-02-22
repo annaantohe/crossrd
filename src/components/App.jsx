@@ -271,6 +271,7 @@ export default function App() {
     group: t.group,
     color: t.color,
     ...t.raw_data,
+    aiRiskAvg: Math.round(((t.raw_data.aiRiskNow || 5) + (t.raw_data.aiRiskMedium || 5) + (t.raw_data.aiRiskLong || 5)) / 3 * 10) / 10,
   }));
 
   // selected careers for comparison
@@ -364,6 +365,7 @@ export default function App() {
             moneyData={mergedMoney}
             timelineData={mergedTimeline}
             selectedCareers={mergedSelected}
+            tracks={mergedTracks}
           />
         )}
         {tab === "quiz" && (

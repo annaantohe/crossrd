@@ -32,6 +32,7 @@ export default function Compare({
   moneyData,
   timelineData,
   selectedCareers,
+  tracks,
 }) {
   const [subTab, setSubTab] = useState("overview");
   const [editing, setEditing] = useState(false);
@@ -227,7 +228,7 @@ export default function Compare({
         <Timeline timelineData={timelineData} careers={selectedCareers} selectorProps={selectorProps} />
       )}
       {subTab === "risk" && (
-        <RiskDashboard stressData={stressData} careers={selectedCareers} selectorProps={selectorProps} />
+        <RiskDashboard stressData={stressData} careers={selectedCareers} selectorProps={selectorProps} tracks={tracks} />
       )}
     </div>
   );

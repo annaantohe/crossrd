@@ -800,7 +800,11 @@
         "oneInX": 1,
         "callSchedule": 7,
         "physicalToll": 9,
-        "emotionalToll": 7
+        "emotionalToll": 7,
+        "aiRiskNow": 5,
+        "aiRiskMedium": 7,
+        "aiRiskLong": 8,
+        "aiNarrative": "AI writes code today, but someone still needs to tell it what to build, review its work, and handle the weird edge cases. Junior coding jobs shrink, but architects who orchestrate AI systems are in huge demand."
       },
       "scores": {
         "category_1": 6.75,
@@ -894,7 +898,11 @@
         "oneInX": 1,
         "callSchedule": 8,
         "physicalToll": 9,
-        "emotionalToll": 8
+        "emotionalToll": 8,
+        "aiRiskNow": 5,
+        "aiRiskMedium": 7,
+        "aiRiskLong": 8,
+        "aiNarrative": "AI can generate UI components and write CSS, but design thinking, user empathy, and creative problem-solving stay human. Expect to work alongside AI copilots rather than be replaced by them."
       },
       "scores": {
         "category_1": 6.75,
@@ -988,7 +996,11 @@
         "oneInX": 2,
         "callSchedule": 6,
         "physicalToll": 9,
-        "emotionalToll": 7
+        "emotionalToll": 7,
+        "aiRiskNow": 5,
+        "aiRiskMedium": 7,
+        "aiRiskLong": 8,
+        "aiNarrative": "AI helps write boilerplate code and debug faster, but designing systems that handle millions of users requires deep judgment. Senior infrastructure architects stay essential even as junior tasks get automated."
       },
       "scores": {
         "category_1": 6.75,
@@ -1082,7 +1094,11 @@
         "oneInX": 3,
         "callSchedule": 4,
         "physicalToll": 9,
-        "emotionalToll": 6
+        "emotionalToll": 6,
+        "aiRiskNow": 4,
+        "aiRiskMedium": 6,
+        "aiRiskLong": 7,
+        "aiNarrative": "AI automates monitoring, deployment pipelines, and incident triage, meaning fewer people are needed for routine ops. But someone still has to design the infrastructure and handle the chaos when things go wrong at 3 AM."
       },
       "scores": {
         "category_1": 6.75,
@@ -1176,7 +1192,11 @@
         "oneInX": 4,
         "callSchedule": 5,
         "physicalToll": 9,
-        "emotionalToll": 6
+        "emotionalToll": 6,
+        "aiRiskNow": 3,
+        "aiRiskMedium": 3,
+        "aiRiskLong": 4,
+        "aiNarrative": "AI helps both hackers and defenders, so demand for cybersecurity actually grows as AI spreads. Human judgment is critical for threat assessment, and attackers always find creative new angles that AI alone can't anticipate."
       },
       "scores": {
         "category_1": 6.75,
@@ -1270,7 +1290,11 @@
         "oneInX": 7,
         "callSchedule": 9,
         "physicalToll": 8,
-        "emotionalToll": 8
+        "emotionalToll": 8,
+        "aiRiskNow": 3,
+        "aiRiskMedium": 4,
+        "aiRiskLong": 5,
+        "aiNarrative": "Generative design AI is getting better at creating optimized shapes, but someone still needs to prototype, test, and physically validate designs. The hands-on prototyping and real-world judgment keep this role safer than pure software jobs."
       },
       "scores": {
         "category_1": 6.75,
@@ -1364,7 +1388,11 @@
         "oneInX": 9,
         "callSchedule": 7,
         "physicalToll": 7,
-        "emotionalToll": 8
+        "emotionalToll": 8,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 3,
+        "aiRiskLong": 4,
+        "aiNarrative": "Manufacturing happens on physical factory floors with unpredictable problems \u2014 a robot arm jams, a weld looks wrong, a line backs up. AI helps with analytics and scheduling, but the hands-on troubleshooting keeps this role very safe."
       },
       "scores": {
         "category_1": 6.75,
@@ -1458,7 +1486,11 @@
         "oneInX": 16,
         "callSchedule": 8,
         "physicalToll": 7,
-        "emotionalToll": 7
+        "emotionalToll": 7,
+        "aiRiskNow": 3,
+        "aiRiskMedium": 4,
+        "aiRiskLong": 5,
+        "aiNarrative": "AI speeds up simulation and testing, but cars are physical products with safety-critical requirements. The shift to EVs and autonomous vehicles actually creates new engineering demand, and you still need humans to crash-test prototypes."
       },
       "scores": {
         "category_1": 6.75,
@@ -1552,7 +1584,11 @@
         "oneInX": 11,
         "callSchedule": 7,
         "physicalToll": 7,
-        "emotionalToll": 8
+        "emotionalToll": 8,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 3,
+        "aiRiskLong": 4,
+        "aiNarrative": "AI helps with load calculations and energy modeling, but HVAC work requires site visits, understanding building quirks, and coordinating with contractors. This is one of the most AI-resistant engineering roles because every building is different."
       },
       "scores": {
         "category_1": 6.75,
@@ -1646,7 +1682,11 @@
         "oneInX": 13,
         "callSchedule": 8,
         "physicalToll": 8,
-        "emotionalToll": 8
+        "emotionalToll": 8,
+        "aiRiskNow": 4,
+        "aiRiskMedium": 5,
+        "aiRiskLong": 6,
+        "aiNarrative": "AI is getting good at automated inspection and predictive quality analytics, which means fewer people needed for routine testing. But failure analysis and root cause investigation still need human judgment and physical examination."
       },
       "scores": {
         "category_1": 6.75,
@@ -1740,7 +1780,11 @@
         "oneInX": 16,
         "callSchedule": 7,
         "physicalToll": 7,
-        "emotionalToll": 8
+        "emotionalToll": 8,
+        "aiRiskNow": 3,
+        "aiRiskMedium": 4,
+        "aiRiskLong": 5,
+        "aiNarrative": "You literally build and program the physical automation systems \u2014 robots, PLCs, sensors. AI adds smarter controls, but someone still needs to wire things up, commission systems on-site, and debug hardware. The physical layer keeps you safe."
       },
       "scores": {
         "category_1": 6.75,
@@ -1834,7 +1878,11 @@
         "oneInX": 19,
         "callSchedule": 8,
         "physicalToll": 7,
-        "emotionalToll": 7
+        "emotionalToll": 7,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 3,
+        "aiRiskLong": 4,
+        "aiNarrative": "AI can help with calculations and simulations, but someone still needs to visit the site, stamp the drawings, and make sure the bridge doesn't fall down. PE licensure and legal liability make this one of the safest engineering careers from AI."
       },
       "scores": {
         "category_1": 6.75,
@@ -1928,7 +1976,11 @@
         "oneInX": 16,
         "callSchedule": 8,
         "physicalToll": 7,
-        "emotionalToll": 8
+        "emotionalToll": 8,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 3,
+        "aiRiskLong": 4,
+        "aiNarrative": "AI helps with traffic simulation and signal optimization, but road design involves public meetings, site-specific constraints, and government approvals that need human judgment. It's a very stable career because infrastructure always needs building."
       },
       "scores": {
         "category_1": 6.75,
@@ -2022,7 +2074,11 @@
         "oneInX": 32,
         "callSchedule": 8,
         "physicalToll": 6,
-        "emotionalToll": 8
+        "emotionalToll": 8,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 2,
+        "aiRiskLong": 3,
+        "aiNarrative": "You literally dig holes, test soil, and figure out what's underground \u2014 AI can't do fieldwork. Every site is unique, and the judgment calls about foundations and slope stability carry real liability. One of the most AI-proof engineering roles."
       },
       "scores": {
         "category_1": 6.75,
@@ -2116,7 +2172,11 @@
         "oneInX": 26,
         "callSchedule": 8,
         "physicalToll": 7,
-        "emotionalToll": 8
+        "emotionalToll": 8,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 3,
+        "aiRiskLong": 4,
+        "aiNarrative": "AI improves flood modeling and hydrology simulations, but water resources work involves field sampling, permitting, and site-specific conditions that need human expertise. Climate change is increasing demand for this work, not decreasing it."
       },
       "scores": {
         "category_1": 6.75,
@@ -2210,7 +2270,11 @@
         "oneInX": 5,
         "callSchedule": 6,
         "physicalToll": 5,
-        "emotionalToll": 6
+        "emotionalToll": 6,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 2,
+        "aiRiskLong": 3,
+        "aiNarrative": "Construction sites are messy, unpredictable, and physical \u2014 AI can't supervise subcontractors or walk a muddy job site. AI helps with scheduling and cost estimation, but the on-site leadership and human coordination make this extremely AI-proof."
       },
       "scores": {
         "category_1": 6.75,
@@ -2304,7 +2368,11 @@
         "oneInX": 22,
         "callSchedule": 9,
         "physicalToll": 5,
-        "emotionalToll": 9
+        "emotionalToll": 9,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 3,
+        "aiRiskLong": 4,
+        "aiNarrative": "Drones and lidar are changing how surveys get done, but someone still has to go to the site, set up equipment, and make legal boundary determinations. AI speeds up data processing, but the fieldwork and licensed stamp keep this role safe."
       },
       "scores": {
         "category_1": 6.75,
@@ -2398,7 +2466,11 @@
         "oneInX": 11,
         "callSchedule": 9,
         "physicalToll": 8,
-        "emotionalToll": 8
+        "emotionalToll": 8,
+        "aiRiskNow": 3,
+        "aiRiskMedium": 4,
+        "aiRiskLong": 5,
+        "aiNarrative": "AI helps with circuit simulation and PCB layout optimization, but electrical design involves physical prototyping, debugging with oscilloscopes, and understanding real-world signal behavior. The hardware interface keeps this safer than pure software roles."
       },
       "scores": {
         "category_1": 6.75,
@@ -2492,7 +2564,11 @@
         "oneInX": 9,
         "callSchedule": 8,
         "physicalToll": 9,
-        "emotionalToll": 8
+        "emotionalToll": 8,
+        "aiRiskNow": 3,
+        "aiRiskMedium": 4,
+        "aiRiskLong": 5,
+        "aiNarrative": "Embedded work sits at the intersection of hardware and software \u2014 AI can help write firmware, but debugging timing issues on real hardware with a logic analyzer is hard to automate. The physical device interface keeps this role more protected."
       },
       "scores": {
         "category_1": 6.75,
@@ -2586,7 +2662,11 @@
         "oneInX": 26,
         "callSchedule": 8,
         "physicalToll": 8,
-        "emotionalToll": 8
+        "emotionalToll": 8,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 3,
+        "aiRiskLong": 4,
+        "aiNarrative": "RF engineering requires deep physics intuition plus hands-on antenna testing and field measurements. AI helps with simulation, but electromagnetic behavior in the real world is notoriously hard to predict \u2014 you need experienced humans."
       },
       "scores": {
         "category_1": 6.75,
@@ -2680,7 +2760,11 @@
         "oneInX": 16,
         "callSchedule": 6,
         "physicalToll": 7,
-        "emotionalToll": 7
+        "emotionalToll": 7,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 3,
+        "aiRiskLong": 4,
+        "aiNarrative": "The power grid is a massive physical system with safety-critical operations and heavy regulation. AI helps with grid optimization, but substations need hands-on work and the energy transition is creating more demand for power engineers, not less."
       },
       "scores": {
         "category_1": 6.75,
@@ -2774,7 +2858,11 @@
         "oneInX": 19,
         "callSchedule": 7,
         "physicalToll": 7,
-        "emotionalToll": 8
+        "emotionalToll": 8,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 3,
+        "aiRiskLong": 4,
+        "aiNarrative": "Controls engineers work in physical plants \u2014 refineries, factories, power plants \u2014 commissioning real equipment and tuning real processes. AI helps with predictive maintenance, but the hands-on commissioning and field troubleshooting stay very human."
       },
       "scores": {
         "category_1": 6.75,
@@ -2868,7 +2956,11 @@
         "oneInX": 32,
         "callSchedule": 8,
         "physicalToll": 8,
-        "emotionalToll": 7
+        "emotionalToll": 7,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 3,
+        "aiRiskLong": 4,
+        "aiNarrative": "Aerospace is safety-critical and heavily regulated \u2014 AI helps with FEA and stress analysis, but the physical testing, certification requirements, and life-or-death stakes mean humans stay deeply in the loop. This is one of the safer engineering fields from AI."
       },
       "scores": {
         "category_1": 6.75,
@@ -2962,7 +3054,11 @@
         "oneInX": 43,
         "callSchedule": 8,
         "physicalToll": 8,
-        "emotionalToll": 7
+        "emotionalToll": 7,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 3,
+        "aiRiskLong": 4,
+        "aiNarrative": "Flight systems are life-critical with strict DO-178C certification requirements. AI can't just generate avionics code \u2014 every line needs rigorous verification. The combination of hardware integration and safety certification makes this very AI-resistant."
       },
       "scores": {
         "category_1": 6.75,
@@ -3056,7 +3152,11 @@
         "oneInX": 11,
         "callSchedule": 8,
         "physicalToll": 9,
-        "emotionalToll": 7
+        "emotionalToll": 7,
+        "aiRiskNow": 3,
+        "aiRiskMedium": 4,
+        "aiRiskLong": 5,
+        "aiNarrative": "AI can help with requirements tracing and documentation, but systems engineering is fundamentally about human coordination across complex programs. Managing trade studies and interface control between dozens of teams stays a human skill."
       },
       "scores": {
         "category_1": 6.75,
@@ -3150,7 +3250,11 @@
         "oneInX": 87,
         "callSchedule": 7,
         "physicalToll": 6,
-        "emotionalToll": 6
+        "emotionalToll": 6,
+        "aiRiskNow": 1,
+        "aiRiskMedium": 2,
+        "aiRiskLong": 3,
+        "aiNarrative": "You physically fly in test aircraft, set up instrumentation on real hardware, and analyze data in real-time. AI can help process flight data faster, but the hands-on, high-stakes, in-the-aircraft nature of this work makes it nearly impossible to automate."
       },
       "scores": {
         "category_1": 6.75,
@@ -3244,7 +3348,11 @@
         "oneInX": 43,
         "callSchedule": 8,
         "physicalToll": 8,
-        "emotionalToll": 6
+        "emotionalToll": 6,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 3,
+        "aiRiskLong": 4,
+        "aiNarrative": "Defense work requires security clearances, physical testing, and safety-critical decisions that AI can't handle alone. The classified nature of the work and heavy regulation create strong barriers to AI replacement. Demand is steady and growing."
       },
       "scores": {
         "category_1": 6.75,
@@ -3338,7 +3446,11 @@
         "oneInX": 22,
         "callSchedule": 7,
         "physicalToll": 7,
-        "emotionalToll": 7
+        "emotionalToll": 7,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 3,
+        "aiRiskLong": 4,
+        "aiNarrative": "Chemical plants are complex physical systems where a wrong decision can cause explosions or toxic releases. AI helps with process optimization and monitoring, but the HAZOP reviews, field troubleshooting, and safety-critical judgment keep humans essential."
       },
       "scores": {
         "category_1": 6.75,
@@ -3432,7 +3544,11 @@
         "oneInX": 26,
         "callSchedule": 7,
         "physicalToll": 7,
-        "emotionalToll": 7
+        "emotionalToll": 7,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 3,
+        "aiRiskLong": 4,
+        "aiNarrative": "Pharma manufacturing is heavily regulated with GMP requirements \u2014 every batch needs human oversight and documentation. AI helps with process analytics, but the FDA compliance, sterile manufacturing, and hands-on scale-up work stay very human."
       },
       "scores": {
         "category_1": 6.75,
@@ -3526,7 +3642,11 @@
         "oneInX": 32,
         "callSchedule": 7,
         "physicalToll": 7,
-        "emotionalToll": 8
+        "emotionalToll": 8,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 3,
+        "aiRiskLong": 3,
+        "aiNarrative": "Food processing involves physical production lines, sanitation requirements, and HACCP compliance that need hands-on human presence. AI helps with quality monitoring and line optimization, but you can't automate walking the factory floor."
       },
       "scores": {
         "category_1": 6.75,
@@ -3620,7 +3740,11 @@
         "oneInX": 43,
         "callSchedule": 5,
         "physicalToll": 6,
-        "emotionalToll": 7
+        "emotionalToll": 7,
+        "aiRiskNow": 3,
+        "aiRiskMedium": 4,
+        "aiRiskLong": 5,
+        "aiNarrative": "AI improves reservoir simulation and production forecasting, but well planning involves unique geology and field conditions every time. The bigger risk to this career is the energy transition away from fossil fuels, not AI specifically."
       },
       "scores": {
         "category_1": 6.75,
@@ -3714,7 +3838,11 @@
         "oneInX": 43,
         "callSchedule": 8,
         "physicalToll": 7,
-        "emotionalToll": 8
+        "emotionalToll": 8,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 3,
+        "aiRiskLong": 4,
+        "aiNarrative": "Working with physical materials \u2014 mold design, processing optimization, failure analysis \u2014 requires hands-on lab and factory work. AI helps with material selection databases, but the physical testing and manufacturing floor presence keep this role safe."
       },
       "scores": {
         "category_1": 6.75,
@@ -3808,7 +3936,11 @@
         "oneInX": 26,
         "callSchedule": 8,
         "physicalToll": 8,
-        "emotionalToll": 7
+        "emotionalToll": 7,
+        "aiRiskNow": 3,
+        "aiRiskMedium": 4,
+        "aiRiskLong": 5,
+        "aiNarrative": "Medical devices go inside human bodies \u2014 the FDA isn't going to let AI design and approve an implant by itself. AI helps with simulation and data analysis, but the biocompatibility testing, design controls, and regulatory judgment stay very human."
       },
       "scores": {
         "category_1": 6.75,
@@ -3902,7 +4034,11 @@
         "oneInX": 32,
         "callSchedule": 9,
         "physicalToll": 9,
-        "emotionalToll": 7
+        "emotionalToll": 7,
+        "aiRiskNow": 4,
+        "aiRiskMedium": 5,
+        "aiRiskLong": 6,
+        "aiNarrative": "AI can draft regulatory documents and help with submissions, but FDA compliance requires nuanced human judgment about risk, clinical evidence, and regulatory strategy. The regulatory framework itself is built around human accountability."
       },
       "scores": {
         "category_1": 6.75,
@@ -3996,7 +4132,11 @@
         "oneInX": 19,
         "callSchedule": 8,
         "physicalToll": 6,
-        "emotionalToll": 7
+        "emotionalToll": 7,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 3,
+        "aiRiskLong": 4,
+        "aiNarrative": "Environmental remediation involves physical site assessments, soil sampling, and cleanup operations in unique contaminated locations. AI helps with modeling and data analysis, but the fieldwork and regulatory compliance keep this career very safe from AI."
       },
       "scores": {
         "category_1": 6.75,
@@ -4090,7 +4230,11 @@
         "oneInX": 22,
         "callSchedule": 8,
         "physicalToll": 6,
-        "emotionalToll": 8
+        "emotionalToll": 8,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 3,
+        "aiRiskLong": 4,
+        "aiNarrative": "Solar engineering involves physical site assessment, interconnection with real grids, and working with installers and electricians. AI helps with energy yield modeling and system design, but the industry is growing so fast that demand outpaces any AI displacement."
       },
       "scores": {
         "category_1": 6.75,
@@ -4184,7 +4328,11 @@
         "oneInX": 32,
         "callSchedule": 7,
         "physicalToll": 6,
-        "emotionalToll": 8
+        "emotionalToll": 8,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 3,
+        "aiRiskLong": 4,
+        "aiNarrative": "Wind farms are massive physical infrastructure projects in remote locations. AI helps with wind resource assessment and predictive maintenance, but the structural engineering, site development, and O&M coordination need humans on the ground."
       },
       "scores": {
         "category_1": 6.75,
@@ -4278,7 +4426,11 @@
         "oneInX": 65,
         "callSchedule": 6,
         "physicalToll": 7,
-        "emotionalToll": 6
+        "emotionalToll": 6,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 2,
+        "aiRiskLong": 3,
+        "aiNarrative": "Nuclear engineering is the most safety-critical and heavily regulated field in engineering. The NRC isn't letting AI make decisions about reactor operations. Small modular reactors are actually creating new demand, and the consequences of errors keep humans firmly in charge."
       },
       "scores": {
         "category_1": 6.75,
@@ -4372,7 +4524,11 @@
         "oneInX": 26,
         "callSchedule": 9,
         "physicalToll": 9,
-        "emotionalToll": 7
+        "emotionalToll": 7,
+        "aiRiskNow": 5,
+        "aiRiskMedium": 6,
+        "aiRiskLong": 7,
+        "aiNarrative": "AI is already good at carbon accounting, ESG data analysis, and generating sustainability reports. The strategic consulting and client relationship parts stay human, but a lot of the analytical grunt work is getting automated quickly."
       },
       "scores": {
         "category_1": 6.75,
@@ -4466,7 +4622,11 @@
         "oneInX": 26,
         "callSchedule": 7,
         "physicalToll": 6,
-        "emotionalToll": 8
+        "emotionalToll": 8,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 2,
+        "aiRiskLong": 3,
+        "aiNarrative": "Every city needs clean water and wastewater treatment \u2014 these are physical plants that need hands-on design, optimization, and field sampling. AI helps with process modeling, but the infrastructure is aging nationwide and needs human engineers to upgrade it."
       },
       "scores": {
         "category_1": 6.75,
@@ -4560,7 +4720,11 @@
         "oneInX": 5,
         "callSchedule": 6,
         "physicalToll": 9,
-        "emotionalToll": 5
+        "emotionalToll": 5,
+        "aiRiskNow": 3,
+        "aiRiskMedium": 4,
+        "aiRiskLong": 5,
+        "aiNarrative": "AI can help with project tracking and status reports, but the real value of a TPM is cross-team coordination, navigating organizational politics, and making judgment calls under uncertainty. Human leadership skills stay essential."
       },
       "scores": {
         "category_1": 6.75,
@@ -4654,7 +4818,11 @@
         "oneInX": 43,
         "callSchedule": 9,
         "physicalToll": 9,
-        "emotionalToll": 7
+        "emotionalToll": 7,
+        "aiRiskNow": 4,
+        "aiRiskMedium": 6,
+        "aiRiskLong": 7,
+        "aiNarrative": "AI is getting surprisingly good at drafting patent claims and doing prior art searches. The strategic parts \u2014 inventor interviews, prosecution arguments, portfolio strategy \u2014 stay human, but routine patent drafting work is shrinking."
       },
       "scores": {
         "category_1": 6.75,
@@ -4748,7 +4916,11 @@
         "oneInX": 9,
         "callSchedule": 6,
         "physicalToll": 8,
-        "emotionalToll": 6
+        "emotionalToll": 6,
+        "aiRiskNow": 3,
+        "aiRiskMedium": 4,
+        "aiRiskLong": 5,
+        "aiNarrative": "Sales is fundamentally about human relationships, trust, and understanding customer pain points. AI helps with lead generation and proposal drafting, but closing deals and building client relationships require emotional intelligence that AI lacks."
       },
       "scores": {
         "category_1": 6.75,
@@ -4842,7 +5014,11 @@
         "oneInX": 6,
         "callSchedule": 7,
         "physicalToll": 9,
-        "emotionalToll": 5
+        "emotionalToll": 5,
+        "aiRiskNow": 3,
+        "aiRiskMedium": 4,
+        "aiRiskLong": 5,
+        "aiNarrative": "AI helps with user research synthesis, data analysis, and even writing PRDs, but product management is about customer empathy, stakeholder alignment, and strategic vision. The coordination and judgment parts are deeply human."
       },
       "scores": {
         "category_1": 6.75,
@@ -4936,7 +5112,11 @@
         "oneInX": 2,
         "callSchedule": 8,
         "physicalToll": 9,
-        "emotionalToll": 7
+        "emotionalToll": 7,
+        "aiRiskNow": 3,
+        "aiRiskMedium": 4,
+        "aiRiskLong": 4,
+        "aiNarrative": "You're literally building the AI \u2014 this field grows as AI grows. The risk isn't displacement, it's keeping up with how fast everything changes. ML engineers who can train, deploy, and optimize models are in massive demand."
       },
       "scores": {
         "category_1": 5.75,
@@ -5030,7 +5210,11 @@
         "oneInX": 2,
         "callSchedule": 9,
         "physicalToll": 10,
-        "emotionalToll": 8
+        "emotionalToll": 8,
+        "aiRiskNow": 4,
+        "aiRiskMedium": 6,
+        "aiRiskLong": 7,
+        "aiNarrative": "AI automates basic SQL queries, dashboarding, and routine analysis increasingly well. But the complex insight \u2014 figuring out what question to ask, interpreting ambiguous results, and telling the story to stakeholders \u2014 stays human. Junior analyst roles shrink, senior roles stay."
       },
       "scores": {
         "category_1": 5.75,
@@ -5124,7 +5308,11 @@
         "oneInX": 9,
         "callSchedule": 8,
         "physicalToll": 8,
-        "emotionalToll": 8
+        "emotionalToll": 8,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 3,
+        "aiRiskLong": 4,
+        "aiNarrative": "Robotics is the ultimate hardware-software fusion \u2014 you build physical machines that interact with the messy real world. AI actually creates more demand for roboticists, and the hands-on integration and testing work is nearly impossible to automate."
       },
       "scores": {
         "category_1": 5.75,
@@ -5218,7 +5406,11 @@
         "oneInX": 14,
         "callSchedule": 9,
         "physicalToll": 9,
-        "emotionalToll": 7
+        "emotionalToll": 7,
+        "aiRiskNow": 3,
+        "aiRiskMedium": 4,
+        "aiRiskLong": 5,
+        "aiNarrative": "AI helps with GIS analysis and zoning data crunching, but urban planning is deeply human \u2014 public meetings, community engagement, political negotiations, and balancing competing interests. AI can't replace the civic process."
       },
       "scores": {
         "category_1": 5.75,
@@ -5312,7 +5504,11 @@
         "oneInX": 11,
         "callSchedule": 8,
         "physicalToll": 9,
-        "emotionalToll": 7
+        "emotionalToll": 7,
+        "aiRiskNow": 3,
+        "aiRiskMedium": 4,
+        "aiRiskLong": 5,
+        "aiNarrative": "Chip design involves complex physical constraints at the nanometer scale that AI assists with but can't fully replace. The CHIPS Act is driving massive domestic investment, and the combination of physics knowledge plus design intuition keeps humans central."
       },
       "scores": {
         "category_1": 5.75,
@@ -5406,7 +5602,11 @@
         "oneInX": 14,
         "callSchedule": 9,
         "physicalToll": 9,
-        "emotionalToll": 8
+        "emotionalToll": 8,
+        "aiRiskNow": 3,
+        "aiRiskMedium": 4,
+        "aiRiskLong": 5,
+        "aiNarrative": "DSP sits between math and hardware \u2014 AI helps with algorithm prototyping, but implementing efficient signal processing on embedded hardware requires deep domain expertise. Defense and telecom applications keep demand steady."
       },
       "scores": {
         "category_1": 5.75,
@@ -5500,7 +5700,11 @@
         "oneInX": 28,
         "callSchedule": 8,
         "physicalToll": 8,
-        "emotionalToll": 7
+        "emotionalToll": 7,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 3,
+        "aiRiskLong": 3,
+        "aiNarrative": "Propulsion involves exotic physics, hands-on test firing, and safety-critical rocket science. AI helps with CFD simulations, but the physical testing, unique material challenges, and literally-explosive nature of the work keep humans indispensable."
       },
       "scores": {
         "category_1": 5.75,
@@ -5594,7 +5798,11 @@
         "oneInX": 22,
         "callSchedule": 7,
         "physicalToll": 8,
-        "emotionalToll": 7
+        "emotionalToll": 7,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 3,
+        "aiRiskLong": 4,
+        "aiNarrative": "Spacecraft are one-of-a-kind, safety-critical, and incredibly expensive to get wrong. AI helps with analysis and simulation, but integration testing, cleanroom assembly, and mission operations require experienced human engineers who understand the whole system."
       },
       "scores": {
         "category_1": 5.75,
@@ -5688,7 +5896,11 @@
         "oneInX": 18,
         "callSchedule": 8,
         "physicalToll": 8,
-        "emotionalToll": 7
+        "emotionalToll": 7,
+        "aiRiskNow": 3,
+        "aiRiskMedium": 3,
+        "aiRiskLong": 4,
+        "aiNarrative": "Biomechanics combines physical testing (including cadaver work), FEA modeling, and clinical collaboration. AI helps with simulation, but the hands-on lab work and clinical judgment about how devices perform in real human bodies stay very human."
       },
       "scores": {
         "category_1": 5.75,
@@ -5782,7 +5994,11 @@
         "oneInX": 18,
         "callSchedule": 8,
         "physicalToll": 9,
-        "emotionalToll": 7
+        "emotionalToll": 7,
+        "aiRiskNow": 3,
+        "aiRiskMedium": 4,
+        "aiRiskLong": 5,
+        "aiNarrative": "Ironically, AI is a huge growth driver for medical imaging \u2014 someone needs to build and validate AI-assisted diagnostic tools. The regulatory requirements and clinical validation keep humans essential, and AI creates as much work as it automates here."
       },
       "scores": {
         "category_1": 5.75,
@@ -5876,7 +6092,11 @@
         "oneInX": 11,
         "callSchedule": 8,
         "physicalToll": 8,
-        "emotionalToll": 7
+        "emotionalToll": 7,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 3,
+        "aiRiskLong": 3,
+        "aiNarrative": "Battery engineering involves physical cell testing, electrochemistry, and prototype assembly \u2014 you're working with real chemicals and materials. AI helps with material discovery and simulation, but the lab work and manufacturing challenges stay very hands-on."
       },
       "scores": {
         "category_1": 5.75,
@@ -5970,7 +6190,11 @@
         "oneInX": 7,
         "callSchedule": 5,
         "physicalToll": 9,
-        "emotionalToll": 5
+        "emotionalToll": 5,
+        "aiRiskNow": 4,
+        "aiRiskMedium": 5,
+        "aiRiskLong": 6,
+        "aiNarrative": "AI does the data analysis and slide-building increasingly well, meaning fewer junior analysts are needed per project. But the client relationships, strategic judgment, and ability to navigate organizational politics stay deeply human."
       },
       "scores": {
         "category_1": 5.75,
@@ -6064,7 +6288,11 @@
         "oneInX": 18,
         "callSchedule": 5,
         "physicalToll": 10,
-        "emotionalToll": 5
+        "emotionalToll": 5,
+        "aiRiskNow": 4,
+        "aiRiskMedium": 5,
+        "aiRiskLong": 6,
+        "aiNarrative": "AI does quantitative modeling increasingly well, and some hedge funds are already AI-first. But novel strategy development, understanding market microstructure, and the judgment to know when models break down stay human. The best quants now use AI as a tool."
       },
       "scores": {
         "category_1": 5.75,
@@ -6158,7 +6386,11 @@
         "oneInX": 4,
         "callSchedule": 8,
         "physicalToll": 9,
-        "emotionalToll": 6
+        "emotionalToll": 6,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 2,
+        "aiRiskLong": 3,
+        "aiNarrative": "You ARE the cutting edge \u2014 AI creates demand for you, not the other way around. The risk isn't displacement, it's the intense pace of change and the pressure to keep publishing breakthroughs. This field grows as AI grows."
       },
       "scores": {
         "category_1": 4.0,
@@ -6255,7 +6487,11 @@
         "oneInX": 6,
         "callSchedule": 8,
         "physicalToll": 8,
-        "emotionalToll": 5
+        "emotionalToll": 5,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 3,
+        "aiRiskLong": 4,
+        "aiNarrative": "Materials science is fundamentally hands-on \u2014 synthesis, characterization, and lab work can't be done by AI. AI accelerates material discovery through simulation, but someone still needs to actually make and test the stuff in a lab."
       },
       "scores": {
         "category_1": 4.0,
@@ -6352,7 +6588,11 @@
         "oneInX": 8,
         "callSchedule": 7,
         "physicalToll": 8,
-        "emotionalToll": 6
+        "emotionalToll": 6,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 2,
+        "aiRiskLong": 3,
+        "aiNarrative": "Growing tissues and engineering biological systems requires wet lab work that AI simply cannot do. AI helps with image analysis and experimental design, but the hands-on cell culture and fabrication work is deeply physical and human."
       },
       "scores": {
         "category_1": 4.0,
@@ -6449,7 +6689,11 @@
         "oneInX": 15,
         "callSchedule": 7,
         "physicalToll": 8,
-        "emotionalToll": 6
+        "emotionalToll": 6,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 2,
+        "aiRiskLong": 3,
+        "aiNarrative": "Brain-computer interfaces sit at the frontier of neuroscience and hardware engineering. AI is actually a key tool in this field, not a threat \u2014 you use AI to decode brain signals. The physical device design and clinical work keep humans central."
       },
       "scores": {
         "category_1": 4.0,
@@ -6546,7 +6790,11 @@
         "oneInX": 6,
         "callSchedule": 8,
         "physicalToll": 9,
-        "emotionalToll": 5
+        "emotionalToll": 5,
+        "aiRiskNow": 3,
+        "aiRiskMedium": 4,
+        "aiRiskLong": 5,
+        "aiNarrative": "AI is actually merging with HPC \u2014 physics-informed neural networks and AI-accelerated simulation are hot research areas. The computational scientists who adapt to use AI as a tool will thrive, but purely traditional numerical methods roles will shrink."
       },
       "scores": {
         "category_1": 4.0,
@@ -6643,7 +6891,11 @@
         "oneInX": 8,
         "callSchedule": 8,
         "physicalToll": 8,
-        "emotionalToll": 5
+        "emotionalToll": 5,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 3,
+        "aiRiskLong": 4,
+        "aiNarrative": "Semiconductor research requires cleanroom fabrication, physical characterization, and deep physics knowledge. AI helps with design exploration, but the hands-on fab work and fundamental physics research stay firmly human. CHIPS Act is boosting demand."
       },
       "scores": {
         "category_1": 4.0,
@@ -6740,7 +6992,11 @@
         "oneInX": 12,
         "callSchedule": 8,
         "physicalToll": 9,
-        "emotionalToll": 5
+        "emotionalToll": 5,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 3,
+        "aiRiskLong": 4,
+        "aiNarrative": "Aerospace research involves wind tunnel testing, physical experiments, and safety-critical systems where getting it wrong means people die. AI assists with simulation, but the novel research questions and physical validation keep PhD-level researchers essential."
       },
       "scores": {
         "category_1": 4.0,
@@ -6837,7 +7093,11 @@
         "oneInX": 8,
         "callSchedule": 8,
         "physicalToll": 9,
-        "emotionalToll": 7
+        "emotionalToll": 7,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 3,
+        "aiRiskLong": 4,
+        "aiNarrative": "Climate and energy research combines modeling, policy, and physical systems understanding. AI helps with large-scale simulation, but the novel research questions and interdisciplinary thinking stay human. The urgency of climate change keeps demand growing."
       },
       "scores": {
         "category_1": 4.0,
@@ -6934,7 +7194,11 @@
         "oneInX": 4,
         "callSchedule": 7,
         "physicalToll": 9,
-        "emotionalToll": 7
+        "emotionalToll": 7,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 3,
+        "aiRiskLong": 4,
+        "aiNarrative": "Teaching evolves with AI \u2014 professors will need to adapt how they teach and assess students. But mentorship, research advising, and inspiring the next generation of engineers are deeply human. AI changes the job but doesn't replace it."
       },
       "scores": {
         "category_1": 4.0,

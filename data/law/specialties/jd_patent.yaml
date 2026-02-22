@@ -33,6 +33,10 @@ specialties:
   emotionalToll: 3
   malpracticeLiability: 5
   injuryCareerRisk: 2
+  aiRiskNow: 4
+  aiRiskMedium: 6
+  aiRiskLong: 7
+  aiNarrative: "AI is getting increasingly good at drafting patent applications and responding to office actions. Patent lawyers who deeply understand the technology will adapt, but routine prosecution work is automating fast."
   fellowshipOptions: "LLM in IP; patent agent → attorney upgrade"
   compModel: "Salary + billing bonus at firms; in-house stock/options common"
   revPerPatientVisit: "$400-700/hr; $10K-20K per patent application"
@@ -74,6 +78,10 @@ specialties:
   emotionalToll: 5
   malpracticeLiability: 6
   injuryCareerRisk: 3
+  aiRiskNow: 3
+  aiRiskMedium: 5
+  aiRiskLong: 6
+  aiNarrative: "Patent trials involve complex technical arguments, claim construction, and jury persuasion. AI helps with prior art searches and document review, but courtroom advocacy stays human."
   fellowshipOptions: "LLM in IP; ITC practice specialty"
   compModel: "Big Law lockstep + bonus; contingency for plaintiff-side firms"
   revPerPatientVisit: "$800-1,500/hr; cases worth $10M-1B+"

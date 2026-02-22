@@ -33,6 +33,10 @@ specialties:
   emotionalToll: 5
   malpracticeLiability: 8
   injuryCareerRisk: 2
+  aiRiskNow: 5
+  aiRiskMedium: 6
+  aiRiskLong: 7
+  aiNarrative: "Document review and case management are areas where AI is advancing fast. Litigation paralegals who learn to manage AI tools and handle complex trial logistics will do well, but basic document work is shrinking."
   fellowshipOptions: "ABA-approved paralegal certificate; Certified Paralegal (CP) exam"
   compModel: "Hourly or salaried; billed out at $150-300/hr but paid $25-45/hr"
   revPerPatientVisit: "$150-300/hr billed to client"
@@ -74,6 +78,10 @@ specialties:
   emotionalToll: 3
   malpracticeLiability: 8
   injuryCareerRisk: 2
+  aiRiskNow: 5
+  aiRiskMedium: 7
+  aiRiskLong: 8
+  aiNarrative: "Entity management, SEC filings, and corporate minutes are highly structured tasks that AI handles increasingly well. The paralegals who survive will manage AI systems rather than do the paperwork themselves."
   fellowshipOptions: "Certified Paralegal (CP); corporate governance certificate"
   compModel: "Salaried at firms or in-house; higher pay at Big Law"
   revPerPatientVisit: "$175-350/hr billed to client"
@@ -115,6 +123,10 @@ specialties:
   emotionalToll: 2
   malpracticeLiability: 8
   injuryCareerRisk: 1
+  aiRiskNow: 5
+  aiRiskMedium: 7
+  aiRiskLong: 8
+  aiNarrative: "Patent and trademark docketing is exactly the kind of deadline-driven, structured work that AI excels at. IP paralegals need to become AI tool managers or risk being replaced by automation."
   fellowshipOptions: "NALA CP; IP-specific docketing certification"
   compModel: "Salaried; premium pay for patent docketing expertise"
   revPerPatientVisit: "$200-400/hr billed to client"

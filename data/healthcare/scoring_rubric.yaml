@@ -334,3 +334,25 @@ fields:
     type: decision
     conversion:
       method: passthrough
+
+  # AI Risk Timeline — display only, does not affect Category 11 scoring
+  aiRiskNow:
+    data_point_id: null
+    category: 11
+    type: reference
+    conversion: null
+  aiRiskMedium:
+    data_point_id: null
+    category: 11
+    type: reference
+    conversion: null
+  aiRiskLong:
+    data_point_id: null
+    category: 11
+    type: reference
+    conversion: null
+  aiNarrative:
+    data_point_id: null
+    category: 11
+    type: reference
+    conversion: null

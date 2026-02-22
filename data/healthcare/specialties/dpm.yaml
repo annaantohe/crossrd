@@ -32,6 +32,10 @@ specialties:
   emotionalToll: 5
   malpracticeLiability: 4
   injuryCareerRisk: 3
+  aiRiskNow: 1
+  aiRiskMedium: 2
+  aiRiskLong: 2
+  aiNarrative: "Foot and ankle surgery is very hands-on and physical. AI has minimal impact here — you need a human surgeon for bunion corrections and fracture repairs."
   fellowshipOptions: Optional 1yr (reconstructive, trauma)
   compModel: Private practice or employed; some hospital-based
   revPerPatientVisit: Moderate-high ($500-10K/case)
@@ -73,6 +77,10 @@ specialties:
   emotionalToll: 7
   malpracticeLiability: 8
   injuryCareerRisk: 7
+  aiRiskNow: 2
+  aiRiskMedium: 3
+  aiRiskLong: 4
+  aiNarrative: "Gait analysis and biomechanical assessments could get AI assistance, but the physical evaluations and orthotic fitting stay hands-on."
   fellowshipOptions: Optional 1yr sports/biomechanics
   compModel: Private practice; some team contracts; orthotics revenue
   revPerPatientVisit: Lower ($100-400 per visit); orthotic sales supplement
@@ -114,6 +122,10 @@ specialties:
   emotionalToll: 4
   malpracticeLiability: 4
   injuryCareerRisk: 5
+  aiRiskNow: 2
+  aiRiskMedium: 3
+  aiRiskLong: 3
+  aiNarrative: "Wound debridement and limb salvage are physical, hands-on procedures. AI may help with monitoring wound healing, but the actual care stays human."
   fellowshipOptions: Optional wound care certification
   compModel: Employed (hospital/health system) or private; some wound care centers
   revPerPatientVisit: Moderate ($150-2K; surgical debridements higher)

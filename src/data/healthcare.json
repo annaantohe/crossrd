@@ -813,7 +813,11 @@
         "oneInX": 29,
         "callSchedule": 2,
         "physicalToll": 4,
-        "emotionalToll": 4
+        "emotionalToll": 4,
+        "aiRiskNow": 1,
+        "aiRiskMedium": 2,
+        "aiRiskLong": 2,
+        "aiNarrative": "Jaw surgery and facial reconstruction are intensely hands-on and complex. AI has almost no path to replacing the surgeon \u2014 it's physical, creative work."
       },
       "scores": {
         "category_1": 4.75,
@@ -913,7 +917,11 @@
         "oneInX": 21,
         "callSchedule": 9,
         "physicalToll": 4,
-        "emotionalToll": 7
+        "emotionalToll": 7,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 3,
+        "aiRiskLong": 3,
+        "aiNarrative": "Root canals are precise, hands-on procedures done under a microscope. AI might help with imaging and treatment planning, but the actual procedure stays fully human."
       },
       "scores": {
         "category_1": 4.75,
@@ -1010,7 +1018,11 @@
         "oneInX": 23,
         "callSchedule": 9,
         "physicalToll": 5,
-        "emotionalToll": 7
+        "emotionalToll": 7,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 3,
+        "aiRiskLong": 3,
+        "aiNarrative": "Gum surgery and implant placement are hands-on procedures. AI can help with treatment planning and imaging, but the surgical skills stay human."
       },
       "scores": {
         "category_1": 4.75,
@@ -1107,7 +1119,11 @@
         "oneInX": 36,
         "callSchedule": 10,
         "physicalToll": 5,
-        "emotionalToll": 8
+        "emotionalToll": 8,
+        "aiRiskNow": 3,
+        "aiRiskMedium": 4,
+        "aiRiskLong": 5,
+        "aiNarrative": "Digital dentistry and CAD/CAM are changing how crowns and prosthetics are designed. AI speeds up the design process, but fitting and adjusting still needs a skilled dentist."
       },
       "scores": {
         "category_1": 4.75,
@@ -1204,7 +1220,11 @@
         "oneInX": 18,
         "callSchedule": 10,
         "physicalToll": 6,
-        "emotionalToll": 8
+        "emotionalToll": 8,
+        "aiRiskNow": 4,
+        "aiRiskMedium": 5,
+        "aiRiskLong": 6,
+        "aiNarrative": "AI-powered clear aligners (like Invisalign) are already reducing the need for some in-person adjustments. Direct-to-consumer options are a real competitive threat."
       },
       "scores": {
         "category_1": 4.75,
@@ -1301,7 +1321,11 @@
         "oneInX": 15,
         "callSchedule": 9,
         "physicalToll": 5,
-        "emotionalToll": 5
+        "emotionalToll": 5,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 2,
+        "aiRiskLong": 3,
+        "aiNarrative": "Working with kids requires patience, behavior management, and hands-on skill that AI can't replicate. The dentist-child relationship is central to this work."
       },
       "scores": {
         "category_1": 4.75,
@@ -1398,7 +1422,11 @@
         "oneInX": 1,
         "callSchedule": 10,
         "physicalToll": 4,
-        "emotionalToll": 6
+        "emotionalToll": 6,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 3,
+        "aiRiskLong": 3,
+        "aiNarrative": "Fillings, crowns, and extractions are hands-on work. AI helps with X-ray reads and treatment planning, but someone still needs to do the actual dentistry."
       },
       "scores": {
         "category_1": 4.75,
@@ -1495,7 +1523,11 @@
         "oneInX": 1,
         "callSchedule": 5,
         "physicalToll": 5,
-        "emotionalToll": 5
+        "emotionalToll": 5,
+        "aiRiskNow": 1,
+        "aiRiskMedium": 2,
+        "aiRiskLong": 2,
+        "aiNarrative": "Foot and ankle surgery is very hands-on and physical. AI has minimal impact here \u2014 you need a human surgeon for bunion corrections and fracture repairs."
       },
       "scores": {
         "category_1": 7.25,
@@ -1595,7 +1627,11 @@
         "oneInX": 13,
         "callSchedule": 9,
         "physicalToll": 7,
-        "emotionalToll": 7
+        "emotionalToll": 7,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 3,
+        "aiRiskLong": 4,
+        "aiNarrative": "Gait analysis and biomechanical assessments could get AI assistance, but the physical evaluations and orthotic fitting stay hands-on."
       },
       "scores": {
         "category_1": 7.25,
@@ -1695,7 +1731,11 @@
         "oneInX": 8,
         "callSchedule": 6,
         "physicalToll": 5,
-        "emotionalToll": 4
+        "emotionalToll": 4,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 3,
+        "aiRiskLong": 3,
+        "aiNarrative": "Wound debridement and limb salvage are physical, hands-on procedures. AI may help with monitoring wound healing, but the actual care stays human."
       },
       "scores": {
         "category_1": 7.25,
@@ -1792,7 +1832,11 @@
         "oneInX": 17,
         "callSchedule": 2,
         "physicalToll": 4,
-        "emotionalToll": 3
+        "emotionalToll": 3,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 2,
+        "aiRiskLong": 3,
+        "aiNarrative": "Robots help but can't replace a surgeon's hands and judgment. AI assists with planning and imaging, but the actual operating stays human."
       },
       "scores": {
         "category_1": 3.25,
@@ -1892,7 +1936,11 @@
         "oneInX": 33,
         "callSchedule": 3,
         "physicalToll": 3,
-        "emotionalToll": 5
+        "emotionalToll": 5,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 2,
+        "aiRiskLong": 3,
+        "aiNarrative": "Robotic-assisted joint replacements are growing, but a human surgeon is still making the decisions and doing the work. AI helps with pre-op planning, not the surgery itself."
       },
       "scores": {
         "category_1": 3.25,
@@ -1992,7 +2040,11 @@
         "oneInX": 113,
         "callSchedule": 1,
         "physicalToll": 3,
-        "emotionalToll": 2
+        "emotionalToll": 2,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 2,
+        "aiRiskLong": 3,
+        "aiNarrative": "Brain and spine surgery requires extreme precision and real-time judgment that AI can't replicate. Navigation and imaging tools get smarter, but the surgeon stays essential."
       },
       "scores": {
         "category_1": 3.25,
@@ -2092,7 +2144,11 @@
         "oneInX": 164,
         "callSchedule": 1,
         "physicalToll": 3,
-        "emotionalToll": 2
+        "emotionalToll": 2,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 2,
+        "aiRiskLong": 3,
+        "aiNarrative": "Open-heart and lung surgery is too complex and high-stakes for AI to take over. Robotic tools assist but a human surgeon is always in control."
       },
       "scores": {
         "category_1": 3.25,
@@ -2192,7 +2248,11 @@
         "oneInX": 132,
         "callSchedule": 2,
         "physicalToll": 4,
-        "emotionalToll": 3
+        "emotionalToll": 3,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 3,
+        "aiRiskLong": 3,
+        "aiNarrative": "Endovascular procedures use imaging guidance that AI can enhance, but the hands-on catheter and surgical work stays human. AI helps with planning and monitoring."
       },
       "scores": {
         "category_1": 3.25,
@@ -2292,7 +2352,11 @@
         "oneInX": 138,
         "callSchedule": 5,
         "physicalToll": 5,
-        "emotionalToll": 5
+        "emotionalToll": 5,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 2,
+        "aiRiskLong": 3,
+        "aiNarrative": "Cosmetic and reconstructive surgery is deeply artistic and hands-on. AI can help with imaging simulations, but the creativity and technique are all human."
       },
       "scores": {
         "category_1": 3.25,
@@ -2392,7 +2456,11 @@
         "oneInX": 87,
         "callSchedule": 1,
         "physicalToll": 3,
-        "emotionalToll": 1
+        "emotionalToll": 1,
+        "aiRiskNow": 1,
+        "aiRiskMedium": 2,
+        "aiRiskLong": 2,
+        "aiNarrative": "Trauma is chaotic, physical, and unpredictable \u2014 exactly what AI is worst at. AI might help triage, but the split-second surgical decisions stay human."
       },
       "scores": {
         "category_1": 3.25,
@@ -2492,7 +2560,11 @@
         "oneInX": 380,
         "callSchedule": 1,
         "physicalToll": 3,
-        "emotionalToll": 2
+        "emotionalToll": 2,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 2,
+        "aiRiskLong": 3,
+        "aiNarrative": "Transplant surgery involves complex organ procurement and implantation that requires a human surgeon. AI may help with donor matching and post-op monitoring."
       },
       "scores": {
         "category_1": 3.25,
@@ -2592,7 +2664,11 @@
         "oneInX": 676,
         "callSchedule": 2,
         "physicalToll": 5,
-        "emotionalToll": 2
+        "emotionalToll": 2,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 2,
+        "aiRiskLong": 3,
+        "aiNarrative": "Operating on tiny patients requires extreme adaptability and gentle hands. AI tools might help with planning, but the surgery itself stays human."
       },
       "scores": {
         "category_1": 3.25,
@@ -2692,7 +2768,11 @@
         "oneInX": 358,
         "callSchedule": 4,
         "physicalToll": 5,
-        "emotionalToll": 5
+        "emotionalToll": 5,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 2,
+        "aiRiskLong": 3,
+        "aiNarrative": "Minimally invasive colorectal procedures benefit from robotic platforms, but a human surgeon guides every move. AI may help with colonoscopy screening over time."
       },
       "scores": {
         "category_1": 3.25,
@@ -2792,7 +2872,11 @@
         "oneInX": 203,
         "callSchedule": 5,
         "physicalToll": 5,
-        "emotionalToll": 6
+        "emotionalToll": 6,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 2,
+        "aiRiskLong": 3,
+        "aiNarrative": "Microsurgery on nerves and tendons requires incredible dexterity that robots can't match. AI helps with imaging but the delicate repair work stays human."
       },
       "scores": {
         "category_1": 3.25,
@@ -2892,7 +2976,11 @@
         "oneInX": 152,
         "callSchedule": 3,
         "physicalToll": 3,
-        "emotionalToll": 4
+        "emotionalToll": 4,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 2,
+        "aiRiskLong": 3,
+        "aiNarrative": "Spine surgery uses navigation and robotics for screw placement, but the complex decision-making and technique are all surgeon. AI improves accuracy without replacing the role."
       },
       "scores": {
         "category_1": 3.25,
@@ -2992,7 +3080,11 @@
         "oneInX": 101,
         "callSchedule": 5,
         "physicalToll": 6,
-        "emotionalToll": 7
+        "emotionalToll": 7,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 2,
+        "aiRiskLong": 3,
+        "aiNarrative": "Arthroscopic surgery is highly manual and requires real-time judgment. AI can help read MRIs, but the scope work and rehab planning stay human."
       },
       "scores": {
         "category_1": 3.25,
@@ -3092,7 +3184,11 @@
         "oneInX": 203,
         "callSchedule": 5,
         "physicalToll": 6,
-        "emotionalToll": 6
+        "emotionalToll": 6,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 3,
+        "aiRiskLong": 3,
+        "aiNarrative": "Weight-loss surgery is laparoscopic and hands-on. AI might change how patients are screened (especially with GLP-1 drugs), but surgeons who operate are still needed."
       },
       "scores": {
         "category_1": 3.25,
@@ -3192,7 +3288,11 @@
         "oneInX": 68,
         "callSchedule": 1,
         "physicalToll": 4,
-        "emotionalToll": 3
+        "emotionalToll": 3,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 3,
+        "aiRiskLong": 4,
+        "aiNarrative": "Cath lab procedures require real-time decision-making with wires inside arteries. AI helps with imaging and risk scoring, but the procedural skill stays human."
       },
       "scores": {
         "category_1": 3.25,
@@ -3292,7 +3392,11 @@
         "oneInX": 147,
         "callSchedule": 2,
         "physicalToll": 4,
-        "emotionalToll": 5
+        "emotionalToll": 5,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 3,
+        "aiRiskLong": 4,
+        "aiNarrative": "Image-guided procedures still need a human navigating catheters, but AI is improving image analysis that IR docs rely on. The procedural side stays safe."
       },
       "scores": {
         "category_1": 3.25,
@@ -3389,7 +3493,11 @@
         "oneInX": 40,
         "callSchedule": 4,
         "physicalToll": 6,
-        "emotionalToll": 6
+        "emotionalToll": 6,
+        "aiRiskNow": 3,
+        "aiRiskMedium": 4,
+        "aiRiskLong": 5,
+        "aiNarrative": "AI is already helping spot polyps during colonoscopies. The hands-on endoscopy work stays human, but the diagnostic reading part of GI is shifting toward AI assistance."
       },
       "scores": {
         "category_1": 3.25,
@@ -3489,7 +3597,11 @@
         "oneInX": 75,
         "callSchedule": 4,
         "physicalToll": 5,
-        "emotionalToll": 6
+        "emotionalToll": 6,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 3,
+        "aiRiskLong": 3,
+        "aiNarrative": "Robotic surgery (da Vinci) is already standard in urology, but the surgeon controls it. AI helps with imaging and diagnostics, but the procedures stay human-led."
       },
       "scores": {
         "category_1": 3.25,
@@ -3589,7 +3701,11 @@
         "oneInX": 19,
         "callSchedule": 2,
         "physicalToll": 4,
-        "emotionalToll": 3
+        "emotionalToll": 3,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 3,
+        "aiRiskLong": 3,
+        "aiNarrative": "Delivering babies and performing surgeries are intensely hands-on. AI can help with fetal monitoring and risk prediction, but the physical work stays human."
       },
       "scores": {
         "category_1": 3.25,
@@ -3689,7 +3805,11 @@
         "oneInX": 58,
         "callSchedule": 7,
         "physicalToll": 6,
-        "emotionalToll": 7
+        "emotionalToll": 7,
+        "aiRiskNow": 3,
+        "aiRiskMedium": 4,
+        "aiRiskLong": 5,
+        "aiNarrative": "AI is getting good at screening retinal images, but eye surgery (cataracts, retina, LASIK) is highly precise hands-on work. The surgical side stays safe while the diagnostic side sees more AI."
       },
       "scores": {
         "category_1": 3.25,
@@ -3789,7 +3909,11 @@
         "oneInX": 84,
         "callSchedule": 5,
         "physicalToll": 6,
-        "emotionalToll": 6
+        "emotionalToll": 6,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 2,
+        "aiRiskLong": 3,
+        "aiNarrative": "ENT surgery is diverse and hands-on \u2014 from sinus surgery to cancer removal. AI might help with imaging, but the surgical skill and patient care stay human."
       },
       "scores": {
         "category_1": 3.25,
@@ -3889,7 +4013,11 @@
         "oneInX": 253,
         "callSchedule": 10,
         "physicalToll": 7,
-        "emotionalToll": 8
+        "emotionalToll": 8,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 3,
+        "aiRiskLong": 4,
+        "aiNarrative": "Mohs involves cutting and reading slides in real-time \u2014 very hands-on. AI might help read the slides faster, but the surgery and reconstruction are fully human work."
       },
       "scores": {
         "category_1": 3.25,
@@ -3989,7 +4117,11 @@
         "oneInX": 87,
         "callSchedule": 8,
         "physicalToll": 6,
-        "emotionalToll": 4
+        "emotionalToll": 4,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 3,
+        "aiRiskLong": 4,
+        "aiNarrative": "Fluoroscopy-guided injections and nerve blocks are hands-on procedures. AI may improve targeting and patient selection, but someone still needs to do the injections."
       },
       "scores": {
         "category_1": 3.25,
@@ -4089,7 +4221,11 @@
         "oneInX": 36,
         "callSchedule": 3,
         "physicalToll": 4,
-        "emotionalToll": 2
+        "emotionalToll": 2,
+        "aiRiskNow": 3,
+        "aiRiskMedium": 4,
+        "aiRiskLong": 5,
+        "aiNarrative": "AI monitoring in the ICU is improving, and AI can help interpret ventilator data and labs. But the rapid, high-stakes decisions in critical patients need a human doctor."
       },
       "scores": {
         "category_1": 3.25,
@@ -4189,7 +4325,11 @@
         "oneInX": 31,
         "callSchedule": 5,
         "physicalToll": 8,
-        "emotionalToll": 7
+        "emotionalToll": 7,
+        "aiRiskNow": 5,
+        "aiRiskMedium": 7,
+        "aiRiskLong": 8,
+        "aiNarrative": "AI already reads some scans as well as radiologists. The job is shifting from 'reading images' to 'managing AI output and handling the tough cases.'"
       },
       "scores": {
         "category_1": 3.25,
@@ -4289,7 +4429,11 @@
         "oneInX": 55,
         "callSchedule": 9,
         "physicalToll": 8,
-        "emotionalToll": 8
+        "emotionalToll": 8,
+        "aiRiskNow": 3,
+        "aiRiskMedium": 5,
+        "aiRiskLong": 6,
+        "aiNarrative": "AI skin lesion detection is improving fast and already matches dermatologists on some tasks. But the hands-on exams, biopsies, and patient relationships keep the role human."
       },
       "scores": {
         "category_1": 3.25,
@@ -4386,7 +4530,11 @@
         "oneInX": 17,
         "callSchedule": 3,
         "physicalToll": 5,
-        "emotionalToll": 4
+        "emotionalToll": 4,
+        "aiRiskNow": 3,
+        "aiRiskMedium": 4,
+        "aiRiskLong": 5,
+        "aiNarrative": "AI monitoring systems are getting smarter, but someone still needs to be in the OR making real-time decisions. The role may shift toward supervision of more automated systems."
       },
       "scores": {
         "category_1": 3.25,
@@ -4486,7 +4634,11 @@
         "oneInX": 10,
         "callSchedule": 8,
         "physicalToll": 4,
-        "emotionalToll": 2
+        "emotionalToll": 2,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 3,
+        "aiRiskLong": 4,
+        "aiNarrative": "The ER is chaotic, physical, and unpredictable \u2014 AI is bad at all of that. AI helps with triage and imaging reads, but the hands-on emergency care stays human."
       },
       "scores": {
         "category_1": 3.25,
@@ -4586,7 +4738,11 @@
         "oneInX": 13,
         "callSchedule": 7,
         "physicalToll": 9,
-        "emotionalToll": 3
+        "emotionalToll": 3,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 2,
+        "aiRiskLong": 3,
+        "aiNarrative": "Mental health care is deeply human and relationship-based. AI chatbots exist but can't replace the nuance of psychiatric evaluation and medication management."
       },
       "scores": {
         "category_1": 3.25,
@@ -4686,7 +4842,11 @@
         "oneInX": 3,
         "callSchedule": 4,
         "physicalToll": 3,
-        "emotionalToll": 5
+        "emotionalToll": 5,
+        "aiRiskNow": 3,
+        "aiRiskMedium": 4,
+        "aiRiskLong": 5,
+        "aiNarrative": "AI can help with routine diagnoses, lab interpretation, and paperwork. But patients still want a human doctor who knows them \u2014 the role gets easier, not smaller."
       },
       "scores": {
         "category_1": 3.25,
@@ -4783,7 +4943,11 @@
         "oneInX": 6,
         "callSchedule": 5,
         "physicalToll": 2,
-        "emotionalToll": 5
+        "emotionalToll": 5,
+        "aiRiskNow": 3,
+        "aiRiskMedium": 4,
+        "aiRiskLong": 5,
+        "aiNarrative": "AI can help with routine diagnoses and paperwork, but patients still want a human doctor who knows them. The role gets easier, not smaller."
       },
       "scores": {
         "category_1": 3.25,
@@ -4880,7 +5044,11 @@
         "oneInX": 10,
         "callSchedule": 4,
         "physicalToll": 2,
-        "emotionalToll": 6
+        "emotionalToll": 6,
+        "aiRiskNow": 3,
+        "aiRiskMedium": 4,
+        "aiRiskLong": 5,
+        "aiNarrative": "Parents want a human pediatrician they trust. AI can help with screening and documentation, but the relationship with families keeps this role very human."
       },
       "scores": {
         "category_1": 3.25,
@@ -4977,7 +5145,11 @@
         "oneInX": 34,
         "callSchedule": 7,
         "physicalToll": 3,
-        "emotionalToll": 6
+        "emotionalToll": 6,
+        "aiRiskNow": 3,
+        "aiRiskMedium": 5,
+        "aiRiskLong": 6,
+        "aiNarrative": "AI is getting good at reading ECGs and echos, which is a big part of this role. The job shifts toward managing AI findings and complex patient decisions."
       },
       "scores": {
         "category_1": 3.25,
@@ -5074,7 +5246,11 @@
         "oneInX": 38,
         "callSchedule": 6,
         "physicalToll": 2,
-        "emotionalToll": 9
+        "emotionalToll": 9,
+        "aiRiskNow": 3,
+        "aiRiskMedium": 4,
+        "aiRiskLong": 5,
+        "aiNarrative": "AI can help match patients to clinical trials and analyze genomic data. But cancer care is deeply personal, and the treatment decisions require human oncologists."
       },
       "scores": {
         "category_1": 3.25,
@@ -5171,7 +5347,11 @@
         "oneInX": 61,
         "callSchedule": 7,
         "physicalToll": 3,
-        "emotionalToll": 7
+        "emotionalToll": 7,
+        "aiRiskNow": 3,
+        "aiRiskMedium": 4,
+        "aiRiskLong": 5,
+        "aiNarrative": "AI can help manage dialysis parameters and predict kidney decline. But the complex medication management and patient relationships stay human."
       },
       "scores": {
         "category_1": 3.25,
@@ -5268,7 +5448,11 @@
         "oneInX": 101,
         "callSchedule": 3,
         "physicalToll": 2,
-        "emotionalToll": 5
+        "emotionalToll": 5,
+        "aiRiskNow": 3,
+        "aiRiskMedium": 4,
+        "aiRiskLong": 5,
+        "aiNarrative": "Autoimmune diseases are complex puzzles that AI can help piece together. But the longitudinal patient relationships and nuanced treatment decisions keep this role human."
       },
       "scores": {
         "category_1": 3.25,
@@ -5365,7 +5549,11 @@
         "oneInX": 72,
         "callSchedule": 2,
         "physicalToll": 1,
-        "emotionalToll": 4
+        "emotionalToll": 4,
+        "aiRiskNow": 4,
+        "aiRiskMedium": 5,
+        "aiRiskLong": 6,
+        "aiNarrative": "Diabetes management is being transformed by AI-powered insulin pumps and glucose monitors. The role shifts toward overseeing technology and handling complex cases."
       },
       "scores": {
         "category_1": 3.25,
@@ -5462,7 +5650,11 @@
         "oneInX": 68,
         "callSchedule": 5,
         "physicalToll": 2,
-        "emotionalToll": 6
+        "emotionalToll": 6,
+        "aiRiskNow": 3,
+        "aiRiskMedium": 4,
+        "aiRiskLong": 5,
+        "aiNarrative": "AI can help identify pathogens and suggest antibiotics faster. But the detective work of complex infections and antibiotic stewardship stays with ID doctors."
       },
       "scores": {
         "category_1": 3.25,
@@ -5559,7 +5751,11 @@
         "oneInX": 152,
         "callSchedule": 2,
         "physicalToll": 1,
-        "emotionalToll": 2
+        "emotionalToll": 2,
+        "aiRiskNow": 3,
+        "aiRiskMedium": 3,
+        "aiRiskLong": 4,
+        "aiNarrative": "Allergy testing and immunotherapy are hands-on and protocol-driven. AI may help with diagnosis patterns, but the treatment is physical and stays human."
       },
       "scores": {
         "category_1": 3.25,
@@ -5656,7 +5852,11 @@
         "oneInX": 68,
         "callSchedule": 3,
         "physicalToll": 3,
-        "emotionalToll": 4
+        "emotionalToll": 4,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 3,
+        "aiRiskLong": 3,
+        "aiNarrative": "Rehab medicine is hands-on and relationship-heavy. AI and robotics can assist with therapy protocols, but the physician role in coordinating care stays human."
       },
       "scores": {
         "category_1": 3.25,
@@ -5753,7 +5953,11 @@
         "oneInX": 152,
         "callSchedule": 3,
         "physicalToll": 2,
-        "emotionalToll": 7
+        "emotionalToll": 7,
+        "aiRiskNow": 4,
+        "aiRiskMedium": 5,
+        "aiRiskLong": 6,
+        "aiNarrative": "AI is already improving treatment planning and tumor targeting. The role is shifting toward overseeing AI-generated plans rather than creating them from scratch."
       },
       "scores": {
         "category_1": 3.25,
@@ -5850,7 +6054,11 @@
         "oneInX": 48,
         "callSchedule": 3,
         "physicalToll": 2,
-        "emotionalToll": 3
+        "emotionalToll": 3,
+        "aiRiskNow": 4,
+        "aiRiskMedium": 6,
+        "aiRiskLong": 7,
+        "aiNarrative": "Digital pathology and AI pattern recognition are advancing quickly. The role is evolving toward overseeing AI-flagged slides and handling complex cases."
       },
       "scores": {
         "category_1": 3.25,
@@ -5947,7 +6155,11 @@
         "oneInX": 203,
         "callSchedule": 3,
         "physicalToll": 2,
-        "emotionalToll": 3
+        "emotionalToll": 3,
+        "aiRiskNow": 4,
+        "aiRiskMedium": 5,
+        "aiRiskLong": 6,
+        "aiNarrative": "AI is getting better at reading nuclear scans and PET imaging. The theranostics (treatment) side grows while the pure reading side faces more AI competition."
       },
       "scores": {
         "category_1": 3.25,
@@ -6044,7 +6256,11 @@
         "oneInX": 35,
         "callSchedule": 4,
         "physicalToll": 2,
-        "emotionalToll": 10
+        "emotionalToll": 10,
+        "aiRiskNow": 1,
+        "aiRiskMedium": 2,
+        "aiRiskLong": 2,
+        "aiNarrative": "End-of-life care is the most deeply human work in medicine. AI has almost no role here \u2014 this is about empathy, family conversations, and comfort."
       },
       "scores": {
         "category_1": 3.25,
@@ -6141,7 +6357,11 @@
         "oneInX": 78,
         "callSchedule": 3,
         "physicalToll": 2,
-        "emotionalToll": 7
+        "emotionalToll": 7,
+        "aiRiskNow": 3,
+        "aiRiskMedium": 4,
+        "aiRiskLong": 5,
+        "aiNarrative": "Caring for elderly patients involves complex social and medical needs that AI can't manage alone. AI helps with medication checks and monitoring, but the human touch is essential."
       },
       "scores": {
         "category_1": 3.25,
@@ -6238,7 +6458,11 @@
         "oneInX": 61,
         "callSchedule": 8,
         "physicalToll": 4,
-        "emotionalToll": 9
+        "emotionalToll": 9,
+        "aiRiskNow": 3,
+        "aiRiskMedium": 3,
+        "aiRiskLong": 4,
+        "aiNarrative": "NICU care involves tiny, fragile patients who need constant human attention. AI helps with monitoring but the hands-on care and family communication stay human."
       },
       "scores": {
         "category_1": 3.25,
@@ -6335,7 +6559,11 @@
         "oneInX": 32,
         "callSchedule": 5,
         "physicalToll": 2,
-        "emotionalToll": 6
+        "emotionalToll": 6,
+        "aiRiskNow": 3,
+        "aiRiskMedium": 4,
+        "aiRiskLong": 5,
+        "aiNarrative": "AI is improving at reading EEGs and brain scans, which helps neurologists. But the complex clinical exams and patient relationships keep the role secure."
       },
       "scores": {
         "category_1": 3.25,
@@ -6432,7 +6660,11 @@
         "oneInX": 122,
         "callSchedule": 2,
         "physicalToll": 1,
-        "emotionalToll": 2
+        "emotionalToll": 2,
+        "aiRiskNow": 4,
+        "aiRiskMedium": 5,
+        "aiRiskLong": 7,
+        "aiNarrative": "Sleep studies are heavily data-driven, and AI is already good at scoring them. The role is shifting toward interpreting AI-scored studies and managing complex sleep disorders."
       },
       "scores": {
         "category_1": 3.25,
@@ -6529,7 +6761,11 @@
         "oneInX": 101,
         "callSchedule": 1,
         "physicalToll": 1,
-        "emotionalToll": 2
+        "emotionalToll": 2,
+        "aiRiskNow": 4,
+        "aiRiskMedium": 5,
+        "aiRiskLong": 6,
+        "aiNarrative": "Population health data analysis is where AI shines, so some analytical tasks may shift. But workplace evaluations, policy work, and public health leadership stay human."
       },
       "scores": {
         "category_1": 3.25,
@@ -6626,7 +6862,11 @@
         "oneInX": 434,
         "callSchedule": 2,
         "physicalToll": 1,
-        "emotionalToll": 5
+        "emotionalToll": 5,
+        "aiRiskNow": 4,
+        "aiRiskMedium": 5,
+        "aiRiskLong": 6,
+        "aiNarrative": "Genomic analysis is being transformed by AI, which can spot patterns in DNA data faster than humans. But genetic counseling and complex interpretation still need human doctors."
       },
       "scores": {
         "category_1": 3.25,
@@ -6723,7 +6963,11 @@
         "oneInX": 61,
         "callSchedule": 9,
         "physicalToll": 5,
-        "emotionalToll": 9
+        "emotionalToll": 9,
+        "aiRiskNow": 3,
+        "aiRiskMedium": 3,
+        "aiRiskLong": 4,
+        "aiNarrative": "ICU care involves complex, rapidly changing patients that need human judgment. AI helps with monitoring and early warning systems, but critical decisions stay with doctors."
       },
       "scores": {
         "category_1": 3.25,
@@ -6820,7 +7064,11 @@
         "oneInX": 8,
         "callSchedule": 9,
         "physicalToll": 8,
-        "emotionalToll": 7
+        "emotionalToll": 7,
+        "aiRiskNow": 3,
+        "aiRiskMedium": 4,
+        "aiRiskLong": 5,
+        "aiNarrative": "AI retinal screening is improving fast and can already detect diabetic eye disease. The role shifts toward managing AI-flagged findings and complex disease cases."
       },
       "scores": {
         "category_1": 6.0,
@@ -6917,7 +7165,11 @@
         "oneInX": 7,
         "callSchedule": 10,
         "physicalToll": 8,
-        "emotionalToll": 8
+        "emotionalToll": 8,
+        "aiRiskNow": 3,
+        "aiRiskMedium": 4,
+        "aiRiskLong": 5,
+        "aiNarrative": "Pre- and post-op eye exams follow protocols that AI could assist with. But the hands-on specialty fitting and patient relationships keep the role human."
       },
       "scores": {
         "category_1": 6.0,
@@ -7014,7 +7266,11 @@
         "oneInX": 1,
         "callSchedule": 10,
         "physicalToll": 8,
-        "emotionalToll": 8
+        "emotionalToll": 8,
+        "aiRiskNow": 3,
+        "aiRiskMedium": 5,
+        "aiRiskLong": 6,
+        "aiNarrative": "AI-powered refraction machines and retinal screening are advancing. Routine eye exams face the most disruption, but complex cases and optical dispensing stay human."
       },
       "scores": {
         "category_1": 6.0,

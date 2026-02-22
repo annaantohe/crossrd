@@ -15,6 +15,13 @@ import {
 } from "recharts";
 import { styles } from "../styles/theme";
 
+// AI risk dot color: 1-3 green, 4-6 amber, 7-10 red
+function aiDotColor(score) {
+  if (score <= 3) return "#2e7d32";
+  if (score <= 6) return "#f57f17";
+  return "#c62828";
+}
+
 // column definitions used by the table
 const COLUMNS = [
   { key: "oneInX", label: "🎯 Get In", fmt: (v) => v >= 999 ? "N/A" : `1:${v}` },
@@ -24,6 +31,7 @@ const COLUMNS = [
   { key: "satisfaction", label: "😊 Happy", fmt: (v) => `${v}%` },
   { key: "hoursWeek", label: "⏰ Hrs", fmt: (v) => `${v}` },
   { key: "burnout", label: "🔥 Burn", fmt: (v) => `${v}%` },
+  { key: "aiRiskAvg", label: "⚡ AI" },
 ];
 
 export default function FullField({ allTracks, profColors, profLabels }) {
@@ -39,7 +47,7 @@ export default function FullField({ allTracks, profColors, profLabels }) {
     } else {
       setSortKey(key);
       // for "bad = high" columns default to ascending
-      setSortDir(key === "hoursWeek" || key === "burnout" || key === "oneInX" ? "asc" : "desc");
+      setSortDir(key === "hoursWeek" || key === "burnout" || key === "oneInX" || key === "aiRiskAvg" ? "asc" : "desc");
     }
   };
 
@@ -65,7 +73,7 @@ export default function FullField({ allTracks, profColors, profLabels }) {
   return (
     <div style={{ padding: "12px 4px" }}>
       <h2 style={styles.header}>🏟️ The Full Field — All {allTracks.length} Careers</h2>
-      <p style={styles.subtitle}>Every career we evaluated across {Object.keys(profColors).length} doctor types</p>
+      <p style={styles.subtitle}>Every career we evaluated across {Object.keys(profColors).length} profession types</p>
 
       {/* profession filter buttons */}
       <div
@@ -266,7 +274,7 @@ export default function FullField({ allTracks, profColors, profLabels }) {
         </div>
       ) : (
         /* ── table view ── */
-        <div>
+        <div style={{ overflowX: "auto" }}>
           <table
             style={{
               width: "100%",
@@ -275,13 +283,14 @@ export default function FullField({ allTracks, profColors, profLabels }) {
               borderSpacing: "0 2px",
               fontFamily: "'DM Sans', sans-serif",
               fontSize: 10,
+              minWidth: 620,
             }}
           >
             <colgroup>
-              <col style={{ width: "22%" }} />
+              <col style={{ width: "19%" }} />
               <col style={{ width: "7%" }} />
               {COLUMNS.map((col) => (
-                <col key={col.key} style={{ width: `${71 / COLUMNS.length}%` }} />
+                <col key={col.key} style={{ width: col.key === "aiRiskAvg" ? "5%" : `${69 / (COLUMNS.length - 1)}%` }} />
               ))}
             </colgroup>
             <thead>
@@ -310,6 +319,7 @@ export default function FullField({ allTracks, profColors, profLabels }) {
                   <th
                     key={col.key}
                     onClick={() => toggleSort(col.key)}
+                    title={col.key === "aiRiskAvg" ? "AI risk: Now · 5yr · 10yr" : undefined}
                     style={{
                       padding: "5px 2px",
                       fontSize: 9,
@@ -336,6 +346,7 @@ export default function FullField({ allTracks, profColors, profLabels }) {
                   <tr key={t.name} style={{ background: bg }}>
                     {/* sticky career name column */}
                     <td
+                      title={t.name}
                       style={{
                         padding: "5px 3px",
                         fontWeight: 600,
@@ -371,6 +382,37 @@ export default function FullField({ allTracks, profColors, profLabels }) {
 
                     {/* data columns with color-coding */}
                     {COLUMNS.map((col) => {
+                      // AI risk column: render 3 colored dots
+                      if (col.key === "aiRiskAvg") {
+                        const now = t.aiRiskNow || 5;
+                        const med = t.aiRiskMedium || 5;
+                        const lng = t.aiRiskLong || 5;
+                        return (
+                          <td
+                            key={col.key}
+                            title={`Now: ${now} · 5yr: ${med} · 10yr: ${lng}`}
+                            style={{
+                              padding: "5px 2px",
+                              textAlign: "center",
+                            }}
+                          >
+                            {[now, med, lng].map((s, j) => (
+                              <span
+                                key={j}
+                                style={{
+                                  display: "inline-block",
+                                  width: 8,
+                                  height: 8,
+                                  borderRadius: "50%",
+                                  background: aiDotColor(s),
+                                  margin: "0 1px",
+                                }}
+                              />
+                            ))}
+                          </td>
+                        );
+                      }
+
                       const val = t[col.key];
 
                       // figure out the min/max for this column within the
@@ -418,6 +460,22 @@ export default function FullField({ allTracks, profColors, profLabels }) {
           </table>
         </div>
       )}
+
+      {/* legend for AI dots */}
+      <div
+        style={{
+          fontFamily: "'DM Sans', sans-serif",
+          fontSize: 9,
+          color: "#999",
+          textAlign: "center",
+          marginTop: 6,
+        }}
+      >
+        ⚡ AI column: 3 dots = Now · 5yr · 10yr risk —{" "}
+        <span style={{ color: "#2e7d32" }}>●</span> low{" "}
+        <span style={{ color: "#f57f17" }}>●</span> moderate{" "}
+        <span style={{ color: "#c62828" }}>●</span> high
+      </div>
 
       {/* takeaway box */}
       <div style={styles.soWhat}>

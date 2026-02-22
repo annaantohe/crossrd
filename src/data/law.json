@@ -792,7 +792,11 @@
         "oneInX": 18,
         "callSchedule": 2,
         "physicalToll": 3,
-        "emotionalToll": 6
+        "emotionalToll": 6,
+        "aiRiskNow": 4,
+        "aiRiskMedium": 6,
+        "aiRiskLong": 7,
+        "aiNarrative": "AI is getting good at reading thousands of contracts for due diligence. The senior lawyers who negotiate deals and advise CEOs aren't going anywhere, but junior associates doing doc review are at risk."
       },
       "scores": {
         "category_1": 4.75,
@@ -886,7 +890,11 @@
         "oneInX": 28,
         "callSchedule": 2,
         "physicalToll": 3,
-        "emotionalToll": 6
+        "emotionalToll": 6,
+        "aiRiskNow": 4,
+        "aiRiskMedium": 6,
+        "aiRiskLong": 7,
+        "aiNarrative": "Drafting SEC filings and prospectuses is becoming AI-assisted, but understanding market timing, regulatory nuance, and client relationships keeps senior lawyers essential."
       },
       "scores": {
         "category_1": 4.75,
@@ -980,7 +988,11 @@
         "oneInX": 49,
         "callSchedule": 2,
         "physicalToll": 3,
-        "emotionalToll": 7
+        "emotionalToll": 7,
+        "aiRiskNow": 4,
+        "aiRiskMedium": 5,
+        "aiRiskLong": 7,
+        "aiNarrative": "AI can speed up fund formation documents and due diligence, but the deal judgment, relationship management, and negotiation skills that PE/VC lawyers need are hard to automate."
       },
       "scores": {
         "category_1": 4.75,
@@ -1074,7 +1086,11 @@
         "oneInX": 32,
         "callSchedule": 3,
         "physicalToll": 2,
-        "emotionalToll": 5
+        "emotionalToll": 5,
+        "aiRiskNow": 4,
+        "aiRiskMedium": 6,
+        "aiRiskLong": 7,
+        "aiNarrative": "Loan document review and regulatory compliance monitoring are increasingly automated. The lawyers who structure complex deals and manage bank relationships will adapt, but routine work is shrinking."
       },
       "scores": {
         "category_1": 4.75,
@@ -1168,7 +1184,11 @@
         "oneInX": 56,
         "callSchedule": 4,
         "physicalToll": 2,
-        "emotionalToll": 4
+        "emotionalToll": 4,
+        "aiRiskNow": 3,
+        "aiRiskMedium": 5,
+        "aiRiskLong": 6,
+        "aiNarrative": "Tax code is complex enough that AI struggles with creative planning, but basic tax research and compliance work are getting automated. The best tax lawyers think several moves ahead \u2014 AI can't do that yet."
       },
       "scores": {
         "category_1": 4.75,
@@ -1262,7 +1282,11 @@
         "oneInX": 65,
         "callSchedule": 4,
         "physicalToll": 2,
-        "emotionalToll": 4
+        "emotionalToll": 4,
+        "aiRiskNow": 4,
+        "aiRiskMedium": 5,
+        "aiRiskLong": 6,
+        "aiNarrative": "Board advisory work and executive compensation strategy require human judgment and trust. AI helps with proxy statement drafting and compliance monitoring, but the counselor role stays human."
       },
       "scores": {
         "category_1": 4.75,
@@ -1356,7 +1380,11 @@
         "oneInX": 56,
         "callSchedule": 3,
         "physicalToll": 2,
-        "emotionalToll": 5
+        "emotionalToll": 5,
+        "aiRiskNow": 3,
+        "aiRiskMedium": 5,
+        "aiRiskLong": 6,
+        "aiNarrative": "Bankruptcy involves intense negotiation, courtroom advocacy, and creative deal-making under pressure. AI helps with financial analysis, but the human strategy and persuasion pieces are safe."
       },
       "scores": {
         "category_1": 4.75,
@@ -1450,7 +1478,11 @@
         "oneInX": 14,
         "callSchedule": 3,
         "physicalToll": 2,
-        "emotionalToll": 6
+        "emotionalToll": 6,
+        "aiRiskNow": 4,
+        "aiRiskMedium": 5,
+        "aiRiskLong": 6,
+        "aiNarrative": "AI already does legal research and document review faster than junior associates. But trial strategy, depositions, and courtroom advocacy are deeply human skills that aren't going away."
       },
       "scores": {
         "category_1": 4.75,
@@ -1544,7 +1576,11 @@
         "oneInX": 43,
         "callSchedule": 3,
         "physicalToll": 2,
-        "emotionalToll": 6
+        "emotionalToll": 6,
+        "aiRiskNow": 3,
+        "aiRiskMedium": 4,
+        "aiRiskLong": 5,
+        "aiNarrative": "Defending executives in federal investigations requires reading people, persuading juries, and navigating high-stakes crises. AI helps with research, but the core work is human."
       },
       "scores": {
         "category_1": 4.75,
@@ -1638,7 +1674,11 @@
         "oneInX": 46,
         "callSchedule": 4,
         "physicalToll": 2,
-        "emotionalToll": 5
+        "emotionalToll": 5,
+        "aiRiskNow": 4,
+        "aiRiskMedium": 5,
+        "aiRiskLong": 6,
+        "aiNarrative": "AI excels at reviewing millions of documents in discovery, which is a huge part of class action work. But building trial strategy and managing complex multi-party litigation still needs experienced lawyers."
       },
       "scores": {
         "category_1": 4.75,
@@ -1732,7 +1772,11 @@
         "oneInX": 60,
         "callSchedule": 4,
         "physicalToll": 2,
-        "emotionalToll": 5
+        "emotionalToll": 5,
+        "aiRiskNow": 3,
+        "aiRiskMedium": 5,
+        "aiRiskLong": 6,
+        "aiNarrative": "AI can help analyze scientific evidence and review technical documents, but defending companies at trial requires understanding juries, expert witnesses, and courtroom dynamics."
       },
       "scores": {
         "category_1": 4.75,
@@ -1826,7 +1870,11 @@
         "oneInX": 111,
         "callSchedule": 6,
         "physicalToll": 1,
-        "emotionalToll": 4
+        "emotionalToll": 4,
+        "aiRiskNow": 4,
+        "aiRiskMedium": 6,
+        "aiRiskLong": 7,
+        "aiNarrative": "Brief writing and legal research are areas where AI is advancing fast. But crafting truly persuasive appellate arguments and oral advocacy before judges remain deeply human skills."
       },
       "scores": {
         "category_1": 4.75,
@@ -1920,7 +1968,11 @@
         "oneInX": 97,
         "callSchedule": 3,
         "physicalToll": 3,
-        "emotionalToll": 5
+        "emotionalToll": 5,
+        "aiRiskNow": 3,
+        "aiRiskMedium": 4,
+        "aiRiskLong": 5,
+        "aiNarrative": "Cross-border disputes involve cultural nuance, multilingual advocacy, and in-person hearing skills. AI helps with research and document management, but the advocacy is irreplaceable."
       },
       "scores": {
         "category_1": 4.75,
@@ -2014,7 +2066,11 @@
         "oneInX": 18,
         "callSchedule": 4,
         "physicalToll": 2,
-        "emotionalToll": 7
+        "emotionalToll": 7,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 3,
+        "aiRiskLong": 3,
+        "aiNarrative": "Standing in court, exercising charging discretion, and seeking justice for victims are fundamentally human tasks. AI can help organize case files, but prosecutors make life-changing decisions that require human judgment."
       },
       "scores": {
         "category_1": 4.75,
@@ -2108,7 +2164,11 @@
         "oneInX": 71,
         "callSchedule": 3,
         "physicalToll": 2,
-        "emotionalToll": 7
+        "emotionalToll": 7,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 3,
+        "aiRiskLong": 3,
+        "aiNarrative": "Federal prosecution involves complex investigations, grand jury strategy, and courtroom advocacy at the highest level. AI tools help with research, but the judgment calls are deeply human."
       },
       "scores": {
         "category_1": 4.75,
@@ -2202,7 +2262,11 @@
         "oneInX": 32,
         "callSchedule": 4,
         "physicalToll": 2,
-        "emotionalToll": 9
+        "emotionalToll": 9,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 3,
+        "aiRiskLong": 3,
+        "aiNarrative": "Fighting for people's freedom in court \u2014 often people at their worst moments \u2014 is work that demands empathy, advocacy, and human connection that AI simply cannot provide."
       },
       "scores": {
         "category_1": 4.75,
@@ -2296,7 +2360,11 @@
         "oneInX": 49,
         "callSchedule": 4,
         "physicalToll": 2,
-        "emotionalToll": 7
+        "emotionalToll": 7,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 3,
+        "aiRiskLong": 4,
+        "aiNarrative": "AI can help research case law and draft motions, but standing up in court and fighting for someone's freedom is deeply human work. Client trust and jury persuasion can't be automated."
       },
       "scores": {
         "category_1": 4.75,
@@ -2390,7 +2458,11 @@
         "oneInX": 78,
         "callSchedule": 6,
         "physicalToll": 1,
-        "emotionalToll": 3
+        "emotionalToll": 3,
+        "aiRiskNow": 4,
+        "aiRiskMedium": 5,
+        "aiRiskLong": 6,
+        "aiNarrative": "AI is getting good at trademark searches and clearance opinions. But brand strategy, opposition proceedings, and client counseling still need human creativity and judgment."
       },
       "scores": {
         "category_1": 4.75,
@@ -2484,7 +2556,11 @@
         "oneInX": 111,
         "callSchedule": 5,
         "physicalToll": 1,
-        "emotionalToll": 3
+        "emotionalToll": 3,
+        "aiRiskNow": 3,
+        "aiRiskMedium": 5,
+        "aiRiskLong": 6,
+        "aiNarrative": "AI raises new copyright questions (who owns AI-generated content?) while also automating contract review. Entertainment lawyers who negotiate talent deals and manage relationships are safe; pure drafting work is not."
       },
       "scores": {
         "category_1": 4.75,
@@ -2578,7 +2654,11 @@
         "oneInX": 130,
         "callSchedule": 5,
         "physicalToll": 1,
-        "emotionalToll": 5
+        "emotionalToll": 5,
+        "aiRiskNow": 3,
+        "aiRiskMedium": 4,
+        "aiRiskLong": 5,
+        "aiNarrative": "Emergency injunctions, witness-intensive litigation, and rapid-response trade secret cases require courtroom skill and speed. AI helps with document review but can't replace the advocacy."
       },
       "scores": {
         "category_1": 4.75,
@@ -2672,7 +2752,11 @@
         "oneInX": 97,
         "callSchedule": 5,
         "physicalToll": 1,
-        "emotionalToll": 7
+        "emotionalToll": 7,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 3,
+        "aiRiskLong": 3,
+        "aiNarrative": "Impact litigation that changes society requires passionate human advocates who understand justice, history, and the communities they serve. AI is a research tool here, not a replacement."
       },
       "scores": {
         "category_1": 4.75,
@@ -2766,7 +2850,11 @@
         "oneInX": 39,
         "callSchedule": 5,
         "physicalToll": 1,
-        "emotionalToll": 8
+        "emotionalToll": 8,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 3,
+        "aiRiskLong": 4,
+        "aiNarrative": "Helping vulnerable people navigate housing, benefits, and family crises requires deep empathy and human connection. AI could help with forms and basic guidance, but the counseling role is irreplaceable."
       },
       "scores": {
         "category_1": 4.75,
@@ -2860,7 +2948,11 @@
         "oneInX": 130,
         "callSchedule": 6,
         "physicalToll": 1,
-        "emotionalToll": 5
+        "emotionalToll": 5,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 3,
+        "aiRiskLong": 4,
+        "aiNarrative": "Environmental advocacy combines science, policy, and courtroom skills. AI helps with research and data analysis, but persuading courts and agencies to protect the environment needs human passion."
       },
       "scores": {
         "category_1": 4.75,
@@ -2954,7 +3046,11 @@
         "oneInX": 78,
         "callSchedule": 4,
         "physicalToll": 2,
-        "emotionalToll": 9
+        "emotionalToll": 9,
+        "aiRiskNow": 3,
+        "aiRiskMedium": 4,
+        "aiRiskLong": 5,
+        "aiNarrative": "Asylum cases and deportation defense are deeply personal, often life-or-death. AI can help with forms and case research, but standing up for immigrants in court requires human empathy and advocacy."
       },
       "scores": {
         "category_1": 4.75,
@@ -3048,7 +3144,11 @@
         "oneInX": 97,
         "callSchedule": 5,
         "physicalToll": 1,
-        "emotionalToll": 4
+        "emotionalToll": 4,
+        "aiRiskNow": 3,
+        "aiRiskMedium": 4,
+        "aiRiskLong": 5,
+        "aiNarrative": "Drafting legislation and regulatory analysis involve political judgment, stakeholder management, and policy vision. AI helps with research, but shaping laws requires human understanding of society."
       },
       "scores": {
         "category_1": 4.75,
@@ -3142,7 +3242,11 @@
         "oneInX": 65,
         "callSchedule": 3,
         "physicalToll": 4,
-        "emotionalToll": 6
+        "emotionalToll": 6,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 3,
+        "aiRiskLong": 3,
+        "aiNarrative": "Military justice involves courtroom advocacy, operational law in combat zones, and advising commanders under extreme pressure. This is about as AI-proof as law gets."
       },
       "scores": {
         "category_1": 4.75,
@@ -3239,7 +3343,11 @@
         "oneInX": 28,
         "callSchedule": 5,
         "physicalToll": 1,
-        "emotionalToll": 8
+        "emotionalToll": 8,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 3,
+        "aiRiskLong": 3,
+        "aiNarrative": "Helping families through divorce, custody battles, and emotional crises is deeply human work. AI might help draft agreements, but the counseling and courtroom advocacy are irreplaceable."
       },
       "scores": {
         "category_1": 4.75,
@@ -3333,7 +3441,11 @@
         "oneInX": 43,
         "callSchedule": 7,
         "physicalToll": 1,
-        "emotionalToll": 4
+        "emotionalToll": 4,
+        "aiRiskNow": 5,
+        "aiRiskMedium": 6,
+        "aiRiskLong": 7,
+        "aiNarrative": "Basic wills and trusts are increasingly automatable \u2014 online tools already handle simple estates. Complex high-net-worth planning still needs human expertise, but the bread-and-butter work is at risk."
       },
       "scores": {
         "category_1": 4.75,
@@ -3427,7 +3539,11 @@
         "oneInX": 97,
         "callSchedule": 6,
         "physicalToll": 1,
-        "emotionalToll": 6
+        "emotionalToll": 6,
+        "aiRiskNow": 3,
+        "aiRiskMedium": 4,
+        "aiRiskLong": 5,
+        "aiNarrative": "Working with elderly clients and their families on sensitive end-of-life planning requires patience, empathy, and trust. AI can help with Medicaid calculations, but the human relationship is central."
       },
       "scores": {
         "category_1": 4.75,
@@ -3521,7 +3637,11 @@
         "oneInX": 56,
         "callSchedule": 5,
         "physicalToll": 1,
-        "emotionalToll": 7
+        "emotionalToll": 7,
+        "aiRiskNow": 3,
+        "aiRiskMedium": 4,
+        "aiRiskLong": 5,
+        "aiNarrative": "H-1B petitions and green card applications are form-heavy and increasingly automatable. But complex cases, deportation defense, and employer compliance advisory still need experienced lawyers."
       },
       "scores": {
         "category_1": 4.75,
@@ -3615,7 +3735,11 @@
         "oneInX": 32,
         "callSchedule": 5,
         "physicalToll": 2,
-        "emotionalToll": 6
+        "emotionalToll": 6,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 3,
+        "aiRiskLong": 4,
+        "aiNarrative": "Convincing juries, negotiating settlements, and building relationships with injured clients is inherently human. AI helps with medical record analysis, but the courtroom skills are what win cases."
       },
       "scores": {
         "category_1": 4.75,
@@ -3709,7 +3833,11 @@
         "oneInX": 111,
         "callSchedule": 5,
         "physicalToll": 2,
-        "emotionalToll": 7
+        "emotionalToll": 7,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 3,
+        "aiRiskLong": 4,
+        "aiNarrative": "Medical malpractice cases require understanding complex medicine, working with expert witnesses, and persuading juries. AI can help analyze records, but trial advocacy and client relationships drive results."
       },
       "scores": {
         "category_1": 4.75,
@@ -3803,7 +3931,11 @@
         "oneInX": 97,
         "callSchedule": 6,
         "physicalToll": 1,
-        "emotionalToll": 5
+        "emotionalToll": 5,
+        "aiRiskNow": 4,
+        "aiRiskMedium": 5,
+        "aiRiskLong": 6,
+        "aiNarrative": "Workers' comp is fairly routine and form-driven, making it more vulnerable to AI than other plaintiff-side work. But hearings, medical disputes, and client relationships still need human lawyers."
       },
       "scores": {
         "category_1": 4.75,
@@ -3897,7 +4029,11 @@
         "oneInX": 60,
         "callSchedule": 5,
         "physicalToll": 1,
-        "emotionalToll": 4
+        "emotionalToll": 4,
+        "aiRiskNow": 5,
+        "aiRiskMedium": 7,
+        "aiRiskLong": 8,
+        "aiNarrative": "Real estate closings, lease reviews, and due diligence are document-heavy and increasingly automated. The lawyers who survive will handle complex deals and client relationships, not routine paperwork."
       },
       "scores": {
         "category_1": 4.75,
@@ -3991,7 +4127,11 @@
         "oneInX": 97,
         "callSchedule": 5,
         "physicalToll": 1,
-        "emotionalToll": 5
+        "emotionalToll": 5,
+        "aiRiskNow": 3,
+        "aiRiskMedium": 4,
+        "aiRiskLong": 5,
+        "aiNarrative": "Courtroom work in lease disputes, foreclosures, and title claims keeps this role more protected than transactional real estate. AI helps with research, but trial skills matter."
       },
       "scores": {
         "category_1": 4.75,
@@ -4085,7 +4225,11 @@
         "oneInX": 156,
         "callSchedule": 6,
         "physicalToll": 1,
-        "emotionalToll": 4
+        "emotionalToll": 4,
+        "aiRiskNow": 3,
+        "aiRiskMedium": 4,
+        "aiRiskLong": 5,
+        "aiNarrative": "Zoning hearings, community engagement, and municipal politics are deeply local and human. AI can help with research, but persuading planning boards requires personal relationships and presence."
       },
       "scores": {
         "category_1": 4.75,
@@ -4179,7 +4323,11 @@
         "oneInX": 130,
         "callSchedule": 5,
         "physicalToll": 2,
-        "emotionalToll": 5
+        "emotionalToll": 5,
+        "aiRiskNow": 3,
+        "aiRiskMedium": 5,
+        "aiRiskLong": 6,
+        "aiNarrative": "Contract disputes and mechanics liens involve some routine document work that AI can handle. But site visits, expert testimony, and arbitration hearings keep this more protected than pure transactional work."
       },
       "scores": {
         "category_1": 4.75,
@@ -4273,7 +4421,11 @@
         "oneInX": 78,
         "callSchedule": 5,
         "physicalToll": 1,
-        "emotionalToll": 4
+        "emotionalToll": 4,
+        "aiRiskNow": 3,
+        "aiRiskMedium": 5,
+        "aiRiskLong": 6,
+        "aiNarrative": "Healthcare regulation is complex and constantly changing. AI helps monitor compliance, but advising hospitals on Stark Law, anti-kickback, and CMS audits requires nuanced human judgment."
       },
       "scores": {
         "category_1": 4.75,
@@ -4367,7 +4519,11 @@
         "oneInX": 87,
         "callSchedule": 5,
         "physicalToll": 1,
-        "emotionalToll": 4
+        "emotionalToll": 4,
+        "aiRiskNow": 3,
+        "aiRiskMedium": 5,
+        "aiRiskLong": 6,
+        "aiNarrative": "AI is great at monitoring trading patterns and flagging compliance issues. But defending clients in SEC investigations and interpreting ambiguous regulations still needs experienced human lawyers."
       },
       "scores": {
         "category_1": 4.75,
@@ -4461,7 +4617,11 @@
         "oneInX": 111,
         "callSchedule": 6,
         "physicalToll": 1,
-        "emotionalToll": 4
+        "emotionalToll": 4,
+        "aiRiskNow": 3,
+        "aiRiskMedium": 4,
+        "aiRiskLong": 5,
+        "aiNarrative": "Environmental permitting and compliance involve local politics, agency relationships, and site-specific judgment. AI helps with regulatory tracking, but the advisory work stays human."
       },
       "scores": {
         "category_1": 4.75,
@@ -4555,7 +4715,11 @@
         "oneInX": 65,
         "callSchedule": 4,
         "physicalToll": 1,
-        "emotionalToll": 4
+        "emotionalToll": 4,
+        "aiRiskNow": 3,
+        "aiRiskMedium": 4,
+        "aiRiskLong": 5,
+        "aiNarrative": "Privacy law is booming because of AI, which is ironic. Lawyers who understand GDPR, CCPA, and emerging AI regulation are in high demand \u2014 the field is growing faster than AI can replace it."
       },
       "scores": {
         "category_1": 4.75,
@@ -4649,7 +4813,11 @@
         "oneInX": 56,
         "callSchedule": 5,
         "physicalToll": 1,
-        "emotionalToll": 4
+        "emotionalToll": 4,
+        "aiRiskNow": 4,
+        "aiRiskMedium": 5,
+        "aiRiskLong": 7,
+        "aiNarrative": "AI is increasingly used for compliance monitoring, risk screening, and policy enforcement. The strategic compliance leaders will stay, but routine monitoring roles are shrinking."
       },
       "scores": {
         "category_1": 4.75,
@@ -4743,7 +4911,11 @@
         "oneInX": 65,
         "callSchedule": 5,
         "physicalToll": 1,
-        "emotionalToll": 5
+        "emotionalToll": 5,
+        "aiRiskNow": 4,
+        "aiRiskMedium": 5,
+        "aiRiskLong": 6,
+        "aiNarrative": "AI can help draft handbooks and flag compliance issues, but advising companies through discrimination claims, workplace investigations, and complex HR decisions needs human judgment."
       },
       "scores": {
         "category_1": 4.75,
@@ -4837,7 +5009,11 @@
         "oneInX": 78,
         "callSchedule": 5,
         "physicalToll": 1,
-        "emotionalToll": 6
+        "emotionalToll": 6,
+        "aiRiskNow": 3,
+        "aiRiskMedium": 4,
+        "aiRiskLong": 5,
+        "aiNarrative": "Fighting for workers who've been discriminated against or wrongfully terminated requires empathy, client relationships, and jury advocacy. AI helps with research but can't replace the human element."
       },
       "scores": {
         "category_1": 4.75,
@@ -4931,7 +5107,11 @@
         "oneInX": 130,
         "callSchedule": 5,
         "physicalToll": 1,
-        "emotionalToll": 5
+        "emotionalToll": 5,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 3,
+        "aiRiskLong": 4,
+        "aiNarrative": "Collective bargaining, strike negotiations, and labor board proceedings are intensely human \u2014 they're about power, relationships, and persuasion. AI is barely relevant here."
       },
       "scores": {
         "category_1": 4.75,
@@ -5025,7 +5205,11 @@
         "oneInX": 97,
         "callSchedule": 6,
         "physicalToll": 1,
-        "emotionalToll": 3
+        "emotionalToll": 3,
+        "aiRiskNow": 5,
+        "aiRiskMedium": 6,
+        "aiRiskLong": 7,
+        "aiNarrative": "Benefits compliance is technical and document-heavy \u2014 exactly the kind of work AI handles well. Lawyers who design creative benefit structures will survive, but routine ERISA compliance is automating."
       },
       "scores": {
         "category_1": 4.75,
@@ -5119,7 +5303,11 @@
         "oneInX": 97,
         "callSchedule": 4,
         "physicalToll": 1,
-        "emotionalToll": 4
+        "emotionalToll": 4,
+        "aiRiskNow": 5,
+        "aiRiskMedium": 6,
+        "aiRiskLong": 7,
+        "aiNarrative": "Contract review and SaaS agreement drafting are prime targets for AI automation. Lawyers who negotiate complex enterprise deals and advise on strategy will adapt, but templated work is disappearing."
       },
       "scores": {
         "category_1": 4.75,
@@ -5213,7 +5401,11 @@
         "oneInX": 130,
         "callSchedule": 3,
         "physicalToll": 1,
-        "emotionalToll": 5
+        "emotionalToll": 5,
+        "aiRiskNow": 3,
+        "aiRiskMedium": 4,
+        "aiRiskLong": 5,
+        "aiNarrative": "Data breach response is high-pressure, time-sensitive crisis work that needs human leadership. AI helps with forensics and compliance tracking, but managing a breach is a deeply human skill."
       },
       "scores": {
         "category_1": 4.75,
@@ -5307,7 +5499,11 @@
         "oneInX": 195,
         "callSchedule": 4,
         "physicalToll": 1,
-        "emotionalToll": 3
+        "emotionalToll": 3,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 3,
+        "aiRiskLong": 3,
+        "aiNarrative": "This is the one area of law where AI actually creates more work than it threatens. Someone has to write the rules for AI \u2014 and that someone needs to be human. This field is booming."
       },
       "scores": {
         "category_1": 4.75,
@@ -5401,7 +5597,11 @@
         "oneInX": 195,
         "callSchedule": 4,
         "physicalToll": 1,
-        "emotionalToll": 4
+        "emotionalToll": 4,
+        "aiRiskNow": 3,
+        "aiRiskMedium": 5,
+        "aiRiskLong": 6,
+        "aiNarrative": "Crypto regulation is still being written, which means human lawyers who understand both tech and securities law are essential. But as the rules settle, routine compliance work will automate."
       },
       "scores": {
         "category_1": 4.75,
@@ -5495,7 +5695,11 @@
         "oneInX": 130,
         "callSchedule": 7,
         "physicalToll": 1,
-        "emotionalToll": 4
+        "emotionalToll": 4,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 3,
+        "aiRiskLong": 3,
+        "aiNarrative": "Mediating disputes and running arbitration hearings are fundamentally about reading people, building trust, and finding creative solutions. AI might help with case research, but the core skill is human."
       },
       "scores": {
         "category_1": 4.75,
@@ -5589,7 +5793,11 @@
         "oneInX": 260,
         "callSchedule": 8,
         "physicalToll": 1,
-        "emotionalToll": 3
+        "emotionalToll": 3,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 3,
+        "aiRiskLong": 4,
+        "aiNarrative": "Teaching law students, mentoring, and producing original scholarship require human insight and connection. AI changes what professors teach about, but doesn't replace the professor."
       },
       "scores": {
         "category_1": 4.75,
@@ -5683,7 +5891,11 @@
         "oneInX": 111,
         "callSchedule": 3,
         "physicalToll": 3,
-        "emotionalToll": 5
+        "emotionalToll": 5,
+        "aiRiskNow": 4,
+        "aiRiskMedium": 5,
+        "aiRiskLong": 6,
+        "aiNarrative": "AI is transforming consulting \u2014 automating research, data analysis, and slide creation. But client relationships, strategic thinking, and leadership advisory keep the top consultants essential."
       },
       "scores": {
         "category_1": 4.75,
@@ -5777,7 +5989,11 @@
         "oneInX": 130,
         "callSchedule": 6,
         "physicalToll": 1,
-        "emotionalToll": 3
+        "emotionalToll": 3,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 3,
+        "aiRiskLong": 3,
+        "aiNarrative": "Legal tech professionals are the ones building and managing AI tools for lawyers. This field benefits from AI rather than being threatened by it \u2014 demand is surging."
       },
       "scores": {
         "category_1": 4.75,
@@ -5871,7 +6087,11 @@
         "oneInX": 260,
         "callSchedule": 3,
         "physicalToll": 5,
-        "emotionalToll": 7
+        "emotionalToll": 7,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 3,
+        "aiRiskLong": 3,
+        "aiNarrative": "Investigating crimes, conducting raids, and testifying in court are physical, interpersonal tasks that AI cannot perform. The JD helps agents understand complex financial crimes."
       },
       "scores": {
         "category_1": 4.75,
@@ -5965,7 +6185,11 @@
         "oneInX": 60,
         "callSchedule": 7,
         "physicalToll": 1,
-        "emotionalToll": 3
+        "emotionalToll": 3,
+        "aiRiskNow": 4,
+        "aiRiskMedium": 6,
+        "aiRiskLong": 7,
+        "aiNarrative": "AI is getting increasingly good at drafting patent applications and responding to office actions. Patent lawyers who deeply understand the technology will adapt, but routine prosecution work is automating fast."
       },
       "scores": {
         "category_1": 3.5,
@@ -6059,7 +6283,11 @@
         "oneInX": 111,
         "callSchedule": 3,
         "physicalToll": 2,
-        "emotionalToll": 5
+        "emotionalToll": 5,
+        "aiRiskNow": 3,
+        "aiRiskMedium": 5,
+        "aiRiskLong": 6,
+        "aiNarrative": "Patent trials involve complex technical arguments, claim construction, and jury persuasion. AI helps with prior art searches and document review, but courtroom advocacy stays human."
       },
       "scores": {
         "category_1": 3.5,
@@ -6153,7 +6381,11 @@
         "oneInX": 11,
         "callSchedule": 6,
         "physicalToll": 1,
-        "emotionalToll": 6
+        "emotionalToll": 6,
+        "aiRiskNow": 1,
+        "aiRiskMedium": 2,
+        "aiRiskLong": 2,
+        "aiNarrative": "Judges hold constitutional authority to decide cases, sentence people, and interpret the law. AI might help with research and docket management, but human judgment is the entire point of being a judge."
       },
       "scores": {
         "category_1": 4.75,
@@ -6253,7 +6485,11 @@
         "oneInX": 2,
         "callSchedule": 5,
         "physicalToll": 1,
-        "emotionalToll": 5
+        "emotionalToll": 5,
+        "aiRiskNow": 5,
+        "aiRiskMedium": 6,
+        "aiRiskLong": 7,
+        "aiNarrative": "Document review and case management are areas where AI is advancing fast. Litigation paralegals who learn to manage AI tools and handle complex trial logistics will do well, but basic document work is shrinking."
       },
       "scores": {
         "category_1": 7.75,
@@ -6347,7 +6583,11 @@
         "oneInX": 3,
         "callSchedule": 5,
         "physicalToll": 1,
-        "emotionalToll": 3
+        "emotionalToll": 3,
+        "aiRiskNow": 5,
+        "aiRiskMedium": 7,
+        "aiRiskLong": 8,
+        "aiNarrative": "Entity management, SEC filings, and corporate minutes are highly structured tasks that AI handles increasingly well. The paralegals who survive will manage AI systems rather than do the paperwork themselves."
       },
       "scores": {
         "category_1": 7.75,
@@ -6441,7 +6681,11 @@
         "oneInX": 4,
         "callSchedule": 6,
         "physicalToll": 1,
-        "emotionalToll": 2
+        "emotionalToll": 2,
+        "aiRiskNow": 5,
+        "aiRiskMedium": 7,
+        "aiRiskLong": 8,
+        "aiNarrative": "Patent and trademark docketing is exactly the kind of deadline-driven, structured work that AI excels at. IP paralegals need to become AI tool managers or risk being replaced by automation."
       },
       "scores": {
         "category_1": 7.75,

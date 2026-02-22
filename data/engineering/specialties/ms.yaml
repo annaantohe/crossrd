@@ -35,6 +35,10 @@ specialties:
   emotionalToll: 7
   malpracticeLiability: 10
   injuryCareerRisk: 10
+  aiRiskNow: 3
+  aiRiskMedium: 4
+  aiRiskLong: 4
+  aiNarrative: "You're literally building the AI — this field grows as AI grows. The risk isn't displacement, it's keeping up with how fast everything changes. ML engineers who can train, deploy, and optimize models are in massive demand."
   fellowshipOptions: "PhD track; specialization in NLP, computer vision, reinforcement learning"
   compModel: "Base salary + RSUs + signing bonus; FAANG/top-tier startup comp"
   revPerPatientVisit: "N/A — salaried or project-based"
@@ -76,6 +80,10 @@ specialties:
   emotionalToll: 8
   malpracticeLiability: 10
   injuryCareerRisk: 10
+  aiRiskNow: 4
+  aiRiskMedium: 6
+  aiRiskLong: 7
+  aiNarrative: "AI automates basic SQL queries, dashboarding, and routine analysis increasingly well. But the complex insight — figuring out what question to ask, interpreting ambiguous results, and telling the story to stakeholders — stays human. Junior analyst roles shrink, senior roles stay."
   fellowshipOptions: "PhD in statistics/CS; specialization in causal inference, experimentation"
   compModel: "Base salary + RSUs + bonus; tech and finance sectors pay highest"
   revPerPatientVisit: "N/A — salaried"
@@ -119,6 +127,10 @@ specialties:
   emotionalToll: 8
   malpracticeLiability: 10
   injuryCareerRisk: 9
+  aiRiskNow: 2
+  aiRiskMedium: 3
+  aiRiskLong: 4
+  aiNarrative: "Robotics is the ultimate hardware-software fusion — you build physical machines that interact with the messy real world. AI actually creates more demand for roboticists, and the hands-on integration and testing work is nearly impossible to automate."
   fellowshipOptions: "PhD robotics; specialization in perception, manipulation, autonomous systems"
   compModel: "Base salary + bonus; startup equity common in robotics"
   revPerPatientVisit: "N/A — salaried"
@@ -162,6 +174,10 @@ specialties:
   emotionalToll: 7
   malpracticeLiability: 9
   injuryCareerRisk: 10
+  aiRiskNow: 3
+  aiRiskMedium: 4
+  aiRiskLong: 5
+  aiNarrative: "AI helps with GIS analysis and zoning data crunching, but urban planning is deeply human — public meetings, community engagement, political negotiations, and balancing competing interests. AI can't replace the civic process."
   fellowshipOptions: "AICP certification; specialization in transportation, environmental planning"
   compModel: "Government salary + pension; consulting firms pay 15-20% more"
   revPerPatientVisit: "N/A — salaried or project-based billing"
@@ -205,6 +221,10 @@ specialties:
   emotionalToll: 7
   malpracticeLiability: 10
   injuryCareerRisk: 10
+  aiRiskNow: 3
+  aiRiskMedium: 4
+  aiRiskLong: 5
+  aiNarrative: "Chip design involves complex physical constraints at the nanometer scale that AI assists with but can't fully replace. The CHIPS Act is driving massive domestic investment, and the combination of physics knowledge plus design intuition keeps humans central."
   fellowshipOptions: "PhD VLSI/IC design; specialization in RF, analog, digital, process node"
   compModel: "Base salary + RSUs + bonus; CHIPS Act driving domestic investment"
   revPerPatientVisit: "N/A — salaried"
@@ -246,6 +266,10 @@ specialties:
   emotionalToll: 8
   malpracticeLiability: 10
   injuryCareerRisk: 10
+  aiRiskNow: 3
+  aiRiskMedium: 4
+  aiRiskLong: 5
+  aiNarrative: "DSP sits between math and hardware — AI helps with algorithm prototyping, but implementing efficient signal processing on embedded hardware requires deep domain expertise. Defense and telecom applications keep demand steady."
   fellowshipOptions: "PhD signal processing; specialization in radar, communications, audio, image"
   compModel: "Base salary + bonus; defense contractors offer clearance premium"
   revPerPatientVisit: "N/A — salaried"
@@ -289,6 +313,10 @@ specialties:
   emotionalToll: 7
   malpracticeLiability: 10
   injuryCareerRisk: 9
+  aiRiskNow: 2
+  aiRiskMedium: 3
+  aiRiskLong: 3
+  aiNarrative: "Propulsion involves exotic physics, hands-on test firing, and safety-critical rocket science. AI helps with CFD simulations, but the physical testing, unique material challenges, and literally-explosive nature of the work keep humans indispensable."
   fellowshipOptions: "PhD propulsion/combustion; NASA fellowships; specialization in electric, liquid, solid"
   compModel: "Base salary + clearance premium; government contractor or NASA civil servant"
   revPerPatientVisit: "N/A — salaried"
@@ -330,6 +358,10 @@ specialties:
   emotionalToll: 7
   malpracticeLiability: 10
   injuryCareerRisk: 9
+  aiRiskNow: 2
+  aiRiskMedium: 3
+  aiRiskLong: 4
+  aiNarrative: "Spacecraft are one-of-a-kind, safety-critical, and incredibly expensive to get wrong. AI helps with analysis and simulation, but integration testing, cleanroom assembly, and mission operations require experienced human engineers who understand the whole system."
   fellowshipOptions: "PhD aerospace; specialization in GNC, structures, thermal, power systems"
   compModel: "Base salary + clearance premium; SpaceX/Blue Origin stock options"
   revPerPatientVisit: "N/A — salaried"
@@ -373,6 +405,10 @@ specialties:
   emotionalToll: 7
   malpracticeLiability: 9
   injuryCareerRisk: 9
+  aiRiskNow: 3
+  aiRiskMedium: 3
+  aiRiskLong: 4
+  aiNarrative: "Biomechanics combines physical testing (including cadaver work), FEA modeling, and clinical collaboration. AI helps with simulation, but the hands-on lab work and clinical judgment about how devices perform in real human bodies stay very human."
   fellowshipOptions: "PhD biomechanics; specialization in implants, prosthetics, sports biomech"
   compModel: "Base salary + bonus; medical device companies (Stryker, Zimmer) pay well"
   revPerPatientVisit: "N/A — salaried"
@@ -414,6 +450,10 @@ specialties:
   emotionalToll: 7
   malpracticeLiability: 9
   injuryCareerRisk: 10
+  aiRiskNow: 3
+  aiRiskMedium: 4
+  aiRiskLong: 5
+  aiNarrative: "Ironically, AI is a huge growth driver for medical imaging — someone needs to build and validate AI-assisted diagnostic tools. The regulatory requirements and clinical validation keep humans essential, and AI creates as much work as it automates here."
   fellowshipOptions: "PhD medical imaging; specialization in MRI, CT, ultrasound, AI-assisted diagnostics"
   compModel: "Base salary + bonus; GE Healthcare, Siemens, Philips are major employers"
   revPerPatientVisit: "N/A — salaried"
@@ -457,6 +497,10 @@ specialties:
   emotionalToll: 7
   malpracticeLiability: 10
   injuryCareerRisk: 9
+  aiRiskNow: 2
+  aiRiskMedium: 3
+  aiRiskLong: 3
+  aiNarrative: "Battery engineering involves physical cell testing, electrochemistry, and prototype assembly — you're working with real chemicals and materials. AI helps with material discovery and simulation, but the lab work and manufacturing challenges stay very hands-on."
   fellowshipOptions: "PhD electrochemistry/materials science; specialization in Li-ion, solid-state, flow batteries"
   compModel: "Base salary + bonus; EV companies (Tesla, Rivian) offer stock options"
   revPerPatientVisit: "N/A — salaried"
@@ -500,6 +544,10 @@ specialties:
   emotionalToll: 5
   malpracticeLiability: 9
   injuryCareerRisk: 10
+  aiRiskNow: 4
+  aiRiskMedium: 5
+  aiRiskLong: 6
+  aiNarrative: "AI does the data analysis and slide-building increasingly well, meaning fewer junior analysts are needed per project. But the client relationships, strategic judgment, and ability to navigate organizational politics stay deeply human."
   fellowshipOptions: "MBA valued; specialization in operations, supply chain, digital transformation"
   compModel: "Base salary + performance bonus; partner track (5-10yr) with profit sharing"
   revPerPatientVisit: "N/A — project-based billing $300-500/hr per consultant"
@@ -541,6 +589,10 @@ specialties:
   emotionalToll: 5
   malpracticeLiability: 10
   injuryCareerRisk: 10
+  aiRiskNow: 4
+  aiRiskMedium: 5
+  aiRiskLong: 6
+  aiNarrative: "AI does quantitative modeling increasingly well, and some hedge funds are already AI-first. But novel strategy development, understanding market microstructure, and the judgment to know when models break down stay human. The best quants now use AI as a tool."
   fellowshipOptions: "PhD in math/physics/CS valued; specialization in pricing, risk, alpha generation"
   compModel: "Base salary + performance bonus (50-200% of base); hedge fund comp can be 7-figure"
   revPerPatientVisit: "N/A — P&L driven compensation"

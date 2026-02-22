@@ -100,6 +100,10 @@ def build_tracks(all_specialties, all_scores, all_scenario_totals,
                 "callSchedule": spec.get("callSchedule", 0),
                 "physicalToll": spec.get("physicalToll", 0),
                 "emotionalToll": spec.get("emotionalToll", 0),
+                "aiRiskNow": spec.get("aiRiskNow", 5),
+                "aiRiskMedium": spec.get("aiRiskMedium", 5),
+                "aiRiskLong": spec.get("aiRiskLong", 5),
+                "aiNarrative": spec.get("aiNarrative", ""),
             },
             "scores": {
                 f"category_{cid}": score

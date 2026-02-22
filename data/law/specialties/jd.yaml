@@ -35,6 +35,10 @@ specialties:
   emotionalToll: 6
   malpracticeLiability: 6
   injuryCareerRisk: 5
+  aiRiskNow: 4
+  aiRiskMedium: 6
+  aiRiskLong: 7
+  aiNarrative: "AI is getting good at reading thousands of contracts for due diligence. The senior lawyers who negotiate deals and advise CEOs aren't going anywhere, but junior associates doing doc review are at risk."
   fellowshipOptions: "Optional LLM (securities, tax)"
   compModel: "Lockstep salary + bonus; equity partnership track (8-10yr)"
   revPerPatientVisit: "$1,000-2,000/hr billing rate"
@@ -76,6 +80,10 @@ specialties:
   emotionalToll: 6
   malpracticeLiability: 7
   injuryCareerRisk: 5
+  aiRiskNow: 4
+  aiRiskMedium: 6
+  aiRiskLong: 7
+  aiNarrative: "Drafting SEC filings and prospectuses is becoming AI-assisted, but understanding market timing, regulatory nuance, and client relationships keeps senior lawyers essential."
   fellowshipOptions: "LLM Securities Law"
   compModel: "Lockstep + bonus; SEC regulatory compliance work also available"
   revPerPatientVisit: "$1,000-1,800/hr"
@@ -117,6 +125,10 @@ specialties:
   emotionalToll: 7
   malpracticeLiability: 6
   injuryCareerRisk: 5
+  aiRiskNow: 4
+  aiRiskMedium: 5
+  aiRiskLong: 7
+  aiNarrative: "AI can speed up fund formation documents and due diligence, but the deal judgment, relationship management, and negotiation skills that PE/VC lawyers need are hard to automate."
   fellowshipOptions: "LLM Corporate; MBA also valued"
   compModel: "Lockstep + carried interest at partner; fund-side exit common"
   revPerPatientVisit: "$1,200-2,500/hr"
@@ -158,6 +170,10 @@ specialties:
   emotionalToll: 5
   malpracticeLiability: 6
   injuryCareerRisk: 4
+  aiRiskNow: 4
+  aiRiskMedium: 6
+  aiRiskLong: 7
+  aiNarrative: "Loan document review and regulatory compliance monitoring are increasingly automated. The lawyers who structure complex deals and manage bank relationships will adapt, but routine work is shrinking."
   fellowshipOptions: "LLM Banking Law"
   compModel: "Lockstep + bonus; in-house bank exit path"
   revPerPatientVisit: "$900-1,500/hr"
@@ -199,6 +215,10 @@ specialties:
   emotionalToll: 4
   malpracticeLiability: 5
   injuryCareerRisk: 3
+  aiRiskNow: 3
+  aiRiskMedium: 5
+  aiRiskLong: 6
+  aiNarrative: "Tax code is complex enough that AI struggles with creative planning, but basic tax research and compliance work are getting automated. The best tax lawyers think several moves ahead — AI can't do that yet."
   fellowshipOptions: "LLM Tax (NYU, Georgetown highly valued)"
   compModel: "Lockstep + bonus; niche expertise commands premium"
   revPerPatientVisit: "$800-1,500/hr"
@@ -240,6 +260,10 @@ specialties:
   emotionalToll: 4
   malpracticeLiability: 5
   injuryCareerRisk: 4
+  aiRiskNow: 4
+  aiRiskMedium: 5
+  aiRiskLong: 6
+  aiNarrative: "Board advisory work and executive compensation strategy require human judgment and trust. AI helps with proxy statement drafting and compliance monitoring, but the counselor role stays human."
   fellowshipOptions: "LLM Corporate; ESG specialization growing"
   compModel: "Lockstep + bonus; in-house GC exit common"
   revPerPatientVisit: "$800-1,400/hr"
@@ -281,6 +305,10 @@ specialties:
   emotionalToll: 5
   malpracticeLiability: 5
   injuryCareerRisk: 4
+  aiRiskNow: 3
+  aiRiskMedium: 5
+  aiRiskLong: 6
+  aiNarrative: "Bankruptcy involves intense negotiation, courtroom advocacy, and creative deal-making under pressure. AI helps with financial analysis, but the human strategy and persuasion pieces are safe."
   fellowshipOptions: "Counter-cyclical — booms in recessions"
   compModel: "Lockstep + bonus; demand spikes during downturns"
   revPerPatientVisit: "$1,000-1,800/hr"
@@ -324,6 +352,10 @@ specialties:
   emotionalToll: 6
   malpracticeLiability: 6
   injuryCareerRisk: 5
+  aiRiskNow: 4
+  aiRiskMedium: 5
+  aiRiskLong: 6
+  aiNarrative: "AI already does legal research and document review faster than junior associates. But trial strategy, depositions, and courtroom advocacy are deeply human skills that aren't going away."
   fellowshipOptions: "Trial advocacy programs"
   compModel: "Lockstep + bonus; rainmaking premium at partner"
   revPerPatientVisit: "$900-1,500/hr"
@@ -365,6 +397,10 @@ specialties:
   emotionalToll: 6
   malpracticeLiability: 5
   injuryCareerRisk: 4
+  aiRiskNow: 3
+  aiRiskMedium: 4
+  aiRiskLong: 5
+  aiNarrative: "Defending executives in federal investigations requires reading people, persuading juries, and navigating high-stakes crises. AI helps with research, but the core work is human."
   fellowshipOptions: "DOJ/SEC experience highly valued (revolving door)"
   compModel: "Premium billing; former prosecutors command top rates"
   revPerPatientVisit: "$1,200-2,500/hr"
@@ -406,6 +442,10 @@ specialties:
   emotionalToll: 5
   malpracticeLiability: 6
   injuryCareerRisk: 4
+  aiRiskNow: 4
+  aiRiskMedium: 5
+  aiRiskLong: 6
+  aiNarrative: "AI excels at reviewing millions of documents in discovery, which is a huge part of class action work. But building trial strategy and managing complex multi-party litigation still needs experienced lawyers."
   fellowshipOptions: "MDL specialization"
   compModel: "Defense: hourly billing; Plaintiff: contingency (massive upside)"
   revPerPatientVisit: "$800-1,500/hr (defense); contingency (plaintiff)"
@@ -447,6 +487,10 @@ specialties:
   emotionalToll: 5
   malpracticeLiability: 5
   injuryCareerRisk: 4
+  aiRiskNow: 3
+  aiRiskMedium: 5
+  aiRiskLong: 6
+  aiNarrative: "AI can help analyze scientific evidence and review technical documents, but defending companies at trial requires understanding juries, expert witnesses, and courtroom dynamics."
   fellowshipOptions: "Science/engineering background valued"
   compModel: "Hourly billing to corporate clients; steady work"
   revPerPatientVisit: "$600-1,200/hr"
@@ -488,6 +532,10 @@ specialties:
   emotionalToll: 4
   malpracticeLiability: 4
   injuryCareerRisk: 3
+  aiRiskNow: 4
+  aiRiskMedium: 6
+  aiRiskLong: 7
+  aiNarrative: "Brief writing and legal research are areas where AI is advancing fast. But crafting truly persuasive appellate arguments and oral advocacy before judges remain deeply human skills."
   fellowshipOptions: "Supreme Court clerkship = golden ticket"
   compModel: "Premium for SCOTUS clerks; academic crossover"
   revPerPatientVisit: "$800-1,500/hr"
@@ -529,6 +577,10 @@ specialties:
   emotionalToll: 5
   malpracticeLiability: 5
   injuryCareerRisk: 4
+  aiRiskNow: 3
+  aiRiskMedium: 4
+  aiRiskLong: 5
+  aiNarrative: "Cross-border disputes involve cultural nuance, multilingual advocacy, and in-person hearing skills. AI helps with research and document management, but the advocacy is irreplaceable."
   fellowshipOptions: "LLM International Law; language skills valued"
   compModel: "Lockstep + bonus; arbitrator fees at senior level"
   revPerPatientVisit: "$1,000-2,000/hr"
@@ -572,6 +624,10 @@ specialties:
   emotionalToll: 7
   malpracticeLiability: 7
   injuryCareerRisk: 3
+  aiRiskNow: 2
+  aiRiskMedium: 3
+  aiRiskLong: 3
+  aiNarrative: "Standing in court, exercising charging discretion, and seeking justice for victims are fundamentally human tasks. AI can help organize case files, but prosecutors make life-changing decisions that require human judgment."
   fellowshipOptions: "Federal prosecutor track (DOJ AUSA)"
   compModel: "Government salary + pension; PSLF eligible"
   revPerPatientVisit: "N/A — government funded"
@@ -613,6 +669,10 @@ specialties:
   emotionalToll: 7
   malpracticeLiability: 8
   injuryCareerRisk: 3
+  aiRiskNow: 2
+  aiRiskMedium: 3
+  aiRiskLong: 3
+  aiNarrative: "Federal prosecution involves complex investigations, grand jury strategy, and courtroom advocacy at the highest level. AI tools help with research, but the judgment calls are deeply human."
   fellowshipOptions: "DOJ Honors Program; specialized divisions (antitrust, civil rights)"
   compModel: "GS scale + locality pay; pension; PSLF eligible"
   revPerPatientVisit: "N/A — government funded"
@@ -654,6 +714,10 @@ specialties:
   emotionalToll: 9
   malpracticeLiability: 5
   injuryCareerRisk: 4
+  aiRiskNow: 2
+  aiRiskMedium: 3
+  aiRiskLong: 3
+  aiNarrative: "Fighting for people's freedom in court — often people at their worst moments — is work that demands empathy, advocacy, and human connection that AI simply cannot provide."
   fellowshipOptions: "Federal PD offices; capital defense specialization"
   compModel: "Government salary; PSLF eligible; high turnover"
   revPerPatientVisit: "N/A — government funded"
@@ -695,6 +759,10 @@ specialties:
   emotionalToll: 7
   malpracticeLiability: 5
   injuryCareerRisk: 4
+  aiRiskNow: 2
+  aiRiskMedium: 3
+  aiRiskLong: 4
+  aiNarrative: "AI can help research case law and draft motions, but standing up in court and fighting for someone's freedom is deeply human work. Client trust and jury persuasion can't be automated."
   fellowshipOptions: "Former prosecutor experience = premium"
   compModel: "Fee-for-service; retainers; reputation-driven"
   revPerPatientVisit: "$300-1,000/hr depending on reputation"
@@ -738,6 +806,10 @@ specialties:
   emotionalToll: 3
   malpracticeLiability: 5
   injuryCareerRisk: 3
+  aiRiskNow: 4
+  aiRiskMedium: 5
+  aiRiskLong: 6
+  aiNarrative: "AI is getting good at trademark searches and clearance opinions. But brand strategy, opposition proceedings, and client counseling still need human creativity and judgment."
   fellowshipOptions: "IP LLM; USPTO trademark examining attorney path"
   compModel: "Hourly or flat-fee; in-house brand counsel exit"
   revPerPatientVisit: "$400-800/hr"
@@ -779,6 +851,10 @@ specialties:
   emotionalToll: 3
   malpracticeLiability: 5
   injuryCareerRisk: 3
+  aiRiskNow: 3
+  aiRiskMedium: 5
+  aiRiskLong: 6
+  aiNarrative: "AI raises new copyright questions (who owns AI-generated content?) while also automating contract review. Entertainment lawyers who negotiate talent deals and manage relationships are safe; pure drafting work is not."
   fellowshipOptions: "Entertainment law specialization; talent agency crossover"
   compModel: "Hourly, flat-fee, or percentage of deals"
   revPerPatientVisit: "$400-1,200/hr"
@@ -820,6 +896,10 @@ specialties:
   emotionalToll: 5
   malpracticeLiability: 6
   injuryCareerRisk: 4
+  aiRiskNow: 3
+  aiRiskMedium: 4
+  aiRiskLong: 5
+  aiNarrative: "Emergency injunctions, witness-intensive litigation, and rapid-response trade secret cases require courtroom skill and speed. AI helps with document review but can't replace the advocacy."
   fellowshipOptions: "IP LLM; litigation background valued"
   compModel: "Hourly; emergency TRO work = premium billing"
   revPerPatientVisit: "$600-1,200/hr"
@@ -863,6 +943,10 @@ specialties:
   emotionalToll: 7
   malpracticeLiability: 6
   injuryCareerRisk: 3
+  aiRiskNow: 2
+  aiRiskMedium: 3
+  aiRiskLong: 3
+  aiNarrative: "Impact litigation that changes society requires passionate human advocates who understand justice, history, and the communities they serve. AI is a research tool here, not a replacement."
   fellowshipOptions: "ACLU, NAACP LDF, public interest fellowships"
   compModel: "Nonprofit salary; PSLF; some fee-shifting awards"
   revPerPatientVisit: "N/A or fee-shifting awards"
@@ -904,6 +988,10 @@ specialties:
   emotionalToll: 8
   malpracticeLiability: 5
   injuryCareerRisk: 3
+  aiRiskNow: 2
+  aiRiskMedium: 3
+  aiRiskLong: 4
+  aiNarrative: "Helping vulnerable people navigate housing, benefits, and family crises requires deep empathy and human connection. AI could help with forms and basic guidance, but the counseling role is irreplaceable."
   fellowshipOptions: "Skadden Fellowship, Equal Justice Works"
   compModel: "Nonprofit salary; PSLF eligible; chronic underfunding"
   revPerPatientVisit: "N/A — grant funded"
@@ -945,6 +1033,10 @@ specialties:
   emotionalToll: 5
   malpracticeLiability: 4
   injuryCareerRisk: 3
+  aiRiskNow: 2
+  aiRiskMedium: 3
+  aiRiskLong: 4
+  aiNarrative: "Environmental advocacy combines science, policy, and courtroom skills. AI helps with research and data analysis, but persuading courts and agencies to protect the environment needs human passion."
   fellowshipOptions: "LLM Environmental Law; Earthjustice, Sierra Club"
   compModel: "Nonprofit salary; PSLF; some government positions"
   revPerPatientVisit: "N/A — grant/donor funded"
@@ -986,6 +1078,10 @@ specialties:
   emotionalToll: 9
   malpracticeLiability: 5
   injuryCareerRisk: 3
+  aiRiskNow: 3
+  aiRiskMedium: 4
+  aiRiskLong: 5
+  aiNarrative: "Asylum cases and deportation defense are deeply personal, often life-or-death. AI can help with forms and case research, but standing up for immigrants in court requires human empathy and advocacy."
   fellowshipOptions: "Immigration law clinics; asylum specialization"
   compModel: "Nonprofit/government salary; PSLF; high emotional reward"
   revPerPatientVisit: "N/A — funded by grants"
@@ -1027,6 +1123,10 @@ specialties:
   emotionalToll: 4
   malpracticeLiability: 4
   injuryCareerRisk: 3
+  aiRiskNow: 3
+  aiRiskMedium: 4
+  aiRiskLong: 5
+  aiNarrative: "Drafting legislation and regulatory analysis involve political judgment, stakeholder management, and policy vision. AI helps with research, but shaping laws requires human understanding of society."
   fellowshipOptions: "Congressional fellowships; think tank positions"
   compModel: "Government salary or think tank; revolving door to lobbying"
   revPerPatientVisit: "N/A — salaried"
@@ -1068,6 +1168,10 @@ specialties:
   emotionalToll: 6
   malpracticeLiability: 7
   injuryCareerRisk: 4
+  aiRiskNow: 2
+  aiRiskMedium: 3
+  aiRiskLong: 3
+  aiNarrative: "Military justice involves courtroom advocacy, operational law in combat zones, and advising commanders under extreme pressure. This is about as AI-proof as law gets."
   fellowshipOptions: "Military service commitment (3-6yr); combat zone deployments"
   compModel: "Military pay + BAH + benefits; pension at 20yr; PSLF"
   revPerPatientVisit: "N/A — military salary"
@@ -1111,6 +1215,10 @@ specialties:
   emotionalToll: 8
   malpracticeLiability: 4
   injuryCareerRisk: 4
+  aiRiskNow: 2
+  aiRiskMedium: 3
+  aiRiskLong: 3
+  aiNarrative: "Helping families through divorce, custody battles, and emotional crises is deeply human work. AI might help draft agreements, but the counseling and courtroom advocacy are irreplaceable."
   fellowshipOptions: "Mediation certification; collaborative law training"
   compModel: "Retainer + hourly; some flat-fee uncontested divorces"
   revPerPatientVisit: "$250-600/hr"
@@ -1152,6 +1260,10 @@ specialties:
   emotionalToll: 4
   malpracticeLiability: 5
   injuryCareerRisk: 3
+  aiRiskNow: 5
+  aiRiskMedium: 6
+  aiRiskLong: 7
+  aiNarrative: "Basic wills and trusts are increasingly automatable — online tools already handle simple estates. Complex high-net-worth planning still needs human expertise, but the bread-and-butter work is at risk."
   fellowshipOptions: "LLM Taxation or Estate Planning; CFP crossover"
   compModel: "Flat-fee or hourly; high-net-worth clients pay premium"
   revPerPatientVisit: "$300-800/hr"
@@ -1193,6 +1305,10 @@ specialties:
   emotionalToll: 6
   malpracticeLiability: 5
   injuryCareerRisk: 3
+  aiRiskNow: 3
+  aiRiskMedium: 4
+  aiRiskLong: 5
+  aiNarrative: "Working with elderly clients and their families on sensitive end-of-life planning requires patience, empathy, and trust. AI can help with Medicaid calculations, but the human relationship is central."
   fellowshipOptions: "NAELA certification; Medicaid planning specialization"
   compModel: "Flat-fee and hourly mix; Medicaid planning is steady"
   revPerPatientVisit: "$250-500/hr"
@@ -1234,6 +1350,10 @@ specialties:
   emotionalToll: 7
   malpracticeLiability: 5
   injuryCareerRisk: 3
+  aiRiskNow: 3
+  aiRiskMedium: 4
+  aiRiskLong: 5
+  aiNarrative: "H-1B petitions and green card applications are form-heavy and increasingly automatable. But complex cases, deportation defense, and employer compliance advisory still need experienced lawyers."
   fellowshipOptions: "Business immigration specialization; EB-5 investor visas"
   compModel: "Flat-fee (visas) + hourly (litigation); business immigration pays well"
   revPerPatientVisit: "$200-500/hr; flat fees $3K-15K per case"
@@ -1275,6 +1395,10 @@ specialties:
   emotionalToll: 6
   malpracticeLiability: 5
   injuryCareerRisk: 4
+  aiRiskNow: 2
+  aiRiskMedium: 3
+  aiRiskLong: 4
+  aiNarrative: "Convincing juries, negotiating settlements, and building relationships with injured clients is inherently human. AI helps with medical record analysis, but the courtroom skills are what win cases."
   fellowshipOptions: "Trial lawyer associations; mass tort specialization"
   compModel: "Contingency fee (33-40%); no fee if you lose; huge upside"
   revPerPatientVisit: "Contingency — $0 upfront, 33-40% of settlement"
@@ -1316,6 +1440,10 @@ specialties:
   emotionalToll: 7
   malpracticeLiability: 5
   injuryCareerRisk: 4
+  aiRiskNow: 2
+  aiRiskMedium: 3
+  aiRiskLong: 4
+  aiNarrative: "Medical malpractice cases require understanding complex medicine, working with expert witnesses, and persuading juries. AI can help analyze records, but trial advocacy and client relationships drive results."
   fellowshipOptions: "Medical knowledge valued; nurse-attorney crossover"
   compModel: "Contingency fee; very expensive to litigate (expert costs)"
   revPerPatientVisit: "Contingency — individual verdicts can be $1M+"
@@ -1357,6 +1485,10 @@ specialties:
   emotionalToll: 5
   malpracticeLiability: 4
   injuryCareerRisk: 3
+  aiRiskNow: 4
+  aiRiskMedium: 5
+  aiRiskLong: 6
+  aiNarrative: "Workers' comp is fairly routine and form-driven, making it more vulnerable to AI than other plaintiff-side work. But hearings, medical disputes, and client relationships still need human lawyers."
   fellowshipOptions: "State-specific specialization"
   compModel: "Statutory fees; high volume, lower per-case"
   revPerPatientVisit: "Statutory fee schedule"
@@ -1400,6 +1532,10 @@ specialties:
   emotionalToll: 4
   malpracticeLiability: 6
   injuryCareerRisk: 3
+  aiRiskNow: 5
+  aiRiskMedium: 7
+  aiRiskLong: 8
+  aiNarrative: "Real estate closings, lease reviews, and due diligence are document-heavy and increasingly automated. The lawyers who survive will handle complex deals and client relationships, not routine paperwork."
   fellowshipOptions: "LLM Real Estate; CCIM crossover"
   compModel: "Hourly + flat fee for closings; deal volume driven"
   revPerPatientVisit: "$300-700/hr"
@@ -1441,6 +1577,10 @@ specialties:
   emotionalToll: 5
   malpracticeLiability: 5
   injuryCareerRisk: 3
+  aiRiskNow: 3
+  aiRiskMedium: 4
+  aiRiskLong: 5
+  aiNarrative: "Courtroom work in lease disputes, foreclosures, and title claims keeps this role more protected than transactional real estate. AI helps with research, but trial skills matter."
   fellowshipOptions: "Construction defect specialization"
   compModel: "Hourly; landlord-tenant volume practice also viable"
   revPerPatientVisit: "$250-600/hr"
@@ -1482,6 +1622,10 @@ specialties:
   emotionalToll: 4
   malpracticeLiability: 4
   injuryCareerRisk: 3
+  aiRiskNow: 3
+  aiRiskMedium: 4
+  aiRiskLong: 5
+  aiNarrative: "Zoning hearings, community engagement, and municipal politics are deeply local and human. AI can help with research, but persuading planning boards requires personal relationships and presence."
   fellowshipOptions: "Urban planning background valued"
   compModel: "Hourly; government affairs crossover"
   revPerPatientVisit: "$300-600/hr"
@@ -1523,6 +1667,10 @@ specialties:
   emotionalToll: 5
   malpracticeLiability: 5
   injuryCareerRisk: 3
+  aiRiskNow: 3
+  aiRiskMedium: 5
+  aiRiskLong: 6
+  aiNarrative: "Contract disputes and mechanics liens involve some routine document work that AI can handle. But site visits, expert testimony, and arbitration hearings keep this more protected than pure transactional work."
   fellowshipOptions: "Engineering or construction management background valued"
   compModel: "Hourly; mechanics lien work is bread and butter"
   revPerPatientVisit: "$300-700/hr"
@@ -1566,6 +1714,10 @@ specialties:
   emotionalToll: 4
   malpracticeLiability: 5
   injuryCareerRisk: 3
+  aiRiskNow: 3
+  aiRiskMedium: 5
+  aiRiskLong: 6
+  aiNarrative: "Healthcare regulation is complex and constantly changing. AI helps monitor compliance, but advising hospitals on Stark Law, anti-kickback, and CMS audits requires nuanced human judgment."
   fellowshipOptions: "LLM Health Law; in-house hospital counsel path"
   compModel: "Hourly or in-house salary; hospital systems pay well"
   revPerPatientVisit: "$400-800/hr"
@@ -1607,6 +1759,10 @@ specialties:
   emotionalToll: 4
   malpracticeLiability: 6
   injuryCareerRisk: 3
+  aiRiskNow: 3
+  aiRiskMedium: 5
+  aiRiskLong: 6
+  aiNarrative: "AI is great at monitoring trading patterns and flagging compliance issues. But defending clients in SEC investigations and interpreting ambiguous regulations still needs experienced human lawyers."
   fellowshipOptions: "SEC/FINRA experience → private practice premium"
   compModel: "Hourly or in-house; revolving door SEC → private practice"
   revPerPatientVisit: "$500-1,000/hr"
@@ -1648,6 +1804,10 @@ specialties:
   emotionalToll: 4
   malpracticeLiability: 5
   injuryCareerRisk: 3
+  aiRiskNow: 3
+  aiRiskMedium: 4
+  aiRiskLong: 5
+  aiNarrative: "Environmental permitting and compliance involve local politics, agency relationships, and site-specific judgment. AI helps with regulatory tracking, but the advisory work stays human."
   fellowshipOptions: "LLM Environmental Law; EPA/state agency experience"
   compModel: "Hourly or in-house; EPA → private practice revolving door"
   revPerPatientVisit: "$400-800/hr"
@@ -1689,6 +1849,10 @@ specialties:
   emotionalToll: 4
   malpracticeLiability: 5
   injuryCareerRisk: 3
+  aiRiskNow: 3
+  aiRiskMedium: 4
+  aiRiskLong: 5
+  aiNarrative: "Privacy law is booming because of AI, which is ironic. Lawyers who understand GDPR, CCPA, and emerging AI regulation are in high demand — the field is growing faster than AI can replace it."
   fellowshipOptions: "CIPP/CIPM certifications; tech company in-house"
   compModel: "Hourly or in-house CPO/DPO; GDPR/CCPA expertise commands premium"
   revPerPatientVisit: "$500-1,000/hr"
@@ -1730,6 +1894,10 @@ specialties:
   emotionalToll: 4
   malpracticeLiability: 5
   injuryCareerRisk: 3
+  aiRiskNow: 4
+  aiRiskMedium: 5
+  aiRiskLong: 7
+  aiNarrative: "AI is increasingly used for compliance monitoring, risk screening, and policy enforcement. The strategic compliance leaders will stay, but routine monitoring roles are shrinking."
   fellowshipOptions: "CCO (Chief Compliance Officer) track; industry certifications"
   compModel: "Salary + bonus; stock options at tech companies"
   revPerPatientVisit: "N/A — salaried"
@@ -1773,6 +1941,10 @@ specialties:
   emotionalToll: 5
   malpracticeLiability: 5
   injuryCareerRisk: 3
+  aiRiskNow: 4
+  aiRiskMedium: 5
+  aiRiskLong: 6
+  aiNarrative: "AI can help draft handbooks and flag compliance issues, but advising companies through discrimination claims, workplace investigations, and complex HR decisions needs human judgment."
   fellowshipOptions: "In-house HR/legal crossover; SHRM connections"
   compModel: "Hourly; retainer relationships with employers"
   revPerPatientVisit: "$400-800/hr"
@@ -1814,6 +1986,10 @@ specialties:
   emotionalToll: 6
   malpracticeLiability: 5
   injuryCareerRisk: 3
+  aiRiskNow: 3
+  aiRiskMedium: 4
+  aiRiskLong: 5
+  aiNarrative: "Fighting for workers who've been discriminated against or wrongfully terminated requires empathy, client relationships, and jury advocacy. AI helps with research but can't replace the human element."
   fellowshipOptions: "Civil rights crossover; class action specialization"
   compModel: "Contingency or hourly + fee-shifting; class actions = big payouts"
   revPerPatientVisit: "Contingency or $300-600/hr"
@@ -1855,6 +2031,10 @@ specialties:
   emotionalToll: 5
   malpracticeLiability: 5
   injuryCareerRisk: 3
+  aiRiskNow: 2
+  aiRiskMedium: 3
+  aiRiskLong: 4
+  aiNarrative: "Collective bargaining, strike negotiations, and labor board proceedings are intensely human — they're about power, relationships, and persuasion. AI is barely relevant here."
   fellowshipOptions: "NLRB experience valued"
   compModel: "Hourly or union-side salary; management-side pays more"
   revPerPatientVisit: "$300-700/hr"
@@ -1896,6 +2076,10 @@ specialties:
   emotionalToll: 3
   malpracticeLiability: 5
   injuryCareerRisk: 3
+  aiRiskNow: 5
+  aiRiskMedium: 6
+  aiRiskLong: 7
+  aiNarrative: "Benefits compliance is technical and document-heavy — exactly the kind of work AI handles well. Lawyers who design creative benefit structures will survive, but routine ERISA compliance is automating."
   fellowshipOptions: "LLM Tax; CPA crossover"
   compModel: "Hourly; niche = job security; in-house benefits counsel"
   revPerPatientVisit: "$400-800/hr"
@@ -1939,6 +2123,10 @@ specialties:
   emotionalToll: 4
   malpracticeLiability: 5
   injuryCareerRisk: 3
+  aiRiskNow: 5
+  aiRiskMedium: 6
+  aiRiskLong: 7
+  aiNarrative: "Contract review and SaaS agreement drafting are prime targets for AI automation. Lawyers who negotiate complex enterprise deals and advise on strategy will adapt, but templated work is disappearing."
   fellowshipOptions: "IP LLM; tech company in-house"
   compModel: "Hourly or in-house; tech company stock compensation"
   revPerPatientVisit: "$500-1,000/hr"
@@ -1980,6 +2168,10 @@ specialties:
   emotionalToll: 5
   malpracticeLiability: 5
   injuryCareerRisk: 3
+  aiRiskNow: 3
+  aiRiskMedium: 4
+  aiRiskLong: 5
+  aiNarrative: "Data breach response is high-pressure, time-sensitive crisis work that needs human leadership. AI helps with forensics and compliance tracking, but managing a breach is a deeply human skill."
   fellowshipOptions: "CISSP/CISM certs valued; incident response specialization"
   compModel: "Hourly + breach retainer; premium for incident response"
   revPerPatientVisit: "$500-1,200/hr (premium during breaches)"
@@ -2021,6 +2213,10 @@ specialties:
   emotionalToll: 3
   malpracticeLiability: 4
   injuryCareerRisk: 3
+  aiRiskNow: 2
+  aiRiskMedium: 3
+  aiRiskLong: 3
+  aiNarrative: "This is the one area of law where AI actually creates more work than it threatens. Someone has to write the rules for AI — and that someone needs to be human. This field is booming."
   fellowshipOptions: "Tech policy institutes; CS/ML background valued"
   compModel: "Hourly or in-house; frontier field = premium rates"
   revPerPatientVisit: "$600-1,200/hr"
@@ -2062,6 +2258,10 @@ specialties:
   emotionalToll: 4
   malpracticeLiability: 6
   injuryCareerRisk: 4
+  aiRiskNow: 3
+  aiRiskMedium: 5
+  aiRiskLong: 6
+  aiNarrative: "Crypto regulation is still being written, which means human lawyers who understand both tech and securities law are essential. But as the rules settle, routine compliance work will automate."
   fellowshipOptions: "SEC/CFTC experience; blockchain technical knowledge"
   compModel: "Hourly or in-house; token compensation at startups"
   revPerPatientVisit: "$500-1,200/hr"
@@ -2105,6 +2305,10 @@ specialties:
   emotionalToll: 4
   malpracticeLiability: 6
   injuryCareerRisk: 2
+  aiRiskNow: 2
+  aiRiskMedium: 3
+  aiRiskLong: 3
+  aiNarrative: "Mediating disputes and running arbitration hearings are fundamentally about reading people, building trust, and finding creative solutions. AI might help with case research, but the core skill is human."
   fellowshipOptions: "ADR certification; AAA/JAMS panels"
   compModel: "Per-case or per-diem; senior mediators charge $5K-15K/day"
   revPerPatientVisit: "$2,000-15,000/day"
@@ -2146,6 +2350,10 @@ specialties:
   emotionalToll: 3
   malpracticeLiability: 9
   injuryCareerRisk: 2
+  aiRiskNow: 2
+  aiRiskMedium: 3
+  aiRiskLong: 4
+  aiNarrative: "Teaching law students, mentoring, and producing original scholarship require human insight and connection. AI changes what professors teach about, but doesn't replace the professor."
   fellowshipOptions: "SJD/PhD; VAP/fellowship before tenure-track; publications required"
   compModel: "Salary + summer research; tenure security; consulting on side"
   revPerPatientVisit: "N/A — salaried"
@@ -2187,6 +2395,10 @@ specialties:
   emotionalToll: 5
   malpracticeLiability: 7
   injuryCareerRisk: 4
+  aiRiskNow: 4
+  aiRiskMedium: 5
+  aiRiskLong: 6
+  aiNarrative: "AI is transforming consulting — automating research, data analysis, and slide creation. But client relationships, strategic thinking, and leadership advisory keep the top consultants essential."
   fellowshipOptions: "McKinsey, BCG, Bain actively recruit JDs"
   compModel: "Salary + performance bonus; partner track similar to law"
   revPerPatientVisit: "N/A — project-based billing"
@@ -2228,6 +2440,10 @@ specialties:
   emotionalToll: 3
   malpracticeLiability: 8
   injuryCareerRisk: 2
+  aiRiskNow: 2
+  aiRiskMedium: 3
+  aiRiskLong: 3
+  aiNarrative: "Legal tech professionals are the ones building and managing AI tools for lawyers. This field benefits from AI rather than being threatened by it — demand is surging."
   fellowshipOptions: "CLOC membership; tech skills valued (SQL, data analytics)"
   compModel: "Salary + equity at startups; in-house legal ops at corporations"
   revPerPatientVisit: "N/A — salaried or product revenue"
@@ -2269,6 +2485,10 @@ specialties:
   emotionalToll: 7
   malpracticeLiability: 8
   injuryCareerRisk: 5
+  aiRiskNow: 2
+  aiRiskMedium: 3
+  aiRiskLong: 3
+  aiNarrative: "Investigating crimes, conducting raids, and testifying in court are physical, interpersonal tasks that AI cannot perform. The JD helps agents understand complex financial crimes."
   fellowshipOptions: "FBI/DEA/ATF special agent; JD gives hiring advantage"
   compModel: "GS scale + LEAP (25% premium); federal pension at 20yr"
   revPerPatientVisit: "N/A — government salary"
