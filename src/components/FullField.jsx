@@ -24,6 +24,7 @@ function aiDotColor(score) {
 
 // column definitions used by the table
 const COLUMNS = [
+  { key: "aiRiskAvg", label: "⚡ AI" },
   { key: "oneInX", label: "🎯 Get In", fmt: (v) => v >= 999 ? "N/A" : `1:${v}` },
   { key: "startSalary", label: "🚀 Start", fmt: (v) => `$${v}K` },
   { key: "typicalPeak", label: "💰 Median", fmt: (v) => `$${v}K` },
@@ -31,7 +32,6 @@ const COLUMNS = [
   { key: "satisfaction", label: "😊 Happy", fmt: (v) => `${v}%` },
   { key: "hoursWeek", label: "⏰ Hrs", fmt: (v) => `${v}` },
   { key: "burnout", label: "🔥 Burn", fmt: (v) => `${v}%` },
-  { key: "aiRiskAvg", label: "⚡ AI" },
 ];
 
 export default function FullField({ allTracks, profColors, profLabels }) {
@@ -290,7 +290,7 @@ export default function FullField({ allTracks, profColors, profLabels }) {
               <col style={{ width: "19%" }} />
               <col style={{ width: "7%" }} />
               {COLUMNS.map((col) => (
-                <col key={col.key} style={{ width: col.key === "aiRiskAvg" ? "5%" : `${69 / (COLUMNS.length - 1)}%` }} />
+                <col key={col.key} style={{ width: col.key === "aiRiskAvg" ? "6%" : `${68 / (COLUMNS.length - 1)}%` }} />
               ))}
             </colgroup>
             <thead>
@@ -393,22 +393,28 @@ export default function FullField({ allTracks, profColors, profLabels }) {
                             title={`Now: ${now} · 5yr: ${med} · 10yr: ${lng}`}
                             style={{
                               padding: "5px 2px",
-                              textAlign: "center",
                             }}
                           >
-                            {[now, med, lng].map((s, j) => (
-                              <span
-                                key={j}
-                                style={{
-                                  display: "inline-block",
-                                  width: 8,
-                                  height: 8,
-                                  borderRadius: "50%",
-                                  background: aiDotColor(s),
-                                  margin: "0 1px",
-                                }}
-                              />
-                            ))}
+                            <div
+                              style={{
+                                display: "flex",
+                                justifyContent: "center",
+                                gap: 2,
+                              }}
+                            >
+                              {[now, med, lng].map((s, j) => (
+                                <span
+                                  key={j}
+                                  style={{
+                                    width: 8,
+                                    height: 8,
+                                    borderRadius: "50%",
+                                    background: aiDotColor(s),
+                                    flexShrink: 0,
+                                  }}
+                                />
+                              ))}
+                            </div>
                           </td>
                         );
                       }
