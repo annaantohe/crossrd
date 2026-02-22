@@ -4,6 +4,12 @@
 export default function FamilyPicker({ families, onSelect, onCompare }) {
   const available = Object.entries(families);
 
+  // compute totals from actual data
+  const totalCareers = available.reduce((sum, [, fd]) => sum + fd.meta.total_tracks, 0);
+  const totalFields = available.length;
+  const dataPointsEach = 107;
+  const totalDataPoints = (totalCareers * dataPointsEach).toLocaleString();
+
   // count total picks across all families from localStorage
   let totalPicks = 0;
   const pickSummary = [];
@@ -66,11 +72,43 @@ export default function FamilyPicker({ families, onSelect, onCompare }) {
         style={{
           fontSize: "clamp(13px, 3vw, 16px)",
           color: "#999",
-          margin: "0 0 32px",
+          margin: "0 0 12px",
           fontStyle: "italic",
         }}
       >
         we overthought it so you don't have to
+      </p>
+
+      {/* stats */}
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          gap: 16,
+          flexWrap: "wrap",
+          margin: "0 0 4px",
+        }}
+      >
+        {[
+          [totalCareers, "careers"],
+          [totalFields, "fields"],
+          [dataPointsEach, "data points each"],
+        ].map(([num, label]) => (
+          <span key={label} style={{ fontSize: 14, color: "#666" }}>
+            <span style={{ fontWeight: 800, color: "#D4A537" }}>{num}</span>{" "}
+            {label}
+          </span>
+        ))}
+      </div>
+      <p
+        style={{
+          fontSize: 12,
+          color: "#bbb",
+          fontStyle: "italic",
+          margin: "0 0 32px",
+        }}
+      >
+        (that's {totalDataPoints} data points — yes, we counted)
       </p>
 
       <p
@@ -222,9 +260,13 @@ export default function FamilyPicker({ families, onSelect, onCompare }) {
           borderTop: "1px solid #eee",
           fontSize: 11,
           color: "#bbb",
+          lineHeight: 1.6,
         }}
       >
-        © 2025 Anna Antohe · crossrd™
+        <div style={{ fontStyle: "italic", marginBottom: 4 }}>
+          built with mass amounts of data, a sprinkle of imagination, and a little help from AI
+        </div>
+        <div>© 2025 anna antohe · crossrd™</div>
       </div>
     </div>
   );
