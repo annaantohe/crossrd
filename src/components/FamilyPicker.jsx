@@ -137,6 +137,18 @@ export default function FamilyPicker({ families, onSelect, onCompare }) {
             <div style={{ fontSize: 12, color: "#999" }}>
               {data.meta.total_tracks} careers · {Object.keys(data.groups).length} groups
             </div>
+            {data.meta.note && (
+              <div
+                style={{
+                  fontSize: 10,
+                  color: "#D4A537",
+                  fontStyle: "italic",
+                  marginTop: 4,
+                }}
+              >
+                emerging & imagined careers
+              </div>
+            )}
           </button>
         ))}
 

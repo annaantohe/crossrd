@@ -101,6 +101,36 @@ export default function Explore({
         </span>
       </div>
 
+      {/* subtitle + disclaimer (shown when present, e.g. AI & Future) */}
+      {meta.subtitle && meta.subtitle !== "A Data-Driven Guide" && (
+        <p
+          style={{
+            fontFamily: "'DM Sans', sans-serif",
+            fontSize: 14,
+            fontWeight: 600,
+            color: "#666",
+            margin: "0 0 4px",
+          }}
+        >
+          {meta.subtitle}
+        </p>
+      )}
+      {meta.note && (
+        <p
+          style={{
+            fontFamily: "'DM Sans', sans-serif",
+            fontSize: 12,
+            color: "#999",
+            fontStyle: "italic",
+            margin: "0 auto 16px",
+            maxWidth: 400,
+            lineHeight: 1.4,
+          }}
+        >
+          {meta.note}
+        </p>
+      )}
+
       {/* stat boxes */}
       <div
         style={{

@@ -156,6 +156,7 @@ def assemble_output(cfg, tracks, scenario_profiles):
             "family_name": cfg["name"],
             "headline": cfg.get("headline", f"Career Guide: {cfg['name']}"),
             "subtitle": cfg.get("subtitle", "A Data-Driven Guide"),
+            "note": cfg.get("note", ""),
             "icon": cfg.get("icon", ""),
             "last_updated": str(date.today()),
             "total_tracks": len(tracks),
