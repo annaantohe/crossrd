@@ -1,0 +1,1279 @@
+# BA Government specialties — 28 careers across 7 groups
+profession: BA
+specialties:
+
+# === MILITARY COMBAT (4) ===
+
+- name: "Combat Arms Officer"
+  group: military_combat
+  residencyYears: 0
+  annualSpots: 8000
+  startSalary: 42
+  midSalary: 85
+  peakSalary: 130
+  typicalPeak: 105
+  partTimeFlex: 1
+  procedureMix: 8
+  callSchedule: 1
+  adminBurden: 6
+  hoursWeek: 55
+  burnout: 40
+  partTimeFeasibility: 1
+  vacation: 5
+  careerLongevity: 5
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 1
+  automationRisk: 2
+  handsOnInsulation: 9
+  satisfaction: 70
+  chooseAgain: 65
+  intellectualStim: 7
+  varietyRepetition: 7
+  patientImpact: 9
+  physicalToll: 3
+  emotionalToll: 3
+  malpracticeLiability: 10
+  injuryCareerRisk: 4
+  aiRiskNow: 1
+  aiRiskMedium: 2
+  aiRiskLong: 3
+  aiNarrative: "AI enhances battlefield sensors and logistics planning, but leading soldiers in combat requires human judgment, adaptability, and leadership that no algorithm can replicate."
+  fellowshipOptions: "Ranger School, Airborne, pathfinder, War College, MA in strategic studies; path to battalion/brigade command"
+  compModel: "Base pay + BAH + BAS + COLA. O-1 ~$42K total, O-3 ~$75K, O-5 ~$105K, O-6 ~$130K with allowances"
+  revPerPatientVisit: "N/A — military salary with full benefits"
+  dailyWorkflow: "PT at 0630, plan and lead training exercises, counsel soldiers, manage maintenance schedules, attend briefings, prepare for deployments"
+  patientVolume: "Leads platoon (30-40) as LT, company (120-200) as CPT, battalion (600+) as LTC"
+  supportStaffModel: "NCO corps handles execution, staff officers coordinate logistics/intel/comms, higher HQ provides guidance"
+  geographicDemandNotes: "Fort Liberty, Fort Cavazos, Fort Stewart, Fort Campbell — assigned by Army needs, not personal choice"
+  telehealthPotential: 1
+  genderDistribution: "~10% women"
+
+- name: "Military Pilot"
+  group: military_combat
+  residencyYears: 0
+  annualSpots: 3000
+  startSalary: 45
+  midSalary: 100
+  peakSalary: 135
+  typicalPeak: 115
+  partTimeFlex: 1
+  procedureMix: 9
+  callSchedule: 2
+  adminBurden: 5
+  hoursWeek: 50
+  burnout: 35
+  partTimeFeasibility: 1
+  vacation: 5
+  careerLongevity: 6
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 1
+  automationRisk: 3
+  handsOnInsulation: 9
+  satisfaction: 82
+  chooseAgain: 78
+  intellectualStim: 9
+  varietyRepetition: 7
+  patientImpact: 8
+  physicalToll: 4
+  emotionalToll: 4
+  malpracticeLiability: 10
+  injuryCareerRisk: 5
+  aiRiskNow: 1
+  aiRiskMedium: 2
+  aiRiskLong: 4
+  aiNarrative: "Autonomous drones are advancing but crewed aircraft still dominate complex missions. Military pilots transition to airlines earning $200-350K+, making this one of the best civilian career launch pads."
+  fellowshipOptions: "Test pilot school, weapons school, Air War College; civilian ATP license; airline transition at 10+ year mark"
+  compModel: "Base pay + flight pay ($150-1000/mo) + aviation bonus ($25-35K/yr at retention gates) + BAH/BAS. Total comp O-3: ~$95K, O-5: ~$130K"
+  revPerPatientVisit: "N/A — military salary; aviation bonuses add $25-35K/yr"
+  dailyWorkflow: "Mission briefing, preflight checks, training sorties or combat missions, debriefs, simulator time, additional duties as flight lead or instructor"
+  patientVolume: "Flies 150-250 hours/year; leads flights of 2-4 aircraft"
+  supportStaffModel: "Crew chiefs maintain aircraft, intel provides mission briefs, ATC manages airspace, squadron ops coordinates scheduling"
+  geographicDemandNotes: "Pilot training at Pensacola/Rucker/Laughlin; assigned to bases worldwide including overseas deployments"
+  telehealthPotential: 1
+  genderDistribution: "~8% women"
+
+- name: "Special Operations Officer"
+  group: military_combat
+  residencyYears: 0
+  annualSpots: 800
+  startSalary: 48
+  midSalary: 95
+  peakSalary: 140
+  typicalPeak: 115
+  partTimeFlex: 1
+  procedureMix: 9
+  callSchedule: 1
+  adminBurden: 5
+  hoursWeek: 60
+  burnout: 45
+  partTimeFeasibility: 1
+  vacation: 5
+  careerLongevity: 5
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 1
+  automationRisk: 1
+  handsOnInsulation: 10
+  satisfaction: 78
+  chooseAgain: 72
+  intellectualStim: 9
+  varietyRepetition: 8
+  patientImpact: 9
+  physicalToll: 2
+  emotionalToll: 3
+  malpracticeLiability: 10
+  injuryCareerRisk: 3
+  aiRiskNow: 1
+  aiRiskMedium: 1
+  aiRiskLong: 2
+  aiNarrative: "AI assists with intelligence fusion and mission planning, but leading small teams on high-stakes operations in ambiguous environments is the most human-dependent role in the military."
+  fellowshipOptions: "Language training, SERE school, special skills (HALO/SCUBA); War College; path to special operations command; strong contractor/CIA transition"
+  compModel: "Base pay + special duty pay ($375/mo) + hazardous duty pay ($250/mo) + BAH/BAS. O-3: ~$90K total, O-5: ~$120K"
+  revPerPatientVisit: "N/A — military salary with hazard/special duty pay"
+  dailyWorkflow: "Physical training, mission planning, language study, team training (shooting, tactics, comms), intelligence review, joint force coordination"
+  patientVolume: "Leads ODA of 12 (SF) or SEAL platoon of 16; coordinates with partner forces and interagency"
+  supportStaffModel: "Senior NCOs are backbone of team, intel support from battalion/group, aviation for insertion/extraction"
+  geographicDemandNotes: "Fort Liberty (SF), Coronado/Little Creek (SEALs), Hurlburt Field (AFSOC) — frequent overseas deployments"
+  telehealthPotential: 1
+  genderDistribution: "~3% women"
+
+- name: "Cyber Warfare Officer"
+  group: military_combat
+  residencyYears: 0
+  annualSpots: 2000
+  startSalary: 50
+  midSalary: 90
+  peakSalary: 125
+  typicalPeak: 105
+  partTimeFlex: 1
+  procedureMix: 3
+  callSchedule: 3
+  adminBurden: 5
+  hoursWeek: 50
+  burnout: 32
+  partTimeFeasibility: 1
+  vacation: 5
+  careerLongevity: 6
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 2
+  automationRisk: 3
+  handsOnInsulation: 5
+  satisfaction: 72
+  chooseAgain: 68
+  intellectualStim: 9
+  varietyRepetition: 7
+  patientImpact: 8
+  physicalToll: 8
+  emotionalToll: 5
+  malpracticeLiability: 10
+  injuryCareerRisk: 9
+  aiRiskNow: 2
+  aiRiskMedium: 3
+  aiRiskLong: 4
+  aiNarrative: "AI automates vulnerability scanning and threat detection, but offensive cyber operations and strategic planning require human creativity. Civilian transition to cybersecurity pays $125-200K+ with clearance."
+  fellowshipOptions: "NSA/CYBERCOM joint assignments, SANS certifications, MS in cybersecurity; civilian transition to FAANG/defense contractors at 2-3x military pay"
+  compModel: "Base pay + BAH/BAS + cyber-specific retention bonuses ($20K/yr). O-3: ~$85K, O-5: ~$115K total"
+  revPerPatientVisit: "N/A — military salary; massive civilian premium upon separation"
+  dailyWorkflow: "Monitor network operations, plan offensive/defensive cyber missions, develop tools and techniques, brief senior leaders, conduct team training"
+  patientVolume: "Leads team of 10-30 operators; manages multiple simultaneous operations"
+  supportStaffModel: "Enlisted cyber operators, intelligence analysts, NSA/CYBERCOM mission partners, contractors for tool development"
+  geographicDemandNotes: "Fort Eisenhower (Army Cyber), Fort Meade (CYBERCOM/NSA), San Antonio (Air Force cyber) — limited bases"
+  telehealthPotential: 2
+  genderDistribution: "~15% women"
+
+# === MILITARY SUPPORT (4) ===
+
+- name: "Military Intelligence Officer"
+  group: military_support
+  residencyYears: 0
+  annualSpots: 4000
+  startSalary: 45
+  midSalary: 88
+  peakSalary: 130
+  typicalPeak: 108
+  partTimeFlex: 1
+  procedureMix: 3
+  callSchedule: 2
+  adminBurden: 6
+  hoursWeek: 52
+  burnout: 35
+  partTimeFeasibility: 1
+  vacation: 5
+  careerLongevity: 6
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 2
+  automationRisk: 3
+  handsOnInsulation: 5
+  satisfaction: 72
+  chooseAgain: 67
+  intellectualStim: 9
+  varietyRepetition: 7
+  patientImpact: 8
+  physicalToll: 7
+  emotionalToll: 4
+  malpracticeLiability: 10
+  injuryCareerRisk: 7
+  aiRiskNow: 3
+  aiRiskMedium: 4
+  aiRiskLong: 5
+  aiNarrative: "AI processes satellite imagery and signals data far faster than humans, but synthesizing intelligence from multiple sources and briefing commanders on what it means still requires human judgment."
+  fellowshipOptions: "DIA/CIA/NSA joint tours, graduate intelligence programs, War College; strong transition to IC agencies or defense contractors"
+  compModel: "Base pay + BAH/BAS. O-1: ~$45K, O-3: ~$78K, O-5: ~$110K total. TS/SCI clearance adds 20-30% premium in civilian sector"
+  revPerPatientVisit: "N/A — military salary; clearance extremely valuable post-service"
+  dailyWorkflow: "Analyze intelligence reports, brief commanders, task collection assets, coordinate with national agencies, prepare threat assessments, manage intelligence staff"
+  patientVolume: "Supports brigade of 3000-5000; manages intel section of 15-40 analysts"
+  supportStaffModel: "Enlisted intel analysts (35-series), SIGINT/HUMINT collectors, national agency liaisons, S2/G2 staff"
+  geographicDemandNotes: "Every major Army/Marine post, DIA at Pentagon, deployed locations worldwide"
+  telehealthPotential: 2
+  genderDistribution: "~20% women"
+
+- name: "Military Engineering Officer"
+  group: military_support
+  residencyYears: 0
+  annualSpots: 3500
+  startSalary: 45
+  midSalary: 85
+  peakSalary: 125
+  typicalPeak: 102
+  partTimeFlex: 1
+  procedureMix: 6
+  callSchedule: 2
+  adminBurden: 6
+  hoursWeek: 52
+  burnout: 30
+  partTimeFeasibility: 1
+  vacation: 5
+  careerLongevity: 6
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 2
+  automationRisk: 2
+  handsOnInsulation: 7
+  satisfaction: 70
+  chooseAgain: 65
+  intellectualStim: 7
+  varietyRepetition: 7
+  patientImpact: 7
+  physicalToll: 5
+  emotionalToll: 5
+  malpracticeLiability: 10
+  injuryCareerRisk: 6
+  aiRiskNow: 2
+  aiRiskMedium: 3
+  aiRiskLong: 3
+  aiNarrative: "AI helps with design optimization and project scheduling, but managing large-scale construction in austere environments and leading engineer soldiers in combat requires hands-on leadership."
+  fellowshipOptions: "PE license, MS in engineering, USACE district assignments, War College; strong transition to construction management or civil engineering"
+  compModel: "Base pay + BAH/BAS. O-3: ~$78K, O-5: ~$110K total. PE-licensed officers valued in USACE"
+  revPerPatientVisit: "N/A — military salary"
+  dailyWorkflow: "Plan construction projects, manage route clearance operations, supervise horizontal/vertical construction, coordinate with USACE, lead equipment maintenance programs"
+  patientVolume: "Leads platoon (30+) or company (120+) of engineers; manages projects worth $1-50M+"
+  supportStaffModel: "NCOs run construction crews, USACE civilians provide technical support, contracting officers manage civilian contractors"
+  geographicDemandNotes: "Fort Leonard Wood (training), USACE districts nationwide, deployed locations for infrastructure projects"
+  telehealthPotential: 1
+  genderDistribution: "~15% women"
+
+- name: "Military Medical Service Officer"
+  group: military_support
+  residencyYears: 0
+  annualSpots: 2500
+  startSalary: 48
+  midSalary: 90
+  peakSalary: 130
+  typicalPeak: 108
+  partTimeFlex: 1
+  procedureMix: 3
+  callSchedule: 3
+  adminBurden: 7
+  hoursWeek: 50
+  burnout: 32
+  partTimeFeasibility: 1
+  vacation: 5
+  careerLongevity: 6
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 2
+  automationRisk: 3
+  handsOnInsulation: 5
+  satisfaction: 68
+  chooseAgain: 62
+  intellectualStim: 7
+  varietyRepetition: 6
+  patientImpact: 8
+  physicalToll: 7
+  emotionalToll: 5
+  malpracticeLiability: 10
+  injuryCareerRisk: 8
+  aiRiskNow: 3
+  aiRiskMedium: 4
+  aiRiskLong: 5
+  aiNarrative: "AI improves hospital logistics and patient scheduling, but managing military treatment facilities, coordinating combat casualty care systems, and leading medical units requires human leadership."
+  fellowshipOptions: "MHA/MBA, FACHE certification, joint medical planner course; transition to VA or civilian hospital administration"
+  compModel: "Base pay + BAH/BAS. O-3: ~$78K, O-5: ~$110K total. No medical bonuses (those are for physicians)"
+  revPerPatientVisit: "N/A — military salary; manages healthcare delivery not patient care"
+  dailyWorkflow: "Manage clinic/hospital operations, coordinate staffing, oversee budgets, ensure regulatory compliance, plan medical support for deployments, brief commanders on medical readiness"
+  patientVolume: "Manages facility serving 5,000-50,000+ beneficiaries"
+  supportStaffModel: "Clinical staff (physicians, nurses, medics), admin NCOs, civilian contractors, TRICARE coordinators"
+  geographicDemandNotes: "Walter Reed, Brooke Army Medical Center, Tripler — assigned to military treatment facilities worldwide"
+  telehealthPotential: 2
+  genderDistribution: "~45% women"
+
+- name: "Military Chaplain"
+  group: military_support
+  residencyYears: 0
+  annualSpots: 1200
+  startSalary: 45
+  midSalary: 82
+  peakSalary: 120
+  typicalPeak: 100
+  partTimeFlex: 1
+  procedureMix: 5
+  callSchedule: 2
+  adminBurden: 4
+  hoursWeek: 50
+  burnout: 35
+  partTimeFeasibility: 1
+  vacation: 5
+  careerLongevity: 7
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 1
+  automationRisk: 1
+  handsOnInsulation: 9
+  satisfaction: 80
+  chooseAgain: 75
+  intellectualStim: 7
+  varietyRepetition: 7
+  patientImpact: 9
+  physicalToll: 6
+  emotionalToll: 3
+  malpracticeLiability: 10
+  injuryCareerRisk: 6
+  aiRiskNow: 1
+  aiRiskMedium: 1
+  aiRiskLong: 1
+  aiNarrative: "AI cannot provide spiritual comfort, counsel grief-stricken families, or hold a dying soldier's hand. This is perhaps the most AI-proof career in government service."
+  fellowshipOptions: "Clinical pastoral education, advanced counseling certs, senior chaplain course; transition to VA chaplaincy or civilian ministry"
+  compModel: "Base pay + BAH/BAS. O-3: ~$78K, O-5: ~$105K total. Requires MDiv but enters as officer"
+  revPerPatientVisit: "N/A — military salary"
+  dailyWorkflow: "Lead religious services, counsel soldiers and families, advise commanders on morale and ethics, visit wounded in hospitals, conduct memorial ceremonies, deploy with combat units"
+  patientVolume: "Serves battalion of 600+ soldiers and their families; available 24/7 during deployments"
+  supportStaffModel: "Religious affairs NCO assists; coordinates with family readiness groups, behavioral health, and casualty assistance"
+  geographicDemandNotes: "Every military installation worldwide; deploys with combat units"
+  telehealthPotential: 1
+  genderDistribution: "~20% women"
+
+# === LAW ENFORCEMENT (4) ===
+
+- name: "Police Detective"
+  group: law_enforcement
+  residencyYears: 0
+  annualSpots: 15000
+  startSalary: 55
+  midSalary: 85
+  peakSalary: 115
+  typicalPeak: 95
+  partTimeFlex: 2
+  procedureMix: 7
+  callSchedule: 3
+  adminBurden: 6
+  hoursWeek: 48
+  burnout: 40
+  partTimeFeasibility: 2
+  vacation: 3
+  careerLongevity: 6
+  malpracticeFreq: 9
+  malpracticeCost: 0
+  geographicFlex: 4
+  automationRisk: 2
+  handsOnInsulation: 8
+  satisfaction: 68
+  chooseAgain: 62
+  intellectualStim: 8
+  varietyRepetition: 7
+  patientImpact: 9
+  physicalToll: 5
+  emotionalToll: 3
+  malpracticeLiability: 9
+  injuryCareerRisk: 5
+  aiRiskNow: 2
+  aiRiskMedium: 3
+  aiRiskLong: 3
+  aiNarrative: "AI helps with pattern recognition in crime data and video analysis, but interviewing witnesses, developing informants, and piecing together complex cases still requires human intuition."
+  fellowshipOptions: "Homicide, narcotics, cybercrime, financial crimes specializations; FBI National Academy; path to sergeant/lieutenant"
+  compModel: "Union salary + overtime + shift differential. Detective pay ~$10-15K above patrol. Pension after 20-25 years"
+  revPerPatientVisit: "N/A — salaried with overtime"
+  dailyWorkflow: "Interview witnesses, process crime scenes, write search warrants, review surveillance footage, coordinate with prosecutors, testify in court, manage caseload"
+  patientVolume: "Carry 10-30 active cases; clear rate varies by crime type"
+  supportStaffModel: "Crime scene techs, patrol officers, forensic lab, prosecutors, confidential informants"
+  geographicDemandNotes: "Every city — largest departments in NYC, Chicago, LA, Houston; BA increasingly required for promotion"
+  telehealthPotential: 1
+  genderDistribution: "~20% women"
+
+- name: "Fish & Wildlife Officer"
+  group: law_enforcement
+  residencyYears: 0
+  annualSpots: 2500
+  startSalary: 42
+  midSalary: 65
+  peakSalary: 90
+  typicalPeak: 75
+  partTimeFlex: 1
+  procedureMix: 7
+  callSchedule: 3
+  adminBurden: 5
+  hoursWeek: 48
+  burnout: 25
+  partTimeFeasibility: 1
+  vacation: 4
+  careerLongevity: 6
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 3
+  automationRisk: 1
+  handsOnInsulation: 9
+  satisfaction: 78
+  chooseAgain: 73
+  intellectualStim: 6
+  varietyRepetition: 7
+  patientImpact: 8
+  physicalToll: 3
+  emotionalToll: 5
+  malpracticeLiability: 10
+  injuryCareerRisk: 5
+  aiRiskNow: 1
+  aiRiskMedium: 1
+  aiRiskLong: 2
+  aiNarrative: "AI helps with wildlife population monitoring via drones and camera traps, but patrolling remote wilderness, confronting armed poachers, and building community trust requires a human presence."
+  fellowshipOptions: "Wildlife forensics, K-9 handler, boat operations, advanced LE training; path to district supervisor or special agent"
+  compModel: "GS-5 to GS-11 federal scale + LEAP (25%) for federal. State varies. Starting ~$42K, journey level ~$65K"
+  revPerPatientVisit: "N/A — salaried government position"
+  dailyWorkflow: "Patrol assigned territory, check hunting/fishing licenses, investigate wildlife crimes, collect evidence, write reports, testify in court, conduct public education programs"
+  patientVolume: "Covers territory of 500-3000+ square miles; contacts dozens of hunters/anglers per day in season"
+  supportStaffModel: "Works largely solo; coordinates with biologists, state agencies, prosecutors, and fellow officers"
+  geographicDemandNotes: "Rural areas nationwide — strongest demand in Mountain West, Alaska, Gulf Coast; must live in assigned district"
+  telehealthPotential: 1
+  genderDistribution: "~12% women"
+
+- name: "Park Ranger (Law Enforcement)"
+  group: law_enforcement
+  residencyYears: 0
+  annualSpots: 2000
+  startSalary: 40
+  midSalary: 60
+  peakSalary: 82
+  typicalPeak: 70
+  partTimeFlex: 2
+  procedureMix: 7
+  callSchedule: 3
+  adminBurden: 5
+  hoursWeek: 45
+  burnout: 22
+  partTimeFeasibility: 2
+  vacation: 4
+  careerLongevity: 6
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 2
+  automationRisk: 1
+  handsOnInsulation: 9
+  satisfaction: 82
+  chooseAgain: 75
+  intellectualStim: 6
+  varietyRepetition: 7
+  patientImpact: 8
+  physicalToll: 4
+  emotionalToll: 5
+  malpracticeLiability: 10
+  injuryCareerRisk: 5
+  aiRiskNow: 1
+  aiRiskMedium: 1
+  aiRiskLong: 2
+  aiNarrative: "AI improves visitor tracking and wildfire prediction, but search and rescue, visitor safety enforcement, and protecting national treasures in person is irreplaceably human work."
+  fellowshipOptions: "FLETC training, EMT certification, wildfire management, K-9 handler; path to chief ranger or superintendent"
+  compModel: "GS-5 to GS-11 scale. Starting ~$38-42K with locality, journey ~$57-65K. Housing sometimes provided in remote parks"
+  revPerPatientVisit: "N/A — salaried government position"
+  dailyWorkflow: "Patrol park lands, respond to emergencies, conduct search and rescue, enforce regulations, investigate crimes, provide visitor assistance, manage natural resources"
+  patientVolume: "Park visitation ranges from thousands to millions annually; handles 5-15 incidents per shift"
+  supportStaffModel: "Other rangers, interpretation staff, maintenance crew, regional law enforcement support, SAR volunteers"
+  geographicDemandNotes: "National parks nationwide — Yellowstone, Yosemite, Grand Canyon, Great Smokies; must accept remote/rural assignments"
+  telehealthPotential: 1
+  genderDistribution: "~30% women"
+
+- name: "Crime Scene Investigator"
+  group: law_enforcement
+  residencyYears: 0
+  annualSpots: 5000
+  startSalary: 45
+  midSalary: 68
+  peakSalary: 90
+  typicalPeak: 76
+  partTimeFlex: 2
+  procedureMix: 6
+  callSchedule: 3
+  adminBurden: 6
+  hoursWeek: 44
+  burnout: 35
+  partTimeFeasibility: 2
+  vacation: 3
+  careerLongevity: 7
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 4
+  automationRisk: 3
+  handsOnInsulation: 7
+  satisfaction: 70
+  chooseAgain: 65
+  intellectualStim: 8
+  varietyRepetition: 6
+  patientImpact: 8
+  physicalToll: 5
+  emotionalToll: 3
+  malpracticeLiability: 10
+  injuryCareerRisk: 7
+  aiRiskNow: 2
+  aiRiskMedium: 3
+  aiRiskLong: 4
+  aiNarrative: "AI improves fingerprint matching and DNA analysis speed, but physically processing crime scenes, collecting fragile evidence, and maintaining chain of custody requires careful human hands."
+  fellowshipOptions: "IAI certifications (CCSI, CLPE), forensic specialty training (bloodstain, digital forensics); path to crime lab director"
+  compModel: "Salaried, typically civilian employee of police department. Starting GS-7/9 equivalent. On-call pay for callouts"
+  revPerPatientVisit: "N/A — salaried government position"
+  dailyWorkflow: "Respond to crime scenes, photograph and sketch scenes, collect physical evidence, lift fingerprints, process evidence in lab, write detailed reports, testify as expert witness"
+  patientVolume: "Process 3-8 scenes per week; major scenes can take days"
+  supportStaffModel: "Works with detectives, patrol officers, forensic lab analysts, medical examiner, prosecutors"
+  geographicDemandNotes: "Every major city; largest CSI units in NYC, LA, Chicago, Houston, Phoenix; BA in forensic science preferred"
+  telehealthPotential: 1
+  genderDistribution: "~45% women"
+
+# === FEDERAL AGENTS (8) ===
+
+- name: "FBI Special Agent"
+  group: federal_agents
+  residencyYears: 0
+  annualSpots: 1500
+  startSalary: 62
+  midSalary: 110
+  peakSalary: 145
+  typicalPeak: 125
+  partTimeFlex: 1
+  procedureMix: 5
+  callSchedule: 3
+  adminBurden: 6
+  hoursWeek: 52
+  burnout: 38
+  partTimeFeasibility: 1
+  vacation: 4
+  careerLongevity: 6
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 2
+  automationRisk: 2
+  handsOnInsulation: 7
+  satisfaction: 75
+  chooseAgain: 70
+  intellectualStim: 9
+  varietyRepetition: 8
+  patientImpact: 9
+  physicalToll: 5
+  emotionalToll: 4
+  malpracticeLiability: 10
+  injuryCareerRisk: 6
+  aiRiskNow: 2
+  aiRiskMedium: 3
+  aiRiskLong: 4
+  aiNarrative: "AI accelerates data analysis in counterterrorism and cybercrime cases, but developing sources, conducting interviews, and building prosecutable cases still depends on human agents."
+  fellowshipOptions: "Behavioral analysis, counterterrorism, cyber, foreign counterintelligence specializations; path to supervisory special agent, ASAC, SAC"
+  compModel: "GL-10 start + LEAP (25%) + locality. Starting ~$62-83K. GS-13 journey ~$97-128K. Supervisory GS-14/15 ~$130-160K"
+  revPerPatientVisit: "N/A — salaried government position"
+  dailyWorkflow: "Conduct investigations, interview witnesses and suspects, execute search warrants, analyze evidence, write reports, coordinate with prosecutors, attend briefings, conduct surveillance"
+  patientVolume: "Carry 15-30 active cases across assigned program (CT, cyber, CI, criminal)"
+  supportStaffModel: "Intelligence analysts, forensic examiners, task force officers, US Attorneys, surveillance specialists"
+  geographicDemandNotes: "56 field offices nationwide + legats overseas; DC HQ; NYC, LA, Chicago are largest; must accept transfer"
+  telehealthPotential: 1
+  genderDistribution: "~22% women"
+
+- name: "DEA Agent"
+  group: federal_agents
+  residencyYears: 0
+  annualSpots: 1000
+  startSalary: 52
+  midSalary: 95
+  peakSalary: 130
+  typicalPeak: 110
+  partTimeFlex: 1
+  procedureMix: 7
+  callSchedule: 3
+  adminBurden: 5
+  hoursWeek: 52
+  burnout: 42
+  partTimeFeasibility: 1
+  vacation: 4
+  careerLongevity: 6
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 2
+  automationRisk: 2
+  handsOnInsulation: 8
+  satisfaction: 70
+  chooseAgain: 64
+  intellectualStim: 7
+  varietyRepetition: 7
+  patientImpact: 8
+  physicalToll: 4
+  emotionalToll: 3
+  malpracticeLiability: 10
+  injuryCareerRisk: 5
+  aiRiskNow: 2
+  aiRiskMedium: 2
+  aiRiskLong: 3
+  aiNarrative: "AI helps track financial networks and analyze communication patterns in drug trafficking cases, but undercover operations and source development are inherently human endeavors."
+  fellowshipOptions: "Diversion investigator, clandestine lab, tactical, aviation specializations; path to GS-14/15 supervisory roles; some transfer to FBI/CIA"
+  compModel: "GS-7/9 start + LEAP (25%) + locality. Starting ~$52-70K. GS-13 journey ~$92-120K with LEAP"
+  revPerPatientVisit: "N/A — salaried government position"
+  dailyWorkflow: "Conduct drug investigations, develop and manage informants, plan undercover operations, execute search/arrest warrants, seize assets, testify in court, coordinate with foreign counterparts"
+  patientVolume: "Carry 8-20 active investigations; major cases can span years"
+  supportStaffModel: "Intelligence analysts, task force officers (state/local), forensic chemists, prosecutors, foreign DEA offices"
+  geographicDemandNotes: "23 domestic divisions; Southwest border (El Paso, Phoenix, San Diego) highest activity; overseas offices in 70+ countries"
+  telehealthPotential: 1
+  genderDistribution: "~18% women"
+
+- name: "ATF Agent"
+  group: federal_agents
+  residencyYears: 0
+  annualSpots: 800
+  startSalary: 52
+  midSalary: 90
+  peakSalary: 125
+  typicalPeak: 108
+  partTimeFlex: 1
+  procedureMix: 7
+  callSchedule: 3
+  adminBurden: 6
+  hoursWeek: 50
+  burnout: 38
+  partTimeFeasibility: 1
+  vacation: 4
+  careerLongevity: 6
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 2
+  automationRisk: 2
+  handsOnInsulation: 8
+  satisfaction: 68
+  chooseAgain: 62
+  intellectualStim: 7
+  varietyRepetition: 7
+  patientImpact: 8
+  physicalToll: 5
+  emotionalToll: 4
+  malpracticeLiability: 10
+  injuryCareerRisk: 5
+  aiRiskNow: 2
+  aiRiskMedium: 3
+  aiRiskLong: 3
+  aiNarrative: "AI assists with firearms tracing databases and arson pattern analysis, but investigating bombings, infiltrating illegal arms networks, and fire scene analysis require physical human presence."
+  fellowshipOptions: "Certified Fire Investigator, explosives specialist, undercover operations; FLETC advanced training; path to group supervisor and ASAC"
+  compModel: "GS-5/7 start + LEAP (25%) + locality. Starting ~$50-68K. GS-13 journey ~$90-120K. Supervisory GS-14/15 ~$120-145K"
+  revPerPatientVisit: "N/A — salaried government position"
+  dailyWorkflow: "Investigate firearms trafficking, respond to bombing/arson scenes, inspect Federal Firearms Licensees, trace crime guns, execute warrants, prepare cases for prosecution"
+  patientVolume: "Carry 10-25 active cases; arson/bombing scenes can consume weeks"
+  supportStaffModel: "IOIs (industry operations inspectors), forensic lab (Ammendale), task force officers, prosecutors, fire marshals"
+  geographicDemandNotes: "25 field divisions; major cities dominate (NYC, Chicago, LA, Houston, Phoenix); FLETC training in Glynco GA"
+  telehealthPotential: 1
+  genderDistribution: "~15% women"
+
+- name: "US Marshal"
+  group: federal_agents
+  residencyYears: 0
+  annualSpots: 900
+  startSalary: 50
+  midSalary: 88
+  peakSalary: 120
+  typicalPeak: 105
+  partTimeFlex: 1
+  procedureMix: 8
+  callSchedule: 3
+  adminBurden: 5
+  hoursWeek: 50
+  burnout: 38
+  partTimeFeasibility: 1
+  vacation: 4
+  careerLongevity: 6
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 3
+  automationRisk: 2
+  handsOnInsulation: 9
+  satisfaction: 72
+  chooseAgain: 66
+  intellectualStim: 6
+  varietyRepetition: 7
+  patientImpact: 8
+  physicalToll: 4
+  emotionalToll: 4
+  malpracticeLiability: 10
+  injuryCareerRisk: 5
+  aiRiskNow: 1
+  aiRiskMedium: 2
+  aiRiskLong: 3
+  aiNarrative: "AI helps with fugitive tracking and threat assessment, but physically apprehending dangerous fugitives, protecting federal courthouses, and transporting prisoners cannot be automated."
+  fellowshipOptions: "SOG (Special Operations Group), witness security program, judicial security inspector; path to supervisory deputy, chief deputy, US Marshal (presidential appointee)"
+  compModel: "GL-7 start + LEAP (25%) + locality. Starting ~$50-65K. GS-12 journey ~$80-105K. Supervisory ~$105-130K"
+  revPerPatientVisit: "N/A — salaried government position"
+  dailyWorkflow: "Apprehend fugitives, provide courthouse security, transport federal prisoners, execute federal court orders, protect witnesses in WITSEC program, conduct threat assessments on federal judges"
+  patientVolume: "Arrest 80,000+ fugitives per year agency-wide; individual deputies handle 20-40 warrants at a time"
+  supportStaffModel: "Task force officers (state/local), court security officers, judicial staff, other federal agencies for fugitive operations"
+  geographicDemandNotes: "94 judicial districts nationwide; every federal courthouse has USMS presence; largest offices near major courts"
+  telehealthPotential: 1
+  genderDistribution: "~15% women"
+
+- name: "Secret Service Agent"
+  group: federal_agents
+  residencyYears: 0
+  annualSpots: 700
+  startSalary: 52
+  midSalary: 100
+  peakSalary: 140
+  typicalPeak: 118
+  partTimeFlex: 1
+  procedureMix: 6
+  callSchedule: 2
+  adminBurden: 5
+  hoursWeek: 55
+  burnout: 42
+  partTimeFeasibility: 1
+  vacation: 4
+  careerLongevity: 5
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 1
+  automationRisk: 2
+  handsOnInsulation: 9
+  satisfaction: 72
+  chooseAgain: 65
+  intellectualStim: 7
+  varietyRepetition: 6
+  patientImpact: 9
+  physicalToll: 4
+  emotionalToll: 3
+  malpracticeLiability: 10
+  injuryCareerRisk: 5
+  aiRiskNow: 2
+  aiRiskMedium: 2
+  aiRiskLong: 3
+  aiNarrative: "AI enhances threat detection and financial crime analysis, but physically protecting the President and investigating sophisticated counterfeiting/fraud requires human agents on the ground."
+  fellowshipOptions: "Presidential Protective Division, counter-assault team, counter-sniper, cyber fraud task force; path to SAIC, ASAIC, SAC"
+  compModel: "GL-7/9 start + LEAP (25%) + locality. Starting ~$52-70K. GS-13 journey ~$100-130K. Overtime premium during protection assignments"
+  revPerPatientVisit: "N/A — salaried government position"
+  dailyWorkflow: "Rotate between protection assignments (advance work, post standing, motorcade) and investigation duty (financial crimes, cyber fraud, counterfeit currency)"
+  patientVolume: "Protection: assigned to protectee detail for months at a time. Investigation: carry 10-20 financial crime cases"
+  supportStaffModel: "Uniformed Division officers, technical security, counter-assault teams, intelligence analysts, local law enforcement for visits"
+  geographicDemandNotes: "DC-based primarily (White House detail); 150+ field offices worldwide; heavy travel during campaigns and foreign trips"
+  telehealthPotential: 1
+  genderDistribution: "~15% women"
+
+- name: "HSI Agent"
+  group: federal_agents
+  residencyYears: 0
+  annualSpots: 1200
+  startSalary: 52
+  midSalary: 92
+  peakSalary: 128
+  typicalPeak: 110
+  partTimeFlex: 1
+  procedureMix: 5
+  callSchedule: 3
+  adminBurden: 6
+  hoursWeek: 50
+  burnout: 36
+  partTimeFeasibility: 1
+  vacation: 4
+  careerLongevity: 6
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 3
+  automationRisk: 2
+  handsOnInsulation: 7
+  satisfaction: 70
+  chooseAgain: 64
+  intellectualStim: 8
+  varietyRepetition: 8
+  patientImpact: 9
+  physicalToll: 5
+  emotionalToll: 3
+  malpracticeLiability: 10
+  injuryCareerRisk: 6
+  aiRiskNow: 2
+  aiRiskMedium: 3
+  aiRiskLong: 4
+  aiNarrative: "AI accelerates pattern detection in financial records and dark web investigations, but undercover operations against human traffickers and transnational criminal organizations require human agents."
+  fellowshipOptions: "BEST teams, cyber crimes, human trafficking, trade fraud specializations; overseas attache posts; path to ASAC/SAC"
+  compModel: "GS-7/9 start + LEAP (25%) + locality. Starting ~$52-68K. GS-13 journey ~$90-120K. Supervisory GS-14/15 ~$115-140K"
+  revPerPatientVisit: "N/A — salaried government position"
+  dailyWorkflow: "Investigate human trafficking, cybercrime, trade fraud, drug smuggling; develop undercover operations; coordinate with foreign law enforcement; write reports and affidavits for prosecution"
+  patientVolume: "Carry 10-25 active investigations across multiple programs; largest investigative arm of DHS"
+  supportStaffModel: "Intelligence analysts, forensic accountants, victim advocates, CBP officers, foreign law enforcement counterparts"
+  geographicDemandNotes: "Major cities and border regions; 30 SAC offices domestically; 80+ attache offices overseas; strong Southwest border presence"
+  telehealthPotential: 1
+  genderDistribution: "~20% women"
+
+- name: "IRS Criminal Investigator"
+  group: federal_agents
+  residencyYears: 0
+  annualSpots: 600
+  startSalary: 55
+  midSalary: 95
+  peakSalary: 130
+  typicalPeak: 112
+  partTimeFlex: 2
+  procedureMix: 3
+  callSchedule: 5
+  adminBurden: 7
+  hoursWeek: 48
+  burnout: 30
+  partTimeFeasibility: 2
+  vacation: 4
+  careerLongevity: 7
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 4
+  automationRisk: 4
+  handsOnInsulation: 4
+  satisfaction: 72
+  chooseAgain: 67
+  intellectualStim: 8
+  varietyRepetition: 6
+  patientImpact: 8
+  physicalToll: 8
+  emotionalToll: 5
+  malpracticeLiability: 10
+  injuryCareerRisk: 8
+  aiRiskNow: 3
+  aiRiskMedium: 4
+  aiRiskLong: 5
+  aiNarrative: "AI rapidly traces cryptocurrency and financial transactions, but following the money through shell companies and presenting complex fraud cases to juries still requires human investigators."
+  fellowshipOptions: "CPA strongly preferred, Certified Fraud Examiner (CFE), advanced financial crime training; transition to FBI, SEC, or private sector forensic accounting"
+  compModel: "GS-7/9 start + LEAP (25%) + locality. Starting ~$55-75K. GS-13 journey ~$92-128K. 92% conviction rate — highest in federal LE"
+  revPerPatientVisit: "N/A — salaried government position"
+  dailyWorkflow: "Analyze financial records, trace money flows, interview subjects, execute search warrants, prepare prosecution reports, testify on complex financial evidence, coordinate with US Attorneys"
+  patientVolume: "Carry 5-10 complex financial crime cases; investigations average 2-3 years"
+  supportStaffModel: "Financial analysts, forensic accountants, other federal agencies (FBI, FinCEN), prosecutors, grand jury investigators"
+  geographicDemandNotes: "35 field offices nationwide; major financial centers (NYC, LA, Chicago, Miami) have largest offices; DC headquarters"
+  telehealthPotential: 2
+  genderDistribution: "~30% women"
+
+- name: "Postal Inspector"
+  group: federal_agents
+  residencyYears: 0
+  annualSpots: 200
+  startSalary: 52
+  midSalary: 88
+  peakSalary: 120
+  typicalPeak: 102
+  partTimeFlex: 2
+  procedureMix: 5
+  callSchedule: 4
+  adminBurden: 6
+  hoursWeek: 46
+  burnout: 28
+  partTimeFeasibility: 2
+  vacation: 4
+  careerLongevity: 7
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 3
+  automationRisk: 3
+  handsOnInsulation: 6
+  satisfaction: 72
+  chooseAgain: 68
+  intellectualStim: 7
+  varietyRepetition: 7
+  patientImpact: 7
+  physicalToll: 7
+  emotionalToll: 5
+  malpracticeLiability: 10
+  injuryCareerRisk: 7
+  aiRiskNow: 2
+  aiRiskMedium: 3
+  aiRiskLong: 4
+  aiNarrative: "AI improves mail fraud detection and suspicious package screening, but investigating identity theft rings and dangerous mail incidents requires trained human investigators on the ground."
+  fellowshipOptions: "Digital forensics, financial investigations, dangerous mail investigations, external crime teams; path to team leader and inspector in charge"
+  compModel: "Postal pay scale + LEAP (25%) + locality. Starting ~$52-65K. Senior inspectors ~$85-110K. Best work-life balance in federal LE"
+  revPerPatientVisit: "N/A — salaried government position"
+  dailyWorkflow: "Investigate mail fraud, identity theft, dangerous mail, robbery of postal carriers; conduct undercover operations; testify in court; coordinate with other federal agencies"
+  patientVolume: "Carry 10-20 active cases; mail fraud cases can involve thousands of victims"
+  supportStaffModel: "Postal police officers, postal inspectors (analysts), USPS security, other federal agencies, prosecutors"
+  geographicDemandNotes: "18 divisions nationwide matching postal districts; every major city has a domicile office; less travel than most federal LE"
+  telehealthPotential: 2
+  genderDistribution: "~25% women"
+
+# === FIRE & RESCUE (1) ===
+
+- name: "Fire Investigator"
+  group: fire_rescue
+  residencyYears: 0
+  annualSpots: 3000
+  startSalary: 50
+  midSalary: 75
+  peakSalary: 100
+  typicalPeak: 85
+  partTimeFlex: 2
+  procedureMix: 7
+  callSchedule: 3
+  adminBurden: 6
+  hoursWeek: 46
+  burnout: 32
+  partTimeFeasibility: 2
+  vacation: 3
+  careerLongevity: 7
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 4
+  automationRisk: 2
+  handsOnInsulation: 8
+  satisfaction: 72
+  chooseAgain: 67
+  intellectualStim: 8
+  varietyRepetition: 7
+  patientImpact: 8
+  physicalToll: 5
+  emotionalToll: 4
+  malpracticeLiability: 10
+  injuryCareerRisk: 6
+  aiRiskNow: 2
+  aiRiskMedium: 3
+  aiRiskLong: 3
+  aiNarrative: "AI helps analyze burn patterns from photographs and accelerant detection data, but physically excavating fire scenes and determining origin and cause requires trained human investigators."
+  fellowshipOptions: "IAAI Certified Fire Investigator (CFI), NAFI certification, ATF Certified Fire Investigator program; path to chief investigator or ATF"
+  compModel: "Salaried municipal or state employee. Starting ~$48-55K, senior ~$75-90K. Some jurisdictions pay overtime for callouts"
+  revPerPatientVisit: "N/A — salaried government position"
+  dailyWorkflow: "Respond to fire scenes, excavate debris to find origin, collect evidence samples, interview witnesses, coordinate with arson prosecutors, write investigation reports, testify as expert witness"
+  patientVolume: "Investigate 50-150 fires per year depending on jurisdiction size"
+  supportStaffModel: "Fire department, police detectives, ATF agents on major cases, forensic lab, prosecutors, insurance investigators"
+  geographicDemandNotes: "Every major city has fire investigation unit; busiest in dense urban areas and wildfire-prone regions"
+  telehealthPotential: 1
+  genderDistribution: "~12% women"
+
+# === INTELLIGENCE (4) ===
+
+- name: "CIA Operations Officer"
+  group: intelligence
+  residencyYears: 0
+  annualSpots: 500
+  startSalary: 60
+  midSalary: 110
+  peakSalary: 160
+  typicalPeak: 130
+  partTimeFlex: 1
+  procedureMix: 7
+  callSchedule: 2
+  adminBurden: 6
+  hoursWeek: 55
+  burnout: 40
+  partTimeFeasibility: 1
+  vacation: 4
+  careerLongevity: 5
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 1
+  automationRisk: 1
+  handsOnInsulation: 9
+  satisfaction: 75
+  chooseAgain: 70
+  intellectualStim: 10
+  varietyRepetition: 9
+  patientImpact: 9
+  physicalToll: 5
+  emotionalToll: 3
+  malpracticeLiability: 10
+  injuryCareerRisk: 5
+  aiRiskNow: 1
+  aiRiskMedium: 2
+  aiRiskLong: 2
+  aiNarrative: "AI cannot recruit a foreign agent over dinner, build trust through years of clandestine meetings, or assess a human source's reliability. HUMINT remains the most human-dependent intelligence discipline."
+  fellowshipOptions: "Chief of Station track, specialized tradecraft courses, language immersion, joint duty with military SOF; path to senior intelligence service (SIS)"
+  compModel: "GS-10/12 equivalent start + overseas differential (15-35%) + danger pay + hardship. Starting ~$60-80K. Senior: $130-160K+ with allowances"
+  revPerPatientVisit: "N/A — classified salary with overseas allowances"
+  dailyWorkflow: "Recruit and handle foreign intelligence sources, plan clandestine meetings, write intelligence reports, coordinate with station chief and headquarters, conduct surveillance detection routes, manage cover"
+  patientVolume: "Handle 5-15 active sources; focus on highest-priority intelligence targets"
+  supportStaffModel: "Support officers, reports officers, technical officers, station chief, headquarters desk officers, counterintelligence"
+  geographicDemandNotes: "Overseas postings worldwide; tours of 2-3 years; some DC headquarters rotations; hardship posts earn highest pay"
+  telehealthPotential: 1
+  genderDistribution: "~35% women"
+
+- name: "CIA Analyst"
+  group: intelligence
+  residencyYears: 0
+  annualSpots: 1000
+  startSalary: 58
+  midSalary: 100
+  peakSalary: 145
+  typicalPeak: 120
+  partTimeFlex: 2
+  procedureMix: 1
+  callSchedule: 5
+  adminBurden: 6
+  hoursWeek: 48
+  burnout: 30
+  partTimeFeasibility: 2
+  vacation: 4
+  careerLongevity: 7
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 2
+  automationRisk: 4
+  handsOnInsulation: 3
+  satisfaction: 75
+  chooseAgain: 70
+  intellectualStim: 10
+  varietyRepetition: 7
+  patientImpact: 9
+  physicalToll: 9
+  emotionalToll: 5
+  malpracticeLiability: 10
+  injuryCareerRisk: 9
+  aiRiskNow: 3
+  aiRiskMedium: 5
+  aiRiskLong: 6
+  aiNarrative: "AI processes vast amounts of open-source and classified data far faster than humans, but synthesizing ambiguous intelligence into actionable briefings for the President requires human analytical judgment."
+  fellowshipOptions: "All-source, economic, military, WMD, leadership analysis specializations; NIC rotation; path to senior analyst or National Intelligence Officer"
+  compModel: "GS-7/9 start + locality (DC). Starting ~$58-75K. GS-14/15 senior ~$120-155K. SIS equivalent to SES ~$150K+"
+  revPerPatientVisit: "N/A — classified salary"
+  dailyWorkflow: "Read cable traffic and intelligence reports, draft analytical assessments, brief senior officials, contribute to President's Daily Brief, coordinate with other IC agencies, attend interagency meetings"
+  patientVolume: "Responsible for specific country or functional portfolio; produce 20-50 analytical products per year"
+  supportStaffModel: "Collection managers, targeting officers, open-source analysts, other IC agency counterparts, graphic designers for products"
+  geographicDemandNotes: "Primarily Langley VA (CIA HQ); some domestic and overseas rotations; most analysts are DC-based"
+  telehealthPotential: 3
+  genderDistribution: "~45% women"
+
+- name: "NSA Intelligence Analyst"
+  group: intelligence
+  residencyYears: 0
+  annualSpots: 2000
+  startSalary: 60
+  midSalary: 105
+  peakSalary: 150
+  typicalPeak: 125
+  partTimeFlex: 2
+  procedureMix: 1
+  callSchedule: 4
+  adminBurden: 5
+  hoursWeek: 46
+  burnout: 30
+  partTimeFeasibility: 2
+  vacation: 4
+  careerLongevity: 7
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 2
+  automationRisk: 4
+  handsOnInsulation: 3
+  satisfaction: 72
+  chooseAgain: 68
+  intellectualStim: 10
+  varietyRepetition: 6
+  patientImpact: 8
+  physicalToll: 9
+  emotionalToll: 6
+  malpracticeLiability: 10
+  injuryCareerRisk: 9
+  aiRiskNow: 4
+  aiRiskMedium: 5
+  aiRiskLong: 6
+  aiNarrative: "AI automates much of signals processing and pattern detection, but interpreting foreign communications in context and identifying emerging threats from ambiguous data requires skilled human analysts."
+  fellowshipOptions: "Cryptanalysis, network analysis, language specialization, cyber threat analysis; joint duty with military or CIA; path to senior technical positions"
+  compModel: "GS-7/9 start (NSA pay bands) + locality (DC metro). Starting ~$60-78K. Senior band 3/4: ~$110-155K. TS/SCI + poly required"
+  revPerPatientVisit: "N/A — classified salary"
+  dailyWorkflow: "Analyze intercepted communications, write SIGINT reports, collaborate with cryptanalysts and linguists, brief military and civilian leaders, develop collection strategies, monitor priority targets"
+  patientVolume: "Cover assigned target set; produce SIGINT reports contributing to national intelligence priorities"
+  supportStaffModel: "Linguists, cryptanalysts, computer scientists, collection managers, military SIGINT partners"
+  geographicDemandNotes: "Primarily Fort Meade MD; regional SIGINT facilities at Fort Gordon, Kunia (Hawaii), Buckley (CO), overseas cryptologic centers"
+  telehealthPotential: 3
+  genderDistribution: "~35% women"
+
+- name: "DIA Defense Analyst"
+  group: intelligence
+  residencyYears: 0
+  annualSpots: 1500
+  startSalary: 55
+  midSalary: 95
+  peakSalary: 140
+  typicalPeak: 118
+  partTimeFlex: 2
+  procedureMix: 1
+  callSchedule: 5
+  adminBurden: 6
+  hoursWeek: 46
+  burnout: 28
+  partTimeFeasibility: 2
+  vacation: 4
+  careerLongevity: 7
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 2
+  automationRisk: 4
+  handsOnInsulation: 3
+  satisfaction: 70
+  chooseAgain: 65
+  intellectualStim: 9
+  varietyRepetition: 6
+  patientImpact: 8
+  physicalToll: 9
+  emotionalToll: 6
+  malpracticeLiability: 10
+  injuryCareerRisk: 9
+  aiRiskNow: 3
+  aiRiskMedium: 5
+  aiRiskLong: 6
+  aiNarrative: "AI processes satellite imagery and order-of-battle data rapidly, but assessing foreign military capabilities and predicting adversary intentions requires human expertise in military affairs."
+  fellowshipOptions: "Regional specialization (China, Russia, Middle East), weapons analysis, MASINT, HUMINT; combatant command rotations; path to senior defense intelligence positions"
+  compModel: "GS-7/9 start + DC locality. Starting ~$55-72K. GS-14/15 senior ~$115-150K. Some deployed positions with additional pay"
+  revPerPatientVisit: "N/A — salaried government position"
+  dailyWorkflow: "Analyze foreign military capabilities, produce all-source intelligence assessments, brief Pentagon and combatant command leaders, coordinate with service intelligence centers, support warfighter"
+  patientVolume: "Cover assigned regional or functional portfolio; produce 15-40 intelligence products per year"
+  supportStaffModel: "HUMINT collectors, imagery analysts, signals analysts, foreign military attachés, service intelligence counterparts"
+  geographicDemandNotes: "Pentagon and DIA HQ (Joint Base Anacostia-Bolling); combatant command J2 staffs worldwide; Missile & Space Intelligence Center (Huntsville AL)"
+  telehealthPotential: 3
+  genderDistribution: "~40% women"
+
+# === CORRECTIONS & SECURITY (2) ===
+
+- name: "Federal Probation Officer"
+  group: corrections_security
+  residencyYears: 0
+  annualSpots: 3000
+  startSalary: 52
+  midSalary: 78
+  peakSalary: 105
+  typicalPeak: 88
+  partTimeFlex: 3
+  procedureMix: 4
+  callSchedule: 5
+  adminBurden: 7
+  hoursWeek: 44
+  burnout: 35
+  partTimeFeasibility: 3
+  vacation: 4
+  careerLongevity: 7
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 3
+  automationRisk: 3
+  handsOnInsulation: 6
+  satisfaction: 65
+  chooseAgain: 58
+  intellectualStim: 6
+  varietyRepetition: 5
+  patientImpact: 8
+  physicalToll: 7
+  emotionalToll: 4
+  malpracticeLiability: 10
+  injuryCareerRisk: 7
+  aiRiskNow: 3
+  aiRiskMedium: 4
+  aiRiskLong: 5
+  aiNarrative: "AI improves risk assessment scoring and caseload management, but supervising offenders, conducting home visits, and making judgment calls about violations requires human oversight and empathy."
+  fellowshipOptions: "Pretrial services, substance abuse specialization, mental health courts, firearms certification; path to supervisory officer and chief probation officer"
+  compModel: "CL-25 to CL-29 (judicial branch pay scale). Starting ~$52-62K. Senior/supervisory ~$80-110K. Federal judiciary benefits"
+  revPerPatientVisit: "N/A — salaried government position"
+  dailyWorkflow: "Conduct presentence investigations, supervise offenders on probation/supervised release, make home and employment visits, drug test offenders, write violation reports, testify in court"
+  patientVolume: "Carry caseload of 50-80 offenders; write 4-8 presentence reports per month"
+  supportStaffModel: "Other probation officers, judges, US Attorneys, defense attorneys, treatment providers, law enforcement for warrants"
+  geographicDemandNotes: "94 federal judicial districts; every federal courthouse has a probation office; urban districts have largest caseloads"
+  telehealthPotential: 2
+  genderDistribution: "~50% women"
+
+- name: "Capitol Police Officer"
+  group: corrections_security
+  residencyYears: 0
+  annualSpots: 400
+  startSalary: 60
+  midSalary: 88
+  peakSalary: 120
+  typicalPeak: 100
+  partTimeFlex: 2
+  procedureMix: 6
+  callSchedule: 3
+  adminBurden: 5
+  hoursWeek: 46
+  burnout: 35
+  partTimeFeasibility: 2
+  vacation: 4
+  careerLongevity: 6
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 1
+  automationRisk: 2
+  handsOnInsulation: 8
+  satisfaction: 68
+  chooseAgain: 60
+  intellectualStim: 5
+  varietyRepetition: 5
+  patientImpact: 8
+  physicalToll: 4
+  emotionalToll: 4
+  malpracticeLiability: 10
+  injuryCareerRisk: 5
+  aiRiskNow: 1
+  aiRiskMedium: 2
+  aiRiskLong: 2
+  aiNarrative: "AI enhances surveillance and threat detection systems, but physically securing the US Capitol complex and protecting Members of Congress requires armed human officers on the ground."
+  fellowshipOptions: "Dignitary protection, K-9, hazardous materials, containment emergency response team (CERT); path to sergeant, lieutenant, captain"
+  compModel: "Starting ~$64-83K (competitive federal LE pay). Senior officers ~$88-105K. Overtime and holiday pay common. Full federal benefits"
+  revPerPatientVisit: "N/A — salaried government position"
+  dailyWorkflow: "Patrol Capitol complex, screen visitors, provide dignitary protection, respond to threats, investigate criminal activity on Capitol grounds, manage special events security"
+  patientVolume: "Capitol complex receives ~3 million visitors/year; officers handle post assignments, patrols, and incident response"
+  supportStaffModel: "USCP intelligence division, K-9 units, hazmat teams, coordination with Secret Service and Park Police, congressional staff"
+  geographicDemandNotes: "Washington DC exclusively — Capitol complex, congressional office buildings, Library of Congress"
+  telehealthPotential: 1
+  genderDistribution: "~20% women"
+
+# === CIVIL SERVICE (1) ===
+
+- name: "Air Traffic Controller"
+  group: civil_service
+  residencyYears: 0
+  annualSpots: 1800
+  startSalary: 70
+  midSalary: 140
+  peakSalary: 180
+  typicalPeak: 160
+  partTimeFlex: 1
+  procedureMix: 2
+  callSchedule: 2
+  adminBurden: 3
+  hoursWeek: 40
+  burnout: 42
+  partTimeFeasibility: 1
+  vacation: 4
+  careerLongevity: 4
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 2
+  automationRisk: 4
+  handsOnInsulation: 6
+  satisfaction: 70
+  chooseAgain: 65
+  intellectualStim: 8
+  varietyRepetition: 5
+  patientImpact: 9
+  physicalToll: 7
+  emotionalToll: 3
+  malpracticeLiability: 10
+  injuryCareerRisk: 9
+  aiRiskNow: 3
+  aiRiskMedium: 4
+  aiRiskLong: 6
+  aiNarrative: "AI assists with traffic flow optimization and conflict detection, but real-time decision-making with hundreds of lives at stake in rapidly changing weather and emergency situations demands human controllers — for now."
+  fellowshipOptions: "Terminal, en route, and approach certifications; CPC (certified professional controller) rating; path to front-line manager or traffic management coordinator; mandatory retirement at 56"
+  compModel: "FAA pay bands. Academy training ~$24-45K. Developmental controllers ~$70-100K. Certified controllers ~$130-180K at major facilities. Locality pay varies significantly"
+  revPerPatientVisit: "N/A — salaried government position"
+  dailyWorkflow: "Manage aircraft separation and sequencing, issue clearances, coordinate with adjacent sectors, handle emergencies, work rotating shifts (days, evenings, nights, weekends), mandatory breaks between sessions"
+  patientVolume: "Control 10-40+ aircraft simultaneously depending on facility; major airports handle 1000+ operations/day"
+  supportStaffModel: "Other controllers on frequency, traffic management unit, flight data coordinators, supervisors, FAA tech ops for equipment"
+  geographicDemandNotes: "Major airports (ATL, ORD, LAX, DFW, JFK) and en-route centers nationwide; assigned by FAA; must hire before age 31"
+  telehealthPotential: 1
+  genderDistribution: "~18% women"

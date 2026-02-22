@@ -1,0 +1,156 @@
+# config.yaml — government & service profession family
+
+name: "Government & Service"
+slug: government
+icon: "\U0001F3DB\uFE0F"
+headline: "Which Government Career Should You Pursue?"
+subtitle: "A Data-Driven Guide"
+
+groups:
+  military_combat:
+    label: "Military Combat"
+    icon: "\U0001F3AF"
+    tagline: "you want to be on the front lines"
+    description: "Infantry, special operations, armor, combat engineering, aviation, cyber warfare"
+  military_support:
+    label: "Military Support"
+    icon: "\U0001F527"
+    tagline: "you want to keep the mission running"
+    description: "Combat medics, military police, mechanics, logistics, intelligence officers"
+  law_enforcement:
+    label: "Law Enforcement"
+    icon: "\U0001F694"
+    tagline: "you want to protect and serve"
+    description: "Police officers, detectives, state troopers, park rangers, crime scene investigators"
+  federal_agents:
+    label: "Federal Agents"
+    icon: "\U0001F50D"
+    tagline: "you want to catch the bad guys"
+    description: "FBI, DEA, ATF, Secret Service, US Marshals, border patrol"
+  fire_rescue:
+    label: "Fire & Rescue"
+    icon: "\U0001F525"
+    tagline: "you want to run toward danger"
+    description: "Firefighters, paramedics, EMTs, wildland fire, dispatch"
+  intelligence:
+    label: "Intelligence"
+    icon: "\U0001F575\uFE0F"
+    tagline: "you want to see what others can't"
+    description: "CIA, NSA, DIA analysts and operations officers"
+  corrections_security:
+    label: "Corrections & Security"
+    icon: "\U0001F512"
+    tagline: "you want to maintain order"
+    description: "Corrections officers, court security, TSA, federal probation"
+  civil_service:
+    label: "Civil Service"
+    icon: "\u2699\uFE0F"
+    tagline: "you want to keep the country running"
+    description: "Air traffic control, urban planning, city management, public health"
+  diplomacy_policy:
+    label: "Diplomacy & Policy"
+    icon: "\U0001F310"
+    tagline: "you want to shape the world"
+    description: "Foreign Service, policy analysts, legislative directors, emergency management"
+
+professions:
+  Academy:
+    label: Academy Graduate
+    color: "#2E7D32"
+    annualGraduates: 260000
+  BA:
+    label: "BA + Federal Training"
+    color: "#1565C0"
+    annualGraduates: 150000
+  MA+:
+    label: "MA+ Graduate"
+    color: "#880E4F"
+    annualGraduates: 40000
+
+key_overrides:
+  "Special Operations Enlisted":
+    key: spec_ops_enlisted
+    color: "#1B5E20"
+  "FBI Special Agent":
+    key: fbi_agent
+    color: "#0D47A1"
+  "Military Pilot":
+    key: military_pilot
+    color: "#B71C1C"
+  "Foreign Service Officer":
+    key: foreign_service
+    color: "#4A148C"
+  "Secret Service Agent":
+    key: secret_service
+    color: "#263238"
+  "Air Traffic Controller":
+    key: atc_controller
+    color: "#E65100"
+
+final_ranking:
+  - rank: 1
+    track: FBI Special Agent
+    key: fbi_agent
+    note: Best all-around federal career
+  - rank: 2
+    track: Special Operations Enlisted
+    key: spec_ops_enlisted
+    note: Most elite path, no degree required
+  - rank: 3
+    track: Military Pilot
+    key: military_pilot
+    note: Highest-skill aviation career
+  - rank: 4
+    track: Foreign Service Officer
+    key: foreign_service
+    note: Shape foreign policy worldwide
+  - rank: 5
+    track: Secret Service Agent
+    key: secret_service
+    note: Protect national leaders
+  - rank: 6
+    track: Air Traffic Controller
+    key: atc_controller
+    note: Best pay without a graduate degree
+
+decision_tree:
+  q: "Do you want to carry a weapon as part of your job?"
+  "yes":
+    q: "Military or civilian law enforcement?"
+    "yes":
+      q: "Front lines or flying?"
+      procedural: spec_ops_enlisted
+      variety: military_pilot
+    "no":
+      q: "Investigate crimes or protect VIPs?"
+      procedural: fbi_agent
+      variety: secret_service
+  "no":
+    q: "What matters most to you?"
+    options:
+      - label: "\U0001F310 Shaping foreign policy"
+        result: foreign_service
+      - label: "\u2708\uFE0F High-stakes decision making"
+        result: atc_controller
+      - label: "\U0001F50D Intelligence and analysis"
+        result: fbi_agent
+
+decision_tree_results:
+  spec_ops_enlisted:
+    tagline: "Elite warrior"
+    stat: "$35K start \u2022 $90K+ senior \u2022 no degree needed"
+  fbi_agent:
+    tagline: "America's top investigators"
+    stat: "$62K start \u2022 $140K+ senior \u2022 BA required"
+  military_pilot:
+    tagline: "Fly the most advanced aircraft on earth"
+    stat: "$45K start \u2022 $130K+ senior \u2022 BA + flight school"
+  foreign_service:
+    tagline: "America's diplomats abroad"
+    stat: "$60K start \u2022 $180K+ ambassador \u2022 MA preferred"
+  secret_service:
+    tagline: "Protect the president"
+    stat: "$52K start \u2022 $140K+ senior \u2022 BA required"
+  atc_controller:
+    tagline: "Keep the skies safe"
+    stat: "$70K start \u2022 $180K+ senior \u2022 BA + FAA Academy"

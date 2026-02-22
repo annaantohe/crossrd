@@ -1,0 +1,916 @@
+# Academy Government specialties — 20 careers across 5 groups
+# High school diploma + training academy / boot camp
+profession: Academy
+specialties:
+
+# === MILITARY COMBAT (4) ===
+
+- name: "Infantry Soldier"
+  group: military_combat
+  residencyYears: 0
+  annualSpots: 35000
+  startSalary: 25
+  midSalary: 45
+  peakSalary: 60
+  typicalPeak: 52
+  partTimeFlex: 1
+  procedureMix: 8
+  callSchedule: 1
+  adminBurden: 4
+  hoursWeek: 55
+  burnout: 38
+  partTimeFeasibility: 1
+  vacation: 5
+  careerLongevity: 4
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 2
+  automationRisk: 2
+  handsOnInsulation: 9
+  satisfaction: 58
+  chooseAgain: 52
+  intellectualStim: 4
+  varietyRepetition: 5
+  patientImpact: 8
+  physicalToll: 2
+  emotionalToll: 3
+  malpracticeLiability: 10
+  injuryCareerRisk: 3
+  aiRiskNow: 1
+  aiRiskMedium: 2
+  aiRiskLong: 3
+  aiNarrative: "Autonomous systems and drones are changing the battlefield, but ground combat still requires human judgment, adaptability, and leadership under extreme pressure."
+  fellowshipOptions: "Airborne, Air Assault, Ranger School, drill sergeant academy, path to NCO leadership"
+  compModel: "Base pay + BAH + BAS + combat pay; tax-free in combat zones"
+  revPerPatientVisit: "N/A — salaried government position"
+  dailyWorkflow: "Physical training, weapons qualification, field exercises, equipment maintenance, tactical briefings, deployment rotations"
+  patientVolume: "N/A — mission-based workload"
+  supportStaffModel: "Fire team (4) → squad (9) → platoon (30-50) → company; NCO chain of command"
+  geographicDemandNotes: "Fort Moore GA, Fort Campbell KY, Fort Liberty NC, JBLM WA, overseas bases; go where assigned"
+  telehealthPotential: 1
+  genderDistribution: "~14% women"
+
+- name: "Special Operations Enlisted"
+  group: military_combat
+  residencyYears: 0
+  annualSpots: 3000
+  startSalary: 35
+  midSalary: 70
+  peakSalary: 95
+  typicalPeak: 80
+  partTimeFlex: 1
+  procedureMix: 9
+  callSchedule: 1
+  adminBurden: 3
+  hoursWeek: 60
+  burnout: 40
+  partTimeFeasibility: 1
+  vacation: 5
+  careerLongevity: 4
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 2
+  automationRisk: 1
+  handsOnInsulation: 10
+  satisfaction: 65
+  chooseAgain: 60
+  intellectualStim: 7
+  varietyRepetition: 7
+  patientImpact: 9
+  physicalToll: 1
+  emotionalToll: 2
+  malpracticeLiability: 10
+  injuryCareerRisk: 2
+  aiRiskNow: 1
+  aiRiskMedium: 1
+  aiRiskLong: 2
+  aiNarrative: "SOF missions demand split-second human judgment in ambiguous situations — no AI can replicate the creativity, cultural awareness, and physical adaptability of an operator."
+  fellowshipOptions: "SEAL qualification, Ranger tab, Special Forces tab, SERE, dive school, free-fall; path to senior NCO or warrant officer"
+  compModel: "Base pay + BAH + BAS + special duty pay + hazardous duty pay + language pay; tax-free in combat zones"
+  revPerPatientVisit: "N/A — salaried government position"
+  dailyWorkflow: "Specialized training (dive, HALO, CQB), mission planning, language study, fitness, deployment cycles of 6-9 months"
+  patientVolume: "N/A — small team mission-based"
+  supportStaffModel: "12-man ODA or SEAL platoon (16); flat leadership structure; supported by enablers (intel, comms, aviation)"
+  geographicDemandNotes: "Fort Liberty NC, Coronado CA, Eglin FL, Fort Campbell KY, JBLM WA; frequent global deployments"
+  telehealthPotential: 1
+  genderDistribution: "~3% women"
+
+- name: "Armor Crewmember"
+  group: military_combat
+  residencyYears: 0
+  annualSpots: 12000
+  startSalary: 25
+  midSalary: 48
+  peakSalary: 65
+  typicalPeak: 55
+  partTimeFlex: 1
+  procedureMix: 8
+  callSchedule: 1
+  adminBurden: 4
+  hoursWeek: 52
+  burnout: 35
+  partTimeFeasibility: 1
+  vacation: 5
+  careerLongevity: 5
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 2
+  automationRisk: 3
+  handsOnInsulation: 8
+  satisfaction: 58
+  chooseAgain: 52
+  intellectualStim: 5
+  varietyRepetition: 5
+  patientImpact: 7
+  physicalToll: 3
+  emotionalToll: 3
+  malpracticeLiability: 10
+  injuryCareerRisk: 4
+  aiRiskNow: 1
+  aiRiskMedium: 2
+  aiRiskLong: 4
+  aiNarrative: "Autonomous vehicle technology is advancing, but crewed fighting vehicles still require human crews for complex tactical decisions and combined arms coordination."
+  fellowshipOptions: "Master gunner course, Bradley commander course, cavalry scout transition; path to NCO tank platoon sergeant"
+  compModel: "Base pay + BAH + BAS; crew bonus in some specialties"
+  revPerPatientVisit: "N/A — salaried government position"
+  dailyWorkflow: "Vehicle maintenance, gunnery practice, tactical maneuvers, physical training, equipment inspections, field exercises"
+  patientVolume: "N/A — crew-based operations (4-person tank crew)"
+  supportStaffModel: "4-person crew → platoon of 4 tanks → company of 14 tanks; maintenance and logistics support"
+  geographicDemandNotes: "Fort Cavazos TX, Fort Stewart GA, Germany, South Korea; limited base options for armor"
+  telehealthPotential: 1
+  genderDistribution: "~10% women"
+
+- name: "Combat Engineer / EOD"
+  group: military_combat
+  residencyYears: 0
+  annualSpots: 8000
+  startSalary: 28
+  midSalary: 52
+  peakSalary: 72
+  typicalPeak: 60
+  partTimeFlex: 1
+  procedureMix: 8
+  callSchedule: 1
+  adminBurden: 4
+  hoursWeek: 54
+  burnout: 38
+  partTimeFeasibility: 1
+  vacation: 5
+  careerLongevity: 4
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 2
+  automationRisk: 2
+  handsOnInsulation: 9
+  satisfaction: 62
+  chooseAgain: 55
+  intellectualStim: 6
+  varietyRepetition: 6
+  patientImpact: 8
+  physicalToll: 2
+  emotionalToll: 3
+  malpracticeLiability: 10
+  injuryCareerRisk: 2
+  aiRiskNow: 1
+  aiRiskMedium: 2
+  aiRiskLong: 3
+  aiNarrative: "Robots help with bomb disposal at a distance, but identifying, disabling, and clearing explosive threats in unpredictable environments still demands human expertise and nerve."
+  fellowshipOptions: "EOD school (Eglin AFB), sapper tab, dive qualification, hazmat certification; strong civilian transition to bomb squad or demolition"
+  compModel: "Base pay + BAH + BAS + demolition pay + hazardous duty pay"
+  revPerPatientVisit: "N/A — salaried government position"
+  dailyWorkflow: "Explosive ordnance training, route clearance, demolition exercises, mine detection, field construction, equipment maintenance"
+  patientVolume: "N/A — mission-based; EOD teams respond to IED/UXO calls"
+  supportStaffModel: "3-person EOD team or 12-person sapper squad; supported by infantry and intel assets"
+  geographicDemandNotes: "Fort Leonard Wood MO (training), Eglin AFB FL (EOD school), deployed worldwide; EOD techs at every major installation"
+  telehealthPotential: 1
+  genderDistribution: "~8% women"
+
+# === MILITARY SUPPORT (4) ===
+
+- name: "Combat Medic / Corpsman"
+  group: military_support
+  residencyYears: 0
+  annualSpots: 15000
+  startSalary: 27
+  midSalary: 48
+  peakSalary: 65
+  typicalPeak: 55
+  partTimeFlex: 1
+  procedureMix: 7
+  callSchedule: 1
+  adminBurden: 5
+  hoursWeek: 52
+  burnout: 35
+  partTimeFeasibility: 1
+  vacation: 5
+  careerLongevity: 5
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 3
+  automationRisk: 2
+  handsOnInsulation: 8
+  satisfaction: 65
+  chooseAgain: 60
+  intellectualStim: 6
+  varietyRepetition: 6
+  patientImpact: 9
+  physicalToll: 3
+  emotionalToll: 2
+  malpracticeLiability: 10
+  injuryCareerRisk: 4
+  aiRiskNow: 1
+  aiRiskMedium: 2
+  aiRiskLong: 3
+  aiNarrative: "AI diagnostic tools may assist triage someday, but treating casualties under fire — stopping bleeding, managing airways, keeping someone alive until medevac — is fundamentally human work."
+  fellowshipOptions: "NREMT certification, flight medic course, special operations medic (SOCM), PA bridge programs; strong civilian transition to paramedic, RN, or PA"
+  compModel: "Base pay + BAH + BAS; special duty pay for airborne/SOF-attached medics"
+  revPerPatientVisit: "N/A — salaried government position"
+  dailyWorkflow: "Sick call at aid station, trauma training, field medical exercises, medication inventory, CPR/first-aid classes for unit, physical training with combat troops"
+  patientVolume: "Responsible for 30-50 soldiers' health; sick call sees 5-20/day; combat trauma is episodic"
+  supportStaffModel: "Assigned to infantry platoon or aid station; reports to PA or physician; works alongside nurses at battalion level"
+  geographicDemandNotes: "Every Army/Marine installation; Fort Sam Houston TX for training; deployed worldwide with combat units"
+  telehealthPotential: 1
+  genderDistribution: "~20% women"
+
+- name: "Military Police Enlisted"
+  group: military_support
+  residencyYears: 0
+  annualSpots: 10000
+  startSalary: 26
+  midSalary: 46
+  peakSalary: 62
+  typicalPeak: 53
+  partTimeFlex: 1
+  procedureMix: 7
+  callSchedule: 2
+  adminBurden: 5
+  hoursWeek: 50
+  burnout: 35
+  partTimeFeasibility: 1
+  vacation: 5
+  careerLongevity: 5
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 3
+  automationRisk: 2
+  handsOnInsulation: 7
+  satisfaction: 55
+  chooseAgain: 50
+  intellectualStim: 5
+  varietyRepetition: 5
+  patientImpact: 7
+  physicalToll: 3
+  emotionalToll: 3
+  malpracticeLiability: 10
+  injuryCareerRisk: 5
+  aiRiskNow: 1
+  aiRiskMedium: 2
+  aiRiskLong: 3
+  aiNarrative: "Surveillance tech and AI-powered monitoring improve base security, but responding to incidents, conducting investigations, and detaining suspects requires a trained human presence."
+  fellowshipOptions: "CID (criminal investigations), K-9 handler, protective services, SRT (special reaction team); strong civilian transition to police or federal LE"
+  compModel: "Base pay + BAH + BAS"
+  revPerPatientVisit: "N/A — salaried government position"
+  dailyWorkflow: "Gate duty, patrol installation, respond to incidents, traffic enforcement, write reports, conduct investigations, detainee operations during deployment"
+  patientVolume: "Patrol covers installation of 5,000-50,000+ personnel; respond to 5-15 calls per shift"
+  supportStaffModel: "2-person patrol teams; desk sergeant; provost marshal's office; supported by CID for major crimes"
+  geographicDemandNotes: "Every military installation worldwide; Fort Leonard Wood MO for training; deployable"
+  telehealthPotential: 1
+  genderDistribution: "~22% women"
+
+- name: "Military Mechanic / Technician"
+  group: military_support
+  residencyYears: 0
+  annualSpots: 25000
+  startSalary: 26
+  midSalary: 48
+  peakSalary: 68
+  typicalPeak: 56
+  partTimeFlex: 1
+  procedureMix: 6
+  callSchedule: 2
+  adminBurden: 5
+  hoursWeek: 48
+  burnout: 30
+  partTimeFeasibility: 1
+  vacation: 5
+  careerLongevity: 6
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 3
+  automationRisk: 3
+  handsOnInsulation: 8
+  satisfaction: 62
+  chooseAgain: 58
+  intellectualStim: 6
+  varietyRepetition: 5
+  patientImpact: 6
+  physicalToll: 3
+  emotionalToll: 6
+  malpracticeLiability: 10
+  injuryCareerRisk: 5
+  aiRiskNow: 1
+  aiRiskMedium: 2
+  aiRiskLong: 3
+  aiNarrative: "Diagnostic software helps troubleshoot systems, but physically repairing vehicles, aircraft, and weapons systems in austere conditions is hands-on work that machines cannot replace."
+  fellowshipOptions: "ASE certifications, aviation maintenance, advanced electronics repair; excellent civilian transition to auto/aviation/industrial maintenance"
+  compModel: "Base pay + BAH + BAS; re-enlistment bonuses for critical MOS"
+  revPerPatientVisit: "N/A — salaried government position"
+  dailyWorkflow: "Scheduled maintenance on vehicles/aircraft, troubleshoot breakdowns, order parts, maintain tools, conduct inspections, motor pool operations"
+  patientVolume: "Responsible for 10-30 vehicles or aircraft systems; daily work orders"
+  supportStaffModel: "Maintenance team (4-8) → motor pool or hangar; supervised by maintenance NCO and warrant officer"
+  geographicDemandNotes: "Every military installation; especially large at mechanized and aviation units; transferable skills to civilian sector"
+  telehealthPotential: 1
+  genderDistribution: "~12% women"
+
+- name: "Military Logistics Specialist"
+  group: military_support
+  residencyYears: 0
+  annualSpots: 20000
+  startSalary: 25
+  midSalary: 45
+  peakSalary: 62
+  typicalPeak: 52
+  partTimeFlex: 1
+  procedureMix: 3
+  callSchedule: 2
+  adminBurden: 7
+  hoursWeek: 48
+  burnout: 28
+  partTimeFeasibility: 1
+  vacation: 5
+  careerLongevity: 6
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 3
+  automationRisk: 4
+  handsOnInsulation: 5
+  satisfaction: 55
+  chooseAgain: 50
+  intellectualStim: 4
+  varietyRepetition: 4
+  patientImpact: 6
+  physicalToll: 5
+  emotionalToll: 6
+  malpracticeLiability: 10
+  injuryCareerRisk: 6
+  aiRiskNow: 2
+  aiRiskMedium: 3
+  aiRiskLong: 5
+  aiNarrative: "AI can optimize supply chains and predict demand for parts and ammo, but coordinating deliveries in combat zones and managing a warehouse under pressure still needs a person on the ground."
+  fellowshipOptions: "Certified Logistics Professional, APICS certifications; strong civilian transition to supply chain and warehouse management"
+  compModel: "Base pay + BAH + BAS"
+  revPerPatientVisit: "N/A — salaried government position"
+  dailyWorkflow: "Receive and issue supplies, manage inventory in automated systems, coordinate transportation, process requisitions, conduct inventories, pack and ship equipment"
+  patientVolume: "Manages hundreds of line items of supply for a unit of 200-800 soldiers"
+  supportStaffModel: "Supply section (4-8 soldiers) → battalion S4 logistics office; supported by transportation and maintenance units"
+  geographicDemandNotes: "Every military installation; logistics hubs at Fort Lee VA, Fort Gregg-Adams VA; deployable worldwide"
+  telehealthPotential: 1
+  genderDistribution: "~30% women"
+
+# === LAW ENFORCEMENT (3) ===
+
+- name: "Police Officer"
+  group: law_enforcement
+  residencyYears: 0
+  annualSpots: 50000
+  startSalary: 45
+  midSalary: 70
+  peakSalary: 100
+  typicalPeak: 82
+  partTimeFlex: 2
+  procedureMix: 7
+  callSchedule: 3
+  adminBurden: 5
+  hoursWeek: 45
+  burnout: 45
+  partTimeFeasibility: 2
+  vacation: 3
+  careerLongevity: 5
+  malpracticeFreq: 9
+  malpracticeCost: 0
+  geographicFlex: 5
+  automationRisk: 2
+  handsOnInsulation: 8
+  satisfaction: 58
+  chooseAgain: 52
+  intellectualStim: 5
+  varietyRepetition: 6
+  patientImpact: 8
+  physicalToll: 3
+  emotionalToll: 3
+  malpracticeLiability: 9
+  injuryCareerRisk: 4
+  aiRiskNow: 1
+  aiRiskMedium: 2
+  aiRiskLong: 3
+  aiNarrative: "AI helps with license plate readers and predictive policing models, but responding to domestic calls, de-escalating crises, and making split-second use-of-force decisions are irreducibly human."
+  fellowshipOptions: "Detective promotion, SWAT, K-9, school resource officer, FTO; path to sergeant, lieutenant, chief; federal LE transition"
+  compModel: "Base salary + overtime (often 10-30% of base) + shift differential + court pay; pension after 20-25 years"
+  revPerPatientVisit: "N/A — salaried government position"
+  dailyWorkflow: "Roll call briefing, patrol assigned sector, respond to 911 calls, conduct traffic stops, write reports, investigate incidents, testify in court"
+  patientVolume: "Respond to 5-15 calls per shift; patrol area of 5,000-50,000+ residents"
+  supportStaffModel: "Partner or solo patrol; supervised by sergeant (6-10 officers); dispatch center for call routing"
+  geographicDemandNotes: "Every city and town in America; salaries vary hugely — NYPD/LAPD/Chicago pay well, rural departments pay much less"
+  telehealthPotential: 1
+  genderDistribution: "~13% women"
+
+- name: "Sheriff Deputy"
+  group: law_enforcement
+  residencyYears: 0
+  annualSpots: 30000
+  startSalary: 40
+  midSalary: 60
+  peakSalary: 85
+  typicalPeak: 72
+  partTimeFlex: 2
+  procedureMix: 7
+  callSchedule: 3
+  adminBurden: 5
+  hoursWeek: 44
+  burnout: 42
+  partTimeFeasibility: 2
+  vacation: 3
+  careerLongevity: 5
+  malpracticeFreq: 9
+  malpracticeCost: 0
+  geographicFlex: 4
+  automationRisk: 2
+  handsOnInsulation: 8
+  satisfaction: 58
+  chooseAgain: 52
+  intellectualStim: 5
+  varietyRepetition: 6
+  patientImpact: 8
+  physicalToll: 3
+  emotionalToll: 3
+  malpracticeLiability: 9
+  injuryCareerRisk: 4
+  aiRiskNow: 1
+  aiRiskMedium: 2
+  aiRiskLong: 3
+  aiNarrative: "Like municipal police, AI assists with data analysis and surveillance, but the in-person nature of patrol, investigations, and civil process serving keeps this firmly a human job."
+  fellowshipOptions: "Detective, court security, civil process, SWAT, marine patrol; path to sergeant, captain; elected sheriff is top of ladder"
+  compModel: "Base salary + overtime + court pay; county pension after 20-25 years; often slightly lower than city police"
+  revPerPatientVisit: "N/A — salaried government position"
+  dailyWorkflow: "Patrol county roads, respond to calls, serve warrants and civil papers, transport prisoners, provide courthouse security, assist state and local agencies"
+  patientVolume: "Patrol larger geographic area than city police; fewer calls but longer response distances; serve civil papers"
+  supportStaffModel: "Patrol deputy → corporal → sergeant → lieutenant → captain → sheriff; dispatch and jail staff"
+  geographicDemandNotes: "Every county in America (3,000+ sheriff offices); especially strong in suburban and rural areas; salary varies widely by county budget"
+  telehealthPotential: 1
+  genderDistribution: "~13% women"
+
+- name: "State Trooper"
+  group: law_enforcement
+  residencyYears: 0
+  annualSpots: 8000
+  startSalary: 50
+  midSalary: 75
+  peakSalary: 105
+  typicalPeak: 88
+  partTimeFlex: 2
+  procedureMix: 7
+  callSchedule: 3
+  adminBurden: 5
+  hoursWeek: 45
+  burnout: 40
+  partTimeFeasibility: 2
+  vacation: 4
+  careerLongevity: 5
+  malpracticeFreq: 9
+  malpracticeCost: 0
+  geographicFlex: 3
+  automationRisk: 2
+  handsOnInsulation: 8
+  satisfaction: 62
+  chooseAgain: 58
+  intellectualStim: 5
+  varietyRepetition: 5
+  patientImpact: 8
+  physicalToll: 3
+  emotionalToll: 3
+  malpracticeLiability: 9
+  injuryCareerRisk: 4
+  aiRiskNow: 1
+  aiRiskMedium: 2
+  aiRiskLong: 3
+  aiNarrative: "Speed cameras and automated enforcement handle some traffic duties, but highway accident response, criminal interdiction, and statewide investigations are human-driven work."
+  fellowshipOptions: "Criminal investigations, commercial vehicle enforcement, executive protection, K-9, SWAT; path to corporal, sergeant, lieutenant; state-level pensions are excellent"
+  compModel: "Base salary + overtime + hazard pay + take-home vehicle; state pension after 20-25 years; among best-compensated LE"
+  revPerPatientVisit: "N/A — salaried government position"
+  dailyWorkflow: "Highway patrol, traffic enforcement, accident investigation, criminal interdiction, assist local agencies, commercial vehicle inspections"
+  patientVolume: "Patrol large sections of state highway; 3-10 traffic stops per shift; accident response"
+  supportStaffModel: "Solo patrol (trooper); supervised by sergeant covering a district; dispatch and forensics support"
+  geographicDemandNotes: "Statewide — posted to barracks across the state; often assigned to rural areas first; every state except Hawaii has state police"
+  telehealthPotential: 1
+  genderDistribution: "~8% women"
+
+# === FIRE & RESCUE (5) ===
+
+- name: "Firefighter"
+  group: fire_rescue
+  residencyYears: 0
+  annualSpots: 30000
+  startSalary: 40
+  midSalary: 65
+  peakSalary: 95
+  typicalPeak: 78
+  partTimeFlex: 2
+  procedureMix: 8
+  callSchedule: 3
+  adminBurden: 3
+  hoursWeek: 52
+  burnout: 35
+  partTimeFeasibility: 2
+  vacation: 4
+  careerLongevity: 5
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 5
+  automationRisk: 1
+  handsOnInsulation: 10
+  satisfaction: 78
+  chooseAgain: 72
+  intellectualStim: 5
+  varietyRepetition: 6
+  patientImpact: 9
+  physicalToll: 2
+  emotionalToll: 3
+  malpracticeLiability: 10
+  injuryCareerRisk: 3
+  aiRiskNow: 1
+  aiRiskMedium: 1
+  aiRiskLong: 2
+  aiNarrative: "AI can model fire behavior and optimize dispatch, but crawling into a burning building to rescue someone is the definition of a job no robot can do."
+  fellowshipOptions: "Paramedic certification, fire inspector, fire investigator, hazmat technician, technical rescue; path to engineer, captain, battalion chief"
+  compModel: "Base salary + overtime + holiday pay + shift differential; municipal pension after 20-25 years; some departments pay very well"
+  revPerPatientVisit: "N/A — salaried government position"
+  dailyWorkflow: "Equipment checks, training drills, station maintenance, respond to fire/EMS/rescue calls, fire inspections, public education, physical fitness"
+  patientVolume: "Station responds to 5-20+ calls per 24-hour shift; 70% are EMS calls"
+  supportStaffModel: "4-person engine company or 5-person truck company; captain leads; battalion chief oversees 3-5 stations"
+  geographicDemandNotes: "Every city and most suburbs; highest paid in CA, WA, NY, NJ metros; volunteer departments in rural areas"
+  telehealthPotential: 1
+  genderDistribution: "~5% women"
+
+- name: "Wildland Firefighter"
+  group: fire_rescue
+  residencyYears: 0
+  annualSpots: 15000
+  startSalary: 32
+  midSalary: 50
+  peakSalary: 72
+  typicalPeak: 58
+  partTimeFlex: 1
+  procedureMix: 9
+  callSchedule: 2
+  adminBurden: 3
+  hoursWeek: 55
+  burnout: 40
+  partTimeFeasibility: 1
+  vacation: 3
+  careerLongevity: 4
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 3
+  automationRisk: 1
+  handsOnInsulation: 10
+  satisfaction: 68
+  chooseAgain: 62
+  intellectualStim: 5
+  varietyRepetition: 5
+  patientImpact: 8
+  physicalToll: 1
+  emotionalToll: 3
+  malpracticeLiability: 10
+  injuryCareerRisk: 3
+  aiRiskNow: 1
+  aiRiskMedium: 1
+  aiRiskLong: 2
+  aiNarrative: "Satellite imagery and AI fire-spread models improve resource allocation, but cutting fireline through rugged terrain with a pulaski in 100-degree heat is about as human as work gets."
+  fellowshipOptions: "Engine boss, squad boss, crew superintendent, type 1 hotshot crew; path to fuels management, forestry technician, fire management officer"
+  compModel: "GS/GW base pay + overtime + hazard pay + incident response premium; seasonal workers can earn $40K-80K in 6 months"
+  revPerPatientVisit: "N/A — salaried government position"
+  dailyWorkflow: "Physical training, saw and tool maintenance, prescribed burns, fire line construction, mop-up, travel to incidents (may be away 14+ days)"
+  patientVolume: "N/A — deployed to fire incidents; a busy season means weeks on the fireline"
+  supportStaffModel: "20-person hotshot crew or 7-person engine crew; squad boss → crew superintendent → division supervisor on incidents"
+  geographicDemandNotes: "Western US (CA, OR, WA, MT, ID, CO, AZ), Alaska; USFS, BLM, NPS; many positions seasonal May-October"
+  telehealthPotential: 1
+  genderDistribution: "~10% women"
+
+- name: "Paramedic"
+  group: fire_rescue
+  residencyYears: 0
+  annualSpots: 20000
+  startSalary: 38
+  midSalary: 55
+  peakSalary: 75
+  typicalPeak: 62
+  partTimeFlex: 3
+  procedureMix: 8
+  callSchedule: 3
+  adminBurden: 5
+  hoursWeek: 48
+  burnout: 42
+  partTimeFeasibility: 3
+  vacation: 3
+  careerLongevity: 5
+  malpracticeFreq: 9
+  malpracticeCost: 0
+  geographicFlex: 6
+  automationRisk: 2
+  handsOnInsulation: 8
+  satisfaction: 62
+  chooseAgain: 55
+  intellectualStim: 6
+  varietyRepetition: 6
+  patientImpact: 9
+  physicalToll: 3
+  emotionalToll: 2
+  malpracticeLiability: 9
+  injuryCareerRisk: 5
+  aiRiskNow: 1
+  aiRiskMedium: 2
+  aiRiskLong: 3
+  aiNarrative: "AI may help with diagnostic suggestions via telemetry, but performing intubations in a moving ambulance, managing cardiac arrests, and calming panicked families is deeply human work."
+  fellowshipOptions: "Critical care paramedic (FP-C), flight paramedic, community paramedic, tactical medic; bridge programs to RN or PA; path to EMS supervisor"
+  compModel: "Base salary + overtime + shift differential; fire-based paramedics earn fire department pay (higher); private ambulance pays less"
+  revPerPatientVisit: "N/A — salaried; ambulance services bill $500-3,000+ per transport but paramedics are salaried"
+  dailyWorkflow: "Staff ambulance or rescue unit, respond to 911 calls, perform advanced life support (intubation, IV, cardiac drugs), transport to ER, write patient care reports, restock"
+  patientVolume: "Run 6-15 calls per 12-hour shift in busy systems; urban systems are high-volume"
+  supportStaffModel: "2-person ambulance crew (paramedic + EMT); supervised by EMS captain or medical director; dispatch coordinates calls"
+  geographicDemandNotes: "Every city and county; highest paid in metro fire departments (CA, WA, NY); rural areas and private services pay least"
+  telehealthPotential: 1
+  genderDistribution: "~30% women"
+
+- name: "EMT"
+  group: fire_rescue
+  residencyYears: 0
+  annualSpots: 45000
+  startSalary: 30
+  midSalary: 40
+  peakSalary: 52
+  typicalPeak: 44
+  partTimeFlex: 4
+  procedureMix: 7
+  callSchedule: 3
+  adminBurden: 4
+  hoursWeek: 46
+  burnout: 48
+  partTimeFeasibility: 4
+  vacation: 3
+  careerLongevity: 4
+  malpracticeFreq: 9
+  malpracticeCost: 0
+  geographicFlex: 7
+  automationRisk: 2
+  handsOnInsulation: 7
+  satisfaction: 52
+  chooseAgain: 42
+  intellectualStim: 4
+  varietyRepetition: 5
+  patientImpact: 8
+  physicalToll: 3
+  emotionalToll: 3
+  malpracticeLiability: 9
+  injuryCareerRisk: 5
+  aiRiskNow: 1
+  aiRiskMedium: 2
+  aiRiskLong: 3
+  aiNarrative: "AI cannot carry a patient down three flights of stairs or hold the hand of someone having the worst day of their life — EMTs do both every shift."
+  fellowshipOptions: "Paramedic certification (most common next step), fire academy, nursing school; EMT is often a stepping-stone career"
+  compModel: "Hourly pay ($14-25/hr); overtime available; fire-department EMTs earn more than private ambulance"
+  revPerPatientVisit: "N/A — salaried or hourly; ambulance service bills per transport"
+  dailyWorkflow: "Staff ambulance, respond to 911 calls, provide basic life support (CPR, splinting, oxygen, vitals), transport patients, clean and restock unit, write run reports"
+  patientVolume: "Run 8-18 calls per 12-hour shift in busy urban systems"
+  supportStaffModel: "2-person ambulance crew; dispatched by 911 center; supervised by EMS lieutenant or field supervisor"
+  geographicDemandNotes: "Everywhere — critical shortage in rural areas; urban areas have more positions but lower pay at private services"
+  telehealthPotential: 1
+  genderDistribution: "~35% women"
+
+- name: "911 Dispatcher"
+  group: fire_rescue
+  residencyYears: 0
+  annualSpots: 12000
+  startSalary: 32
+  midSalary: 48
+  peakSalary: 65
+  typicalPeak: 55
+  partTimeFlex: 2
+  procedureMix: 2
+  callSchedule: 3
+  adminBurden: 5
+  hoursWeek: 44
+  burnout: 42
+  partTimeFeasibility: 2
+  vacation: 3
+  careerLongevity: 5
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 4
+  automationRisk: 4
+  handsOnInsulation: 3
+  satisfaction: 55
+  chooseAgain: 48
+  intellectualStim: 5
+  varietyRepetition: 4
+  patientImpact: 9
+  physicalToll: 7
+  emotionalToll: 2
+  malpracticeLiability: 10
+  injuryCareerRisk: 8
+  aiRiskNow: 2
+  aiRiskMedium: 3
+  aiRiskLong: 4
+  aiNarrative: "AI can route calls and suggest response protocols, but listening to someone describe their emergency, keeping them calm, and making the right dispatch decision under pressure is a human skill."
+  fellowshipOptions: "Emergency Medical Dispatch certification, Communications Training Officer, supervisor; path to dispatch center manager"
+  compModel: "Base salary + shift differential + overtime; government pension and benefits"
+  revPerPatientVisit: "N/A — salaried government position"
+  dailyWorkflow: "Answer 911 calls, gather critical information, dispatch police/fire/EMS, monitor radio traffic, enter data into CAD system, provide pre-arrival medical instructions"
+  patientVolume: "Handle 50-200+ calls per 12-hour shift depending on jurisdiction size"
+  supportStaffModel: "3-15 dispatchers per shift depending on center size; supervised by shift supervisor; IT supports CAD/radio systems"
+  geographicDemandNotes: "Every county has a 911 center; consolidated centers in metro areas; chronic understaffing nationwide creates steady demand"
+  telehealthPotential: 1
+  genderDistribution: "~60% women"
+
+# === CORRECTIONS & SECURITY (3) ===
+
+- name: "Corrections Officer"
+  group: corrections_security
+  residencyYears: 0
+  annualSpots: 32000
+  startSalary: 35
+  midSalary: 52
+  peakSalary: 72
+  typicalPeak: 60
+  partTimeFlex: 2
+  procedureMix: 5
+  callSchedule: 3
+  adminBurden: 5
+  hoursWeek: 44
+  burnout: 50
+  partTimeFeasibility: 2
+  vacation: 3
+  careerLongevity: 4
+  malpracticeFreq: 9
+  malpracticeCost: 0
+  geographicFlex: 4
+  automationRisk: 2
+  handsOnInsulation: 7
+  satisfaction: 45
+  chooseAgain: 35
+  intellectualStim: 3
+  varietyRepetition: 3
+  patientImpact: 6
+  physicalToll: 3
+  emotionalToll: 2
+  malpracticeLiability: 9
+  injuryCareerRisk: 4
+  aiRiskNow: 1
+  aiRiskMedium: 2
+  aiRiskLong: 2
+  aiNarrative: "Surveillance cameras and AI monitoring can track inmate movement, but maintaining order, responding to fights, and managing a housing unit full of people requires a human presence."
+  fellowshipOptions: "K-9 handler, emergency response team, investigator, transportation officer; path to sergeant, lieutenant, warden; transition to probation/parole or police"
+  compModel: "Base salary + overtime (often mandatory) + shift differential; state/federal pension after 20 years; BOP pays more than most state systems"
+  revPerPatientVisit: "N/A — salaried government position"
+  dailyWorkflow: "Count inmates, conduct searches, supervise meals and recreation, respond to incidents, escort inmates, write incident reports, enforce facility rules"
+  patientVolume: "Supervise housing unit of 50-200+ inmates per officer; count and accountability every shift"
+  supportStaffModel: "Housing unit officer → sergeant → lieutenant → captain → warden; medical staff, counselors, and maintenance support the facility"
+  geographicDemandNotes: "Prisons are often in rural areas away from metro centers; federal BOP has 122 facilities nationwide; chronic understaffing creates constant openings"
+  telehealthPotential: 1
+  genderDistribution: "~30% women"
+
+- name: "Court Security Officer"
+  group: corrections_security
+  residencyYears: 0
+  annualSpots: 5000
+  startSalary: 33
+  midSalary: 48
+  peakSalary: 65
+  typicalPeak: 55
+  partTimeFlex: 2
+  procedureMix: 4
+  callSchedule: 7
+  adminBurden: 4
+  hoursWeek: 40
+  burnout: 30
+  partTimeFeasibility: 2
+  vacation: 3
+  careerLongevity: 6
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 4
+  automationRisk: 2
+  handsOnInsulation: 7
+  satisfaction: 55
+  chooseAgain: 50
+  intellectualStim: 3
+  varietyRepetition: 3
+  patientImpact: 6
+  physicalToll: 5
+  emotionalToll: 5
+  malpracticeLiability: 10
+  injuryCareerRisk: 6
+  aiRiskNow: 1
+  aiRiskMedium: 2
+  aiRiskLong: 3
+  aiNarrative: "Metal detectors and X-ray machines are already automated, but physically securing a courtroom, managing emotional defendants, and escorting prisoners requires a trained human officer."
+  fellowshipOptions: "Federal CSO (contract through USMS), state court officer certifications; path to lead CSO, court administrator security liaison"
+  compModel: "Hourly or salaried ($16-32/hr); federal court CSOs earn more; benefits depend on employer (contractor vs. government)"
+  revPerPatientVisit: "N/A — salaried government position"
+  dailyWorkflow: "Screen visitors at entry checkpoint, patrol courthouse hallways, secure courtrooms during proceedings, escort prisoners, respond to disturbances, manage jury movement"
+  patientVolume: "Screen hundreds of visitors daily; secure 2-4 courtrooms per officer"
+  supportStaffModel: "Team of 3-15 CSOs per courthouse depending on size; supervised by lead CSO; U.S. Marshals oversee federal courthouses"
+  geographicDemandNotes: "Every county seat and federal court location; concentrated in metro areas with larger court systems"
+  telehealthPotential: 1
+  genderDistribution: "~25% women"
+
+- name: "TSA Officer"
+  group: corrections_security
+  residencyYears: 0
+  annualSpots: 8000
+  startSalary: 35
+  midSalary: 50
+  peakSalary: 68
+  typicalPeak: 58
+  partTimeFlex: 3
+  procedureMix: 3
+  callSchedule: 4
+  adminBurden: 5
+  hoursWeek: 40
+  burnout: 45
+  partTimeFeasibility: 3
+  vacation: 3
+  careerLongevity: 5
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 4
+  automationRisk: 5
+  handsOnInsulation: 5
+  satisfaction: 45
+  chooseAgain: 38
+  intellectualStim: 3
+  varietyRepetition: 2
+  patientImpact: 7
+  physicalToll: 5
+  emotionalToll: 5
+  malpracticeLiability: 10
+  injuryCareerRisk: 7
+  aiRiskNow: 3
+  aiRiskMedium: 4
+  aiRiskLong: 5
+  aiNarrative: "AI-powered scanners and automated screening lanes are reducing the need for manual bag checks, but passenger interaction, pat-downs, and judgment calls about threats still require human officers."
+  fellowshipOptions: "Lead TSA officer, supervisory TSO, behavior detection officer, federal air marshal transition; federal employee benefits and step increases"
+  compModel: "GS-equivalent pay bands (D-F) + locality pay (16-41% depending on airport); federal benefits including FERS retirement"
+  revPerPatientVisit: "N/A — salaried government position"
+  dailyWorkflow: "Operate X-ray and body scanners, conduct bag searches, perform pat-downs, verify travel documents, manage checkpoint queues, resolve alarm situations"
+  patientVolume: "Screen 200-500+ passengers per shift at busy airports"
+  supportStaffModel: "Team of 5-15 TSOs per checkpoint lane; supervised by lead TSO and supervisory TSO; FAMS and law enforcement provide armed backup"
+  geographicDemandNotes: "440+ airports nationwide; busiest hubs (ATL, ORD, LAX, DFW, DEN) have largest workforces; must live near assigned airport"
+  telehealthPotential: 1
+  genderDistribution: "~40% women"
+
+# === FEDERAL AGENTS (1) ===
+
+- name: "Border Patrol Agent"
+  group: federal_agents
+  residencyYears: 0
+  annualSpots: 5000
+  startSalary: 45
+  midSalary: 75
+  peakSalary: 105
+  typicalPeak: 90
+  partTimeFlex: 1
+  procedureMix: 7
+  callSchedule: 3
+  adminBurden: 5
+  hoursWeek: 50
+  burnout: 42
+  partTimeFeasibility: 1
+  vacation: 4
+  careerLongevity: 5
+  malpracticeFreq: 9
+  malpracticeCost: 0
+  geographicFlex: 2
+  automationRisk: 2
+  handsOnInsulation: 8
+  satisfaction: 60
+  chooseAgain: 55
+  intellectualStim: 5
+  varietyRepetition: 5
+  patientImpact: 8
+  physicalToll: 3
+  emotionalToll: 3
+  malpracticeLiability: 9
+  injuryCareerRisk: 4
+  aiRiskNow: 2
+  aiRiskMedium: 2
+  aiRiskLong: 3
+  aiNarrative: "Drones, sensors, and AI-powered surveillance cover vast stretches of border, but tracking, apprehending, and processing individuals in remote desert and river terrain is human work."
+  fellowshipOptions: "Journeyman GS-12 in 4 years, BORTAC (tactical unit), horse patrol, canine handler, intelligence analyst; path to supervisory BPA (GS-13/14), sector chief"
+  compModel: "GL-5 to GS-12 pay + 25% LEAP (overtime built-in) + locality pay; federal FERS retirement with enhanced law enforcement provision (retire at 50 with 20 years)"
+  revPerPatientVisit: "N/A — salaried government position"
+  dailyWorkflow: "Patrol border area by vehicle/ATV/horse/foot, monitor sensors and camera feeds, track and apprehend border crossers, process detainees, write reports, testify in immigration proceedings"
+  patientVolume: "Patrol 5-50+ miles of border per shift; apprehension numbers vary seasonally — some agents process 20+ individuals per shift during surges"
+  supportStaffModel: "3-5 agents per patrol unit; supervised by field operations supervisor (FOS); intelligence and processing support at station; air and marine branch provides helicopter/boat backup"
+  geographicDemandNotes: "Southwest border (TX, AZ, NM, CA) is the primary assignment; some positions on northern border and coastal sectors; must be willing to relocate to remote duty stations"
+  telehealthPotential: 1
+  genderDistribution: "~6% women"

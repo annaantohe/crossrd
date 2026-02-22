@@ -1,0 +1,41 @@
+# stress test resilience scores for government finalists
+scenarios:
+- id: ai
+  name: AI Disruption Accelerates
+- id: pay
+  name: Government Budget Cuts 20%
+- id: injury
+  name: Career-Ending Injury at 40
+- id: match
+  name: Can't Land Target Role
+scores:
+  spec_ops_enlisted:
+    ai: 9
+    pay: 6
+    injury: 3
+    match: 5
+  fbi_agent:
+    ai: 8
+    pay: 5
+    injury: 6
+    match: 3
+  military_pilot:
+    ai: 7
+    pay: 6
+    injury: 4
+    match: 3
+  foreign_service:
+    ai: 6
+    pay: 4
+    injury: 7
+    match: 3
+  secret_service:
+    ai: 8
+    pay: 5
+    injury: 5
+    match: 3
+  atc_controller:
+    ai: 5
+    pay: 7
+    injury: 6
+    match: 4

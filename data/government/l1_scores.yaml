@@ -1,0 +1,380 @@
+# L1 profession-level category scores for government
+professions:
+  Academy:
+    l1_only: {}
+    l1_data_points:
+      1:
+        scores: [9, 9, 9, 8]
+        count: 4
+        average: 8.75
+        labels:
+        - Years of undergrad required (none — HS diploma only)
+        - Test difficulty (ASVAB for military, basic aptitude for police/fire)
+        - GPA expectations (minimal, 2.0+ typically)
+        - Physical fitness requirements (high — PT tests required)
+        data_point_ids: [2, 4, 5, 6]
+      2:
+        scores: [9, 8]
+        count: 2
+        average: 8.5
+        labels:
+        - Acceptance rate (military always recruiting, police/fire accessible)
+        - Career changers welcome? (absolutely, diverse backgrounds valued)
+        data_point_ids: [10, 13]
+      3:
+        scores: [9, 8, 8]
+        count: 3
+        average: 8.33
+        labels:
+        - Duration of training (3-6 months boot camp/academy)
+        - Practical experience timing (immediate OJT after training)
+        - Prestige matters? (branch/unit matters more than school)
+        data_point_ids: [16, 18, 23]
+      4:
+        scores: [9, 9]
+        count: 2
+        average: 9.0
+        labels:
+        - Post-grad training (none — immediate assignment after academy)
+        - Total time to service (under 1 year from enlistment to deployment)
+        data_point_ids: [24, 32]
+      5:
+        scores: [10, 10, 10, 10, 10]
+        count: 5
+        average: 10.0
+        labels:
+        - Average tuition ($0 — training is free and paid)
+        - Average debt at graduation ($0-5K, no school loans)
+        - Debt-to-income ratio (excellent, earning from day one)
+        - Time to break even (immediate, no education investment)
+        - Opportunity cost (minimal, earning at 18)
+        data_point_ids: [33, 34, 35, 38, 40]
+      6:
+        scores: [5, 4, 3, 4, 5, 7]
+        count: 6
+        average: 4.67
+        labels:
+        - Professional scope (defined by rank/MOS/assignment)
+        - Scope variation (military is federal, police varies by jurisdiction)
+        - Independent practice (not applicable — chain of command)
+        - Authority level (limited at enlisted/entry level)
+        - Ability to specialize (MOS system, lateral moves possible)
+        - Competition from adjacent fields (low — specialized training required)
+        data_point_ids: [41, 42, 43, 44, 45, 46]
+      7:
+        scores: [4, 4]
+        count: 2
+        average: 4.0
+        labels:
+        - Business ownership potential (very limited in active service)
+        - Compensation trends (GS/military pay grows slowly with COLA)
+        data_point_ids: [52, 53]
+      8:
+        scores: [5]
+        count: 1
+        average: 5.0
+        labels:
+        - Profession-level proxy score (physically demanding, structured days)
+        data_point_ids: [null]
+      9:
+        scores: [4]
+        count: 1
+        average: 4.0
+        labels:
+        - Profession-level proxy score (deployments, shift work, limited personal time)
+        data_point_ids: [null]
+      10:
+        scores: [9, 8, 7, 9]
+        count: 4
+        average: 8.25
+        labels:
+        - Current job market (always recruiting, high demand)
+        - Projected demand 10-20 years (stable, national security is permanent)
+        - Impact of demographic changes (recruiting challenges = more opportunity)
+        - Vulnerability to offshoring (zero — must be US-based)
+        data_point_ids: [71, 72, 74, 75]
+      11:
+        scores: [9, 8, 8]
+        count: 3
+        average: 8.33
+        labels:
+        - AI impact on fieldwork (very low — physical presence required)
+        - AI as tool vs replacement (tool only, human judgment essential)
+        - Timeline of disruption (very long — last jobs to be automated)
+        data_point_ids: [77, 79, 80]
+      12:
+        scores: [5]
+        count: 1
+        average: 5.0
+        labels:
+        - Ease of pivoting (military skills transfer well to private sector)
+        data_point_ids: [91]
+      13:
+        scores: [4, 5, 4, 6]
+        count: 4
+        average: 4.75
+        labels:
+        - Pay equity (equal pay by rank/grade — no gender gap)
+        - Parental leave norms (improving in military, varies in LE)
+        - Culture (traditionally male-dominated, changing)
+        - Welcoming to non-traditional? (diversity recruiting active)
+        data_point_ids: [95, 96, 98, 100]
+      14:
+        scores: [3]
+        count: 1
+        average: 3.0
+        labels:
+        - Physical danger and injury risk (high for combat/LE/fire roles)
+        data_point_ids: [104]
+  BA:
+    l1_only: {}
+    l1_data_points:
+      1:
+        scores: [6, 6, 6, 7]
+        count: 4
+        average: 6.25
+        labels:
+        - Years of undergrad required (4yr BA/BS)
+        - Test difficulty (federal entrance exams — FBI Phase 1, FSOT, etc.)
+        - GPA expectations (3.0+ for most federal agencies)
+        - Physical fitness + background check (extensive for federal LE)
+        data_point_ids: [2, 4, 5, 6]
+      2:
+        scores: [4, 6]
+        count: 2
+        average: 5.0
+        labels:
+        - Acceptance rate (very competitive — FBI accepts ~5%, CIA similar)
+        - Career changers welcome? (yes, many agents enter mid-career)
+        data_point_ids: [10, 13]
+      3:
+        scores: [7, 7, 5]
+        count: 3
+        average: 6.33
+        labels:
+        - Duration of program (4yr undergrad + 6-20 weeks federal training)
+        - Practical experience timing (field training immediately after academy)
+        - Prestige matters? (agency reputation matters, school less so)
+        data_point_ids: [16, 18, 23]
+      4:
+        scores: [8, 7]
+        count: 2
+        average: 7.5
+        labels:
+        - Post-grad training (6-20 weeks at FLETC/Quantico/OCS — paid)
+        - Total years to independent practice (4-5 years)
+        data_point_ids: [24, 32]
+      5:
+        scores: [7, 7, 8, 8, 8]
+        count: 5
+        average: 7.6
+        labels:
+        - Average tuition ($22K/yr state school)
+        - Average debt at graduation ($35K avg)
+        - Debt-to-income ratio (good — federal salaries + PSLF eligible)
+        - Time to break even (fast, 2-3 years)
+        - Opportunity cost (moderate, 4yr undergrad)
+        data_point_ids: [33, 34, 35, 38, 40]
+      6:
+        scores: [6, 5, 3, 6, 6, 6]
+        count: 6
+        average: 5.33
+        labels:
+        - Professional scope (defined by agency mission/jurisdiction)
+        - Scope variation (federal is uniform, some inter-agency variation)
+        - Independent practice (limited — must operate within agency framework)
+        - Authority level (significant — arrest power, security clearance)
+        - Ability to specialize (many specialty units within agencies)
+        - Competition (moderate — specialized skills in demand)
+        data_point_ids: [41, 42, 43, 44, 45, 46]
+      7:
+        scores: [4, 5]
+        count: 2
+        average: 4.5
+        labels:
+        - Business ownership potential (limited in active federal service)
+        - Compensation trends (GS scale + locality pay, steady growth)
+        data_point_ids: [52, 53]
+      8:
+        scores: [6]
+        count: 1
+        average: 6.0
+        labels:
+        - Profession-level proxy score (mix of field and desk work)
+        data_point_ids: [null]
+      9:
+        scores: [5]
+        count: 1
+        average: 5.0
+        labels:
+        - Profession-level proxy score (travel, relocations, on-call demands)
+        data_point_ids: [null]
+      10:
+        scores: [7, 7, 6, 9]
+        count: 4
+        average: 7.25
+        labels:
+        - Current job market (strong for federal LE, intelligence expanding)
+        - Projected demand (stable, national security budget growing)
+        - Impact of demographic changes
+        - Vulnerability to offshoring (zero — federal government only)
+        data_point_ids: [71, 72, 74, 75]
+      11:
+        scores: [7, 7, 7]
+        count: 3
+        average: 7.0
+        labels:
+        - AI impact (moderate — analytical work at some risk, field work protected)
+        - AI as tool vs replacement (tool — enhances investigations)
+        - Timeline of disruption (long — human judgment essential in LE)
+        data_point_ids: [77, 79, 80]
+      12:
+        scores: [6]
+        count: 1
+        average: 6.0
+        labels:
+        - Ease of pivoting (federal experience valued in private sector)
+        data_point_ids: [91]
+      13:
+        scores: [6, 5, 5, 6]
+        count: 4
+        average: 5.5
+        labels:
+        - Pay equity (federal pay is grade-based, no gender gap)
+        - Parental leave norms (12 weeks paid for federal employees)
+        - Culture (improving diversity, varies by agency)
+        - Welcoming to non-traditional? (active diversity recruitment)
+        data_point_ids: [95, 96, 98, 100]
+      14:
+        scores: [5]
+        count: 1
+        average: 5.0
+        labels:
+        - Physical danger (moderate — field agents face real risks)
+        data_point_ids: [104]
+  MA+:
+    l1_only: {}
+    l1_data_points:
+      1:
+        scores: [5, 5, 5, 4]
+        count: 4
+        average: 4.75
+        labels:
+        - Years of undergrad required (4yr + 2yr graduate degree)
+        - Test difficulty (FSOT, GRE, security clearance)
+        - GPA expectations (3.3+ for competitive programs)
+        - Language/international experience expectations (high for FSO)
+        data_point_ids: [2, 4, 5, 6]
+      2:
+        scores: [3, 5]
+        count: 2
+        average: 4.0
+        labels:
+        - Acceptance rate (very competitive — FSO pass rate ~3%, senior intel selective)
+        - Career changers welcome? (yes, diverse expertise valued)
+        data_point_ids: [10, 13]
+      3:
+        scores: [6, 6, 4]
+        count: 3
+        average: 5.33
+        labels:
+        - Duration (4yr undergrad + 2yr grad = 6 years minimum)
+        - Practical experience timing (internships, fellowships common)
+        - Prestige matters? (school and program reputation matter significantly)
+        data_point_ids: [16, 18, 23]
+      4:
+        scores: [7, 6]
+        count: 2
+        average: 6.5
+        labels:
+        - Post-grad training (agency-specific orientation, 3-6 months)
+        - Total years to practice (6-8 years)
+        data_point_ids: [24, 32]
+      5:
+        scores: [5, 5, 6, 6, 5]
+        count: 5
+        average: 5.4
+        labels:
+        - Average tuition ($40K/yr for grad programs)
+        - Average debt at graduation ($80K avg, but PSLF available)
+        - Debt-to-income ratio (manageable with PSLF after 10yr)
+        - Time to break even (4-6 years, faster with PSLF)
+        - Opportunity cost (high — 2yr additional schooling)
+        data_point_ids: [33, 34, 35, 38, 40]
+      6:
+        scores: [7, 6, 4, 7, 7, 5]
+        count: 6
+        average: 6.0
+        labels:
+        - Professional scope (broad policy/strategy influence)
+        - Scope variation (federal is uniform but mission varies)
+        - Independent practice (limited — work within government framework)
+        - Authority level (significant — policy-making, budget authority)
+        - Ability to specialize (regions, issues, functional areas)
+        - Competition (moderate — specialized expertise in demand)
+        data_point_ids: [41, 42, 43, 44, 45, 46]
+      7:
+        scores: [5, 6]
+        count: 2
+        average: 5.5
+        labels:
+        - Business ownership potential (limited, but think tanks/consulting after)
+        - Compensation trends (SES scale, ambassador + housing, steady)
+        data_point_ids: [52, 53]
+      8:
+        scores: [7]
+        count: 1
+        average: 7.0
+        labels:
+        - Profession-level proxy score (mostly desk/policy work, some travel)
+        data_point_ids: [null]
+      9:
+        scores: [6]
+        count: 1
+        average: 6.0
+        labels:
+        - Profession-level proxy score (good benefits but demanding travel/relocations)
+        data_point_ids: [null]
+      10:
+        scores: [6, 6, 5, 9]
+        count: 4
+        average: 6.5
+        labels:
+        - Current job market (competitive for top positions)
+        - Projected demand (stable, growing for cybersecurity/policy)
+        - Impact of demographic changes
+        - Vulnerability to offshoring (zero — government positions only)
+        data_point_ids: [71, 72, 74, 75]
+      11:
+        scores: [5, 6, 5]
+        count: 3
+        average: 5.33
+        labels:
+        - AI impact (moderate — analysis/writing tasks at risk)
+        - AI as tool vs replacement (mostly tool — judgment/diplomacy essential)
+        - Timeline of disruption (moderate — analytical roles first)
+        data_point_ids: [77, 79, 80]
+      12:
+        scores: [6]
+        count: 1
+        average: 6.0
+        labels:
+        - Ease of pivoting (highly valued in think tanks, NGOs, consulting)
+        data_point_ids: [91]
+      13:
+        scores: [7, 6, 5, 6]
+        count: 4
+        average: 6.0
+        labels:
+        - Pay equity (federal pay is grade-based, no gender gap)
+        - Parental leave norms (12 weeks paid federal leave)
+        - Culture (improving, diplomatic corps more diverse)
+        - Welcoming to non-traditional? (actively recruiting diverse backgrounds)
+        data_point_ids: [95, 96, 98, 100]
+      14:
+        scores: [7]
+        count: 1
+        average: 7.0
+        labels:
+        - Physical danger (low — mostly policy/diplomatic work, some hardship posts)
+        data_point_ids: [104]

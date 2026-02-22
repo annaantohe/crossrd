@@ -1,0 +1,340 @@
+# scoring_rubric.yaml — field-to-category mapping for government
+# Same field names as healthcare/law/engineering/business for frontend compatibility.
+# Adjusted linear conversion ranges for government salary scales.
+
+fields:
+  # Category 4: Post-Graduate Training (years of training after undergrad)
+  residencyYears:
+    data_point_id: 25
+    category: 4
+    type: reference
+    conversion: null
+
+  # Category 4: Post-Graduate Training (text — certifications, advanced training)
+  fellowshipOptions:
+    data_point_id: 26
+    category: 4
+    type: reference
+    conversion: null
+
+  # Category 2: Admissions Competitiveness (derived from oneInX)
+  matchComp:
+    data_point_id: 28
+    category: 2
+    type: decision
+    conversion:
+      method: passthrough
+
+  # Category 5: Financial Picture (starting salary in $K)
+  startSalary:
+    data_point_id: 48
+    category: 5
+    type: decision
+    conversion:
+      method: linear
+      min: 25
+      max: 180
+      higher_is_better: true
+
+  # Category 5: Financial Picture (mid-career salary in $K)
+  midSalary:
+    data_point_id: 49
+    category: 5
+    type: decision
+    conversion:
+      method: linear
+      min: 40
+      max: 250
+      higher_is_better: true
+
+  # Category 7: Career Economics (peak salary in $K)
+  peakSalary:
+    data_point_id: 50
+    category: 7
+    type: decision
+    conversion:
+      method: linear
+      min: 55
+      max: 300
+      higher_is_better: true
+
+  # Category 7: Career Economics (text — comp model description)
+  compModel:
+    data_point_id: 51
+    category: 7
+    type: reference
+    conversion: null
+
+  # Category 7: Career Economics (text — billing rate / revenue per mission)
+  revPerPatientVisit:
+    data_point_id: 54
+    category: 7
+    type: reference
+    conversion: null
+
+  # Category 6: Scope of Practice (part-time flexibility 1-10)
+  partTimeFlex:
+    data_point_id: 55
+    category: 6
+    type: decision
+    conversion:
+      method: passthrough
+
+  # Category 8: Daily Life (text — daily workflow description)
+  dailyWorkflow:
+    data_point_id: 56
+    category: 8
+    type: reference
+    conversion: null
+
+  # Category 8: Daily Life (text — caseload / mission volume)
+  patientVolume:
+    data_point_id: 57
+    category: 8
+    type: reference
+    conversion: null
+
+  # Category 8: Daily Life (hands-on/fieldwork vs desk work, 1-10)
+  procedureMix:
+    data_point_id: 58
+    category: 8
+    type: decision
+    conversion:
+      method: passthrough
+
+  # Category 4: Post-Graduate Training (on-call/after-hours burden, 1-10)
+  callSchedule:
+    data_point_id: 59
+    category: 4
+    type: decision
+    conversion:
+      method: passthrough
+
+  # Category 8: Daily Life (administrative burden, 1-10)
+  adminBurden:
+    data_point_id: 60
+    category: 8
+    type: decision
+    conversion:
+      method: passthrough
+
+  # Category 8: Daily Life (text — team/support model)
+  supportStaffModel:
+    data_point_id: 61
+    category: 8
+    type: reference
+    conversion: null
+
+  # Categories 8, 9: Daily Life + Lifestyle (hours per week)
+  hoursWeek:
+    data_point_id: 63
+    categories: [8, 9]
+    type: decision
+    conversion:
+      method: linear
+      min: 38
+      max: 80
+      higher_is_better: false
+
+  # Category 9: Lifestyle (burnout %)
+  burnout:
+    data_point_id: 64
+    category: 9
+    type: decision
+    conversion:
+      method: linear
+      min: 15
+      max: 65
+      higher_is_better: false
+
+  # Category 9: Lifestyle (part-time feasibility, 1-10)
+  partTimeFeasibility:
+    data_point_id: 65
+    category: 9
+    type: decision
+    conversion:
+      method: passthrough
+
+  # Category 9: Lifestyle (vacation weeks/year)
+  vacation:
+    data_point_id: 66
+    category: 9
+    type: decision
+    conversion:
+      method: linear
+      min: 1
+      max: 8
+      higher_is_better: true
+
+  # Category 7: Career Economics (career longevity, 1-10)
+  careerLongevity:
+    data_point_id: 67
+    category: 7
+    type: decision
+    conversion:
+      method: passthrough
+
+  # Category 14: Risk Factors (professional liability frequency, 1-10; 10=never)
+  malpracticeFreq:
+    data_point_id: 68
+    category: 14
+    type: decision
+    conversion:
+      method: passthrough
+
+  # Category 14: Risk Factors (liability insurance cost $K/yr)
+  malpracticeCost:
+    data_point_id: 69
+    category: 14
+    type: decision
+    conversion:
+      method: linear
+      min: 0
+      max: 10
+      higher_is_better: false
+
+  # Category 10: Job Market (geographic flexibility, 1-10)
+  geographicFlex:
+    data_point_id: 70
+    category: 10
+    type: decision
+    conversion:
+      method: passthrough
+
+  # Category 10: Job Market (text — geographic demand notes)
+  geographicDemandNotes:
+    data_point_id: 73
+    category: 10
+    type: reference
+    conversion: null
+
+  # Category 10: Job Market (remote work potential)
+  telehealthPotential:
+    data_point_id: 76
+    category: 10
+    type: reference
+    conversion:
+      method: passthrough
+
+  # Category 11: AI Revolution Impact (automation risk, 1-10, high=exposed)
+  automationRisk:
+    data_point_id: 78
+    category: 11
+    type: decision
+    conversion:
+      method: passthrough
+
+  # Category 11: AI Revolution Impact (insulation from automation, 1-10)
+  handsOnInsulation:
+    data_point_id: 81
+    category: 11
+    type: decision
+    conversion:
+      method: passthrough
+
+  # Category 12: Professional Satisfaction (satisfaction %)
+  satisfaction:
+    data_point_id: 83
+    category: 12
+    type: decision
+    conversion:
+      method: linear
+      min: 45
+      max: 90
+      higher_is_better: true
+
+  # Category 12: Professional Satisfaction (would choose again %)
+  chooseAgain:
+    data_point_id: 84
+    category: 12
+    type: decision
+    conversion:
+      method: linear
+      min: 40
+      max: 85
+      higher_is_better: true
+
+  # Category 12: Professional Satisfaction (intellectual stimulation, 1-10)
+  intellectualStim:
+    data_point_id: 86
+    category: 12
+    type: decision
+    conversion:
+      method: passthrough
+
+  # Category 12: Professional Satisfaction (variety vs repetition, 1-10)
+  varietyRepetition:
+    data_point_id: 87
+    category: 12
+    type: decision
+    conversion:
+      method: passthrough
+
+  # Category 12: Professional Satisfaction (societal/community impact, 1-10)
+  patientImpact:
+    data_point_id: 88
+    category: 12
+    type: decision
+    conversion:
+      method: passthrough
+
+  # Category 13: Demographics (text — gender distribution)
+  genderDistribution:
+    data_point_id: 94
+    category: 13
+    type: reference
+    conversion: null
+
+  # Category 14: Risk Factors (physical toll, 1-10; 10=none)
+  physicalToll:
+    data_point_id: 101
+    category: 14
+    type: decision
+    conversion:
+      method: passthrough
+
+  # Category 14: Risk Factors (emotional toll, 1-10; 10=none)
+  emotionalToll:
+    data_point_id: 102
+    category: 14
+    type: decision
+    conversion:
+      method: passthrough
+
+  # Category 14: Risk Factors (professional liability, 1-10; 10=none)
+  malpracticeLiability:
+    data_point_id: 103
+    category: 14
+    type: decision
+    conversion:
+      method: passthrough
+
+  # Category 14: Risk Factors (career-ending injury/burnout risk, 1-10; 10=none)
+  injuryCareerRisk:
+    data_point_id: 107
+    category: 14
+    type: decision
+    conversion:
+      method: passthrough
+
+  # AI Risk Timeline — display only, does not affect Category 11 scoring
+  aiRiskNow:
+    data_point_id: null
+    category: 11
+    type: reference
+    conversion: null
+  aiRiskMedium:
+    data_point_id: null
+    category: 11
+    type: reference
+    conversion: null
+  aiRiskLong:
+    data_point_id: null
+    category: 11
+    type: reference
+    conversion: null
+  aiNarrative:
+    data_point_id: null
+    category: 11
+    type: reference
+    conversion: null

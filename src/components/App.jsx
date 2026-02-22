@@ -7,6 +7,7 @@ import healthcareData from "../data/healthcare.json";
 import lawData from "../data/law.json";
 import engineeringData from "../data/engineering.json";
 import businessData from "../data/business.json";
+import governmentData from "../data/government.json";
 import {
   buildNetWorthFromTracks,
   buildRadarFromTracks,
@@ -29,6 +30,7 @@ const FAMILIES = {
   law: lawData,
   engineering: engineeringData,
   business: businessData,
+  government: governmentData,
 };
 
 const MAX_PICKS = 6;

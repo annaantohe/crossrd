@@ -1,0 +1,551 @@
+# MA+ specialties — 12 government careers across 4 groups
+profession: "MA+"
+specialties:
+
+# === MILITARY & COMBAT (1) ===
+
+- name: "Military Strategist"
+  group: military_combat
+  residencyYears: 0
+  annualSpots: 500
+  startSalary: 85
+  midSalary: 130
+  peakSalary: 185
+  typicalPeak: 160
+  partTimeFlex: 1
+  procedureMix: 2
+  callSchedule: 4
+  adminBurden: 7
+  hoursWeek: 50
+  burnout: 30
+  partTimeFeasibility: 1
+  vacation: 5
+  careerLongevity: 7
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 3
+  automationRisk: 3
+  handsOnInsulation: 3
+  satisfaction: 78
+  chooseAgain: 72
+  intellectualStim: 9
+  varietyRepetition: 7
+  patientImpact: 10
+  physicalToll: 8
+  emotionalToll: 6
+  malpracticeLiability: 10
+  injuryCareerRisk: 9
+  aiRiskNow: 2
+  aiRiskMedium: 3
+  aiRiskLong: 4
+  aiNarrative: "AI wargaming tools and predictive modeling are reshaping how strategists test scenarios, but the ultimate decisions about national defense still require human judgment, political awareness, and leadership under uncertainty that no algorithm can replicate."
+  fellowshipOptions: "War College (Army, Naval, Air), National Defense University, JPME Phase II, Strategic Studies PhD"
+  compModel: "O-5/O-6 base pay + BAH + BAS + special duty pay; general officers $160-200K+ total comp"
+  revPerPatientVisit: "N/A — military salaried position"
+  dailyWorkflow: "Strategic planning briefs, joint operations analysis, threat assessments, interagency coordination, war plan development at Pentagon or combatant commands"
+  patientVolume: "2-4 major strategic planning efforts per cycle; advising flag officers on theater-level operations"
+  supportStaffModel: "Joint staff teams, intelligence analysts, operations officers, interagency liaison officers"
+  geographicDemandNotes: "Pentagon (Arlington VA), combatant command HQs (Tampa, Honolulu, Stuttgart), select DC-area billets"
+  telehealthPotential: 3
+  genderDistribution: "~18% women"
+
+# === DIPLOMACY & POLICY (5) ===
+
+- name: "Foreign Service Officer"
+  group: diplomacy_policy
+  residencyYears: 0
+  annualSpots: 800
+  startSalary: 60
+  midSalary: 120
+  peakSalary: 185
+  typicalPeak: 150
+  partTimeFlex: 1
+  procedureMix: 3
+  callSchedule: 4
+  adminBurden: 7
+  hoursWeek: 50
+  burnout: 35
+  partTimeFeasibility: 1
+  vacation: 5
+  careerLongevity: 8
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 2
+  automationRisk: 2
+  handsOnInsulation: 6
+  satisfaction: 72
+  chooseAgain: 62
+  intellectualStim: 9
+  varietyRepetition: 8
+  patientImpact: 9
+  physicalToll: 7
+  emotionalToll: 6
+  malpracticeLiability: 10
+  injuryCareerRisk: 9
+  aiRiskNow: 2
+  aiRiskMedium: 3
+  aiRiskLong: 3
+  aiNarrative: "AI translation tools and data analytics will change embassy operations, but diplomacy is fundamentally about human relationships — reading a room, building trust with foreign counterparts, and negotiating under pressure. The in-person, cross-cultural nature of the work is deeply AI-resistant."
+  fellowshipOptions: "Senior Seminar, language training (FSI), area studies, Pearson Fellowship (Congressional), SFS tenure review"
+  compModel: "FS-6 (~$47K) to FS-1 (~$125K base) + overseas housing + hardship differentials (up to 35%) + danger pay (up to 35%); effective comp can double base at hardship posts"
+  revPerPatientVisit: "N/A — salaried government position"
+  dailyWorkflow: "Embassy reporting cables, bilateral meetings with host-country officials, consular services, policy analysis, representational events, crisis management"
+  patientVolume: "Portfolio of bilateral issues and consular cases; 10-30 meetings/events per week depending on post"
+  supportStaffModel: "Embassy sections (political, economic, consular, public affairs), locally employed staff, regional bureaus in DC"
+  geographicDemandNotes: "270+ embassies and consulates worldwide; DC for domestic tours; hardship posts in developing countries offer faster promotion"
+  telehealthPotential: 2
+  genderDistribution: "~40% women"
+
+- name: "Policy Analyst (Federal)"
+  group: diplomacy_policy
+  residencyYears: 0
+  annualSpots: 3000
+  startSalary: 65
+  midSalary: 105
+  peakSalary: 155
+  typicalPeak: 135
+  partTimeFlex: 3
+  procedureMix: 2
+  callSchedule: 7
+  adminBurden: 6
+  hoursWeek: 45
+  burnout: 25
+  partTimeFeasibility: 3
+  vacation: 5
+  careerLongevity: 8
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 4
+  automationRisk: 5
+  handsOnInsulation: 4
+  satisfaction: 72
+  chooseAgain: 68
+  intellectualStim: 8
+  varietyRepetition: 6
+  patientImpact: 8
+  physicalToll: 9
+  emotionalToll: 4
+  malpracticeLiability: 10
+  injuryCareerRisk: 10
+  aiRiskNow: 3
+  aiRiskMedium: 5
+  aiRiskLong: 6
+  aiNarrative: "AI can already summarize legislation, run regression analyses, and draft policy memos faster than humans. But understanding political feasibility, stakeholder dynamics, and translating data into actionable recommendations still requires human judgment — though the entry-level research grunt work is shrinking."
+  fellowshipOptions: "MPA/MPP from top programs (Harvard Kennedy, Princeton WWS, Georgetown), PMF (Presidential Management Fellowship), AAAS Science Policy Fellowship"
+  compModel: "GS-11 Step 1 (~$63K) to GS-15 Step 10 (~$191K with DC locality); SES if promoted ($150-226K)"
+  revPerPatientVisit: "N/A — salaried government position"
+  dailyWorkflow: "Data analysis, policy memo drafting, interagency meetings, legislative tracking, briefing senior officials, regulatory impact assessment"
+  patientVolume: "3-6 policy portfolios; produce 10-20 analytical products per quarter"
+  supportStaffModel: "GS analyst teams within OMB divisions, GAO engagement teams, or agency policy offices; often 3-8 person teams"
+  geographicDemandNotes: "Overwhelmingly Washington DC; some regional policy offices in major federal buildings"
+  telehealthPotential: 7
+  genderDistribution: "~52% women"
+
+- name: "Legislative Director"
+  group: diplomacy_policy
+  residencyYears: 0
+  annualSpots: 535
+  startSalary: 70
+  midSalary: 120
+  peakSalary: 175
+  typicalPeak: 150
+  partTimeFlex: 1
+  procedureMix: 2
+  callSchedule: 3
+  adminBurden: 7
+  hoursWeek: 55
+  burnout: 40
+  partTimeFeasibility: 1
+  vacation: 3
+  careerLongevity: 6
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 2
+  automationRisk: 3
+  handsOnInsulation: 5
+  satisfaction: 68
+  chooseAgain: 58
+  intellectualStim: 8
+  varietyRepetition: 7
+  patientImpact: 9
+  physicalToll: 7
+  emotionalToll: 7
+  malpracticeLiability: 10
+  injuryCareerRisk: 10
+  aiRiskNow: 2
+  aiRiskMedium: 3
+  aiRiskLong: 4
+  aiNarrative: "AI can draft talking points and track legislation, but the job is fundamentally about political strategy, coalition-building, and managing relationships with lobbyists, other offices, and interest groups. The deeply political and interpersonal nature of the work is very hard to automate."
+  fellowshipOptions: "Congressional fellowships (APSA, Brookings), JD or MPA/MPP preferred; revolving door to lobbying/think tanks"
+  compModel: "Senate LD salary ~$100-175K (median ~$135K); House LD ~$90-160K; no bonuses but exit options to K Street pay $200K+"
+  revPerPatientVisit: "N/A — salaried government position"
+  dailyWorkflow: "Managing legislative agenda, briefing the Member on votes, drafting bill language, stakeholder meetings, committee hearing prep, floor strategy, constituent issue triage"
+  patientVolume: "Full legislative portfolio for one Senator or Representative; 15-30 active bills/issues at any time"
+  supportStaffModel: "Legislative assistants (3-8 per office), legislative correspondents, interns, committee staff for the Member's committees"
+  geographicDemandNotes: "Capitol Hill, Washington DC only; some travel to home state/district"
+  telehealthPotential: 3
+  genderDistribution: "~48% women"
+
+- name: "FEMA Emergency Manager"
+  group: diplomacy_policy
+  residencyYears: 0
+  annualSpots: 1200
+  startSalary: 62
+  midSalary: 100
+  peakSalary: 145
+  typicalPeak: 125
+  partTimeFlex: 2
+  procedureMix: 4
+  callSchedule: 3
+  adminBurden: 7
+  hoursWeek: 48
+  burnout: 38
+  partTimeFeasibility: 2
+  vacation: 5
+  careerLongevity: 7
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 4
+  automationRisk: 3
+  handsOnInsulation: 6
+  satisfaction: 70
+  chooseAgain: 62
+  intellectualStim: 7
+  varietyRepetition: 7
+  patientImpact: 9
+  physicalToll: 6
+  emotionalToll: 7
+  malpracticeLiability: 10
+  injuryCareerRisk: 8
+  aiRiskNow: 3
+  aiRiskMedium: 4
+  aiRiskLong: 4
+  aiNarrative: "AI-powered disaster prediction models and resource allocation tools will make emergency managers more effective, but the job requires on-the-ground leadership during chaos — coordinating agencies, making life-or-death resource decisions, and communicating with panicked communities. That human element stays."
+  fellowshipOptions: "CEM (Certified Emergency Manager), MPA or MS in Emergency Management, FEMA Emergency Management Institute courses, National Preparedness Leadership Initiative (Harvard/CDC)"
+  compModel: "GS-11 to GS-15 scale (~$63-191K with locality); hazard pay during deployments; FEMA Reservists (temporary) earn hourly"
+  revPerPatientVisit: "N/A — salaried government position"
+  dailyWorkflow: "Disaster preparedness planning, tabletop exercises, interagency coordination, grant administration; during disasters: 16-hour days running Joint Field Offices, resource staging, damage assessment"
+  patientVolume: "Preparedness: 3-5 regional plans; during activation: one disaster consuming 100% capacity for weeks"
+  supportStaffModel: "Regional FEMA staff, state emergency management agencies, National Guard liaison, Red Cross partners, FEMA Corps volunteers"
+  geographicDemandNotes: "10 FEMA regional offices nationwide; DC headquarters; deploy anywhere disasters hit — Gulf Coast, Midwest tornado alley, wildfire-prone West"
+  telehealthPotential: 3
+  genderDistribution: "~42% women"
+
+- name: "Congressional Budget Analyst"
+  group: diplomacy_policy
+  residencyYears: 0
+  annualSpots: 400
+  startSalary: 68
+  midSalary: 110
+  peakSalary: 155
+  typicalPeak: 136
+  partTimeFlex: 3
+  procedureMix: 2
+  callSchedule: 6
+  adminBurden: 5
+  hoursWeek: 48
+  burnout: 25
+  partTimeFeasibility: 3
+  vacation: 5
+  careerLongevity: 8
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 3
+  automationRisk: 5
+  handsOnInsulation: 3
+  satisfaction: 75
+  chooseAgain: 70
+  intellectualStim: 9
+  varietyRepetition: 5
+  patientImpact: 8
+  physicalToll: 9
+  emotionalToll: 4
+  malpracticeLiability: 10
+  injuryCareerRisk: 10
+  aiRiskNow: 4
+  aiRiskMedium: 5
+  aiRiskLong: 7
+  aiNarrative: "Budget scoring and economic modeling are squarely in AI's wheelhouse — CBO-style microsimulation and cost estimates could be dramatically accelerated by AI. But interpreting results, explaining tradeoffs to Members of Congress in plain English, and maintaining the nonpartisan credibility that makes CBO matter are human skills."
+  fellowshipOptions: "PhD or MA in Economics/Public Policy, CBO Fellowship, Brookings Economic Studies, NBER affiliation"
+  compModel: "CBO uses its own pay scale (similar to GS); analyst ~$68-110K, senior analyst ~$110-155K; not on the GS system but comparable"
+  revPerPatientVisit: "N/A — salaried government position"
+  dailyWorkflow: "Econometric modeling, cost-estimate scoring of proposed legislation, writing budget projections, testifying before committees, peer review of colleagues' work"
+  patientVolume: "2-4 active cost estimates per month; 1-2 major publications (budget outlook, long-term projections) per year"
+  supportStaffModel: "CBO divisions (Budget Analysis, Tax Analysis, Health/Labor/Income, Macro), ~275 total staff, economists and policy analysts"
+  geographicDemandNotes: "Washington DC only (Ford House Office Building); no regional offices"
+  telehealthPotential: 6
+  genderDistribution: "~45% women"
+
+# === INTELLIGENCE (2) ===
+
+- name: "NSA Cryptanalyst"
+  group: intelligence
+  residencyYears: 0
+  annualSpots: 600
+  startSalary: 72
+  midSalary: 120
+  peakSalary: 170
+  typicalPeak: 150
+  partTimeFlex: 1
+  procedureMix: 2
+  callSchedule: 5
+  adminBurden: 5
+  hoursWeek: 48
+  burnout: 28
+  partTimeFeasibility: 1
+  vacation: 5
+  careerLongevity: 8
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 2
+  automationRisk: 4
+  handsOnInsulation: 4
+  satisfaction: 76
+  chooseAgain: 70
+  intellectualStim: 10
+  varietyRepetition: 6
+  patientImpact: 9
+  physicalToll: 9
+  emotionalToll: 5
+  malpracticeLiability: 10
+  injuryCareerRisk: 10
+  aiRiskNow: 3
+  aiRiskMedium: 4
+  aiRiskLong: 5
+  aiNarrative: "AI and machine learning are core tools for modern signals intelligence — pattern recognition, traffic analysis, and even some cryptographic attacks are being automated. But adversaries also use AI, creating an arms race where human mathematicians who understand both the math and the mission remain essential."
+  fellowshipOptions: "MS/PhD in Mathematics, CS, or Cryptography; NSA Stokes/CryptoKids scholarships; GIAC certifications; internal NSA development programs"
+  compModel: "NSA pay bands (similar to GS-12 through GS-15); ~$72-170K; TS/SCI+polygraph required; some retention bonuses for STEM talent"
+  revPerPatientVisit: "N/A — salaried government position"
+  dailyWorkflow: "Mathematical analysis of encryption systems, developing cryptographic attacks, signals analysis, algorithm development, collaboration with intelligence analysts, classified briefings"
+  patientVolume: "1-3 active cryptographic targets or research problems; contributing to larger intelligence collection priorities"
+  supportStaffModel: "NSA mission teams, mathematicians, computer scientists, linguists, signals intelligence analysts, external IC partners"
+  geographicDemandNotes: "Primarily Ft. Meade MD; some positions at NSA/CSS Georgia (Augusta), NSA/CSS Texas (San Antonio), NSA/CSS Hawaii"
+  telehealthPotential: 2
+  genderDistribution: "~30% women"
+
+- name: "Counterintelligence Officer"
+  group: intelligence
+  residencyYears: 0
+  annualSpots: 800
+  startSalary: 65
+  midSalary: 115
+  peakSalary: 165
+  typicalPeak: 145
+  partTimeFlex: 1
+  procedureMix: 3
+  callSchedule: 4
+  adminBurden: 6
+  hoursWeek: 50
+  burnout: 32
+  partTimeFeasibility: 1
+  vacation: 5
+  careerLongevity: 7
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 3
+  automationRisk: 3
+  handsOnInsulation: 6
+  satisfaction: 74
+  chooseAgain: 66
+  intellectualStim: 9
+  varietyRepetition: 8
+  patientImpact: 9
+  physicalToll: 7
+  emotionalToll: 6
+  malpracticeLiability: 10
+  injuryCareerRisk: 9
+  aiRiskNow: 2
+  aiRiskMedium: 3
+  aiRiskLong: 4
+  aiNarrative: "AI helps sift through massive data sets to detect insider threats and anomalous behavior, but counterintelligence is fundamentally about understanding human motivation — why someone betrays their country, how to recruit and run double agents, and reading deception in face-to-face interviews. That's deeply human work."
+  fellowshipOptions: "MA in Intelligence Studies, Security Studies, or International Relations; CI Badge & Credential; CDSE CI certifications; FBI National Academy for law enforcement track"
+  compModel: "FBI Special Agent GS-10 to GS-13 + Law Enforcement Availability Pay (25% on top); CIA officers on agency pay scale; DIA on DCIPS pay bands; senior ~$120-165K"
+  revPerPatientVisit: "N/A — salaried government position"
+  dailyWorkflow: "Threat assessments, source meetings, surveillance coordination, damage assessments of foreign intelligence penetrations, briefing senior leadership, interagency CI coordination"
+  patientVolume: "3-8 active cases/investigations simultaneously; participate in broader CI campaigns"
+  supportStaffModel: "CI teams within FBI field offices, CIA Counterintelligence Center, DIA CI directorate; analysts, surveillance teams, polygraph examiners, prosecutors (DOJ/NSD)"
+  geographicDemandNotes: "DC/Northern Virginia (CIA, DIA, ODNI), FBI field offices nationwide, overseas posts at embassies/military bases"
+  telehealthPotential: 2
+  genderDistribution: "~35% women"
+
+# === CIVIL SERVICE (4) ===
+
+- name: "Urban Planner"
+  group: civil_service
+  residencyYears: 0
+  annualSpots: 5000
+  startSalary: 55
+  midSalary: 82
+  peakSalary: 115
+  typicalPeak: 100
+  partTimeFlex: 4
+  procedureMix: 4
+  callSchedule: 7
+  adminBurden: 7
+  hoursWeek: 42
+  burnout: 22
+  partTimeFeasibility: 4
+  vacation: 5
+  careerLongevity: 9
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 7
+  automationRisk: 4
+  handsOnInsulation: 5
+  satisfaction: 72
+  chooseAgain: 68
+  intellectualStim: 7
+  varietyRepetition: 6
+  patientImpact: 8
+  physicalToll: 8
+  emotionalToll: 4
+  malpracticeLiability: 10
+  injuryCareerRisk: 10
+  aiRiskNow: 3
+  aiRiskMedium: 4
+  aiRiskLong: 5
+  aiNarrative: "AI tools for traffic modeling, zoning analysis, and GIS mapping will make planners more productive, but the job is really about navigating community politics — leading public hearings, balancing competing interests, and shaping cities through consensus-building. That human negotiation stays essential."
+  fellowshipOptions: "AICP (American Institute of Certified Planners), MUP/MURP from PAB-accredited programs, CNU certification, LEED AP for sustainable development"
+  compModel: "City/county salary; entry ~$55K, senior planner ~$82K, planning director ~$100-130K; federal planners on GS scale (GS-11 to GS-13)"
+  revPerPatientVisit: "N/A — salaried government position"
+  dailyWorkflow: "Reviewing development applications, writing staff reports, GIS mapping, public hearing presentations, comprehensive plan updates, zoning code amendments, community engagement meetings"
+  patientVolume: "10-25 active development review cases; 1-3 long-range planning projects"
+  supportStaffModel: "Planning department staff (3-30+ depending on city size), GIS technicians, code enforcement officers, consulting firms for specialized studies"
+  geographicDemandNotes: "Every city and county has planners; growth areas (Sunbelt, suburban edges) need the most; federal roles at HUD or DOT in DC"
+  telehealthPotential: 5
+  genderDistribution: "~45% women"
+
+- name: "City / County Manager"
+  group: civil_service
+  residencyYears: 0
+  annualSpots: 800
+  startSalary: 75
+  midSalary: 130
+  peakSalary: 200
+  typicalPeak: 165
+  partTimeFlex: 1
+  procedureMix: 3
+  callSchedule: 4
+  adminBurden: 8
+  hoursWeek: 52
+  burnout: 35
+  partTimeFeasibility: 1
+  vacation: 5
+  careerLongevity: 7
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 5
+  automationRisk: 2
+  handsOnInsulation: 6
+  satisfaction: 72
+  chooseAgain: 65
+  intellectualStim: 8
+  varietyRepetition: 8
+  patientImpact: 9
+  physicalToll: 7
+  emotionalToll: 7
+  malpracticeLiability: 10
+  injuryCareerRisk: 10
+  aiRiskNow: 2
+  aiRiskMedium: 3
+  aiRiskLong: 3
+  aiNarrative: "AI can help optimize city budgets and service delivery, but being a city manager means handling angry council meetings, managing political crises, negotiating union contracts, and making judgment calls about community priorities. This is leadership at its most human — AI is a tool, not a replacement."
+  fellowshipOptions: "ICMA Credentialed Manager, MPA from NASPAA-accredited program, ICMA coaching program, local government management fellowship"
+  compModel: "Appointed salary set by city council; small city ~$75-100K, mid-size ~$130-165K, large city ~$180-250K+; often includes car allowance, retirement supplements, severance clauses"
+  revPerPatientVisit: "N/A — salaried government position"
+  dailyWorkflow: "Council meeting prep, department head meetings, budget development, community crisis response, media relations, union negotiations, constituent complaints, strategic planning"
+  patientVolume: "Entire city/county operations — police, fire, public works, parks, utilities; managing 50-5,000+ employees"
+  supportStaffModel: "Assistant city managers, department heads (police chief, fire chief, finance director, public works director), city attorney, city clerk"
+  geographicDemandNotes: "Council-manager cities nationwide (~3,500+ positions); strong in Sunbelt growth cities; ICMA job board is the main pipeline"
+  telehealthPotential: 3
+  genderDistribution: "~28% women"
+
+- name: "Public Health Officer"
+  group: civil_service
+  residencyYears: 0
+  annualSpots: 1500
+  startSalary: 65
+  midSalary: 105
+  peakSalary: 155
+  typicalPeak: 135
+  partTimeFlex: 2
+  procedureMix: 4
+  callSchedule: 5
+  adminBurden: 6
+  hoursWeek: 46
+  burnout: 30
+  partTimeFeasibility: 2
+  vacation: 5
+  careerLongevity: 8
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 5
+  automationRisk: 3
+  handsOnInsulation: 5
+  satisfaction: 76
+  chooseAgain: 70
+  intellectualStim: 8
+  varietyRepetition: 7
+  patientImpact: 9
+  physicalToll: 7
+  emotionalToll: 6
+  malpracticeLiability: 10
+  injuryCareerRisk: 9
+  aiRiskNow: 3
+  aiRiskMedium: 4
+  aiRiskLong: 5
+  aiNarrative: "AI-powered disease surveillance and epidemiological modeling are already transforming outbreak detection, but public health officers must still lead community interventions, navigate political resistance to health measures, and coordinate field responses where human presence and trust are irreplaceable."
+  fellowshipOptions: "MPH from CEPH-accredited programs, USPHS Commissioned Corps, EIS (Epidemic Intelligence Service at CDC), CPH certification, DrPH for leadership track"
+  compModel: "USPHS uses military pay tables; O-1 to O-6 equivalent ($65-155K base) + BAH + BAS + special pays; CDC/FDA civilians on GS scale; total comp competitive with military"
+  revPerPatientVisit: "N/A — salaried government position"
+  dailyWorkflow: "Disease surveillance, outbreak investigation, health program administration, community health assessments, interagency coordination, data analysis, public health emergency preparedness"
+  patientVolume: "Population-level: responsible for health outcomes across communities of 50K to millions depending on role"
+  supportStaffModel: "USPHS officer teams, CDC epidemiologists, state/local health departments, laboratory scientists, community health workers"
+  geographicDemandNotes: "CDC Atlanta, NIH Bethesda, FDA Silver Spring, IHS posts on tribal lands, USPHS deployments nationwide; state/local health departments everywhere"
+  telehealthPotential: 5
+  genderDistribution: "~55% women"
+
+- name: "EPA Environmental Scientist"
+  group: civil_service
+  residencyYears: 0
+  annualSpots: 1000
+  startSalary: 60
+  midSalary: 95
+  peakSalary: 140
+  typicalPeak: 120
+  partTimeFlex: 3
+  procedureMix: 5
+  callSchedule: 7
+  adminBurden: 7
+  hoursWeek: 44
+  burnout: 25
+  partTimeFeasibility: 3
+  vacation: 5
+  careerLongevity: 9
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 5
+  automationRisk: 4
+  handsOnInsulation: 5
+  satisfaction: 70
+  chooseAgain: 65
+  intellectualStim: 8
+  varietyRepetition: 6
+  patientImpact: 8
+  physicalToll: 7
+  emotionalToll: 5
+  malpracticeLiability: 10
+  injuryCareerRisk: 9
+  aiRiskNow: 3
+  aiRiskMedium: 5
+  aiRiskLong: 5
+  aiNarrative: "AI can accelerate environmental modeling, analyze satellite imagery for pollution, and process monitoring data at scale. But field inspections, enforcement negotiations, regulatory judgment calls, and testifying in court require human scientists who understand both the science and the law."
+  fellowshipOptions: "MS in Environmental Science/Engineering, PE license for engineering track, ORISE fellowship, EPA Pathways program, Certified Hazardous Materials Manager"
+  compModel: "GS-11 Step 1 (~$63K) to GS-14 Step 10 (~$170K with locality); scientists rarely reach GS-15 without moving to management; SES for senior leadership"
+  revPerPatientVisit: "N/A — salaried government position"
+  dailyWorkflow: "Facility inspections, environmental sampling, regulatory compliance review, Superfund site assessments, permit evaluation, enforcement case development, scientific report writing"
+  patientVolume: "5-15 active facility cases or regulatory reviews; 2-4 field inspections per month"
+  supportStaffModel: "EPA regional office teams (10 regions), laboratory scientists, enforcement attorneys, contractor support for cleanups, state environmental agency partners"
+  geographicDemandNotes: "EPA HQ in DC, 10 regional offices (Boston, NYC, Philadelphia, Atlanta, Chicago, Dallas, KC, Denver, SF, Seattle), plus field labs and Superfund sites"
+  telehealthPotential: 5
+  genderDistribution: "~48% women"

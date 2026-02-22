@@ -561,6 +561,151 @@ const BUSINESS_SOURCES = [
   },
 ];
 
+const GOVERNMENT_SOURCES = [
+  {
+    title: "Compensation Data",
+    emoji: "💰",
+    sources: [
+      {
+        name: "BLS Occupational Outlook Handbook — Protective Service",
+        org: "U.S. Bureau of Labor Statistics",
+        url: "https://www.bls.gov/ooh/protective-service/",
+        desc: "Median wages, employment projections, and job outlook for police, firefighters, corrections officers, and other protective service occupations.",
+        updated: "Annual (September)",
+      },
+      {
+        name: "Military Pay Charts — Defense Finance and Accounting Service",
+        org: "U.S. Department of Defense",
+        url: "https://www.dfas.mil/militarymembers/payentitlements/Pay-Tables/",
+        desc: "Official military base pay tables by rank and years of service, plus BAH, BAS, and special pay rates.",
+        updated: "Annual (January)",
+      },
+      {
+        name: "OPM Federal Pay Tables (GS Scale)",
+        org: "U.S. Office of Personnel Management",
+        url: "https://www.opm.gov/policy-data-oversight/pay-leave/salaries-wages/",
+        desc: "General Schedule pay tables with locality adjustments for all federal civilian employees across 53 locality areas.",
+        updated: "Annual (January)",
+      },
+      {
+        name: "FederalPay.org — Federal Employee Salary Database",
+        org: "FederalPay.org",
+        url: "https://www.federalpay.org/",
+        desc: "Searchable database of federal employee salaries by agency, job title, and location. Includes GS, SES, and military pay data.",
+        updated: "Continuous",
+      },
+    ],
+  },
+  {
+    title: "Military & Academy Training",
+    emoji: "🎓",
+    sources: [
+      {
+        name: "DoD Active Duty Demographics Report",
+        org: "U.S. Department of Defense",
+        url: "https://www.militaryonesource.mil/data-research-and-statistics/military-community-demographics/",
+        desc: "Active duty force size, branch composition, demographics, retention rates, and recruitment statistics.",
+        updated: "Annual",
+      },
+      {
+        name: "FBI Careers — Special Agent Selection Process",
+        org: "Federal Bureau of Investigation",
+        url: "https://www.fbi.gov/careers/special-agents",
+        desc: "FBI Special Agent application requirements, Phase 1/2 testing, Quantico training, and acceptance rates (~5%).",
+        updated: "Continuous",
+      },
+      {
+        name: "State Department — Foreign Service Officer Test (FSOT)",
+        org: "U.S. Department of State",
+        url: "https://careers.state.gov/career-paths/foreign-service/",
+        desc: "FSOT pass rates (~30% written, ~3% overall), oral assessment process, career tracks, and language requirements.",
+        updated: "Per exam cycle",
+      },
+      {
+        name: "FLETC — Federal Law Enforcement Training Centers",
+        org: "U.S. Department of Homeland Security",
+        url: "https://www.fletc.gov/",
+        desc: "Training programs for 90+ federal agencies including CBP, ICE, Secret Service, ATF. Training duration, curriculum, and graduation rates.",
+        updated: "Continuous",
+      },
+    ],
+  },
+  {
+    title: "Job Market & Demand",
+    emoji: "📋",
+    sources: [
+      {
+        name: "BLS Employment Projections — Protective Service",
+        org: "U.S. Bureau of Labor Statistics",
+        url: "https://www.bls.gov/emp/tables/emp-by-detailed-occupation.htm",
+        desc: "10-year employment projections for police, fire, corrections, and other protective service occupations.",
+        updated: "Biennial",
+      },
+      {
+        name: "USAJobs — Federal Workforce Data",
+        org: "U.S. Office of Personnel Management",
+        url: "https://www.usajobs.gov/",
+        desc: "Federal job postings, hiring trends, and workforce statistics across all government agencies.",
+        updated: "Continuous",
+      },
+    ],
+  },
+  {
+    title: "Work-Life Balance & Satisfaction",
+    emoji: "⚖️",
+    sources: [
+      {
+        name: "Federal Employee Viewpoint Survey (FEVS)",
+        org: "U.S. Office of Personnel Management",
+        url: "https://www.opm.gov/fevs/",
+        desc: "Annual survey of federal employee engagement, satisfaction, and workplace conditions across all agencies. ~600K respondents.",
+        updated: "Annual",
+      },
+      {
+        name: "SAMHSA — First Responder Mental Health",
+        org: "Substance Abuse and Mental Health Services Administration",
+        url: "https://www.samhsa.gov/dtac/disaster-responders",
+        desc: "Data on PTSD, burnout, and mental health outcomes for first responders including firefighters, EMS, and law enforcement.",
+        updated: "Ongoing",
+      },
+      {
+        name: "RAND — Military Quality of Life Research",
+        org: "RAND Corporation",
+        url: "https://www.rand.org/topics/military-personnel.html",
+        desc: "Research on military retention, family life, deployment stress, transition to civilian careers, and veteran outcomes.",
+        updated: "Ongoing",
+      },
+    ],
+  },
+  {
+    title: "Financial Modeling",
+    emoji: "📊",
+    sources: [
+      {
+        name: "Military Compensation Calculator",
+        org: "U.S. Department of Defense",
+        url: "https://militarypay.defense.gov/calculators/",
+        desc: "Official calculator for total military compensation including base pay, BAH, BAS, tax advantages, and retirement benefits.",
+        updated: "Annual",
+      },
+      {
+        name: "Federal Student Aid — Public Service Loan Forgiveness",
+        org: "U.S. Department of Education",
+        url: "https://studentaid.gov/manage-loans/forgiveness-cancellation/public-service",
+        desc: "PSLF program details for government employees — loan forgiveness after 120 qualifying payments (10 years of service).",
+        updated: "Continuous",
+      },
+      {
+        name: "TSP — Thrift Savings Plan",
+        org: "Federal Retirement Thrift Investment Board",
+        url: "https://www.tsp.gov/",
+        desc: "Federal employee retirement savings plan. Government matches up to 5% of pay. Used to model long-term wealth building.",
+        updated: "Continuous",
+      },
+    ],
+  },
+];
+
 const SHARED_SOURCES = [
   {
     title: "Stress Test & Scenario Modeling",
@@ -596,7 +741,8 @@ function getSourcesForFamily(familySlug) {
   if (familySlug === "law") return [...LAW_SOURCES, ...SHARED_SOURCES];
   if (familySlug === "engineering") return [...ENGINEERING_SOURCES, ...SHARED_SOURCES];
   if (familySlug === "business") return [...BUSINESS_SOURCES, ...SHARED_SOURCES];
-  return [...HEALTHCARE_SOURCES, ...LAW_SOURCES, ...ENGINEERING_SOURCES, ...BUSINESS_SOURCES, ...SHARED_SOURCES];
+  if (familySlug === "government") return [...GOVERNMENT_SOURCES, ...SHARED_SOURCES];
+  return [...HEALTHCARE_SOURCES, ...LAW_SOURCES, ...ENGINEERING_SOURCES, ...BUSINESS_SOURCES, ...GOVERNMENT_SOURCES, ...SHARED_SOURCES];
 }
 
 export default function Sources({ familySlug }) {
