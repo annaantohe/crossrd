@@ -1,0 +1,1594 @@
+# BBA Business specialties — 35 careers across 8 groups
+profession: BBA
+specialties:
+
+# === FINANCE & BANKING (5) ===
+
+- name: "Financial Analyst"
+  group: finance_banking
+  residencyYears: 0
+  annualSpots: 85000
+  startSalary: 60
+  midSalary: 95
+  peakSalary: 140
+  typicalPeak: 110
+  partTimeFlex: 4
+  procedureMix: 1
+  callSchedule: 7
+  adminBurden: 5
+  hoursWeek: 50
+  burnout: 35
+  partTimeFeasibility: 4
+  vacation: 4
+  careerLongevity: 6
+  malpracticeFreq: 9
+  malpracticeCost: 1
+  geographicFlex: 6
+  automationRisk: 6
+  handsOnInsulation: 3
+  satisfaction: 65
+  chooseAgain: 60
+  intellectualStim: 7
+  varietyRepetition: 5
+  patientImpact: 3
+  physicalToll: 9
+  emotionalToll: 6
+  malpracticeLiability: 9
+  injuryCareerRisk: 10
+  aiRiskNow: 5
+  aiRiskMedium: 7
+  aiRiskLong: 8
+  aiNarrative: "AI can crunch spreadsheets and spot trends faster than any human, but companies still need people who can explain what the numbers mean and recommend what to do next."
+  fellowshipOptions: "CFA charter, MBA, MS in Finance"
+  compModel: "Base salary + annual bonus (10-30%); senior roles add profit-sharing"
+  revPerPatientVisit: "N/A — salaried"
+  dailyWorkflow: "Build financial models, analyze earnings reports, prepare presentations for leadership, attend strategy meetings"
+  patientVolume: "3-6 active projects, quarterly reporting cycles"
+  supportStaffModel: "Works under finance manager or VP; supported by data team and accounting"
+  geographicDemandNotes: "NYC, Chicago, Charlotte, SF — remote increasingly available for senior analysts"
+  telehealthPotential: 7
+  genderDistribution: "~40% women"
+
+- name: "Investment Banking Analyst"
+  group: finance_banking
+  residencyYears: 0
+  annualSpots: 5000
+  startSalary: 90
+  midSalary: 130
+  peakSalary: 180
+  typicalPeak: 140
+  partTimeFlex: 1
+  procedureMix: 1
+  callSchedule: 2
+  adminBurden: 6
+  hoursWeek: 80
+  burnout: 60
+  partTimeFeasibility: 1
+  vacation: 2
+  careerLongevity: 3
+  malpracticeFreq: 9
+  malpracticeCost: 2
+  geographicFlex: 3
+  automationRisk: 5
+  handsOnInsulation: 2
+  satisfaction: 55
+  chooseAgain: 50
+  intellectualStim: 8
+  varietyRepetition: 4
+  patientImpact: 2
+  physicalToll: 7
+  emotionalToll: 3
+  malpracticeLiability: 9
+  injuryCareerRisk: 10
+  aiRiskNow: 4
+  aiRiskMedium: 6
+  aiRiskLong: 7
+  aiNarrative: "AI automates pitch-book creation and data pulls, but deal-making still depends on relationships and judgment calls that machines can't replicate — at least not yet."
+  fellowshipOptions: "MBA (almost expected for promotion to associate), CFA"
+  compModel: "Base salary + year-end bonus (often 50-100% of base); analyst-to-associate promote-out cycle"
+  revPerPatientVisit: "N/A — salaried with large bonuses"
+  dailyWorkflow: "Build pitch books, run valuation models (DCF, comps), draft memos, attend client calls, work late nights on live deals"
+  patientVolume: "2-4 live deals at a time, plus pitch work"
+  supportStaffModel: "Works under associates and VPs; admin support for scheduling and printing"
+  geographicDemandNotes: "NYC (dominant), SF, Chicago, Houston — very little remote"
+  telehealthPotential: 3
+  genderDistribution: "~30% women"
+
+- name: "Commercial Banker"
+  group: finance_banking
+  residencyYears: 0
+  annualSpots: 35000
+  startSalary: 55
+  midSalary: 85
+  peakSalary: 140
+  typicalPeak: 100
+  partTimeFlex: 4
+  procedureMix: 3
+  callSchedule: 7
+  adminBurden: 6
+  hoursWeek: 45
+  burnout: 25
+  partTimeFeasibility: 4
+  vacation: 4
+  careerLongevity: 7
+  malpracticeFreq: 9
+  malpracticeCost: 1
+  geographicFlex: 4
+  automationRisk: 5
+  handsOnInsulation: 5
+  satisfaction: 68
+  chooseAgain: 63
+  intellectualStim: 6
+  varietyRepetition: 5
+  patientImpact: 4
+  physicalToll: 9
+  emotionalToll: 7
+  malpracticeLiability: 9
+  injuryCareerRisk: 10
+  aiRiskNow: 3
+  aiRiskMedium: 5
+  aiRiskLong: 6
+  aiNarrative: "AI helps with credit analysis and risk scoring, but business owners still want a human they trust to help structure their loans and talk through options."
+  fellowshipOptions: "MBA, credit analyst certifications, Chartered Financial Analyst (CFA)"
+  compModel: "Base salary + bonus tied to portfolio growth; some commission on new business"
+  revPerPatientVisit: "N/A — salaried with performance bonus"
+  dailyWorkflow: "Meet with business clients, analyze financial statements, structure loan packages, manage existing loan portfolio, attend networking events"
+  patientVolume: "Portfolio of 30-80 commercial clients"
+  supportStaffModel: "Credit analysts, loan processors, admin assistants"
+  geographicDemandNotes: "Every mid-to-large city; strongest in regional banking hubs like Charlotte, Dallas, Atlanta"
+  telehealthPotential: 5
+  genderDistribution: "~40% women"
+
+- name: "Loan Officer"
+  group: finance_banking
+  residencyYears: 0
+  annualSpots: 55000
+  startSalary: 45
+  midSalary: 75
+  peakSalary: 120
+  typicalPeak: 85
+  partTimeFlex: 6
+  procedureMix: 3
+  callSchedule: 7
+  adminBurden: 7
+  hoursWeek: 42
+  burnout: 25
+  partTimeFeasibility: 6
+  vacation: 3
+  careerLongevity: 7
+  malpracticeFreq: 9
+  malpracticeCost: 1
+  geographicFlex: 5
+  automationRisk: 6
+  handsOnInsulation: 5
+  satisfaction: 65
+  chooseAgain: 60
+  intellectualStim: 5
+  varietyRepetition: 4
+  patientImpact: 5
+  physicalToll: 9
+  emotionalToll: 6
+  malpracticeLiability: 9
+  injuryCareerRisk: 10
+  aiRiskNow: 4
+  aiRiskMedium: 6
+  aiRiskLong: 7
+  aiNarrative: "Online lenders and AI underwriting are streamlining approvals, but people buying a home or starting a business still want a human to walk them through the biggest financial decision of their life."
+  fellowshipOptions: "NMLS license required; MBA or banking certifications for advancement"
+  compModel: "Base + commission per loan closed; top producers earn well above average"
+  revPerPatientVisit: "Commission per loan (typically 0.5-1% of loan value)"
+  dailyWorkflow: "Meet with borrowers, review applications, pull credit reports, coordinate with underwriting, attend closings"
+  patientVolume: "15-30 active loan applications at a time"
+  supportStaffModel: "Loan processors, underwriters, closing coordinators"
+  geographicDemandNotes: "Everywhere — strongest in high-growth housing markets (TX, FL, AZ, NC)"
+  telehealthPotential: 6
+  genderDistribution: "~55% women"
+
+- name: "Retail Bank Manager"
+  group: finance_banking
+  residencyYears: 0
+  annualSpots: 40000
+  startSalary: 48
+  midSalary: 70
+  peakSalary: 100
+  typicalPeak: 78
+  partTimeFlex: 3
+  procedureMix: 4
+  callSchedule: 6
+  adminBurden: 7
+  hoursWeek: 44
+  burnout: 30
+  partTimeFeasibility: 3
+  vacation: 3
+  careerLongevity: 7
+  malpracticeFreq: 9
+  malpracticeCost: 1
+  geographicFlex: 4
+  automationRisk: 5
+  handsOnInsulation: 6
+  satisfaction: 60
+  chooseAgain: 55
+  intellectualStim: 4
+  varietyRepetition: 5
+  patientImpact: 4
+  physicalToll: 9
+  emotionalToll: 6
+  malpracticeLiability: 9
+  injuryCareerRisk: 10
+  aiRiskNow: 3
+  aiRiskMedium: 5
+  aiRiskLong: 6
+  aiNarrative: "Mobile banking and AI chatbots handle routine transactions, but branch managers still run the team, solve complex problems, and build community relationships that apps can't replace."
+  fellowshipOptions: "MBA, bank management training programs, CFP for wealth-adjacent roles"
+  compModel: "Base salary + bonus tied to branch performance metrics (deposits, loans, satisfaction scores)"
+  revPerPatientVisit: "N/A — salaried"
+  dailyWorkflow: "Oversee branch operations, coach tellers and bankers, handle escalated customer issues, review sales targets, manage staffing"
+  patientVolume: "Branch serves 200-500+ customers/day; manager handles 5-15 escalations"
+  supportStaffModel: "Tellers, personal bankers, assistant managers, district manager above"
+  geographicDemandNotes: "Everywhere — every city and suburb has bank branches, though branch count is slowly shrinking"
+  telehealthPotential: 2
+  genderDistribution: "~55% women"
+
+# === ACCOUNTING & TAX (4) ===
+
+- name: "Staff Accountant"
+  group: accounting_tax
+  residencyYears: 0
+  annualSpots: 120000
+  startSalary: 52
+  midSalary: 72
+  peakSalary: 100
+  typicalPeak: 80
+  partTimeFlex: 5
+  procedureMix: 1
+  callSchedule: 8
+  adminBurden: 7
+  hoursWeek: 45
+  burnout: 35
+  partTimeFeasibility: 5
+  vacation: 3
+  careerLongevity: 7
+  malpracticeFreq: 9
+  malpracticeCost: 1
+  geographicFlex: 7
+  automationRisk: 7
+  handsOnInsulation: 2
+  satisfaction: 62
+  chooseAgain: 58
+  intellectualStim: 5
+  varietyRepetition: 4
+  patientImpact: 2
+  physicalToll: 10
+  emotionalToll: 7
+  malpracticeLiability: 9
+  injuryCareerRisk: 10
+  aiRiskNow: 5
+  aiRiskMedium: 7
+  aiRiskLong: 8
+  aiNarrative: "AI already auto-categorizes transactions and flags errors, so routine bookkeeping jobs are shrinking. But accountants who can interpret results and advise clients will stay valuable."
+  fellowshipOptions: "CPA license (most pursue), CMA, MBA; CPA opens doors to controller/CFO track"
+  compModel: "Base salary; busy-season overtime often compensated; Big Four adds year-end bonus"
+  revPerPatientVisit: "N/A — salaried"
+  dailyWorkflow: "Record journal entries, reconcile accounts, prepare financial statements, support month-end close, assist with audits"
+  patientVolume: "Handles 50-200+ accounts; monthly close cycles"
+  supportStaffModel: "Works under senior accountant or controller; supported by bookkeepers and AP/AR clerks"
+  geographicDemandNotes: "Every city — especially strong in NYC, Chicago, Dallas, Atlanta; remote is common for experienced staff"
+  telehealthPotential: 8
+  genderDistribution: "~60% women"
+
+- name: "Internal Auditor"
+  group: accounting_tax
+  residencyYears: 0
+  annualSpots: 45000
+  startSalary: 55
+  midSalary: 80
+  peakSalary: 120
+  typicalPeak: 95
+  partTimeFlex: 4
+  procedureMix: 2
+  callSchedule: 8
+  adminBurden: 6
+  hoursWeek: 42
+  burnout: 28
+  partTimeFeasibility: 4
+  vacation: 4
+  careerLongevity: 7
+  malpracticeFreq: 9
+  malpracticeCost: 1
+  geographicFlex: 6
+  automationRisk: 5
+  handsOnInsulation: 3
+  satisfaction: 65
+  chooseAgain: 60
+  intellectualStim: 6
+  varietyRepetition: 5
+  patientImpact: 3
+  physicalToll: 10
+  emotionalToll: 6
+  malpracticeLiability: 9
+  injuryCareerRisk: 10
+  aiRiskNow: 4
+  aiRiskMedium: 6
+  aiRiskLong: 7
+  aiNarrative: "AI can scan thousands of transactions for anomalies in seconds, making auditors faster — but someone still needs to investigate findings, interview employees, and judge whether a risk is real."
+  fellowshipOptions: "CIA (Certified Internal Auditor), CPA, CISA for IT audit; MBA for management track"
+  compModel: "Base salary + annual bonus (10-20%); stable raises with certifications"
+  revPerPatientVisit: "N/A — salaried"
+  dailyWorkflow: "Plan audit engagements, review controls, test transactions, interview department managers, write audit reports, present findings"
+  patientVolume: "4-8 audit engagements per year"
+  supportStaffModel: "Works on audit team with staff auditors; reports to Chief Audit Executive"
+  geographicDemandNotes: "Major corporate hubs — NYC, Chicago, Houston, Atlanta; some travel to company sites"
+  telehealthPotential: 6
+  genderDistribution: "~50% women"
+
+- name: "Tax Preparer"
+  group: accounting_tax
+  residencyYears: 0
+  annualSpots: 75000
+  startSalary: 40
+  midSalary: 60
+  peakSalary: 85
+  typicalPeak: 65
+  partTimeFlex: 7
+  procedureMix: 1
+  callSchedule: 8
+  adminBurden: 8
+  hoursWeek: 50
+  burnout: 35
+  partTimeFeasibility: 7
+  vacation: 3
+  careerLongevity: 7
+  malpracticeFreq: 8
+  malpracticeCost: 2
+  geographicFlex: 7
+  automationRisk: 7
+  handsOnInsulation: 3
+  satisfaction: 58
+  chooseAgain: 52
+  intellectualStim: 5
+  varietyRepetition: 3
+  patientImpact: 4
+  physicalToll: 10
+  emotionalToll: 6
+  malpracticeLiability: 8
+  injuryCareerRisk: 10
+  aiRiskNow: 6
+  aiRiskMedium: 7
+  aiRiskLong: 8
+  aiNarrative: "TurboTax and AI tax software handle simple returns already. But complex situations — small businesses, rental properties, estate planning — still need a human who understands the tax code."
+  fellowshipOptions: "CPA license, Enrolled Agent (EA) designation, MS in Taxation"
+  compModel: "Salaried or hourly at firms; independent preparers charge per-return ($150-500+)"
+  revPerPatientVisit: "$150-500 per return; volume-based during tax season"
+  dailyWorkflow: "Meet with clients, gather financial documents, prepare returns using tax software, review for accuracy, file electronically, answer IRS notices"
+  patientVolume: "100-300+ returns per tax season; lighter load off-season"
+  supportStaffModel: "Admin staff for scheduling and document collection; senior CPAs review complex returns"
+  geographicDemandNotes: "Everywhere — every community needs tax help; seasonal surge Jan-Apr; remote prep increasingly common"
+  telehealthPotential: 8
+  genderDistribution: "~55% women"
+
+- name: "Payroll Specialist"
+  group: accounting_tax
+  residencyYears: 0
+  annualSpots: 60000
+  startSalary: 42
+  midSalary: 58
+  peakSalary: 78
+  typicalPeak: 62
+  partTimeFlex: 5
+  procedureMix: 1
+  callSchedule: 8
+  adminBurden: 8
+  hoursWeek: 40
+  burnout: 22
+  partTimeFeasibility: 5
+  vacation: 3
+  careerLongevity: 7
+  malpracticeFreq: 9
+  malpracticeCost: 1
+  geographicFlex: 7
+  automationRisk: 8
+  handsOnInsulation: 2
+  satisfaction: 63
+  chooseAgain: 58
+  intellectualStim: 4
+  varietyRepetition: 3
+  patientImpact: 3
+  physicalToll: 10
+  emotionalToll: 7
+  malpracticeLiability: 9
+  injuryCareerRisk: 10
+  aiRiskNow: 6
+  aiRiskMedium: 7
+  aiRiskLong: 8
+  aiNarrative: "Payroll software already automates most calculations and filings. The role is shifting toward managing the system, handling exceptions, and ensuring compliance rather than manual processing."
+  fellowshipOptions: "CPP (Certified Payroll Professional), FPC (Fundamental Payroll Certification); path to payroll manager or HR"
+  compModel: "Base salary; steady pay with modest raises; overtime during payroll cycles"
+  revPerPatientVisit: "N/A — salaried"
+  dailyWorkflow: "Process bi-weekly/monthly payroll, verify timesheets, calculate deductions and taxes, resolve discrepancies, file payroll taxes, handle employee pay questions"
+  patientVolume: "Manages payroll for 100-1000+ employees per cycle"
+  supportStaffModel: "Works within HR or finance team; supported by HRIS systems and accounting staff"
+  geographicDemandNotes: "Everywhere — any company with employees needs payroll; remote-friendly for experienced specialists"
+  telehealthPotential: 8
+  genderDistribution: "~70% women"
+
+# === INSURANCE & RISK (3) ===
+
+- name: "Insurance Agent"
+  group: insurance_risk
+  residencyYears: 0
+  annualSpots: 70000
+  startSalary: 38
+  midSalary: 65
+  peakSalary: 120
+  typicalPeak: 75
+  partTimeFlex: 7
+  procedureMix: 4
+  callSchedule: 7
+  adminBurden: 5
+  hoursWeek: 45
+  burnout: 28
+  partTimeFeasibility: 7
+  vacation: 3
+  careerLongevity: 7
+  malpracticeFreq: 9
+  malpracticeCost: 1
+  geographicFlex: 5
+  automationRisk: 5
+  handsOnInsulation: 6
+  satisfaction: 62
+  chooseAgain: 58
+  intellectualStim: 5
+  varietyRepetition: 5
+  patientImpact: 5
+  physicalToll: 9
+  emotionalToll: 6
+  malpracticeLiability: 9
+  injuryCareerRisk: 10
+  aiRiskNow: 4
+  aiRiskMedium: 5
+  aiRiskLong: 6
+  aiNarrative: "Online quote tools handle simple policies, but when someone has a complicated situation — a business, rental properties, or a major life change — they still want a human to explain their options."
+  fellowshipOptions: "State license required; CLU, ChFC, CPCU designations for specialization"
+  compModel: "Commission-heavy (renewal commissions build passive income over time); some captive agents get base + commission"
+  revPerPatientVisit: "Commission per policy sold (5-20% of premium); renewal commissions ongoing"
+  dailyWorkflow: "Prospect for new clients, conduct needs assessments, present policy options, process applications, service existing client accounts, handle claims questions"
+  patientVolume: "Book of 200-500+ clients; 3-8 new prospect meetings per week"
+  supportStaffModel: "Agency admin staff, underwriters at carrier, claims department"
+  geographicDemandNotes: "Everywhere — independent agents especially strong in suburban and rural markets; captive agents in metro areas"
+  telehealthPotential: 6
+  genderDistribution: "~45% women"
+
+- name: "Insurance Underwriter"
+  group: insurance_risk
+  residencyYears: 0
+  annualSpots: 25000
+  startSalary: 55
+  midSalary: 80
+  peakSalary: 115
+  typicalPeak: 90
+  partTimeFlex: 4
+  procedureMix: 1
+  callSchedule: 8
+  adminBurden: 6
+  hoursWeek: 40
+  burnout: 22
+  partTimeFeasibility: 4
+  vacation: 4
+  careerLongevity: 7
+  malpracticeFreq: 9
+  malpracticeCost: 1
+  geographicFlex: 7
+  automationRisk: 7
+  handsOnInsulation: 2
+  satisfaction: 68
+  chooseAgain: 63
+  intellectualStim: 6
+  varietyRepetition: 5
+  patientImpact: 3
+  physicalToll: 10
+  emotionalToll: 7
+  malpracticeLiability: 9
+  injuryCareerRisk: 10
+  aiRiskNow: 5
+  aiRiskMedium: 7
+  aiRiskLong: 8
+  aiNarrative: "AI already handles auto-approval for simple policies. Underwriters are shifting to complex commercial and specialty lines where judgment and negotiation still matter."
+  fellowshipOptions: "CPCU (Chartered Property Casualty Underwriter), AU, ARM certifications"
+  compModel: "Base salary + annual bonus (10-20%); stable career ladder"
+  revPerPatientVisit: "N/A — salaried"
+  dailyWorkflow: "Review applications, assess risk, analyze financial data, set premiums, negotiate with brokers, approve or decline coverage"
+  patientVolume: "Review 5-15 applications per day depending on complexity"
+  supportStaffModel: "Works with agents/brokers, actuaries, claims team; reports to underwriting manager"
+  geographicDemandNotes: "Hartford CT, NYC, Chicago, Des Moines — increasingly remote-friendly"
+  telehealthPotential: 8
+  genderDistribution: "~55% women"
+
+- name: "Claims Adjuster"
+  group: insurance_risk
+  residencyYears: 0
+  annualSpots: 50000
+  startSalary: 45
+  midSalary: 65
+  peakSalary: 90
+  typicalPeak: 72
+  partTimeFlex: 4
+  procedureMix: 5
+  callSchedule: 6
+  adminBurden: 6
+  hoursWeek: 42
+  burnout: 35
+  partTimeFeasibility: 4
+  vacation: 3
+  careerLongevity: 6
+  malpracticeFreq: 8
+  malpracticeCost: 2
+  geographicFlex: 5
+  automationRisk: 5
+  handsOnInsulation: 5
+  satisfaction: 55
+  chooseAgain: 50
+  intellectualStim: 5
+  varietyRepetition: 5
+  patientImpact: 5
+  physicalToll: 8
+  emotionalToll: 5
+  malpracticeLiability: 8
+  injuryCareerRisk: 10
+  aiRiskNow: 4
+  aiRiskMedium: 6
+  aiRiskLong: 7
+  aiNarrative: "AI can estimate damage from photos and fast-track simple claims, but adjusters still handle disputes, investigate fraud, and deal with the human side of someone's worst day."
+  fellowshipOptions: "AIC (Associate in Claims), SCLA, state adjuster license required in most states"
+  compModel: "Base salary; independent adjusters earn per-claim fees and surge during disasters"
+  revPerPatientVisit: "N/A — salaried; independent adjusters bill per claim ($500-2000+)"
+  dailyWorkflow: "Inspect damage (sometimes on-site), interview claimants, review police/medical reports, estimate repair costs, negotiate settlements, document files"
+  patientVolume: "Manage 50-150 open claims at a time"
+  supportStaffModel: "Claims assistants, legal team for disputes, appraisers, medical reviewers"
+  geographicDemandNotes: "Everywhere — demand surges after natural disasters (FL, TX, CA coast); some travel required"
+  telehealthPotential: 5
+  genderDistribution: "~50% women"
+
+# === CONSULTING & STRATEGY (1) ===
+
+- name: "Business Analyst"
+  group: consulting_strategy
+  residencyYears: 0
+  annualSpots: 90000
+  startSalary: 60
+  midSalary: 90
+  peakSalary: 130
+  typicalPeak: 100
+  partTimeFlex: 5
+  procedureMix: 2
+  callSchedule: 7
+  adminBurden: 5
+  hoursWeek: 45
+  burnout: 28
+  partTimeFeasibility: 5
+  vacation: 4
+  careerLongevity: 7
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 8
+  automationRisk: 5
+  handsOnInsulation: 3
+  satisfaction: 70
+  chooseAgain: 65
+  intellectualStim: 7
+  varietyRepetition: 6
+  patientImpact: 4
+  physicalToll: 10
+  emotionalToll: 7
+  malpracticeLiability: 10
+  injuryCareerRisk: 10
+  aiRiskNow: 4
+  aiRiskMedium: 6
+  aiRiskLong: 7
+  aiNarrative: "AI tools can pull data and generate dashboards automatically, but business analysts who can ask the right questions and translate data into action plans are more valuable than ever."
+  fellowshipOptions: "CBAP certification, PMP, MBA, Six Sigma; path to product management or consulting"
+  compModel: "Base salary + annual bonus (10-20%); consulting BAs may bill hourly"
+  revPerPatientVisit: "N/A — salaried"
+  dailyWorkflow: "Gather requirements from stakeholders, analyze data, map processes, write user stories, present recommendations, facilitate meetings between business and tech teams"
+  patientVolume: "2-4 active projects simultaneously"
+  supportStaffModel: "Works with project managers, developers, QA, and business stakeholders"
+  geographicDemandNotes: "Every major city — especially tech hubs (SF, Seattle, NYC, Austin); strong remote options"
+  telehealthPotential: 8
+  genderDistribution: "~45% women"
+
+# === MARKETING & SALES (8) ===
+
+- name: "Marketing Coordinator"
+  group: marketing_sales
+  residencyYears: 0
+  annualSpots: 80000
+  startSalary: 42
+  midSalary: 62
+  peakSalary: 90
+  typicalPeak: 70
+  partTimeFlex: 5
+  procedureMix: 3
+  callSchedule: 8
+  adminBurden: 6
+  hoursWeek: 42
+  burnout: 25
+  partTimeFeasibility: 5
+  vacation: 3
+  careerLongevity: 6
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 7
+  automationRisk: 5
+  handsOnInsulation: 4
+  satisfaction: 68
+  chooseAgain: 62
+  intellectualStim: 6
+  varietyRepetition: 6
+  patientImpact: 3
+  physicalToll: 9
+  emotionalToll: 7
+  malpracticeLiability: 10
+  injuryCareerRisk: 10
+  aiRiskNow: 4
+  aiRiskMedium: 6
+  aiRiskLong: 7
+  aiNarrative: "AI generates draft copy, schedules posts, and optimizes ad spend, but creative strategy and brand voice still need a human touch — someone who understands what will actually resonate."
+  fellowshipOptions: "Google/HubSpot certifications, MBA in Marketing, professional certificates in digital marketing"
+  compModel: "Base salary; modest raises; some agencies add performance bonuses"
+  revPerPatientVisit: "N/A — salaried"
+  dailyWorkflow: "Coordinate campaigns, update social media calendars, assist with events, prepare marketing materials, track campaign metrics, manage vendor relationships"
+  patientVolume: "5-10 active campaigns or projects"
+  supportStaffModel: "Works under marketing manager; coordinates with designers, copywriters, and sales team"
+  geographicDemandNotes: "Every city — marketing is universal; NYC, LA, Chicago for agencies; remote common for digital-focused roles"
+  telehealthPotential: 8
+  genderDistribution: "~65% women"
+
+- name: "Digital Marketing Specialist"
+  group: marketing_sales
+  residencyYears: 0
+  annualSpots: 65000
+  startSalary: 48
+  midSalary: 75
+  peakSalary: 120
+  typicalPeak: 85
+  partTimeFlex: 6
+  procedureMix: 2
+  callSchedule: 8
+  adminBurden: 4
+  hoursWeek: 44
+  burnout: 28
+  partTimeFeasibility: 6
+  vacation: 3
+  careerLongevity: 6
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 9
+  automationRisk: 5
+  handsOnInsulation: 3
+  satisfaction: 70
+  chooseAgain: 65
+  intellectualStim: 7
+  varietyRepetition: 6
+  patientImpact: 3
+  physicalToll: 10
+  emotionalToll: 7
+  malpracticeLiability: 10
+  injuryCareerRisk: 10
+  aiRiskNow: 5
+  aiRiskMedium: 6
+  aiRiskLong: 7
+  aiNarrative: "AI writes ad copy and A/B tests at scale, but digital marketers who understand strategy, audience psychology, and cross-channel orchestration are still essential."
+  fellowshipOptions: "Google Ads/Analytics certs, HubSpot, Meta Blueprint, MBA; path to marketing director"
+  compModel: "Base salary + bonus tied to campaign ROI; freelancers bill hourly or per-project"
+  revPerPatientVisit: "N/A — salaried; freelancers bill $50-150/hr"
+  dailyWorkflow: "Manage paid ad campaigns (Google, Meta), analyze performance data, optimize landing pages, run email campaigns, create content calendars, report on KPIs"
+  patientVolume: "Manage 5-15 active campaigns across channels"
+  supportStaffModel: "Works with content creators, designers, web developers, analytics team"
+  geographicDemandNotes: "Fully remote common — strong demand everywhere; agencies cluster in NYC, LA, Chicago, Austin"
+  telehealthPotential: 9
+  genderDistribution: "~55% women"
+
+- name: "Social Media Manager"
+  group: marketing_sales
+  residencyYears: 0
+  annualSpots: 55000
+  startSalary: 45
+  midSalary: 68
+  peakSalary: 100
+  typicalPeak: 78
+  partTimeFlex: 6
+  procedureMix: 3
+  callSchedule: 6
+  adminBurden: 4
+  hoursWeek: 44
+  burnout: 30
+  partTimeFeasibility: 6
+  vacation: 3
+  careerLongevity: 5
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 9
+  automationRisk: 4
+  handsOnInsulation: 4
+  satisfaction: 68
+  chooseAgain: 62
+  intellectualStim: 6
+  varietyRepetition: 6
+  patientImpact: 3
+  physicalToll: 10
+  emotionalToll: 6
+  malpracticeLiability: 10
+  injuryCareerRisk: 10
+  aiRiskNow: 5
+  aiRiskMedium: 6
+  aiRiskLong: 6
+  aiNarrative: "AI generates captions and suggests posting times, but social media is about culture and vibes — understanding what's trending and creating content that feels authentic requires a human."
+  fellowshipOptions: "Hootsuite/Sprout Social certifications, content marketing courses, MBA; path to head of social or brand director"
+  compModel: "Base salary; influencer-side can be freelance/contract; some performance bonuses tied to engagement metrics"
+  revPerPatientVisit: "N/A — salaried; freelancers charge $1K-5K/month per client"
+  dailyWorkflow: "Create and schedule posts, engage with followers, monitor trends, analyze engagement metrics, coordinate with design team, manage brand voice across platforms"
+  patientVolume: "Manage 3-8 platform accounts; create 15-30+ posts per week"
+  supportStaffModel: "Graphic designers, videographers, copywriters, community managers"
+  geographicDemandNotes: "Remote-friendly — strong in NYC, LA, Miami, Austin; every brand needs social presence"
+  telehealthPotential: 9
+  genderDistribution: "~65% women"
+
+- name: "Market Research Analyst"
+  group: marketing_sales
+  residencyYears: 0
+  annualSpots: 50000
+  startSalary: 50
+  midSalary: 75
+  peakSalary: 110
+  typicalPeak: 85
+  partTimeFlex: 5
+  procedureMix: 2
+  callSchedule: 8
+  adminBurden: 5
+  hoursWeek: 42
+  burnout: 22
+  partTimeFeasibility: 5
+  vacation: 4
+  careerLongevity: 7
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 8
+  automationRisk: 6
+  handsOnInsulation: 3
+  satisfaction: 70
+  chooseAgain: 65
+  intellectualStim: 7
+  varietyRepetition: 6
+  patientImpact: 3
+  physicalToll: 10
+  emotionalToll: 8
+  malpracticeLiability: 10
+  injuryCareerRisk: 10
+  aiRiskNow: 5
+  aiRiskMedium: 7
+  aiRiskLong: 8
+  aiNarrative: "AI can survey thousands of people and crunch data instantly, but interpreting why consumers behave a certain way and turning that into business strategy still requires human insight."
+  fellowshipOptions: "MS in Marketing Analytics, MBA, PRC (Professional Researcher Certification)"
+  compModel: "Base salary + bonus; consulting firms bill hourly for research projects"
+  revPerPatientVisit: "N/A — salaried"
+  dailyWorkflow: "Design surveys, collect and analyze data, create reports and visualizations, present insights to stakeholders, monitor competitor activity, track industry trends"
+  patientVolume: "2-5 research projects at a time"
+  supportStaffModel: "Works with data analysts, product teams, and marketing leadership"
+  geographicDemandNotes: "NYC, Chicago, SF, DC — strong remote options for experienced analysts"
+  telehealthPotential: 8
+  genderDistribution: "~55% women"
+
+- name: "Sales Representative (B2B)"
+  group: marketing_sales
+  residencyYears: 0
+  annualSpots: 150000
+  startSalary: 50
+  midSalary: 85
+  peakSalary: 150
+  typicalPeak: 100
+  partTimeFlex: 5
+  procedureMix: 5
+  callSchedule: 6
+  adminBurden: 4
+  hoursWeek: 48
+  burnout: 35
+  partTimeFeasibility: 5
+  vacation: 3
+  careerLongevity: 6
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 5
+  automationRisk: 4
+  handsOnInsulation: 7
+  satisfaction: 62
+  chooseAgain: 58
+  intellectualStim: 6
+  varietyRepetition: 5
+  patientImpact: 4
+  physicalToll: 8
+  emotionalToll: 5
+  malpracticeLiability: 10
+  injuryCareerRisk: 10
+  aiRiskNow: 3
+  aiRiskMedium: 4
+  aiRiskLong: 5
+  aiNarrative: "AI handles lead scoring and email sequences, but closing a deal still comes down to reading the room, building trust, and solving problems in real-time conversations."
+  fellowshipOptions: "Sales certifications (Sandler, Challenger), MBA; path to sales manager, VP of Sales"
+  compModel: "Base salary + commission (often 50/50 split); top performers earn 2-3x base through commissions"
+  revPerPatientVisit: "Commission per deal closed; varies widely by industry"
+  dailyWorkflow: "Prospect new leads, conduct discovery calls, give product demos, negotiate proposals, manage pipeline in CRM, attend trade shows"
+  patientVolume: "Manage pipeline of 30-80 prospects; close 3-10 deals/month"
+  supportStaffModel: "Sales development reps (SDRs), sales engineers, marketing team for leads"
+  geographicDemandNotes: "Every major metro — especially where target industries cluster; some travel required; hybrid common"
+  telehealthPotential: 6
+  genderDistribution: "~35% women"
+
+- name: "Sales Representative (Tech/SaaS)"
+  group: marketing_sales
+  residencyYears: 0
+  annualSpots: 60000
+  startSalary: 55
+  midSalary: 100
+  peakSalary: 200
+  typicalPeak: 130
+  partTimeFlex: 4
+  procedureMix: 3
+  callSchedule: 6
+  adminBurden: 4
+  hoursWeek: 50
+  burnout: 35
+  partTimeFeasibility: 3
+  vacation: 4
+  careerLongevity: 5
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 7
+  automationRisk: 4
+  handsOnInsulation: 6
+  satisfaction: 65
+  chooseAgain: 60
+  intellectualStim: 7
+  varietyRepetition: 5
+  patientImpact: 4
+  physicalToll: 9
+  emotionalToll: 5
+  malpracticeLiability: 10
+  injuryCareerRisk: 10
+  aiRiskNow: 3
+  aiRiskMedium: 5
+  aiRiskLong: 5
+  aiNarrative: "AI automates outreach and personalizes demos, but enterprise software deals worth millions still require a human who can navigate complex buying committees and build executive relationships."
+  fellowshipOptions: "Sales methodology certs, MBA; fast track to account executive, then VP of Sales or CRO"
+  compModel: "Base + OTE (on-target earnings); typical split 50/50 base/commission; accelerators above quota"
+  revPerPatientVisit: "OTE-based: $110-200K+ total comp at quota; top reps earn 2x OTE"
+  dailyWorkflow: "Run product demos, manage enterprise pipeline, negotiate contracts, collaborate with solutions engineers, update CRM, attend QBRs with leadership"
+  patientVolume: "8-15 enterprise accounts; 20-40 mid-market accounts"
+  supportStaffModel: "SDRs for prospecting, solutions engineers for demos, customer success for post-sale"
+  geographicDemandNotes: "SF Bay Area, NYC, Austin, Seattle, Boston — remote increasingly available; some travel for enterprise accounts"
+  telehealthPotential: 7
+  genderDistribution: "~30% women"
+
+- name: "Advertising Account Executive"
+  group: marketing_sales
+  residencyYears: 0
+  annualSpots: 45000
+  startSalary: 45
+  midSalary: 72
+  peakSalary: 110
+  typicalPeak: 82
+  partTimeFlex: 4
+  procedureMix: 3
+  callSchedule: 7
+  adminBurden: 5
+  hoursWeek: 48
+  burnout: 35
+  partTimeFeasibility: 4
+  vacation: 3
+  careerLongevity: 6
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 5
+  automationRisk: 4
+  handsOnInsulation: 5
+  satisfaction: 62
+  chooseAgain: 58
+  intellectualStim: 6
+  varietyRepetition: 6
+  patientImpact: 3
+  physicalToll: 9
+  emotionalToll: 5
+  malpracticeLiability: 10
+  injuryCareerRisk: 10
+  aiRiskNow: 3
+  aiRiskMedium: 5
+  aiRiskLong: 6
+  aiNarrative: "AI generates ad variations and optimizes placements, but the creative vision and client relationship management that define great advertising campaigns still need humans."
+  fellowshipOptions: "Google/Meta ad certifications, AAF programs, MBA; path to account director or VP"
+  compModel: "Base salary + bonus tied to client retention and billings growth"
+  revPerPatientVisit: "N/A — salaried; agency bills clients on retainer or project basis"
+  dailyWorkflow: "Manage client accounts, brief creative teams, present campaign concepts, track budgets and timelines, analyze campaign performance, develop media plans"
+  patientVolume: "Manage 4-8 client accounts simultaneously"
+  supportStaffModel: "Creative director, copywriters, designers, media buyers, production team"
+  geographicDemandNotes: "NYC (advertising capital), LA, Chicago, SF — some remote but client meetings often required"
+  telehealthPotential: 6
+  genderDistribution: "~55% women"
+
+- name: "Public Relations Specialist"
+  group: marketing_sales
+  residencyYears: 0
+  annualSpots: 40000
+  startSalary: 42
+  midSalary: 68
+  peakSalary: 105
+  typicalPeak: 78
+  partTimeFlex: 5
+  procedureMix: 3
+  callSchedule: 5
+  adminBurden: 5
+  hoursWeek: 45
+  burnout: 30
+  partTimeFeasibility: 5
+  vacation: 3
+  careerLongevity: 6
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 7
+  automationRisk: 4
+  handsOnInsulation: 5
+  satisfaction: 65
+  chooseAgain: 60
+  intellectualStim: 6
+  varietyRepetition: 6
+  patientImpact: 3
+  physicalToll: 9
+  emotionalToll: 5
+  malpracticeLiability: 10
+  injuryCareerRisk: 10
+  aiRiskNow: 3
+  aiRiskMedium: 5
+  aiRiskLong: 5
+  aiNarrative: "AI drafts press releases and monitors media, but managing a brand's reputation during a crisis — knowing who to call, what to say, and when — still takes human instinct."
+  fellowshipOptions: "APR certification, PRSA membership, MBA; path to communications director or VP"
+  compModel: "Base salary; agency roles may add bonus for client wins; freelance PR consultants bill retainer"
+  revPerPatientVisit: "N/A — salaried; freelancers charge $3K-10K/month retainer"
+  dailyWorkflow: "Write press releases, pitch stories to journalists, manage media lists, prep executives for interviews, monitor news coverage, handle crisis communications"
+  patientVolume: "Manage PR for 3-8 clients or internal brands"
+  supportStaffModel: "Works with marketing team, legal counsel, executives; junior PR associates assist"
+  geographicDemandNotes: "NYC, DC (political PR), LA (entertainment), Chicago — remote feasible for media relations work"
+  telehealthPotential: 7
+  genderDistribution: "~70% women"
+
+# === OPERATIONS & SUPPLY CHAIN (5) ===
+
+- name: "Supply Chain Coordinator"
+  group: operations_supply
+  residencyYears: 0
+  annualSpots: 55000
+  startSalary: 48
+  midSalary: 72
+  peakSalary: 105
+  typicalPeak: 82
+  partTimeFlex: 4
+  procedureMix: 3
+  callSchedule: 7
+  adminBurden: 6
+  hoursWeek: 44
+  burnout: 25
+  partTimeFeasibility: 4
+  vacation: 3
+  careerLongevity: 7
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 5
+  automationRisk: 6
+  handsOnInsulation: 4
+  satisfaction: 65
+  chooseAgain: 60
+  intellectualStim: 6
+  varietyRepetition: 5
+  patientImpact: 3
+  physicalToll: 8
+  emotionalToll: 7
+  malpracticeLiability: 10
+  injuryCareerRisk: 10
+  aiRiskNow: 4
+  aiRiskMedium: 6
+  aiRiskLong: 7
+  aiNarrative: "AI predicts demand and optimizes shipping routes, but when a container ship gets stuck or a supplier goes bankrupt, you need a person who can scramble and find solutions fast."
+  fellowshipOptions: "CSCP (APICS), CLTD, Six Sigma, MBA in Supply Chain; path to supply chain manager or director"
+  compModel: "Base salary + modest bonus; stable with predictable raises"
+  revPerPatientVisit: "N/A — salaried"
+  dailyWorkflow: "Track shipments, coordinate with suppliers and warehouses, update inventory systems, resolve delivery issues, prepare reports, communicate with internal teams"
+  patientVolume: "Manage 20-50 active orders/shipments; coordinate with 10-30 suppliers"
+  supportStaffModel: "Warehouse staff, logistics providers, procurement team, ERP system support"
+  geographicDemandNotes: "Manufacturing hubs (Midwest, Southeast), port cities (LA, Houston, Savannah), distribution centers nationwide"
+  telehealthPotential: 5
+  genderDistribution: "~45% women"
+
+- name: "Logistics Analyst"
+  group: operations_supply
+  residencyYears: 0
+  annualSpots: 40000
+  startSalary: 50
+  midSalary: 75
+  peakSalary: 110
+  typicalPeak: 85
+  partTimeFlex: 5
+  procedureMix: 2
+  callSchedule: 7
+  adminBurden: 5
+  hoursWeek: 44
+  burnout: 22
+  partTimeFeasibility: 5
+  vacation: 3
+  careerLongevity: 7
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 6
+  automationRisk: 6
+  handsOnInsulation: 3
+  satisfaction: 65
+  chooseAgain: 60
+  intellectualStim: 6
+  varietyRepetition: 5
+  patientImpact: 3
+  physicalToll: 9
+  emotionalToll: 8
+  malpracticeLiability: 10
+  injuryCareerRisk: 10
+  aiRiskNow: 5
+  aiRiskMedium: 6
+  aiRiskLong: 7
+  aiNarrative: "AI optimizes routing and forecasts demand patterns, making logistics analysts more productive — but someone still needs to design the system, handle exceptions, and manage carrier relationships."
+  fellowshipOptions: "CLTD, CSCP, Six Sigma, MBA in Operations; path to logistics manager or VP of operations"
+  compModel: "Base salary + annual bonus; stable career with clear advancement"
+  revPerPatientVisit: "N/A — salaried"
+  dailyWorkflow: "Analyze shipping data, optimize routes and carrier selection, monitor KPIs, identify cost-saving opportunities, coordinate with warehouse and transportation teams"
+  patientVolume: "Oversee logistics for dozens of routes; analyze thousands of shipments"
+  supportStaffModel: "Warehouse managers, transportation coordinators, IT team for systems, third-party logistics (3PL) partners"
+  geographicDemandNotes: "Distribution hubs (Memphis, Louisville, Dallas), port cities, e-commerce centers — growing remote options"
+  telehealthPotential: 7
+  genderDistribution: "~40% women"
+
+- name: "Procurement Specialist"
+  group: operations_supply
+  residencyYears: 0
+  annualSpots: 45000
+  startSalary: 50
+  midSalary: 78
+  peakSalary: 115
+  typicalPeak: 88
+  partTimeFlex: 4
+  procedureMix: 2
+  callSchedule: 8
+  adminBurden: 6
+  hoursWeek: 42
+  burnout: 22
+  partTimeFeasibility: 4
+  vacation: 4
+  careerLongevity: 7
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 6
+  automationRisk: 5
+  handsOnInsulation: 4
+  satisfaction: 67
+  chooseAgain: 62
+  intellectualStim: 6
+  varietyRepetition: 5
+  patientImpact: 3
+  physicalToll: 10
+  emotionalToll: 7
+  malpracticeLiability: 10
+  injuryCareerRisk: 10
+  aiRiskNow: 4
+  aiRiskMedium: 5
+  aiRiskLong: 6
+  aiNarrative: "AI compares prices and flags contract renewals automatically, but negotiating a multi-year deal, evaluating supplier quality, and managing vendor relationships still require human skills."
+  fellowshipOptions: "CPSM, CPP, CSCP certifications; MBA in Supply Chain; path to procurement director"
+  compModel: "Base salary + bonus tied to cost savings achieved; stable with clear promotion path"
+  revPerPatientVisit: "N/A — salaried"
+  dailyWorkflow: "Source and evaluate suppliers, negotiate contracts, issue purchase orders, track deliveries, manage vendor scorecards, ensure compliance with procurement policies"
+  patientVolume: "Manage 30-100 supplier relationships; process 20-50 POs per week"
+  supportStaffModel: "Purchasing assistants, legal for contracts, quality team, accounts payable"
+  geographicDemandNotes: "Manufacturing centers (Midwest, Southeast), corporate headquarters cities; some remote for indirect procurement"
+  telehealthPotential: 6
+  genderDistribution: "~50% women"
+
+- name: "Operations Analyst"
+  group: operations_supply
+  residencyYears: 0
+  annualSpots: 55000
+  startSalary: 55
+  midSalary: 82
+  peakSalary: 120
+  typicalPeak: 95
+  partTimeFlex: 5
+  procedureMix: 2
+  callSchedule: 8
+  adminBurden: 5
+  hoursWeek: 44
+  burnout: 25
+  partTimeFeasibility: 5
+  vacation: 4
+  careerLongevity: 7
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 7
+  automationRisk: 5
+  handsOnInsulation: 3
+  satisfaction: 68
+  chooseAgain: 63
+  intellectualStim: 7
+  varietyRepetition: 6
+  patientImpact: 3
+  physicalToll: 10
+  emotionalToll: 7
+  malpracticeLiability: 10
+  injuryCareerRisk: 10
+  aiRiskNow: 4
+  aiRiskMedium: 6
+  aiRiskLong: 7
+  aiNarrative: "AI spots inefficiencies in processes and predicts bottlenecks, but operations analysts who can redesign workflows and get teams to actually change how they work are irreplaceable."
+  fellowshipOptions: "Six Sigma (Green/Black Belt), PMP, CSCP, MBA in Operations; path to operations manager or COO"
+  compModel: "Base salary + annual bonus (10-15%); consulting operations analysts bill hourly"
+  revPerPatientVisit: "N/A — salaried"
+  dailyWorkflow: "Analyze operational data, identify process improvements, build dashboards, present findings to management, collaborate on implementation, track results"
+  patientVolume: "3-5 active improvement projects"
+  supportStaffModel: "Works with department managers, IT team, frontline staff; reports to VP of Operations"
+  geographicDemandNotes: "Every major city — manufacturing, healthcare, tech, and logistics companies all need ops analysts; growing remote options"
+  telehealthPotential: 7
+  genderDistribution: "~45% women"
+
+- name: "Project Coordinator"
+  group: operations_supply
+  residencyYears: 0
+  annualSpots: 70000
+  startSalary: 48
+  midSalary: 72
+  peakSalary: 105
+  typicalPeak: 82
+  partTimeFlex: 5
+  procedureMix: 3
+  callSchedule: 7
+  adminBurden: 7
+  hoursWeek: 44
+  burnout: 28
+  partTimeFeasibility: 5
+  vacation: 3
+  careerLongevity: 6
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 7
+  automationRisk: 4
+  handsOnInsulation: 4
+  satisfaction: 65
+  chooseAgain: 60
+  intellectualStim: 6
+  varietyRepetition: 6
+  patientImpact: 3
+  physicalToll: 10
+  emotionalToll: 6
+  malpracticeLiability: 10
+  injuryCareerRisk: 10
+  aiRiskNow: 3
+  aiRiskMedium: 5
+  aiRiskLong: 6
+  aiNarrative: "AI can auto-generate project timelines and flag risks, but keeping a team aligned, resolving conflicts, and adapting when plans go sideways still takes a real person."
+  fellowshipOptions: "PMP, CAPM, Scrum Master, Six Sigma; path to project manager, program manager, or PMO director"
+  compModel: "Base salary; stable with predictable raises; PMP certification often unlocks 10-20% salary bump"
+  revPerPatientVisit: "N/A — salaried"
+  dailyWorkflow: "Update project plans, schedule meetings, track deliverables and deadlines, communicate status to stakeholders, manage project documentation, flag risks and issues"
+  patientVolume: "Support 2-5 active projects simultaneously"
+  supportStaffModel: "Works with project managers, team leads, and cross-functional teams; supported by PMO tools"
+  geographicDemandNotes: "Every industry in every city — tech, construction, healthcare, finance all need project coordinators; hybrid/remote common"
+  telehealthPotential: 8
+  genderDistribution: "~55% women"
+
+# === PEOPLE & CULTURE (3) ===
+
+- name: "HR Generalist"
+  group: people_culture
+  residencyYears: 0
+  annualSpots: 65000
+  startSalary: 50
+  midSalary: 72
+  peakSalary: 100
+  typicalPeak: 80
+  partTimeFlex: 5
+  procedureMix: 3
+  callSchedule: 7
+  adminBurden: 7
+  hoursWeek: 42
+  burnout: 28
+  partTimeFeasibility: 5
+  vacation: 4
+  careerLongevity: 7
+  malpracticeFreq: 9
+  malpracticeCost: 1
+  geographicFlex: 6
+  automationRisk: 5
+  handsOnInsulation: 5
+  satisfaction: 67
+  chooseAgain: 62
+  intellectualStim: 5
+  varietyRepetition: 6
+  patientImpact: 5
+  physicalToll: 10
+  emotionalToll: 5
+  malpracticeLiability: 9
+  injuryCareerRisk: 10
+  aiRiskNow: 4
+  aiRiskMedium: 5
+  aiRiskLong: 6
+  aiNarrative: "AI automates onboarding paperwork and answers benefits questions, but navigating workplace conflicts, supporting employees through tough times, and building company culture needs a human."
+  fellowshipOptions: "SHRM-CP/SCP, PHR/SPHR certifications, MBA in HR; path to HR director or CHRO"
+  compModel: "Base salary + modest annual bonus; steady advancement with certifications"
+  revPerPatientVisit: "N/A — salaried"
+  dailyWorkflow: "Handle employee relations issues, manage benefits enrollment, conduct onboarding, ensure compliance with labor laws, assist with performance reviews, support managers with HR policies"
+  patientVolume: "Support 100-300 employees; handle 5-15 employee issues per week"
+  supportStaffModel: "Works with HR coordinators, payroll, legal/compliance, department managers"
+  geographicDemandNotes: "Every city — any company with 50+ employees typically has dedicated HR; hybrid/remote growing for experienced generalists"
+  telehealthPotential: 6
+  genderDistribution: "~70% women"
+
+- name: "Recruiter / Talent Acquisition"
+  group: people_culture
+  residencyYears: 0
+  annualSpots: 55000
+  startSalary: 48
+  midSalary: 72
+  peakSalary: 110
+  typicalPeak: 82
+  partTimeFlex: 6
+  procedureMix: 4
+  callSchedule: 7
+  adminBurden: 5
+  hoursWeek: 45
+  burnout: 32
+  partTimeFeasibility: 6
+  vacation: 3
+  careerLongevity: 6
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 7
+  automationRisk: 5
+  handsOnInsulation: 6
+  satisfaction: 65
+  chooseAgain: 60
+  intellectualStim: 6
+  varietyRepetition: 5
+  patientImpact: 5
+  physicalToll: 10
+  emotionalToll: 5
+  malpracticeLiability: 10
+  injuryCareerRisk: 10
+  aiRiskNow: 4
+  aiRiskMedium: 6
+  aiRiskLong: 6
+  aiNarrative: "AI screens resumes and schedules interviews, but convincing top talent to join your company, reading candidates in interviews, and negotiating offers are deeply human skills."
+  fellowshipOptions: "SHRM-CP, AIRS certifications, LinkedIn Recruiter training; path to TA manager or HR leadership"
+  compModel: "Base salary + bonus per hire (corporate); agency recruiters earn commission (15-25% of first-year salary placed)"
+  revPerPatientVisit: "Corporate: salaried; Agency: commission per placement ($10K-40K+ per hire)"
+  dailyWorkflow: "Source candidates on LinkedIn, review applications, conduct phone screens, coordinate interviews, manage offer process, track metrics in ATS"
+  patientVolume: "Manage 15-30 open requisitions; screen 50-100 candidates per week"
+  supportStaffModel: "Recruiting coordinators, hiring managers, HR team, sourcing tools"
+  geographicDemandNotes: "Every major city — demand spikes with hiring cycles; tech hubs need tech recruiters; fully remote common"
+  telehealthPotential: 8
+  genderDistribution: "~65% women"
+
+- name: "Training & Development Specialist"
+  group: people_culture
+  residencyYears: 0
+  annualSpots: 40000
+  startSalary: 48
+  midSalary: 70
+  peakSalary: 100
+  typicalPeak: 78
+  partTimeFlex: 6
+  procedureMix: 4
+  callSchedule: 8
+  adminBurden: 5
+  hoursWeek: 40
+  burnout: 20
+  partTimeFeasibility: 6
+  vacation: 4
+  careerLongevity: 7
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 7
+  automationRisk: 4
+  handsOnInsulation: 6
+  satisfaction: 72
+  chooseAgain: 68
+  intellectualStim: 7
+  varietyRepetition: 6
+  patientImpact: 6
+  physicalToll: 9
+  emotionalToll: 8
+  malpracticeLiability: 10
+  injuryCareerRisk: 10
+  aiRiskNow: 3
+  aiRiskMedium: 5
+  aiRiskLong: 5
+  aiNarrative: "AI personalizes learning paths and generates training content, but designing programs that actually change behavior, facilitating workshops, and coaching leaders still need a person."
+  fellowshipOptions: "CPTD (ATD), instructional design certificates, MBA in OD; path to L&D director or chief learning officer"
+  compModel: "Base salary + modest bonus; consulting trainers bill per-session or retainer"
+  revPerPatientVisit: "N/A — salaried; independent trainers charge $2K-10K per workshop"
+  dailyWorkflow: "Design training programs, create e-learning content, facilitate workshops, assess learning outcomes, coach managers, manage LMS platform"
+  patientVolume: "Deliver 2-5 training programs per month; support development for 200-1000+ employees"
+  supportStaffModel: "Works with subject matter experts, HR team, LMS administrators, external vendors"
+  geographicDemandNotes: "Every city — large corporations, healthcare, tech, and government all invest in L&D; hybrid format common"
+  telehealthPotential: 7
+  genderDistribution: "~60% women"
+
+# === ENTREPRENEURSHIP & GENERAL BUSINESS (6) ===
+
+- name: "Customer Success Manager"
+  group: entrepreneurship
+  residencyYears: 0
+  annualSpots: 45000
+  startSalary: 55
+  midSalary: 82
+  peakSalary: 130
+  typicalPeak: 95
+  partTimeFlex: 4
+  procedureMix: 3
+  callSchedule: 7
+  adminBurden: 5
+  hoursWeek: 45
+  burnout: 28
+  partTimeFeasibility: 4
+  vacation: 4
+  careerLongevity: 6
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 8
+  automationRisk: 4
+  handsOnInsulation: 6
+  satisfaction: 70
+  chooseAgain: 65
+  intellectualStim: 6
+  varietyRepetition: 6
+  patientImpact: 6
+  physicalToll: 10
+  emotionalToll: 6
+  malpracticeLiability: 10
+  injuryCareerRisk: 10
+  aiRiskNow: 3
+  aiRiskMedium: 5
+  aiRiskLong: 5
+  aiNarrative: "AI monitors usage data and flags at-risk accounts, but building genuine relationships with clients, understanding their goals, and being their advocate inside the company requires a person."
+  fellowshipOptions: "CSM certifications (Gainsight, SuccessHacker), PMP, MBA; path to VP of Customer Success"
+  compModel: "Base salary + bonus tied to retention and expansion metrics (NRR, churn); some include variable comp"
+  revPerPatientVisit: "N/A — salaried with retention bonuses"
+  dailyWorkflow: "Conduct QBRs with clients, monitor health scores, drive product adoption, escalate issues internally, identify upsell opportunities, onboard new accounts"
+  patientVolume: "Manage portfolio of 20-50 accounts (enterprise) or 50-200 (mid-market)"
+  supportStaffModel: "Works with sales, product, support, and engineering teams; CSM associates assist with onboarding"
+  geographicDemandNotes: "SaaS hubs — SF, NYC, Austin, Boston, Seattle; heavily remote-friendly"
+  telehealthPotential: 8
+  genderDistribution: "~55% women"
+
+- name: "E-commerce Manager"
+  group: entrepreneurship
+  residencyYears: 0
+  annualSpots: 35000
+  startSalary: 50
+  midSalary: 78
+  peakSalary: 120
+  typicalPeak: 90
+  partTimeFlex: 5
+  procedureMix: 2
+  callSchedule: 7
+  adminBurden: 5
+  hoursWeek: 48
+  burnout: 30
+  partTimeFeasibility: 5
+  vacation: 3
+  careerLongevity: 6
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 9
+  automationRisk: 5
+  handsOnInsulation: 3
+  satisfaction: 68
+  chooseAgain: 63
+  intellectualStim: 7
+  varietyRepetition: 6
+  patientImpact: 3
+  physicalToll: 10
+  emotionalToll: 7
+  malpracticeLiability: 10
+  injuryCareerRisk: 10
+  aiRiskNow: 4
+  aiRiskMedium: 6
+  aiRiskLong: 6
+  aiNarrative: "AI personalizes product recommendations and optimizes pricing, but building a brand online, curating the customer experience, and making creative merchandising decisions still need a human."
+  fellowshipOptions: "Google Analytics cert, Shopify Partner program, MBA; path to VP of Digital or CMO"
+  compModel: "Base salary + bonus tied to revenue targets; some roles include profit-sharing"
+  revPerPatientVisit: "N/A — salaried; manages revenue of $1M-50M+ annually"
+  dailyWorkflow: "Manage online storefront, analyze sales data, optimize product listings, coordinate with fulfillment, run promotions, manage ad spend, A/B test site changes"
+  patientVolume: "Oversee 100-10,000+ SKUs; thousands of daily transactions"
+  supportStaffModel: "Web developers, graphic designers, customer service team, warehouse/fulfillment staff"
+  geographicDemandNotes: "Fully remote common — every DTC brand and retailer needs e-commerce; especially strong in NYC, LA, and DTC hubs"
+  telehealthPotential: 9
+  genderDistribution: "~50% women"
+
+- name: "Real Estate Agent (Commercial)"
+  group: entrepreneurship
+  residencyYears: 0
+  annualSpots: 30000
+  startSalary: 35
+  midSalary: 80
+  peakSalary: 200
+  typicalPeak: 95
+  partTimeFlex: 7
+  procedureMix: 7
+  callSchedule: 5
+  adminBurden: 5
+  hoursWeek: 50
+  burnout: 30
+  partTimeFeasibility: 7
+  vacation: 3
+  careerLongevity: 7
+  malpracticeFreq: 8
+  malpracticeCost: 3
+  geographicFlex: 3
+  automationRisk: 3
+  handsOnInsulation: 7
+  satisfaction: 65
+  chooseAgain: 60
+  intellectualStim: 6
+  varietyRepetition: 6
+  patientImpact: 4
+  physicalToll: 8
+  emotionalToll: 5
+  malpracticeLiability: 8
+  injuryCareerRisk: 10
+  aiRiskNow: 2
+  aiRiskMedium: 3
+  aiRiskLong: 4
+  aiNarrative: "AI helps with property valuations and market analysis, but commercial real estate is all about relationships, negotiation, and local market knowledge — things algorithms struggle with."
+  fellowshipOptions: "State license required; CCIM, SIOR designations; MBA for development track"
+  compModel: "Commission-based (3-6% of deal value split with brokerage); feast-or-famine income pattern; top producers earn very well"
+  revPerPatientVisit: "Commission per transaction: $10K-100K+ per deal; 1-12 deals per year"
+  dailyWorkflow: "Prospect for clients, tour properties, analyze market comps, negotiate lease/sale terms, coordinate with attorneys and inspectors, network at industry events"
+  patientVolume: "Work 5-15 active listings/searches; close 6-20 deals per year"
+  supportStaffModel: "Transaction coordinator, marketing assistant, brokerage support staff, attorneys"
+  geographicDemandNotes: "Local market dependent — NYC, LA, Chicago, Dallas, Atlanta, Miami; must build local network; no remote"
+  telehealthPotential: 3
+  genderDistribution: "~35% women"
+
+- name: "Real Estate Appraiser"
+  group: entrepreneurship
+  residencyYears: 0
+  annualSpots: 15000
+  startSalary: 42
+  midSalary: 65
+  peakSalary: 100
+  typicalPeak: 72
+  partTimeFlex: 7
+  procedureMix: 6
+  callSchedule: 9
+  adminBurden: 6
+  hoursWeek: 42
+  burnout: 18
+  partTimeFeasibility: 7
+  vacation: 4
+  careerLongevity: 8
+  malpracticeFreq: 8
+  malpracticeCost: 3
+  geographicFlex: 4
+  automationRisk: 5
+  handsOnInsulation: 6
+  satisfaction: 70
+  chooseAgain: 65
+  intellectualStim: 5
+  varietyRepetition: 4
+  patientImpact: 3
+  physicalToll: 8
+  emotionalToll: 8
+  malpracticeLiability: 8
+  injuryCareerRisk: 10
+  aiRiskNow: 4
+  aiRiskMedium: 6
+  aiRiskLong: 7
+  aiNarrative: "AI-powered automated valuation models (AVMs) handle routine home appraisals, but complex commercial properties and unique situations still need a licensed appraiser's eyes and judgment."
+  fellowshipOptions: "State license/certification required (1500+ hours supervised experience); MAI or SRA designations; path to review appraiser or appraisal firm owner"
+  compModel: "Fee-per-appraisal ($300-3000+ depending on property type); independent appraisers set own schedule"
+  revPerPatientVisit: "$300-500 per residential; $1500-5000+ per commercial appraisal"
+  dailyWorkflow: "Inspect properties, photograph and measure, research comparable sales, analyze market data, write appraisal reports, testify in disputes if needed"
+  patientVolume: "Complete 2-5 residential appraisals per week or 2-4 commercial per month"
+  supportStaffModel: "Mostly independent; may have admin assistant; trainee appraisers shadow for experience"
+  geographicDemandNotes: "Local — every market needs appraisers; demand tied to housing market activity; rural areas underserved"
+  telehealthPotential: 3
+  genderDistribution: "~30% women"
+
+- name: "Retail Buyer"
+  group: entrepreneurship
+  residencyYears: 0
+  annualSpots: 25000
+  startSalary: 45
+  midSalary: 68
+  peakSalary: 100
+  typicalPeak: 75
+  partTimeFlex: 4
+  procedureMix: 4
+  callSchedule: 7
+  adminBurden: 5
+  hoursWeek: 45
+  burnout: 28
+  partTimeFeasibility: 4
+  vacation: 3
+  careerLongevity: 6
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 5
+  automationRisk: 5
+  handsOnInsulation: 5
+  satisfaction: 65
+  chooseAgain: 60
+  intellectualStim: 6
+  varietyRepetition: 6
+  patientImpact: 3
+  physicalToll: 8
+  emotionalToll: 7
+  malpracticeLiability: 10
+  injuryCareerRisk: 10
+  aiRiskNow: 4
+  aiRiskMedium: 5
+  aiRiskLong: 6
+  aiNarrative: "AI predicts trends and optimizes inventory levels, but choosing the right products, negotiating with vendors, and having a feel for what customers actually want is still a human skill."
+  fellowshipOptions: "Merchandising certifications, MBA in Retail Management; path to merchandise manager or VP of buying"
+  compModel: "Base salary + bonus tied to margin and sell-through performance"
+  revPerPatientVisit: "N/A — salaried; manages buying budget of $500K-10M+"
+  dailyWorkflow: "Analyze sales data, identify trends, select products for upcoming seasons, negotiate with vendors, manage inventory levels, attend trade shows, plan promotions"
+  patientVolume: "Manage 50-500 SKUs across product categories"
+  supportStaffModel: "Assistant buyers, inventory planners, visual merchandisers, vendor representatives"
+  geographicDemandNotes: "NYC (fashion/retail capital), LA, Chicago, Dallas — must be near retail headquarters; some travel to markets and trade shows"
+  telehealthPotential: 4
+  genderDistribution: "~65% women"
+
+- name: "Event Planner"
+  group: entrepreneurship
+  residencyYears: 0
+  annualSpots: 35000
+  startSalary: 38
+  midSalary: 58
+  peakSalary: 90
+  typicalPeak: 65
+  partTimeFlex: 6
+  procedureMix: 7
+  callSchedule: 4
+  adminBurden: 6
+  hoursWeek: 48
+  burnout: 35
+  partTimeFeasibility: 6
+  vacation: 3
+  careerLongevity: 6
+  malpracticeFreq: 10
+  malpracticeCost: 0
+  geographicFlex: 4
+  automationRisk: 3
+  handsOnInsulation: 8
+  satisfaction: 65
+  chooseAgain: 60
+  intellectualStim: 5
+  varietyRepetition: 6
+  patientImpact: 5
+  physicalToll: 6
+  emotionalToll: 5
+  malpracticeLiability: 9
+  injuryCareerRisk: 10
+  aiRiskNow: 2
+  aiRiskMedium: 3
+  aiRiskLong: 4
+  aiNarrative: "AI helps with logistics and vendor matching, but creating memorable experiences, managing last-minute chaos, and coordinating dozens of moving parts on event day is irreplaceably human."
+  fellowshipOptions: "CMP (Certified Meeting Professional), CSEP, CPCE certifications; path to event director or own planning business"
+  compModel: "Base salary at firms; independent planners charge flat fee or percentage of event budget (10-20%)"
+  revPerPatientVisit: "Salaried or per-event fees ($2K-20K+ per event depending on scale)"
+  dailyWorkflow: "Meet with clients, manage budgets, coordinate vendors (catering, AV, venues), oversee setup and execution, handle on-site emergencies, post-event follow-up"
+  patientVolume: "Plan 20-60 events per year; manage 3-8 active events at any time"
+  supportStaffModel: "Event assistants, AV technicians, catering staff, venue coordinators, florists, photographers"
+  geographicDemandNotes: "Major metros and convention cities (NYC, Las Vegas, Orlando, Chicago, DC) — must be local; very little remote work"
+  telehealthPotential: 3
+  genderDistribution: "~75% women"

@@ -21,9 +21,7 @@ export default function FamilyPicker({ families, onSelect, onCompare }) {
   }
 
   // future families (greyed-out teasers)
-  const comingSoon = [
-    { slug: "business", icon: "💼", name: "Business", tagline: "run the show" },
-  ];
+  const comingSoon = [];
 
   return (
     <div

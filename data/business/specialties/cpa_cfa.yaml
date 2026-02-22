@@ -1,0 +1,461 @@
+# CPA-CFA credential-level specialties — 10 careers across 4 groups
+profession: CPA-CFA
+specialties:
+
+# === ACCOUNTING & TAX (5) ===
+
+- name: "Big 4 Auditor (CPA)"
+  group: accounting_tax
+  residencyYears: 1
+  annualSpots: 25000
+  startSalary: 65
+  midSalary: 120
+  peakSalary: 200
+  typicalPeak: 140
+  partTimeFlex: 3
+  procedureMix: 1
+  callSchedule: 3
+  adminBurden: 8
+  hoursWeek: 55
+  burnout: 45
+  partTimeFeasibility: 3
+  vacation: 3
+  careerLongevity: 5
+  malpracticeFreq: 6
+  malpracticeCost: 7
+  geographicFlex: 6
+  automationRisk: 7
+  handsOnInsulation: 2
+  satisfaction: 60
+  chooseAgain: 52
+  intellectualStim: 6
+  varietyRepetition: 4
+  patientImpact: 3
+  physicalToll: 8
+  emotionalToll: 6
+  malpracticeLiability: 5
+  injuryCareerRisk: 9
+  aiRiskNow: 5
+  aiRiskMedium: 7
+  aiRiskLong: 8
+  aiNarrative: "AI can already scan thousands of transactions for errors faster than a team of associates. But someone still needs to understand the business, talk to management, and make judgment calls on gray areas — that's where the auditor stays relevant. Expect the role to shift toward supervising AI tools rather than ticking boxes yourself."
+  fellowshipOptions: "CISA (audit systems), CIA (internal audit), CFE (fraud)"
+  compModel: "Base + annual bonus + overtime during busy season"
+  revPerPatientVisit: "N/A — salaried with billable hours to client engagements"
+  dailyWorkflow: "Testing transactions, reviewing financial statements, client walkthroughs, workpaper documentation"
+  patientVolume: "2-4 audit engagements at a time"
+  supportStaffModel: "Staff > Senior > Manager > Senior Manager > Partner hierarchy"
+  geographicDemandNotes: "Every major metro — NYC, Chicago, Dallas, LA, Atlanta. Big 4 offices in 30+ US cities"
+  telehealthPotential: 6
+  genderDistribution: "~50% women at entry, ~25% women at partner"
+
+- name: "Tax Specialist (CPA)"
+  group: accounting_tax
+  residencyYears: 1
+  annualSpots: 20000
+  startSalary: 62
+  midSalary: 110
+  peakSalary: 250
+  typicalPeak: 130
+  partTimeFlex: 4
+  procedureMix: 1
+  callSchedule: 4
+  adminBurden: 8
+  hoursWeek: 50
+  burnout: 40
+  partTimeFeasibility: 4
+  vacation: 3
+  careerLongevity: 7
+  malpracticeFreq: 6
+  malpracticeCost: 6
+  geographicFlex: 7
+  automationRisk: 6
+  handsOnInsulation: 2
+  satisfaction: 62
+  chooseAgain: 56
+  intellectualStim: 6
+  varietyRepetition: 4
+  patientImpact: 4
+  physicalToll: 8
+  emotionalToll: 5
+  malpracticeLiability: 5
+  injuryCareerRisk: 9
+  aiRiskNow: 5
+  aiRiskMedium: 6
+  aiRiskLong: 7
+  aiNarrative: "Tax software keeps getting smarter, and AI can already handle straightforward returns. But the US tax code is absurdly complicated, and businesses need humans who can find legal ways to save money on taxes. The seasonal crunch (Jan-Apr) is brutal, but the rest of the year is more chill."
+  fellowshipOptions: "EA (enrolled agent), MST (master of taxation), international tax certs"
+  compModel: "Base + annual bonus + overtime during busy season"
+  revPerPatientVisit: "N/A — salaried or per-return fee at smaller firms"
+  dailyWorkflow: "Preparing returns, researching tax code, advising clients on deductions, quarterly estimates"
+  patientVolume: "Dozens of returns during busy season, advisory projects off-season"
+  supportStaffModel: "Associates, seniors, managers, partners; admin staff for filing"
+  geographicDemandNotes: "Everywhere — every business and high-net-worth individual needs tax help. Can work in any city or remotely"
+  telehealthPotential: 7
+  genderDistribution: "~52% women"
+
+- name: "Forensic Accountant (CPA)"
+  group: accounting_tax
+  residencyYears: 1
+  annualSpots: 5000
+  startSalary: 65
+  midSalary: 100
+  peakSalary: 180
+  typicalPeak: 120
+  partTimeFlex: 4
+  procedureMix: 3
+  callSchedule: 7
+  adminBurden: 6
+  hoursWeek: 45
+  burnout: 25
+  partTimeFeasibility: 4
+  vacation: 4
+  careerLongevity: 8
+  malpracticeFreq: 7
+  malpracticeCost: 5
+  geographicFlex: 6
+  automationRisk: 4
+  handsOnInsulation: 3
+  satisfaction: 72
+  chooseAgain: 68
+  intellectualStim: 8
+  varietyRepetition: 7
+  patientImpact: 5
+  physicalToll: 8
+  emotionalToll: 5
+  malpracticeLiability: 6
+  injuryCareerRisk: 9
+  aiRiskNow: 3
+  aiRiskMedium: 4
+  aiRiskLong: 5
+  aiNarrative: "AI is actually your best friend here — it helps you scan millions of transactions to find the suspicious ones. But figuring out if someone is lying, following money through shell companies, and testifying in court? That's pure human judgment. Forensic accounting is one of the most AI-resistant finance careers."
+  fellowshipOptions: "CFE (Certified Fraud Examiner), CAMS (anti-money laundering), CFF (financial forensics)"
+  compModel: "Base + bonus; consulting firms or FBI/SEC government pay scales"
+  revPerPatientVisit: "N/A — salaried or billed at $200-400/hr for consulting engagements"
+  dailyWorkflow: "Investigating financial records, tracing funds, interviewing subjects, preparing reports for litigation"
+  patientVolume: "2-5 active investigations"
+  supportStaffModel: "Small team of analysts; works closely with lawyers, law enforcement, or regulators"
+  geographicDemandNotes: "Major metros for consulting firms; FBI/SEC offices in DC, NYC. Growing demand everywhere for fraud prevention"
+  telehealthPotential: 6
+  genderDistribution: "~40% women"
+
+- name: "Controller (CPA)"
+  group: accounting_tax
+  residencyYears: 1
+  annualSpots: 15000
+  startSalary: 75
+  midSalary: 130
+  peakSalary: 220
+  typicalPeak: 160
+  partTimeFlex: 4
+  procedureMix: 2
+  callSchedule: 7
+  adminBurden: 7
+  hoursWeek: 48
+  burnout: 30
+  partTimeFeasibility: 4
+  vacation: 4
+  careerLongevity: 8
+  malpracticeFreq: 7
+  malpracticeCost: 5
+  geographicFlex: 6
+  automationRisk: 5
+  handsOnInsulation: 2
+  satisfaction: 68
+  chooseAgain: 64
+  intellectualStim: 6
+  varietyRepetition: 5
+  patientImpact: 4
+  physicalToll: 8
+  emotionalToll: 5
+  malpracticeLiability: 5
+  injuryCareerRisk: 9
+  aiRiskNow: 4
+  aiRiskMedium: 5
+  aiRiskLong: 6
+  aiNarrative: "AI will automate a lot of the routine bookkeeping and reporting that controllers oversee, but the role is really about being the financial gatekeeper of a company. You're the one making sure the numbers are right before the CEO sees them. That accountability and judgment doesn't automate easily."
+  fellowshipOptions: "CMA (management accounting), MBA, CGMA (global management)"
+  compModel: "Base salary + annual bonus tied to company performance"
+  revPerPatientVisit: "N/A — salaried executive role"
+  dailyWorkflow: "Overseeing monthly close, reviewing financial statements, managing accounting team, internal controls"
+  patientVolume: "Manages entire accounting function; oversees 5-20 staff depending on company size"
+  supportStaffModel: "Staff accountants, AP/AR clerks, payroll specialists reporting up"
+  geographicDemandNotes: "Every city with mid-to-large businesses. Particularly strong in industry hubs — tech (SF/Austin), manufacturing (Midwest), healthcare (everywhere)"
+  telehealthPotential: 6
+  genderDistribution: "~45% women"
+
+- name: "CFO-Track / FP&A Director (CPA)"
+  group: accounting_tax
+  residencyYears: 1
+  annualSpots: 8000
+  startSalary: 85
+  midSalary: 170
+  peakSalary: 400
+  typicalPeak: 220
+  partTimeFlex: 3
+  procedureMix: 2
+  callSchedule: 5
+  adminBurden: 6
+  hoursWeek: 52
+  burnout: 35
+  partTimeFeasibility: 3
+  vacation: 3
+  careerLongevity: 8
+  malpracticeFreq: 7
+  malpracticeCost: 6
+  geographicFlex: 5
+  automationRisk: 4
+  handsOnInsulation: 3
+  satisfaction: 72
+  chooseAgain: 68
+  intellectualStim: 8
+  varietyRepetition: 6
+  patientImpact: 5
+  physicalToll: 8
+  emotionalToll: 6
+  malpracticeLiability: 5
+  injuryCareerRisk: 9
+  aiRiskNow: 3
+  aiRiskMedium: 4
+  aiRiskLong: 5
+  aiNarrative: "FP&A directors and CFOs are the strategic brains behind a company's money decisions. AI gives you better forecasting tools, but deciding whether to acquire a company, raise prices, or cut a product line requires business instinct and leadership. This is one of the safest finance careers from AI disruption."
+  fellowshipOptions: "MBA (strongly recommended), CMA, CGMA, board certifications"
+  compModel: "Base salary + bonus + equity/stock options (especially at public companies or startups)"
+  revPerPatientVisit: "N/A — salaried C-suite or VP-level role"
+  dailyWorkflow: "Financial modeling, board presentations, strategic planning, capital allocation, investor relations"
+  patientVolume: "Oversees entire finance org; works directly with CEO and board"
+  supportStaffModel: "FP&A analysts, controllers, treasury team, accounting staff"
+  geographicDemandNotes: "Major business hubs — NYC, SF, Chicago, Dallas, Seattle. Increasingly remote-friendly at director level"
+  telehealthPotential: 6
+  genderDistribution: "~30% women at CFO level"
+
+# === INVESTING & PE (3) ===
+
+- name: "Portfolio Manager (CFA)"
+  group: investing_pe
+  residencyYears: 1
+  annualSpots: 5000
+  startSalary: 85
+  midSalary: 200
+  peakSalary: 500
+  typicalPeak: 300
+  partTimeFlex: 2
+  procedureMix: 2
+  callSchedule: 5
+  adminBurden: 5
+  hoursWeek: 55
+  burnout: 35
+  partTimeFeasibility: 2
+  vacation: 3
+  careerLongevity: 7
+  malpracticeFreq: 7
+  malpracticeCost: 6
+  geographicFlex: 5
+  automationRisk: 5
+  handsOnInsulation: 2
+  satisfaction: 72
+  chooseAgain: 68
+  intellectualStim: 9
+  varietyRepetition: 6
+  patientImpact: 3
+  physicalToll: 8
+  emotionalToll: 7
+  malpracticeLiability: 6
+  injuryCareerRisk: 9
+  aiRiskNow: 4
+  aiRiskMedium: 6
+  aiRiskLong: 7
+  aiNarrative: "Quant funds already use AI to trade, and it's only getting more powerful. But managing a portfolio isn't just math — it's about understanding markets, managing risk during a crisis, and making calls when models disagree. The best portfolio managers combine data skills with gut instincts developed over years."
+  fellowshipOptions: "CFA (required, 3 levels), CAIA (alternative investments), FRM (risk management)"
+  compModel: "Base + performance bonus (% of fund returns); top managers earn 7-8 figures"
+  revPerPatientVisit: "N/A — compensated based on AUM (assets under management) performance"
+  dailyWorkflow: "Market analysis, portfolio rebalancing, risk assessment, client/committee meetings, research review"
+  patientVolume: "Manages $100M-$10B+ depending on fund size"
+  supportStaffModel: "Research analysts, traders, risk managers, operations team"
+  geographicDemandNotes: "Heavily NYC and Boston; also Chicago, SF, Greenwich CT. Some remote flexibility post-COVID but face-time culture persists"
+  telehealthPotential: 7
+  genderDistribution: "~20% women (one of the least diverse finance roles)"
+
+- name: "Equity Research Analyst (CFA)"
+  group: investing_pe
+  residencyYears: 1
+  annualSpots: 4000
+  startSalary: 80
+  midSalary: 150
+  peakSalary: 300
+  typicalPeak: 180
+  partTimeFlex: 2
+  procedureMix: 2
+  callSchedule: 5
+  adminBurden: 5
+  hoursWeek: 55
+  burnout: 32
+  partTimeFeasibility: 2
+  vacation: 3
+  careerLongevity: 7
+  malpracticeFreq: 8
+  malpracticeCost: 5
+  geographicFlex: 5
+  automationRisk: 5
+  handsOnInsulation: 2
+  satisfaction: 70
+  chooseAgain: 65
+  intellectualStim: 9
+  varietyRepetition: 6
+  patientImpact: 3
+  physicalToll: 8
+  emotionalToll: 5
+  malpracticeLiability: 7
+  injuryCareerRisk: 9
+  aiRiskNow: 4
+  aiRiskMedium: 6
+  aiRiskLong: 7
+  aiNarrative: "AI can crunch earnings reports and screen stocks in seconds, which honestly threatens the data-gathering part of this job. But the real value is the deep industry knowledge — knowing why a CEO's strategy will fail or why a new drug will change a company. That creative, skeptical thinking is hard to automate."
+  fellowshipOptions: "CFA (strongly expected), CPA (useful for accounting knowledge), sector-specific certs"
+  compModel: "Base salary + year-end bonus (often 50-100% of base at senior levels)"
+  revPerPatientVisit: "N/A — salaried; value measured by accuracy of stock calls and client relationships"
+  dailyWorkflow: "Financial modeling, earnings analysis, management calls, writing research reports, client presentations"
+  patientVolume: "Covers 10-20 companies in a specific sector"
+  supportStaffModel: "Junior analysts, data teams; works alongside sales and trading desks"
+  geographicDemandNotes: "Primarily NYC, Boston, Chicago, SF. Buy-side roles scattered more widely"
+  telehealthPotential: 7
+  genderDistribution: "~25% women"
+
+- name: "Wealth Manager / Financial Advisor (CFA)"
+  group: investing_pe
+  residencyYears: 1
+  annualSpots: 15000
+  startSalary: 60
+  midSalary: 120
+  peakSalary: 300
+  typicalPeak: 150
+  partTimeFlex: 7
+  procedureMix: 3
+  callSchedule: 7
+  adminBurden: 6
+  hoursWeek: 48
+  burnout: 25
+  partTimeFeasibility: 7
+  vacation: 4
+  careerLongevity: 9
+  malpracticeFreq: 7
+  malpracticeCost: 4
+  geographicFlex: 8
+  automationRisk: 5
+  handsOnInsulation: 5
+  satisfaction: 72
+  chooseAgain: 68
+  intellectualStim: 6
+  varietyRepetition: 5
+  patientImpact: 7
+  physicalToll: 9
+  emotionalToll: 5
+  malpracticeLiability: 6
+  injuryCareerRisk: 9
+  aiRiskNow: 4
+  aiRiskMedium: 5
+  aiRiskLong: 6
+  aiNarrative: "Robo-advisors like Betterment and Wealthfront already manage basic investing for cheap. But when someone inherits $2 million, goes through a divorce, or is planning for retirement, they want a real human to talk to. The relationship and trust side of this job is nearly impossible to automate."
+  fellowshipOptions: "CFP (common complement), CFA, ChFC (chartered financial consultant), CPWA (private wealth)"
+  compModel: "Fee-based or commission-based; can build to $200K+ with a book of clients. AUM-based fees (0.5-1% of assets managed)"
+  revPerPatientVisit: "N/A — AUM-based fees, typically 0.5-1% of assets managed annually"
+  dailyWorkflow: "Client meetings, portfolio reviews, financial plan updates, prospecting for new clients, market research"
+  patientVolume: "50-150 client households depending on firm model"
+  supportStaffModel: "Client service associates, paraplanner, office admin; some work solo"
+  geographicDemandNotes: "Literally everywhere — every suburb and city needs financial advisors. Wealthy enclaves pay best (Greenwich, Palm Beach, Scottsdale)"
+  telehealthPotential: 6
+  genderDistribution: "~30% women (growing fast, industry actively recruiting)"
+
+# === INSURANCE & RISK (1) ===
+
+- name: "Actuary (SOA/CAS)"
+  group: insurance_risk
+  residencyYears: 1
+  annualSpots: 4000
+  startSalary: 75
+  midSalary: 130
+  peakSalary: 250
+  typicalPeak: 160
+  partTimeFlex: 6
+  procedureMix: 1
+  callSchedule: 8
+  adminBurden: 5
+  hoursWeek: 42
+  burnout: 18
+  partTimeFeasibility: 6
+  vacation: 5
+  careerLongevity: 9
+  malpracticeFreq: 9
+  malpracticeCost: 3
+  geographicFlex: 7
+  automationRisk: 4
+  handsOnInsulation: 2
+  satisfaction: 80
+  chooseAgain: 76
+  intellectualStim: 8
+  varietyRepetition: 5
+  patientImpact: 3
+  physicalToll: 9
+  emotionalToll: 3
+  malpracticeLiability: 8
+  injuryCareerRisk: 9
+  aiRiskNow: 3
+  aiRiskMedium: 5
+  aiRiskLong: 6
+  aiNarrative: "AI can build better predictive models, which is kind of what actuaries do. But the job is really about understanding risk in a way that regulators, executives, and clients trust. You'll use AI as a tool to build better models, not get replaced by it. Plus, the exam process (7-10 exams over 5-7 years) creates a massive barrier to entry that protects the profession."
+  fellowshipOptions: "FSA (life/health track) or FCAS (property/casualty track), CERA (enterprise risk), predictive analytics cert"
+  compModel: "Base salary + exam raise bonuses ($5-15K per exam passed) + annual bonus. Steady progression tied to exams"
+  revPerPatientVisit: "N/A — salaried; value is in risk pricing accuracy for the company"
+  dailyWorkflow: "Building pricing models, analyzing claims data, reserve calculations, regulatory filings, presenting to underwriters"
+  patientVolume: "Project-based; typically 3-6 active projects"
+  supportStaffModel: "Actuarial analysts and students; works with underwriting, claims, and finance teams"
+  geographicDemandNotes: "Hartford CT (insurance capital), NYC, Chicago, Des Moines, Columbus. Many insurers in mid-size Midwest cities. Very remote-friendly"
+  telehealthPotential: 8
+  genderDistribution: "~45% women (one of the more balanced finance careers)"
+
+# === ENTREPRENEURSHIP (1) ===
+
+- name: "Certified Financial Planner (CFP)"
+  group: entrepreneurship
+  residencyYears: 1
+  annualSpots: 10000
+  startSalary: 55
+  midSalary: 95
+  peakSalary: 200
+  typicalPeak: 110
+  partTimeFlex: 7
+  procedureMix: 3
+  callSchedule: 8
+  adminBurden: 6
+  hoursWeek: 44
+  burnout: 22
+  partTimeFeasibility: 7
+  vacation: 4
+  careerLongevity: 9
+  malpracticeFreq: 8
+  malpracticeCost: 4
+  geographicFlex: 8
+  automationRisk: 5
+  handsOnInsulation: 5
+  satisfaction: 75
+  chooseAgain: 72
+  intellectualStim: 6
+  varietyRepetition: 6
+  patientImpact: 8
+  physicalToll: 9
+  emotionalToll: 4
+  malpracticeLiability: 7
+  injuryCareerRisk: 9
+  aiRiskNow: 3
+  aiRiskMedium: 4
+  aiRiskLong: 5
+  aiNarrative: "Apps can make a basic financial plan, but they can't sit across from a couple arguing about money and help them figure out their priorities. Financial planning is deeply personal — it's about goals, fears, and life transitions. If you're good with people and like solving puzzles, AI will be a tool that makes you better, not a threat."
+  fellowshipOptions: "CFA, ChFC, CLU (insurance), RICP (retirement income), AEP (estate planning)"
+  compModel: "Fee-only, fee-based, or commission; can build your own practice. Solo planners often earn $100-150K; firm owners $200K+"
+  revPerPatientVisit: "N/A — flat planning fees ($1-5K/plan) or AUM-based (0.5-1%)"
+  dailyWorkflow: "Client discovery meetings, building financial plans, investment reviews, tax coordination, estate planning discussions"
+  patientVolume: "50-100 client households for a solo planner"
+  supportStaffModel: "Paraplanner, client service associate, or completely solo. Can scale with virtual assistants"
+  geographicDemandNotes: "Anywhere people live — suburban areas especially. Can build a fully virtual practice from any location"
+  telehealthPotential: 7
+  genderDistribution: "~25% women (growing, major industry push for diversity)"

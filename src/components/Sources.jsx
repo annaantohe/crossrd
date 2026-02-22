@@ -346,6 +346,221 @@ const LAW_SOURCES = [
   },
 ];
 
+const ENGINEERING_SOURCES = [
+  {
+    title: "Compensation Data",
+    emoji: "💰",
+    sources: [
+      {
+        name: "BLS Occupational Outlook Handbook — Engineering",
+        org: "U.S. Bureau of Labor Statistics",
+        url: "https://www.bls.gov/ooh/architecture-and-engineering/",
+        desc: "Median wages, employment projections, and job outlook for all engineering disciplines.",
+        updated: "Annual (September)",
+      },
+      {
+        name: "BLS Occupational Employment and Wage Statistics (OEWS)",
+        org: "U.S. Bureau of Labor Statistics",
+        url: "https://www.bls.gov/oes/",
+        desc: "Detailed wage percentiles by engineering occupation code and metropolitan area.",
+        updated: "Annual (March)",
+      },
+      {
+        name: "Levels.fyi — Engineering Compensation",
+        org: "Levels.fyi",
+        url: "https://www.levels.fyi/",
+        desc: "Crowdsourced total compensation data for software and hardware engineers at major tech companies.",
+        updated: "Continuous",
+      },
+      {
+        name: "IEEE-USA Salary & Benefits Survey",
+        org: "IEEE-USA",
+        url: "https://ieeeusa.org/careers/salary-survey/",
+        desc: "Annual survey of IEEE members covering salary by discipline, degree level, years of experience, and industry.",
+        updated: "Annual",
+      },
+    ],
+  },
+  {
+    title: "Education & Training",
+    emoji: "🎓",
+    sources: [
+      {
+        name: "ASEE Engineering by the Numbers",
+        org: "American Society for Engineering Education",
+        url: "https://www.asee.org/papers-and-publications/publications/college-profiles",
+        desc: "Bachelor's, master's, and doctoral degrees awarded by engineering discipline. Enrollment, demographics, and institutional data.",
+        updated: "Annual",
+      },
+      {
+        name: "NSF Survey of Earned Doctorates",
+        org: "National Science Foundation",
+        url: "https://ncses.nsf.gov/surveys/earned-doctorates/",
+        desc: "Comprehensive data on PhD recipients including field, funding, time-to-degree, and post-graduation plans.",
+        updated: "Annual",
+      },
+    ],
+  },
+  {
+    title: "Job Market & Industry Trends",
+    emoji: "📋",
+    sources: [
+      {
+        name: "BLS Employment Projections — Engineering",
+        org: "U.S. Bureau of Labor Statistics",
+        url: "https://www.bls.gov/emp/tables/emp-by-detailed-occupation.htm",
+        desc: "10-year employment projections for all engineering occupations.",
+        updated: "Biennial",
+      },
+      {
+        name: "Robert Half — Technology & Engineering Salary Guide",
+        org: "Robert Half International",
+        url: "https://www.roberthalf.com/us/en/insights/salary-guide/technology",
+        desc: "Salary ranges for engineering and technology roles by specialization and experience level.",
+        updated: "Annual",
+      },
+    ],
+  },
+];
+
+const BUSINESS_SOURCES = [
+  {
+    title: "Compensation Data",
+    emoji: "💰",
+    sources: [
+      {
+        name: "BLS Occupational Outlook Handbook — Business & Financial",
+        org: "U.S. Bureau of Labor Statistics",
+        url: "https://www.bls.gov/ooh/business-and-financial/",
+        desc: "Median wages, employment projections, and job outlook for management, business, and financial occupations.",
+        updated: "Annual (September)",
+      },
+      {
+        name: "Robert Half — Salary Guide",
+        org: "Robert Half International",
+        url: "https://www.roberthalf.com/us/en/insights/salary-guide",
+        desc: "Salary ranges for finance, accounting, marketing, and operations roles by experience level, company size, and metro area.",
+        updated: "Annual",
+      },
+      {
+        name: "Glassdoor — Salary Explorer",
+        org: "Glassdoor / Indeed",
+        url: "https://www.glassdoor.com/Salaries/",
+        desc: "Crowdsourced salary data for business roles including base pay, bonuses, and total compensation by company and location.",
+        updated: "Continuous",
+      },
+      {
+        name: "Wall Street Oasis — Compensation Reports",
+        org: "Wall Street Oasis",
+        url: "https://www.wallstreetoasis.com/resources/compensation",
+        desc: "Detailed compensation data for investment banking, private equity, hedge funds, and consulting from verified professionals.",
+        updated: "Continuous",
+      },
+    ],
+  },
+  {
+    title: "Education & Admissions",
+    emoji: "🎓",
+    sources: [
+      {
+        name: "GMAC — Application Trends Survey",
+        org: "Graduate Management Admission Council",
+        url: "https://www.gmac.com/market-intelligence-and-research/research-library/admissions-and-application-trends",
+        desc: "MBA application volume, GMAT/GRE scores, acceptance rates, and enrollment trends across global business schools.",
+        updated: "Annual",
+      },
+      {
+        name: "U.S. News Best Business Schools Rankings",
+        org: "U.S. News & World Report",
+        url: "https://www.usnews.com/best-graduate-schools/top-business-schools/mba-rankings",
+        desc: "MBA program rankings incorporating employment outcomes, GMAT scores, starting salary, and recruiter assessments.",
+        updated: "Annual (March)",
+      },
+      {
+        name: "AICPA — CPA Exam Statistics",
+        org: "American Institute of Certified Public Accountants",
+        url: "https://www.aicpa-cima.com/resources/landing/cpa-exam-scoring-and-pass-rates",
+        desc: "CPA exam pass rates by section, candidate demographics, and trends. Average cumulative pass rate ~50% per section.",
+        updated: "Quarterly",
+      },
+      {
+        name: "CFA Institute — CFA Exam Results",
+        org: "CFA Institute",
+        url: "https://www.cfainstitute.org/programs/cfa/exam/results-and-pass-rates",
+        desc: "CFA exam pass rates by level (~40% Level I, ~45% Level II, ~50% Level III). Candidate demographics and registration trends.",
+        updated: "Per exam window",
+      },
+    ],
+  },
+  {
+    title: "Job Market & Industry",
+    emoji: "📋",
+    sources: [
+      {
+        name: "BLS Employment Projections — Business & Financial",
+        org: "U.S. Bureau of Labor Statistics",
+        url: "https://www.bls.gov/emp/tables/emp-by-detailed-occupation.htm",
+        desc: "10-year employment projections for management, business, and financial occupations.",
+        updated: "Biennial",
+      },
+      {
+        name: "McKinsey Global Institute — Future of Work",
+        org: "McKinsey & Company",
+        url: "https://www.mckinsey.com/mgi/our-research",
+        desc: "Research on how automation, AI, and shifting business models affect demand for business professionals across industries.",
+        updated: "Ongoing",
+      },
+    ],
+  },
+  {
+    title: "Work-Life Balance & Satisfaction",
+    emoji: "⚖️",
+    sources: [
+      {
+        name: "Deloitte — Workplace Burnout Survey",
+        org: "Deloitte",
+        url: "https://www2.deloitte.com/us/en/pages/about-deloitte/articles/burnout-survey.html",
+        desc: "Burnout prevalence and workplace satisfaction across business and professional services roles.",
+        updated: "Annual",
+      },
+      {
+        name: "Gallup — State of the Global Workplace",
+        org: "Gallup",
+        url: "https://www.gallup.com/workplace/349484/state-of-the-global-workplace.aspx",
+        desc: "Employee engagement, well-being, and workplace satisfaction data across industries and job functions.",
+        updated: "Annual",
+      },
+    ],
+  },
+  {
+    title: "Financial Modeling",
+    emoji: "📊",
+    sources: [
+      {
+        name: "EducationData.org — Average Cost of an MBA",
+        org: "EducationData.org",
+        url: "https://educationdata.org/average-cost-of-an-mba",
+        desc: "MBA tuition, fees, and total cost of attendance data. Average ~$75K/yr at top programs, $120K+ total debt.",
+        updated: "Continuous",
+      },
+      {
+        name: "Federal Student Aid — Loan Interest Rates",
+        org: "U.S. Department of Education",
+        url: "https://studentaid.gov/understand-aid/types/loans/interest-rates",
+        desc: "Current federal student loan interest rates for graduate and professional students.",
+        updated: "Annual (July 1 reset)",
+      },
+      {
+        name: "NCES — Digest of Education Statistics",
+        org: "National Center for Education Statistics",
+        url: "https://nces.ed.gov/programs/digest/",
+        desc: "Comprehensive statistics on undergraduate degrees awarded by field, including business administration.",
+        updated: "Annual",
+      },
+    ],
+  },
+];
+
 const SHARED_SOURCES = [
   {
     title: "Stress Test & Scenario Modeling",
@@ -379,7 +594,9 @@ const SHARED_SOURCES = [
 function getSourcesForFamily(familySlug) {
   if (familySlug === "healthcare") return [...HEALTHCARE_SOURCES, ...SHARED_SOURCES];
   if (familySlug === "law") return [...LAW_SOURCES, ...SHARED_SOURCES];
-  return [...HEALTHCARE_SOURCES, ...LAW_SOURCES, ...SHARED_SOURCES];
+  if (familySlug === "engineering") return [...ENGINEERING_SOURCES, ...SHARED_SOURCES];
+  if (familySlug === "business") return [...BUSINESS_SOURCES, ...SHARED_SOURCES];
+  return [...HEALTHCARE_SOURCES, ...LAW_SOURCES, ...ENGINEERING_SOURCES, ...BUSINESS_SOURCES, ...SHARED_SOURCES];
 }
 
 export default function Sources({ familySlug }) {

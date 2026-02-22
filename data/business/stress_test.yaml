@@ -1,0 +1,41 @@
+# stress test resilience scores for business finalists
+scenarios:
+- id: ai
+  name: AI Disruption Accelerates
+- id: pay
+  name: Market Crash / Pay Compression 20%
+- id: injury
+  name: Career Burnout at 40
+- id: match
+  name: Can't Land Target Role
+scores:
+  mbb_consultant:
+    ai: 6
+    pay: 5
+    injury: 5
+    match: 4
+  ib_associate:
+    ai: 5
+    pay: 3
+    injury: 3
+    match: 3
+  pe_associate:
+    ai: 6
+    pay: 3
+    injury: 4
+    match: 3
+  startup_founder:
+    ai: 7
+    pay: 4
+    injury: 6
+    match: 8
+  portfolio_mgr:
+    ai: 4
+    pay: 4
+    injury: 5
+    match: 5
+  big4_auditor:
+    ai: 5
+    pay: 7
+    injury: 6
+    match: 7

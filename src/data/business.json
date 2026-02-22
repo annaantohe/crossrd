@@ -1,0 +1,6895 @@
+{
+  "meta": {
+    "profession_family": "business",
+    "family_name": "Business",
+    "headline": "Which Business Career Should You Pursue?",
+    "subtitle": "A Data-Driven Guide",
+    "icon": "\ud83d\udcbc",
+    "last_updated": "2026-02-21",
+    "total_tracks": 61,
+    "data_points": 107,
+    "source_file": "yaml"
+  },
+  "professions": {
+    "BBA": {
+      "label": "BBA Graduate",
+      "color": "#2196F3",
+      "track_count": 35
+    },
+    "MBA": {
+      "label": "MBA Graduate",
+      "color": "#FF9800",
+      "track_count": 16
+    },
+    "CPA-CFA": {
+      "label": "CPA/CFA Credential",
+      "color": "#9C27B0",
+      "track_count": 10
+    }
+  },
+  "groups": {
+    "finance_banking": {
+      "label": "Finance & Banking",
+      "icon": "\ud83c\udfe6",
+      "tagline": "you want to move the money",
+      "description": "Investment banking, commercial banking, corporate finance, lending",
+      "count": 7,
+      "salary_range": [
+        100,
+        1000
+      ]
+    },
+    "investing_pe": {
+      "label": "Investing & Private Equity",
+      "icon": "\ud83d\udcc8",
+      "tagline": "you want to pick winners",
+      "description": "Private equity, venture capital, portfolio management, equity research",
+      "count": 5,
+      "salary_range": [
+        300,
+        800
+      ]
+    },
+    "accounting_tax": {
+      "label": "Accounting & Tax",
+      "icon": "\ud83d\udcca",
+      "tagline": "you want to keep score",
+      "description": "Audit, tax, forensic accounting, financial controllership",
+      "count": 9,
+      "salary_range": [
+        78,
+        400
+      ]
+    },
+    "insurance_risk": {
+      "label": "Insurance & Risk",
+      "icon": "\ud83d\udee1\ufe0f",
+      "tagline": "you want to manage risk",
+      "description": "Underwriting, claims, actuarial science, risk management",
+      "count": 4,
+      "salary_range": [
+        90,
+        250
+      ]
+    },
+    "consulting_strategy": {
+      "label": "Consulting & Strategy",
+      "icon": "\ud83e\udde0",
+      "tagline": "you want to solve everyone's problems",
+      "description": "Management consulting, strategy, business analysis, product management",
+      "count": 4,
+      "salary_range": [
+        130,
+        500
+      ]
+    },
+    "marketing_sales": {
+      "label": "Marketing & Sales",
+      "icon": "\ud83d\udce3",
+      "tagline": "you want to win hearts and deals",
+      "description": "Digital marketing, B2B sales, PR, brand management, advertising",
+      "count": 10,
+      "salary_range": [
+        90,
+        250
+      ]
+    },
+    "operations_supply": {
+      "label": "Operations & Supply Chain",
+      "icon": "\u2699\ufe0f",
+      "tagline": "you want to make things run",
+      "description": "Supply chain, logistics, procurement, project management",
+      "count": 8,
+      "salary_range": [
+        105,
+        300
+      ]
+    },
+    "people_culture": {
+      "label": "People & Culture",
+      "icon": "\ud83e\udd1d",
+      "tagline": "you want to build great teams",
+      "description": "HR, recruiting, training, organizational development",
+      "count": 4,
+      "salary_range": [
+        100,
+        180
+      ]
+    },
+    "entrepreneurship": {
+      "label": "Entrepreneurship",
+      "icon": "\ud83d\ude80",
+      "tagline": "you want to build something of your own",
+      "description": "Startups, e-commerce, real estate, small business ownership",
+      "count": 10,
+      "salary_range": [
+        90,
+        500
+      ]
+    }
+  },
+  "careers": [
+    {
+      "key": "financial_analyst",
+      "name": "Financial Analyst",
+      "color": "#338fd8",
+      "path": "BBA Graduate",
+      "group": "finance_banking"
+    },
+    {
+      "key": "investment_banking_analy",
+      "name": "Investment Banking Analyst",
+      "color": "#2065d8",
+      "path": "BBA Graduate",
+      "group": "finance_banking"
+    },
+    {
+      "key": "commercial_banker",
+      "name": "Commercial Banker",
+      "color": "#2044d8",
+      "path": "BBA Graduate",
+      "group": "finance_banking"
+    },
+    {
+      "key": "loan_officer",
+      "name": "Loan Officer",
+      "color": "#3335d8",
+      "path": "BBA Graduate",
+      "group": "finance_banking"
+    },
+    {
+      "key": "retail_bank_manager",
+      "name": "Retail Bank Manager",
+      "color": "#3e20d8",
+      "path": "BBA Graduate",
+      "group": "finance_banking"
+    },
+    {
+      "key": "staff_accountant",
+      "name": "Staff Accountant",
+      "color": "#5f20d8",
+      "path": "BBA Graduate",
+      "group": "accounting_tax"
+    },
+    {
+      "key": "internal_auditor",
+      "name": "Internal Auditor",
+      "color": "#8933d8",
+      "path": "BBA Graduate",
+      "group": "accounting_tax"
+    },
+    {
+      "key": "tax_preparer",
+      "name": "Tax Preparer",
+      "color": "#a220d8",
+      "path": "BBA Graduate",
+      "group": "accounting_tax"
+    },
+    {
+      "key": "payroll_specialist",
+      "name": "Payroll Specialist",
+      "color": "#c320d8",
+      "path": "BBA Graduate",
+      "group": "accounting_tax"
+    },
+    {
+      "key": "insurance_agent",
+      "name": "Insurance Agent",
+      "color": "#d833ce",
+      "path": "BBA Graduate",
+      "group": "insurance_risk"
+    },
+    {
+      "key": "insurance_underwriter",
+      "name": "Insurance Underwriter",
+      "color": "#d820ac",
+      "path": "BBA Graduate",
+      "group": "insurance_risk"
+    },
+    {
+      "key": "claims_adjuster",
+      "name": "Claims Adjuster",
+      "color": "#d8208a",
+      "path": "BBA Graduate",
+      "group": "insurance_risk"
+    },
+    {
+      "key": "business_analyst",
+      "name": "Business Analyst",
+      "color": "#d83374",
+      "path": "BBA Graduate",
+      "group": "consulting_strategy"
+    },
+    {
+      "key": "marketing_coordinator",
+      "name": "Marketing Coordinator",
+      "color": "#d82048",
+      "path": "BBA Graduate",
+      "group": "marketing_sales"
+    },
+    {
+      "key": "digital_marketing_specia",
+      "name": "Digital Marketing Specialist",
+      "color": "#d82027",
+      "path": "BBA Graduate",
+      "group": "marketing_sales"
+    },
+    {
+      "key": "social_media_manager",
+      "name": "Social Media Manager",
+      "color": "#d84a33",
+      "path": "BBA Graduate",
+      "group": "marketing_sales"
+    },
+    {
+      "key": "market_research_analyst",
+      "name": "Market Research Analyst",
+      "color": "#d85b20",
+      "path": "BBA Graduate",
+      "group": "marketing_sales"
+    },
+    {
+      "key": "sales_representative_b2b",
+      "name": "Sales Representative (B2B)",
+      "color": "#d87d20",
+      "path": "BBA Graduate",
+      "group": "marketing_sales"
+    },
+    {
+      "key": "sales_representative_tec",
+      "name": "Sales Representative (Tech/SaaS)",
+      "color": "#d8a433",
+      "path": "BBA Graduate",
+      "group": "marketing_sales"
+    },
+    {
+      "key": "advertising_account_exec",
+      "name": "Advertising Account Executive",
+      "color": "#d8bf20",
+      "path": "BBA Graduate",
+      "group": "marketing_sales"
+    },
+    {
+      "key": "public_relations_special",
+      "name": "Public Relations Specialist",
+      "color": "#d0d820",
+      "path": "BBA Graduate",
+      "group": "marketing_sales"
+    },
+    {
+      "key": "supply_chain_coordinator",
+      "name": "Supply Chain Coordinator",
+      "color": "#b3d833",
+      "path": "BBA Graduate",
+      "group": "operations_supply"
+    },
+    {
+      "key": "logistics_analyst",
+      "name": "Logistics Analyst",
+      "color": "#8ed820",
+      "path": "BBA Graduate",
+      "group": "operations_supply"
+    },
+    {
+      "key": "procurement_specialist",
+      "name": "Procurement Specialist",
+      "color": "#6dd820",
+      "path": "BBA Graduate",
+      "group": "operations_supply"
+    },
+    {
+      "key": "operations_analyst",
+      "name": "Operations Analyst",
+      "color": "#5ad833",
+      "path": "BBA Graduate",
+      "group": "operations_supply"
+    },
+    {
+      "key": "project_coordinator",
+      "name": "Project Coordinator",
+      "color": "#2bd820",
+      "path": "BBA Graduate",
+      "group": "operations_supply"
+    },
+    {
+      "key": "hr_generalist",
+      "name": "HR Generalist",
+      "color": "#20d837",
+      "path": "BBA Graduate",
+      "group": "people_culture"
+    },
+    {
+      "key": "recruiter_talent_acquisi",
+      "name": "Recruiter / Talent Acquisition",
+      "color": "#33d865",
+      "path": "BBA Graduate",
+      "group": "people_culture"
+    },
+    {
+      "key": "training_development_spe",
+      "name": "Training & Development Specialist",
+      "color": "#20d879",
+      "path": "BBA Graduate",
+      "group": "people_culture"
+    },
+    {
+      "key": "customer_success_manager",
+      "name": "Customer Success Manager",
+      "color": "#20d89a",
+      "path": "BBA Graduate",
+      "group": "entrepreneurship"
+    },
+    {
+      "key": "e_commerce_manager",
+      "name": "E-commerce Manager",
+      "color": "#33d8be",
+      "path": "BBA Graduate",
+      "group": "entrepreneurship"
+    },
+    {
+      "key": "real_estate_agent_commer",
+      "name": "Real Estate Agent (Commercial)",
+      "color": "#20d4d8",
+      "path": "BBA Graduate",
+      "group": "entrepreneurship"
+    },
+    {
+      "key": "real_estate_appraiser",
+      "name": "Real Estate Appraiser",
+      "color": "#20b3d8",
+      "path": "BBA Graduate",
+      "group": "entrepreneurship"
+    },
+    {
+      "key": "retail_buyer",
+      "name": "Retail Buyer",
+      "color": "#3399d8",
+      "path": "BBA Graduate",
+      "group": "entrepreneurship"
+    },
+    {
+      "key": "event_planner",
+      "name": "Event Planner",
+      "color": "#2071d8",
+      "path": "BBA Graduate",
+      "group": "entrepreneurship"
+    },
+    {
+      "key": "big_4_auditor_cpa",
+      "name": "Big 4 Auditor (CPA)",
+      "color": "#9535a5",
+      "path": "CPA/CFA Credential",
+      "group": "accounting_tax"
+    },
+    {
+      "key": "tax_specialist_cpa",
+      "name": "Tax Specialist (CPA)",
+      "color": "#ba29b5",
+      "path": "CPA/CFA Credential",
+      "group": "accounting_tax"
+    },
+    {
+      "key": "forensic_accountant_cpa",
+      "name": "Forensic Accountant (CPA)",
+      "color": "#a51887",
+      "path": "CPA/CFA Credential",
+      "group": "accounting_tax"
+    },
+    {
+      "key": "controller_cpa",
+      "name": "Controller (CPA)",
+      "color": "#ba3b88",
+      "path": "CPA/CFA Credential",
+      "group": "accounting_tax"
+    },
+    {
+      "key": "cfo_track_fp_a_director_",
+      "name": "CFO-Track / FP&A Director (CPA)",
+      "color": "#a5245b",
+      "path": "CPA/CFA Credential",
+      "group": "accounting_tax"
+    },
+    {
+      "key": "portfolio_manager_cfa",
+      "name": "Portfolio Manager (CFA)",
+      "color": "#ba1b42",
+      "path": "CPA/CFA Credential",
+      "group": "investing_pe"
+    },
+    {
+      "key": "equity_research_analyst_",
+      "name": "Equity Research Analyst (CFA)",
+      "color": "#a5353c",
+      "path": "CPA/CFA Credential",
+      "group": "investing_pe"
+    },
+    {
+      "key": "wealth_manager_financial",
+      "name": "Wealth Manager / Financial Advisor (CFA)",
+      "color": "#ba3929",
+      "path": "CPA/CFA Credential",
+      "group": "investing_pe"
+    },
+    {
+      "key": "actuary_soa_cas",
+      "name": "Actuary (SOA/CAS)",
+      "color": "#a54218",
+      "path": "CPA/CFA Credential",
+      "group": "insurance_risk"
+    },
+    {
+      "key": "certified_financial_plan",
+      "name": "Certified Financial Planner (CFP)",
+      "color": "#ba773b",
+      "path": "CPA/CFA Credential",
+      "group": "entrepreneurship"
+    },
+    {
+      "key": "ib_associate",
+      "name": "Investment Banking Associate",
+      "color": "#B71C1C",
+      "path": "MBA Graduate",
+      "group": "finance_banking"
+    },
+    {
+      "key": "corporate_strategy_manag",
+      "name": "Corporate Strategy Manager",
+      "color": "#d88e20",
+      "path": "MBA Graduate",
+      "group": "finance_banking"
+    },
+    {
+      "key": "pe_associate",
+      "name": "Private Equity Associate",
+      "color": "#880E4F",
+      "path": "MBA Graduate",
+      "group": "investing_pe"
+    },
+    {
+      "key": "venture_capital_associat",
+      "name": "Venture Capital Associate",
+      "color": "#d8af20",
+      "path": "MBA Graduate",
+      "group": "investing_pe"
+    },
+    {
+      "key": "mbb_consultant",
+      "name": "Management Consultant (MBB)",
+      "color": "#0D47A1",
+      "path": "MBA Graduate",
+      "group": "consulting_strategy"
+    },
+    {
+      "key": "strategy_consultant",
+      "name": "Strategy Consultant",
+      "color": "#d8d020",
+      "path": "MBA Graduate",
+      "group": "consulting_strategy"
+    },
+    {
+      "key": "product_manager",
+      "name": "Product Manager",
+      "color": "#bfd820",
+      "path": "MBA Graduate",
+      "group": "consulting_strategy"
+    },
+    {
+      "key": "brand_manager",
+      "name": "Brand Manager",
+      "color": "#9ed820",
+      "path": "MBA Graduate",
+      "group": "marketing_sales"
+    },
+    {
+      "key": "business_development_man",
+      "name": "Business Development Manager",
+      "color": "#7dd820",
+      "path": "MBA Graduate",
+      "group": "marketing_sales"
+    },
+    {
+      "key": "supply_chain_director",
+      "name": "Supply Chain Director",
+      "color": "#5cd820",
+      "path": "MBA Graduate",
+      "group": "operations_supply"
+    },
+    {
+      "key": "operations_director",
+      "name": "Operations Director",
+      "color": "#3bd820",
+      "path": "MBA Graduate",
+      "group": "operations_supply"
+    },
+    {
+      "key": "general_manager",
+      "name": "General Manager",
+      "color": "#20d827",
+      "path": "MBA Graduate",
+      "group": "operations_supply"
+    },
+    {
+      "key": "non_profit_executive_dir",
+      "name": "Non-Profit Executive Director",
+      "color": "#20d848",
+      "path": "MBA Graduate",
+      "group": "people_culture"
+    },
+    {
+      "key": "startup_founder",
+      "name": "Startup Founder / CEO",
+      "color": "#E65100",
+      "path": "MBA Graduate",
+      "group": "entrepreneurship"
+    },
+    {
+      "key": "real_estate_developer",
+      "name": "Real Estate Developer",
+      "color": "#20d869",
+      "path": "MBA Graduate",
+      "group": "entrepreneurship"
+    },
+    {
+      "key": "healthcare_administrator",
+      "name": "Healthcare Administrator",
+      "color": "#20d88a",
+      "path": "MBA Graduate",
+      "group": "entrepreneurship"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Pre-Professional Phase",
+      "weight_default": 7,
+      "description": "How hard is it to start?"
+    },
+    {
+      "id": 2,
+      "name": "Admissions Competitiveness",
+      "weight_default": 7,
+      "description": "Can you realistically get in?"
+    },
+    {
+      "id": 3,
+      "name": "Professional School",
+      "weight_default": 5,
+      "description": "What's the school experience like?"
+    },
+    {
+      "id": 4,
+      "name": "Post-Graduate Training",
+      "weight_default": 8,
+      "description": "How long/hard is the road after school?"
+    },
+    {
+      "id": 5,
+      "name": "Financial Picture",
+      "weight_default": 10,
+      "description": "Cost, debt, time to financial freedom"
+    },
+    {
+      "id": 6,
+      "name": "Scope of Practice & Autonomy",
+      "weight_default": 8,
+      "description": "What can you do independently?"
+    },
+    {
+      "id": 7,
+      "name": "Career Economics",
+      "weight_default": 12,
+      "description": "How much do you earn over a career?"
+    },
+    {
+      "id": 8,
+      "name": "Daily Life & Practice Reality",
+      "weight_default": 8,
+      "description": "What does the work feel like?"
+    },
+    {
+      "id": 9,
+      "name": "Lifestyle & Work-Life Balance",
+      "weight_default": 10,
+      "description": "Can you have a life outside work?"
+    },
+    {
+      "id": 10,
+      "name": "Job Market & Demand",
+      "weight_default": 5,
+      "description": "Will you find work?"
+    },
+    {
+      "id": 11,
+      "name": "AI Revolution Impact",
+      "weight_default": 7,
+      "description": "How future-proof is this career?"
+    },
+    {
+      "id": 12,
+      "name": "Professional Satisfaction",
+      "weight_default": 8,
+      "description": "Will you enjoy this long-term?"
+    },
+    {
+      "id": 13,
+      "name": "Demographics & Culture",
+      "weight_default": 3,
+      "description": "Culture fit?"
+    },
+    {
+      "id": 14,
+      "name": "Risk Factors & Downsides",
+      "weight_default": 5,
+      "description": "Hidden costs and dangers"
+    }
+  ],
+  "scenario_profiles": {
+    "default": {
+      "1": 7,
+      "2": 7,
+      "3": 5,
+      "4": 8,
+      "5": 10,
+      "6": 8,
+      "7": 12,
+      "8": 8,
+      "9": 10,
+      "10": 5,
+      "11": 7,
+      "12": 8,
+      "13": 3,
+      "14": 5
+    },
+    "equal_weight": {
+      "1": 7,
+      "2": 7,
+      "3": 7,
+      "4": 7,
+      "5": 7,
+      "6": 7,
+      "7": 7,
+      "8": 7,
+      "9": 7,
+      "10": 7,
+      "11": 7,
+      "12": 7,
+      "13": 8,
+      "14": 8
+    },
+    "max_earnings": {
+      "1": 3,
+      "2": 3,
+      "3": 3,
+      "4": 5,
+      "5": 20,
+      "6": 8,
+      "7": 25,
+      "8": 5,
+      "9": 5,
+      "10": 8,
+      "11": 5,
+      "12": 5,
+      "13": 3,
+      "14": 2
+    },
+    "best_lifestyle": {
+      "1": 5,
+      "2": 5,
+      "3": 5,
+      "4": 8,
+      "5": 8,
+      "6": 5,
+      "7": 8,
+      "8": 12,
+      "9": 20,
+      "10": 5,
+      "11": 5,
+      "12": 10,
+      "13": 2,
+      "14": 2
+    },
+    "fastest_to_practice": {
+      "1": 12,
+      "2": 12,
+      "3": 12,
+      "4": 15,
+      "5": 12,
+      "6": 3,
+      "7": 5,
+      "8": 3,
+      "9": 5,
+      "10": 5,
+      "11": 3,
+      "12": 5,
+      "13": 5,
+      "14": 3
+    },
+    "most_procedural": {
+      "1": 5,
+      "2": 5,
+      "3": 5,
+      "4": 5,
+      "5": 5,
+      "6": 15,
+      "7": 5,
+      "8": 20,
+      "9": 5,
+      "10": 5,
+      "11": 5,
+      "12": 15,
+      "13": 3,
+      "14": 2
+    }
+  },
+  "tracks": [
+    {
+      "name": "Financial Analyst",
+      "key": "financial_analyst",
+      "profession": "BBA",
+      "group": "finance_banking",
+      "color": "#338fd8",
+      "path": "BBA Graduate",
+      "raw_data": {
+        "startSalary": 60,
+        "midSalary": 95,
+        "peakSalary": 140,
+        "typicalPeak": 110,
+        "hoursWeek": 50,
+        "burnout": 35,
+        "satisfaction": 65,
+        "chooseAgain": 60,
+        "malpracticeCost": 1,
+        "vacation": 4,
+        "matchComp": 7,
+        "annualSpots": 85000,
+        "oneInX": 5,
+        "callSchedule": 7,
+        "physicalToll": 9,
+        "emotionalToll": 6,
+        "aiRiskNow": 5,
+        "aiRiskMedium": 7,
+        "aiRiskLong": 8,
+        "aiNarrative": "AI can crunch spreadsheets and spot trends faster than any human, but companies still need people who can explain what the numbers mean and recommend what to do next."
+      },
+      "scores": {
+        "category_1": 7.5,
+        "category_2": 8.0,
+        "category_3": 7.33,
+        "category_4": 8.33,
+        "category_5": 6.14,
+        "category_6": 6.71,
+        "category_7": 4.58,
+        "category_8": 5.1,
+        "category_9": 5.94,
+        "category_10": 6.4,
+        "category_11": 4.8,
+        "category_12": 5.33,
+        "category_13": 5.25,
+        "category_14": 8.79
+      },
+      "scenario_totals": {
+        "default": 6.5,
+        "equal_weight": 6.45,
+        "max_earnings": 5.91,
+        "best_lifestyle": 6.17,
+        "fastest_to_practice": 6.86,
+        "most_procedural": 6.11
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 22,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 0,
+        "trainee_salary": 0,
+        "education_debt": 30,
+        "loan_rate": 5.5,
+        "living_expenses": 42,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 22,
+        "starting_salary": 60,
+        "mid_salary": 95,
+        "peak_salary": 140,
+        "typical_peak": 110,
+        "malpractice_per_yr": 1
+      },
+      "stress": {
+        "ai": 4,
+        "pay": 5,
+        "injury": 8,
+        "match": 7
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          22
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 22,
+        "startSalary": 60
+      }
+    },
+    {
+      "name": "Investment Banking Analyst",
+      "key": "investment_banking_analy",
+      "profession": "BBA",
+      "group": "finance_banking",
+      "color": "#2065d8",
+      "path": "BBA Graduate",
+      "raw_data": {
+        "startSalary": 90,
+        "midSalary": 130,
+        "peakSalary": 180,
+        "typicalPeak": 140,
+        "hoursWeek": 80,
+        "burnout": 60,
+        "satisfaction": 55,
+        "chooseAgain": 50,
+        "malpracticeCost": 2,
+        "vacation": 2,
+        "matchComp": 3,
+        "annualSpots": 5000,
+        "oneInX": 78,
+        "callSchedule": 2,
+        "physicalToll": 7,
+        "emotionalToll": 3,
+        "aiRiskNow": 4,
+        "aiRiskMedium": 6,
+        "aiRiskLong": 7,
+        "aiNarrative": "AI automates pitch-book creation and data pulls, but deal-making still depends on relationships and judgment calls that machines can't replicate \u2014 at least not yet."
+      },
+      "scores": {
+        "category_1": 7.5,
+        "category_2": 6.67,
+        "category_3": 7.33,
+        "category_4": 6.67,
+        "category_5": 6.44,
+        "category_6": 6.29,
+        "category_7": 3.88,
+        "category_8": 3.75,
+        "category_9": 2.64,
+        "category_10": 5.8,
+        "category_11": 4.4,
+        "category_12": 4.5,
+        "category_13": 5.25,
+        "category_14": 8.01
+      },
+      "scenario_totals": {
+        "default": 5.58,
+        "equal_weight": 5.67,
+        "max_earnings": 5.29,
+        "best_lifestyle": 4.95,
+        "fastest_to_practice": 6.13,
+        "most_procedural": 5.25
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 22,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 0,
+        "trainee_salary": 0,
+        "education_debt": 30,
+        "loan_rate": 5.5,
+        "living_expenses": 42,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 22,
+        "starting_salary": 90,
+        "mid_salary": 130,
+        "peak_salary": 180,
+        "typical_peak": 140,
+        "malpractice_per_yr": 2
+      },
+      "stress": {
+        "ai": 4,
+        "pay": 3,
+        "injury": 6,
+        "match": 9
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          22
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 22,
+        "startSalary": 90
+      }
+    },
+    {
+      "name": "Commercial Banker",
+      "key": "commercial_banker",
+      "profession": "BBA",
+      "group": "finance_banking",
+      "color": "#2044d8",
+      "path": "BBA Graduate",
+      "raw_data": {
+        "startSalary": 55,
+        "midSalary": 85,
+        "peakSalary": 140,
+        "typicalPeak": 100,
+        "hoursWeek": 45,
+        "burnout": 25,
+        "satisfaction": 68,
+        "chooseAgain": 63,
+        "malpracticeCost": 1,
+        "vacation": 4,
+        "matchComp": 6,
+        "annualSpots": 35000,
+        "oneInX": 11,
+        "callSchedule": 7,
+        "physicalToll": 9,
+        "emotionalToll": 7,
+        "aiRiskNow": 3,
+        "aiRiskMedium": 5,
+        "aiRiskLong": 6,
+        "aiNarrative": "AI helps with credit analysis and risk scoring, but business owners still want a human they trust to help structure their loans and talk through options."
+      },
+      "scores": {
+        "category_1": 7.5,
+        "category_2": 7.67,
+        "category_3": 7.33,
+        "category_4": 8.33,
+        "category_5": 6.07,
+        "category_6": 6.71,
+        "category_7": 4.83,
+        "category_8": 6.12,
+        "category_9": 6.52,
+        "category_10": 6.0,
+        "category_11": 5.0,
+        "category_12": 5.53,
+        "category_13": 5.25,
+        "category_14": 8.93
+      },
+      "scenario_totals": {
+        "default": 6.66,
+        "equal_weight": 6.57,
+        "max_earnings": 6.02,
+        "best_lifestyle": 6.42,
+        "fastest_to_practice": 6.89,
+        "most_procedural": 6.36
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 22,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 0,
+        "trainee_salary": 0,
+        "education_debt": 30,
+        "loan_rate": 5.5,
+        "living_expenses": 42,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 22,
+        "starting_salary": 55,
+        "mid_salary": 85,
+        "peak_salary": 140,
+        "typical_peak": 100,
+        "malpractice_per_yr": 1
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 5,
+        "injury": 7,
+        "match": 8
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          22
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 22,
+        "startSalary": 55
+      }
+    },
+    {
+      "name": "Loan Officer",
+      "key": "loan_officer",
+      "profession": "BBA",
+      "group": "finance_banking",
+      "color": "#3335d8",
+      "path": "BBA Graduate",
+      "raw_data": {
+        "startSalary": 45,
+        "midSalary": 75,
+        "peakSalary": 120,
+        "typicalPeak": 85,
+        "hoursWeek": 42,
+        "burnout": 25,
+        "satisfaction": 65,
+        "chooseAgain": 60,
+        "malpracticeCost": 1,
+        "vacation": 3,
+        "matchComp": 7,
+        "annualSpots": 55000,
+        "oneInX": 7,
+        "callSchedule": 7,
+        "physicalToll": 9,
+        "emotionalToll": 6,
+        "aiRiskNow": 4,
+        "aiRiskMedium": 6,
+        "aiRiskLong": 7,
+        "aiNarrative": "Online lenders and AI underwriting are streamlining approvals, but people buying a home or starting a business still want a human to walk them through the biggest financial decision of their life."
+      },
+      "scores": {
+        "category_1": 7.5,
+        "category_2": 8.0,
+        "category_3": 7.33,
+        "category_4": 8.33,
+        "category_5": 5.99,
+        "category_6": 7.0,
+        "category_7": 4.8,
+        "category_8": 6.53,
+        "category_9": 6.78,
+        "category_10": 6.2,
+        "category_11": 5.2,
+        "category_12": 5.17,
+        "category_13": 5.25,
+        "category_14": 8.79
+      },
+      "scenario_totals": {
+        "default": 6.74,
+        "equal_weight": 6.64,
+        "max_earnings": 6.07,
+        "best_lifestyle": 6.53,
+        "fastest_to_practice": 6.94,
+        "most_procedural": 6.47
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 22,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 0,
+        "trainee_salary": 0,
+        "education_debt": 30,
+        "loan_rate": 5.5,
+        "living_expenses": 42,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 22,
+        "starting_salary": 45,
+        "mid_salary": 75,
+        "peak_salary": 120,
+        "typical_peak": 85,
+        "malpractice_per_yr": 1
+      },
+      "stress": {
+        "ai": 5,
+        "pay": 4,
+        "injury": 7,
+        "match": 7
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          22
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 22,
+        "startSalary": 45
+      }
+    },
+    {
+      "name": "Retail Bank Manager",
+      "key": "retail_bank_manager",
+      "profession": "BBA",
+      "group": "finance_banking",
+      "color": "#3e20d8",
+      "path": "BBA Graduate",
+      "raw_data": {
+        "startSalary": 48,
+        "midSalary": 70,
+        "peakSalary": 100,
+        "typicalPeak": 78,
+        "hoursWeek": 44,
+        "burnout": 30,
+        "satisfaction": 60,
+        "chooseAgain": 55,
+        "malpracticeCost": 1,
+        "vacation": 3,
+        "matchComp": 6,
+        "annualSpots": 40000,
+        "oneInX": 10,
+        "callSchedule": 6,
+        "physicalToll": 9,
+        "emotionalToll": 6,
+        "aiRiskNow": 3,
+        "aiRiskMedium": 5,
+        "aiRiskLong": 6,
+        "aiNarrative": "Mobile banking and AI chatbots handle routine transactions, but branch managers still run the team, solve complex problems, and build community relationships that apps can't replace."
+      },
+      "scores": {
+        "category_1": 7.5,
+        "category_2": 7.67,
+        "category_3": 7.33,
+        "category_4": 8.0,
+        "category_5": 5.99,
+        "category_6": 6.57,
+        "category_7": 4.78,
+        "category_8": 6.67,
+        "category_9": 5.92,
+        "category_10": 6.0,
+        "category_11": 5.2,
+        "category_12": 4.67,
+        "category_13": 5.25,
+        "category_14": 8.79
+      },
+      "scenario_totals": {
+        "default": 6.53,
+        "equal_weight": 6.46,
+        "max_earnings": 5.93,
+        "best_lifestyle": 6.25,
+        "fastest_to_practice": 6.77,
+        "most_procedural": 6.27
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 22,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 0,
+        "trainee_salary": 0,
+        "education_debt": 30,
+        "loan_rate": 5.5,
+        "living_expenses": 42,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 22,
+        "starting_salary": 48,
+        "mid_salary": 70,
+        "peak_salary": 100,
+        "typical_peak": 78,
+        "malpractice_per_yr": 1
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 4,
+        "injury": 6,
+        "match": 8
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          22
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 22,
+        "startSalary": 48
+      }
+    },
+    {
+      "name": "Staff Accountant",
+      "key": "staff_accountant",
+      "profession": "BBA",
+      "group": "accounting_tax",
+      "color": "#5f20d8",
+      "path": "BBA Graduate",
+      "raw_data": {
+        "startSalary": 52,
+        "midSalary": 72,
+        "peakSalary": 100,
+        "typicalPeak": 80,
+        "hoursWeek": 45,
+        "burnout": 35,
+        "satisfaction": 62,
+        "chooseAgain": 58,
+        "malpracticeCost": 1,
+        "vacation": 3,
+        "matchComp": 8,
+        "annualSpots": 120000,
+        "oneInX": 3,
+        "callSchedule": 8,
+        "physicalToll": 10,
+        "emotionalToll": 7,
+        "aiRiskNow": 5,
+        "aiRiskMedium": 7,
+        "aiRiskLong": 8,
+        "aiNarrative": "AI already auto-categorizes transactions and flags errors, so routine bookkeeping jobs are shrinking. But accountants who can interpret results and advise clients will stay valuable."
+      },
+      "scores": {
+        "category_1": 7.5,
+        "category_2": 8.33,
+        "category_3": 7.33,
+        "category_4": 8.67,
+        "category_5": 6.01,
+        "category_6": 6.86,
+        "category_7": 4.78,
+        "category_8": 5.88,
+        "category_9": 6.1,
+        "category_10": 6.6,
+        "category_11": 4.8,
+        "category_12": 4.5,
+        "category_13": 5.25,
+        "category_14": 9.07
+      },
+      "scenario_totals": {
+        "default": 6.61,
+        "equal_weight": 6.56,
+        "max_earnings": 6.0,
+        "best_lifestyle": 6.29,
+        "fastest_to_practice": 6.96,
+        "most_procedural": 6.22
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 22,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 0,
+        "trainee_salary": 0,
+        "education_debt": 30,
+        "loan_rate": 5.5,
+        "living_expenses": 42,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 22,
+        "starting_salary": 52,
+        "mid_salary": 72,
+        "peak_salary": 100,
+        "typical_peak": 80,
+        "malpractice_per_yr": 1
+      },
+      "stress": {
+        "ai": 3,
+        "pay": 5,
+        "injury": 8,
+        "match": 7
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          22
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 22,
+        "startSalary": 52
+      }
+    },
+    {
+      "name": "Internal Auditor",
+      "key": "internal_auditor",
+      "profession": "BBA",
+      "group": "accounting_tax",
+      "color": "#8933d8",
+      "path": "BBA Graduate",
+      "raw_data": {
+        "startSalary": 55,
+        "midSalary": 80,
+        "peakSalary": 120,
+        "typicalPeak": 95,
+        "hoursWeek": 42,
+        "burnout": 28,
+        "satisfaction": 65,
+        "chooseAgain": 60,
+        "malpracticeCost": 1,
+        "vacation": 4,
+        "matchComp": 6,
+        "annualSpots": 45000,
+        "oneInX": 9,
+        "callSchedule": 8,
+        "physicalToll": 10,
+        "emotionalToll": 6,
+        "aiRiskNow": 4,
+        "aiRiskMedium": 6,
+        "aiRiskLong": 7,
+        "aiNarrative": "AI can scan thousands of transactions for anomalies in seconds, making auditors faster \u2014 but someone still needs to investigate findings, interview employees, and judge whether a risk is real."
+      },
+      "scores": {
+        "category_1": 7.5,
+        "category_2": 7.67,
+        "category_3": 7.33,
+        "category_4": 8.67,
+        "category_5": 6.06,
+        "category_6": 6.71,
+        "category_7": 4.8,
+        "category_8": 6.03,
+        "category_9": 6.54,
+        "category_10": 6.4,
+        "category_11": 4.6,
+        "category_12": 5.17,
+        "category_13": 5.25,
+        "category_14": 8.93
+      },
+      "scenario_totals": {
+        "default": 6.64,
+        "equal_weight": 6.56,
+        "max_earnings": 6.02,
+        "best_lifestyle": 6.41,
+        "fastest_to_practice": 6.92,
+        "most_procedural": 6.3
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 22,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 0,
+        "trainee_salary": 0,
+        "education_debt": 30,
+        "loan_rate": 5.5,
+        "living_expenses": 42,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 22,
+        "starting_salary": 55,
+        "mid_salary": 80,
+        "peak_salary": 120,
+        "typical_peak": 95,
+        "malpractice_per_yr": 1
+      },
+      "stress": {
+        "ai": 4,
+        "pay": 5,
+        "injury": 7,
+        "match": 8
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          22
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 22,
+        "startSalary": 55
+      }
+    },
+    {
+      "name": "Tax Preparer",
+      "key": "tax_preparer",
+      "profession": "BBA",
+      "group": "accounting_tax",
+      "color": "#a220d8",
+      "path": "BBA Graduate",
+      "raw_data": {
+        "startSalary": 40,
+        "midSalary": 60,
+        "peakSalary": 85,
+        "typicalPeak": 65,
+        "hoursWeek": 50,
+        "burnout": 35,
+        "satisfaction": 58,
+        "chooseAgain": 52,
+        "malpracticeCost": 2,
+        "vacation": 3,
+        "matchComp": 7,
+        "annualSpots": 75000,
+        "oneInX": 5,
+        "callSchedule": 8,
+        "physicalToll": 10,
+        "emotionalToll": 6,
+        "aiRiskNow": 6,
+        "aiRiskMedium": 7,
+        "aiRiskLong": 8,
+        "aiNarrative": "TurboTax and AI tax software handle simple returns already. But complex situations \u2014 small businesses, rental properties, estate planning \u2014 still need a human who understands the tax code."
+      },
+      "scores": {
+        "category_1": 7.5,
+        "category_2": 8.0,
+        "category_3": 7.33,
+        "category_4": 8.67,
+        "category_5": 5.9,
+        "category_6": 7.14,
+        "category_7": 4.78,
+        "category_8": 5.85,
+        "category_9": 6.28,
+        "category_10": 6.6,
+        "category_11": 5.0,
+        "category_12": 4.33,
+        "category_13": 5.25,
+        "category_14": 8.59
+      },
+      "scenario_totals": {
+        "default": 6.59,
+        "equal_weight": 6.52,
+        "max_earnings": 5.99,
+        "best_lifestyle": 6.29,
+        "fastest_to_practice": 6.91,
+        "most_procedural": 6.22
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 22,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 0,
+        "trainee_salary": 0,
+        "education_debt": 30,
+        "loan_rate": 5.5,
+        "living_expenses": 42,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 22,
+        "starting_salary": 40,
+        "mid_salary": 60,
+        "peak_salary": 85,
+        "typical_peak": 65,
+        "malpractice_per_yr": 2
+      },
+      "stress": {
+        "ai": 4,
+        "pay": 5,
+        "injury": 8,
+        "match": 7
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          22
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 22,
+        "startSalary": 40
+      }
+    },
+    {
+      "name": "Payroll Specialist",
+      "key": "payroll_specialist",
+      "profession": "BBA",
+      "group": "accounting_tax",
+      "color": "#c320d8",
+      "path": "BBA Graduate",
+      "raw_data": {
+        "startSalary": 42,
+        "midSalary": 58,
+        "peakSalary": 78,
+        "typicalPeak": 62,
+        "hoursWeek": 40,
+        "burnout": 22,
+        "satisfaction": 63,
+        "chooseAgain": 58,
+        "malpracticeCost": 1,
+        "vacation": 3,
+        "matchComp": 7,
+        "annualSpots": 60000,
+        "oneInX": 6,
+        "callSchedule": 8,
+        "physicalToll": 10,
+        "emotionalToll": 7,
+        "aiRiskNow": 6,
+        "aiRiskMedium": 7,
+        "aiRiskLong": 8,
+        "aiNarrative": "Payroll software already automates most calculations and filings. The role is shifting toward managing the system, handling exceptions, and ensuring compliance rather than manual processing."
+      },
+      "scores": {
+        "category_1": 7.5,
+        "category_2": 8.0,
+        "category_3": 7.33,
+        "category_4": 8.67,
+        "category_5": 5.91,
+        "category_6": 6.86,
+        "category_7": 4.75,
+        "category_8": 6.4,
+        "category_9": 6.78,
+        "category_10": 6.6,
+        "category_11": 5.0,
+        "category_12": 4.37,
+        "category_13": 5.25,
+        "category_14": 9.07
+      },
+      "scenario_totals": {
+        "default": 6.69,
+        "equal_weight": 6.62,
+        "max_earnings": 6.03,
+        "best_lifestyle": 6.46,
+        "fastest_to_practice": 6.96,
+        "most_procedural": 6.33
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 22,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 0,
+        "trainee_salary": 0,
+        "education_debt": 30,
+        "loan_rate": 5.5,
+        "living_expenses": 42,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 22,
+        "starting_salary": 42,
+        "mid_salary": 58,
+        "peak_salary": 78,
+        "typical_peak": 62,
+        "malpractice_per_yr": 1
+      },
+      "stress": {
+        "ai": 2,
+        "pay": 5,
+        "injury": 8,
+        "match": 7
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          22
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 22,
+        "startSalary": 42
+      }
+    },
+    {
+      "name": "Insurance Agent",
+      "key": "insurance_agent",
+      "profession": "BBA",
+      "group": "insurance_risk",
+      "color": "#d833ce",
+      "path": "BBA Graduate",
+      "raw_data": {
+        "startSalary": 38,
+        "midSalary": 65,
+        "peakSalary": 120,
+        "typicalPeak": 75,
+        "hoursWeek": 45,
+        "burnout": 28,
+        "satisfaction": 62,
+        "chooseAgain": 58,
+        "malpracticeCost": 1,
+        "vacation": 3,
+        "matchComp": 7,
+        "annualSpots": 70000,
+        "oneInX": 6,
+        "callSchedule": 7,
+        "physicalToll": 9,
+        "emotionalToll": 6,
+        "aiRiskNow": 4,
+        "aiRiskMedium": 5,
+        "aiRiskLong": 6,
+        "aiNarrative": "Online quote tools handle simple policies, but when someone has a complicated situation \u2014 a business, rental properties, or a major life change \u2014 they still want a human to explain their options."
+      },
+      "scores": {
+        "category_1": 7.5,
+        "category_2": 8.0,
+        "category_3": 7.33,
+        "category_4": 8.33,
+        "category_5": 5.9,
+        "category_6": 7.14,
+        "category_7": 4.8,
+        "category_8": 6.12,
+        "category_9": 6.76,
+        "category_10": 6.2,
+        "category_11": 5.2,
+        "category_12": 5.17,
+        "category_13": 5.25,
+        "category_14": 8.79
+      },
+      "scenario_totals": {
+        "default": 6.71,
+        "equal_weight": 6.61,
+        "max_earnings": 6.04,
+        "best_lifestyle": 6.48,
+        "fastest_to_practice": 6.92,
+        "most_procedural": 6.4
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 22,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 0,
+        "trainee_salary": 0,
+        "education_debt": 30,
+        "loan_rate": 5.5,
+        "living_expenses": 42,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 22,
+        "starting_salary": 38,
+        "mid_salary": 65,
+        "peak_salary": 120,
+        "typical_peak": 75,
+        "malpractice_per_yr": 1
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 5,
+        "injury": 7,
+        "match": 7
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          22
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 22,
+        "startSalary": 38
+      }
+    },
+    {
+      "name": "Insurance Underwriter",
+      "key": "insurance_underwriter",
+      "profession": "BBA",
+      "group": "insurance_risk",
+      "color": "#d820ac",
+      "path": "BBA Graduate",
+      "raw_data": {
+        "startSalary": 55,
+        "midSalary": 80,
+        "peakSalary": 115,
+        "typicalPeak": 90,
+        "hoursWeek": 40,
+        "burnout": 22,
+        "satisfaction": 68,
+        "chooseAgain": 63,
+        "malpracticeCost": 1,
+        "vacation": 4,
+        "matchComp": 5,
+        "annualSpots": 25000,
+        "oneInX": 16,
+        "callSchedule": 8,
+        "physicalToll": 10,
+        "emotionalToll": 7,
+        "aiRiskNow": 5,
+        "aiRiskMedium": 7,
+        "aiRiskLong": 8,
+        "aiNarrative": "AI already handles auto-approval for simple policies. Underwriters are shifting to complex commercial and specialty lines where judgment and negotiation still matter."
+      },
+      "scores": {
+        "category_1": 7.5,
+        "category_2": 7.33,
+        "category_3": 7.33,
+        "category_4": 8.67,
+        "category_5": 6.06,
+        "category_6": 6.71,
+        "category_7": 4.8,
+        "category_8": 5.9,
+        "category_9": 6.84,
+        "category_10": 6.6,
+        "category_11": 4.8,
+        "category_12": 5.37,
+        "category_13": 5.25,
+        "category_14": 9.07
+      },
+      "scenario_totals": {
+        "default": 6.68,
+        "equal_weight": 6.6,
+        "max_earnings": 6.06,
+        "best_lifestyle": 6.48,
+        "fastest_to_practice": 6.92,
+        "most_procedural": 6.33
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 22,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 0,
+        "trainee_salary": 0,
+        "education_debt": 30,
+        "loan_rate": 5.5,
+        "living_expenses": 42,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 22,
+        "starting_salary": 55,
+        "mid_salary": 80,
+        "peak_salary": 115,
+        "typical_peak": 90,
+        "malpractice_per_yr": 1
+      },
+      "stress": {
+        "ai": 3,
+        "pay": 6,
+        "injury": 8,
+        "match": 8
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          22
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 22,
+        "startSalary": 55
+      }
+    },
+    {
+      "name": "Claims Adjuster",
+      "key": "claims_adjuster",
+      "profession": "BBA",
+      "group": "insurance_risk",
+      "color": "#d8208a",
+      "path": "BBA Graduate",
+      "raw_data": {
+        "startSalary": 45,
+        "midSalary": 65,
+        "peakSalary": 90,
+        "typicalPeak": 72,
+        "hoursWeek": 42,
+        "burnout": 35,
+        "satisfaction": 55,
+        "chooseAgain": 50,
+        "malpracticeCost": 2,
+        "vacation": 3,
+        "matchComp": 6,
+        "annualSpots": 50000,
+        "oneInX": 8,
+        "callSchedule": 6,
+        "physicalToll": 8,
+        "emotionalToll": 5,
+        "aiRiskNow": 4,
+        "aiRiskMedium": 6,
+        "aiRiskLong": 7,
+        "aiNarrative": "AI can estimate damage from photos and fast-track simple claims, but adjusters still handle disputes, investigate fraud, and deal with the human side of someone's worst day."
+      },
+      "scores": {
+        "category_1": 7.5,
+        "category_2": 7.67,
+        "category_3": 7.33,
+        "category_4": 8.0,
+        "category_5": 5.96,
+        "category_6": 6.71,
+        "category_7": 4.53,
+        "category_8": 6.78,
+        "category_9": 6.02,
+        "category_10": 6.2,
+        "category_11": 5.0,
+        "category_12": 4.67,
+        "category_13": 5.25,
+        "category_14": 8.16
+      },
+      "scenario_totals": {
+        "default": 6.49,
+        "equal_weight": 6.42,
+        "max_earnings": 5.88,
+        "best_lifestyle": 6.25,
+        "fastest_to_practice": 6.75,
+        "most_procedural": 6.29
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 22,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 0,
+        "trainee_salary": 0,
+        "education_debt": 30,
+        "loan_rate": 5.5,
+        "living_expenses": 42,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 22,
+        "starting_salary": 45,
+        "mid_salary": 65,
+        "peak_salary": 90,
+        "typical_peak": 72,
+        "malpractice_per_yr": 2
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 4,
+        "injury": 6,
+        "match": 8
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          22
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 22,
+        "startSalary": 45
+      }
+    },
+    {
+      "name": "Business Analyst",
+      "key": "business_analyst",
+      "profession": "BBA",
+      "group": "consulting_strategy",
+      "color": "#d83374",
+      "path": "BBA Graduate",
+      "raw_data": {
+        "startSalary": 60,
+        "midSalary": 90,
+        "peakSalary": 130,
+        "typicalPeak": 100,
+        "hoursWeek": 45,
+        "burnout": 28,
+        "satisfaction": 70,
+        "chooseAgain": 65,
+        "malpracticeCost": 0,
+        "vacation": 4,
+        "matchComp": 8,
+        "annualSpots": 90000,
+        "oneInX": 4,
+        "callSchedule": 7,
+        "physicalToll": 10,
+        "emotionalToll": 7,
+        "aiRiskNow": 4,
+        "aiRiskMedium": 6,
+        "aiRiskLong": 7,
+        "aiNarrative": "AI tools can pull data and generate dashboards automatically, but business analysts who can ask the right questions and translate data into action plans are more valuable than ever."
+      },
+      "scores": {
+        "category_1": 7.5,
+        "category_2": 8.33,
+        "category_3": 7.33,
+        "category_4": 8.33,
+        "category_5": 6.13,
+        "category_6": 6.86,
+        "category_7": 4.83,
+        "category_8": 5.62,
+        "category_9": 6.62,
+        "category_10": 6.8,
+        "category_11": 4.6,
+        "category_12": 6.0,
+        "category_13": 5.25,
+        "category_14": 9.43
+      },
+      "scenario_totals": {
+        "default": 6.76,
+        "equal_weight": 6.7,
+        "max_earnings": 6.13,
+        "best_lifestyle": 6.51,
+        "fastest_to_practice": 7.03,
+        "most_procedural": 6.42
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 22,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 0,
+        "trainee_salary": 0,
+        "education_debt": 30,
+        "loan_rate": 5.5,
+        "living_expenses": 42,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 22,
+        "starting_salary": 60,
+        "mid_salary": 90,
+        "peak_salary": 130,
+        "typical_peak": 100,
+        "malpractice_per_yr": 0
+      },
+      "stress": {
+        "ai": 4,
+        "pay": 6,
+        "injury": 8,
+        "match": 7
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          22
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 22,
+        "startSalary": 60
+      }
+    },
+    {
+      "name": "Marketing Coordinator",
+      "key": "marketing_coordinator",
+      "profession": "BBA",
+      "group": "marketing_sales",
+      "color": "#d82048",
+      "path": "BBA Graduate",
+      "raw_data": {
+        "startSalary": 42,
+        "midSalary": 62,
+        "peakSalary": 90,
+        "typicalPeak": 70,
+        "hoursWeek": 42,
+        "burnout": 25,
+        "satisfaction": 68,
+        "chooseAgain": 62,
+        "malpracticeCost": 0,
+        "vacation": 3,
+        "matchComp": 7,
+        "annualSpots": 80000,
+        "oneInX": 5,
+        "callSchedule": 8,
+        "physicalToll": 9,
+        "emotionalToll": 7,
+        "aiRiskNow": 4,
+        "aiRiskMedium": 6,
+        "aiRiskLong": 7,
+        "aiNarrative": "AI generates draft copy, schedules posts, and optimizes ad spend, but creative strategy and brand voice still need a human touch \u2014 someone who understands what will actually resonate."
+      },
+      "scores": {
+        "category_1": 7.5,
+        "category_2": 8.0,
+        "category_3": 7.33,
+        "category_4": 8.67,
+        "category_5": 5.91,
+        "category_6": 6.86,
+        "category_7": 4.53,
+        "category_8": 6.28,
+        "category_9": 6.58,
+        "category_10": 6.6,
+        "category_11": 4.8,
+        "category_12": 5.5,
+        "category_13": 5.25,
+        "category_14": 9.29
+      },
+      "scenario_totals": {
+        "default": 6.72,
+        "equal_weight": 6.66,
+        "max_earnings": 6.01,
+        "best_lifestyle": 6.49,
+        "fastest_to_practice": 6.99,
+        "most_procedural": 6.45
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 22,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 0,
+        "trainee_salary": 0,
+        "education_debt": 30,
+        "loan_rate": 5.5,
+        "living_expenses": 42,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 22,
+        "starting_salary": 42,
+        "mid_salary": 62,
+        "peak_salary": 90,
+        "typical_peak": 70,
+        "malpractice_per_yr": 0
+      },
+      "stress": {
+        "ai": 5,
+        "pay": 6,
+        "injury": 7,
+        "match": 7
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          22
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 22,
+        "startSalary": 42
+      }
+    },
+    {
+      "name": "Digital Marketing Specialist",
+      "key": "digital_marketing_specia",
+      "profession": "BBA",
+      "group": "marketing_sales",
+      "color": "#d82027",
+      "path": "BBA Graduate",
+      "raw_data": {
+        "startSalary": 48,
+        "midSalary": 75,
+        "peakSalary": 120,
+        "typicalPeak": 85,
+        "hoursWeek": 44,
+        "burnout": 28,
+        "satisfaction": 70,
+        "chooseAgain": 65,
+        "malpracticeCost": 0,
+        "vacation": 3,
+        "matchComp": 7,
+        "annualSpots": 65000,
+        "oneInX": 6,
+        "callSchedule": 8,
+        "physicalToll": 10,
+        "emotionalToll": 7,
+        "aiRiskNow": 5,
+        "aiRiskMedium": 6,
+        "aiRiskLong": 7,
+        "aiNarrative": "AI writes ad copy and A/B tests at scale, but digital marketers who understand strategy, audience psychology, and cross-channel orchestration are still essential."
+      },
+      "scores": {
+        "category_1": 7.5,
+        "category_2": 8.0,
+        "category_3": 7.33,
+        "category_4": 8.67,
+        "category_5": 6.0,
+        "category_6": 7.0,
+        "category_7": 4.55,
+        "category_8": 5.42,
+        "category_9": 6.6,
+        "category_10": 7.0,
+        "category_11": 4.6,
+        "category_12": 5.83,
+        "category_13": 5.25,
+        "category_14": 9.43
+      },
+      "scenario_totals": {
+        "default": 6.71,
+        "equal_weight": 6.67,
+        "max_earnings": 6.04,
+        "best_lifestyle": 6.46,
+        "fastest_to_practice": 7.02,
+        "most_procedural": 6.37
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 22,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 0,
+        "trainee_salary": 0,
+        "education_debt": 30,
+        "loan_rate": 5.5,
+        "living_expenses": 42,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 22,
+        "starting_salary": 48,
+        "mid_salary": 75,
+        "peak_salary": 120,
+        "typical_peak": 85,
+        "malpractice_per_yr": 0
+      },
+      "stress": {
+        "ai": 4,
+        "pay": 7,
+        "injury": 8,
+        "match": 7
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          22
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 22,
+        "startSalary": 48
+      }
+    },
+    {
+      "name": "Social Media Manager",
+      "key": "social_media_manager",
+      "profession": "BBA",
+      "group": "marketing_sales",
+      "color": "#d84a33",
+      "path": "BBA Graduate",
+      "raw_data": {
+        "startSalary": 45,
+        "midSalary": 68,
+        "peakSalary": 100,
+        "typicalPeak": 78,
+        "hoursWeek": 44,
+        "burnout": 30,
+        "satisfaction": 68,
+        "chooseAgain": 62,
+        "malpracticeCost": 0,
+        "vacation": 3,
+        "matchComp": 7,
+        "annualSpots": 55000,
+        "oneInX": 7,
+        "callSchedule": 6,
+        "physicalToll": 10,
+        "emotionalToll": 6,
+        "aiRiskNow": 5,
+        "aiRiskMedium": 6,
+        "aiRiskLong": 6,
+        "aiNarrative": "AI generates captions and suggests posting times, but social media is about culture and vibes \u2014 understanding what's trending and creating content that feels authentic requires a human."
+      },
+      "scores": {
+        "category_1": 7.5,
+        "category_2": 8.0,
+        "category_3": 7.33,
+        "category_4": 8.0,
+        "category_5": 5.97,
+        "category_6": 7.0,
+        "category_7": 4.28,
+        "category_8": 5.67,
+        "category_9": 6.52,
+        "category_10": 7.0,
+        "category_11": 4.6,
+        "category_12": 5.5,
+        "category_13": 5.25,
+        "category_14": 9.29
+      },
+      "scenario_totals": {
+        "default": 6.6,
+        "equal_weight": 6.58,
+        "max_earnings": 5.93,
+        "best_lifestyle": 6.36,
+        "fastest_to_practice": 6.88,
+        "most_procedural": 6.31
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 22,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 0,
+        "trainee_salary": 0,
+        "education_debt": 30,
+        "loan_rate": 5.5,
+        "living_expenses": 42,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 22,
+        "starting_salary": 45,
+        "mid_salary": 68,
+        "peak_salary": 100,
+        "typical_peak": 78,
+        "malpractice_per_yr": 0
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 7,
+        "injury": 7,
+        "match": 7
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          22
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 22,
+        "startSalary": 45
+      }
+    },
+    {
+      "name": "Market Research Analyst",
+      "key": "market_research_analyst",
+      "profession": "BBA",
+      "group": "marketing_sales",
+      "color": "#d85b20",
+      "path": "BBA Graduate",
+      "raw_data": {
+        "startSalary": 50,
+        "midSalary": 75,
+        "peakSalary": 110,
+        "typicalPeak": 85,
+        "hoursWeek": 42,
+        "burnout": 22,
+        "satisfaction": 70,
+        "chooseAgain": 65,
+        "malpracticeCost": 0,
+        "vacation": 4,
+        "matchComp": 6,
+        "annualSpots": 50000,
+        "oneInX": 8,
+        "callSchedule": 8,
+        "physicalToll": 10,
+        "emotionalToll": 8,
+        "aiRiskNow": 5,
+        "aiRiskMedium": 7,
+        "aiRiskLong": 8,
+        "aiNarrative": "AI can survey thousands of people and crunch data instantly, but interpreting why consumers behave a certain way and turning that into business strategy still requires human insight."
+      },
+      "scores": {
+        "category_1": 7.5,
+        "category_2": 7.67,
+        "category_3": 7.33,
+        "category_4": 8.67,
+        "category_5": 6.01,
+        "category_6": 6.86,
+        "category_7": 4.8,
+        "category_8": 5.78,
+        "category_9": 6.94,
+        "category_10": 6.8,
+        "category_11": 4.8,
+        "category_12": 5.83,
+        "category_13": 5.25,
+        "category_14": 9.57
+      },
+      "scenario_totals": {
+        "default": 6.78,
+        "equal_weight": 6.71,
+        "max_earnings": 6.12,
+        "best_lifestyle": 6.57,
+        "fastest_to_practice": 7.01,
+        "most_procedural": 6.43
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 22,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 0,
+        "trainee_salary": 0,
+        "education_debt": 30,
+        "loan_rate": 5.5,
+        "living_expenses": 42,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 22,
+        "starting_salary": 50,
+        "mid_salary": 75,
+        "peak_salary": 110,
+        "typical_peak": 85,
+        "malpractice_per_yr": 0
+      },
+      "stress": {
+        "ai": 4,
+        "pay": 6,
+        "injury": 8,
+        "match": 8
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          22
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 22,
+        "startSalary": 50
+      }
+    },
+    {
+      "name": "Sales Representative (B2B)",
+      "key": "sales_representative_b2b",
+      "profession": "BBA",
+      "group": "marketing_sales",
+      "color": "#d87d20",
+      "path": "BBA Graduate",
+      "raw_data": {
+        "startSalary": 50,
+        "midSalary": 85,
+        "peakSalary": 150,
+        "typicalPeak": 100,
+        "hoursWeek": 48,
+        "burnout": 35,
+        "satisfaction": 62,
+        "chooseAgain": 58,
+        "malpracticeCost": 0,
+        "vacation": 3,
+        "matchComp": 8,
+        "annualSpots": 150000,
+        "oneInX": 3,
+        "callSchedule": 6,
+        "physicalToll": 8,
+        "emotionalToll": 5,
+        "aiRiskNow": 3,
+        "aiRiskMedium": 4,
+        "aiRiskLong": 5,
+        "aiNarrative": "AI handles lead scoring and email sequences, but closing a deal still comes down to reading the room, building trust, and solving problems in real-time conversations."
+      },
+      "scores": {
+        "category_1": 7.5,
+        "category_2": 8.33,
+        "category_3": 7.33,
+        "category_4": 8.0,
+        "category_5": 6.04,
+        "category_6": 6.86,
+        "category_7": 4.6,
+        "category_8": 5.97,
+        "category_9": 5.98,
+        "category_10": 6.2,
+        "category_11": 5.2,
+        "category_12": 5.17,
+        "category_13": 5.25,
+        "category_14": 8.86
+      },
+      "scenario_totals": {
+        "default": 6.58,
+        "equal_weight": 6.53,
+        "max_earnings": 5.95,
+        "best_lifestyle": 6.27,
+        "fastest_to_practice": 6.87,
+        "most_procedural": 6.29
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 22,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 0,
+        "trainee_salary": 0,
+        "education_debt": 30,
+        "loan_rate": 5.5,
+        "living_expenses": 42,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 22,
+        "starting_salary": 50,
+        "mid_salary": 85,
+        "peak_salary": 150,
+        "typical_peak": 100,
+        "malpractice_per_yr": 0
+      },
+      "stress": {
+        "ai": 7,
+        "pay": 5,
+        "injury": 6,
+        "match": 7
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          22
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 22,
+        "startSalary": 50
+      }
+    },
+    {
+      "name": "Sales Representative (Tech/SaaS)",
+      "key": "sales_representative_tec",
+      "profession": "BBA",
+      "group": "marketing_sales",
+      "color": "#d8a433",
+      "path": "BBA Graduate",
+      "raw_data": {
+        "startSalary": 55,
+        "midSalary": 100,
+        "peakSalary": 200,
+        "typicalPeak": 130,
+        "hoursWeek": 50,
+        "burnout": 35,
+        "satisfaction": 65,
+        "chooseAgain": 60,
+        "malpracticeCost": 0,
+        "vacation": 4,
+        "matchComp": 7,
+        "annualSpots": 60000,
+        "oneInX": 6,
+        "callSchedule": 6,
+        "physicalToll": 9,
+        "emotionalToll": 5,
+        "aiRiskNow": 3,
+        "aiRiskMedium": 5,
+        "aiRiskLong": 5,
+        "aiNarrative": "AI automates outreach and personalizes demos, but enterprise software deals worth millions still require a human who can navigate complex buying committees and build executive relationships."
+      },
+      "scores": {
+        "category_1": 7.5,
+        "category_2": 8.0,
+        "category_3": 7.33,
+        "category_4": 8.0,
+        "category_5": 6.11,
+        "category_6": 6.71,
+        "category_7": 4.4,
+        "category_8": 5.35,
+        "category_9": 5.74,
+        "category_10": 6.6,
+        "category_11": 5.0,
+        "category_12": 5.5,
+        "category_13": 5.25,
+        "category_14": 9.0
+      },
+      "scenario_totals": {
+        "default": 6.5,
+        "equal_weight": 6.48,
+        "max_earnings": 5.89,
+        "best_lifestyle": 6.16,
+        "fastest_to_practice": 6.83,
+        "most_procedural": 6.17
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 22,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 0,
+        "trainee_salary": 0,
+        "education_debt": 30,
+        "loan_rate": 5.5,
+        "living_expenses": 42,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 22,
+        "starting_salary": 55,
+        "mid_salary": 100,
+        "peak_salary": 200,
+        "typical_peak": 130,
+        "malpractice_per_yr": 0
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 6,
+        "injury": 6,
+        "match": 7
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          22
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 22,
+        "startSalary": 55
+      }
+    },
+    {
+      "name": "Advertising Account Executive",
+      "key": "advertising_account_exec",
+      "profession": "BBA",
+      "group": "marketing_sales",
+      "color": "#d8bf20",
+      "path": "BBA Graduate",
+      "raw_data": {
+        "startSalary": 45,
+        "midSalary": 72,
+        "peakSalary": 110,
+        "typicalPeak": 82,
+        "hoursWeek": 48,
+        "burnout": 35,
+        "satisfaction": 62,
+        "chooseAgain": 58,
+        "malpracticeCost": 0,
+        "vacation": 3,
+        "matchComp": 6,
+        "annualSpots": 45000,
+        "oneInX": 9,
+        "callSchedule": 7,
+        "physicalToll": 9,
+        "emotionalToll": 5,
+        "aiRiskNow": 3,
+        "aiRiskMedium": 5,
+        "aiRiskLong": 6,
+        "aiNarrative": "AI generates ad variations and optimizes placements, but the creative vision and client relationship management that define great advertising campaigns still need humans."
+      },
+      "scores": {
+        "category_1": 7.5,
+        "category_2": 7.67,
+        "category_3": 7.33,
+        "category_4": 8.33,
+        "category_5": 5.97,
+        "category_6": 6.71,
+        "category_7": 4.55,
+        "category_8": 5.72,
+        "category_9": 5.78,
+        "category_10": 6.2,
+        "category_11": 4.8,
+        "category_12": 5.17,
+        "category_13": 5.25,
+        "category_14": 9.0
+      },
+      "scenario_totals": {
+        "default": 6.48,
+        "equal_weight": 6.44,
+        "max_earnings": 5.87,
+        "best_lifestyle": 6.16,
+        "fastest_to_practice": 6.8,
+        "most_procedural": 6.17
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 22,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 0,
+        "trainee_salary": 0,
+        "education_debt": 30,
+        "loan_rate": 5.5,
+        "living_expenses": 42,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 22,
+        "starting_salary": 45,
+        "mid_salary": 72,
+        "peak_salary": 110,
+        "typical_peak": 82,
+        "malpractice_per_yr": 0
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 5,
+        "injury": 6,
+        "match": 8
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          22
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 22,
+        "startSalary": 45
+      }
+    },
+    {
+      "name": "Public Relations Specialist",
+      "key": "public_relations_special",
+      "profession": "BBA",
+      "group": "marketing_sales",
+      "color": "#d0d820",
+      "path": "BBA Graduate",
+      "raw_data": {
+        "startSalary": 42,
+        "midSalary": 68,
+        "peakSalary": 105,
+        "typicalPeak": 78,
+        "hoursWeek": 45,
+        "burnout": 30,
+        "satisfaction": 65,
+        "chooseAgain": 60,
+        "malpracticeCost": 0,
+        "vacation": 3,
+        "matchComp": 6,
+        "annualSpots": 40000,
+        "oneInX": 10,
+        "callSchedule": 5,
+        "physicalToll": 9,
+        "emotionalToll": 5,
+        "aiRiskNow": 3,
+        "aiRiskMedium": 5,
+        "aiRiskLong": 5,
+        "aiNarrative": "AI drafts press releases and monitors media, but managing a brand's reputation during a crisis \u2014 knowing who to call, what to say, and when \u2014 still takes human instinct."
+      },
+      "scores": {
+        "category_1": 7.5,
+        "category_2": 7.67,
+        "category_3": 7.33,
+        "category_4": 7.67,
+        "category_5": 5.94,
+        "category_6": 6.86,
+        "category_7": 4.55,
+        "category_8": 5.88,
+        "category_9": 6.28,
+        "category_10": 6.6,
+        "category_11": 4.8,
+        "category_12": 5.33,
+        "category_13": 5.25,
+        "category_14": 9.0
+      },
+      "scenario_totals": {
+        "default": 6.53,
+        "equal_weight": 6.49,
+        "max_earnings": 5.91,
+        "best_lifestyle": 6.27,
+        "fastest_to_practice": 6.76,
+        "most_procedural": 6.26
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 22,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 0,
+        "trainee_salary": 0,
+        "education_debt": 30,
+        "loan_rate": 5.5,
+        "living_expenses": 42,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 22,
+        "starting_salary": 42,
+        "mid_salary": 68,
+        "peak_salary": 105,
+        "typical_peak": 78,
+        "malpractice_per_yr": 0
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 6,
+        "injury": 7,
+        "match": 8
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          22
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 22,
+        "startSalary": 42
+      }
+    },
+    {
+      "name": "Supply Chain Coordinator",
+      "key": "supply_chain_coordinator",
+      "profession": "BBA",
+      "group": "operations_supply",
+      "color": "#b3d833",
+      "path": "BBA Graduate",
+      "raw_data": {
+        "startSalary": 48,
+        "midSalary": 72,
+        "peakSalary": 105,
+        "typicalPeak": 82,
+        "hoursWeek": 44,
+        "burnout": 25,
+        "satisfaction": 65,
+        "chooseAgain": 60,
+        "malpracticeCost": 0,
+        "vacation": 3,
+        "matchComp": 7,
+        "annualSpots": 55000,
+        "oneInX": 7,
+        "callSchedule": 7,
+        "physicalToll": 8,
+        "emotionalToll": 7,
+        "aiRiskNow": 4,
+        "aiRiskMedium": 6,
+        "aiRiskLong": 7,
+        "aiNarrative": "AI predicts demand and optimizes shipping routes, but when a container ship gets stuck or a supplier goes bankrupt, you need a person who can scramble and find solutions fast."
+      },
+      "scores": {
+        "category_1": 7.5,
+        "category_2": 8.0,
+        "category_3": 7.33,
+        "category_4": 8.33,
+        "category_5": 5.99,
+        "category_6": 6.71,
+        "category_7": 4.8,
+        "category_8": 6.17,
+        "category_9": 6.3,
+        "category_10": 6.2,
+        "category_11": 5.0,
+        "category_12": 5.17,
+        "category_13": 5.25,
+        "category_14": 9.14
+      },
+      "scenario_totals": {
+        "default": 6.64,
+        "equal_weight": 6.58,
+        "max_earnings": 6.0,
+        "best_lifestyle": 6.37,
+        "fastest_to_practice": 6.9,
+        "most_procedural": 6.33
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 22,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 0,
+        "trainee_salary": 0,
+        "education_debt": 30,
+        "loan_rate": 5.5,
+        "living_expenses": 42,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 22,
+        "starting_salary": 48,
+        "mid_salary": 72,
+        "peak_salary": 105,
+        "typical_peak": 82,
+        "malpractice_per_yr": 0
+      },
+      "stress": {
+        "ai": 4,
+        "pay": 5,
+        "injury": 7,
+        "match": 7
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          22
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 22,
+        "startSalary": 48
+      }
+    },
+    {
+      "name": "Logistics Analyst",
+      "key": "logistics_analyst",
+      "profession": "BBA",
+      "group": "operations_supply",
+      "color": "#8ed820",
+      "path": "BBA Graduate",
+      "raw_data": {
+        "startSalary": 50,
+        "midSalary": 75,
+        "peakSalary": 110,
+        "typicalPeak": 85,
+        "hoursWeek": 44,
+        "burnout": 22,
+        "satisfaction": 65,
+        "chooseAgain": 60,
+        "malpracticeCost": 0,
+        "vacation": 3,
+        "matchComp": 6,
+        "annualSpots": 40000,
+        "oneInX": 10,
+        "callSchedule": 7,
+        "physicalToll": 9,
+        "emotionalToll": 8,
+        "aiRiskNow": 5,
+        "aiRiskMedium": 6,
+        "aiRiskLong": 7,
+        "aiNarrative": "AI optimizes routing and forecasts demand patterns, making logistics analysts more productive \u2014 but someone still needs to design the system, handle exceptions, and manage carrier relationships."
+      },
+      "scores": {
+        "category_1": 7.5,
+        "category_2": 7.67,
+        "category_3": 7.33,
+        "category_4": 8.33,
+        "category_5": 6.01,
+        "category_6": 6.86,
+        "category_7": 4.8,
+        "category_8": 5.67,
+        "category_9": 6.6,
+        "category_10": 6.4,
+        "category_11": 4.8,
+        "category_12": 5.17,
+        "category_13": 5.25,
+        "category_14": 9.43
+      },
+      "scenario_totals": {
+        "default": 6.63,
+        "equal_weight": 6.57,
+        "max_earnings": 6.01,
+        "best_lifestyle": 6.37,
+        "fastest_to_practice": 6.88,
+        "most_procedural": 6.26
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 22,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 0,
+        "trainee_salary": 0,
+        "education_debt": 30,
+        "loan_rate": 5.5,
+        "living_expenses": 42,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 22,
+        "starting_salary": 50,
+        "mid_salary": 75,
+        "peak_salary": 110,
+        "typical_peak": 85,
+        "malpractice_per_yr": 0
+      },
+      "stress": {
+        "ai": 4,
+        "pay": 5,
+        "injury": 8,
+        "match": 8
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          22
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 22,
+        "startSalary": 50
+      }
+    },
+    {
+      "name": "Procurement Specialist",
+      "key": "procurement_specialist",
+      "profession": "BBA",
+      "group": "operations_supply",
+      "color": "#6dd820",
+      "path": "BBA Graduate",
+      "raw_data": {
+        "startSalary": 50,
+        "midSalary": 78,
+        "peakSalary": 115,
+        "typicalPeak": 88,
+        "hoursWeek": 42,
+        "burnout": 22,
+        "satisfaction": 67,
+        "chooseAgain": 62,
+        "malpracticeCost": 0,
+        "vacation": 4,
+        "matchComp": 6,
+        "annualSpots": 45000,
+        "oneInX": 9,
+        "callSchedule": 8,
+        "physicalToll": 10,
+        "emotionalToll": 7,
+        "aiRiskNow": 4,
+        "aiRiskMedium": 5,
+        "aiRiskLong": 6,
+        "aiNarrative": "AI compares prices and flags contract renewals automatically, but negotiating a multi-year deal, evaluating supplier quality, and managing vendor relationships still require human skills."
+      },
+      "scores": {
+        "category_1": 7.5,
+        "category_2": 7.67,
+        "category_3": 7.33,
+        "category_4": 8.67,
+        "category_5": 6.03,
+        "category_6": 6.71,
+        "category_7": 4.8,
+        "category_8": 6.03,
+        "category_9": 6.74,
+        "category_10": 6.4,
+        "category_11": 4.8,
+        "category_12": 5.3,
+        "category_13": 5.25,
+        "category_14": 9.43
+      },
+      "scenario_totals": {
+        "default": 6.7,
+        "equal_weight": 6.63,
+        "max_earnings": 6.05,
+        "best_lifestyle": 6.48,
+        "fastest_to_practice": 6.96,
+        "most_procedural": 6.35
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 22,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 0,
+        "trainee_salary": 0,
+        "education_debt": 30,
+        "loan_rate": 5.5,
+        "living_expenses": 42,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 22,
+        "starting_salary": 50,
+        "mid_salary": 78,
+        "peak_salary": 115,
+        "typical_peak": 88,
+        "malpractice_per_yr": 0
+      },
+      "stress": {
+        "ai": 5,
+        "pay": 5,
+        "injury": 7,
+        "match": 8
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          22
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 22,
+        "startSalary": 50
+      }
+    },
+    {
+      "name": "Operations Analyst",
+      "key": "operations_analyst",
+      "profession": "BBA",
+      "group": "operations_supply",
+      "color": "#5ad833",
+      "path": "BBA Graduate",
+      "raw_data": {
+        "startSalary": 55,
+        "midSalary": 82,
+        "peakSalary": 120,
+        "typicalPeak": 95,
+        "hoursWeek": 44,
+        "burnout": 25,
+        "satisfaction": 68,
+        "chooseAgain": 63,
+        "malpracticeCost": 0,
+        "vacation": 4,
+        "matchComp": 7,
+        "annualSpots": 55000,
+        "oneInX": 7,
+        "callSchedule": 8,
+        "physicalToll": 10,
+        "emotionalToll": 7,
+        "aiRiskNow": 4,
+        "aiRiskMedium": 6,
+        "aiRiskLong": 7,
+        "aiNarrative": "AI spots inefficiencies in processes and predicts bottlenecks, but operations analysts who can redesign workflows and get teams to actually change how they work are irreplaceable."
+      },
+      "scores": {
+        "category_1": 7.5,
+        "category_2": 8.0,
+        "category_3": 7.33,
+        "category_4": 8.67,
+        "category_5": 6.06,
+        "category_6": 6.86,
+        "category_7": 4.8,
+        "category_8": 5.67,
+        "category_9": 6.76,
+        "category_10": 6.6,
+        "category_11": 4.6,
+        "category_12": 5.7,
+        "category_13": 5.25,
+        "category_14": 9.43
+      },
+      "scenario_totals": {
+        "default": 6.74,
+        "equal_weight": 6.67,
+        "max_earnings": 6.09,
+        "best_lifestyle": 6.5,
+        "fastest_to_practice": 7.02,
+        "most_procedural": 6.38
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 22,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 0,
+        "trainee_salary": 0,
+        "education_debt": 30,
+        "loan_rate": 5.5,
+        "living_expenses": 42,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 22,
+        "starting_salary": 55,
+        "mid_salary": 82,
+        "peak_salary": 120,
+        "typical_peak": 95,
+        "malpractice_per_yr": 0
+      },
+      "stress": {
+        "ai": 4,
+        "pay": 6,
+        "injury": 8,
+        "match": 7
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          22
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 22,
+        "startSalary": 55
+      }
+    },
+    {
+      "name": "Project Coordinator",
+      "key": "project_coordinator",
+      "profession": "BBA",
+      "group": "operations_supply",
+      "color": "#2bd820",
+      "path": "BBA Graduate",
+      "raw_data": {
+        "startSalary": 48,
+        "midSalary": 72,
+        "peakSalary": 105,
+        "typicalPeak": 82,
+        "hoursWeek": 44,
+        "burnout": 28,
+        "satisfaction": 65,
+        "chooseAgain": 60,
+        "malpracticeCost": 0,
+        "vacation": 3,
+        "matchComp": 7,
+        "annualSpots": 70000,
+        "oneInX": 6,
+        "callSchedule": 7,
+        "physicalToll": 10,
+        "emotionalToll": 6,
+        "aiRiskNow": 3,
+        "aiRiskMedium": 5,
+        "aiRiskLong": 6,
+        "aiNarrative": "AI can auto-generate project timelines and flag risks, but keeping a team aligned, resolving conflicts, and adapting when plans go sideways still takes a real person."
+      },
+      "scores": {
+        "category_1": 7.5,
+        "category_2": 8.0,
+        "category_3": 7.33,
+        "category_4": 8.33,
+        "category_5": 5.99,
+        "category_6": 6.86,
+        "category_7": 4.55,
+        "category_8": 6.42,
+        "category_9": 6.4,
+        "category_10": 6.6,
+        "category_11": 4.6,
+        "category_12": 5.33,
+        "category_13": 5.25,
+        "category_14": 9.29
+      },
+      "scenario_totals": {
+        "default": 6.67,
+        "equal_weight": 6.62,
+        "max_earnings": 5.99,
+        "best_lifestyle": 6.43,
+        "fastest_to_practice": 6.93,
+        "most_procedural": 6.42
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 22,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 0,
+        "trainee_salary": 0,
+        "education_debt": 30,
+        "loan_rate": 5.5,
+        "living_expenses": 42,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 22,
+        "starting_salary": 48,
+        "mid_salary": 72,
+        "peak_salary": 105,
+        "typical_peak": 82,
+        "malpractice_per_yr": 0
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 5,
+        "injury": 7,
+        "match": 7
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          22
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 22,
+        "startSalary": 48
+      }
+    },
+    {
+      "name": "HR Generalist",
+      "key": "hr_generalist",
+      "profession": "BBA",
+      "group": "people_culture",
+      "color": "#20d837",
+      "path": "BBA Graduate",
+      "raw_data": {
+        "startSalary": 50,
+        "midSalary": 72,
+        "peakSalary": 100,
+        "typicalPeak": 80,
+        "hoursWeek": 42,
+        "burnout": 28,
+        "satisfaction": 67,
+        "chooseAgain": 62,
+        "malpracticeCost": 1,
+        "vacation": 4,
+        "matchComp": 7,
+        "annualSpots": 65000,
+        "oneInX": 6,
+        "callSchedule": 7,
+        "physicalToll": 10,
+        "emotionalToll": 5,
+        "aiRiskNow": 4,
+        "aiRiskMedium": 5,
+        "aiRiskLong": 6,
+        "aiNarrative": "AI automates onboarding paperwork and answers benefits questions, but navigating workplace conflicts, supporting employees through tough times, and building company culture needs a human."
+      },
+      "scores": {
+        "category_1": 7.5,
+        "category_2": 8.0,
+        "category_3": 7.33,
+        "category_4": 8.33,
+        "category_5": 6.0,
+        "category_6": 6.86,
+        "category_7": 4.78,
+        "category_8": 6.53,
+        "category_9": 6.74,
+        "category_10": 6.4,
+        "category_11": 5.0,
+        "category_12": 5.63,
+        "category_13": 5.25,
+        "category_14": 8.79
+      },
+      "scenario_totals": {
+        "default": 6.75,
+        "equal_weight": 6.66,
+        "max_earnings": 6.09,
+        "best_lifestyle": 6.56,
+        "fastest_to_practice": 6.96,
+        "most_procedural": 6.52
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 22,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 0,
+        "trainee_salary": 0,
+        "education_debt": 30,
+        "loan_rate": 5.5,
+        "living_expenses": 42,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 22,
+        "starting_salary": 50,
+        "mid_salary": 72,
+        "peak_salary": 100,
+        "typical_peak": 80,
+        "malpractice_per_yr": 1
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 5,
+        "injury": 7,
+        "match": 7
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          22
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 22,
+        "startSalary": 50
+      }
+    },
+    {
+      "name": "Recruiter / Talent Acquisition",
+      "key": "recruiter_talent_acquisi",
+      "profession": "BBA",
+      "group": "people_culture",
+      "color": "#33d865",
+      "path": "BBA Graduate",
+      "raw_data": {
+        "startSalary": 48,
+        "midSalary": 72,
+        "peakSalary": 110,
+        "typicalPeak": 82,
+        "hoursWeek": 45,
+        "burnout": 32,
+        "satisfaction": 65,
+        "chooseAgain": 60,
+        "malpracticeCost": 0,
+        "vacation": 3,
+        "matchComp": 7,
+        "annualSpots": 55000,
+        "oneInX": 7,
+        "callSchedule": 7,
+        "physicalToll": 10,
+        "emotionalToll": 5,
+        "aiRiskNow": 4,
+        "aiRiskMedium": 6,
+        "aiRiskLong": 6,
+        "aiNarrative": "AI screens resumes and schedules interviews, but convincing top talent to join your company, reading candidates in interviews, and negotiating offers are deeply human skills."
+      },
+      "scores": {
+        "category_1": 7.5,
+        "category_2": 8.0,
+        "category_3": 7.33,
+        "category_4": 8.33,
+        "category_5": 5.99,
+        "category_6": 7.0,
+        "category_7": 4.55,
+        "category_8": 6.12,
+        "category_9": 6.4,
+        "category_10": 6.6,
+        "category_11": 5.2,
+        "category_12": 5.5,
+        "category_13": 5.25,
+        "category_14": 9.14
+      },
+      "scenario_totals": {
+        "default": 6.7,
+        "equal_weight": 6.65,
+        "max_earnings": 6.03,
+        "best_lifestyle": 6.44,
+        "fastest_to_practice": 6.95,
+        "most_procedural": 6.43
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 22,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 0,
+        "trainee_salary": 0,
+        "education_debt": 30,
+        "loan_rate": 5.5,
+        "living_expenses": 42,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 22,
+        "starting_salary": 48,
+        "mid_salary": 72,
+        "peak_salary": 110,
+        "typical_peak": 82,
+        "malpractice_per_yr": 0
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 6,
+        "injury": 6,
+        "match": 7
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          22
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 22,
+        "startSalary": 48
+      }
+    },
+    {
+      "name": "Training & Development Specialist",
+      "key": "training_development_spe",
+      "profession": "BBA",
+      "group": "people_culture",
+      "color": "#20d879",
+      "path": "BBA Graduate",
+      "raw_data": {
+        "startSalary": 48,
+        "midSalary": 70,
+        "peakSalary": 100,
+        "typicalPeak": 78,
+        "hoursWeek": 40,
+        "burnout": 20,
+        "satisfaction": 72,
+        "chooseAgain": 68,
+        "malpracticeCost": 0,
+        "vacation": 4,
+        "matchComp": 6,
+        "annualSpots": 40000,
+        "oneInX": 10,
+        "callSchedule": 8,
+        "physicalToll": 9,
+        "emotionalToll": 8,
+        "aiRiskNow": 3,
+        "aiRiskMedium": 5,
+        "aiRiskLong": 5,
+        "aiNarrative": "AI personalizes learning paths and generates training content, but designing programs that actually change behavior, facilitating workshops, and coaching leaders still need a person."
+      },
+      "scores": {
+        "category_1": 7.5,
+        "category_2": 7.67,
+        "category_3": 7.33,
+        "category_4": 8.67,
+        "category_5": 5.99,
+        "category_6": 7.0,
+        "category_7": 4.78,
+        "category_8": 6.4,
+        "category_9": 7.32,
+        "category_10": 6.6,
+        "category_11": 5.0,
+        "category_12": 6.5,
+        "category_13": 5.25,
+        "category_14": 9.43
+      },
+      "scenario_totals": {
+        "default": 6.93,
+        "equal_weight": 6.83,
+        "max_earnings": 6.2,
+        "best_lifestyle": 6.79,
+        "fastest_to_practice": 7.08,
+        "most_procedural": 6.69
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 22,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 0,
+        "trainee_salary": 0,
+        "education_debt": 30,
+        "loan_rate": 5.5,
+        "living_expenses": 42,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 22,
+        "starting_salary": 48,
+        "mid_salary": 70,
+        "peak_salary": 100,
+        "typical_peak": 78,
+        "malpractice_per_yr": 0
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 6,
+        "injury": 7,
+        "match": 8
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          22
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 22,
+        "startSalary": 48
+      }
+    },
+    {
+      "name": "Customer Success Manager",
+      "key": "customer_success_manager",
+      "profession": "BBA",
+      "group": "entrepreneurship",
+      "color": "#20d89a",
+      "path": "BBA Graduate",
+      "raw_data": {
+        "startSalary": 55,
+        "midSalary": 82,
+        "peakSalary": 130,
+        "typicalPeak": 95,
+        "hoursWeek": 45,
+        "burnout": 28,
+        "satisfaction": 70,
+        "chooseAgain": 65,
+        "malpracticeCost": 0,
+        "vacation": 4,
+        "matchComp": 6,
+        "annualSpots": 45000,
+        "oneInX": 9,
+        "callSchedule": 7,
+        "physicalToll": 10,
+        "emotionalToll": 6,
+        "aiRiskNow": 3,
+        "aiRiskMedium": 5,
+        "aiRiskLong": 5,
+        "aiNarrative": "AI monitors usage data and flags at-risk accounts, but building genuine relationships with clients, understanding their goals, and being their advocate inside the company requires a person."
+      },
+      "scores": {
+        "category_1": 7.5,
+        "category_2": 7.67,
+        "category_3": 7.33,
+        "category_4": 8.33,
+        "category_5": 6.06,
+        "category_6": 6.71,
+        "category_7": 4.58,
+        "category_8": 5.88,
+        "category_9": 6.42,
+        "category_10": 6.8,
+        "category_11": 5.0,
+        "category_12": 6.17,
+        "category_13": 5.25,
+        "category_14": 9.29
+      },
+      "scenario_totals": {
+        "default": 6.71,
+        "equal_weight": 6.65,
+        "max_earnings": 6.05,
+        "best_lifestyle": 6.47,
+        "fastest_to_practice": 6.94,
+        "most_procedural": 6.44
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 22,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 0,
+        "trainee_salary": 0,
+        "education_debt": 30,
+        "loan_rate": 5.5,
+        "living_expenses": 42,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 22,
+        "starting_salary": 55,
+        "mid_salary": 82,
+        "peak_salary": 130,
+        "typical_peak": 95,
+        "malpractice_per_yr": 0
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 6,
+        "injury": 6,
+        "match": 8
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          22
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 22,
+        "startSalary": 55
+      }
+    },
+    {
+      "name": "E-commerce Manager",
+      "key": "e_commerce_manager",
+      "profession": "BBA",
+      "group": "entrepreneurship",
+      "color": "#33d8be",
+      "path": "BBA Graduate",
+      "raw_data": {
+        "startSalary": 50,
+        "midSalary": 78,
+        "peakSalary": 120,
+        "typicalPeak": 90,
+        "hoursWeek": 48,
+        "burnout": 30,
+        "satisfaction": 68,
+        "chooseAgain": 63,
+        "malpracticeCost": 0,
+        "vacation": 3,
+        "matchComp": 6,
+        "annualSpots": 35000,
+        "oneInX": 11,
+        "callSchedule": 7,
+        "physicalToll": 10,
+        "emotionalToll": 7,
+        "aiRiskNow": 4,
+        "aiRiskMedium": 6,
+        "aiRiskLong": 6,
+        "aiNarrative": "AI personalizes product recommendations and optimizes pricing, but building a brand online, curating the customer experience, and making creative merchandising decisions still need a human."
+      },
+      "scores": {
+        "category_1": 7.5,
+        "category_2": 7.67,
+        "category_3": 7.33,
+        "category_4": 8.33,
+        "category_5": 6.03,
+        "category_6": 6.86,
+        "category_7": 4.55,
+        "category_8": 5.47,
+        "category_9": 6.16,
+        "category_10": 7.0,
+        "category_11": 4.6,
+        "category_12": 5.7,
+        "category_13": 5.25,
+        "category_14": 9.43
+      },
+      "scenario_totals": {
+        "default": 6.6,
+        "equal_weight": 6.58,
+        "max_earnings": 5.99,
+        "best_lifestyle": 6.31,
+        "fastest_to_practice": 6.9,
+        "most_procedural": 6.28
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 22,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 0,
+        "trainee_salary": 0,
+        "education_debt": 30,
+        "loan_rate": 5.5,
+        "living_expenses": 42,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 22,
+        "starting_salary": 50,
+        "mid_salary": 78,
+        "peak_salary": 120,
+        "typical_peak": 90,
+        "malpractice_per_yr": 0
+      },
+      "stress": {
+        "ai": 4,
+        "pay": 7,
+        "injury": 7,
+        "match": 8
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          22
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 22,
+        "startSalary": 50
+      }
+    },
+    {
+      "name": "Real Estate Agent (Commercial)",
+      "key": "real_estate_agent_commer",
+      "profession": "BBA",
+      "group": "entrepreneurship",
+      "color": "#20d4d8",
+      "path": "BBA Graduate",
+      "raw_data": {
+        "startSalary": 35,
+        "midSalary": 80,
+        "peakSalary": 200,
+        "typicalPeak": 95,
+        "hoursWeek": 50,
+        "burnout": 30,
+        "satisfaction": 65,
+        "chooseAgain": 60,
+        "malpracticeCost": 3,
+        "vacation": 3,
+        "matchComp": 6,
+        "annualSpots": 30000,
+        "oneInX": 13,
+        "callSchedule": 5,
+        "physicalToll": 8,
+        "emotionalToll": 5,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 3,
+        "aiRiskLong": 4,
+        "aiNarrative": "AI helps with property valuations and market analysis, but commercial real estate is all about relationships, negotiation, and local market knowledge \u2014 things algorithms struggle with."
+      },
+      "scores": {
+        "category_1": 7.5,
+        "category_2": 7.67,
+        "category_3": 7.33,
+        "category_4": 7.67,
+        "category_5": 5.93,
+        "category_6": 7.14,
+        "category_7": 4.9,
+        "category_8": 6.6,
+        "category_9": 6.46,
+        "category_10": 5.8,
+        "category_11": 5.0,
+        "category_12": 5.5,
+        "category_13": 5.25,
+        "category_14": 8.09
+      },
+      "scenario_totals": {
+        "default": 6.61,
+        "equal_weight": 6.49,
+        "max_earnings": 6.0,
+        "best_lifestyle": 6.4,
+        "fastest_to_practice": 6.76,
+        "most_procedural": 6.45
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 22,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 0,
+        "trainee_salary": 0,
+        "education_debt": 30,
+        "loan_rate": 5.5,
+        "living_expenses": 42,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 22,
+        "starting_salary": 35,
+        "mid_salary": 80,
+        "peak_salary": 200,
+        "typical_peak": 95,
+        "malpractice_per_yr": 3
+      },
+      "stress": {
+        "ai": 8,
+        "pay": 4,
+        "injury": 6,
+        "match": 8
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          22
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 22,
+        "startSalary": 35
+      }
+    },
+    {
+      "name": "Real Estate Appraiser",
+      "key": "real_estate_appraiser",
+      "profession": "BBA",
+      "group": "entrepreneurship",
+      "color": "#20b3d8",
+      "path": "BBA Graduate",
+      "raw_data": {
+        "startSalary": 42,
+        "midSalary": 65,
+        "peakSalary": 100,
+        "typicalPeak": 72,
+        "hoursWeek": 42,
+        "burnout": 18,
+        "satisfaction": 70,
+        "chooseAgain": 65,
+        "malpracticeCost": 3,
+        "vacation": 4,
+        "matchComp": 4,
+        "annualSpots": 15000,
+        "oneInX": 26,
+        "callSchedule": 9,
+        "physicalToll": 8,
+        "emotionalToll": 8,
+        "aiRiskNow": 4,
+        "aiRiskMedium": 6,
+        "aiRiskLong": 7,
+        "aiNarrative": "AI-powered automated valuation models (AVMs) handle routine home appraisals, but complex commercial properties and unique situations still need a licensed appraiser's eyes and judgment."
+      },
+      "scores": {
+        "category_1": 7.5,
+        "category_2": 7.0,
+        "category_3": 7.33,
+        "category_4": 9.0,
+        "category_5": 5.93,
+        "category_6": 7.14,
+        "category_7": 5.03,
+        "category_8": 7.03,
+        "category_9": 7.5,
+        "category_10": 6.0,
+        "category_11": 5.2,
+        "category_12": 5.17,
+        "category_13": 5.25,
+        "category_14": 8.51
+      },
+      "scenario_totals": {
+        "default": 6.84,
+        "equal_weight": 6.69,
+        "max_earnings": 6.17,
+        "best_lifestyle": 6.74,
+        "fastest_to_practice": 6.97,
+        "most_procedural": 6.6
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 22,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 0,
+        "trainee_salary": 0,
+        "education_debt": 30,
+        "loan_rate": 5.5,
+        "living_expenses": 42,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 22,
+        "starting_salary": 42,
+        "mid_salary": 65,
+        "peak_salary": 100,
+        "typical_peak": 72,
+        "malpractice_per_yr": 3
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 5,
+        "injury": 6,
+        "match": 8
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          22
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 22,
+        "startSalary": 42
+      }
+    },
+    {
+      "name": "Retail Buyer",
+      "key": "retail_buyer",
+      "profession": "BBA",
+      "group": "entrepreneurship",
+      "color": "#3399d8",
+      "path": "BBA Graduate",
+      "raw_data": {
+        "startSalary": 45,
+        "midSalary": 68,
+        "peakSalary": 100,
+        "typicalPeak": 75,
+        "hoursWeek": 45,
+        "burnout": 28,
+        "satisfaction": 65,
+        "chooseAgain": 60,
+        "malpracticeCost": 0,
+        "vacation": 3,
+        "matchComp": 5,
+        "annualSpots": 25000,
+        "oneInX": 16,
+        "callSchedule": 7,
+        "physicalToll": 8,
+        "emotionalToll": 7,
+        "aiRiskNow": 4,
+        "aiRiskMedium": 5,
+        "aiRiskLong": 6,
+        "aiNarrative": "AI predicts trends and optimizes inventory levels, but choosing the right products, negotiating with vendors, and having a feel for what customers actually want is still a human skill."
+      },
+      "scores": {
+        "category_1": 7.5,
+        "category_2": 7.33,
+        "category_3": 7.33,
+        "category_4": 8.33,
+        "category_5": 5.97,
+        "category_6": 6.71,
+        "category_7": 4.53,
+        "category_8": 6.12,
+        "category_9": 6.16,
+        "category_10": 6.2,
+        "category_11": 5.0,
+        "category_12": 5.33,
+        "category_13": 5.25,
+        "category_14": 9.14
+      },
+      "scenario_totals": {
+        "default": 6.55,
+        "equal_weight": 6.51,
+        "max_earnings": 5.91,
+        "best_lifestyle": 6.3,
+        "fastest_to_practice": 6.81,
+        "most_procedural": 6.29
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 22,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 0,
+        "trainee_salary": 0,
+        "education_debt": 30,
+        "loan_rate": 5.5,
+        "living_expenses": 42,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 22,
+        "starting_salary": 45,
+        "mid_salary": 68,
+        "peak_salary": 100,
+        "typical_peak": 75,
+        "malpractice_per_yr": 0
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 5,
+        "injury": 6,
+        "match": 8
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          22
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 22,
+        "startSalary": 45
+      }
+    },
+    {
+      "name": "Event Planner",
+      "key": "event_planner",
+      "profession": "BBA",
+      "group": "entrepreneurship",
+      "color": "#2071d8",
+      "path": "BBA Graduate",
+      "raw_data": {
+        "startSalary": 38,
+        "midSalary": 58,
+        "peakSalary": 90,
+        "typicalPeak": 65,
+        "hoursWeek": 48,
+        "burnout": 35,
+        "satisfaction": 65,
+        "chooseAgain": 60,
+        "malpracticeCost": 0,
+        "vacation": 3,
+        "matchComp": 6,
+        "annualSpots": 35000,
+        "oneInX": 11,
+        "callSchedule": 4,
+        "physicalToll": 6,
+        "emotionalToll": 5,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 3,
+        "aiRiskLong": 4,
+        "aiNarrative": "AI helps with logistics and vendor matching, but creating memorable experiences, managing last-minute chaos, and coordinating dozens of moving parts on event day is irreplaceably human."
+      },
+      "scores": {
+        "category_1": 7.5,
+        "category_2": 7.67,
+        "category_3": 7.33,
+        "category_4": 7.33,
+        "category_5": 5.89,
+        "category_6": 7.0,
+        "category_7": 4.53,
+        "category_8": 6.97,
+        "category_9": 6.18,
+        "category_10": 6.0,
+        "category_11": 5.2,
+        "category_12": 5.5,
+        "category_13": 5.25,
+        "category_14": 8.43
+      },
+      "scenario_totals": {
+        "default": 6.57,
+        "equal_weight": 6.49,
+        "max_earnings": 5.91,
+        "best_lifestyle": 6.35,
+        "fastest_to_practice": 6.71,
+        "most_procedural": 6.48
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 22,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 0,
+        "prof_school_years": 0,
+        "trainee_salary": 0,
+        "education_debt": 30,
+        "loan_rate": 5.5,
+        "living_expenses": 42,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 4,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 0,
+        "fellowship_years": 0,
+        "age_independent": 22,
+        "starting_salary": 38,
+        "mid_salary": 58,
+        "peak_salary": 90,
+        "typical_peak": 65,
+        "malpractice_per_yr": 0
+      },
+      "stress": {
+        "ai": 8,
+        "pay": 4,
+        "injury": 5,
+        "match": 8
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          22
+        ],
+        "residency": null,
+        "fellowship": null,
+        "earnAge": 22,
+        "startSalary": 38
+      }
+    },
+    {
+      "name": "Big 4 Auditor (CPA)",
+      "key": "big_4_auditor_cpa",
+      "profession": "CPA-CFA",
+      "group": "accounting_tax",
+      "color": "#9535a5",
+      "path": "CPA/CFA Credential",
+      "raw_data": {
+        "startSalary": 65,
+        "midSalary": 120,
+        "peakSalary": 200,
+        "typicalPeak": 140,
+        "hoursWeek": 55,
+        "burnout": 45,
+        "satisfaction": 60,
+        "chooseAgain": 52,
+        "malpracticeCost": 7,
+        "vacation": 3,
+        "matchComp": 8,
+        "annualSpots": 25000,
+        "oneInX": 3,
+        "callSchedule": 3,
+        "physicalToll": 8,
+        "emotionalToll": 6,
+        "aiRiskNow": 5,
+        "aiRiskMedium": 7,
+        "aiRiskLong": 8,
+        "aiNarrative": "AI can already scan thousands of transactions for errors faster than a team of associates. But someone still needs to understand the business, talk to management, and make judgment calls on gray areas \u2014 that's where the auditor stays relevant. Expect the role to shift toward supervising AI tools rather than ticking boxes yourself."
+      },
+      "scores": {
+        "category_1": 5.5,
+        "category_2": 7.0,
+        "category_3": 6.0,
+        "category_4": 5.67,
+        "category_5": 5.67,
+        "category_6": 5.43,
+        "category_7": 4.9,
+        "category_8": 5.35,
+        "category_9": 4.72,
+        "category_10": 6.8,
+        "category_11": 4.8,
+        "category_12": 4.4,
+        "category_13": 5.25,
+        "category_14": 6.7
+      },
+      "scenario_totals": {
+        "default": 5.64,
+        "equal_weight": 5.59,
+        "max_earnings": 5.43,
+        "best_lifestyle": 5.34,
+        "fastest_to_practice": 5.72,
+        "most_procedural": 5.39
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 22,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 5,
+        "prof_school_years": 1,
+        "trainee_salary": 50,
+        "education_debt": 40,
+        "loan_rate": 5.5,
+        "living_expenses": 42,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 1,
+        "salary_growth_to_mid": 5,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 1,
+        "fellowship_years": 0,
+        "age_independent": 24,
+        "starting_salary": 65,
+        "mid_salary": 120,
+        "peak_salary": 200,
+        "typical_peak": 140,
+        "malpractice_per_yr": 7
+      },
+      "stress": {
+        "ai": 3,
+        "pay": 4,
+        "injury": 7,
+        "match": 6
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          23
+        ],
+        "residency": [
+          23,
+          24
+        ],
+        "fellowship": null,
+        "earnAge": 24,
+        "startSalary": 65
+      }
+    },
+    {
+      "name": "Tax Specialist (CPA)",
+      "key": "tax_specialist_cpa",
+      "profession": "CPA-CFA",
+      "group": "accounting_tax",
+      "color": "#ba29b5",
+      "path": "CPA/CFA Credential",
+      "raw_data": {
+        "startSalary": 62,
+        "midSalary": 110,
+        "peakSalary": 250,
+        "typicalPeak": 130,
+        "hoursWeek": 50,
+        "burnout": 40,
+        "satisfaction": 62,
+        "chooseAgain": 56,
+        "malpracticeCost": 6,
+        "vacation": 3,
+        "matchComp": 8,
+        "annualSpots": 20000,
+        "oneInX": 4,
+        "callSchedule": 4,
+        "physicalToll": 8,
+        "emotionalToll": 5,
+        "aiRiskNow": 5,
+        "aiRiskMedium": 6,
+        "aiRiskLong": 7,
+        "aiNarrative": "Tax software keeps getting smarter, and AI can already handle straightforward returns. But the US tax code is absurdly complicated, and businesses need humans who can find legal ways to save money on taxes. The seasonal crunch (Jan-Apr) is brutal, but the rest of the year is more chill."
+      },
+      "scores": {
+        "category_1": 5.5,
+        "category_2": 7.0,
+        "category_3": 6.0,
+        "category_4": 6.0,
+        "category_5": 5.63,
+        "category_6": 5.57,
+        "category_7": 5.45,
+        "category_8": 5.6,
+        "category_9": 5.3,
+        "category_10": 7.0,
+        "category_11": 4.6,
+        "category_12": 4.77,
+        "category_13": 5.25,
+        "category_14": 6.61
+      },
+      "scenario_totals": {
+        "default": 5.84,
+        "equal_weight": 5.74,
+        "max_earnings": 5.65,
+        "best_lifestyle": 5.6,
+        "fastest_to_practice": 5.86,
+        "most_procedural": 5.58
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 22,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 5,
+        "prof_school_years": 1,
+        "trainee_salary": 50,
+        "education_debt": 40,
+        "loan_rate": 5.5,
+        "living_expenses": 42,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 1,
+        "salary_growth_to_mid": 5,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 1,
+        "fellowship_years": 0,
+        "age_independent": 24,
+        "starting_salary": 62,
+        "mid_salary": 110,
+        "peak_salary": 250,
+        "typical_peak": 130,
+        "malpractice_per_yr": 6
+      },
+      "stress": {
+        "ai": 4,
+        "pay": 5,
+        "injury": 8,
+        "match": 6
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          23
+        ],
+        "residency": [
+          23,
+          24
+        ],
+        "fellowship": null,
+        "earnAge": 24,
+        "startSalary": 62
+      }
+    },
+    {
+      "name": "Forensic Accountant (CPA)",
+      "key": "forensic_accountant_cpa",
+      "profession": "CPA-CFA",
+      "group": "accounting_tax",
+      "color": "#a51887",
+      "path": "CPA/CFA Credential",
+      "raw_data": {
+        "startSalary": 65,
+        "midSalary": 100,
+        "peakSalary": 180,
+        "typicalPeak": 120,
+        "hoursWeek": 45,
+        "burnout": 25,
+        "satisfaction": 72,
+        "chooseAgain": 68,
+        "malpracticeCost": 5,
+        "vacation": 4,
+        "matchComp": 5,
+        "annualSpots": 5000,
+        "oneInX": 15,
+        "callSchedule": 7,
+        "physicalToll": 8,
+        "emotionalToll": 5,
+        "aiRiskNow": 3,
+        "aiRiskMedium": 4,
+        "aiRiskLong": 5,
+        "aiNarrative": "AI is actually your best friend here \u2014 it helps you scan millions of transactions to find the suspicious ones. But figuring out if someone is lying, following money through shell companies, and testifying in court? That's pure human judgment. Forensic accounting is one of the most AI-resistant finance careers."
+      },
+      "scores": {
+        "category_1": 5.5,
+        "category_2": 6.0,
+        "category_3": 6.0,
+        "category_4": 7.0,
+        "category_5": 5.61,
+        "category_6": 5.57,
+        "category_7": 5.62,
+        "category_8": 5.88,
+        "category_9": 6.32,
+        "category_10": 6.8,
+        "category_11": 4.4,
+        "category_12": 6.5,
+        "category_13": 5.25,
+        "category_14": 6.97
+      },
+      "scenario_totals": {
+        "default": 6.12,
+        "equal_weight": 5.96,
+        "max_earnings": 5.84,
+        "best_lifestyle": 6.04,
+        "fastest_to_practice": 6.03,
+        "most_procedural": 5.95
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 22,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 5,
+        "prof_school_years": 1,
+        "trainee_salary": 50,
+        "education_debt": 40,
+        "loan_rate": 5.5,
+        "living_expenses": 42,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 1,
+        "salary_growth_to_mid": 5,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 1,
+        "fellowship_years": 0,
+        "age_independent": 24,
+        "starting_salary": 65,
+        "mid_salary": 100,
+        "peak_salary": 180,
+        "typical_peak": 120,
+        "malpractice_per_yr": 5
+      },
+      "stress": {
+        "ai": 5,
+        "pay": 5,
+        "injury": 7,
+        "match": 7
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          23
+        ],
+        "residency": [
+          23,
+          24
+        ],
+        "fellowship": null,
+        "earnAge": 24,
+        "startSalary": 65
+      }
+    },
+    {
+      "name": "Controller (CPA)",
+      "key": "controller_cpa",
+      "profession": "CPA-CFA",
+      "group": "accounting_tax",
+      "color": "#ba3b88",
+      "path": "CPA/CFA Credential",
+      "raw_data": {
+        "startSalary": 75,
+        "midSalary": 130,
+        "peakSalary": 220,
+        "typicalPeak": 160,
+        "hoursWeek": 48,
+        "burnout": 30,
+        "satisfaction": 68,
+        "chooseAgain": 64,
+        "malpracticeCost": 5,
+        "vacation": 4,
+        "matchComp": 7,
+        "annualSpots": 15000,
+        "oneInX": 5,
+        "callSchedule": 7,
+        "physicalToll": 8,
+        "emotionalToll": 5,
+        "aiRiskNow": 4,
+        "aiRiskMedium": 5,
+        "aiRiskLong": 6,
+        "aiNarrative": "AI will automate a lot of the routine bookkeeping and reporting that controllers oversee, but the role is really about being the financial gatekeeper of a company. You're the one making sure the numbers are right before the CEO sees them. That accountability and judgment doesn't automate easily."
+      },
+      "scores": {
+        "category_1": 5.5,
+        "category_2": 6.67,
+        "category_3": 6.0,
+        "category_4": 7.0,
+        "category_5": 5.77,
+        "category_6": 5.57,
+        "category_7": 5.67,
+        "category_8": 5.72,
+        "category_9": 6.02,
+        "category_10": 6.8,
+        "category_11": 4.4,
+        "category_12": 5.4,
+        "category_13": 5.25,
+        "category_14": 6.83
+      },
+      "scenario_totals": {
+        "default": 6.05,
+        "equal_weight": 5.9,
+        "max_earnings": 5.83,
+        "best_lifestyle": 5.89,
+        "fastest_to_practice": 6.06,
+        "most_procedural": 5.78
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 22,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 5,
+        "prof_school_years": 1,
+        "trainee_salary": 50,
+        "education_debt": 40,
+        "loan_rate": 5.5,
+        "living_expenses": 42,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 1,
+        "salary_growth_to_mid": 5,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 1,
+        "fellowship_years": 0,
+        "age_independent": 24,
+        "starting_salary": 75,
+        "mid_salary": 130,
+        "peak_salary": 220,
+        "typical_peak": 160,
+        "malpractice_per_yr": 5
+      },
+      "stress": {
+        "ai": 4,
+        "pay": 5,
+        "injury": 8,
+        "match": 6
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          23
+        ],
+        "residency": [
+          23,
+          24
+        ],
+        "fellowship": null,
+        "earnAge": 24,
+        "startSalary": 75
+      }
+    },
+    {
+      "name": "CFO-Track / FP&A Director (CPA)",
+      "key": "cfo_track_fp_a_director_",
+      "profession": "CPA-CFA",
+      "group": "accounting_tax",
+      "color": "#a5245b",
+      "path": "CPA/CFA Credential",
+      "raw_data": {
+        "startSalary": 85,
+        "midSalary": 170,
+        "peakSalary": 400,
+        "typicalPeak": 220,
+        "hoursWeek": 52,
+        "burnout": 35,
+        "satisfaction": 72,
+        "chooseAgain": 68,
+        "malpracticeCost": 6,
+        "vacation": 3,
+        "matchComp": 6,
+        "annualSpots": 8000,
+        "oneInX": 9,
+        "callSchedule": 5,
+        "physicalToll": 8,
+        "emotionalToll": 6,
+        "aiRiskNow": 3,
+        "aiRiskMedium": 4,
+        "aiRiskLong": 5,
+        "aiNarrative": "FP&A directors and CFOs are the strategic brains behind a company's money decisions. AI gives you better forecasting tools, but deciding whether to acquire a company, raise prices, or cut a product line requires business instinct and leadership. This is one of the safest finance careers from AI disruption."
+      },
+      "scores": {
+        "category_1": 5.5,
+        "category_2": 6.33,
+        "category_3": 6.0,
+        "category_4": 6.33,
+        "category_5": 5.96,
+        "category_6": 5.43,
+        "category_7": 5.88,
+        "category_8": 5.25,
+        "category_9": 5.2,
+        "category_10": 6.6,
+        "category_11": 4.4,
+        "category_12": 6.33,
+        "category_13": 5.25,
+        "category_14": 6.9
+      },
+      "scenario_totals": {
+        "default": 5.96,
+        "equal_weight": 5.82,
+        "max_earnings": 5.83,
+        "best_lifestyle": 5.71,
+        "fastest_to_practice": 5.93,
+        "most_procedural": 5.72
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 22,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 5,
+        "prof_school_years": 1,
+        "trainee_salary": 50,
+        "education_debt": 40,
+        "loan_rate": 5.5,
+        "living_expenses": 42,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 1,
+        "salary_growth_to_mid": 5,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 1,
+        "fellowship_years": 0,
+        "age_independent": 24,
+        "starting_salary": 85,
+        "mid_salary": 170,
+        "peak_salary": 400,
+        "typical_peak": 220,
+        "malpractice_per_yr": 6
+      },
+      "stress": {
+        "ai": 5,
+        "pay": 5,
+        "injury": 7,
+        "match": 7
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          23
+        ],
+        "residency": [
+          23,
+          24
+        ],
+        "fellowship": null,
+        "earnAge": 24,
+        "startSalary": 85
+      }
+    },
+    {
+      "name": "Portfolio Manager (CFA)",
+      "key": "portfolio_manager_cfa",
+      "profession": "CPA-CFA",
+      "group": "investing_pe",
+      "color": "#ba1b42",
+      "path": "CPA/CFA Credential",
+      "raw_data": {
+        "startSalary": 85,
+        "midSalary": 200,
+        "peakSalary": 500,
+        "typicalPeak": 300,
+        "hoursWeek": 55,
+        "burnout": 35,
+        "satisfaction": 72,
+        "chooseAgain": 68,
+        "malpracticeCost": 6,
+        "vacation": 3,
+        "matchComp": 5,
+        "annualSpots": 5000,
+        "oneInX": 15,
+        "callSchedule": 5,
+        "physicalToll": 8,
+        "emotionalToll": 7,
+        "aiRiskNow": 4,
+        "aiRiskMedium": 6,
+        "aiRiskLong": 7,
+        "aiNarrative": "Quant funds already use AI to trade, and it's only getting more powerful. But managing a portfolio isn't just math \u2014 it's about understanding markets, managing risk during a crisis, and making calls when models disagree. The best portfolio managers combine data skills with gut instincts developed over years."
+      },
+      "scores": {
+        "category_1": 5.5,
+        "category_2": 6.0,
+        "category_3": 6.0,
+        "category_4": 6.33,
+        "category_5": 6.04,
+        "category_6": 5.29,
+        "category_7": 5.75,
+        "category_8": 4.85,
+        "category_9": 4.88,
+        "category_10": 6.6,
+        "category_11": 4.4,
+        "category_12": 6.17,
+        "category_13": 5.25,
+        "category_14": 7.19
+      },
+      "scenario_totals": {
+        "default": 5.85,
+        "equal_weight": 5.74,
+        "max_earnings": 5.75,
+        "best_lifestyle": 5.56,
+        "fastest_to_practice": 5.86,
+        "most_procedural": 5.57
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 22,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 5,
+        "prof_school_years": 1,
+        "trainee_salary": 50,
+        "education_debt": 40,
+        "loan_rate": 5.5,
+        "living_expenses": 42,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 1,
+        "salary_growth_to_mid": 5,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 1,
+        "fellowship_years": 0,
+        "age_independent": 24,
+        "starting_salary": 85,
+        "mid_salary": 200,
+        "peak_salary": 500,
+        "typical_peak": 300,
+        "malpractice_per_yr": 6
+      },
+      "stress": {
+        "ai": 4,
+        "pay": 5,
+        "injury": 7,
+        "match": 7
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          23
+        ],
+        "residency": [
+          23,
+          24
+        ],
+        "fellowship": null,
+        "earnAge": 24,
+        "startSalary": 85
+      }
+    },
+    {
+      "name": "Equity Research Analyst (CFA)",
+      "key": "equity_research_analyst_",
+      "profession": "CPA-CFA",
+      "group": "investing_pe",
+      "color": "#a5353c",
+      "path": "CPA/CFA Credential",
+      "raw_data": {
+        "startSalary": 80,
+        "midSalary": 150,
+        "peakSalary": 300,
+        "typicalPeak": 180,
+        "hoursWeek": 55,
+        "burnout": 32,
+        "satisfaction": 70,
+        "chooseAgain": 65,
+        "malpracticeCost": 5,
+        "vacation": 3,
+        "matchComp": 5,
+        "annualSpots": 4000,
+        "oneInX": 19,
+        "callSchedule": 5,
+        "physicalToll": 8,
+        "emotionalToll": 5,
+        "aiRiskNow": 4,
+        "aiRiskMedium": 6,
+        "aiRiskLong": 7,
+        "aiNarrative": "AI can crunch earnings reports and screen stocks in seconds, which honestly threatens the data-gathering part of this job. But the real value is the deep industry knowledge \u2014 knowing why a CEO's strategy will fail or why a new drug will change a company. That creative, skeptical thinking is hard to automate."
+      },
+      "scores": {
+        "category_1": 5.5,
+        "category_2": 6.0,
+        "category_3": 6.0,
+        "category_4": 6.33,
+        "category_5": 5.86,
+        "category_6": 5.29,
+        "category_7": 5.53,
+        "category_8": 4.85,
+        "category_9": 4.98,
+        "category_10": 6.6,
+        "category_11": 4.4,
+        "category_12": 6.0,
+        "category_13": 5.25,
+        "category_14": 7.26
+      },
+      "scenario_totals": {
+        "default": 5.81,
+        "equal_weight": 5.71,
+        "max_earnings": 5.66,
+        "best_lifestyle": 5.54,
+        "fastest_to_practice": 5.82,
+        "most_procedural": 5.53
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 22,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 5,
+        "prof_school_years": 1,
+        "trainee_salary": 50,
+        "education_debt": 40,
+        "loan_rate": 5.5,
+        "living_expenses": 42,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 1,
+        "salary_growth_to_mid": 5,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 1,
+        "fellowship_years": 0,
+        "age_independent": 24,
+        "starting_salary": 80,
+        "mid_salary": 150,
+        "peak_salary": 300,
+        "typical_peak": 180,
+        "malpractice_per_yr": 5
+      },
+      "stress": {
+        "ai": 4,
+        "pay": 5,
+        "injury": 7,
+        "match": 7
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          23
+        ],
+        "residency": [
+          23,
+          24
+        ],
+        "fellowship": null,
+        "earnAge": 24,
+        "startSalary": 80
+      }
+    },
+    {
+      "name": "Wealth Manager / Financial Advisor (CFA)",
+      "key": "wealth_manager_financial",
+      "profession": "CPA-CFA",
+      "group": "investing_pe",
+      "color": "#ba3929",
+      "path": "CPA/CFA Credential",
+      "raw_data": {
+        "startSalary": 60,
+        "midSalary": 120,
+        "peakSalary": 300,
+        "typicalPeak": 150,
+        "hoursWeek": 48,
+        "burnout": 25,
+        "satisfaction": 72,
+        "chooseAgain": 68,
+        "malpracticeCost": 4,
+        "vacation": 4,
+        "matchComp": 7,
+        "annualSpots": 15000,
+        "oneInX": 5,
+        "callSchedule": 7,
+        "physicalToll": 9,
+        "emotionalToll": 5,
+        "aiRiskNow": 4,
+        "aiRiskMedium": 5,
+        "aiRiskLong": 6,
+        "aiNarrative": "Robo-advisors like Betterment and Wealthfront already manage basic investing for cheap. But when someone inherits $2 million, goes through a divorce, or is planning for retirement, they want a real human to talk to. The relationship and trust side of this job is nearly impossible to automate."
+      },
+      "scores": {
+        "category_1": 5.5,
+        "category_2": 6.67,
+        "category_3": 6.0,
+        "category_4": 7.0,
+        "category_5": 5.64,
+        "category_6": 6.0,
+        "category_7": 6.03,
+        "category_8": 5.72,
+        "category_9": 6.8,
+        "category_10": 7.2,
+        "category_11": 5.0,
+        "category_12": 6.17,
+        "category_13": 5.25,
+        "category_14": 7.17
+      },
+      "scenario_totals": {
+        "default": 6.34,
+        "equal_weight": 6.15,
+        "max_earnings": 6.07,
+        "best_lifestyle": 6.22,
+        "fastest_to_practice": 6.2,
+        "most_procedural": 6.06
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 22,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 5,
+        "prof_school_years": 1,
+        "trainee_salary": 50,
+        "education_debt": 40,
+        "loan_rate": 5.5,
+        "living_expenses": 42,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 1,
+        "salary_growth_to_mid": 5,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 1,
+        "fellowship_years": 0,
+        "age_independent": 24,
+        "starting_salary": 60,
+        "mid_salary": 120,
+        "peak_salary": 300,
+        "typical_peak": 150,
+        "malpractice_per_yr": 4
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 6,
+        "injury": 8,
+        "match": 6
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          23
+        ],
+        "residency": [
+          23,
+          24
+        ],
+        "fellowship": null,
+        "earnAge": 24,
+        "startSalary": 60
+      }
+    },
+    {
+      "name": "Actuary (SOA/CAS)",
+      "key": "actuary_soa_cas",
+      "profession": "CPA-CFA",
+      "group": "insurance_risk",
+      "color": "#a54218",
+      "path": "CPA/CFA Credential",
+      "raw_data": {
+        "startSalary": 75,
+        "midSalary": 130,
+        "peakSalary": 250,
+        "typicalPeak": 160,
+        "hoursWeek": 42,
+        "burnout": 18,
+        "satisfaction": 80,
+        "chooseAgain": 76,
+        "malpracticeCost": 3,
+        "vacation": 5,
+        "matchComp": 5,
+        "annualSpots": 4000,
+        "oneInX": 19,
+        "callSchedule": 8,
+        "physicalToll": 9,
+        "emotionalToll": 3,
+        "aiRiskNow": 3,
+        "aiRiskMedium": 5,
+        "aiRiskLong": 6,
+        "aiNarrative": "AI can build better predictive models, which is kind of what actuaries do. But the job is really about understanding risk in a way that regulators, executives, and clients trust. You'll use AI as a tool to build better models, not get replaced by it. Plus, the exam process (7-10 exams over 5-7 years) creates a massive barrier to entry that protects the profession."
+      },
+      "scores": {
+        "category_1": 5.5,
+        "category_2": 6.0,
+        "category_3": 6.0,
+        "category_4": 7.33,
+        "category_5": 5.77,
+        "category_6": 5.86,
+        "category_7": 5.95,
+        "category_8": 5.28,
+        "category_9": 7.34,
+        "category_10": 7.0,
+        "category_11": 4.2,
+        "category_12": 6.37,
+        "category_13": 5.25,
+        "category_14": 7.51
+      },
+      "scenario_totals": {
+        "default": 6.29,
+        "equal_weight": 6.1,
+        "max_earnings": 6.03,
+        "best_lifestyle": 6.25,
+        "fastest_to_practice": 6.17,
+        "most_procedural": 5.95
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 22,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 5,
+        "prof_school_years": 1,
+        "trainee_salary": 50,
+        "education_debt": 40,
+        "loan_rate": 5.5,
+        "living_expenses": 42,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 1,
+        "salary_growth_to_mid": 5,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 1,
+        "fellowship_years": 0,
+        "age_independent": 24,
+        "starting_salary": 75,
+        "mid_salary": 130,
+        "peak_salary": 250,
+        "typical_peak": 160,
+        "malpractice_per_yr": 3
+      },
+      "stress": {
+        "ai": 4,
+        "pay": 7,
+        "injury": 9,
+        "match": 7
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          23
+        ],
+        "residency": [
+          23,
+          24
+        ],
+        "fellowship": null,
+        "earnAge": 24,
+        "startSalary": 75
+      }
+    },
+    {
+      "name": "Certified Financial Planner (CFP)",
+      "key": "certified_financial_plan",
+      "profession": "CPA-CFA",
+      "group": "entrepreneurship",
+      "color": "#ba773b",
+      "path": "CPA/CFA Credential",
+      "raw_data": {
+        "startSalary": 55,
+        "midSalary": 95,
+        "peakSalary": 200,
+        "typicalPeak": 110,
+        "hoursWeek": 44,
+        "burnout": 22,
+        "satisfaction": 75,
+        "chooseAgain": 72,
+        "malpracticeCost": 4,
+        "vacation": 4,
+        "matchComp": 6,
+        "annualSpots": 10000,
+        "oneInX": 8,
+        "callSchedule": 8,
+        "physicalToll": 9,
+        "emotionalToll": 4,
+        "aiRiskNow": 3,
+        "aiRiskMedium": 4,
+        "aiRiskLong": 5,
+        "aiNarrative": "Apps can make a basic financial plan, but they can't sit across from a couple arguing about money and help them figure out their priorities. Financial planning is deeply personal \u2014 it's about goals, fears, and life transitions. If you're good with people and like solving puzzles, AI will be a tool that makes you better, not a threat."
+      },
+      "scores": {
+        "category_1": 5.5,
+        "category_2": 6.33,
+        "category_3": 6.0,
+        "category_4": 7.33,
+        "category_5": 5.53,
+        "category_6": 6.0,
+        "category_7": 5.9,
+        "category_8": 5.92,
+        "category_9": 7.06,
+        "category_10": 7.2,
+        "category_11": 5.0,
+        "category_12": 6.73,
+        "category_13": 5.25,
+        "category_14": 7.31
+      },
+      "scenario_totals": {
+        "default": 6.41,
+        "equal_weight": 6.22,
+        "max_earnings": 6.08,
+        "best_lifestyle": 6.35,
+        "fastest_to_practice": 6.24,
+        "most_procedural": 6.19
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 22,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 5,
+        "prof_school_years": 1,
+        "trainee_salary": 50,
+        "education_debt": 40,
+        "loan_rate": 5.5,
+        "living_expenses": 42,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 1,
+        "salary_growth_to_mid": 5,
+        "salary_growth_to_peak": 3,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 1,
+        "fellowship_years": 0,
+        "age_independent": 24,
+        "starting_salary": 55,
+        "mid_salary": 95,
+        "peak_salary": 200,
+        "typical_peak": 110,
+        "malpractice_per_yr": 4
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 6,
+        "injury": 8,
+        "match": 7
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          23
+        ],
+        "residency": [
+          23,
+          24
+        ],
+        "fellowship": null,
+        "earnAge": 24,
+        "startSalary": 55
+      }
+    },
+    {
+      "name": "Investment Banking Associate",
+      "key": "ib_associate",
+      "profession": "MBA",
+      "group": "finance_banking",
+      "color": "#B71C1C",
+      "path": "MBA Graduate",
+      "raw_data": {
+        "startSalary": 150,
+        "midSalary": 350,
+        "peakSalary": 1000,
+        "typicalPeak": 500,
+        "hoursWeek": 75,
+        "burnout": 60,
+        "satisfaction": 55,
+        "chooseAgain": 48,
+        "malpracticeCost": 2,
+        "vacation": 2,
+        "matchComp": 4,
+        "annualSpots": 4000,
+        "oneInX": 30,
+        "callSchedule": 1,
+        "physicalToll": 4,
+        "emotionalToll": 7,
+        "aiRiskNow": 4,
+        "aiRiskMedium": 5,
+        "aiRiskLong": 6,
+        "aiNarrative": "AI is already automating the financial modeling and pitch-deck grunt work that junior bankers used to do at 2 AM. Senior bankers who bring in clients and negotiate deals are safe, but the path up will look different \u2014 fewer juniors needed per deal."
+      },
+      "scores": {
+        "category_1": 4.75,
+        "category_2": 4.67,
+        "category_3": 5.67,
+        "category_4": 5.33,
+        "category_5": 5.2,
+        "category_6": 6.29,
+        "category_7": 6.33,
+        "category_8": 3.77,
+        "category_9": 2.46,
+        "category_10": 5.2,
+        "category_11": 4.6,
+        "category_12": 4.27,
+        "category_13": 4.5,
+        "category_14": 7.87
+      },
+      "scenario_totals": {
+        "default": 5.15,
+        "equal_weight": 5.09,
+        "max_earnings": 5.31,
+        "best_lifestyle": 4.53,
+        "fastest_to_practice": 5.05,
+        "most_procedural": 4.84
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 25,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 75,
+        "prof_school_years": 2,
+        "trainee_salary": 0,
+        "education_debt": 120,
+        "loan_rate": 6.5,
+        "living_expenses": 52,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 7,
+        "salary_growth_to_peak": 4,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 2,
+        "fellowship_years": 0,
+        "age_independent": 26,
+        "starting_salary": 150,
+        "mid_salary": 350,
+        "peak_salary": 1000,
+        "typical_peak": 500,
+        "malpractice_per_yr": 2
+      },
+      "stress": {
+        "ai": 4,
+        "pay": 3,
+        "injury": 6,
+        "match": 5
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          24
+        ],
+        "residency": [
+          24,
+          26
+        ],
+        "fellowship": null,
+        "earnAge": 26,
+        "startSalary": 150
+      }
+    },
+    {
+      "name": "Corporate Strategy Manager",
+      "key": "corporate_strategy_manag",
+      "profession": "MBA",
+      "group": "finance_banking",
+      "color": "#d88e20",
+      "path": "MBA Graduate",
+      "raw_data": {
+        "startSalary": 120,
+        "midSalary": 180,
+        "peakSalary": 300,
+        "typicalPeak": 220,
+        "hoursWeek": 50,
+        "burnout": 30,
+        "satisfaction": 72,
+        "chooseAgain": 68,
+        "malpracticeCost": 1,
+        "vacation": 4,
+        "matchComp": 6,
+        "annualSpots": 15000,
+        "oneInX": 8,
+        "callSchedule": 7,
+        "physicalToll": 9,
+        "emotionalToll": 3,
+        "aiRiskNow": 3,
+        "aiRiskMedium": 4,
+        "aiRiskLong": 5,
+        "aiNarrative": "AI tools can crunch market data and build competitive analyses faster than any analyst, but someone still needs to decide what the company should actually do next. Corporate strategists who combine data with judgment and internal politics will stay relevant."
+      },
+      "scores": {
+        "category_1": 4.75,
+        "category_2": 5.33,
+        "category_3": 5.67,
+        "category_4": 7.33,
+        "category_5": 4.5,
+        "category_6": 6.71,
+        "category_7": 6.28,
+        "category_8": 5.35,
+        "category_9": 5.72,
+        "category_10": 5.8,
+        "category_11": 4.6,
+        "category_12": 6.17,
+        "category_13": 4.5,
+        "category_14": 8.36
+      },
+      "scenario_totals": {
+        "default": 5.97,
+        "equal_weight": 5.8,
+        "max_earnings": 5.7,
+        "best_lifestyle": 5.75,
+        "fastest_to_practice": 5.7,
+        "most_procedural": 5.8
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 25,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 75,
+        "prof_school_years": 2,
+        "trainee_salary": 0,
+        "education_debt": 120,
+        "loan_rate": 6.5,
+        "living_expenses": 52,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 7,
+        "salary_growth_to_peak": 4,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 2,
+        "fellowship_years": 0,
+        "age_independent": 26,
+        "starting_salary": 120,
+        "mid_salary": 180,
+        "peak_salary": 300,
+        "typical_peak": 220,
+        "malpractice_per_yr": 1
+      },
+      "stress": {
+        "ai": 5,
+        "pay": 5,
+        "injury": 8,
+        "match": 5
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          24
+        ],
+        "residency": [
+          24,
+          26
+        ],
+        "fellowship": null,
+        "earnAge": 26,
+        "startSalary": 120
+      }
+    },
+    {
+      "name": "Private Equity Associate",
+      "key": "pe_associate",
+      "profession": "MBA",
+      "group": "investing_pe",
+      "color": "#880E4F",
+      "path": "MBA Graduate",
+      "raw_data": {
+        "startSalary": 150,
+        "midSalary": 300,
+        "peakSalary": 800,
+        "typicalPeak": 450,
+        "hoursWeek": 65,
+        "burnout": 45,
+        "satisfaction": 65,
+        "chooseAgain": 60,
+        "malpracticeCost": 2,
+        "vacation": 2,
+        "matchComp": 4,
+        "annualSpots": 3000,
+        "oneInX": 40,
+        "callSchedule": 2,
+        "physicalToll": 5,
+        "emotionalToll": 6,
+        "aiRiskNow": 3,
+        "aiRiskMedium": 4,
+        "aiRiskLong": 5,
+        "aiNarrative": "AI can screen deals and crunch financials way faster than people, which means fewer analysts are needed for the early legwork. But the partners who pick winners, negotiate prices, and actually fix companies aren't being replaced \u2014 the job just shifts toward more judgment calls."
+      },
+      "scores": {
+        "category_1": 4.75,
+        "category_2": 4.67,
+        "category_3": 5.67,
+        "category_4": 5.67,
+        "category_5": 5.06,
+        "category_6": 6.29,
+        "category_7": 6.35,
+        "category_8": 4.05,
+        "category_9": 3.42,
+        "category_10": 5.2,
+        "category_11": 4.4,
+        "category_12": 5.5,
+        "category_13": 4.5,
+        "category_14": 7.87
+      },
+      "scenario_totals": {
+        "default": 5.37,
+        "equal_weight": 5.26,
+        "max_earnings": 5.42,
+        "best_lifestyle": 4.88,
+        "fastest_to_practice": 5.2,
+        "most_procedural": 5.13
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 25,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 75,
+        "prof_school_years": 2,
+        "trainee_salary": 0,
+        "education_debt": 120,
+        "loan_rate": 6.5,
+        "living_expenses": 52,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 7,
+        "salary_growth_to_peak": 4,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 2,
+        "fellowship_years": 0,
+        "age_independent": 26,
+        "starting_salary": 150,
+        "mid_salary": 300,
+        "peak_salary": 800,
+        "typical_peak": 450,
+        "malpractice_per_yr": 2
+      },
+      "stress": {
+        "ai": 4,
+        "pay": 4,
+        "injury": 7,
+        "match": 5
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          24
+        ],
+        "residency": [
+          24,
+          26
+        ],
+        "fellowship": null,
+        "earnAge": 26,
+        "startSalary": 150
+      }
+    },
+    {
+      "name": "Venture Capital Associate",
+      "key": "venture_capital_associat",
+      "profession": "MBA",
+      "group": "investing_pe",
+      "color": "#d8af20",
+      "path": "MBA Graduate",
+      "raw_data": {
+        "startSalary": 130,
+        "midSalary": 250,
+        "peakSalary": 600,
+        "typicalPeak": 350,
+        "hoursWeek": 55,
+        "burnout": 30,
+        "satisfaction": 75,
+        "chooseAgain": 72,
+        "malpracticeCost": 1,
+        "vacation": 3,
+        "matchComp": 3,
+        "annualSpots": 2000,
+        "oneInX": 60,
+        "callSchedule": 5,
+        "physicalToll": 8,
+        "emotionalToll": 4,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 3,
+        "aiRiskLong": 4,
+        "aiNarrative": "AI can help scan thousands of startups and flag promising ones, but VC is ultimately about people \u2014 reading founders, building trust, and making gut calls on unproven ideas. The human relationship side is hard to automate."
+      },
+      "scores": {
+        "category_1": 4.75,
+        "category_2": 4.33,
+        "category_3": 5.67,
+        "category_4": 6.67,
+        "category_5": 4.77,
+        "category_6": 6.57,
+        "category_7": 6.38,
+        "category_8": 4.6,
+        "category_9": 5.06,
+        "category_10": 5.4,
+        "category_11": 4.6,
+        "category_12": 7.07,
+        "category_13": 4.5,
+        "category_14": 8.36
+      },
+      "scenario_totals": {
+        "default": 5.81,
+        "equal_weight": 5.64,
+        "max_earnings": 5.65,
+        "best_lifestyle": 5.52,
+        "fastest_to_practice": 5.49,
+        "most_procedural": 5.65
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 25,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 75,
+        "prof_school_years": 2,
+        "trainee_salary": 0,
+        "education_debt": 120,
+        "loan_rate": 6.5,
+        "living_expenses": 52,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 7,
+        "salary_growth_to_peak": 4,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 2,
+        "fellowship_years": 0,
+        "age_independent": 26,
+        "starting_salary": 130,
+        "mid_salary": 250,
+        "peak_salary": 600,
+        "typical_peak": 350,
+        "malpractice_per_yr": 1
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 6,
+        "injury": 7,
+        "match": 6
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          24
+        ],
+        "residency": [
+          24,
+          26
+        ],
+        "fellowship": null,
+        "earnAge": 26,
+        "startSalary": 130
+      }
+    },
+    {
+      "name": "Management Consultant (MBB)",
+      "key": "mbb_consultant",
+      "profession": "MBA",
+      "group": "consulting_strategy",
+      "color": "#0D47A1",
+      "path": "MBA Graduate",
+      "raw_data": {
+        "startSalary": 100,
+        "midSalary": 250,
+        "peakSalary": 500,
+        "typicalPeak": 350,
+        "hoursWeek": 60,
+        "burnout": 45,
+        "satisfaction": 70,
+        "chooseAgain": 65,
+        "malpracticeCost": 1,
+        "vacation": 3,
+        "matchComp": 5,
+        "annualSpots": 5000,
+        "oneInX": 24,
+        "callSchedule": 3,
+        "physicalToll": 5,
+        "emotionalToll": 5,
+        "aiRiskNow": 3,
+        "aiRiskMedium": 4,
+        "aiRiskLong": 5,
+        "aiNarrative": "AI can generate slide decks and run analyses that used to take teams of consultants weeks. But CEOs still pay for trusted human advisors who can navigate politics, push back on bad ideas, and implement change. The entry-level grunt work is shrinking though."
+      },
+      "scores": {
+        "category_1": 4.75,
+        "category_2": 5.0,
+        "category_3": 5.67,
+        "category_4": 6.0,
+        "category_5": 4.57,
+        "category_6": 6.43,
+        "category_7": 6.0,
+        "category_8": 4.58,
+        "category_9": 4.1,
+        "category_10": 5.6,
+        "category_11": 4.6,
+        "category_12": 6.5,
+        "category_13": 4.5,
+        "category_14": 8.07
+      },
+      "scenario_totals": {
+        "default": 5.57,
+        "equal_weight": 5.47,
+        "max_earnings": 5.42,
+        "best_lifestyle": 5.2,
+        "fastest_to_practice": 5.34,
+        "most_procedural": 5.47
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 25,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 75,
+        "prof_school_years": 2,
+        "trainee_salary": 0,
+        "education_debt": 120,
+        "loan_rate": 6.5,
+        "living_expenses": 52,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 7,
+        "salary_growth_to_peak": 4,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 2,
+        "fellowship_years": 0,
+        "age_independent": 26,
+        "starting_salary": 100,
+        "mid_salary": 250,
+        "peak_salary": 500,
+        "typical_peak": 350,
+        "malpractice_per_yr": 1
+      },
+      "stress": {
+        "ai": 5,
+        "pay": 5,
+        "injury": 6,
+        "match": 5
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          24
+        ],
+        "residency": [
+          24,
+          26
+        ],
+        "fellowship": null,
+        "earnAge": 26,
+        "startSalary": 100
+      }
+    },
+    {
+      "name": "Strategy Consultant",
+      "key": "strategy_consultant",
+      "profession": "MBA",
+      "group": "consulting_strategy",
+      "color": "#d8d020",
+      "path": "MBA Graduate",
+      "raw_data": {
+        "startSalary": 95,
+        "midSalary": 200,
+        "peakSalary": 400,
+        "typicalPeak": 280,
+        "hoursWeek": 55,
+        "burnout": 38,
+        "satisfaction": 72,
+        "chooseAgain": 66,
+        "malpracticeCost": 1,
+        "vacation": 3,
+        "matchComp": 6,
+        "annualSpots": 10000,
+        "oneInX": 12,
+        "callSchedule": 4,
+        "physicalToll": 5,
+        "emotionalToll": 4,
+        "aiRiskNow": 3,
+        "aiRiskMedium": 5,
+        "aiRiskLong": 6,
+        "aiNarrative": "Strategy consulting at firms outside MBB is a bit more exposed to AI because the work leans heavier on analysis and benchmarking, which AI does well. But if you build deep industry expertise and client relationships, you'll stay valuable."
+      },
+      "scores": {
+        "category_1": 4.75,
+        "category_2": 5.33,
+        "category_3": 5.67,
+        "category_4": 6.33,
+        "category_5": 4.39,
+        "category_6": 6.57,
+        "category_7": 6.12,
+        "category_8": 4.85,
+        "category_9": 4.78,
+        "category_10": 5.6,
+        "category_11": 4.6,
+        "category_12": 6.43,
+        "category_13": 4.5,
+        "category_14": 7.93
+      },
+      "scenario_totals": {
+        "default": 5.71,
+        "equal_weight": 5.57,
+        "max_earnings": 5.5,
+        "best_lifestyle": 5.4,
+        "fastest_to_practice": 5.46,
+        "most_procedural": 5.59
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 25,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 75,
+        "prof_school_years": 2,
+        "trainee_salary": 0,
+        "education_debt": 120,
+        "loan_rate": 6.5,
+        "living_expenses": 52,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 7,
+        "salary_growth_to_peak": 4,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 2,
+        "fellowship_years": 0,
+        "age_independent": 26,
+        "starting_salary": 95,
+        "mid_salary": 200,
+        "peak_salary": 400,
+        "typical_peak": 280,
+        "malpractice_per_yr": 1
+      },
+      "stress": {
+        "ai": 5,
+        "pay": 5,
+        "injury": 7,
+        "match": 5
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          24
+        ],
+        "residency": [
+          24,
+          26
+        ],
+        "fellowship": null,
+        "earnAge": 26,
+        "startSalary": 95
+      }
+    },
+    {
+      "name": "Product Manager",
+      "key": "product_manager",
+      "profession": "MBA",
+      "group": "consulting_strategy",
+      "color": "#bfd820",
+      "path": "MBA Graduate",
+      "raw_data": {
+        "startSalary": 110,
+        "midSalary": 170,
+        "peakSalary": 300,
+        "typicalPeak": 200,
+        "hoursWeek": 48,
+        "burnout": 30,
+        "satisfaction": 75,
+        "chooseAgain": 72,
+        "malpracticeCost": 1,
+        "vacation": 4,
+        "matchComp": 7,
+        "annualSpots": 25000,
+        "oneInX": 5,
+        "callSchedule": 6,
+        "physicalToll": 9,
+        "emotionalToll": 4,
+        "aiRiskNow": 3,
+        "aiRiskMedium": 4,
+        "aiRiskLong": 5,
+        "aiNarrative": "AI coding tools mean PMs can prototype faster and need fewer engineers for some tasks, which actually makes the role more powerful. But AI can also write PRDs and do user research summaries, so PMs need to level up to strategy and leadership, not just feature specs."
+      },
+      "scores": {
+        "category_1": 4.75,
+        "category_2": 5.67,
+        "category_3": 5.67,
+        "category_4": 7.0,
+        "category_5": 4.41,
+        "category_6": 6.86,
+        "category_7": 6.28,
+        "category_8": 5.47,
+        "category_9": 6.02,
+        "category_10": 6.2,
+        "category_11": 4.6,
+        "category_12": 7.07,
+        "category_13": 4.5,
+        "category_14": 8.5
+      },
+      "scenario_totals": {
+        "default": 6.11,
+        "equal_weight": 5.94,
+        "max_earnings": 5.79,
+        "best_lifestyle": 5.93,
+        "fastest_to_practice": 5.78,
+        "most_procedural": 6.02
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 25,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 75,
+        "prof_school_years": 2,
+        "trainee_salary": 0,
+        "education_debt": 120,
+        "loan_rate": 6.5,
+        "living_expenses": 52,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 7,
+        "salary_growth_to_peak": 4,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 2,
+        "fellowship_years": 0,
+        "age_independent": 26,
+        "starting_salary": 110,
+        "mid_salary": 170,
+        "peak_salary": 300,
+        "typical_peak": 200,
+        "malpractice_per_yr": 1
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 7,
+        "injury": 7,
+        "match": 4
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          24
+        ],
+        "residency": [
+          24,
+          26
+        ],
+        "fellowship": null,
+        "earnAge": 26,
+        "startSalary": 110
+      }
+    },
+    {
+      "name": "Brand Manager",
+      "key": "brand_manager",
+      "profession": "MBA",
+      "group": "marketing_sales",
+      "color": "#9ed820",
+      "path": "MBA Graduate",
+      "raw_data": {
+        "startSalary": 90,
+        "midSalary": 145,
+        "peakSalary": 250,
+        "typicalPeak": 175,
+        "hoursWeek": 48,
+        "burnout": 28,
+        "satisfaction": 72,
+        "chooseAgain": 68,
+        "malpracticeCost": 1,
+        "vacation": 4,
+        "matchComp": 6,
+        "annualSpots": 15000,
+        "oneInX": 8,
+        "callSchedule": 7,
+        "physicalToll": 9,
+        "emotionalToll": 3,
+        "aiRiskNow": 3,
+        "aiRiskMedium": 5,
+        "aiRiskLong": 6,
+        "aiNarrative": "AI can generate ad copy, design variations, and marketing analytics in seconds. But building a brand is about understanding culture, emotion, and what makes people care \u2014 that's still very human. Brand managers who lean into creative strategy will thrive."
+      },
+      "scores": {
+        "category_1": 4.75,
+        "category_2": 5.33,
+        "category_3": 5.67,
+        "category_4": 7.33,
+        "category_5": 4.2,
+        "category_6": 6.71,
+        "category_7": 6.2,
+        "category_8": 5.72,
+        "category_9": 5.9,
+        "category_10": 5.6,
+        "category_11": 4.8,
+        "category_12": 6.33,
+        "category_13": 4.5,
+        "category_14": 8.36
+      },
+      "scenario_totals": {
+        "default": 6.0,
+        "equal_weight": 5.83,
+        "max_earnings": 5.65,
+        "best_lifestyle": 5.82,
+        "fastest_to_practice": 5.69,
+        "most_procedural": 5.89
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 25,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 75,
+        "prof_school_years": 2,
+        "trainee_salary": 0,
+        "education_debt": 120,
+        "loan_rate": 6.5,
+        "living_expenses": 52,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 7,
+        "salary_growth_to_peak": 4,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 2,
+        "fellowship_years": 0,
+        "age_independent": 26,
+        "starting_salary": 90,
+        "mid_salary": 145,
+        "peak_salary": 250,
+        "typical_peak": 175,
+        "malpractice_per_yr": 1
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 5,
+        "injury": 7,
+        "match": 5
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          24
+        ],
+        "residency": [
+          24,
+          26
+        ],
+        "fellowship": null,
+        "earnAge": 26,
+        "startSalary": 90
+      }
+    },
+    {
+      "name": "Business Development Manager",
+      "key": "business_development_man",
+      "profession": "MBA",
+      "group": "marketing_sales",
+      "color": "#7dd820",
+      "path": "MBA Graduate",
+      "raw_data": {
+        "startSalary": 85,
+        "midSalary": 140,
+        "peakSalary": 250,
+        "typicalPeak": 170,
+        "hoursWeek": 50,
+        "burnout": 30,
+        "satisfaction": 68,
+        "chooseAgain": 63,
+        "malpracticeCost": 1,
+        "vacation": 4,
+        "matchComp": 7,
+        "annualSpots": 20000,
+        "oneInX": 6,
+        "callSchedule": 5,
+        "physicalToll": 7,
+        "emotionalToll": 4,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 3,
+        "aiRiskLong": 4,
+        "aiNarrative": "Business development is fundamentally about relationships \u2014 reading people, building trust, and closing deals over dinners and handshakes. AI can help find leads and draft proposals, but it can't replace the human connection that seals partnerships."
+      },
+      "scores": {
+        "category_1": 4.75,
+        "category_2": 5.67,
+        "category_3": 5.67,
+        "category_4": 6.67,
+        "category_5": 4.16,
+        "category_6": 6.57,
+        "category_7": 5.95,
+        "category_8": 5.35,
+        "category_9": 5.52,
+        "category_10": 5.8,
+        "category_11": 5.0,
+        "category_12": 5.87,
+        "category_13": 4.5,
+        "category_14": 8.21
+      },
+      "scenario_totals": {
+        "default": 5.84,
+        "equal_weight": 5.71,
+        "max_earnings": 5.51,
+        "best_lifestyle": 5.6,
+        "fastest_to_practice": 5.57,
+        "most_procedural": 5.69
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 25,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 75,
+        "prof_school_years": 2,
+        "trainee_salary": 0,
+        "education_debt": 120,
+        "loan_rate": 6.5,
+        "living_expenses": 52,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 7,
+        "salary_growth_to_peak": 4,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 2,
+        "fellowship_years": 0,
+        "age_independent": 26,
+        "starting_salary": 85,
+        "mid_salary": 140,
+        "peak_salary": 250,
+        "typical_peak": 170,
+        "malpractice_per_yr": 1
+      },
+      "stress": {
+        "ai": 7,
+        "pay": 6,
+        "injury": 6,
+        "match": 4
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          24
+        ],
+        "residency": [
+          24,
+          26
+        ],
+        "fellowship": null,
+        "earnAge": 26,
+        "startSalary": 85
+      }
+    },
+    {
+      "name": "Supply Chain Director",
+      "key": "supply_chain_director",
+      "profession": "MBA",
+      "group": "operations_supply",
+      "color": "#5cd820",
+      "path": "MBA Graduate",
+      "raw_data": {
+        "startSalary": 100,
+        "midSalary": 160,
+        "peakSalary": 280,
+        "typicalPeak": 200,
+        "hoursWeek": 50,
+        "burnout": 30,
+        "satisfaction": 70,
+        "chooseAgain": 65,
+        "malpracticeCost": 1,
+        "vacation": 4,
+        "matchComp": 6,
+        "annualSpots": 12000,
+        "oneInX": 10,
+        "callSchedule": 5,
+        "physicalToll": 7,
+        "emotionalToll": 4,
+        "aiRiskNow": 4,
+        "aiRiskMedium": 5,
+        "aiRiskLong": 6,
+        "aiNarrative": "AI is transforming supply chain with demand forecasting, route optimization, and inventory management that's way better than humans. But someone still needs to manage supplier relationships, handle crises when a port shuts down, and make the big calls. The role gets more strategic, less spreadsheet-y."
+      },
+      "scores": {
+        "category_1": 4.75,
+        "category_2": 5.33,
+        "category_3": 5.67,
+        "category_4": 6.67,
+        "category_5": 4.31,
+        "category_6": 6.57,
+        "category_7": 6.25,
+        "category_8": 6.1,
+        "category_9": 5.52,
+        "category_10": 5.6,
+        "category_11": 5.0,
+        "category_12": 5.83,
+        "category_13": 4.5,
+        "category_14": 8.21
+      },
+      "scenario_totals": {
+        "default": 5.91,
+        "equal_weight": 5.75,
+        "max_earnings": 5.63,
+        "best_lifestyle": 5.7,
+        "fastest_to_practice": 5.57,
+        "most_procedural": 5.83
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 25,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 75,
+        "prof_school_years": 2,
+        "trainee_salary": 0,
+        "education_debt": 120,
+        "loan_rate": 6.5,
+        "living_expenses": 52,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 7,
+        "salary_growth_to_peak": 4,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 2,
+        "fellowship_years": 0,
+        "age_independent": 26,
+        "starting_salary": 100,
+        "mid_salary": 160,
+        "peak_salary": 280,
+        "typical_peak": 200,
+        "malpractice_per_yr": 1
+      },
+      "stress": {
+        "ai": 5,
+        "pay": 5,
+        "injury": 6,
+        "match": 5
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          24
+        ],
+        "residency": [
+          24,
+          26
+        ],
+        "fellowship": null,
+        "earnAge": 26,
+        "startSalary": 100
+      }
+    },
+    {
+      "name": "Operations Director",
+      "key": "operations_director",
+      "profession": "MBA",
+      "group": "operations_supply",
+      "color": "#3bd820",
+      "path": "MBA Graduate",
+      "raw_data": {
+        "startSalary": 95,
+        "midSalary": 155,
+        "peakSalary": 280,
+        "typicalPeak": 200,
+        "hoursWeek": 50,
+        "burnout": 28,
+        "satisfaction": 68,
+        "chooseAgain": 63,
+        "malpracticeCost": 1,
+        "vacation": 4,
+        "matchComp": 6,
+        "annualSpots": 15000,
+        "oneInX": 8,
+        "callSchedule": 5,
+        "physicalToll": 7,
+        "emotionalToll": 4,
+        "aiRiskNow": 3,
+        "aiRiskMedium": 4,
+        "aiRiskLong": 5,
+        "aiNarrative": "AI can optimize processes, predict equipment failures, and automate scheduling, which makes operations run smoother. But operations leaders manage people, handle exceptions, and make judgment calls that AI can't. The job becomes less about tracking and more about leading."
+      },
+      "scores": {
+        "category_1": 4.75,
+        "category_2": 5.33,
+        "category_3": 5.67,
+        "category_4": 6.67,
+        "category_5": 4.26,
+        "category_6": 6.57,
+        "category_7": 6.25,
+        "category_8": 6.1,
+        "category_9": 5.6,
+        "category_10": 5.6,
+        "category_11": 4.8,
+        "category_12": 5.53,
+        "category_13": 4.5,
+        "category_14": 8.21
+      },
+      "scenario_totals": {
+        "default": 5.88,
+        "equal_weight": 5.72,
+        "max_earnings": 5.59,
+        "best_lifestyle": 5.67,
+        "fastest_to_practice": 5.55,
+        "most_procedural": 5.78
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 25,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 75,
+        "prof_school_years": 2,
+        "trainee_salary": 0,
+        "education_debt": 120,
+        "loan_rate": 6.5,
+        "living_expenses": 52,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 7,
+        "salary_growth_to_peak": 4,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 2,
+        "fellowship_years": 0,
+        "age_independent": 26,
+        "starting_salary": 95,
+        "mid_salary": 155,
+        "peak_salary": 280,
+        "typical_peak": 200,
+        "malpractice_per_yr": 1
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 5,
+        "injury": 6,
+        "match": 5
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          24
+        ],
+        "residency": [
+          24,
+          26
+        ],
+        "fellowship": null,
+        "earnAge": 26,
+        "startSalary": 95
+      }
+    },
+    {
+      "name": "General Manager",
+      "key": "general_manager",
+      "profession": "MBA",
+      "group": "operations_supply",
+      "color": "#20d827",
+      "path": "MBA Graduate",
+      "raw_data": {
+        "startSalary": 90,
+        "midSalary": 150,
+        "peakSalary": 300,
+        "typicalPeak": 200,
+        "hoursWeek": 52,
+        "burnout": 32,
+        "satisfaction": 70,
+        "chooseAgain": 66,
+        "malpracticeCost": 1,
+        "vacation": 4,
+        "matchComp": 7,
+        "annualSpots": 20000,
+        "oneInX": 6,
+        "callSchedule": 5,
+        "physicalToll": 7,
+        "emotionalToll": 5,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 3,
+        "aiRiskLong": 4,
+        "aiNarrative": "General managers are the ultimate generalists \u2014 they handle people, money, operations, and strategy all at once. AI can help with each piece, but the job of integrating everything and leading a business unit is deeply human. This is one of the safer MBA paths from an AI perspective."
+      },
+      "scores": {
+        "category_1": 4.75,
+        "category_2": 5.67,
+        "category_3": 5.67,
+        "category_4": 6.67,
+        "category_5": 4.21,
+        "category_6": 6.57,
+        "category_7": 6.28,
+        "category_8": 5.75,
+        "category_9": 5.36,
+        "category_10": 5.8,
+        "category_11": 4.8,
+        "category_12": 6.37,
+        "category_13": 4.5,
+        "category_14": 8.36
+      },
+      "scenario_totals": {
+        "default": 5.93,
+        "equal_weight": 5.78,
+        "max_earnings": 5.63,
+        "best_lifestyle": 5.69,
+        "fastest_to_practice": 5.62,
+        "most_procedural": 5.85
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 25,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 75,
+        "prof_school_years": 2,
+        "trainee_salary": 0,
+        "education_debt": 120,
+        "loan_rate": 6.5,
+        "living_expenses": 52,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 7,
+        "salary_growth_to_peak": 4,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 2,
+        "fellowship_years": 0,
+        "age_independent": 26,
+        "starting_salary": 90,
+        "mid_salary": 150,
+        "peak_salary": 300,
+        "typical_peak": 200,
+        "malpractice_per_yr": 1
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 5,
+        "injury": 7,
+        "match": 4
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          24
+        ],
+        "residency": [
+          24,
+          26
+        ],
+        "fellowship": null,
+        "earnAge": 26,
+        "startSalary": 90
+      }
+    },
+    {
+      "name": "Non-Profit Executive Director",
+      "key": "non_profit_executive_dir",
+      "profession": "MBA",
+      "group": "people_culture",
+      "color": "#20d848",
+      "path": "MBA Graduate",
+      "raw_data": {
+        "startSalary": 65,
+        "midSalary": 100,
+        "peakSalary": 180,
+        "typicalPeak": 120,
+        "hoursWeek": 50,
+        "burnout": 38,
+        "satisfaction": 78,
+        "chooseAgain": 75,
+        "malpracticeCost": 1,
+        "vacation": 4,
+        "matchComp": 5,
+        "annualSpots": 8000,
+        "oneInX": 15,
+        "callSchedule": 6,
+        "physicalToll": 7,
+        "emotionalToll": 6,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 3,
+        "aiRiskLong": 3,
+        "aiNarrative": "Non-profit work is all about people \u2014 fundraising, community building, advocacy, and inspiring donors and volunteers. AI can help with grant writing and data, but the heart of this job is human connection and mission-driven leadership. Very AI-resilient."
+      },
+      "scores": {
+        "category_1": 4.75,
+        "category_2": 5.0,
+        "category_3": 5.67,
+        "category_4": 7.0,
+        "category_5": 3.9,
+        "category_6": 6.57,
+        "category_7": 6.12,
+        "category_8": 6.1,
+        "category_9": 5.24,
+        "category_10": 5.8,
+        "category_11": 4.8,
+        "category_12": 7.77,
+        "category_13": 4.5,
+        "category_14": 8.5
+      },
+      "scenario_totals": {
+        "default": 6.0,
+        "equal_weight": 5.85,
+        "max_earnings": 5.61,
+        "best_lifestyle": 5.81,
+        "fastest_to_practice": 5.62,
+        "most_procedural": 6.09
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 25,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 75,
+        "prof_school_years": 2,
+        "trainee_salary": 0,
+        "education_debt": 120,
+        "loan_rate": 6.5,
+        "living_expenses": 52,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 7,
+        "salary_growth_to_peak": 4,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 2,
+        "fellowship_years": 0,
+        "age_independent": 26,
+        "starting_salary": 65,
+        "mid_salary": 100,
+        "peak_salary": 180,
+        "typical_peak": 120,
+        "malpractice_per_yr": 1
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 5,
+        "injury": 7,
+        "match": 5
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          24
+        ],
+        "residency": [
+          24,
+          26
+        ],
+        "fellowship": null,
+        "earnAge": 26,
+        "startSalary": 65
+      }
+    },
+    {
+      "name": "Startup Founder / CEO",
+      "key": "startup_founder",
+      "profession": "MBA",
+      "group": "entrepreneurship",
+      "color": "#E65100",
+      "path": "MBA Graduate",
+      "raw_data": {
+        "startSalary": 50,
+        "midSalary": 120,
+        "peakSalary": 500,
+        "typicalPeak": 150,
+        "hoursWeek": 65,
+        "burnout": 50,
+        "satisfaction": 72,
+        "chooseAgain": 70,
+        "malpracticeCost": 2,
+        "vacation": 2,
+        "matchComp": 9,
+        "annualSpots": 50000,
+        "oneInX": 2,
+        "callSchedule": 2,
+        "physicalToll": 5,
+        "emotionalToll": 8,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 2,
+        "aiRiskLong": 3,
+        "aiNarrative": "AI is actually a superpower for founders \u2014 one person can now do the work of a small team using AI tools for coding, design, marketing, and finance. But founding a company is also about vision, resilience, and convincing people to follow you, which is pure human stuff. Huge variance in outcomes though."
+      },
+      "scores": {
+        "category_1": 4.75,
+        "category_2": 6.33,
+        "category_3": 5.67,
+        "category_4": 5.67,
+        "category_5": 3.86,
+        "category_6": 6.43,
+        "category_7": 6.0,
+        "category_8": 5.55,
+        "category_9": 3.24,
+        "category_10": 5.8,
+        "category_11": 4.8,
+        "category_12": 7.4,
+        "category_13": 4.5,
+        "category_14": 8.16
+      },
+      "scenario_totals": {
+        "default": 5.66,
+        "equal_weight": 5.6,
+        "max_earnings": 5.38,
+        "best_lifestyle": 5.24,
+        "fastest_to_practice": 5.42,
+        "most_procedural": 5.79
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 25,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 75,
+        "prof_school_years": 2,
+        "trainee_salary": 0,
+        "education_debt": 120,
+        "loan_rate": 6.5,
+        "living_expenses": 52,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 7,
+        "salary_growth_to_peak": 4,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 2,
+        "fellowship_years": 0,
+        "age_independent": 26,
+        "starting_salary": 50,
+        "mid_salary": 120,
+        "peak_salary": 500,
+        "typical_peak": 150,
+        "malpractice_per_yr": 2
+      },
+      "stress": {
+        "ai": 8,
+        "pay": 5,
+        "injury": 6,
+        "match": 4
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          24
+        ],
+        "residency": [
+          24,
+          26
+        ],
+        "fellowship": null,
+        "earnAge": 26,
+        "startSalary": 50
+      }
+    },
+    {
+      "name": "Real Estate Developer",
+      "key": "real_estate_developer",
+      "profession": "MBA",
+      "group": "entrepreneurship",
+      "color": "#20d869",
+      "path": "MBA Graduate",
+      "raw_data": {
+        "startSalary": 80,
+        "midSalary": 160,
+        "peakSalary": 500,
+        "typicalPeak": 220,
+        "hoursWeek": 55,
+        "burnout": 30,
+        "satisfaction": 70,
+        "chooseAgain": 68,
+        "malpracticeCost": 3,
+        "vacation": 3,
+        "matchComp": 5,
+        "annualSpots": 8000,
+        "oneInX": 15,
+        "callSchedule": 4,
+        "physicalToll": 6,
+        "emotionalToll": 5,
+        "aiRiskNow": 2,
+        "aiRiskMedium": 3,
+        "aiRiskLong": 3,
+        "aiNarrative": "AI can help with market analysis, zoning research, and financial modeling for deals, but real estate development is physical \u2014 you have to walk sites, negotiate with city officials, manage contractors, and deal with neighbors. The tangible nature of the work makes it very AI-resistant."
+      },
+      "scores": {
+        "category_1": 4.75,
+        "category_2": 5.0,
+        "category_3": 5.67,
+        "category_4": 6.33,
+        "category_5": 4.17,
+        "category_6": 6.57,
+        "category_7": 6.5,
+        "category_8": 6.1,
+        "category_9": 5.06,
+        "category_10": 5.4,
+        "category_11": 5.0,
+        "category_12": 6.43,
+        "category_13": 4.5,
+        "category_14": 7.37
+      },
+      "scenario_totals": {
+        "default": 5.83,
+        "equal_weight": 5.64,
+        "max_earnings": 5.61,
+        "best_lifestyle": 5.6,
+        "fastest_to_practice": 5.45,
+        "most_procedural": 5.85
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 25,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 75,
+        "prof_school_years": 2,
+        "trainee_salary": 0,
+        "education_debt": 120,
+        "loan_rate": 6.5,
+        "living_expenses": 52,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 7,
+        "salary_growth_to_peak": 4,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 2,
+        "fellowship_years": 0,
+        "age_independent": 26,
+        "starting_salary": 80,
+        "mid_salary": 160,
+        "peak_salary": 500,
+        "typical_peak": 220,
+        "malpractice_per_yr": 3
+      },
+      "stress": {
+        "ai": 7,
+        "pay": 4,
+        "injury": 6,
+        "match": 5
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          24
+        ],
+        "residency": [
+          24,
+          26
+        ],
+        "fellowship": null,
+        "earnAge": 26,
+        "startSalary": 80
+      }
+    },
+    {
+      "name": "Healthcare Administrator",
+      "key": "healthcare_administrator",
+      "profession": "MBA",
+      "group": "entrepreneurship",
+      "color": "#20d88a",
+      "path": "MBA Graduate",
+      "raw_data": {
+        "startSalary": 75,
+        "midSalary": 120,
+        "peakSalary": 220,
+        "typicalPeak": 150,
+        "hoursWeek": 50,
+        "burnout": 35,
+        "satisfaction": 65,
+        "chooseAgain": 60,
+        "malpracticeCost": 2,
+        "vacation": 4,
+        "matchComp": 6,
+        "annualSpots": 12000,
+        "oneInX": 10,
+        "callSchedule": 5,
+        "physicalToll": 8,
+        "emotionalToll": 5,
+        "aiRiskNow": 3,
+        "aiRiskMedium": 4,
+        "aiRiskLong": 5,
+        "aiNarrative": "AI is already helping hospitals with scheduling, billing, and patient flow optimization. Healthcare admins who embrace these tools will be more effective, but the job also involves managing staff, navigating regulations, and making ethical decisions that AI can't handle alone."
+      },
+      "scores": {
+        "category_1": 4.75,
+        "category_2": 5.33,
+        "category_3": 5.67,
+        "category_4": 6.67,
+        "category_5": 4.03,
+        "category_6": 6.57,
+        "category_7": 6.17,
+        "category_8": 6.1,
+        "category_9": 5.34,
+        "category_10": 6.0,
+        "category_11": 4.8,
+        "category_12": 6.0,
+        "category_13": 4.5,
+        "category_14": 7.87
+      },
+      "scenario_totals": {
+        "default": 5.86,
+        "equal_weight": 5.71,
+        "max_earnings": 5.56,
+        "best_lifestyle": 5.65,
+        "fastest_to_practice": 5.53,
+        "most_procedural": 5.84
+      },
+      "financial": {
+        "undergrad_cost_per_yr": 25,
+        "undergrad_years": 4,
+        "prof_school_cost_per_yr": 75,
+        "prof_school_years": 2,
+        "trainee_salary": 0,
+        "education_debt": 120,
+        "loan_rate": 6.5,
+        "living_expenses": 52,
+        "living_exp_growth": 2.5,
+        "overhead_per_yr": 0,
+        "salary_growth_to_mid": 7,
+        "salary_growth_to_peak": 4,
+        "post_peak_growth": 1,
+        "npv_discount_rate": 5,
+        "residency_years": 2,
+        "fellowship_years": 0,
+        "age_independent": 26,
+        "starting_salary": 75,
+        "mid_salary": 120,
+        "peak_salary": 220,
+        "typical_peak": 150,
+        "malpractice_per_yr": 2
+      },
+      "stress": {
+        "ai": 6,
+        "pay": 5,
+        "injury": 7,
+        "match": 5
+      },
+      "timeline": {
+        "college": [
+          18,
+          22
+        ],
+        "school": [
+          22,
+          24
+        ],
+        "residency": [
+          24,
+          26
+        ],
+        "fellowship": null,
+        "earnAge": 26,
+        "startSalary": 75
+      }
+    }
+  ],
+  "decision_tree": {
+    "q": "Do you want to work with numbers and spreadsheets most of the day?",
+    "yes": {
+      "q": "Do you care more about building wealth or keeping score?",
+      "yes": {
+        "q": "Highest possible pay, or steady prestige?",
+        "procedural": "ib_associate",
+        "variety": "portfolio_mgr"
+      },
+      "no": "big4_auditor"
+    },
+    "no": {
+      "q": "What matters most to you?",
+      "options": [
+        {
+          "label": "\ud83d\udcaa Solving big strategy problems",
+          "result": "mbb_consultant"
+        },
+        {
+          "label": "\ud83d\ude80 Building something of your own",
+          "result": "startup_founder"
+        },
+        {
+          "label": "\ud83d\udcb0 Controlling the deal flow",
+          "result": "pe_associate"
+        }
+      ]
+    }
+  },
+  "decision_tree_results": {
+    "mbb_consultant": {
+      "tagline": "Elite problem-solver",
+      "stat": "$100K start \u2022 $500K+ partner \u2022 top MBA required"
+    },
+    "ib_associate": {
+      "tagline": "Wall Street dealmaker",
+      "stat": "$150K start \u2022 $1M+ MD \u2022 brutal hours"
+    },
+    "pe_associate": {
+      "tagline": "Buy and build companies",
+      "stat": "$150K start \u2022 $800K+ partner \u2022 carry upside"
+    },
+    "startup_founder": {
+      "tagline": "Bet on yourself",
+      "stat": "$0-80K start \u2022 uncapped upside \u2022 90% fail rate"
+    },
+    "portfolio_mgr": {
+      "tagline": "Beat the market",
+      "stat": "$85K start \u2022 $500K+ senior \u2022 CFA required"
+    },
+    "big4_auditor": {
+      "tagline": "The trusted scorekeeper",
+      "stat": "$65K start \u2022 $200K+ partner \u2022 CPA required"
+    }
+  },
+  "ranking": [
+    {
+      "rank": 1,
+      "track": "Management Consultant (MBB)",
+      "key": "mbb_consultant",
+      "note": "Best all-around MBA career"
+    },
+    {
+      "rank": 2,
+      "track": "Investment Banking Associate",
+      "key": "ib_associate",
+      "note": "Highest earnings ceiling"
+    },
+    {
+      "rank": 3,
+      "track": "Private Equity Associate",
+      "key": "pe_associate",
+      "note": "Best risk-adjusted compensation"
+    },
+    {
+      "rank": 4,
+      "track": "Portfolio Manager",
+      "key": "portfolio_mgr",
+      "note": "Best for quantitative thinkers"
+    },
+    {
+      "rank": 5,
+      "track": "Startup Founder / CEO",
+      "key": "startup_founder",
+      "note": "Highest upside, highest risk"
+    },
+    {
+      "rank": 6,
+      "track": "Big 4 Auditor",
+      "key": "big4_auditor",
+      "note": "Most reliable path with CPA"
+    }
+  ]
+}

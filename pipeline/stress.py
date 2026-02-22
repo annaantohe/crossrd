@@ -32,6 +32,10 @@ MATCH_RESILIENCE_BY_PROFESSION = {
     "BS": 7,
     "MS": 6,
     "PhD": 4,
+    # business professions
+    "BBA": 8,
+    "MBA": 5,
+    "CPA-CFA": 7,
 }
 
 

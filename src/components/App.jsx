@@ -6,6 +6,7 @@ import { useState, useEffect, useMemo } from "react";
 import healthcareData from "../data/healthcare.json";
 import lawData from "../data/law.json";
 import engineeringData from "../data/engineering.json";
+import businessData from "../data/business.json";
 import {
   buildNetWorthFromTracks,
   buildRadarFromTracks,
@@ -27,6 +28,7 @@ const FAMILIES = {
   healthcare: healthcareData,
   law: lawData,
   engineering: engineeringData,
+  business: businessData,
 };
 
 const MAX_PICKS = 6;

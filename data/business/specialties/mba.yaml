@@ -1,0 +1,737 @@
+# MBA specialties — 16 careers across 7 groups
+profession: MBA
+specialties:
+
+# === FINANCE & BANKING (2) ===
+
+- name: "Investment Banking Associate"
+  group: finance_banking
+  residencyYears: 2
+  annualSpots: 4000
+  startSalary: 150
+  midSalary: 350
+  peakSalary: 1000
+  typicalPeak: 500
+  partTimeFlex: 1
+  procedureMix: 1
+  callSchedule: 1
+  adminBurden: 6
+  hoursWeek: 75
+  burnout: 60
+  partTimeFeasibility: 1
+  vacation: 2
+  careerLongevity: 5
+  malpracticeFreq: 9
+  malpracticeCost: 2
+  geographicFlex: 3
+  automationRisk: 5
+  handsOnInsulation: 2
+  satisfaction: 55
+  chooseAgain: 48
+  intellectualStim: 7
+  varietyRepetition: 4
+  patientImpact: 2
+  physicalToll: 4
+  emotionalToll: 7
+  malpracticeLiability: 9
+  injuryCareerRisk: 9
+  aiRiskNow: 4
+  aiRiskMedium: 5
+  aiRiskLong: 6
+  aiNarrative: "AI is already automating the financial modeling and pitch-deck grunt work that junior bankers used to do at 2 AM. Senior bankers who bring in clients and negotiate deals are safe, but the path up will look different — fewer juniors needed per deal."
+  fellowshipOptions: "CFA, Series 7/63/79 licenses"
+  compModel: "Base + massive bonus (100-200% of base); MD-level carry on deals"
+  revPerPatientVisit: "N/A — deal-fee based"
+  dailyWorkflow: "Financial modeling, pitch books, client calls, due diligence, live deal execution under tight deadlines"
+  patientVolume: "2-4 active deals simultaneously"
+  supportStaffModel: "Analysts, associates, VPs in hierarchical deal teams"
+  geographicDemandNotes: "NYC dominates; SF, Chicago, Houston, London for sector-specific roles"
+  telehealthPotential: 4
+  genderDistribution: "~30% women"
+
+- name: "Corporate Strategy Manager"
+  group: finance_banking
+  residencyYears: 2
+  annualSpots: 15000
+  startSalary: 120
+  midSalary: 180
+  peakSalary: 300
+  typicalPeak: 220
+  partTimeFlex: 4
+  procedureMix: 2
+  callSchedule: 7
+  adminBurden: 6
+  hoursWeek: 50
+  burnout: 30
+  partTimeFeasibility: 4
+  vacation: 4
+  careerLongevity: 8
+  malpracticeFreq: 10
+  malpracticeCost: 1
+  geographicFlex: 6
+  automationRisk: 4
+  handsOnInsulation: 3
+  satisfaction: 72
+  chooseAgain: 68
+  intellectualStim: 7
+  varietyRepetition: 7
+  patientImpact: 3
+  physicalToll: 9
+  emotionalToll: 3
+  malpracticeLiability: 10
+  injuryCareerRisk: 9
+  aiRiskNow: 3
+  aiRiskMedium: 4
+  aiRiskLong: 5
+  aiNarrative: "AI tools can crunch market data and build competitive analyses faster than any analyst, but someone still needs to decide what the company should actually do next. Corporate strategists who combine data with judgment and internal politics will stay relevant."
+  fellowshipOptions: "CFA, Six Sigma, optional specialized MBA concentrations"
+  compModel: "Base salary + annual performance bonus (15-30% of base) + RSUs at public companies"
+  revPerPatientVisit: "N/A — salaried"
+  dailyWorkflow: "Internal strategy projects, market analysis, executive presentations, cross-functional meetings, M&A evaluation"
+  patientVolume: "2-5 strategic initiatives per quarter"
+  supportStaffModel: "Small strategy team, leverages data/analytics teams and external consultants"
+  geographicDemandNotes: "Any major metro with Fortune 500 HQs; increasingly remote-friendly"
+  telehealthPotential: 7
+  genderDistribution: "~40% women"
+
+# === INVESTING & PE (2) ===
+
+- name: "Private Equity Associate"
+  group: investing_pe
+  residencyYears: 2
+  annualSpots: 3000
+  startSalary: 150
+  midSalary: 300
+  peakSalary: 800
+  typicalPeak: 450
+  partTimeFlex: 1
+  procedureMix: 1
+  callSchedule: 2
+  adminBurden: 5
+  hoursWeek: 65
+  burnout: 45
+  partTimeFeasibility: 1
+  vacation: 2
+  careerLongevity: 6
+  malpracticeFreq: 9
+  malpracticeCost: 2
+  geographicFlex: 3
+  automationRisk: 4
+  handsOnInsulation: 2
+  satisfaction: 65
+  chooseAgain: 60
+  intellectualStim: 8
+  varietyRepetition: 6
+  patientImpact: 2
+  physicalToll: 5
+  emotionalToll: 6
+  malpracticeLiability: 9
+  injuryCareerRisk: 9
+  aiRiskNow: 3
+  aiRiskMedium: 4
+  aiRiskLong: 5
+  aiNarrative: "AI can screen deals and crunch financials way faster than people, which means fewer analysts are needed for the early legwork. But the partners who pick winners, negotiate prices, and actually fix companies aren't being replaced — the job just shifts toward more judgment calls."
+  fellowshipOptions: "CFA, CAIA; some pursue board certifications"
+  compModel: "Base + bonus + carried interest (20% of fund profits); carry is where the real money is"
+  revPerPatientVisit: "N/A — fund-fee and carry based"
+  dailyWorkflow: "Deal sourcing, financial modeling, due diligence on target companies, portfolio company board meetings, exit planning"
+  patientVolume: "2-3 active deals, 5-10 portfolio companies to monitor"
+  supportStaffModel: "Associates, operating partners, third-party consultants, legal advisors"
+  geographicDemandNotes: "NYC, Boston, SF, Chicago — extremely concentrated in financial hubs"
+  telehealthPotential: 4
+  genderDistribution: "~20% women"
+
+- name: "Venture Capital Associate"
+  group: investing_pe
+  residencyYears: 2
+  annualSpots: 2000
+  startSalary: 130
+  midSalary: 250
+  peakSalary: 600
+  typicalPeak: 350
+  partTimeFlex: 3
+  procedureMix: 2
+  callSchedule: 5
+  adminBurden: 4
+  hoursWeek: 55
+  burnout: 30
+  partTimeFeasibility: 3
+  vacation: 3
+  careerLongevity: 7
+  malpracticeFreq: 10
+  malpracticeCost: 1
+  geographicFlex: 4
+  automationRisk: 3
+  handsOnInsulation: 4
+  satisfaction: 75
+  chooseAgain: 72
+  intellectualStim: 9
+  varietyRepetition: 8
+  patientImpact: 4
+  physicalToll: 8
+  emotionalToll: 4
+  malpracticeLiability: 10
+  injuryCareerRisk: 9
+  aiRiskNow: 2
+  aiRiskMedium: 3
+  aiRiskLong: 4
+  aiNarrative: "AI can help scan thousands of startups and flag promising ones, but VC is ultimately about people — reading founders, building trust, and making gut calls on unproven ideas. The human relationship side is hard to automate."
+  fellowshipOptions: "CFA; some VCs come from technical backgrounds (CS, biotech)"
+  compModel: "Base + bonus + carried interest; smaller funds may pay less base but carry upside is huge if fund wins big"
+  revPerPatientVisit: "N/A — management fees + carry"
+  dailyWorkflow: "Meeting founders, evaluating pitch decks, market research, portfolio support, partnership meetings, attending conferences"
+  patientVolume: "Review 50+ pitches/month, invest in 1-3 per quarter"
+  supportStaffModel: "Small teams — principals, partners, analysts, plus venture partners (part-time advisors)"
+  geographicDemandNotes: "SF/Bay Area dominates; NYC, Boston, Austin, Miami growing"
+  telehealthPotential: 6
+  genderDistribution: "~25% women"
+
+# === CONSULTING & STRATEGY (3) ===
+
+- name: "Management Consultant (MBB)"
+  group: consulting_strategy
+  residencyYears: 2
+  annualSpots: 5000
+  startSalary: 100
+  midSalary: 250
+  peakSalary: 500
+  typicalPeak: 350
+  partTimeFlex: 2
+  procedureMix: 2
+  callSchedule: 3
+  adminBurden: 5
+  hoursWeek: 60
+  burnout: 45
+  partTimeFeasibility: 2
+  vacation: 3
+  careerLongevity: 6
+  malpracticeFreq: 10
+  malpracticeCost: 1
+  geographicFlex: 5
+  automationRisk: 4
+  handsOnInsulation: 3
+  satisfaction: 70
+  chooseAgain: 65
+  intellectualStim: 9
+  varietyRepetition: 8
+  patientImpact: 3
+  physicalToll: 5
+  emotionalToll: 5
+  malpracticeLiability: 10
+  injuryCareerRisk: 9
+  aiRiskNow: 3
+  aiRiskMedium: 4
+  aiRiskLong: 5
+  aiNarrative: "AI can generate slide decks and run analyses that used to take teams of consultants weeks. But CEOs still pay for trusted human advisors who can navigate politics, push back on bad ideas, and implement change. The entry-level grunt work is shrinking though."
+  fellowshipOptions: "Optional industry expertise certifications; many exit to C-suite or PE"
+  compModel: "Base + performance bonus (20-40%) + signing bonus; partner track includes profit-sharing"
+  revPerPatientVisit: "N/A — project-fee based ($500K-$5M per engagement)"
+  dailyWorkflow: "Client interviews, data analysis, hypothesis testing, slide creation, team problem-solving, client presentations, travel Mon-Thu"
+  patientVolume: "1-2 client engagements at a time, 8-12 week projects"
+  supportStaffModel: "Structured teams: engagement manager, associates, analysts, plus internal research/knowledge teams"
+  geographicDemandNotes: "Major offices in NYC, Chicago, DC, SF, Boston; heavy travel to client sites nationwide"
+  telehealthPotential: 5
+  genderDistribution: "~40% women (higher at entry, drops at partner level)"
+
+- name: "Strategy Consultant"
+  group: consulting_strategy
+  residencyYears: 2
+  annualSpots: 10000
+  startSalary: 95
+  midSalary: 200
+  peakSalary: 400
+  typicalPeak: 280
+  partTimeFlex: 3
+  procedureMix: 2
+  callSchedule: 4
+  adminBurden: 5
+  hoursWeek: 55
+  burnout: 38
+  partTimeFeasibility: 3
+  vacation: 3
+  careerLongevity: 7
+  malpracticeFreq: 10
+  malpracticeCost: 1
+  geographicFlex: 5
+  automationRisk: 4
+  handsOnInsulation: 3
+  satisfaction: 72
+  chooseAgain: 66
+  intellectualStim: 8
+  varietyRepetition: 8
+  patientImpact: 3
+  physicalToll: 5
+  emotionalToll: 4
+  malpracticeLiability: 10
+  injuryCareerRisk: 9
+  aiRiskNow: 3
+  aiRiskMedium: 5
+  aiRiskLong: 6
+  aiNarrative: "Strategy consulting at firms outside MBB is a bit more exposed to AI because the work leans heavier on analysis and benchmarking, which AI does well. But if you build deep industry expertise and client relationships, you'll stay valuable."
+  fellowshipOptions: "Industry-specific certifications; PMP for implementation work"
+  compModel: "Base + performance bonus (15-30%); partner track includes equity/profit-sharing"
+  revPerPatientVisit: "N/A — project-fee based ($200K-$2M per engagement)"
+  dailyWorkflow: "Market research, competitive analysis, financial modeling, client workshops, strategic recommendations, some travel"
+  patientVolume: "1-3 client projects, shorter engagements (4-8 weeks typical)"
+  supportStaffModel: "Leaner teams than MBB; consultants wear more hats, smaller support staff"
+  geographicDemandNotes: "Spread across major metros; less NYC-concentrated than MBB. Regional firms in many cities"
+  telehealthPotential: 6
+  genderDistribution: "~42% women"
+
+- name: "Product Manager"
+  group: consulting_strategy
+  residencyYears: 2
+  annualSpots: 25000
+  startSalary: 110
+  midSalary: 170
+  peakSalary: 300
+  typicalPeak: 200
+  partTimeFlex: 5
+  procedureMix: 3
+  callSchedule: 6
+  adminBurden: 5
+  hoursWeek: 48
+  burnout: 30
+  partTimeFeasibility: 5
+  vacation: 4
+  careerLongevity: 8
+  malpracticeFreq: 10
+  malpracticeCost: 1
+  geographicFlex: 8
+  automationRisk: 3
+  handsOnInsulation: 4
+  satisfaction: 75
+  chooseAgain: 72
+  intellectualStim: 8
+  varietyRepetition: 8
+  patientImpact: 5
+  physicalToll: 9
+  emotionalToll: 4
+  malpracticeLiability: 10
+  injuryCareerRisk: 9
+  aiRiskNow: 3
+  aiRiskMedium: 4
+  aiRiskLong: 5
+  aiNarrative: "AI coding tools mean PMs can prototype faster and need fewer engineers for some tasks, which actually makes the role more powerful. But AI can also write PRDs and do user research summaries, so PMs need to level up to strategy and leadership, not just feature specs."
+  fellowshipOptions: "CSPO, technical certifications; many PMs come from engineering or design backgrounds"
+  compModel: "Base + annual bonus (10-20%) + RSUs/stock options (major component at big tech)"
+  revPerPatientVisit: "N/A — salaried"
+  dailyWorkflow: "Sprint planning, user research, writing product specs, cross-functional meetings with engineering/design/data, roadmap prioritization, stakeholder updates"
+  patientVolume: "1-3 product areas, multiple feature launches per quarter"
+  supportStaffModel: "Engineering team, UX designers, data analysts, QA; PM is the 'CEO of the product' but has no direct reports"
+  geographicDemandNotes: "SF/Bay Area, Seattle, NYC, Austin; very remote-friendly at most tech companies"
+  telehealthPotential: 9
+  genderDistribution: "~35% women"
+
+# === MARKETING & SALES (2) ===
+
+- name: "Brand Manager"
+  group: marketing_sales
+  residencyYears: 2
+  annualSpots: 15000
+  startSalary: 90
+  midSalary: 145
+  peakSalary: 250
+  typicalPeak: 175
+  partTimeFlex: 4
+  procedureMix: 3
+  callSchedule: 7
+  adminBurden: 6
+  hoursWeek: 48
+  burnout: 28
+  partTimeFeasibility: 4
+  vacation: 4
+  careerLongevity: 8
+  malpracticeFreq: 10
+  malpracticeCost: 1
+  geographicFlex: 5
+  automationRisk: 4
+  handsOnInsulation: 4
+  satisfaction: 72
+  chooseAgain: 68
+  intellectualStim: 7
+  varietyRepetition: 7
+  patientImpact: 4
+  physicalToll: 9
+  emotionalToll: 3
+  malpracticeLiability: 10
+  injuryCareerRisk: 9
+  aiRiskNow: 3
+  aiRiskMedium: 5
+  aiRiskLong: 6
+  aiNarrative: "AI can generate ad copy, design variations, and marketing analytics in seconds. But building a brand is about understanding culture, emotion, and what makes people care — that's still very human. Brand managers who lean into creative strategy will thrive."
+  fellowshipOptions: "Google Analytics cert, AMA certifications; CPG rotational programs (P&G, Unilever)"
+  compModel: "Base + annual bonus (15-25%) + product perks; CPG companies often include relocation packages"
+  revPerPatientVisit: "N/A — salaried"
+  dailyWorkflow: "Consumer research, campaign planning, agency management, P&L ownership for the brand, cross-functional meetings with sales/supply chain, new product launches"
+  patientVolume: "1-3 brands, multiple campaigns and SKUs per brand"
+  supportStaffModel: "Marketing analysts, creative agencies, media buyers, sales teams, market research firms"
+  geographicDemandNotes: "Cincinnati (P&G), Minneapolis (General Mills), Chicago, NYC; some CPG HQs in smaller cities"
+  telehealthPotential: 6
+  genderDistribution: "~55% women"
+
+- name: "Business Development Manager"
+  group: marketing_sales
+  residencyYears: 2
+  annualSpots: 20000
+  startSalary: 85
+  midSalary: 140
+  peakSalary: 250
+  typicalPeak: 170
+  partTimeFlex: 3
+  procedureMix: 3
+  callSchedule: 5
+  adminBurden: 5
+  hoursWeek: 50
+  burnout: 30
+  partTimeFeasibility: 3
+  vacation: 4
+  careerLongevity: 7
+  malpracticeFreq: 10
+  malpracticeCost: 1
+  geographicFlex: 6
+  automationRisk: 3
+  handsOnInsulation: 6
+  satisfaction: 68
+  chooseAgain: 63
+  intellectualStim: 7
+  varietyRepetition: 7
+  patientImpact: 3
+  physicalToll: 7
+  emotionalToll: 4
+  malpracticeLiability: 10
+  injuryCareerRisk: 9
+  aiRiskNow: 2
+  aiRiskMedium: 3
+  aiRiskLong: 4
+  aiNarrative: "Business development is fundamentally about relationships — reading people, building trust, and closing deals over dinners and handshakes. AI can help find leads and draft proposals, but it can't replace the human connection that seals partnerships."
+  fellowshipOptions: "Industry-specific certifications; Salesforce/CRM certifications helpful"
+  compModel: "Base + commission/bonus (20-50% variable); uncapped commission at some firms"
+  revPerPatientVisit: "N/A — deal-value based"
+  dailyWorkflow: "Prospecting partners, client meetings, proposal writing, contract negotiation, CRM management, industry events and networking"
+  patientVolume: "10-30 active prospects, closing 2-5 deals per quarter"
+  supportStaffModel: "Sales ops, marketing team for lead gen, legal for contracts, inside sales reps"
+  geographicDemandNotes: "Everywhere — every industry needs BD. Major metros and regional offices alike"
+  telehealthPotential: 6
+  genderDistribution: "~38% women"
+
+# === OPERATIONS & SUPPLY CHAIN (3) ===
+
+- name: "Supply Chain Director"
+  group: operations_supply
+  residencyYears: 2
+  annualSpots: 12000
+  startSalary: 100
+  midSalary: 160
+  peakSalary: 280
+  typicalPeak: 200
+  partTimeFlex: 3
+  procedureMix: 4
+  callSchedule: 5
+  adminBurden: 7
+  hoursWeek: 50
+  burnout: 30
+  partTimeFeasibility: 3
+  vacation: 4
+  careerLongevity: 8
+  malpracticeFreq: 10
+  malpracticeCost: 1
+  geographicFlex: 5
+  automationRisk: 5
+  handsOnInsulation: 4
+  satisfaction: 70
+  chooseAgain: 65
+  intellectualStim: 7
+  varietyRepetition: 6
+  patientImpact: 3
+  physicalToll: 7
+  emotionalToll: 4
+  malpracticeLiability: 10
+  injuryCareerRisk: 9
+  aiRiskNow: 4
+  aiRiskMedium: 5
+  aiRiskLong: 6
+  aiNarrative: "AI is transforming supply chain with demand forecasting, route optimization, and inventory management that's way better than humans. But someone still needs to manage supplier relationships, handle crises when a port shuts down, and make the big calls. The role gets more strategic, less spreadsheet-y."
+  fellowshipOptions: "CSCP (APICS), Six Sigma Black Belt, CPSM"
+  compModel: "Base + annual bonus (15-25%) + RSUs at public companies"
+  revPerPatientVisit: "N/A — salaried"
+  dailyWorkflow: "Vendor negotiations, inventory planning, logistics coordination, cost analysis, cross-functional meetings with manufacturing/sales, crisis management when shipments go wrong"
+  patientVolume: "Oversee full supply network — dozens of suppliers, multiple warehouses"
+  supportStaffModel: "Supply chain analysts, procurement specialists, logistics coordinators, warehouse managers"
+  geographicDemandNotes: "Manufacturing hubs (Midwest, Southeast), port cities, major corporate HQs"
+  telehealthPotential: 5
+  genderDistribution: "~30% women"
+
+- name: "Operations Director"
+  group: operations_supply
+  residencyYears: 2
+  annualSpots: 15000
+  startSalary: 95
+  midSalary: 155
+  peakSalary: 280
+  typicalPeak: 200
+  partTimeFlex: 3
+  procedureMix: 4
+  callSchedule: 5
+  adminBurden: 7
+  hoursWeek: 50
+  burnout: 28
+  partTimeFeasibility: 3
+  vacation: 4
+  careerLongevity: 8
+  malpracticeFreq: 10
+  malpracticeCost: 1
+  geographicFlex: 5
+  automationRisk: 4
+  handsOnInsulation: 4
+  satisfaction: 68
+  chooseAgain: 63
+  intellectualStim: 6
+  varietyRepetition: 6
+  patientImpact: 3
+  physicalToll: 7
+  emotionalToll: 4
+  malpracticeLiability: 10
+  injuryCareerRisk: 9
+  aiRiskNow: 3
+  aiRiskMedium: 4
+  aiRiskLong: 5
+  aiNarrative: "AI can optimize processes, predict equipment failures, and automate scheduling, which makes operations run smoother. But operations leaders manage people, handle exceptions, and make judgment calls that AI can't. The job becomes less about tracking and more about leading."
+  fellowshipOptions: "Six Sigma Black Belt, PMP, Lean certifications"
+  compModel: "Base + annual bonus (15-25%); manufacturing firms may include profit-sharing"
+  revPerPatientVisit: "N/A — salaried"
+  dailyWorkflow: "Team standups, process improvement projects, budgeting, KPI dashboards, cross-department coordination, facility walk-throughs, vendor meetings"
+  patientVolume: "Manages 50-500+ person operations depending on company size"
+  supportStaffModel: "Operations managers, shift supervisors, process engineers, HR business partners"
+  geographicDemandNotes: "Everywhere — every company has operations. Manufacturing roles skew Midwest/Southeast"
+  telehealthPotential: 4
+  genderDistribution: "~35% women"
+
+- name: "General Manager"
+  group: operations_supply
+  residencyYears: 2
+  annualSpots: 20000
+  startSalary: 90
+  midSalary: 150
+  peakSalary: 300
+  typicalPeak: 200
+  partTimeFlex: 3
+  procedureMix: 3
+  callSchedule: 5
+  adminBurden: 7
+  hoursWeek: 52
+  burnout: 32
+  partTimeFeasibility: 3
+  vacation: 4
+  careerLongevity: 8
+  malpracticeFreq: 10
+  malpracticeCost: 1
+  geographicFlex: 6
+  automationRisk: 3
+  handsOnInsulation: 5
+  satisfaction: 70
+  chooseAgain: 66
+  intellectualStim: 7
+  varietyRepetition: 8
+  patientImpact: 4
+  physicalToll: 7
+  emotionalToll: 5
+  malpracticeLiability: 10
+  injuryCareerRisk: 9
+  aiRiskNow: 2
+  aiRiskMedium: 3
+  aiRiskLong: 4
+  aiNarrative: "General managers are the ultimate generalists — they handle people, money, operations, and strategy all at once. AI can help with each piece, but the job of integrating everything and leading a business unit is deeply human. This is one of the safer MBA paths from an AI perspective."
+  fellowshipOptions: "Executive education programs; industry-specific certifications"
+  compModel: "Base + bonus (20-40%) tied to business unit P&L performance; equity at larger companies"
+  revPerPatientVisit: "N/A — salaried with P&L responsibility"
+  dailyWorkflow: "P&L review, team leadership meetings, strategic planning, customer escalations, hiring decisions, budget management, cross-functional problem-solving"
+  patientVolume: "Full business unit — could be $10M to $500M+ in revenue"
+  supportStaffModel: "Direct reports across all functions: finance, ops, sales, marketing, HR"
+  geographicDemandNotes: "Anywhere a company has a business unit — spread widely across US"
+  telehealthPotential: 5
+  genderDistribution: "~32% women"
+
+# === PEOPLE & CULTURE (1) ===
+
+- name: "Non-Profit Executive Director"
+  group: people_culture
+  residencyYears: 2
+  annualSpots: 8000
+  startSalary: 65
+  midSalary: 100
+  peakSalary: 180
+  typicalPeak: 120
+  partTimeFlex: 3
+  procedureMix: 3
+  callSchedule: 6
+  adminBurden: 8
+  hoursWeek: 50
+  burnout: 38
+  partTimeFeasibility: 3
+  vacation: 4
+  careerLongevity: 8
+  malpracticeFreq: 10
+  malpracticeCost: 1
+  geographicFlex: 6
+  automationRisk: 3
+  handsOnInsulation: 5
+  satisfaction: 78
+  chooseAgain: 75
+  intellectualStim: 7
+  varietyRepetition: 8
+  patientImpact: 9
+  physicalToll: 7
+  emotionalToll: 6
+  malpracticeLiability: 10
+  injuryCareerRisk: 9
+  aiRiskNow: 2
+  aiRiskMedium: 3
+  aiRiskLong: 3
+  aiNarrative: "Non-profit work is all about people — fundraising, community building, advocacy, and inspiring donors and volunteers. AI can help with grant writing and data, but the heart of this job is human connection and mission-driven leadership. Very AI-resilient."
+  fellowshipOptions: "CFRE (Certified Fund Raising Executive), non-profit management certificates"
+  compModel: "Base salary; some include housing/car allowance; no bonuses at most orgs (optics)"
+  revPerPatientVisit: "N/A — fundraising/grant based"
+  dailyWorkflow: "Board meetings, fundraising calls, program oversight, grant applications, community events, staff management, budget reviews, advocacy and public speaking"
+  patientVolume: "Organization-wide: dozens of programs, hundreds to thousands of beneficiaries"
+  supportStaffModel: "Small staff (5-50), heavy reliance on volunteers, part-time workers, and board members"
+  geographicDemandNotes: "DC (policy orgs), NYC (foundations), but every city has non-profits. Rural areas especially need leaders"
+  telehealthPotential: 5
+  genderDistribution: "~60% women"
+
+# === ENTREPRENEURSHIP (4) ===
+
+- name: "Startup Founder / CEO"
+  group: entrepreneurship
+  residencyYears: 2
+  annualSpots: 50000
+  startSalary: 50
+  midSalary: 120
+  peakSalary: 500
+  typicalPeak: 150
+  partTimeFlex: 2
+  procedureMix: 4
+  callSchedule: 2
+  adminBurden: 8
+  hoursWeek: 65
+  burnout: 50
+  partTimeFeasibility: 1
+  vacation: 2
+  careerLongevity: 6
+  malpracticeFreq: 9
+  malpracticeCost: 2
+  geographicFlex: 6
+  automationRisk: 2
+  handsOnInsulation: 6
+  satisfaction: 72
+  chooseAgain: 70
+  intellectualStim: 9
+  varietyRepetition: 9
+  patientImpact: 6
+  physicalToll: 5
+  emotionalToll: 8
+  malpracticeLiability: 9
+  injuryCareerRisk: 9
+  aiRiskNow: 2
+  aiRiskMedium: 2
+  aiRiskLong: 3
+  aiNarrative: "AI is actually a superpower for founders — one person can now do the work of a small team using AI tools for coding, design, marketing, and finance. But founding a company is also about vision, resilience, and convincing people to follow you, which is pure human stuff. Huge variance in outcomes though."
+  fellowshipOptions: "Y Combinator, Techstars, or other accelerators; no formal credentials needed"
+  compModel: "Salary + equity (potentially massive or worthless); early-stage founders often take $0-80K salary"
+  revPerPatientVisit: "N/A — company revenue (if any)"
+  dailyWorkflow: "Product decisions, fundraising pitches, hiring, customer calls, putting out fires, strategy pivots, investor updates — every day is different"
+  patientVolume: "One company, all-consuming"
+  supportStaffModel: "Co-founders, tiny early team (2-10 people), advisors, investors"
+  geographicDemandNotes: "SF/Bay Area still #1; NYC, Austin, Miami, remote-first becoming common"
+  telehealthPotential: 7
+  genderDistribution: "~20% women founders (growing)"
+
+- name: "Real Estate Developer"
+  group: entrepreneurship
+  residencyYears: 2
+  annualSpots: 8000
+  startSalary: 80
+  midSalary: 160
+  peakSalary: 500
+  typicalPeak: 220
+  partTimeFlex: 3
+  procedureMix: 5
+  callSchedule: 4
+  adminBurden: 7
+  hoursWeek: 55
+  burnout: 30
+  partTimeFeasibility: 3
+  vacation: 3
+  careerLongevity: 8
+  malpracticeFreq: 8
+  malpracticeCost: 3
+  geographicFlex: 4
+  automationRisk: 3
+  handsOnInsulation: 6
+  satisfaction: 70
+  chooseAgain: 68
+  intellectualStim: 7
+  varietyRepetition: 7
+  patientImpact: 5
+  physicalToll: 6
+  emotionalToll: 5
+  malpracticeLiability: 8
+  injuryCareerRisk: 8
+  aiRiskNow: 2
+  aiRiskMedium: 3
+  aiRiskLong: 3
+  aiNarrative: "AI can help with market analysis, zoning research, and financial modeling for deals, but real estate development is physical — you have to walk sites, negotiate with city officials, manage contractors, and deal with neighbors. The tangible nature of the work makes it very AI-resistant."
+  fellowshipOptions: "CCIM, CPM, real estate license; optional MRED degree"
+  compModel: "Salary + deal-based profits; developers often invest own capital for 20-30% equity returns"
+  revPerPatientVisit: "N/A — project profit based ($500K-$50M+ per project)"
+  dailyWorkflow: "Site visits, zoning meetings, investor calls, contractor management, financial underwriting, lease negotiations, construction oversight"
+  patientVolume: "2-5 active projects in various stages (acquisition, construction, lease-up)"
+  supportStaffModel: "Project managers, architects, contractors, lawyers, lenders, property managers"
+  geographicDemandNotes: "Sunbelt growth markets (Austin, Nashville, Phoenix), plus NYC, LA, Miami"
+  telehealthPotential: 3
+  genderDistribution: "~25% women"
+
+- name: "Healthcare Administrator"
+  group: entrepreneurship
+  residencyYears: 2
+  annualSpots: 12000
+  startSalary: 75
+  midSalary: 120
+  peakSalary: 220
+  typicalPeak: 150
+  partTimeFlex: 3
+  procedureMix: 3
+  callSchedule: 5
+  adminBurden: 8
+  hoursWeek: 50
+  burnout: 35
+  partTimeFeasibility: 3
+  vacation: 4
+  careerLongevity: 8
+  malpracticeFreq: 8
+  malpracticeCost: 2
+  geographicFlex: 7
+  automationRisk: 4
+  handsOnInsulation: 4
+  satisfaction: 65
+  chooseAgain: 60
+  intellectualStim: 6
+  varietyRepetition: 6
+  patientImpact: 7
+  physicalToll: 8
+  emotionalToll: 5
+  malpracticeLiability: 8
+  injuryCareerRisk: 9
+  aiRiskNow: 3
+  aiRiskMedium: 4
+  aiRiskLong: 5
+  aiNarrative: "AI is already helping hospitals with scheduling, billing, and patient flow optimization. Healthcare admins who embrace these tools will be more effective, but the job also involves managing staff, navigating regulations, and making ethical decisions that AI can't handle alone."
+  fellowshipOptions: "MHA dual degree, FACHE (Fellow of ACHE), Lean Healthcare certification"
+  compModel: "Base + annual bonus (10-20%); hospital CEOs may get deferred comp and retention bonuses"
+  revPerPatientVisit: "N/A — salaried (responsible for facility P&L)"
+  dailyWorkflow: "Staff meetings, budget reviews, regulatory compliance, quality metrics, physician relations, board presentations, patient experience initiatives"
+  patientVolume: "Oversees facility serving thousands of patients; manages 100-5,000+ staff"
+  supportStaffModel: "Department heads, compliance officers, finance team, HR, IT, clinical leadership"
+  geographicDemandNotes: "Everywhere — every community has hospitals and clinics. Rural areas have acute shortages"
+  telehealthPotential: 4
+  genderDistribution: "~50% women"

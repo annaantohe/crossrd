@@ -1,0 +1,153 @@
+# config.yaml — business profession family
+
+name: Business
+slug: business
+icon: "\U0001F4BC"
+headline: "Which Business Career Should You Pursue?"
+subtitle: "A Data-Driven Guide"
+
+groups:
+  finance_banking:
+    label: "Finance & Banking"
+    icon: "\U0001F3E6"
+    tagline: "you want to move the money"
+    description: "Investment banking, commercial banking, corporate finance, lending"
+  investing_pe:
+    label: "Investing & Private Equity"
+    icon: "\U0001F4C8"
+    tagline: "you want to pick winners"
+    description: "Private equity, venture capital, portfolio management, equity research"
+  accounting_tax:
+    label: "Accounting & Tax"
+    icon: "\U0001F4CA"
+    tagline: "you want to keep score"
+    description: "Audit, tax, forensic accounting, financial controllership"
+  insurance_risk:
+    label: "Insurance & Risk"
+    icon: "\U0001F6E1\uFE0F"
+    tagline: "you want to manage risk"
+    description: "Underwriting, claims, actuarial science, risk management"
+  consulting_strategy:
+    label: "Consulting & Strategy"
+    icon: "\U0001F9E0"
+    tagline: "you want to solve everyone's problems"
+    description: "Management consulting, strategy, business analysis, product management"
+  marketing_sales:
+    label: "Marketing & Sales"
+    icon: "\U0001F4E3"
+    tagline: "you want to win hearts and deals"
+    description: "Digital marketing, B2B sales, PR, brand management, advertising"
+  operations_supply:
+    label: "Operations & Supply Chain"
+    icon: "\u2699\uFE0F"
+    tagline: "you want to make things run"
+    description: "Supply chain, logistics, procurement, project management"
+  people_culture:
+    label: "People & Culture"
+    icon: "\U0001F91D"
+    tagline: "you want to build great teams"
+    description: "HR, recruiting, training, organizational development"
+  entrepreneurship:
+    label: "Entrepreneurship"
+    icon: "\U0001F680"
+    tagline: "you want to build something of your own"
+    description: "Startups, e-commerce, real estate, small business ownership"
+
+professions:
+  BBA:
+    label: BBA Graduate
+    color: "#2196F3"
+    annualGraduates: 390000
+  MBA:
+    label: MBA Graduate
+    color: "#FF9800"
+    annualGraduates: 120000
+  CPA-CFA:
+    label: CPA/CFA Credential
+    color: "#9C27B0"
+    annualGraduates: 75000
+
+key_overrides:
+  "Management Consultant (MBB)":
+    key: mbb_consultant
+    color: "#0D47A1"
+  "Investment Banking Associate":
+    key: ib_associate
+    color: "#B71C1C"
+  "Private Equity Associate":
+    key: pe_associate
+    color: "#880E4F"
+  "Startup Founder / CEO":
+    key: startup_founder
+    color: "#E65100"
+  "Portfolio Manager":
+    key: portfolio_mgr
+    color: "#1B5E20"
+  "Big 4 Auditor":
+    key: big4_auditor
+    color: "#4A148C"
+
+final_ranking:
+  - rank: 1
+    track: Management Consultant (MBB)
+    key: mbb_consultant
+    note: Best all-around MBA career
+  - rank: 2
+    track: Investment Banking Associate
+    key: ib_associate
+    note: Highest earnings ceiling
+  - rank: 3
+    track: Private Equity Associate
+    key: pe_associate
+    note: Best risk-adjusted compensation
+  - rank: 4
+    track: Portfolio Manager
+    key: portfolio_mgr
+    note: Best for quantitative thinkers
+  - rank: 5
+    track: Startup Founder / CEO
+    key: startup_founder
+    note: Highest upside, highest risk
+  - rank: 6
+    track: Big 4 Auditor
+    key: big4_auditor
+    note: Most reliable path with CPA
+
+decision_tree:
+  q: "Do you want to work with numbers and spreadsheets most of the day?"
+  "yes":
+    q: "Do you care more about building wealth or keeping score?"
+    "yes":
+      q: "Highest possible pay, or steady prestige?"
+      procedural: ib_associate
+      variety: portfolio_mgr
+    "no": big4_auditor
+  "no":
+    q: "What matters most to you?"
+    options:
+      - label: "\U0001F4AA Solving big strategy problems"
+        result: mbb_consultant
+      - label: "\U0001F680 Building something of your own"
+        result: startup_founder
+      - label: "\U0001F4B0 Controlling the deal flow"
+        result: pe_associate
+
+decision_tree_results:
+  mbb_consultant:
+    tagline: "Elite problem-solver"
+    stat: "$100K start \u2022 $500K+ partner \u2022 top MBA required"
+  ib_associate:
+    tagline: "Wall Street dealmaker"
+    stat: "$150K start \u2022 $1M+ MD \u2022 brutal hours"
+  pe_associate:
+    tagline: "Buy and build companies"
+    stat: "$150K start \u2022 $800K+ partner \u2022 carry upside"
+  startup_founder:
+    tagline: "Bet on yourself"
+    stat: "$0-80K start \u2022 uncapped upside \u2022 90% fail rate"
+  portfolio_mgr:
+    tagline: "Beat the market"
+    stat: "$85K start \u2022 $500K+ senior \u2022 CFA required"
+  big4_auditor:
+    tagline: "The trusted scorekeeper"
+    stat: "$65K start \u2022 $200K+ partner \u2022 CPA required"

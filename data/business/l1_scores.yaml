@@ -1,0 +1,380 @@
+# L1 profession-level category scores for business
+professions:
+  BBA:
+    l1_only: {}
+    l1_data_points:
+      1:
+        scores: [8, 8, 7, 7]
+        count: 4
+        average: 7.5
+        labels:
+        - Years of undergrad required (4yr standard)
+        - Test difficulty (SAT/ACT only, no GMAT)
+        - GPA expectations (2.8-3.3 typical)
+        - Extracurricular expectations (internships help but not required)
+        data_point_ids: [2, 4, 5, 6]
+      2:
+        scores: [8, 9]
+        count: 2
+        average: 8.5
+        labels:
+        - Acceptance rate (most business programs accessible)
+        - Career changers welcome? (absolutely, broad field)
+        data_point_ids: [10, 13]
+      3:
+        scores: [8, 8, 6]
+        count: 3
+        average: 7.33
+        labels:
+        - Duration of program (4 years)
+        - Practical experience timing (internships common)
+        - Prestige matters? (somewhat for top finance/consulting)
+        data_point_ids: [16, 18, 23]
+      4:
+        scores: [9, 9]
+        count: 2
+        average: 9.0
+        labels:
+        - Post-grad training (none required, immediate employment)
+        - Total years to independent practice (4yr undergrad only)
+        data_point_ids: [24, 32]
+      5:
+        scores: [7, 7, 8, 8, 9]
+        count: 5
+        average: 7.8
+        labels:
+        - Average tuition ($20K/yr state school business)
+        - Average debt at graduation ($30K avg)
+        - Debt-to-income ratio (good, earning at 22)
+        - Time to break even (fast, 1-2 years)
+        - Opportunity cost (minimal, earning at 22)
+        data_point_ids: [33, 34, 35, 38, 40]
+      6:
+        scores: [7, 8, 7, 8, 8, 5]
+        count: 6
+        average: 7.17
+        labels:
+        - Professional scope (broad, most roles open)
+        - Scope variation by state (minimal licensing)
+        - Independent practice (easy to freelance/consult)
+        - No signing authority needed
+        - Ability to specialize/pivot (very flexible)
+        - Competition from adjacent fields (moderate)
+        data_point_ids: [41, 42, 43, 44, 45, 46]
+      7:
+        scores: [5, 6]
+        count: 2
+        average: 5.5
+        labels:
+        - Business ownership potential (moderate at BBA level)
+        - Industry compensation trends (steady growth)
+        data_point_ids: [52, 53]
+      8:
+        scores: [7]
+        count: 1
+        average: 7.0
+        labels:
+        - Profession-level proxy score
+        data_point_ids: [null]
+      9:
+        scores: [7]
+        count: 1
+        average: 7.0
+        labels:
+        - Profession-level proxy score (generally good WLB)
+        data_point_ids: [null]
+      10:
+        scores: [8, 7, 6, 5]
+        count: 4
+        average: 6.5
+        labels:
+        - Current job market (strong demand for business grads)
+        - Projected demand 10-20 years
+        - Impact of demographic changes
+        - Vulnerability to offshoring (moderate for some roles)
+        data_point_ids: [71, 72, 74, 75]
+      11:
+        scores: [5, 5, 5]
+        count: 3
+        average: 5.0
+        labels:
+        - AI impact on business work (mixed)
+        - AI as tool vs replacement
+        - Timeline of disruption
+        data_point_ids: [77, 79, 80]
+      12:
+        scores: [7]
+        count: 1
+        average: 7.0
+        labels:
+        - Ease of pivoting to adjacent careers (very flexible)
+        data_point_ids: [91]
+      13:
+        scores: [5, 5, 5, 6]
+        count: 4
+        average: 5.25
+        labels:
+        - Pay equity (narrowing gap)
+        - Parental leave norms (improving)
+        - Culture (varies by industry)
+        - Welcoming to non-traditional? (generally yes)
+        data_point_ids: [95, 96, 98, 100]
+      14:
+        scores: [9]
+        count: 1
+        average: 9.0
+        labels:
+        - Regulatory burden (minimal for most business roles)
+        data_point_ids: [104]
+  MBA:
+    l1_only: {}
+    l1_data_points:
+      1:
+        scores: [5, 5, 4, 5]
+        count: 4
+        average: 4.75
+        labels:
+        - Years of undergrad required (4yr + 2-5yr work experience)
+        - Test difficulty (GMAT/GRE)
+        - GPA expectations (3.3+ for top programs)
+        - Leadership/extracurricular expectations (high)
+        data_point_ids: [2, 4, 5, 6]
+      2:
+        scores: [4, 6]
+        count: 2
+        average: 5.0
+        labels:
+        - Acceptance rate (very competitive at M7/T15)
+        - Career changers welcome? (yes, that's the point)
+        data_point_ids: [10, 13]
+      3:
+        scores: [7, 7, 3]
+        count: 3
+        average: 5.67
+        labels:
+        - Duration of program (2 years)
+        - Practical experience timing (case studies, summer internships)
+        - Prestige matters? (enormously for MBB/IB)
+        data_point_ids: [16, 18, 23]
+      4:
+        scores: [8, 7]
+        count: 2
+        average: 7.5
+        labels:
+        - Post-grad training (none, work immediately after MBA)
+        - Total years to practice (6-8yr total with work experience)
+        data_point_ids: [24, 32]
+      5:
+        scores: [3, 4, 5, 6, 5]
+        count: 5
+        average: 4.6
+        labels:
+        - Average tuition ($75K/yr at top programs)
+        - Average debt at graduation ($120K avg)
+        - Debt-to-income ratio (manageable with MBA salary jump)
+        - Time to break even (3-5 years)
+        - Opportunity cost (high, 2yr lost earnings of $100K+)
+        data_point_ids: [33, 34, 35, 38, 40]
+      6:
+        scores: [8, 8, 7, 7, 9, 4]
+        count: 6
+        average: 7.17
+        labels:
+        - Professional scope (broad, leadership roles)
+        - Scope variation (global, MBA recognized everywhere)
+        - Independent practice (consulting, PE, startups)
+        - Authority (executive-level)
+        - Ability to specialize/pivot (extremely flexible)
+        - Competition (intense for top roles)
+        data_point_ids: [41, 42, 43, 44, 45, 46]
+      7:
+        scores: [7, 8]
+        count: 2
+        average: 7.5
+        labels:
+        - Business ownership potential (high, entrepreneurship common)
+        - Compensation trends (strong upward trajectory)
+        data_point_ids: [52, 53]
+      8:
+        scores: [6]
+        count: 1
+        average: 6.0
+        labels:
+        - Profession-level proxy score (long hours common)
+        data_point_ids: [null]
+      9:
+        scores: [5]
+        count: 1
+        average: 5.0
+        labels:
+        - Profession-level proxy score (demanding, especially IB/consulting)
+        data_point_ids: [null]
+      10:
+        scores: [7, 7, 5, 4]
+        count: 4
+        average: 5.75
+        labels:
+        - Current job market (strong for top MBAs)
+        - Projected demand
+        - Impact of demographic changes
+        - Vulnerability to offshoring (low for leadership)
+        data_point_ids: [71, 72, 74, 75]
+      11:
+        scores: [5, 6, 5]
+        count: 3
+        average: 5.33
+        labels:
+        - AI impact (moderate, strategy/judgment harder to automate)
+        - AI as tool vs replacement
+        - Timeline of disruption
+        data_point_ids: [77, 79, 80]
+      12:
+        scores: [7]
+        count: 1
+        average: 7.0
+        labels:
+        - Ease of pivoting (MBA is the ultimate pivot degree)
+        data_point_ids: [91]
+      13:
+        scores: [4, 5, 4, 5]
+        count: 4
+        average: 4.5
+        labels:
+        - Pay equity (gap persists in finance)
+        - Parental leave norms (improving)
+        - Culture (old boys club in some areas)
+        - Welcoming to non-traditional? (MBA is diverse)
+        data_point_ids: [95, 96, 98, 100]
+      14:
+        scores: [8]
+        count: 1
+        average: 8.0
+        labels:
+        - Regulatory burden (minimal, no licensing)
+        data_point_ids: [104]
+  CPA-CFA:
+    l1_only: {}
+    l1_data_points:
+      1:
+        scores: [6, 5, 5, 6]
+        count: 4
+        average: 5.5
+        labels:
+        - Years of undergrad required (4yr + 150 credit hours for CPA)
+        - Test difficulty (CPA exam 4 parts, CFA 3 levels — very hard)
+        - GPA expectations (3.0+ typical)
+        - Exam prep expectations (1-3 years of study)
+        data_point_ids: [2, 4, 5, 6]
+      2:
+        scores: [6, 7]
+        count: 2
+        average: 6.5
+        labels:
+        - Pass rate (CPA ~50%/section, CFA ~40%/level)
+        - Career changers welcome? (yes, credential is the gate)
+        data_point_ids: [10, 13]
+      3:
+        scores: [6, 7, 5]
+        count: 3
+        average: 6.0
+        labels:
+        - Duration (1-3yr exam process after bachelor's)
+        - Practical experience timing (work while studying)
+        - Prestige matters? (credential matters more than school)
+        data_point_ids: [16, 18, 23]
+      4:
+        scores: [7, 7]
+        count: 2
+        average: 7.0
+        labels:
+        - Post-grad training (exam period, 1-3yr, but working)
+        - Total years to credential (5-7yr total)
+        data_point_ids: [24, 32]
+      5:
+        scores: [7, 7, 7, 7, 7]
+        count: 5
+        average: 7.0
+        labels:
+        - Average tuition ($25K/yr + exam fees $3K)
+        - Average debt at graduation ($45K avg)
+        - Debt-to-income ratio (good, earning while credentialing)
+        - Time to break even (2-3 years)
+        - Opportunity cost (low, earning during exam prep)
+        data_point_ids: [33, 34, 35, 38, 40]
+      6:
+        scores: [7, 6, 6, 5, 7, 4]
+        count: 6
+        average: 5.83
+        labels:
+        - Professional scope (specialized, credential-gated)
+        - Scope variation by state (CPA reciprocity issues)
+        - Independent practice (CPA firms, solo practice)
+        - Signing authority (CPA has audit sign-off authority)
+        - Ability to specialize (tax, audit, forensic)
+        - Competition (moderate, credential is the barrier)
+        data_point_ids: [41, 42, 43, 44, 45, 46]
+      7:
+        scores: [6, 7]
+        count: 2
+        average: 6.5
+        labels:
+        - Business ownership potential (CPA firms common)
+        - Compensation trends (steady, credential premium)
+        data_point_ids: [52, 53]
+      8:
+        scores: [6]
+        count: 1
+        average: 6.0
+        labels:
+        - Profession-level proxy score
+        data_point_ids: [null]
+      9:
+        scores: [6]
+        count: 1
+        average: 6.0
+        labels:
+        - Profession-level proxy score (busy season is brutal)
+        data_point_ids: [null]
+      10:
+        scores: [8, 7, 6, 7]
+        count: 4
+        average: 7.0
+        labels:
+        - Current job market (strong, always need accountants/analysts)
+        - Projected demand
+        - Impact of demographic changes
+        - Vulnerability to offshoring (low, client-facing)
+        data_point_ids: [71, 72, 74, 75]
+      11:
+        scores: [5, 5, 5]
+        count: 3
+        average: 5.0
+        labels:
+        - AI impact (mixed — routine work at risk, judgment protected)
+        - AI as tool vs replacement
+        - Timeline of disruption
+        data_point_ids: [77, 79, 80]
+      12:
+        scores: [6]
+        count: 1
+        average: 6.0
+        labels:
+        - Ease of pivoting (credential transfers to many roles)
+        data_point_ids: [91]
+      13:
+        scores: [5, 5, 5, 6]
+        count: 4
+        average: 5.25
+        labels:
+        - Pay equity (narrowing)
+        - Parental leave norms (Big 4 improving)
+        - Culture (improving, still male-dominated in finance)
+        - Welcoming to non-traditional? (yes, credential is the gate)
+        data_point_ids: [95, 96, 98, 100]
+      14:
+        scores: [6]
+        count: 1
+        average: 6.0
+        labels:
+        - Regulatory burden (CPA licensing, continuing education, ethics)
+        data_point_ids: [104]
